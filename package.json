@@ -6,16 +6,21 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "seed": "cd scripts && npx ts-node seed-database.ts",
+    "seed:quick": "cd scripts && npx ts-node quick-seed.ts"
   },
   "dependencies": {
     "@rainbow-me/rainbowkit": "^2.2.9",
     "@supabase/auth-helpers-nextjs": "^0.8.7",
     "@supabase/supabase-js": "^2.39.0",
     "@tanstack/react-query": "^5.17.0",
+    "@types/pg": "^8.15.6",
+    "dotenv": "^17.2.3",
     "ethers": "^6.9.0",
     "iron-session": "^8.0.4",
     "next": "^15.0.0",
+    "pg": "^8.16.3",
     "react": "^18.3.0",
     "react-dom": "^18.3.0",
     "react-hot-toast": "^2.6.0",
@@ -33,6 +38,7 @@
     "eslint-config-next": "^15.0.0",
     "postcss": "^8",
     "tailwindcss": "^3.4.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5"
   }
 }

@@ -121,5 +121,5 @@ export function generateTransactionId(operationType: string, ...params: string[]
 
 // Helper to clean up old transactions on app load
 if (typeof window !== 'undefined') {
-  useTransactionStore.getState().clearOldTransactions()
+  useTransactionStore.getState().clearOldTransactions(7 * 24 * 60 * 60 * 1000)
 }

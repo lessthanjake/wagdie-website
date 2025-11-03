@@ -5,7 +5,7 @@
 
 'use client'
 
-import { useState, useEffect, useCallback } from 'react'
+import { useState, useEffect, useCallback, Suspense } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
 import { useQuery } from '@tanstack/react-query'
 import { BannerHeader } from '@/components/shared/BannerHeader'
@@ -14,7 +14,7 @@ import { CustomTweet } from '@/components/lore/CustomTweet'
 import { InfiniteScroll } from '@/components/shared/InfiniteScroll'
 import type { Tweet, TweetFilterTab, SortOrder } from '@/types/tweet'
 
-export default function LorePage() {
+function LorePageContent() {
   const searchParams = useSearchParams()
   const router = useRouter()
 
@@ -120,7 +120,7 @@ export default function LorePage() {
     },
     refetchInterval: false, // Disabled auto-refresh to prevent infinite loading
     staleTime: 5 * 60 * 1000, // Consider data fresh for 5 minutes
-    cacheTime: 10 * 60 * 1000, // Cache for 10 minutes
+    gcTime: 10 * 60 * 1000, // Cache for 10 minutes
   })
 
   // Reset tweets when filters change
@@ -155,8 +155,8 @@ export default function LorePage() {
           }
 
           // Subsequent loads - append tweets, ensuring no duplicates
-          const existingIds = new Set(prev.map(tweet => tweet.tweet_id))
-          const uniqueNewTweets = data.tweets.filter(tweet => !existingIds.has(tweet.tweet_id))
+          const existingIds = new Set(prev.map((tweet: Tweet) => tweet.tweet_id))
+          const uniqueNewTweets = data.tweets.filter((tweet: Tweet) => !existingIds.has(tweet.tweet_id))
           return [...prev, ...uniqueNewTweets]
         })
       }
@@ -258,7 +258,7 @@ export default function LorePage() {
                   📚 Maximum tweets reached
                 </p>
                 <p className="text-sm text-mist">
-                  You've loaded {tweets.length} tweets. Use the filters above to explore different content or refresh to start over.
+                  You&apos;ve loaded {tweets.length} tweets. Use the filters above to explore different content or refresh to start over.
                 </p>
                 <button
                   onClick={() => window.location.reload()}
@@ -272,5 +272,13 @@ export default function LorePage() {
         )}
       </div>
     </div>
+  )
+}
+
+export default function LorePage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <LorePageContent />
+    </Suspense>
   )
 }

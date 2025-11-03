@@ -67,7 +67,7 @@ export default function SpreadPage() {
 
   // Open infection modal for targeted infection
   const handleInfect = async (tokenId: number) => {
-    toast.info('Use the character detail page to infect specific characters')
+    toast('Use the character detail page to infect specific characters')
   }
 
   if (!isConnected) {
