@@ -213,7 +213,7 @@ export class StakingService extends BaseBlockchainService {
         address: this.contractAddresses.wagdieWorld,
         abi: wagdieWorldABI,
         functionName: 'stakeWagdies',
-        args: [params],
+        args: [params as any],
         account,
       })
 
@@ -243,7 +243,7 @@ export class StakingService extends BaseBlockchainService {
         address: this.contractAddresses.wagdieWorld,
         abi: wagdieWorldABI,
         functionName: 'unstakeWagdies',
-        args: [params],
+        args: [params as any],
         account,
       })
 
@@ -273,7 +273,7 @@ export class StakingService extends BaseBlockchainService {
         address: this.contractAddresses.wagdieWorld,
         abi: wagdieWorldABI,
         functionName: 'changeWagdieLocations',
-        args: [params],
+        args: [params as any],
         account,
       })
 

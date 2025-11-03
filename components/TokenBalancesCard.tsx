@@ -76,7 +76,7 @@ export function TokenBalancesCard({ className = '' }: TokenBalancesCardProps) {
           {/* No balances message */}
           {!hasAnyBalance(balances) && (
             <p className="pt-2 text-center text-sm text-gray-500">
-              You don't have any tokens yet
+              You don&apos;t have any tokens yet
             </p>
           )}
         </div>

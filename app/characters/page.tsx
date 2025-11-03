@@ -6,7 +6,7 @@
 
 'use client'
 
-import { useCallback } from 'react'
+import { useCallback, Suspense } from 'react'
 import { useSearchParams, useRouter } from 'next/navigation'
 import { BannerHeader } from '@/components/shared/BannerHeader'
 import { TokenFilterBar } from '@/components/characters/TokenFilterBar'
@@ -15,7 +15,7 @@ import { useCharacters } from '@/hooks/useCharacters'
 import { useWallet } from '@/hooks/useWallet'
 import type { CharacterFilterTab, SortOrder } from '@/types/character'
 
-export default function CharactersPage() {
+function CharactersPageContent() {
   const searchParams = useSearchParams()
   const router = useRouter()
   const { address } = useWallet()
@@ -100,5 +100,13 @@ export default function CharactersPage() {
         />
       </div>
     </div>
+  )
+}
+
+export default function CharactersPage() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <CharactersPageContent />
+    </Suspense>
   )
 }
