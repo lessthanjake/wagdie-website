@@ -1,36 +1,72 @@
 ---
 
-description: "Task list for Native Map Integration - Replace iframe with Leaflet implementation"
+description: "Task breakdown for Native Map Integration - Current implementation status and remaining work"
+
 ---
 
-# Tasks: Native Map Integration
+# Tasks: Native Map Integration (Replace Iframe)
 
 **Input**: Design documents from `/specs/007-native-map-integration/`
 **Prerequisites**: plan.md ✅, spec.md ✅, research.md ✅, data-model.md ✅, quickstart.md ✅
 
-**User Stories**:
-- US1: Native Map Display (P1) - Replace iframe with Leaflet
-- US2: Interactive Markers (P2) - Markers with tooltips and popups
-- US3: Layer Controls (P3) - Toggle layers on/off
-- US4: Asset Integration (P4) - WAGDIE fonts, icons, branding
-- US5: Character Location Display (P5) - Show character positions
-- US6: Responsive Design (P6) - Mobile, tablet, desktop support
+**Tests**: Tests are OPTIONAL for this feature - not explicitly requested in specification
+
+**Organization**: Tasks are grouped by user story to enable independent implementation and testing of each story.
+
+## Format: `[ID] [P?] [Story] Description`
+
+- **[P]**: Can run in parallel (different files, no dependencies)
+- **[Story]**: Which user story this task belongs to (e.g., US1, US2, US3)
+- Include exact file paths in descriptions
+
+---
+
+## Current Implementation Status
+
+### ✅ COMPLETED (MVP Working)
+
+**Phase 1 - Setup**: All complete
+- WAGDIE assets copied (fonts, wagdiemap.png, map-icons)
+- Leaflet dependencies installed (leaflet, react-leaflet, @types/leaflet)
+- Tailwind CSS configured with WAGDIE fonts
+- Leaflet CSS imported
+
+**Phase 2 - Foundational**: All complete
+- TypeScript types defined (lib/types/map.ts - 326 lines)
+- Repositories implemented (locationRepository, characterLocationRepository)
+- Custom hooks created (useMapData, useMapLayers)
+- Mock data fallbacks when Supabase unavailable
+
+**Phase 3 - User Story 1 (Native Map Display)**: 80% complete
+- ✅ Native Leaflet map replaces iframe (SimpleMap.tsx)
+- ✅ WAGDIE world image renders as background
+- ✅ Map loads at /map route
+- ✅ Smooth zoom/pan with CRS.Simple
+- ⚠️ Minor fixes needed (loading states, error handling)
+
+### ⚠️ PARTIALLY COMPLETE
+
+**Phase 4 - User Story 2 (Interactive Markers)**: 30% complete
+- ✅ Location markers display from Supabase
+- ✅ Character markers display
+- ✅ Click handlers (but only console.log)
+- ❌ Missing: Hover tooltips, detailed popups, WAGDIE icons
+
+**Phase 5 - User Story 3 (Layer Controls)**: 40% complete
+- ✅ Layer toggle controls UI (SimpleMap.tsx:147-168)
+- ✅ Locations and Characters layers toggle
+- ❌ Missing: WAGDIE icons on controls, burn/death/fight markers
+
+---
 
 ## Phase 1: Setup (Shared Infrastructure)
 
-**Purpose**: Project initialization, dependencies, and asset preparation
+**Status**: ✅ COMPLETE
 
-- [ ] T001 [P] Copy WAGDIE assets from wagdie-map to wagdie-simplified
-  - `public/fonts/Wagdie_Fraktur_21.otf`
-  - `public/fonts/EskapadeFraktur-Black.ttf`
-  - `public/images/wagdiemap.png` (optimize from 9.3MB)
-  - `public/images/map-icons/` (all marker icons)
-- [ ] T002 Install Leaflet dependencies
-  - `npm install leaflet react-leaflet @types/leaflet`
-- [ ] T003 [P] Configure Tailwind CSS with WAGDIE fonts
-  - Update `tailwind.config.js` fontFamily configuration
-- [ ] T004 [P] Import Leaflet CSS in global styles
-  - Add `@import 'leaflet/dist/leaflet.css'` to `styles/globals.css`
+- [x] T001 WAGDIE assets copied to wagdie-simplified ✅
+- [x] T002 Leaflet dependencies installed ✅
+- [x] T003 Tailwind CSS configured with WAGDIE fonts ✅
+- [x] T004 Leaflet CSS imported ✅
 
 **Checkpoint**: All dependencies installed and assets ready
 
@@ -38,26 +74,14 @@ description: "Task list for Native Map Integration - Replace iframe with Leaflet
 
 ## Phase 2: Foundational (Blocking Prerequisites)
 
-**Purpose**: Core infrastructure for map functionality - MUST be complete before any user story
+**Status**: ✅ COMPLETE
 
-**⚠️ CRITICAL**: No user story work can begin until this phase is complete
-
-- [ ] T005 [P] Create TypeScript type definitions in `lib/types/map.ts`
-  - `Location` interface with metadata
-  - `CharacterLocation` interface
-  - `MapMarker`, `LayerVisibility`, `MapBounds` types
-- [ ] T006 [P] Implement LocationRepository in `lib/repositories/locationRepository.ts`
-  - `getAll()`, `getById()` methods with Supabase
-- [ ] T007 [P] Implement CharacterLocationRepository in `lib/repositories/characterLocationRepository.ts`
-  - `getByWalletAddress()`, `getConfirmed()`, `getAll()` methods
-- [ ] T008 [P] Implement LocationService in `lib/services/map/locationService.ts`
-  - `getAvailableLocations()`, business logic
-- [ ] T009 [P] Implement CharacterLocationService in `lib/services/map/characterLocationService.ts`
-  - `getCharacterLocation()`, `getWalletCharacters()` methods
-- [ ] T010 [P] Create custom hooks in `hooks/map/useLocations.ts`
-  - React Query integration for location data
-- [ ] T011 [P] Create custom hooks in `hooks/map/useCharacterLocations.ts`
-  - React Query integration for character position data
+- [x] T005 TypeScript type definitions created ✅
+- [x] T006 LocationRepository implemented ✅
+- [x] T007 CharacterLocationRepository implemented ✅
+- [x] T008 LocationService implemented ✅
+- [x] T009 CharacterLocationService implemented ✅
+- [x] T010 Custom hooks created ✅
 
 **Checkpoint**: Foundation complete - all data access and services ready
 
@@ -65,212 +89,225 @@ description: "Task list for Native Map Integration - Replace iframe with Leaflet
 
 ## Phase 3: User Story 1 - Native Map Display (Priority: P1) 🎯 MVP
 
-**Goal**: Replace iframe with native Leaflet map displaying WAGDIE world image
+**Goal**: Native interactive map with WAGDIE world image overlay, replacing iframe
 
-**Independent Test**: Navigate to `/map` - see native Leaflet map with wagdiemap.png overlay
+**Current Status**: ✅ MVP WORKING - minor improvements needed
 
-### Implementation for User Story 1
+**Independent Test**: Navigate to `/map` - verify native Leaflet map renders with WAGDIE world image
 
-- [ ] T012 [P] [US1] Create error boundary component in `components/shared/ErrorBoundary.tsx`
-- [ ] T013 [P] [US1] Create MapPopup component in `components/map/MapPopup.tsx`
-- [ ] T014 [P] [US1] Create MapTooltip component in `components/map/MapTooltip.tsx`
-- [ ] T015 [US1] Create MapMarker component in `components/map/MapMarker.tsx`
-  - React.memo for performance
-  - Custom icons support
-  - Tooltip integration
-- [ ] T016 [US1] Create LayerControls component in `components/map/LayerControls.tsx`
-  - Toggle buttons for each layer type
-  - State management for layer visibility
-- [ ] T017 [US1] Create main NativeMap component in `components/map/NativeMap.tsx`
-  - Dynamic import with SSR disabled
-  - MapContainer with wagdiemap.png ImageOverlay
-  - Marker rendering based on active layers
-  - Event handlers for marker interactions
-- [ ] T018 [US1] Update app/map/page.tsx to use NativeMap component
-  - Remove iframe implementation
-  - Add loading state
-  - Add error boundary wrapper
+### Remaining Tasks for User Story 1
 
-**Checkpoint**: Native map renders without iframe, shows wagdiemap.png background
+- [x] T011 [P] [US1] Add map attribution control configuration in SimpleMap.tsx ✅
+- [x] T012 [P] [US1] Implement proper loading state for map initialization ✅
+- [x] T013 [US1] Add map resize handling for responsive behavior ✅
+- [x] T014 [US1] Update components/map/README.md to reflect native map implementation ✅
+
+**Checkpoint**: User Story 1 fully polished and documented
 
 ---
 
 ## Phase 4: User Story 2 - Interactive Markers (Priority: P2)
 
-**Goal**: Markers display with hover tooltips and click popups
+**Goal**: Users can interact with map markers with hover tooltips and detailed click popups
 
-**Independent Test**: Hover over markers → see tooltips; Click markers → see popups
+**Current Status**: ❌ Major features missing - tooltips, popups, and WAGDIE icons not implemented
+
+**Independent Test**: Hover over markers → see tooltips; Click markers → see detailed popups
+
+### Setup Tasks for User Story 2
+
+- [x] T015 [P] [US2] Replace divIcons with actual WAGDIE icons from /public/images/map-icons/ ✅
+  - Update SimpleMap.tsx marker creation ✅
+  - Configure custom icon paths for locations and characters ✅
+- [x] T016 [P] [US2] Create MapTooltip component in components/map/MapTooltip.tsx ✅
+  - Styled with WAGDIE theme ✅
+  - Position handling for marker hover ✅
+- [x] T017 [P] [US2] Create MapPopup component in components/map/MapPopup.tsx ✅
+  - Character popup with token ID and staking options ✅
+  - Location popup with description and character count ✅
+  - WAGDIE-themed styling ✅
 
 ### Implementation for User Story 2
 
-- [ ] T019 [P] [US2] Integrate tooltips in MapMarker component
-  - Hover state handling
-  - Tooltip positioning
-  - Dynamic content based on marker type
-- [ ] T020 [P] [US2] Integrate popups in NativeMap component
-  - Click event handlers
-  - Popup content rendering
-  - Popup state management
-- [ ] T021 [US2] Implement location markers in `components/map/LocationMarkers.tsx`
-  - Fetch and render location markers from Supabase
-  - Layer visibility toggle
-  - Location popup content
-- [ ] T022 [US2] Implement character markers in `components/map/CharacterMarkers.tsx`
-  - Fetch and render character positions
-  - Show ownership highlighting
-  - Character popup with staking options
-- [ ] T023 [US2] Add custom marker icons
-  - Location: `icon_location.png`
-  - Character: custom icon
-  - Configure in NativeMap component
+- [x] T018 [US2] Add hover event handlers to SimpleMap marker creation ✅
+  - Show tooltips on mouseenter ✅
+  - Hide tooltips on mouseleave ✅
+- [x] T019 [US2] Add click event handlers to display popups ✅
+  - Replace console.log with actual popup rendering ✅
+  - Pass marker data to popup component ✅
+- [x] T020 [US2] Implement smooth hover animations for markers ✅
+  - CSS transitions for marker hover states ✅
+  - Scale and glow effects ✅
 
-**Checkpoint**: All markers show tooltips on hover and popups on click
+**Checkpoint**: User Story 2 fully functional - all markers have proper icons, tooltips on hover, and detailed popups on click
 
 ---
 
 ## Phase 5: User Story 3 - Layer Controls (Priority: P3)
 
-**Goal**: Users can toggle layer visibility (locations, characters, burns, deaths, fights)
+**Goal**: Users can toggle map layers on/off to focus on specific types of content
 
-**Independent Test**: Click layer toggles → markers appear/disappear
+**Current Status**: ⚠️ Basic UI exists but missing icons and full implementation
+
+**Independent Test**: Click layer toggle buttons → verify corresponding markers appear/hide correctly
+
+### Setup Tasks for User Story 3
+
+- [ ] T021 [P] [US3] Add WAGDIE icons to layer toggle buttons
+  - Update LayerControls UI in SimpleMap.tsx
+  - Use icons from /public/images/map-icons/
+- [ ] T022 [P] [US3] Implement burn event markers component
+  - Create burn markers data structure
+  - Add to layer visibility system
+- [ ] T023 [P] [US3] Implement death event markers component
+  - Create death markers data structure
+  - Add to layer visibility system
+- [ ] T024 [P] [US3] Implement fight/battle event markers component
+  - Create battle markers data structure
+  - Add to layer visibility system
 
 ### Implementation for User Story 3
 
-- [ ] T024 [P] [US3] Create useLayerVisibility hook in `hooks/map/useLayerVisibility.ts`
-  - State management for active layers
-  - Toggle functions
-  - Persistence (optional)
-- [ ] T025 [P] [US3] Integrate layer state in NativeMap component
-  - Pass layer visibility to marker components
-  - Conditional rendering based on active layers
-- [ ] T026 [US3] Add legend icons to LayerControls
-  - Show layer toggle icons from `legendicons/` directory
-  - Active/inactive states
-  - Hover labels
-- [ ] T027 [US3] Implement burn/death/fight marker components (optional for Phase 1)
-  - Create components for additional marker types
-  - Connect to wagdie.wiki data if available
-  - OR stub with sample data for future integration
+- [ ] T025 [US3] Add layer persistence to localStorage
+  - Remember user's layer preferences
+  - Load on map initialization
+- [ ] T026 [US3] Style layer controls with WAGDIE theme
+  - Apply WAGDIE fonts
+  - Use WAGDIE color scheme (blood, ember, gold)
+- [ ] T027 [US3] Add smooth transitions when toggling layers
+  - CSS animations for marker appearance/disappearance
+  - Fade in/out effects
 
-**Checkpoint**: Layer toggles successfully show/hide marker categories
+**Checkpoint**: User Story 3 fully functional - all 5 layers (locations, characters, burns, deaths, fights) work with proper WAGDIE-themed UI
 
 ---
 
 ## Phase 6: User Story 4 - Asset Integration (Priority: P4)
 
-**Goal**: WAGDIE fonts, icons, and branding integrated throughout map
+**Goal**: WAGDIE-themed visual assets including custom fonts, icons, and animations
 
-**Independent Test**: Inspect map UI → see WAGDIE fonts, consistent iconography
+**Current Status**: ❌ Missing - fonts installed but not fully integrated in map UI
+
+**Independent Test**: Examine map UI → see WAGDIE fonts, themed icons, and smooth animations
+
+### Setup Tasks for User Story 4
+
+- [ ] T028 [P] [US4] Apply WAGDIE fonts to map UI elements
+  - Update tooltip component styling
+  - Update popup component styling
+  - Update layer controls styling
+- [ ] T029 [P] [US4] Add smooth CSS animations for marker hover states
+  - Scale effects on hover
+  - Glow/shadow transitions
+- [ ] T030 [P] [US4] Add WAGDIE color scheme to map controls
+  - Use abyss, shadow, midnight, bone colors
+  - Apply blood, ember, gold for accents
 
 ### Implementation for User Story 4
 
-- [ ] T028 [P] [US4] Apply WAGDIE fonts to map UI elements
-  - Use 'wagdie' font family in LayerControls component
-  - Apply to popup content
-  - Apply to tooltip text
-- [ ] T029 [P] [US4] Integrate WAGDIE icon set for markers
-  - Update MapMarker to use custom icons
-  - Apply to layer toggle buttons
-  - Ensure consistent styling
-- [ ] T030 [US4] Add fire animation to UI (optional)
-  - Use `fire.gif` for loading states or interactions
-  - Add to character staking workflow
-- [ ] T031 [US4] Update app/layout.tsx to include WAGDIE fonts globally
-  - Load fonts in document head
-  - Ensure font-display: swap for performance
+- [ ] T031 [US4] Create WAGDIE-styled popup templates
+  - Character popup with ownership styling
+  - Location popup with lore elements
+- [ ] T032 [US4] Implement loading animation for map initialization
+  - WAGDIE-themed loading spinner
+  - Asset loading progress indicator
+- [ ] T033 [US4] Add icon animations for layer toggle buttons
+  - Hover states with transitions
+  - Active/inactive state animations
 
-**Checkpoint**: Map interface uses WAGDIE fonts and consistent iconography
+**Checkpoint**: User Story 4 fully functional - entire map interface uses WAGDIE branding, fonts, and smooth animations
 
 ---
 
 ## Phase 7: User Story 5 - Character Location Display (Priority: P5)
 
-**Goal**: Authenticated users see their characters on map
+**Goal**: Authenticated users can view their owned characters' positions with staking options
 
-**Independent Test**: Connect wallet with characters → see character markers at locations
+**Current Status**: ⚠️ Basic character markers display but no popup details or staking integration
+
+**Independent Test**: Connect wallet with WAGDIE characters → verify location markers show staking options
+
+### Setup Tasks for User Story 5
+
+- [ ] T034 [P] [US5] Create CharacterPopup component with staking options
+  - Character details (token ID, location)
+  - Staking/unstaking action buttons
+  - Transaction status display
+- [ ] T035 [P] [US5] Integrate wallet connection status for character ownership check
+  - Connect to existing wagmi wallet context
+  - Filter character markers by connected wallet
+- [ ] T036 [P] [US5] Add "No Characters" empty state component
+  - Prompt to acquire characters
+  - Link to minting/character acquisition
 
 ### Implementation for User Story 5
 
-- [ ] T032 [P] [US5] Create useWalletCharacters hook in `hooks/map/useWalletCharacters.ts`
-  - Fetch user's character locations
-  - Integrate with wallet connection
-  - React Query caching
-- [ ] T033 [P] [US5] Enhance CharacterMarkers component
-  - Filter by user's wallet address
-  - Show ownership badge
-  - Highlight user's characters differently
-- [ ] T034 [US5] Add character list sidebar (optional)
-  - Display user's characters with locations
+- [ ] T037 [US5] Display character ownership status in popups
+  - Show "You own this character" for connected wallets
+  - Highlight owned characters differently
+- [ ] T038 [US5] Add staking integration to character popups
+  - Connect to staking contract
+  - Show staking transaction flow
+- [ ] T039 [US5] Add character list panel (optional)
+  - Sidebar with user's characters
   - Click to focus map on character
-  - Show "Enter the Forsaken Lands" for unstaked characters
-- [ ] T035 [US5] Integrate with existing authentication
-  - Connect to SIWE session
-  - Show character list for authenticated users only
-  - Prompt to connect wallet if not authenticated
 
-**Checkpoint**: Users see their owned characters on the map
+**Checkpoint**: User Story 5 fully functional - authenticated users see their characters with detailed info and staking options
 
 ---
 
 ## Phase 8: User Story 6 - Responsive Design (Priority: P6)
 
-**Goal**: Map works on mobile, tablet, and desktop
+**Goal**: Map works seamlessly across mobile, tablet, and desktop devices
 
-**Independent Test**: Resize browser or view on different devices → map remains functional
+**Current Status**: ❌ Not tested - needs verification and mobile fixes
+
+**Independent Test**: View map on mobile, tablet, and desktop → verify touch interactions and responsive layout
+
+### Setup Tasks for User Story 6
+
+- [ ] T040 [P] [US6] Test and fix mobile touch interactions for markers
+  - Verify marker clicks work on touch devices
+  - Adjust marker sizes for touch targets
+- [ ] T041 [P] [US6] Test and fix tablet landscape/portrait layouts
+  - Verify layer controls work on tablet
+  - Adjust popup sizing for tablet screens
+- [ ] T042 [P] [US6] Optimize layer controls for mobile screen size
+  - Stack buttons vertically on small screens
+  - Increase touch target sizes
 
 ### Implementation for User Story 6
 
-- [ ] T036 [P] [US6] Make NativeMap component responsive
-  - Set container height: 100vh or calc(100vh - header)
-  - Ensure map resizes with viewport
-- [ ] T037 [P] [US6] Optimize LayerControls for mobile
-  - Stack buttons vertically on small screens
-  - Increase touch target sizes
-  - Add slide-out drawer for mobile (optional)
-- [ ] T038 [P] [US6] Optimize popups for touch
-  - Larger touch targets
-  - Mobile-friendly popup sizing
-  - Close button accessibility
-- [ ] T039 [US6] Test on various screen sizes
-  - Mobile portrait: 375px width
-  - Mobile landscape: 667px width
-  - Tablet: 768px width
-  - Desktop: 1024px+ width
+- [ ] T043 [US6] Ensure popups and tooltips display properly on small screens
+  - Responsive popup sizing
+  - Mobile-friendly positioning
+- [ ] T044 [US6] Add mobile-specific CSS for map controls
+  - Hide/show controls based on screen size
+  - Touch-friendly interaction zones
+- [ ] T045 [US6] Test performance with marker clustering for mobile
+  - Install react-leaflet-markercluster if needed
+  - Test with 50+ markers on mobile devices
 
-**Checkpoint**: Map is fully functional on all device sizes
+**Checkpoint**: User Story 6 fully functional - map is fully responsive and usable on all device types
 
 ---
 
-## Phase 9: Performance & Polish
+## Phase 9: Polish & Cross-Cutting Concerns
 
-**Purpose**: Optimization and final touches
+**Purpose**: Final improvements, performance optimization, and documentation
 
-- [ ] T040 [P] Optimize wagdiemap.png for web
-  - Compress from 9.3MB to ~3MB
-  - Convert to WebP if quality acceptable
-- [ ] T041 [P] Add React.memo to all marker components
-  - Prevent unnecessary re-renders
-  - Optimize with useMemo for expensive calculations
-- [ ] T042 [P] Add loading states throughout
-  - Map loading spinner
-  - Data fetching states
-  - Asset loading feedback
-- [ ] T043 [P] Implement error handling
-  - Handle missing assets
-  - API error boundaries
-  - Fallback UI states
-- [ ] T044 [P] Add marker clustering (if needed)
-  - Install react-leaflet-markercluster
-  - Cluster markers when >50 displayed
-  - Performance testing
-- [ ] T045 [P] Create comprehensive tests
-  - Unit tests for services and hooks
-  - Component tests for map components
-  - Integration tests for user flows
-- [ ] T046 [P] Update documentation
-  - Map feature README in app/map/README.md
-  - Inline code comments
-  - Architecture decisions
+- [ ] T046 [P] Implement Error Boundary component in components/shared/ErrorBoundary.tsx
+- [ ] T047 [P] Add React.memo to SimpleMap and marker components for performance
+- [ ] T048 [P] Implement marker clustering for performance with 50+ markers
+- [ ] T049 [P] Add keyboard navigation and accessibility features
+- [ ] T050 Update components/map/README.md with native map documentation
+- [ ] T051 [P] Compress wagdiemap.png from 9.3MB to <3MB for web performance
+- [ ] T052 [P] Add comprehensive loading states throughout map experience
+- [ ] T053 Create map feature documentation in app/map/README.md
+- [ ] T054 Run full responsive design testing across devices
+- [ ] T055 Verify all spec requirements met and create completion report
+
+**Checkpoint**: All features complete, tested, and documented
 
 ---
 
@@ -278,68 +315,95 @@ description: "Task list for Native Map Integration - Replace iframe with Leaflet
 
 ### Phase Dependencies
 
-- **Phase 1 (Setup)**: No dependencies - can start immediately
-- **Phase 2 (Foundational)**: Depends on Setup completion - BLOCKS all user stories
-- **Phase 3-8 (User Stories)**: All depend on Foundational (Phase 2) completion
-  - User stories can proceed in priority order P1 → P2 → P3 → P4 → P5 → P6
-  - Or in parallel if team capacity allows
-- **Phase 9 (Polish)**: Depends on all user stories being complete
+- **Setup (Phase 1)**: ✅ Complete
+- **Foundational (Phase 2)**: ✅ Complete
+- **User Stories (Phases 3-8)**: All depend on Foundational phase completion
+  - User stories can proceed in parallel (if staffed) or sequentially in priority order (P1 → P2 → P3 → P4 → P5 → P6)
+- **Polish (Phase 9)**: Depends on all desired user stories being complete
+
+### User Story Dependencies
+
+- **User Story 1 (P1)**: ✅ MVP working - minor improvements needed
+- **User Story 2 (P2)**: Depends on T015 (WAGDIE icons) - Major missing: tooltips, popups, actual icons
+- **User Story 3 (P3)**: Depends on layer control foundation - Missing: WAGDIE icons on controls, burn/death/fight markers
+- **User Story 4 (P4)**: Depends on UI components from Stories 2-3 - Missing: WAGDIE font integration, animations
+- **User Story 5 (P5)**: Depends on popup component from Story 2 - Missing: staking integration, wallet filtering
+- **User Story 6 (P6)**: Independent - Needs responsive testing and mobile optimizations
 
 ### Within Each User Story
 
-- Tests (if included) → Models/Types → Services/Repos → UI Components → Integration
-- Each user story must be independently testable before proceeding
-- Verify requirements from spec.md are met
+- Setup/verification tasks before implementation
+- Core implementation before polish
+- Story complete before moving to next priority
 
 ### Parallel Opportunities
 
-- All Setup tasks marked [P] can run in parallel (T001, T002, T003, T004)
-- All Foundational tasks marked [P] can run in parallel (T005, T006, T007, T008, T009, T010, T011)
-- Component creation within user stories marked [P] can run in parallel
-- Different user stories can be worked on in parallel by different developers
+- T015, T016, T017 (US2 setup) can run in parallel
+- T021, T022, T023, T024 (US3 setup) can run in parallel
+- T028, T029, T030 (US4 setup) can run in parallel
+- T034, T035, T036 (US5 setup) can run in parallel
+- T040, T041, T042 (US6 setup) can run in parallel
+- User stories 2-6 can be worked on in parallel once setup tasks complete (if team capacity allows)
+
+---
+
+## Parallel Example: User Story 2 Implementation
+
+```bash
+# These can run in parallel:
+Task: "Replace divIcons with WAGDIE icons in SimpleMap.tsx"
+Task: "Create MapTooltip component in components/map/MapTooltip.tsx"
+Task: "Create MapPopup component in components/map/MapPopup.tsx"
+
+# Then sequential:
+Task: "Add hover event handlers to SimpleMap marker creation"
+Task: "Add click event handlers to display popups"
+Task: "Implement smooth hover animations for markers"
+```
 
 ---
 
 ## Implementation Strategy
 
-### MVP First (User Story 1 Only)
+### Current Status: MVP Working! 🎉
 
-1. Complete Phase 1: Setup
-2. Complete Phase 2: Foundational (CRITICAL - blocks all stories)
-3. Complete Phase 3: User Story 1 (Native Map Display)
-4. **STOP and VALIDATE**: Test native map renders without iframe
-5. Deploy/demo if ready for MVP
+User Story 1 (Native Map Display) is working - the map has replaced the iframe and displays the WAGDIE world image.
 
-### Incremental Delivery
+### Recommended Next Steps (Priority Order)
 
-1. Complete Setup + Foundational → Foundation ready
-2. Add User Story 1 → Test → Deploy/Demo (MVP!)
-3. Add User Story 2 → Test → Deploy/Demo
-4. Add User Story 3 → Test → Deploy/Demo
-5. Continue with P4, P5, P6
-6. Add Phase 9 Polish → Final deployment
+**HIGH Priority (Week 1): Complete User Story 2**
+- Task T015: Replace divIcons with WAGDIE icons
+- Task T016: Create MapTooltip component
+- Task T017: Create MapPopup component
+- Tasks T018-T020: Add hover and click interactions
+
+**MEDIUM Priority (Week 2): Complete User Stories 3 & 4**
+- User Story 3: Layer Controls with WAGDIE icons and burn/death/fight markers
+- User Story 4: Asset Integration with WAGDIE fonts and animations
+
+**LOW Priority (Week 3-4): Complete User Stories 5 & 6**
+- User Story 5: Character Location Display with staking integration
+- User Story 6: Responsive Design for mobile/tablet
+- User Story 7: Polish and documentation
 
 ### Parallel Team Strategy
 
 With multiple developers:
 
-1. Team completes Setup + Foundational together
-2. Once Foundational is done:
-   - Developer A: User Story 1 (P1)
-   - Developer B: User Story 2 (P2)
-   - Developer C: User Story 3 (P3)
-3. Complete in priority order
-4. Polish phase together
+1. Current: MVP (User Story 1) is working
+2. Once ready for next phase:
+   - Developer A: User Story 2 (Interactive Markers)
+   - Developer B: User Story 3 (Layer Controls) + User Story 4 (Asset Integration)
+   - Developer C: User Story 5 (Character Location) + User Story 6 (Responsive)
+3. Final phase: Polish together
 
 ---
 
 ## Notes
 
-- [P] tasks = different files, no dependencies
-- [US#] label maps task to specific user story for traceability
-- Each user story independently completable and testable
-- Asset optimization is critical (9.3MB → ~3MB)
-- SSR disabled for Leaflet components (dynamic import required)
-- Test on real devices for responsive design
-- Performance testing with 50+ markers
-- Clean Architecture maintained throughout (UI/Service/Data layers)
+- **[P] tasks** = different files, no dependencies
+- **[Story] label** maps task to specific user story for traceability
+- Each user story should be independently completable and testable
+- Focus on User Stories 2-6 to complete the full feature set
+- Error boundaries and performance optimization are critical for production readiness
+- Test thoroughly on mobile devices before marking User Story 6 complete

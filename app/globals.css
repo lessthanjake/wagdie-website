@@ -28,6 +28,59 @@
     content: '';
     @apply absolute bottom-0 left-0 right-0 h-0.5 bg-gold;
   }
+
+  /* Map Tooltip Styles */
+  .custom-tooltip {
+    background: #1a1a1a !important;
+    border: 1px solid #252525 !important;
+    border-radius: 8px !important;
+    padding: 8px 12px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5) !important;
+    font-family: 'Wagdie_Fraktur_21', serif !important;
+    transition: all 0.2s ease !important;
+  }
+
+  .custom-tooltip .leaflet-tooltip-content {
+    margin: 0 !important;
+    color: #e8e8e8 !important;
+    font-size: 12px !important;
+    line-height: 1.4 !important;
+  }
+
+  .custom-tooltip .leaflet-tooltip-content strong {
+    color: #d4af37 !important;
+    font-size: 13px !important;
+  }
+
+  /* Map Popup Styles */
+  .custom-popup .leaflet-popup-content-wrapper {
+    background: #0a0a0a !important;
+    border: 2px solid #d4af37 !important;
+    border-radius: 8px !important;
+    box-shadow: 0 8px 24px rgba(212, 175, 55, 0.3) !important;
+    padding: 0 !important;
+  }
+
+  .custom-popup .leaflet-popup-content {
+    margin: 0 !important;
+    font-family: 'Wagdie_Fraktur_21', serif !important;
+  }
+
+  .custom-popup .leaflet-popup-tip {
+    background: #0a0a0a !important;
+    border: 2px solid #d4af37 !important;
+  }
+
+  /* Marker Hover Animations */
+  .leaflet-marker-icon {
+    transition: transform 0.2s ease, filter 0.2s ease !important;
+    filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.3));
+  }
+
+  .leaflet-marker-icon:hover {
+    transform: scale(1.15) !important;
+    filter: drop-shadow(0 4px 8px rgba(212, 175, 55, 0.5)) brightness(1.1) !important;
+  }
 }
 
 @layer utilities {
