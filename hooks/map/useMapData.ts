@@ -15,28 +15,31 @@ export function useMapData() {
       if (typeof window === 'undefined') return;
 
       try {
+        console.log('[useMapData] Starting fetch with mock data...');
         setIsLoading(true);
 
-        // Dynamically import repositories to avoid SSR issues
+        // Dynamically import repositories to get mock data
         const { LocationRepository } = await import('@/lib/repositories/locationRepository');
         const { CharacterLocationRepository } = await import('@/lib/repositories/characterLocationRepository');
 
         const locationRepo = new LocationRepository();
         const charLocationRepo = new CharacterLocationRepository();
 
-        const [locationsData, characterLocationsData] = await Promise.all([
-          locationRepo.getAll(),
-          charLocationRepo.getConfirmed()
-        ]);
+        // Use getMockData methods directly for immediate demo
+        console.log('[useMapData] Fetching mock data...');
+        const locationsData = locationRepo.getMockLocations();
+        const characterLocationsData = charLocationRepo.getMockCharacterLocations();
 
+        console.log('[useMapData] Mock data loaded:', { locations: locationsData.length, characters: characterLocationsData.length });
         setLocations(locationsData);
         setCharacterLocations(characterLocationsData);
         setError(null);
       } catch (err) {
-        console.error('Failed to fetch map data:', err);
+        console.error('[useMapData] Failed to fetch map data:', err);
         setError(err as Error);
       } finally {
         setIsLoading(false);
+        console.log('[useMapData] Set loading to false');
       }
     }
 

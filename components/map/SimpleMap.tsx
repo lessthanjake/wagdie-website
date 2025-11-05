@@ -31,17 +31,40 @@ export function SimpleMap({ locations, characterLocations, layers, toggleLayer, 
       crs: L.CRS.Simple,
       minZoom: -2,
       maxZoom: 2,
-      attributionControl: false,
+      attributionControl: true,
     });
 
-    // Add WAGDIE world image
+    // Set attribution separately
+    map.attributionControl.setPrefix('WAGDIE World');
+
+    // Add WAGDIE world image with loading tracking
     const bounds: L.LatLngBoundsExpression = [[0, 0], [2222, 2222]];
-    L.imageOverlay('/images/wagdiemap.png', bounds).addTo(map);
+    const imageOverlay = L.imageOverlay('/images/wagdiemap.png', bounds);
+
+    imageOverlay.on('load', () => {
+      console.log('Map image loaded successfully');
+    });
+
+    imageOverlay.on('error', (error) => {
+      console.error('Failed to load map image:', error);
+    });
+
+    imageOverlay.addTo(map);
     map.fitBounds(bounds);
+
+    // Handle window resize for responsive behavior
+    const handleResize = () => {
+      if (mapInstanceRef.current) {
+        mapInstanceRef.current.invalidateSize();
+      }
+    };
+
+    window.addEventListener('resize', handleResize);
 
     mapInstanceRef.current = map;
 
     return () => {
+      window.removeEventListener('resize', handleResize);
       map.remove();
       mapInstanceRef.current = null;
     };
@@ -74,13 +97,65 @@ export function SimpleMap({ locations, characterLocations, layers, toggleLayer, 
           (bounds[0][1] + bounds[1][1]) / 2,
         ];
 
+        // Create custom icon using WAGDIE icon
+        const locationIcon = L.icon({
+          iconUrl: '/images/map-icons/icon_location.png',
+          iconSize: [32, 32],
+          iconAnchor: [16, 32],
+          popupAnchor: [0, -32],
+        });
+
         const marker = L.marker(center, {
-          icon: L.divIcon({
-            className: 'custom-marker',
-            html: `<div style="background: #8B5A2B; color: white; padding: 4px 8px; border-radius: 4px; font-size: 12px;">${location.name}</div>`,
-            iconSize: [100, 30],
-            iconAnchor: [50, 30],
-          })
+          icon: locationIcon,
+        });
+
+        // Add tooltip on hover
+        marker.bindTooltip(
+          `<div style="font-family: 'Wagdie_Fraktur_21', serif;">
+            <strong>${location.name}</strong><br/>
+            ${location.description || 'WAGDIE Location'}
+          </div>`,
+          {
+            direction: 'top',
+            offset: [0, -32],
+            className: 'custom-tooltip',
+          }
+        );
+
+        // Add popup on click
+        const popupContent = `
+          <div style="font-family: 'Wagdie_Fraktur_21', serif; min-width: 250px;">
+            <h3 style="color: #d4af37; font-weight: bold; margin-bottom: 8px; border-bottom: 1px solid #252525; padding-bottom: 4px;">
+              ${location.name}
+            </h3>
+            <p style="color: #e8e8e8; font-size: 12px; margin-bottom: 8px;">
+              ${location.description || 'A location in the WAGDIE world'}
+            </p>
+            <div style="background: #1a1a1a; padding: 8px; border-radius: 4px; margin-bottom: 8px;">
+              <div style="color: #b0b0b0; font-size: 11px; margin-bottom: 4px;">
+                <span style="color: #e8e8e8;">Area:</span> ${location.metadata.area || 'Unknown'}
+              </div>
+              <div style="color: #b0b0b0; font-size: 11px; margin-bottom: 4px;">
+                <span style="color: #e8e8e8;">Type:</span> ${location.metadata.properties?.terrain || 'Unknown'}
+              </div>
+              <div style="color: #b0b0b0; font-size: 11px;">
+                <span style="color: #e8e8e8;">Difficulty:</span> ${location.metadata.properties?.difficulty || 'Unknown'}
+              </div>
+            </div>
+            <div style="display: flex; gap: 8px;">
+              <button onclick="alert('Stake feature coming soon!')" style="flex: 1; background: #d4af37; color: #0a0a0a; border: none; padding: 8px; border-radius: 4px; font-family: 'Wagdie_Fraktur_21', serif; font-size: 11px; cursor: pointer;">
+                Stake Character
+              </button>
+              <button onclick="console.log('View details for ${location.name}')" style="flex: 1; background: #252525; color: #e8e8e8; border: 1px solid #252525; padding: 8px; border-radius: 4px; font-family: 'Wagdie_Fraktur_21', serif; font-size: 11px; cursor: pointer;">
+                View Details
+              </button>
+            </div>
+          </div>
+        `;
+
+        marker.bindPopup(popupContent, {
+          className: 'custom-popup',
+          maxWidth: 300,
         });
 
         marker.on('click', () => {
@@ -115,13 +190,68 @@ export function SimpleMap({ locations, characterLocations, layers, toggleLayer, 
           (bounds[0][1] + bounds[1][1]) / 2,
         ];
 
+        // Create custom icon using WAGDIE icon
+        const characterIcon = L.icon({
+          iconUrl: '/images/map-icons/icon_youarehere.png',
+          iconSize: [24, 24],
+          iconAnchor: [12, 24],
+          popupAnchor: [0, -24],
+        });
+
         const marker = L.marker(center, {
-          icon: L.divIcon({
-            className: 'custom-marker',
-            html: `<div style="background: #FFD700; color: black; padding: 4px 8px; border-radius: 50%; width: 30px; height: 30px; display: flex; align-items: center; justify-content: center; font-weight: bold;">${charLocation.character_token_id}</div>`,
-            iconSize: [30, 30],
-            iconAnchor: [15, 15],
-          })
+          icon: characterIcon,
+        });
+
+        // Add tooltip on hover
+        marker.bindTooltip(
+          `<div style="font-family: 'Wagdie_Fraktur_21', serif;">
+            <strong>Character #${charLocation.character_token_id}</strong><br/>
+            ${charLocation.location?.name || 'Unknown Location'}
+          </div>`,
+          {
+            direction: 'top',
+            offset: [0, -24],
+            className: 'custom-tooltip',
+          }
+        );
+
+        // Add popup on click
+        const characterPopupContent = `
+          <div style="font-family: 'Wagdie_Fraktur_21', serif; min-width: 250px;">
+            <h3 style="color: #d4af37; font-weight: bold; margin-bottom: 8px; border-bottom: 1px solid #252525; padding-bottom: 4px;">
+              Character #${charLocation.character_token_id}
+            </h3>
+            <p style="color: #e8e8e8; font-size: 12px; margin-bottom: 8px;">
+              A WAGDIE character
+            </p>
+            <div style="background: #1a1a1a; padding: 8px; border-radius: 4px; margin-bottom: 8px;">
+              <div style="color: #b0b0b0; font-size: 11px; margin-bottom: 4px;">
+                <span style="color: #e8e8e8;">Token ID:</span> ${charLocation.character_token_id}
+              </div>
+              <div style="color: #b0b0b0; font-size: 11px; margin-bottom: 4px;">
+                <span style="color: #e8e8e8;">Location:</span> ${charLocation.location?.name || 'Unknown'}
+              </div>
+              <div style="color: #b0b0b0; font-size: 11px; margin-bottom: 4px;">
+                <span style="color: #e8e8e8;">Status:</span> <span style="color: #4a7c59; text-transform: capitalize;">${charLocation.status}</span>
+              </div>
+              <div style="color: #b0b0b0; font-size: 11px;">
+                <span style="color: #e8e8e8;">Wallet:</span> ${charLocation.wallet_address.slice(0, 6)}...${charLocation.wallet_address.slice(-4)}
+              </div>
+            </div>
+            <div style="display: flex; gap: 8px;">
+              <button onclick="alert('View character feature coming soon!')" style="flex: 1; background: #d4af37; color: #0a0a0a; border: none; padding: 8px; border-radius: 4px; font-family: 'Wagdie_Fraktur_21', serif; font-size: 11px; cursor: pointer;">
+                View Character
+              </button>
+              <button onclick="alert('Move character feature coming soon!')" style="flex: 1; background: #252525; color: #e8e8e8; border: 1px solid #252525; padding: 8px; border-radius: 4px; font-family: 'Wagdie_Fraktur_21', serif; font-size: 11px; cursor: pointer;">
+                Move Character
+              </button>
+            </div>
+          </div>
+        `;
+
+        marker.bindPopup(characterPopupContent, {
+          className: 'custom-popup',
+          maxWidth: 300,
         });
 
         marker.on('click', () => {

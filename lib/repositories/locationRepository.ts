@@ -23,10 +23,17 @@ export class LocationRepository implements ILocationRepository {
    */
   async getAll(): Promise<Location[]> {
     try {
-      const { data, error } = await supabase
+      // Add timeout to prevent hanging
+      const fetchPromise = supabase
         .from('locations')
         .select('*')
         .order('name');
+
+      const timeoutPromise = new Promise((_, reject) => {
+        setTimeout(() => reject(new Error('Supabase query timeout')), 5000);
+      });
+
+      const { data, error } = await Promise.race([fetchPromise, timeoutPromise]) as any;
 
       if (error) {
         throw new Error(`Failed to fetch locations: ${error.message}`);
@@ -56,7 +63,7 @@ export class LocationRepository implements ILocationRepository {
    * Get mock location data for development/testing
    * @returns Location[] - Array of mock locations
    */
-  private getMockLocations(): Location[] {
+  getMockLocations(): Location[] {
     return [
       {
         id: 'loc-1',

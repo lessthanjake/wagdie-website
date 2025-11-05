@@ -138,7 +138,8 @@ export class CharacterLocationRepository implements ICharacterLocationRepository
    */
   async getConfirmed(): Promise<CharacterLocation[]> {
     try {
-      const { data, error } = await supabase
+      // Add timeout to prevent hanging
+      const fetchPromise = supabase
         .from('character_locations')
         .select(`
           *,
@@ -146,6 +147,12 @@ export class CharacterLocationRepository implements ICharacterLocationRepository
         `)
         .eq('status', 'confirmed')
         .order('updated_at', { ascending: false });
+
+      const timeoutPromise = new Promise((_, reject) => {
+        setTimeout(() => reject(new Error('Supabase query timeout')), 5000);
+      });
+
+      const { data, error } = await Promise.race([fetchPromise, timeoutPromise]) as any;
 
       if (error) {
         throw new Error(`Failed to fetch confirmed character locations: ${error.message}`);
@@ -175,7 +182,7 @@ export class CharacterLocationRepository implements ICharacterLocationRepository
    * Get mock character location data for development/testing
    * @returns CharacterLocation[] - Array of mock character locations
    */
-  private getMockCharacterLocations(): CharacterLocation[] {
+  getMockCharacterLocations(): CharacterLocation[] {
     return [
       {
         id: 'cl-1',
