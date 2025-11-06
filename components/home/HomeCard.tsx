@@ -3,6 +3,7 @@
  * Content card for home page sections
  */
 
+import React from 'react';
 import Link from 'next/link'
 import Image from 'next/image'
 

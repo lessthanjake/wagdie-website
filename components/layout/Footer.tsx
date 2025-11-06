@@ -34,6 +34,9 @@
  * - OpenSea: NFT marketplace collection
  * - Twitter: Official project updates
  */
+
+import React from 'react';
+
 export function Footer() {
   const externalLinks = [
     {
