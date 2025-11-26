@@ -27,11 +27,11 @@ export function SheetEquipment({ equipment, isEditMode = false }: SheetEquipment
       if (equipment.armor && equipment.armor !== 'None') {
         armor.push(equipment.armor)
       }
-      if ('back' in equipment && equipment.back && equipment.back !== 'None') {
-        items.push(equipment.back)
+      if ('back' in equipment && typeof (equipment as any).back === 'string' && (equipment as any).back !== 'None') {
+        items.push((equipment as any).back)
       }
-      if ('mask' in equipment && equipment.mask && equipment.mask !== 'None') {
-        items.push(equipment.mask)
+      if ('mask' in equipment && typeof (equipment as any).mask === 'string' && (equipment as any).mask !== 'None') {
+        items.push((equipment as any).mask)
       }
     } else {
       // Standard format - use arrays directly
