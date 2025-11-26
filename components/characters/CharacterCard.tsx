@@ -17,6 +17,12 @@ interface CharacterCardProps {
 }
 
 export function CharacterCard({ character, onClick, className = '' }: CharacterCardProps) {
+  // Extract data from metadata if available, otherwise use direct fields
+  const name = character.metadata?.name || character.name || `Character #${character.token_id}`
+  const imageUrl = character.metadata?.image?.replace('ipfs://', 'https://ipfs.io/ipfs/') || character.image_url || '/images/placeholder-character.png'
+  const level = character.metadata?.level || character.level
+  const characterClass = character.class
+
   return (
     <div
       onClick={() => onClick?.(character.token_id)}
@@ -25,8 +31,8 @@ export function CharacterCard({ character, onClick, className = '' }: CharacterC
       {/* Character Image */}
       <div className="relative w-full aspect-square">
         <Image
-          src={character.image_url || '/images/placeholder-character.png'}
-          alt={character.name || `Character #${character.token_id}`}
+          src={imageUrl}
+          alt={name}
           fill
           className="object-cover group-hover:scale-105 transition-transform duration-300"
         />
@@ -62,14 +68,17 @@ export function CharacterCard({ character, onClick, className = '' }: CharacterC
       {/* Character Info */}
       <div className="p-4">
         <h3 className="text-lg font-bold text-bone group-hover:text-gold transition-colors truncate">
-          {character.name || `Character #${character.token_id}`}
+          {name}
         </h3>
-        {character.class && (
+        {(characterClass || level) && (
           <p className="text-sm text-ash mt-1">
-            {character.class} • Level {character.level || 1}
+            {characterClass && `${characterClass}`}
+            {characterClass && level && ' • '}
+            {level && `Level ${level}`}
           </p>
         )}
       </div>
     </div>
   )
 }
+
