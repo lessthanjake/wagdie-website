@@ -1,0 +1,515 @@
+openapi: 3.0.3
+info:
+  title: AI Persona Editor API
+  description: API contracts for full Eliza SDK persona editing
+  version: 1.0.0
+
+paths:
+  /api/eliza/characters/{tokenId}:
+    get:
+      summary: Get AI character by WAGDIE token ID
+      operationId: getCharacter
+      parameters:
+        - name: tokenId
+          in: path
+          required: true
+          schema:
+            type: string
+          description: WAGDIE character token ID
+      responses:
+        '200':
+          description: AI character found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AICharacter'
+        '404':
+          description: AI character not found
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+
+    put:
+      summary: Create or update AI character
+      operationId: upsertCharacter
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: tokenId
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UpdateAICharacterInput'
+      responses:
+        '200':
+          description: Character updated
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AICharacter'
+        '201':
+          description: Character created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AICharacter'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Not character owner
+        '422':
+          description: Validation error
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ValidationError'
+
+  /api/eliza/characters/{tokenId}/knowledge:
+    get:
+      summary: List knowledge documents for character
+      operationId: listKnowledge
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: tokenId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Knowledge documents list
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/KnowledgeDocument'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Not character owner
+
+    post:
+      summary: Upload knowledge document
+      operationId: uploadKnowledge
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: tokenId
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              required:
+                - file
+              properties:
+                file:
+                  type: string
+                  format: binary
+                  description: Text file (.txt or .md), max 50KB
+      responses:
+        '201':
+          description: Document uploaded
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/KnowledgeDocument'
+        '400':
+          description: Invalid file type or size
+        '401':
+          description: Unauthorized
+        '403':
+          description: Not character owner
+        '409':
+          description: Maximum documents reached (5)
+
+  /api/eliza/characters/{tokenId}/knowledge/{documentId}:
+    delete:
+      summary: Delete knowledge document
+      operationId: deleteKnowledge
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: tokenId
+          in: path
+          required: true
+          schema:
+            type: string
+        - name: documentId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '204':
+          description: Document deleted
+        '401':
+          description: Unauthorized
+        '403':
+          description: Not character owner
+        '404':
+          description: Document not found
+
+  /api/eliza/characters/{tokenId}/export:
+    get:
+      summary: Export character as Eliza JSON
+      operationId: exportCharacter
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: tokenId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Eliza character JSON
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ElizaCharacterExport'
+        '401':
+          description: Unauthorized
+        '403':
+          description: Not character owner
+        '404':
+          description: Character not found
+
+  /api/eliza/characters/{tokenId}/import:
+    post:
+      summary: Import Eliza character JSON
+      operationId: importCharacter
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: tokenId
+          in: path
+          required: true
+          schema:
+            type: string
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ElizaCharacterExport'
+      responses:
+        '200':
+          description: Character imported
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  character:
+                    $ref: '#/components/schemas/AICharacter'
+                  warnings:
+                    type: array
+                    items:
+                      type: string
+                    description: Fields that were ignored or modified
+        '401':
+          description: Unauthorized
+        '403':
+          description: Not character owner
+        '422':
+          description: Invalid Eliza character format
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+  schemas:
+    AICharacter:
+      type: object
+      required:
+        - id
+        - externalId
+        - name
+        - bio
+        - lore
+        - createdAt
+        - updatedAt
+      properties:
+        id:
+          type: string
+          format: uuid
+        externalId:
+          type: string
+          description: WAGDIE token ID
+        name:
+          type: string
+          maxLength: 100
+        bio:
+          type: array
+          items:
+            type: string
+            maxLength: 500
+          minItems: 1
+          maxItems: 10
+        lore:
+          type: array
+          items:
+            type: string
+            maxLength: 500
+          maxItems: 20
+        topics:
+          type: array
+          items:
+            type: string
+            maxLength: 50
+          maxItems: 30
+        adjectives:
+          type: array
+          items:
+            type: string
+            maxLength: 30
+          maxItems: 20
+        style:
+          $ref: '#/components/schemas/StyleConfig'
+        messageExamples:
+          type: array
+          items:
+            $ref: '#/components/schemas/ExampleMessage'
+          maxItems: 20
+        postExamples:
+          type: array
+          items:
+            type: string
+            maxLength: 280
+          maxItems: 20
+        systemPrompt:
+          type: string
+          maxLength: 4000
+        knowledge:
+          type: array
+          items:
+            $ref: '#/components/schemas/KnowledgeDocument'
+          maxItems: 5
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+
+    UpdateAICharacterInput:
+      type: object
+      properties:
+        name:
+          type: string
+          maxLength: 100
+        bio:
+          type: array
+          items:
+            type: string
+            maxLength: 500
+          minItems: 1
+          maxItems: 10
+        lore:
+          type: array
+          items:
+            type: string
+            maxLength: 500
+          maxItems: 20
+        topics:
+          type: array
+          items:
+            type: string
+            maxLength: 50
+          maxItems: 30
+        adjectives:
+          type: array
+          items:
+            type: string
+            maxLength: 30
+          maxItems: 20
+        style:
+          $ref: '#/components/schemas/StyleConfig'
+        messageExamples:
+          type: array
+          items:
+            $ref: '#/components/schemas/ExampleMessage'
+          maxItems: 20
+        postExamples:
+          type: array
+          items:
+            type: string
+            maxLength: 280
+          maxItems: 20
+        systemPrompt:
+          type: string
+          maxLength: 4000
+
+    StyleConfig:
+      type: object
+      properties:
+        all:
+          type: array
+          items:
+            type: string
+            maxLength: 200
+          maxItems: 10
+        chat:
+          type: array
+          items:
+            type: string
+            maxLength: 200
+          maxItems: 10
+        post:
+          type: array
+          items:
+            type: string
+            maxLength: 200
+          maxItems: 10
+
+    ExampleMessage:
+      type: object
+      required:
+        - userMessage
+        - assistantMessage
+      properties:
+        userMessage:
+          type: string
+          maxLength: 500
+        assistantMessage:
+          type: string
+          maxLength: 1000
+
+    KnowledgeDocument:
+      type: object
+      required:
+        - id
+        - filename
+        - size
+        - mimeType
+        - uploadedAt
+      properties:
+        id:
+          type: string
+          format: uuid
+        filename:
+          type: string
+        content:
+          type: string
+          description: Only included when explicitly requested
+        size:
+          type: integer
+          maximum: 51200
+        mimeType:
+          type: string
+          enum:
+            - text/plain
+            - text/markdown
+        uploadedAt:
+          type: string
+          format: date-time
+
+    ElizaCharacterExport:
+      type: object
+      required:
+        - name
+        - bio
+        - lore
+      properties:
+        name:
+          type: string
+        bio:
+          type: array
+          items:
+            type: string
+        lore:
+          type: array
+          items:
+            type: string
+        topics:
+          type: array
+          items:
+            type: string
+        adjectives:
+          type: array
+          items:
+            type: string
+        style:
+          $ref: '#/components/schemas/StyleConfig'
+        messageExamples:
+          type: array
+          items:
+            type: array
+            items:
+              type: object
+              properties:
+                user:
+                  type: string
+                content:
+                  type: object
+                  properties:
+                    text:
+                      type: string
+        postExamples:
+          type: array
+          items:
+            type: string
+        systemPrompt:
+          type: string
+        knowledge:
+          type: array
+          items:
+            type: object
+            properties:
+              id:
+                type: string
+              path:
+                type: string
+              content:
+                type: string
+
+    Error:
+      type: object
+      required:
+        - error
+        - message
+      properties:
+        error:
+          type: string
+        message:
+          type: string
+        details:
+          type: object
+
+    ValidationError:
+      type: object
+      required:
+        - error
+        - message
+        - fields
+      properties:
+        error:
+          type: string
+          example: validation_error
+        message:
+          type: string
+        fields:
+          type: object
+          additionalProperties:
+            type: array
+            items:
+              type: string

@@ -1,11 +1,18 @@
 /**
  * useAICharacter Hook
- * Manages AI character CRUD operations
+ * Manages AI character CRUD operations including import/export
  */
 
 import { useState, useCallback, useEffect } from 'react'
 import { useAccount } from 'wagmi'
-import type { AICharacter, UpdateAICharacterInput } from '@/types/eliza'
+import type { AICharacter, UpdateAICharacterInput, ElizaCharacterExport } from '@/types/eliza'
+
+interface ImportResult {
+  success: boolean
+  imported: string[]
+  skipped: string[]
+  warnings: string[]
+}
 
 interface UseAICharacterReturn {
   /** Current AI character data */
@@ -14,12 +21,18 @@ interface UseAICharacterReturn {
   isLoading: boolean
   /** Whether save is in progress */
   isSaving: boolean
+  /** Whether import is in progress */
+  isImporting: boolean
   /** Error message if operation failed */
   error: string | null
   /** Fetch AI character by token ID */
   fetchAICharacter: () => Promise<void>
   /** Save AI character changes */
   saveAICharacter: (data: UpdateAICharacterInput) => Promise<boolean>
+  /** Export character as JSON file download */
+  exportCharacter: () => Promise<void>
+  /** Import character from JSON data */
+  importCharacter: (data: ElizaCharacterExport) => Promise<ImportResult | null>
   /** Clear error */
   clearError: () => void
 }
@@ -29,6 +42,7 @@ export function useAICharacter(tokenId: string): UseAICharacterReturn {
   const [aiCharacter, setAICharacter] = useState<AICharacter | null>(null)
   const [isLoading, setIsLoading] = useState(false)
   const [isSaving, setIsSaving] = useState(false)
+  const [isImporting, setIsImporting] = useState(false)
   const [error, setError] = useState<string | null>(null)
 
   // Fetch AI character data
@@ -99,6 +113,81 @@ export function useAICharacter(tokenId: string): UseAICharacterReturn {
     }
   }, [tokenId, isConnected])
 
+  // Export character as JSON file download
+  const exportCharacter = useCallback(async () => {
+    setError(null)
+
+    try {
+      const response = await fetch(`/api/eliza/characters/${tokenId}/export`, {
+        credentials: 'include',
+      })
+
+      if (!response.ok) {
+        const errorData = await response.json()
+        throw new Error(errorData.error || 'Failed to export character')
+      }
+
+      // Get filename from Content-Disposition header
+      const disposition = response.headers.get('Content-Disposition')
+      const filenameMatch = disposition?.match(/filename="(.+)"/)
+      const filename = filenameMatch?.[1] || 'character.json'
+
+      // Download as file
+      const blob = await response.blob()
+      const url = URL.createObjectURL(blob)
+      const a = document.createElement('a')
+      a.href = url
+      a.download = filename
+      document.body.appendChild(a)
+      a.click()
+      document.body.removeChild(a)
+      URL.revokeObjectURL(url)
+    } catch (err) {
+      const message = err instanceof Error ? err.message : 'Failed to export character'
+      setError(message)
+      console.error('[useAICharacter] Export error:', err)
+    }
+  }, [tokenId])
+
+  // Import character from JSON data
+  const importCharacter = useCallback(async (data: ElizaCharacterExport): Promise<ImportResult | null> => {
+    if (!isConnected) {
+      setError('Please connect your wallet to import')
+      return null
+    }
+
+    setIsImporting(true)
+    setError(null)
+
+    try {
+      const response = await fetch(`/api/eliza/characters/${tokenId}/import`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        credentials: 'include',
+        body: JSON.stringify(data),
+      })
+
+      if (!response.ok) {
+        const errorData = await response.json()
+        throw new Error(errorData.error || 'Failed to import character')
+      }
+
+      const result: ImportResult = await response.json()
+
+      // Refresh character data after import
+      await fetchAICharacter()
+
+      return result
+    } catch (err) {
+      const message = err instanceof Error ? err.message : 'Failed to import character'
+      setError(message)
+      console.error('[useAICharacter] Import error:', err)
+      return null
+    } finally {
+      setIsImporting(false)
+    }
+  }, [tokenId, isConnected, fetchAICharacter])
+
   // Clear error
   const clearError = useCallback(() => {
     setError(null)
@@ -113,9 +202,12 @@ export function useAICharacter(tokenId: string): UseAICharacterReturn {
     aiCharacter,
     isLoading,
     isSaving,
+    isImporting,
     error,
     fetchAICharacter,
     saveAICharacter,
+    exportCharacter,
+    importCharacter,
     clearError,
   }
 }
