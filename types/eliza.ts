@@ -17,19 +17,55 @@ export type {
   StreamCallback,
   StreamCompleteCallback,
   StreamErrorCallback,
+  CharacterStyle as SDKCharacterStyle,
+  KnowledgeDocument as SDKKnowledgeDocument,
 } from '@eliza/sdk'
+
+// Re-export SDK FIELD_LIMITS for consistency
+export { FIELD_LIMITS as SDK_FIELD_LIMITS } from '@eliza/sdk'
+
+/**
+ * Style configuration for different communication contexts
+ */
+export interface StyleConfig {
+  all?: string[]   // Universal guidelines, 0-10 items, 200 chars each
+  chat?: string[]  // Chat-specific rules, 0-10 items, 200 chars each
+  post?: string[]  // Post-specific rules, 0-10 items, 200 chars each
+}
+
+/**
+ * Knowledge document for RAG integration
+ */
+export interface KnowledgeDocument {
+  id: string
+  filename: string
+  content?: string // Only included when explicitly requested
+  size: number
+  mimeType: 'text/plain' | 'text/markdown'
+  uploadedAt: string
+}
 
 /**
  * AI Character entity representing an AI persona linked to a WAGDIE character
+ * Extended for full Eliza SDK support
  */
 export interface AICharacter {
   id: string
   externalId: string // WAGDIE tokenId for linking
   name: string
-  personality: string | null
+  /** @deprecated Use bio[] instead */
+  personality?: string | null
   backstory: string | null
   systemPrompt: string | null
   exampleMessages: ExampleMessage[]
+  // Extended Eliza fields
+  bio?: string[]          // 1-10 items, 500 chars each
+  lore?: string[]         // 0-20 items, 500 chars each
+  topics?: string[]       // 0-30 items, 50 chars each
+  adjectives?: string[]   // 0-20 items, 30 chars each
+  style?: StyleConfig
+  postExamples?: string[] // 0-20 items, 280 chars each
+  knowledge?: KnowledgeDocument[] // 0-5 documents
   createdAt: string
   updatedAt: string
 }
@@ -80,10 +116,18 @@ export interface ConversationDetail extends Conversation {
 export interface CreateAICharacterInput {
   externalId: string
   name: string
+  /** @deprecated Use bio[] instead */
   personality?: string
   backstory?: string
   systemPrompt?: string
   exampleMessages?: ExampleMessage[]
+  // Extended Eliza fields
+  bio?: string[]
+  lore?: string[]
+  topics?: string[]
+  adjectives?: string[]
+  style?: StyleConfig
+  postExamples?: string[]
 }
 
 /**
@@ -91,10 +135,18 @@ export interface CreateAICharacterInput {
  */
 export interface UpdateAICharacterInput {
   name?: string
+  /** @deprecated Use bio[] instead */
   personality?: string
   backstory?: string
   systemPrompt?: string
   exampleMessages?: ExampleMessage[]
+  // Extended Eliza fields
+  bio?: string[]
+  lore?: string[]
+  topics?: string[]
+  adjectives?: string[]
+  style?: StyleConfig
+  postExamples?: string[]
 }
 
 /**
@@ -136,13 +188,46 @@ export interface ErrorResponse {
 
 /**
  * Draft AI persona stored in localStorage
+ * Extended for full Eliza SDK support
  */
 export interface DraftAIPersona {
   tokenId: string
+  /** @deprecated Use bio[] instead - kept for migration */
   personality?: string
   systemPrompt?: string
   exampleMessages?: ExampleMessage[]
+  // Extended Eliza fields
+  bio?: string[]
+  lore?: string[]
+  topics?: string[]
+  adjectives?: string[]
+  style?: StyleConfig
+  postExamples?: string[]
+  knowledgeIds?: string[] // Only IDs, not content
   savedAt: string
+}
+
+/**
+ * Eliza character export format for import/export functionality
+ */
+export interface ElizaCharacterExport {
+  name: string
+  bio: string[]
+  lore: string[]
+  topics?: string[]
+  adjectives?: string[]
+  style?: StyleConfig
+  messageExamples?: Array<Array<{
+    user: string
+    content: { text: string }
+  }>>
+  postExamples?: string[]
+  systemPrompt?: string
+  knowledge?: Array<{
+    id: string
+    path: string
+    content: string
+  }>
 }
 
 /**
@@ -173,9 +258,12 @@ export type StreamEvent = StreamTokenEvent | StreamCompleteEvent | StreamErrorEv
 
 /**
  * Field validation limits per data-model.md
+ * Extended for full Eliza SDK support
  */
 export const FIELD_LIMITS = {
+  // Existing fields
   name: 100,
+  /** @deprecated Use bio limits instead */
   personality: 2000,
   backstory: 5000,
   systemPrompt: 4000,
@@ -183,4 +271,19 @@ export const FIELD_LIMITS = {
   userMessageExample: 500,
   assistantMessageExample: 1000,
   maxExampleMessages: 20,
+  // Extended Eliza fields
+  bio: 500,
+  maxBioEntries: 10,
+  lore: 500,
+  maxLoreEntries: 20,
+  topic: 50,
+  maxTopics: 30,
+  adjective: 30,
+  maxAdjectives: 20,
+  styleRule: 200,
+  maxStyleRules: 10,
+  postExample: 280,
+  maxPostExamples: 20,
+  maxKnowledgeDocs: 5,
+  maxKnowledgeSize: 51200, // 50KB
 } as const
