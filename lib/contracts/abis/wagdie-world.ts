@@ -1,6 +1,6 @@
 // WagdieWorld Staking Contract ABI
 // Source: Original project typechain-types/WagdieWorld.ts
-// Contract Address (Mainnet): 0x616D4635ceCf94597690Cab0Fc159c3A8231C904
+// Contract Address (Mainnet): 0x616d4635cecf94597690cab0fc159c3a8231c904
 
 export const wagdieWorldABI = [
   // Staking Functions

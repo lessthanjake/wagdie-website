@@ -20,7 +20,8 @@ export const mainnetAddresses: ContractAddresses = {
   mushroom: '0x171a8518A1B75F9E26ea952728d4850BEf9B87d2',
   searing: '0x5156A7F668E59119db23a264502F40407CDa076F',
   spread: '0xaCA80514986768F88F7d8E644546AB85383ddE7e',
-  wagdieWorld: '0x616D4635ceCf94597690Cab0Fc159c3A8231C904',
+  // Mainnet WagdieWorld staking contract (provided by user)
+  wagdieWorld: '0x616d4635cecf94597690cab0fc159c3a8231c904',
 }
 
 export const sepoliaAddresses: Partial<ContractAddresses> = {
