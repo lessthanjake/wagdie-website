@@ -12,7 +12,7 @@ import { EditorControls } from './EditorControls'
 import { LocationForm, type LocationFormSubmit } from './LocationForm'
 import { DeleteConfirmation } from './DeleteConfirmation'
 import { useLocationApi } from '@/hooks/map/useLocationApi'
-import { Spinner } from '@/components-new'
+import { Spinner } from '@/components/ui'
 import type { IRefPhaserGame } from '@/game/PhaserGame'
 
 // Dynamically import PhaserGame to avoid SSR issues

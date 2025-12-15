@@ -3,10 +3,9 @@
 import React, { useState } from 'react';
 import { Popover } from './Popover';
 import { Calendar } from './Calendar';
-import { Button } from './Button';
 
 export const DatePicker: React.FC = () => {
-  const [date, setDate] = useState<string | null>(null);
+  const [date] = useState<string | null>(null);
 
   const Trigger = (
     <button className={`

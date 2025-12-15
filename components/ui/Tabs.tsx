@@ -98,7 +98,7 @@ export const Tabs = React.memo<TabsProps>(({
     }
   }, []);
 
-  const activeItem = items.find(item => item.id === activeId);
+  const _activeItem = items.find(item => item.id === activeId);
 
   return (
     <div className={`w-full ${className}`}>

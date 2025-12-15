@@ -14,7 +14,7 @@ import { useAccount } from 'wagmi';
 import { useMapData } from '@/hooks/map/useMapData';
 import { useMapLayers } from '@/hooks/map/useMapLayers';
 import { EventBus, MapEvents } from '@/game/EventBus';
-import { Spinner } from '@/components-new';
+import { Spinner } from '@/components/ui';
 import MapStakingSidebar from '@/components/map/MapStakingSidebar';
 import type { IRefPhaserGame } from '@/game/PhaserGame';
 import type { Location } from '@/lib/types/map';

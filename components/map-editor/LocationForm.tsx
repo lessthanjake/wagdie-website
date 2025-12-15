@@ -6,7 +6,7 @@
  */
 
 import { useState, useEffect, useCallback } from 'react'
-import { Select } from '@/components-new'
+import { Select } from '@/components/ui'
 import type { Location, CreateLocationInput, UpdateLocationInput } from '@/lib/types/map'
 
 const CREATE_NEW_VALUE = '__new__'
