@@ -1,6 +1,7 @@
 import React from 'react';
 
-export interface ModalProps {
+/** @deprecated Use `Modal` from '@/components/ui' instead */
+export interface LegacyModalProps {
   /** Whether the modal is open */
   isOpen?: boolean;
 
@@ -24,7 +25,8 @@ export interface ModalProps {
  * for important actions. Should be used sparingly to avoid disrupting
  * the user experience.
  */
-export const Modal: React.FC<ModalProps> = ({
+/** @deprecated Use `Modal` from '@/components/ui' instead */
+export const LegacyModal: React.FC<LegacyModalProps> = ({
   isOpen = false,
   size = 'md',
   title,

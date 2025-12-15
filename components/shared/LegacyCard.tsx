@@ -1,6 +1,7 @@
 import React from 'react';
 
-export interface CardProps {
+/** @deprecated Use `Card` from '@/components/ui' instead */
+export interface LegacyCardProps {
   /** Card title */
   title?: string;
 
@@ -26,7 +27,8 @@ export interface CardProps {
  * Used to group related information with optional title and footer sections.
  * Perfect for displaying user profiles, articles, or any grouped content.
  */
-export const Card: React.FC<CardProps> = ({
+/** @deprecated Use `Card` from '@/components/ui' instead */
+export const LegacyCard: React.FC<LegacyCardProps> = ({
   title,
   children,
   footer,

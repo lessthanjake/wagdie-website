@@ -2,7 +2,7 @@
 
 import { memo } from 'react'
 import { useChatDock } from '@/contexts/ChatDockContext'
-import { Button } from '@/components-new'
+import { Button } from '@/components/ui'
 
 function ChatToggleButtonComponent() {
   const { isOpen, target, toggleChat } = useChatDock()

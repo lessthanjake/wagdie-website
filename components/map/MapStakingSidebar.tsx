@@ -6,7 +6,7 @@ import type { Location } from '@/lib/types/map'
 import { useOwnedCharacters } from '@/hooks/useOwnedCharacters'
 import { useStakingStatuses } from '@/hooks/useStakingStatuses'
 import { useStaking } from '@/hooks/useStaking'
-import { Badge, Button, Card, CardContent, CardHeader, CardTitle, Spinner } from '@/components-new'
+import { Badge, Button, Card, CardContent, CardHeader, CardTitle, Spinner } from '@/components/ui'
 import type { Character } from '@/types/character'
 import { getLocalImagePath } from '@/lib/utils/image'
 

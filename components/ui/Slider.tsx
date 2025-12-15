@@ -6,7 +6,7 @@ interface SliderProps extends React.InputHTMLAttributes<HTMLInputElement> {
   valueDisplay?: boolean;
 }
 
-export const Slider: React.FC<SliderProps> = ({ label, valueDisplay = false, className = '', ...props }) => {
+export const Slider: React.FC<SliderProps> = ({ label, valueDisplay = false, className: _className = '', ...props }) => {
   return (
     <div className="flex flex-col gap-4 w-full">
       <div className="flex justify-between items-end">

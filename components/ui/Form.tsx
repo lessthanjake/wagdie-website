@@ -13,7 +13,7 @@ interface FormFieldContextType {
 
 const FormFieldContext = createContext<FormFieldContextType | undefined>(undefined);
 
-function useFormField() {
+export function useFormField() {
   const context = useContext(FormFieldContext);
   if (!context) {
     throw new Error('Form components must be used within FormField');
@@ -47,7 +47,8 @@ export const Form = React.memo<FormProps>(({ onSubmit, children, className = '',
   const setFieldError = useCallback((name: string, error: string | undefined) => {
     setErrors(prev => {
       if (error === undefined) {
-        const { [name]: _, ...rest } = prev;
+        const { [name]: _unused, ...rest } = prev;
+        void _unused;
         return rest;
       }
       return { ...prev, [name]: error };

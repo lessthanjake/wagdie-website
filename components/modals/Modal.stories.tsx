@@ -1,11 +1,11 @@
 import React from 'react';
 import type { Meta, StoryObj } from '@storybook/react';
-import { Modal } from './Modal';
-import { Button } from '../ui/Button';
+import { LegacyModal as Modal } from './LegacyModal';
+import { Button } from '@/components/ui';
 
 const meta: Meta<typeof Modal> = {
   component: Modal,
-  title: 'Components/Modal',
+  title: 'Components/LegacyModal',
   tags: ['autodocs'],
   argTypes: {
     isOpen: {

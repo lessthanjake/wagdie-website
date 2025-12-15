@@ -43,7 +43,7 @@ export const CustomSelect = React.memo<{
   const listRef = useRef<HTMLDivElement>(null);
   const idRef = useRef(`select-${++selectIdCounter}`);
 
-  const handleChange = useCallback((newValue: string, newLabel: string) => {
+  const handleChange = useCallback((newValue: string, _newLabel: string) => {
     setInternalValue(newValue);
     onChange?.(newValue);
     setIsOpen(false);

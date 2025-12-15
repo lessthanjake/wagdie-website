@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState, useRef, useEffect } from 'react';
+import React from 'react';
 
 export const ResizablePanelGroup: React.FC<{ direction?: 'horizontal' | 'vertical'; children: React.ReactNode }> = ({ direction = 'horizontal', children }) => {
   return (
@@ -10,7 +10,7 @@ export const ResizablePanelGroup: React.FC<{ direction?: 'horizontal' | 'vertica
   );
 };
 
-export const ResizablePanel: React.FC<{ defaultSize?: number; children: React.ReactNode }> = ({ defaultSize = 50, children }) => {
+export const ResizablePanel: React.FC<{ defaultSize?: number; children: React.ReactNode }> = ({ defaultSize: _defaultSize = 50, children }) => {
   return (
     <div className="flex-1 bg-black/20 p-4 min-w-[50px] min-h-[50px] relative overflow-hidden">
         {children}

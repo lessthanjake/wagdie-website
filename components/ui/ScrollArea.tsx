@@ -5,7 +5,7 @@ interface ScrollAreaProps extends React.HTMLAttributes<HTMLDivElement> {
   height?: string;
 }
 
-export const ScrollArea: React.FC<ScrollAreaProps> = ({ height = 'h-64', className = '', children, ...props }) => {
+export const ScrollArea: React.FC<ScrollAreaProps> = ({ height = 'h-64', className = '', children, ..._props }) => {
   return (
     <div className={`relative border border-neutral-800 bg-black/20 ${height} ${className} group`}>
         <div className="overflow-y-auto h-full p-4 scrollbar-thin scrollbar-thumb-neutral-700 scrollbar-track-transparent">
