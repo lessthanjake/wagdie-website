@@ -519,15 +519,27 @@ export class MapScene extends Phaser.Scene {
 
   /**
    * Add or update event markers (burns, deaths, fights)
+   * Reconciles with existing markers to remove stale entries
    */
   public updateEvents(events: MapEventsData): void {
+    // Build the set of desired event IDs from incoming payload
+    const desiredIds = new Set<string>();
+
+    // Helper to generate stable IDs
+    const getEventId = (prefix: string, event: { id?: string; wikiPageID?: number | string }, index: number): string => {
+      const rawId = event.id ?? event.wikiPageID ?? index;
+      return `${prefix}-${rawId}`;
+    };
+
     // Burns
     events.burns?.forEach((burn, index) => {
       if (!burn.htmlcoordinates) return;
+      const id = getEventId('burn', burn, index);
+      desiredIds.add(id);
       const x = burn.htmlcoordinates[0] * COORD_SCALE;
       const y = burn.htmlcoordinates[1] * COORD_SCALE;
       this.createOrUpdateMarker({
-        id: `burn-${burn.wikiPageID || index}`,
+        id,
         type: 'burn',
         name: burn.name || burn.title || 'Burn Event',
         x,
@@ -539,10 +551,12 @@ export class MapScene extends Phaser.Scene {
     // Deaths
     events.deaths?.forEach((death, index) => {
       if (!death.htmlcoordinates) return;
+      const id = getEventId('death', death, index);
+      desiredIds.add(id);
       const x = death.htmlcoordinates[0] * COORD_SCALE;
       const y = death.htmlcoordinates[1] * COORD_SCALE;
       this.createOrUpdateMarker({
-        id: `death-${death.wikiPageID || index}`,
+        id,
         type: 'death',
         name: death.name || death.title || 'Death Event',
         x,
@@ -554,10 +568,12 @@ export class MapScene extends Phaser.Scene {
     // Fights
     events.fights?.forEach((fight, index) => {
       if (!fight.htmlcoordinates) return;
+      const id = getEventId('fight', fight, index);
+      desiredIds.add(id);
       const x = fight.htmlcoordinates[0] * COORD_SCALE;
       const y = fight.htmlcoordinates[1] * COORD_SCALE;
       this.createOrUpdateMarker({
-        id: `fight-${fight.wikiPageID || index}`,
+        id,
         type: 'fight',
         name: fight.name || fight.title || 'Battle Event',
         x,
@@ -565,6 +581,20 @@ export class MapScene extends Phaser.Scene {
         data: fight,
       });
     });
+
+    // Remove stale event markers that are no longer in the payload
+    for (const [id, data] of Array.from(this.markerData.entries())) {
+      // Only reconcile event types (burn, death, fight)
+      if (data.type !== 'burn' && data.type !== 'death' && data.type !== 'fight') continue;
+      if (desiredIds.has(id)) continue;
+
+      const marker = this.markers.get(id);
+      if (marker) {
+        marker.destroy();
+      }
+      this.markers.delete(id);
+      this.markerData.delete(id);
+    }
   }
 
   /**

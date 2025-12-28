@@ -2,7 +2,7 @@
 
 import Link from 'next/link'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
-import { useAccount } from 'wagmi'
+import { useAccount, useChainId } from 'wagmi'
 import type { MarkerPayload, MapLocationData, MapCharacterData, MapEventData } from '@/game/EventBus'
 import type { Location } from '@/lib/types/map'
 import type { CharacterWithLocation } from '@/lib/repositories/character-repository'
@@ -24,11 +24,14 @@ export interface MapStakingSidebarProps {
   selectedMarker: MarkerPayload | null
   stakedHere: CharacterWithLocation[]
   selectedLocation: SelectedStakingLocation | null
+  selectedLocationError?: string | null
   walletAddress?: string
   onStakingChanged?: () => void
 }
 
 type ApprovalState = 'idle' | 'checking' | 'approved' | 'not_approved' | 'error'
+
+const STAKING_CHAIN_ID = 1
 
 function isNonEmptyString(value: unknown): value is string {
   return typeof value === 'string' && value.trim().length > 0
@@ -144,6 +147,9 @@ function NonLocationMarkerDetails({ marker }: { marker: MarkerPayload }) {
     (isNonEmptyString(marker.name) ? marker.name : null) ??
     'Event'
 
+  // Check if this event is linked to a character (e.g., fallen warrior death marker)
+  const characterTokenId = typeof eventData?.character_token_id === 'number' ? eventData.character_token_id : null
+
   return (
     <Card className="bg-black/40 border border-neutral-800">
       <CardHeader className="pb-2">
@@ -161,6 +167,17 @@ function NonLocationMarkerDetails({ marker }: { marker: MarkerPayload }) {
             {Math.round(marker.x)}, {Math.round(marker.y)}
           </span>
         </div>
+
+        {/* Link to character page for fallen warrior death markers */}
+        {characterTokenId !== null && (
+          <div className="pt-2 border-t border-neutral-800">
+            <Link href={`/characters/${characterTokenId}`} className="w-full">
+              <Button className="w-full" size="sm">
+                View Fallen Warrior
+              </Button>
+            </Link>
+          </div>
+        )}
       </CardContent>
     </Card>
   )
@@ -172,11 +189,15 @@ export function MapStakingSidebar({
   selectedMarker,
   stakedHere,
   selectedLocation,
+  selectedLocationError,
   walletAddress,
   onStakingChanged,
 }: MapStakingSidebarProps) {
   const { isConnected, address } = useAccount()
   const effectiveWallet = walletAddress ?? address
+  const chainId = useChainId()
+  const isCorrectChain = chainId === STAKING_CHAIN_ID
+  const chainError = !isCorrectChain ? 'Switch to Ethereum Mainnet to stake' : null
 
   const panelRef = useRef<HTMLDivElement | null>(null)
   const [visible, setVisible] = useState(false)
@@ -370,7 +391,7 @@ export function MapStakingSidebar({
       try {
         await stakeWagdie(tokenId, selectedLocation.locationId)
         await Promise.all([refetchStatuses(), refetchCharacters()])
-        if (onStakingChanged) onStakingChanged()
+        await onStakingChanged?.()
       } finally {
         setActiveTokenId(null)
       }
@@ -385,7 +406,7 @@ export function MapStakingSidebar({
       try {
         await unstakeWagdie(tokenId)
         await Promise.all([refetchStatuses(), refetchCharacters()])
-        if (onStakingChanged) onStakingChanged()
+        await onStakingChanged?.()
       } finally {
         setActiveTokenId(null)
       }
@@ -397,6 +418,7 @@ export function MapStakingSidebar({
     isConnected &&
     !!selectedLocation &&
     approvalState === 'approved' &&
+    isCorrectChain &&
     !isStaking &&
     !isApproving
 
@@ -412,6 +434,8 @@ export function MapStakingSidebar({
   const headerTitle = getMarkerTitle(selectedMarker)
   const isLocationMarker = selectedMarker?.type === 'location'
   const locationData = isLocationMarker ? (selectedMarker.data as MapLocationData) : null
+  const locationSelectionError =
+    isLocationMarker && selectedLocationError ? selectedLocationError : null
 
   if (!visible && !isOpen) return null
 
@@ -483,21 +507,6 @@ export function MapStakingSidebar({
 
         {/* Body - Single scrollable view */}
         <div className="flex-1 overflow-y-auto p-5 space-y-5">
-          {/* No marker selected state */}
-          {!selectedMarker && (
-            <div className="flex flex-col items-center py-10 text-center">
-              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-neutral-900 to-neutral-950 border border-neutral-800/50 flex items-center justify-center mb-4 shadow-xl">
-                <svg className="w-7 h-7 text-neutral-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9 20l-5.447-2.724A1 1 0 013 16.382V5.618a1 1 0 011.447-.894L9 7m0 13l6-3m-6 3V7m6 10l4.553 2.276A1 1 0 0021 18.382V7.618a1 1 0 00-.553-.894L15 4m0 13V4m0 0L9 7" />
-                </svg>
-              </div>
-              <h3 className="text-lg text-neutral-300 font-eskapade mb-1">Select a marker</h3>
-              <p className="text-sm text-neutral-600 font-eskapade max-w-[220px]">
-                Click any location, character, or event on the map to view details
-              </p>
-            </div>
-          )}
-
           {/* Non-location marker details */}
           {selectedMarker && !isLocationMarker && (
             <NonLocationMarkerDetails marker={selectedMarker} />
@@ -551,10 +560,19 @@ export function MapStakingSidebar({
                   {stakedHere.map((row) => {
                     const image = getCharacterImage(row)
                     const name = getCharacterName(row)
+                    // For staked characters, check staker_address (original staker) instead of owner_address
+                    // (owner_address becomes the staking contract when staked)
+                    const effectiveOwner = row.staker_address ?? row.owner_address
+                    const isOwned = effectiveWallet && effectiveOwner?.toLowerCase() === effectiveWallet.toLowerCase()
+                    const isRowBusy = activeTokenId === row.token_id
                     return (
                       <div
                         key={row.token_id}
-                        className="flex items-center gap-3 px-3 py-2.5 rounded-lg bg-neutral-900/30 border border-neutral-800/60 hover:border-neutral-700 hover:bg-neutral-900/50 transition-all duration-200"
+                        className={`flex items-center gap-3 px-3 py-2.5 rounded-lg transition-all duration-200 ${
+                          isOwned
+                            ? 'bg-gradient-to-r from-soul-accent/8 to-transparent border border-soul-accent/25'
+                            : 'bg-neutral-900/30 border border-neutral-800/60 hover:border-neutral-700 hover:bg-neutral-900/50'
+                        }`}
                       >
                         <Link
                           href={`/characters/${row.token_id}`}
@@ -577,13 +595,33 @@ export function MapStakingSidebar({
                           <div className="truncate text-base text-neutral-200 font-eskapade">
                             {name}
                           </div>
+                          {isOwned && (
+                            <div className="flex items-center gap-1 mt-0.5">
+                              <div className="w-1.5 h-1.5 rounded-full bg-soul-accent animate-pulse" />
+                              <span className="text-xs text-soul-accent/70 font-eskapade tracking-wider">YOURS</span>
+                            </div>
+                          )}
                         </div>
 
-                        <Link href={`/characters/${row.token_id}`}>
-                          <Button variant="secondary" size="sm">
-                            View
-                          </Button>
-                        </Link>
+                        <div className="shrink-0 flex gap-2">
+                          {isOwned ? (
+                            <Button
+                              variant="secondary"
+                              size="sm"
+                              onClick={() => handleUnstake(row.token_id)}
+                              disabled={isRowBusy || isUnstaking || isLoadingStatuses}
+                              isLoading={isRowBusy && isUnstaking}
+                            >
+                              Unstake
+                            </Button>
+                          ) : (
+                            <Link href={`/characters/${row.token_id}`}>
+                              <Button variant="secondary" size="sm">
+                                View
+                              </Button>
+                            </Link>
+                          )}
+                        </div>
                       </div>
                     )
                   })}
@@ -681,6 +719,12 @@ export function MapStakingSidebar({
                   </div>
                 )}
 
+                {isConnected && chainError && (
+                  <Alert variant="default" className="bg-neutral-900/30 border-neutral-800">
+                    {chainError}
+                  </Alert>
+                )}
+
                 {/* Loading state */}
                 {(isLoadingCharacters || isLoadingStatuses) && (
                   <div className="flex items-center justify-center gap-3 py-4">
@@ -693,6 +737,11 @@ export function MapStakingSidebar({
                 {dataLoadingError && (
                   <Alert variant="default" className="bg-neutral-900/30 border-neutral-800">
                     {dataLoadingError}
+                  </Alert>
+                )}
+                {locationSelectionError && (
+                  <Alert variant="default" className="bg-neutral-900/30 border-neutral-800">
+                    {locationSelectionError}
                   </Alert>
                 )}
                 {transactionError && (

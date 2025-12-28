@@ -11,6 +11,7 @@ export interface Character {
   token_id: number
   contract_address?: string
   owner_address?: string
+  staker_address?: string | null
   metadata?: CharacterMetadata | null
   name?: string | null
   class?: CharacterClass | null
@@ -115,7 +116,7 @@ export type EditableCharacterFields =
 // Type for partial character updates
 export type CharacterUpdate = Partial<Pick<Character, EditableCharacterFields>>
 
-export type CharacterFilterTab = 'all' | 'owned' | 'infected' | 'cured' | 'staked'
+export type CharacterFilterTab = 'all' | 'owned' | 'infected' | 'cured' | 'staked' | 'fallen'
 export type SortOrder = 'asc' | 'desc'
 
 export interface CharacterFilters {

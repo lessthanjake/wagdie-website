@@ -54,6 +54,7 @@ const TAB_ITEMS: TabItem[] = [
   { id: 'infected', label: 'Infected' },
   { id: 'cured', label: 'Cured' },
   { id: 'staked', label: 'Staked' },
+  { id: 'fallen', label: 'Fallen Warriors' },
 ]
 
 export function TokenFilterBar({

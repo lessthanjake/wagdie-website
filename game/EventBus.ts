@@ -22,6 +22,7 @@ export interface LayerVisibility {
 /** Map location data from database */
 export interface MapLocationData {
   id: string;
+  chain_location_id?: number | string;
   name: string;
   description?: string;
   metadata?: {
@@ -51,10 +52,15 @@ export interface MapCharacterData {
 
 /** Map event data (burns, deaths, fights) */
 export interface MapEventData {
-  wikiPageID?: number;
+  /** Stable internal ID for markers (e.g., 'fallen-123' for burned characters) */
+  id?: string;
+  /** Wiki page ID or string identifier */
+  wikiPageID?: number | string;
   name?: string;
   title?: string;
   htmlcoordinates?: [number, number];
+  /** Character token ID for "fallen warrior" deaths, enables linking to character page */
+  character_token_id?: number;
   [key: string]: unknown;
 }
 
