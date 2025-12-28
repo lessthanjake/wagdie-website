@@ -26,7 +26,7 @@ export async function GET(request: NextRequest) {
       return NextResponse.json({ error: 'Invalid pagination parameters' }, { status: 400 })
     }
 
-    if (!['all', 'owned', 'infected', 'cured', 'staked'].includes(tab)) {
+    if (!['all', 'owned', 'infected', 'cured', 'staked', 'fallen'].includes(tab)) {
       return NextResponse.json({ error: 'Invalid tab parameter' }, { status: 400 })
     }
 

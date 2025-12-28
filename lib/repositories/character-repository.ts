@@ -9,6 +9,7 @@ import { CHARACTERS_TABLE } from '@/lib/db/tables'
 import type { Character, CharacterFilters, CharactersResponse, CharacterConcord, Concord, EditableCharacterFields, OriginCount, OriginsResponse, AlignmentCount, AlignmentsResponse, TraitCount, TraitCountsResponse } from '@/types/character'
 import type { NormalizedLocationMetadata } from '@/lib/domain/location/metadata-types'
 import { normalizeLocationMetadata } from '@/lib/domain/location/metadata'
+import { isBurnedOwner } from '@/lib/utils/blockchain'
 
 /**
  * Location data joined from the locations table.
@@ -76,8 +77,16 @@ export class CharacterRepository implements ICharacterRepository {
 
     // Apply wallet filter whenever wallet is provided
     // This allows wallet-scoped queries for any tab (owned, staked, etc.)
+    // For 'owned' tab, include characters where user is either the owner OR the staker
+    // (staker_address is set when character is staked, owner_address becomes the contract)
     if (filters.wallet) {
-      query = query.eq('owner_address', filters.wallet.toLowerCase())
+      const walletLower = filters.wallet.toLowerCase()
+      if (filters.tab === 'owned') {
+        // Include both owned (unstaked) and staked-by-user characters
+        query = query.or(`owner_address.eq.${walletLower},staker_address.eq.${walletLower}`)
+      } else {
+        query = query.eq('owner_address', walletLower)
+      }
     }
 
     // Apply tab-specific filters (additive to wallet filter)
@@ -90,6 +99,9 @@ export class CharacterRepository implements ICharacterRepository {
     } else if (filters.tab === 'staked') {
       // Staked characters are those with a non-null location_id
       query = query.not('location_id', 'is', null)
+    } else if (filters.tab === 'fallen') {
+      // Fallen Warriors: characters with burned flag = true
+      query = query.eq('burned', true)
     }
     // Note: 'owned' and 'all' tabs only use the wallet filter above
 
@@ -167,8 +179,14 @@ export class CharacterRepository implements ICharacterRepository {
     const totalCount = count || 0
     const hasMore = totalCount > filters.page * filters.perPage
 
+    // Normalize burned flag based on owner_address rule
+    const characters = (data || []).map((row) => ({
+      ...row,
+      burned: isBurnedOwner(row.owner_address, row.burned),
+    })) as Character[]
+
     return {
-      characters: (data || []) as Character[],
+      characters,
       hasMore,
       totalCount
     }
@@ -189,7 +207,11 @@ export class CharacterRepository implements ICharacterRepository {
       return null
     }
 
-    return data as Character
+    // Normalize burned flag based on owner_address rule
+    return {
+      ...data,
+      burned: isBurnedOwner(data.owner_address, data.burned),
+    } as Character
   }
 
   /**
@@ -220,7 +242,12 @@ export class CharacterRepository implements ICharacterRepository {
       throw new Error(`Failed to update character: ${error.message}`)
     }
 
-    return data as Character
+    // Normalize burned flag based on owner_address rule
+    const character = data as Character
+    return {
+      ...character,
+      burned: isBurnedOwner(character.owner_address, character.burned),
+    } as Character
   }
 
   /**
@@ -435,14 +462,17 @@ export class CharacterRepository implements ICharacterRepository {
       locationMap.set(loc.id, loc)
     }
 
-    // Step 5: Join characters with locations and normalize metadata
+    // Step 5: Join characters with locations and normalize metadata + burned flag
     const result: CharacterWithLocation[] = characters.map(char => {
       const rawLoc = char.location_id ? locationMap.get(char.location_id) : undefined
+      // Normalize burned flag based on owner_address rule
+      const normalizedBurned = isBurnedOwner(char.owner_address, char.burned)
       if (!rawLoc) {
-        return { ...char, location: null } as CharacterWithLocation
+        return { ...char, burned: normalizedBurned, location: null } as CharacterWithLocation
       }
       return {
         ...char,
+        burned: normalizedBurned,
         location: {
           id: rawLoc.id,
           name: rawLoc.name,

@@ -13,11 +13,13 @@ import { useState, useRef, useEffect, useCallback, useMemo } from 'react';
 import { useAccount } from 'wagmi';
 import { useMapData } from '@/hooks/map/useMapData';
 import { useMapLayers } from '@/hooks/map/useMapLayers';
-import { EventBus, MapEvents, type MapCharacterData, type MarkerPayload, type MapLocationData } from '@/game/EventBus';
+import { EventBus, MapEvents, type MapCharacterData, type MarkerPayload, type MapLocationData, type MapEventData, type MapEventsData } from '@/game/EventBus';
+import { isBurnedOwner } from '@/lib/utils/blockchain';
 import { Spinner } from '@/components/ui';
 import MapStakingSidebar from '@/components/map/MapStakingSidebar';
 import type { IRefPhaserGame } from '@/game/PhaserGame';
 import type { Location } from '@/lib/types/map';
+import { parseChainLocationId } from '@/lib/utils/chainIds';
 import type { CharacterWithLocation } from '@/lib/repositories/character-repository';
 
 // Dynamically import PhaserGame to avoid SSR issues
@@ -70,7 +72,7 @@ export default function MapPage() {
   // Normalize wallet address for case-insensitive comparison
   const walletLower = useMemo(() => (address ? address.toLowerCase() : null), [address]);
 
-  const { locations, stakedCharacters, isLoading, error } = useMapData();
+  const { locations, stakedCharacters, isLoading, error, refetch } = useMapData();
   const { layers, toggleLayer } = useMapLayers();
 
   const stakedByLocationId = useMemo((): Map<string, CharacterWithLocation[]> => {
@@ -107,6 +109,7 @@ export default function MapPage() {
 
   // Staking selection (sticky, location-only updates)
   const [selectedStakingLocation, setSelectedStakingLocation] = useState<SelectedStakingLocation | null>(null);
+  const [selectedStakingError, setSelectedStakingError] = useState<string | null>(null);
 
   const handleSceneReady = useCallback(() => {
     setMapReady(true);
@@ -123,6 +126,7 @@ export default function MapPage() {
         id: locationData.id,
         name: locationData.name,
         description: locationData.description,
+        chain_location_id: locationData.chain_location_id,
         metadata: {
           bounds: locationData.metadata?.bounds ?? [[0, 0], [0, 0]],
           center: locationData.metadata?.center,
@@ -131,13 +135,20 @@ export default function MapPage() {
         updated_at: locationData.updated_at ?? '',
       };
 
-      try {
-        const locationId = BigInt(location.id);
-        setSelectedStakingLocation({ location, locationId });
-      } catch {
-        // Keep existing selection sticky; do not clear if conversion fails
+      const chainLocationId = parseChainLocationId(location.id);
+
+      if (chainLocationId === null) {
+        console.warn(`Location "${location.id}" has no valid chain_location_id`);
+        setSelectedStakingError('This location is not registered on-chain. Staking is unavailable.');
+        setSelectedStakingLocation(null);
+      } else {
+        setSelectedStakingError(null);
+        setSelectedStakingLocation({ location, locationId: chainLocationId });
       }
+      return;
     }
+
+    setSelectedStakingError(null);
   }, []);
 
   useEffect(() => {
@@ -222,6 +233,49 @@ export default function MapPage() {
     EventBus.emit(MapEvents.UPDATE_CHARACTERS, mapCharacterMarkers);
   }, [mapCharacterMarkers, mapReady]);
 
+  // Build death events for burned staked characters ("Fallen Warriors")
+  // These show on the map as death markers, independent of wallet connection
+  // Offset from location center so they don't overlap with the main location pin
+  const fallenDeaths = useMemo((): MapEventData[] => {
+    // Offset distance in pixels from the location center
+    const OFFSET_DISTANCE = 35;
+
+    return stakedCharacters
+      .filter((c) => isBurnedOwner(c.owner_address, c.burned))
+      .flatMap((c, index) => {
+        const center = c.location?.metadata?.center;
+        if (!Array.isArray(center) || center.length !== 2) return [];
+
+        // Spread multiple fallen warriors in a circle around the location
+        // Use index to create different angles for each marker
+        const angle = (index * 137.5 * Math.PI) / 180; // Golden angle for even distribution
+        const offsetX = Math.cos(angle) * OFFSET_DISTANCE;
+        const offsetY = Math.sin(angle) * OFFSET_DISTANCE;
+
+        return [{
+          id: `fallen-${c.token_id}`,
+          title: `Fallen Warrior #${c.token_id}`,
+          name: c.name || c.metadata?.name || `Character #${c.token_id}`,
+          htmlcoordinates: [center[0] + offsetX, center[1] + offsetY] as [number, number],
+          character_token_id: c.token_id,
+        }];
+      });
+  }, [stakedCharacters]);
+
+  // Combined events payload for map
+  const eventsPayload = useMemo((): MapEventsData => ({
+    burns: [],
+    deaths: fallenDeaths,
+    fights: [],
+  }), [fallenDeaths]);
+
+  // Emit events to Phaser (includes fallen warrior deaths)
+  useEffect(() => {
+    if (!mapReady) return;
+    // Always emit even if empty, so Phaser can reconcile and remove stale event markers
+    EventBus.emit(MapEvents.UPDATE_EVENTS, eventsPayload);
+  }, [mapReady, eventsPayload]);
+
   // When the sidebar pushes the content, the Phaser container width changes.
   // Nudge Phaser to resize; if the scale manager supports resize, call it explicitly.
   useEffect(() => {
@@ -253,7 +307,7 @@ export default function MapPage() {
           <h2 className="text-xl font-eskapade  tracking-widest text-neutral-200 mb-2">
             Error Loading Map
           </h2>
-          <p className="text-neutral-500 font-eskapade mb-6">{error.message}</p>
+          <p className="text-neutral-500 font-eskapade mb-6">{error}</p>
           <button
             onClick={() => window.location.reload()}
             className="px-6 py-2 bg-soul-accent text-black font-eskapade  text-sm hover:bg-soul-accent/80 transition-colors"
@@ -380,6 +434,24 @@ export default function MapPage() {
             </p>
           </div>
         )}
+
+        {/* Staking sidebar toggle button */}
+        {mapReady && !isSidebarOpen && (
+          <button
+            type="button"
+            onClick={() => {
+              setSelectedMarker(null);
+              setIsSidebarOpen(true);
+            }}
+            className="absolute top-4 right-4 z-30 flex items-center gap-2 px-4 py-2.5 rounded-lg bg-neutral-900/90 border border-neutral-800 hover:border-soul-accent/50 hover:bg-neutral-900 transition-all shadow-lg backdrop-blur-sm"
+          >
+            <svg className="w-5 h-5 text-soul-accent" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M17.657 18.657A8 8 0 016.343 7.343S7 9 9 10c0-2 .5-5 2.986-7C14 5 16.09 5.777 17.656 7.343A7.975 7.975 0 0120 13a7.975 7.975 0 01-2.343 5.657z" />
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M9.879 16.121A3 3 0 1012.015 11L11 14H9c0 .768.293 1.536.879 2.121z" />
+            </svg>
+            <span className="text-sm text-neutral-200 font-eskapade">Manage Staking</span>
+          </button>
+        )}
       </div>
 
       {/* Right sidebar */}
@@ -389,7 +461,9 @@ export default function MapPage() {
         selectedMarker={selectedMarker}
         stakedHere={stakedHere}
         selectedLocation={selectedStakingLocation}
+        selectedLocationError={selectedStakingError}
         walletAddress={address}
+        onStakingChanged={refetch}
       />
     </div>
   );

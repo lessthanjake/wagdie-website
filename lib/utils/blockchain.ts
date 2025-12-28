@@ -4,6 +4,37 @@
 import { Address } from '@/types/blockchain'
 import { isAddress, getAddress } from 'viem'
 
+/**
+ * The Ethereum zero address
+ */
+export const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000' as const
+
+/**
+ * The "dead" address - common burn address used by WAGDIE
+ * Characters sent to this address are considered burned (Fallen Warriors)
+ */
+export const DEAD_ADDRESS = '0x000000000000000000000000000000000000dead' as const
+
+/**
+ * Check if an address is a burn address (zero or dead address)
+ * Case-insensitive comparison
+ */
+export function isBurnAddress(address?: string | null): boolean {
+  if (!address) return false
+  const normalized = address.toLowerCase()
+  return normalized === ZERO_ADDRESS.toLowerCase() || normalized === DEAD_ADDRESS.toLowerCase()
+}
+
+/**
+ * Determine if a character is burned based on owner address and optional burned flag
+ * A character is burned if:
+ * - owner_address is the zero address or dead address, OR
+ * - the burned flag is explicitly true
+ */
+export function isBurnedOwner(ownerAddress?: string | null, burnedFlag?: boolean | null): boolean {
+  return isBurnAddress(ownerAddress) || burnedFlag === true
+}
+
 export function validateAddress(address: string): boolean {
   return isAddress(address)
 }

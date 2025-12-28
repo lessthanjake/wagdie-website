@@ -68,6 +68,18 @@ export function CharacterCard({ character, onClick, className = '' }: CharacterC
         {/* Status Badges */}
         <div className="absolute top-2 right-2 flex flex-col gap-1">
           <OwnershipBadge tokenId={BigInt(character.token_id)} />
+          {/* Dead badge for burned+staked characters */}
+          {character.burned && character.location_id && (
+            <span className="px-2 py-0.5 bg-red-950/80 border border-red-800/50 text-red-300 text-caption font-display tracking-widest">
+              Dead
+            </span>
+          )}
+          {/* Fallen badge for burned but not staked */}
+          {character.burned && !character.location_id && (
+            <span className="px-2 py-0.5 bg-neutral-900/80 border border-neutral-700/50 text-neutral-400 text-caption font-display tracking-widest">
+              Fallen
+            </span>
+          )}
           {character.infection_status === 'infected' && (
             <span className="px-2 py-0.5 bg-red-950/80 border border-red-900/50 text-red-400 text-caption font-display tracking-widest">
               Infected
@@ -78,7 +90,8 @@ export function CharacterCard({ character, onClick, className = '' }: CharacterC
               Cured
             </span>
           )}
-          {character.staking_status === 'staked' && (
+          {/* Staked badge only for non-burned staked characters */}
+          {character.staking_status === 'staked' && !character.burned && (
             <span className="px-2 py-0.5 bg-blue-950/80 border border-blue-900/50 text-blue-400 text-caption font-display tracking-widest">
               Staked
             </span>
