@@ -65,6 +65,7 @@ async function fetchCharacters(
       'Accept': 'application/json',
     },
     signal,
+    cache: 'no-store',
   })
 
   if (!res.ok) {

@@ -19,6 +19,121 @@ import {
   showErrorToast,
 } from '@/lib/utils/toast'
 
+type SyncStakingApiResult = {
+  tokenId: number
+  success: boolean
+  locationId: string | null
+  chainLocationId: string
+  error?: string
+}
+
+type SyncStakingApiResponse = {
+  results: SyncStakingApiResult[]
+  error?: string
+}
+
+function buildSyncFailureMessage(params: {
+  tokenId: number
+  responseOk: boolean
+  status: number
+  payload: SyncStakingApiResponse | null
+}): string {
+  const { tokenId, responseOk, status, payload } = params
+
+  if (!responseOk) {
+    const serverMessage =
+      payload && typeof payload.error === 'string' && payload.error.trim().length > 0
+        ? payload.error.trim()
+        : `Request failed (${status})`
+    return `Failed to sync staking state for #${tokenId}: ${serverMessage}`
+  }
+
+  if (payload?.error && payload.error.trim().length > 0) {
+    return `Failed to sync staking state for #${tokenId}: ${payload.error.trim()}`
+  }
+
+  const results = Array.isArray(payload?.results) ? payload!.results : []
+  const failed = results.filter((r) => !r.success)
+
+  if (failed.length > 0) {
+    const first = failed[0]
+    const reason =
+      typeof first?.error === 'string' && first.error.trim().length > 0
+        ? first.error.trim()
+        : 'Unknown error'
+    return `Failed to sync staking state for #${tokenId}: ${reason}`
+  }
+
+  return `Failed to sync staking state for #${tokenId}`
+}
+
+async function syncStakingStateToDb(params: {
+  tokenId: number
+  action: 'stake' | 'unstake'
+}): Promise<void> {
+  const { tokenId, action } = params
+
+  try {
+    const response = await fetch('/api/sync/staking', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ tokenIds: [tokenId] }),
+    })
+
+    let payload: SyncStakingApiResponse | null = null
+    try {
+      payload = (await response.json()) as SyncStakingApiResponse
+    } catch (parseError) {
+      payload = null
+      console.warn('[useStaking] Failed to parse /api/sync/staking JSON:', {
+        tokenId,
+        action,
+        status: response.status,
+        parseError: parseError instanceof Error ? parseError.message : String(parseError),
+      })
+    }
+
+    const results = Array.isArray(payload?.results) ? payload!.results : []
+    const failedResults = results.filter((r) => !r.success)
+    const hasFailure = !response.ok || !!payload?.error || failedResults.length > 0
+
+    if (hasFailure) {
+      const message = buildSyncFailureMessage({
+        tokenId,
+        responseOk: response.ok,
+        status: response.status,
+        payload,
+      })
+
+      console.warn('[useStaking] /api/sync/staking failed:', {
+        tokenId,
+        action,
+        status: response.status,
+        ok: response.ok,
+        payload,
+      })
+
+      showErrorToast('Staking Sync Failed', message)
+      return
+    }
+
+    if (process.env.NODE_ENV === 'development') {
+      console.debug('[useStaking] /api/sync/staking succeeded:', { tokenId, action, payload })
+    }
+  } catch (syncError) {
+    console.warn('[useStaking] Failed to sync staking state to DB:', {
+      tokenId,
+      action,
+      error: syncError instanceof Error ? syncError.message : String(syncError),
+    })
+    showErrorToast(
+      'Staking Sync Failed',
+      `Failed to sync staking state for #${tokenId}. Please refresh and try again.`
+    )
+    logError(syncError, 'syncStakingStateToDb')
+  }
+}
+
 interface UseStakingResult {
   isStaking: boolean
   isUnstaking: boolean
@@ -297,15 +412,7 @@ export function useStaking(): UseStakingResult {
           })
           showTransactionSuccessToast(result.hash, 'Character staked successfully!')
 
-          try {
-            await fetch('/api/sync/staking', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ tokenIds: [wagdieId] }),
-            })
-          } catch (syncError) {
-            console.warn('[useStaking] Failed to sync staking state to DB:', syncError)
-          }
+          await syncStakingStateToDb({ tokenId: wagdieId, action: 'stake' })
         }
       }
     } catch (err) {
@@ -402,15 +509,7 @@ export function useStaking(): UseStakingResult {
           })
           showTransactionSuccessToast(result.hash, 'Character unstaked successfully!')
 
-          try {
-            await fetch('/api/sync/staking', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/json' },
-              body: JSON.stringify({ tokenIds: [wagdieId] }),
-            })
-          } catch (syncError) {
-            console.warn('[useStaking] Failed to sync staking state to DB:', syncError)
-          }
+          await syncStakingStateToDb({ tokenId: wagdieId, action: 'unstake' })
         }
       }
     } catch (err) {

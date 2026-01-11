@@ -5,6 +5,7 @@ import type { ContractError, StakingStatus } from '@/types/blockchain'
 
 export interface UseStakingStatusesOptions {
   enabled?: boolean
+  source?: 'db' | 'chain'
 }
 
 export interface UseStakingStatusesResult {
@@ -42,14 +43,16 @@ function buildStatusesMap(apiStatuses: ApiStakingStatus[]): Map<number, StakingS
 
 async function fetchStakingStatusFromApi(
   tokenIds: number[],
+  source: 'db' | 'chain',
   signal: AbortSignal
 ): Promise<{ statuses: ApiStakingStatus[]; error?: string }> {
-  const url = `/api/characters/staking-status?tokenIds=${tokenIds.join(',')}`
+  const url = `/api/characters/staking-status?tokenIds=${tokenIds.join(',')}&source=${source}`
 
   const response = await fetch(url, {
     method: 'GET',
     headers: { Accept: 'application/json' },
     signal,
+    cache: 'no-store',
   })
 
   if (!response.ok) {
@@ -65,6 +68,7 @@ export function useStakingStatuses(
   options?: UseStakingStatusesOptions
 ): UseStakingStatusesResult {
   const enabled = options?.enabled ?? true
+  const source: 'db' | 'chain' = options?.source ?? 'db'
 
   const [statuses, setStatuses] = useState<Map<number, StakingStatus>>(
     () => new Map()
@@ -102,6 +106,7 @@ export function useStakingStatuses(
     try {
       const result = await fetchStakingStatusFromApi(
         stableWagdieIds,
+        source,
         controller.signal
       )
 
@@ -136,7 +141,7 @@ export function useStakingStatuses(
         setIsLoading(false)
       }
     }
-  }, [enabled, stableWagdieIds])
+  }, [enabled, stableWagdieIds, source])
 
   useEffect(() => {
     if (!enabled) return

@@ -189,12 +189,13 @@ export default function MapPage() {
 
     for (const c of stakedCharacters) {
       // Only render pins for the connected wallet's characters.
-      // owner_address should already be stored lowercase in DB, but normalize defensively.
-      const ownerLower =
-        typeof c.owner_address === 'string' && c.owner_address.length > 0
-          ? c.owner_address.toLowerCase()
+      // When a character is staked, owner_address becomes the staking contract; staker_address tracks the wallet that staked it.
+      const effectiveOwner = c.staker_address ?? c.owner_address;
+      const effectiveOwnerLower =
+        typeof effectiveOwner === 'string' && effectiveOwner.length > 0
+          ? effectiveOwner.toLowerCase()
           : null;
-      if (!ownerLower || ownerLower !== walletLower) continue;
+      if (!effectiveOwnerLower || effectiveOwnerLower !== walletLower) continue;
 
       // Now properly typed as CharacterWithLocation with location?: JoinedLocation | null
       const joinedLocation = c.location;
@@ -214,7 +215,7 @@ export default function MapPage() {
       out.push({
         character_token_id: c.token_id,
         character_name: characterName,
-        wallet_address: c.owner_address ?? undefined,
+        wallet_address: effectiveOwner ?? undefined,
         location: {
           id: joinedLocation.id,
           name: joinedLocation.name,
