@@ -126,6 +126,7 @@ export function useMapData() {
         {
           method: 'GET',
           headers: { Accept: 'application/json' },
+          cache: 'no-store',
         }
       );
 

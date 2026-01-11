@@ -5,6 +5,7 @@ import { decodeEventLog, type Log } from 'viem'
 import { enqueueBurn, enqueueTravel } from '../discord/outbox'
 import type { IndexerContext } from '../discord/types'
 import { batchUpsert } from './utils/batch-upsert'
+import { syncStakingState } from '../../lib/services/sync/staking-state-sync'
 
 export interface StakingHandleResult {
   highestBlock: bigint | null
@@ -333,6 +334,70 @@ export async function handleStakingLogs(
           log(`${action}: token ${record.token_id} at location ${record.location_id}`)
         }
       }
+    }
+
+    try {
+      const chainId = typeof ctx?.chainId === 'number' ? ctx.chainId : 1
+
+      const tokenIds = Array.from(
+        new Set(
+          records
+            .map((r) => r.token_id)
+            .filter((id) => typeof id === 'number' && Number.isInteger(id) && id > 0)
+        )
+      )
+
+      if (tokenIds.length > 0) {
+        // Avoid extremely large multicalls; chunk conservatively for RPC reliability.
+        const chunkSize = 200
+
+        let successCount = 0
+        let failureCount = 0
+        const failures: Array<{ tokenId: number; error?: string }> = []
+
+        for (let i = 0; i < tokenIds.length; i += chunkSize) {
+          const chunk = tokenIds.slice(i, i + chunkSize)
+
+          const { results: syncResults } = await syncStakingState({
+            tokenIds: chunk,
+            chainId,
+          })
+
+          for (const r of syncResults) {
+            if (r.success) {
+              successCount += 1
+            } else {
+              failureCount += 1
+              failures.push({ tokenId: r.tokenId, error: r.error })
+            }
+          }
+        }
+
+        if (failureCount > 0) {
+          log(
+            `Staking state sync: ${successCount} succeeded, ${failureCount} failed (chainId=${chainId})`
+          )
+
+          const sample = failures.slice(0, 10)
+          for (const f of sample) {
+            log(
+              `Staking state sync failed for token ${f.tokenId}: ${typeof f.error === 'string' && f.error.length > 0 ? f.error : 'Unknown error'}`
+            )
+          }
+
+          if (failures.length > sample.length) {
+            log(`Staking state sync failures truncated: showing ${sample.length}/${failures.length}`)
+          }
+        } else {
+          log(`Staking state sync: ${successCount} succeeded (chainId=${chainId})`)
+        }
+      }
+    } catch (err) {
+      const message = err instanceof Error ? err.message : String(err)
+      console.warn(
+        '[staking-handler] Warning: failed to sync staking state to wagdie_characters:',
+        message
+      )
     }
 
     // Enqueue Discord notifications after successful insert
