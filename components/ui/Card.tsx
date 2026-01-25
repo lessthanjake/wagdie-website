@@ -1,7 +1,7 @@
 import React from 'react';
 
 export const Card = React.memo<React.HTMLAttributes<HTMLDivElement>>(({ className = '', ...props }) => (
-  <div className={`bg-soul-900/60 backdrop-blur-md border border-midnight-light/50 shadow-2xl relative overflow-hidden group ${className}`} {...props}>
+  <div className={`bg-soul-900/40 backdrop-blur-md border border-soul-900/50 shadow-2xl relative overflow-hidden group ${className}`} {...props}>
     {/* Subtle inner shine */}
     {props.children}
   </div>

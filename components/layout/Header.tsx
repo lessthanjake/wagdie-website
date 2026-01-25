@@ -3,6 +3,7 @@
 import React from 'react';
 import { useState, useEffect } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { Navigation } from './Navigation'
 import { WalletButton } from '@/components/wallet/WalletButton'
 import { lockBodyScroll, unlockBodyScroll } from '@/lib/utils/bodyScrollLock'
@@ -14,7 +15,6 @@ import { lockBodyScroll, unlockBodyScroll } from '@/lib/utils/bodyScrollLock'
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [isDrawerOpen, setIsDrawerOpen] = useState(false)
-  const [darkMode, setDarkMode] = useState(true)
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen)
@@ -32,12 +32,10 @@ export function Header() {
     setIsDrawerOpen(false)
   }
 
-  // TODO: Wire up dark mode toggle in UI
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const _toggleDarkMode = () => {
-    setDarkMode(!darkMode)
-    document.documentElement.classList.toggle('dark')
-  }
+  // Ensure dark mode is always active
+  useEffect(() => {
+    document.documentElement.classList.add('dark')
+  }, [])
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -64,10 +62,18 @@ export function Header() {
           <Link
             href="/"
             onClick={scrollToTop}
-            className="text-2xl font-display text-neutral-200 hover:text-soul-accent transition-colors duration-300 cursor-pointer"
+            className="flex items-center gap-2 group transition-all duration-300"
             title="Scroll to top"
           >
-            Wagdie
+            <div className="relative w-32 h-8 md:w-40 md:h-10">
+              <Image
+                src="/images/wagdielogo.png"
+                alt="WAGDIE"
+                fill
+                className="object-contain group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-500"
+                priority
+              />
+            </div>
           </Link>
 
           {/* Desktop Navigation */}

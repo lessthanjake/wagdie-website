@@ -13,6 +13,8 @@ import { FilterSidebar } from '@/components/characters/FilterSidebar'
 import { CharacterCard } from '@/components/characters/CharacterCard'
 import { ActiveFilters } from '@/components/characters/ActiveFilters'
 import { Alert, Spinner, Pagination, Empty } from '@/components/ui'
+import { ScrollToTop } from '@/components/shared/ScrollToTop'
+import { motion } from 'framer-motion'
 import { useCharacters } from '@/hooks/useCharacters'
 import { useOrigins } from '@/hooks/useOrigins'
 import { useAlignments } from '@/hooks/useAlignments'
@@ -242,7 +244,7 @@ function CharactersPageContent() {
   }
 
   return (
-    <div className="min-h-screen bg-soul-950">
+    <div className="min-h-screen">
       <BannerHeader
         title="Characters"
         subtitle="Explore the WAGDIE collection - 6,666 unique characters"
@@ -325,9 +327,10 @@ function CharactersPageContent() {
 
             {isError && (
               <Alert
-                variant="error"
+                variant="destructive"
                 title="Error"
                 className="mb-8"
+                role="alert"
               >
                 Failed to load characters. Please try again.
               </Alert>
@@ -357,7 +360,20 @@ function CharactersPageContent() {
                   )}
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 mb-12">
+                <motion.div
+                  initial="hidden"
+                  animate="show"
+                  variants={{
+                    hidden: { opacity: 0 },
+                    show: {
+                      opacity: 1,
+                      transition: {
+                        staggerChildren: 0.05
+                      }
+                    }
+                  }}
+                  className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 mb-12"
+                >
                   {characters.filter(character => character && character.token_id).map((character) => (
                     <CharacterCard
                       key={character.token_id}
@@ -365,11 +381,11 @@ function CharactersPageContent() {
                       onClick={handleCharacterClick}
                     />
                   ))}
-                </div>
+                </motion.div>
 
                 {/* Pagination */}
                 {totalPages > 1 && (
-                  <div className="flex justify-center py-8 border-t border-neutral-800">
+                  <div className="flex justify-center py-8  border-neutral-800">
                     <Pagination
                       currentPage={page}
                       totalPages={totalPages}

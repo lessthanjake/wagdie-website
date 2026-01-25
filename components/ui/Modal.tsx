@@ -112,7 +112,7 @@ export const Modal = React.memo<ModalProps>(({
     >
       {/* Backdrop */}
       <div
-        className="absolute inset-0 bg-abyss/80 backdrop-blur-md"
+        className="absolute inset-0 bg-soul-950/90 backdrop-blur-md"
         onClick={handleBackdropClick}
         aria-hidden="true"
       />
@@ -125,19 +125,19 @@ export const Modal = React.memo<ModalProps>(({
         aria-labelledby={`${modalId.current}-title`}
         aria-describedby={`${modalId.current}-body`}
         className={`
-          relative w-full max-w-lg bg-soul-950/95 backdrop-blur-xl border border-midnight-light/50 shadow-2xl
+          relative w-full max-w-lg bg-soul-950/95 backdrop-blur-xl border border-soul-900/50 shadow-2xl
           transform transition-all duration-300
           ${isOpen ? 'scale-100 translate-y-0' : 'scale-95 translate-y-4'}
         `}
       >
         {/* Decorative Corners */}
-        <div className="absolute -top-1 -left-1 w-4 h-4 border-t-2 border-l-2 border-soul-accent/50" aria-hidden="true" />
-        <div className="absolute -top-1 -right-1 w-4 h-4 border-t-2 border-r-2 border-soul-accent/50" aria-hidden="true" />
-        <div className="absolute -bottom-1 -left-1 w-4 h-4 border-b-2 border-l-2 border-soul-accent/50" aria-hidden="true" />
-        <div className="absolute -bottom-1 -right-1 w-4 h-4 border-b-2 border-r-2 border-soul-accent/50" aria-hidden="true" />
+        <div className="absolute -top-1 -left-1 w-4 h-4 border-t-2 border-l-2 border-soul-accent/30" aria-hidden="true" />
+        <div className="absolute -top-1 -right-1 w-4 h-4 border-t-2 border-r-2 border-soul-accent/30" aria-hidden="true" />
+        <div className="absolute -bottom-1 -left-1 w-4 h-4 border-b-2 border-l-2 border-soul-accent/30" aria-hidden="true" />
+        <div className="absolute -bottom-1 -right-1 w-4 h-4 border-b-2 border-r-2 border-soul-accent/30" aria-hidden="true" />
 
         {/* Header */}
-        <div className="flex items-center justify-between p-6 border-b border-midnight-light/30">
+        <div className="flex items-center justify-between p-6 border-b border-soul-900/30">
           <h3
             id={`${modalId.current}-title`}
             className="text-xl font-display tracking-widest text-bone"

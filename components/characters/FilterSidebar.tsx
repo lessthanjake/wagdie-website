@@ -324,7 +324,7 @@ export function FilterSidebar({
             </div>
 
             {/* Equipment Filters Section */}
-            <div className="p-4 border-b border-neutral-800/50">
+            <div className="p-4">
               <label className="block text-xs font-eskapade text-neutral-500 mb-3 tracking-wider">
                 EQUIPMENT FILTERS
               </label>

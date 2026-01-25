@@ -9,8 +9,7 @@
 }
 
 ::-webkit-scrollbar-track {
-  background: #0C0C0C; /* soul-950 */
-  border-left: 1px solid #1a1410; /* soul-900 border */
+  @apply bg-soul-950 border-l border-soul-900;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -27,31 +26,30 @@
 }
 
 ::-webkit-scrollbar-corner {
-  background: #0C0C0C; /* soul-950 */
+  @apply bg-soul-950;
 }
 
 /* Firefox scrollbar */
 * {
   scrollbar-width: thin;
-  scrollbar-color: #3d3528 #0C0C0C;
+  scrollbar-color: #3d3528 #0c0c0c;
 }
 
 /* Custom font faces */
 @font-face {
-  font-family: 'Wagdie Fraktur';
-  src: url('/fonts/HoldMoney-Regular.ttf') format('truetype');
+  font-family: "Wagdie Fraktur";
+  src: url("/fonts/HoldMoney-Regular.ttf") format("truetype");
   font-display: swap;
 }
 
 @font-face {
-  font-family: 'Eskapade Fraktur';
-  src: url('/fonts/EskapadeFraktur-Black.ttf') format('truetype');
+  font-family: "Eskapade Fraktur";
+  src: url("/fonts/EskapadeFraktur-Black.ttf") format("truetype");
   font-display: swap;
 }
 
 @layer base {
   /* Base body text uses Eskapade */
-  /* REPOMARK:SCOPE: 1 - Replace hardcoded body font-family with Tailwind token via @apply font-eskapade */
   body {
     @apply font-eskapade;
   }
@@ -79,7 +77,7 @@
 
   /* Body text - uses Eskapade */
   .body-text {
-    @apply text-body font-eskapade text-neutral-400;
+    @apply text-body font-eskapade text-ash;
   }
 
   .body-text-sm {
@@ -87,28 +85,18 @@
   }
 
   /* Labels and captions */
-  /* REPOMARK:SCOPE: 2 - Switch .form-label from font-display to font-eskapade (UI font contract) */
   .form-label {
-    @apply text-caption font-eskapade tracking-widest uppercase text-neutral-500;
+    @apply text-caption font-eskapade tracking-widest uppercase text-mist;
   }
 
   .caption-text {
-    @apply text-caption font-eskapade text-neutral-500;
+    @apply text-caption font-eskapade text-mist;
   }
 
   /* Form inputs - consistent sizing */
   .form-input {
-    @apply text-body font-eskapade bg-transparent border-b border-neutral-800
+    @apply text-body font-eskapade bg-transparent border-b border-soul-900
            focus:border-soul-accent focus:outline-none transition-colors;
-  }
-
-  /* Legacy button styles - DEPRECATED: Use Button component from @/components/ui instead */
-  .btn-primary {
-    @apply px-4 py-2 bg-blood hover:bg-ember text-bone font-semibold rounded-md transition-colors duration-200;
-  }
-
-  .btn-secondary {
-    @apply px-4 py-2 bg-midnight hover:bg-shadow text-bone rounded-md border border-ash transition-colors duration-200;
   }
 
   /* Navigation link styles */
@@ -121,7 +109,7 @@
   }
 
   .nav-link.active::after {
-    content: '';
+    content: "";
     @apply absolute bottom-0 left-0 right-0 h-0.5 bg-gold;
   }
 }

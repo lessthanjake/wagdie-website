@@ -7,6 +7,7 @@
 
 import React, { useState } from 'react';
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 import { Card, CardContent, Badge } from '@/components/ui'
 import type { Character } from '@/types/character'
 import { OwnershipBadge } from '@/components/OwnershipVerificationBanner'
@@ -49,14 +50,21 @@ export function CharacterCard({ character, onClick, className = '' }: CharacterC
   }
 
   return (
-    <Card
-      onClick={() => onClick?.(character.token_id)}
-      onKeyDown={handleKeyDown}
-      tabIndex={onClick ? 0 : undefined}
-      role={onClick ? 'button' : undefined}
-      aria-label={onClick ? `View ${name}` : undefined}
-      className={`group overflow-hidden cursor-pointer transition-all duration-500 hover:border-soul-accent/40 hover:shadow-[0_0_20px_rgba(200,170,110,0.1)] focus:outline-none focus-visible:ring-2 focus-visible:ring-soul-accent focus-visible:ring-offset-2 focus-visible:ring-offset-soul-950 ${className}`}
+    <motion.div
+      variants={{
+        hidden: { opacity: 0, y: 20 },
+        show: { opacity: 1, y: 0 }
+      }}
+      transition={{ duration: 0.5, ease: 'easeOut' }}
     >
+      <Card
+        onClick={() => onClick?.(character.token_id)}
+        onKeyDown={handleKeyDown}
+        tabIndex={onClick ? 0 : undefined}
+        role={onClick ? 'button' : undefined}
+        aria-label={onClick ? `View ${name}` : undefined}
+        className={`group overflow-hidden cursor-pointer transition-all duration-500 hover:border-soul-accent/40 hover:shadow-[0_0_20px_rgba(200,170,110,0.1)] focus:outline-none focus-visible:ring-2 focus-visible:ring-soul-accent focus-visible:ring-offset-2 focus-visible:ring-offset-soul-950 ${className}`}
+      >
       {/* Character Image */}
       <div className="relative w-full aspect-square overflow-hidden bg-neutral-900">
         {/* Loading skeleton */}
@@ -104,7 +112,11 @@ export function CharacterCard({ character, onClick, className = '' }: CharacterC
           )}
           {/* Staked badge only for non-burned staked characters */}
           {character.staking_status === 'staked' && !character.burned && (
-            <span className="px-2 py-0.5 bg-blue-950/80 border border-blue-900/50 text-blue-400 text-caption font-display tracking-widest">
+            <span 
+              className="px-2 py-0.5 bg-blue-950/80 border border-blue-900/50 text-blue-400 text-caption font-display tracking-widest"
+              role="status"
+              aria-label="Character is currently staked"
+            >
               Staked
             </span>
           )}
@@ -129,6 +141,7 @@ export function CharacterCard({ character, onClick, className = '' }: CharacterC
           </p>
         )}
       </CardContent>
-    </Card>
+      </Card>
+    </motion.div>
   )
 }

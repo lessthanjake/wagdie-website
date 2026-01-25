@@ -10,6 +10,7 @@ import { CharacterCard } from './CharacterCard'
 import { InfiniteScroll } from '@/components/shared/InfiniteScroll'
 import type { Character } from '@/types/character'
 import { useRouter } from 'next/navigation'
+import { motion } from 'framer-motion'
 
 interface TokenFeedProps {
   characters: Character[]
@@ -60,7 +61,20 @@ export function TokenFeed({
       className={className}
     >
       {/* Responsive Grid: 1 col mobile, 2 col tablet, 5 col desktop */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6">
+      <motion.div
+        initial="hidden"
+        animate="show"
+        variants={{
+          hidden: { opacity: 0 },
+          show: {
+            opacity: 1,
+            transition: {
+              staggerChildren: 0.1
+            }
+          }
+        }}
+        className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6"
+      >
         {characters.filter(character => character && character.token_id).map((character) => (
           <CharacterCard
             key={character.token_id}
@@ -68,7 +82,7 @@ export function TokenFeed({
             onClick={handleCharacterClick}
           />
         ))}
-      </div>
+      </motion.div>
     </InfiniteScroll>
   )
 }

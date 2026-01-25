@@ -2,6 +2,7 @@
 
 import Link from 'next/link'
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { motion, AnimatePresence } from 'framer-motion'
 import { useAccount, useChainId } from 'wagmi'
 import type { MarkerPayload, MapLocationData, MapCharacterData, MapEventData } from '@/game/EventBus'
 import type { Location } from '@/lib/types/map'
@@ -200,7 +201,6 @@ export function MapStakingSidebar({
   const chainError = !isCorrectChain ? 'Switch to Ethereum Mainnet to stake' : null
 
   const panelRef = useRef<HTMLDivElement | null>(null)
-  const [visible, setVisible] = useState(false)
   const [activeTab, setActiveTab] = useState<string>('your-characters')
 
   const [approvalState, setApprovalState] = useState<ApprovalState>('idle')
@@ -292,14 +292,7 @@ export function MapStakingSidebar({
     setPage(0)
   }, [effectiveWallet])
 
-  useEffect(() => {
-    if (isOpen) {
-      setVisible(true)
-      return
-    }
-    const timer = window.setTimeout(() => setVisible(false), 300)
-    return () => window.clearTimeout(timer)
-  }, [isOpen])
+  // Keyboard handling for Escape
 
   useEffect(() => {
     const handleKeyDown = (e: KeyboardEvent) => {
@@ -437,38 +430,32 @@ export function MapStakingSidebar({
   const locationSelectionError =
     isLocationMarker && selectedLocationError ? selectedLocationError : null
 
-  if (!visible && !isOpen) return null
-
   return (
-    <div className="absolute inset-0 z-[60] pointer-events-none">
-      {/* Mobile scrim */}
-      <button
-        type="button"
-        aria-label="Close sidebar"
-        onClick={onClose}
-        className={`
-          absolute inset-0 md:hidden
-          bg-black/60 backdrop-blur-sm
-          transition-opacity duration-300
-          pointer-events-auto
-          ${isOpen ? 'opacity-100' : 'opacity-0'}
-        `}
-      />
+    <AnimatePresence>
+      {isOpen && (
+        <div className="absolute inset-0 z-[60] pointer-events-none">
+          {/* Mobile scrim */}
+          <motion.button
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            exit={{ opacity: 0 }}
+            transition={{ duration: 0.3 }}
+            type="button"
+            aria-label="Close sidebar"
+            onClick={onClose}
+            className="absolute inset-0 md:hidden bg-black/60 backdrop-blur-sm pointer-events-auto"
+          />
 
-      <div
-        ref={panelRef}
-        role="dialog"
-        aria-labelledby="map-sidebar-title"
-        className={`
-          pointer-events-auto
-          absolute top-0 right-0 h-full
-          w-full md:w-[460px]
-          bg-soul-950 border-l border-neutral-800
-          flex flex-col shadow-2xl md:rounded-l-2xl
-          transform transition-transform duration-300 ease-out
-          ${isOpen ? 'translate-x-0' : 'translate-x-full'}
-        `}
-      >
+          <motion.div
+            ref={panelRef}
+            role="dialog"
+            aria-labelledby="map-sidebar-title"
+            initial={{ x: '100%' }}
+            animate={{ x: 0 }}
+            exit={{ x: '100%' }}
+            transition={{ type: 'spring', damping: 25, stiffness: 200 }}
+            className="pointer-events-auto absolute top-0 right-0 h-full w-full md:w-[460px] bg-soul-950 border-l border-neutral-800 flex flex-col shadow-2xl md:rounded-l-2xl"
+          >
         {/* Header */}
         <div className="px-5 py-4 border-b border-neutral-800/80 bg-gradient-to-b from-soul-950 to-transparent flex items-center justify-between gap-3">
           <div className="min-w-0 flex-1">
@@ -892,8 +879,10 @@ export function MapStakingSidebar({
             </div>
           </div>
         )}
-      </div>
-    </div>
+          </motion.div>
+        </div>
+      )}
+    </AnimatePresence>
   )
 }
 

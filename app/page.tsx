@@ -1,7 +1,9 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from 'react';
+import Link from 'next/link';
 import { Layout, Button, Card, CardHeader, CardTitle, CardContent, CardDescription, Separator, AspectRatio, Blockquote, Badge } from '@/components/ui';
+import { ScrollToTop } from '@/components/shared/ScrollToTop';
 
 // --- Video Player Component ---
 const VIDEO_CONSENT_COOKIE = 'wagdie_video_consent';
@@ -205,12 +207,12 @@ export default function HomePage() {
             </p>
 
             <div className="flex gap-6">
-                <a href="/characters">
+                <Link href="/characters">
                   <Button className="h-12 px-8 text-base">Enter the Abyss</Button>
-                </a>
-                <a href="/lore">
+                </Link>
+                <Link href="/lore">
                   <Button variant="secondary" className="h-12 px-8 text-base">Read the Lore</Button>
-                </a>
+                </Link>
             </div>
         </div>
         
@@ -297,13 +299,13 @@ export default function HomePage() {
 
         {/* CTA Footer */}
         <section className="py-16 text-center relative overflow-hidden">
-          <div className="absolute inset-0 bg-soul-accent/5 blur-3xl rounded-full scale-150 opacity-20" />
+          <div className="absolute inset-0 blur-3xl rounded-full scale-150 opacity-20" />
 
           <div className="relative z-10 space-y-8">
             <h2 className="text-h2 md:text-h1 font-display text-neutral-200">
                 Ready to Enter the Abyss?
             </h2>
-            <p className="text-neutral-500 max-w-xl mx-auto text-body font-eskapade">
+            <p className="text-ash max-w-xl mx-auto text-body font-eskapade">
                 Join thousands of travelers exploring the dark world. The flame awaits your kindling.
             </p>
             <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
@@ -312,15 +314,16 @@ export default function HomePage() {
                   Join Discord
                   </Button>
                 </a>
-                <a href="/characters">
+                <Link href="/characters">
                   <Button variant="secondary" className="min-w-[200px] h-14 text-body">
                   Explore Characters
                   </Button>
-                </a>
+                </Link>
             </div>
           </div>
         </section>
       </div>
+      <ScrollToTop />
     </Layout>
   );
 }
