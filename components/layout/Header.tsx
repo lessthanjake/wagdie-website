@@ -14,7 +14,6 @@ import { lockBodyScroll, unlockBodyScroll } from '@/lib/utils/bodyScrollLock'
 export function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [isDrawerOpen, setIsDrawerOpen] = useState(false)
-  const [darkMode, setDarkMode] = useState(true)
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen)
@@ -30,13 +29,6 @@ export function Header() {
 
   const closeDrawer = () => {
     setIsDrawerOpen(false)
-  }
-
-  // TODO: Wire up dark mode toggle in UI
-  // eslint-disable-next-line @typescript-eslint/no-unused-vars
-  const _toggleDarkMode = () => {
-    setDarkMode(!darkMode)
-    document.documentElement.classList.toggle('dark')
   }
 
   const scrollToTop = () => {

@@ -9,7 +9,7 @@ This document describes the testing strategy, architecture, and guidelines for t
 Following the **Test-Driven Development (TDD)** approach and **Clean Architecture** principles:
 
 - **Unit Tests**: Test individual components in isolation with comprehensive mocking
-- **Integration Tests**: Test component interactions (currently in `tests/TODO-integration/`)
+- **Integration Tests**: Test component interactions (located in `tests/integration/`)
 - **Performance Tests**: Verify rendering and computation speed requirements
 - **Verification Tests**: Ensure shared components are used consistently
 
@@ -26,8 +26,8 @@ tests/
 │   │   ├── LayerController.test.tsx
 │   │   ├── performance-tests.test.tsx
 │   │   └── *-verification.test.tsx  # Verify shared component usage
-│   ├── integration/         # Integration tests (TODO)
-│   └── e2e/                 # End-to-end tests (TODO)
+│   ├── integration/         # Integration tests
+│   └── e2e/                 # End-to-end tests
 ├── utils/
 │   └── leaflet-mocks.ts     # Mock utilities for Leaflet components
 └── README.md               # This file
@@ -51,22 +51,22 @@ tests/
 
 ### All Tests
 ```bash
-npm test
+bun run test
 ```
 
 ### With Coverage Report
 ```bash
-npm test -- --coverage
+bun run test -- --coverage
 ```
 
 ### Specific Test File
 ```bash
-npm test -- IconFactory.test.ts
+bun run test -- IconFactory.test.ts
 ```
 
 ### Watch Mode
 ```bash
-npm test -- --watch
+bun run test -- --watch
 ```
 
 ## Mock Strategy
@@ -113,7 +113,7 @@ expect(screen.getByTestId('leaflet-marker')).toBeInTheDocument();
 ### Running Performance Tests
 
 ```bash
-npm test -- performance-tests.test.tsx
+bun run test -- performance-tests.test.tsx
 ```
 
 ### Performance Test Example
@@ -236,7 +236,7 @@ Tests run automatically on:
 
 ### TODO Integration Tests
 
-Move from `tests/TODO-integration/` when services are implemented:
+Move from `tests/integration/` when services are implemented:
 
 1. **useLocations hook**
 2. **useCharacterLocation hook**

@@ -1,6 +1,4 @@
 import { SiweMessage } from 'siwe'
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
-import { supabase } from '../supabase'
 
 /**
  * Generate a random nonce for SIWE authentication
@@ -40,8 +38,7 @@ export async function verifySiweMessage(
  * Note: This requires a 'users' table in Supabase which may not be created yet
  */
 export async function upsertUser(ethAddress: string) {
-  // TODO: Implement when users table is created in database
-  // For now, just return success since session management handles auth
+  // For now, just return success since session management handles auth.
   return { data: { eth_address: ethAddress }, error: null }
 
   /* Commented out until users table is created
