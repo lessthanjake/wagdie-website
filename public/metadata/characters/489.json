@@ -1,0 +1,94 @@
+{
+  "name": "Lost Worm of the Pyre",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/489.png",
+  "sheet": {
+    "name": "Lost Worm of the Pyre",
+    "level": 1,
+    "origin": "Worm Devotee",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Her Blessing",
+      "armor": "Death Dealer's Choice"
+    },
+    "attributes": {
+      "wisdom": 1,
+      "charisma": 0,
+      "strength": 1,
+      "dexterity": 1,
+      "constitution": 1,
+      "intelligence": 1
+    },
+    "hit_points": 1,
+    "tokenIdInt": 489,
+    "background_story": "Oh, little worm...how you failed to become nothing. Not even the Void would take you.\n\nTo the Pyre you fled so broken and lost.\n\nTo the Pyre, you give yourself, but not even the Pyre will take you.\n\nOh, little worm...so lost...so lost",
+    "experience_points": 0
+  },
+  "tokenId": "489",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Death Dealer's Choice",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Worm Devotee",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zaban Rough Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Blessing",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Worm Devotee",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Southern Plains Mask",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Pyre Doll",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Druids of the Southern Plains",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Oh, little worm...how you failed to become nothing. Not even the Void would take you.\n\nTo the Pyre you fled so broken and lost.\n\nTo the Pyre, you give yourself, but not even the Pyre will take you.\n\nOh, little worm...so lost...so lost",
+  "external_url": "https://fateofwagdie.com/characters/489",
+  "animation_url": "https://fateofwagdie.com/characters/489/animated"
+}

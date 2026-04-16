@@ -1,0 +1,93 @@
+{
+  "name": "Bon Quixote II",
+  "image": "ipfs://bafkreidkzcp2v67u7ih5kcvqg6ugnzpcynd3rt5mp6i7ayfycgtp5x7kvi",
+  "sheet": {
+    "name": "Bon Quixote II",
+    "level": 1,
+    "origin": "Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Removal's Kin",
+      "armor": "Her Imprint"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 3918,
+    "experience_points": 0
+  },
+  "tokenId": "3918",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Imprint",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Piltin Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Removal's Kin",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/3918",
+  "animation_url": "https://fateofwagdie.com/characters/3918/animated"
+}

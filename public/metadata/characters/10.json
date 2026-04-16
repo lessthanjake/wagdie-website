@@ -1,0 +1,94 @@
+{
+  "name": "Albus the Tinker",
+  "image": "ipfs://bafkreielpnlo6sdjftpcv5g4iqqo7w7fmxthpk3r4co4pioet2d2xjiaua",
+  "sheet": {
+    "name": "Albus the Tinker",
+    "level": 1,
+    "origin": "Simple Vagabond",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Healer's Dress"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 10,
+      "strength": 14,
+      "dexterity": 9,
+      "constitution": 9,
+      "intelligence": 13
+    },
+    "hit_points": 2,
+    "tokenIdInt": 10,
+    "background_story": "It is said Albus has long sought the power of immortality using the Artificer Crystals. However, it is not for the reasons you may believe.\n\nHe wishes for his pet rat to live through all Cycles.",
+    "experience_points": 0
+  },
+  "tokenId": "10",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Healer's Dress",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit Set",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "It is said Albus has long sought the power of immortality using the Artificer Crystals. However, it is not for the reasons you may believe.\n\nHe wishes for his pet rat to live through all Cycles.",
+  "external_url": "https://fateofwagdie.com/characters/10",
+  "animation_url": "https://fateofwagdie.com/characters/10/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Fat Fck Hamdoe",
+  "image": "ipfs://bafkreifzakxwkuqmea4jogj7bg7melfihc3gr4ltjybpbomwoy4grryhyq",
+  "sheet": {
+    "name": "Fat Fck Hamdoe",
+    "level": 1,
+    "origin": "Simple Vagabond",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Fool's Crown",
+      "armor": "Valorite Amateur Garb"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 4808,
+    "background_story": "What Prince looks like when he eats all his other crowns.",
+    "experience_points": 0
+  },
+  "tokenId": "4808",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Valorite Amateur Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Vaulted",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Fool's Crown",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "What Prince looks like when he eats all his other crowns.",
+  "external_url": "https://fateofwagdie.com/characters/4808",
+  "animation_url": "https://fateofwagdie.com/characters/4808/animated"
+}

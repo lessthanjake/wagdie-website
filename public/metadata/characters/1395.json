@@ -1,0 +1,94 @@
+{
+  "name": "Her Royal Pain In The Ass",
+  "image": "ipfs://bafkreig4cmczfnpmtbr45oly4bashqnnmoqmx23l42jlobcvsv5qnngsau",
+  "sheet": {
+    "name": "Her Royal Pain In The Ass",
+    "level": 1,
+    "origin": "Pilgrim",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "Her Pope",
+      "armor": "Holy Diamond of Her"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 1395,
+    "background_story": "That’s what she said",
+    "experience_points": 0
+  },
+  "tokenId": "1395",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Holy Diamond of Her",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Pope",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "That’s what she said",
+  "external_url": "https://fateofwagdie.com/characters/1395",
+  "animation_url": "https://fateofwagdie.com/characters/1395/animated"
+}

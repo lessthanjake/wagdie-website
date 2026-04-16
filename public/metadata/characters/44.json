@@ -1,0 +1,78 @@
+{
+  "name": "Fly of Beelzus",
+  "image": "ipfs://bafkreigor2cpeuzjcqwbqvyin7gygoibgetele4tgubrgvrwacmtzfatgq",
+  "sheet": {
+    "name": "Fly of Beelzus",
+    "level": 1,
+    "origin": "Fly of Beelzus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 44,
+    "background_story": "The Flies of Lord Beelzus are the back bone of X23494. They perform a majority of the tasks in building his vast network of tunnels, creating flesh farms, destroying pests, and rearing the Vessels.\n\nFlies spend a majority of their time deep underground, emerging during key seasonal moments to mate and to assist the Royal Guards in the hunts. However, Flies will spawn a number of Flylings which will do work above the surface. The Flylings are not directly related to the Flies created by Lord Beelzus. They are a parasite thought to be painted by Lord Grem with his rotting brush.\n\nFlylings share a psychic connection with their host and will do their bidding. The mental demands of maintaining a connection with a Flyling is very strenuous. Most Flies can only maintain one Flyling at a time; however, the strongest servants of Lord Beelzus have been seen controlling three.\n\nFlies rarely die of old age; however, they often die after slowly succumbing to insanity.",
+    "experience_points": 0
+  },
+  "tokenId": "44",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Fly of Beelzus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Minion of Grem",
+      "trait_type": "Portal of Grem"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Fly of Beelzus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The Flies of Lord Beelzus are the back bone of X23494. They perform a majority of the tasks in building his vast network of tunnels, creating flesh farms, destroying pests, and rearing the Vessels.\n\nFlies spend a majority of their time deep underground, emerging during key seasonal moments to mate and to assist the Royal Guards in the hunts. However, Flies will spawn a number of Flylings which will do work above the surface. The Flylings are not directly related to the Flies created by Lord Beelzus. They are a parasite thought to be painted by Lord Grem with his rotting brush.\n\nFlylings share a psychic connection with their host and will do their bidding. The mental demands of maintaining a connection with a Flyling is very strenuous. Most Flies can only maintain one Flyling at a time; however, the strongest servants of Lord Beelzus have been seen controlling three.\n\nFlies rarely die of old age; however, they often die after slowly succumbing to insanity.",
+  "external_url": "https://fateofwagdie.com/characters/44",
+  "animation_url": "https://fateofwagdie.com/characters/44/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Guts",
+  "image": "ipfs://bafkreiexsdnuaqikfrp63faisaqmbdvsty7uuzqys525fopijd5zktgnuy",
+  "sheet": {
+    "name": "Guts",
+    "level": 17,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "Zoltan War Helm",
+      "armor": "Logun's Descent"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 12,
+      "strength": 29,
+      "dexterity": 17,
+      "constitution": 15,
+      "intelligence": 14
+    },
+    "hit_points": 30,
+    "tokenIdInt": 718,
+    "background_story": "I've been on the battlefields since I was a child. Birthed on the Battlefield. My mother was doomed as soon as I was out of her womb. Raised by the army and now I slay for myself. In battle I am great. Nothing else matters. The blood on my blade is a thrilling sight.",
+    "experience_points": 700
+  },
+  "tokenId": "718",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Descent",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Yearn",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Zoltan War Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "I've been on the battlefields since I was a child. Birthed on the Battlefield. My mother was doomed as soon as I was out of her womb. Raised by the army and now I slay for myself. In battle I am great. Nothing else matters. The blood on my blade is a thrilling sight.",
+  "external_url": "https://fateofwagdie.com/characters/718",
+  "animation_url": "https://fateofwagdie.com/characters/718/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "The Eyes of the Vøid",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/5703.png",
+  "sheet": {
+    "name": "The Eyes of the Vøid",
+    "level": 5,
+    "origin": "Naive Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "Sibor's Brace",
+      "armor": "Swamp Traveler Cloak"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 14,
+      "strength": 14,
+      "dexterity": 14,
+      "constitution": 14,
+      "intelligence": 14
+    },
+    "hit_points": 14,
+    "tokenIdInt": 5703,
+    "background_story": "He pulled his dagger from the chest of an unfortunate target. Bringing out a small rag, he cleaned the blood from the blade in one fluid motion. The rag, stained crimson, from the years of congealed blood built up on it.\n\nThis was one of many contracts he undertook that day. His main contract was located in The covens lair, however, on the way he passed through the swamps of Detriti. Its where everyone goes to hide so he thought why not make a few extra coin along the way.\n\nHis last small target was a strange one. He tracked the mark to edge of the swamp, but never once got to see the face. Always downwind as to not to alert. He checked his compass and realised he had been tracking this target for a considerable amount of time. Stranger still, he was always the same distance away not matter how fast or slow he travelled.\n\n\"This cant be right.\" he muttered under his breath.  He continued the pursuit.\n\nHours passed. The swamps have a tendency to dilute the feeling of time passing. \n\nStill no closer. Still no further.\n\n\"This isn't working\" he said. \"I am going to need to confront them.\"\n\nHe shouted \"Jeythll Andrac of crows den, time to meet your maker. Expect no quarter but it will be swift.\"\n\nThe figure stopped and he ran towards. Always facing the back of his mark. He tried to run around to the front to look his target in the eyes. They had their hands covering their face.\n\n\"Dø Nø† ¬ook å† µy e¥es\" the figure announced in a monotonous tone.\n\nHe sheathed his blade. Slowly approaching the target he grabbed the hands and ripped them down to their side.\n\nLooking directly into the eyes of the target, he became paralysed with fear. The blood drained from his face like the many corpses he had killed in the past.\n\nThe fear passed quickly and turned into wonderment. He was seeing sound. Hearing colours. There was a metallic taste in his mouth.\n\nThe target collapsed into a puddle of ash and left only a small religious artifact in the mound. He heard a voice. It wasn't around him. It wasn't in his head. It was an aura of sound surrounding him\n\n\"REMOVE THE EYES\"\n\"R E M O V E   T H E   E Y E S\"\n\nHe removed his mask. Drew his dagger and without a second thought..........",
+    "experience_points": 350
+  },
+  "tokenId": "5703",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Swamp Traveler Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Earth Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Sibor's Brace",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Spark of the Magus",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Seer's Gem",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Seers",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "He pulled his dagger from the chest of an unfortunate target. Bringing out a small rag, he cleaned the blood from the blade in one fluid motion. The rag, stained crimson, from the years of congealed blood built up on it.\n\nThis was one of many contracts he undertook that day. His main contract was located in The covens lair, however, on the way he passed through the swamps of Detriti. Its where everyone goes to hide so he thought why not make a few extra coin along the way.\n\nHis last small target was a strange one. He tracked the mark to edge of the swamp, but never once got to see the face. Always downwind as to not to alert. He checked his compass and realised he had been tracking this target for a considerable amount of time. Stranger still, he was always the same distance away not matter how fast or slow he travelled.\n\n\"This cant be right.\" he muttered under his breath.  He continued the pursuit.\n\nHours passed. The swamps have a tendency to dilute the feeling of time passing. \n\nStill no closer. Still no further.\n\n\"This isn't working\" he said. \"I am going to need to confront them.\"\n\nHe shouted \"Jeythll Andrac of crows den, time to meet your maker. Expect no quarter but it will be swift.\"\n\nThe figure stopped and he ran towards. Always facing the back of his mark. He tried to run around to the front to look his target in the eyes. They had their hands covering their face.\n\n\"Dø Nø† ¬ook å† µy e¥es\" the figure announced in a monotonous tone.\n\nHe sheathed his blade. Slowly approaching the target he grabbed the hands and ripped them down to their side.\n\nLooking directly into the eyes of the target, he became paralysed with fear. The blood drained from his face like the many corpses he had killed in the past.\n\nThe fear passed quickly and turned into wonderment. He was seeing sound. Hearing colours. There was a metallic taste in his mouth.\n\nThe target collapsed into a puddle of ash and left only a small religious artifact in the mound. He heard a voice. It wasn't around him. It wasn't in his head. It was an aura of sound surrounding him\n\n\"REMOVE THE EYES\"\n\"R E M O V E   T H E   E Y E S\"\n\nHe removed his mask. Drew his dagger and without a second thought..........",
+  "external_url": "https://fateofwagdie.com/characters/5703",
+  "animation_url": "https://fateofwagdie.com/characters/5703/animated"
+}

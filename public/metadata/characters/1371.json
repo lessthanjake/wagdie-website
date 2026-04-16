@@ -1,0 +1,94 @@
+{
+  "name": "Hamdoe Devotee",
+  "image": "ipfs://bafkreihanzamst7ubjfldt3ah42tewjagfuzcqv7pbwuqkf7cthjbyfah4",
+  "sheet": {
+    "name": "Hamdoe Devotee",
+    "level": 1,
+    "origin": "Young Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Her Silence",
+      "armor": "Luta's Full Weight"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 30,
+      "strength": 30,
+      "dexterity": 30,
+      "constitution": 30,
+      "intelligence": 30
+    },
+    "hit_points": 30,
+    "tokenIdInt": 1371,
+    "background_story": "I'm crippled by a simple decision\nAnd possibly gifted by a vision\nI've made my choice, I'll stand by\nI'll fight to cure Prince then lay down and die",
+    "experience_points": 0
+  },
+  "tokenId": "1371",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Luta's Full Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zaban Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Silence",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "I'm crippled by a simple decision\nAnd possibly gifted by a vision\nI've made my choice, I'll stand by\nI'll fight to cure Prince then lay down and die",
+  "external_url": "https://fateofwagdie.com/characters/1371",
+  "animation_url": "https://fateofwagdie.com/characters/1371/animated"
+}

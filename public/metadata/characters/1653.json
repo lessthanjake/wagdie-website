@@ -1,0 +1,94 @@
+{
+  "name": "𝕷𝖆 𝕴𝖗𝖆 𝖉𝖊 𝕯𝖎𝖔𝖘",
+  "image": "ipfs://bafkreif3nov4gtlglzzmboxyyiz3bivgtiyyedkrqndudnos3fdq6xyczi",
+  "sheet": {
+    "name": "𝕷𝖆 𝕴𝖗𝖆 𝖉𝖊 𝕯𝖎𝖔𝖘",
+    "level": 20,
+    "origin": "Hole Protector",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Zealot's Prowess",
+      "armor": "Death Dealer's Choice"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 11,
+      "strength": 29,
+      "dexterity": 29,
+      "constitution": 29,
+      "intelligence": 16
+    },
+    "hit_points": 100,
+    "tokenIdInt": 1653,
+    "background_story": "Yo soy la ira de Dios. \nSu fuego en mi corazon.\nYo soy la furia de Dios \n¿Quien quiere luchar conmigo? \nLa furia no es mia.\n",
+    "experience_points": 333
+  },
+  "tokenId": "1653",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Death Dealer's Choice",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Zealot's Prowess",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Yo soy la ira de Dios. \nSu fuego en mi corazon.\nYo soy la furia de Dios \n¿Quien quiere luchar conmigo? \nLa furia no es mia.\n",
+  "external_url": "https://fateofwagdie.com/characters/1653",
+  "animation_url": "https://fateofwagdie.com/characters/1653/animated"
+}

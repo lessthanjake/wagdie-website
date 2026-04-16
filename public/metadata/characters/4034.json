@@ -1,0 +1,94 @@
+{
+  "name": "Kill'le'kill",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/4034.png",
+  "sheet": {
+    "name": "Kill'le'kill",
+    "level": 6,
+    "origin": "Leeched Devotee",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Wormlord Visage",
+      "armor": "The Wisened"
+    },
+    "attributes": {
+      "wisdom": 6,
+      "charisma": 6,
+      "strength": 6,
+      "dexterity": 6,
+      "constitution": 6,
+      "intelligence": 6
+    },
+    "hit_points": 6,
+    "tokenIdInt": 4034,
+    "background_story": "This guy? you talking about this guy? This guy will kill you. Like really kill you.",
+    "experience_points": 6
+  },
+  "tokenId": "4034",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "The Wisened",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Leeched Devotee",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wormlord Visage",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Necromancer",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Leeched Devotee",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Ancient's Automaton",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Mimic Tablet",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Druids of His Shame",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "This guy? you talking about this guy? This guy will kill you. Like really kill you.",
+  "external_url": "https://fateofwagdie.com/characters/4034",
+  "animation_url": "https://fateofwagdie.com/characters/4034/animated"
+}

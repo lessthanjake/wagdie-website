@@ -1,0 +1,82 @@
+{
+  "name": "Artax",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/1193.png",
+  "sheet": {
+    "name": "Artax",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Censure",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 1193,
+    "background_story": "Forever lost in the Swamp of Sadness.",
+    "experience_points": 0
+  },
+  "tokenId": "1193",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Fallen Worshipper",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Her Censure",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Fallen Worshipper",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Swamp Shroud",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Cauldron of Detriti",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Coven of Detriti",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Forever lost in the Swamp of Sadness.",
+  "external_url": "https://fateofwagdie.com/characters/1193",
+  "animation_url": "https://fateofwagdie.com/characters/1193/animated"
+}

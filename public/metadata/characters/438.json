@@ -1,0 +1,94 @@
+{
+  "name": "Willy Fisterbottom",
+  "image": "ipfs://bafkreiejja3zz6hu2vrbf3ok4mdy46q3nwdqbl55yjsmsabthiwhrru77a",
+  "sheet": {
+    "name": "Willy Fisterbottom",
+    "level": 1,
+    "origin": "Logun Disciple",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Her Cursed Outcast"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 438,
+    "background_story": "Will he tho?",
+    "experience_points": 0
+  },
+  "tokenId": "438",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Cursed Outcast",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit Set",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Will he tho?",
+  "external_url": "https://fateofwagdie.com/characters/438",
+  "animation_url": "https://fateofwagdie.com/characters/438/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Luxven",
+  "image": "ipfs://bafkreibmooxwwkbmj4rv4urtuebgcutdmlburdgajb3fy46anlgzhasakq",
+  "sheet": {
+    "name": "Luxven",
+    "level": 9,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 9,
+      "charisma": 9,
+      "strength": 9,
+      "dexterity": 9,
+      "constitution": 9,
+      "intelligence": 9
+    },
+    "hit_points": 99,
+    "tokenIdInt": 5009,
+    "background_story": "Blinded by lust.",
+    "experience_points": 99
+  },
+  "tokenId": "5009",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "None",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Lotharian Hair",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Blinded by lust.",
+  "external_url": "https://fateofwagdie.com/characters/5009",
+  "animation_url": "https://fateofwagdie.com/characters/5009/animated"
+}

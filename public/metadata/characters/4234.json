@@ -1,0 +1,94 @@
+{
+  "name": "Adar the Lost Mariner",
+  "image": "ipfs://bafkreidfcohjmt5tjfdiiqmggvxwx2sjruy6nqapwlntyiqh7jck6ickpa",
+  "sheet": {
+    "name": "Adar the Lost Mariner",
+    "level": 1,
+    "origin": "Naive Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Strange Cloth Cloak"
+    },
+    "attributes": {
+      "wisdom": 7,
+      "charisma": 13,
+      "strength": 11,
+      "dexterity": 17,
+      "constitution": 15,
+      "intelligence": 9
+    },
+    "hit_points": 27,
+    "tokenIdInt": 4234,
+    "background_story": "An accomplished, young seafarer from the far east, Adar was separated from his company during a monsoon upon the Wailing Waters, losing his entire brethren and father under its tumultuous foam. With nothing left but the blue cloak of his decimated clan, he's traversed the Forsaken Lands, burgeoning for new purpose. \n\nNow in the 18th Cycle, he takes heed of the massing armies and makes his way to the Church of Her, finding admittance into the Bulwark of the Serpent by bribing the rear watch-guard with a Toad of Detriti. His adventure is about to unravel...\n\n\"𝔗𝔥𝔢 𝔰𝔢𝔞 𝔡𝔬𝔢𝔰 𝔫𝔬𝔱 𝔢𝔵𝔱𝔯𝔦𝔠𝔞𝔱𝔢 𝔴𝔦𝔱𝔥𝔬𝔲𝔱 𝔯𝔢𝔞𝔰𝔬𝔫...𝔱𝔥𝔬𝔲𝔤𝔥 ℑ 𝔥𝔞𝔳𝔢 𝔟𝔢𝔢𝔫 𝔣𝔬𝔯𝔢𝔳𝔢𝔯 𝔡𝔦𝔳𝔬𝔯𝔠𝔢𝔡 𝔣𝔯𝔬𝔪 𝔥𝔢𝔯 𝔱𝔥𝔯𝔬𝔢𝔰, 𝔥𝔢𝔯 𝔴𝔞𝔳𝔢𝔰 𝔰𝔱𝔦𝔩𝔩 𝔩𝔞𝔭 𝔱𝔥𝔢 𝔰𝔥𝔬𝔯𝔢 𝔬𝔣 𝔪𝔶 𝔰𝔬𝔲𝔩. ℑ𝔱 𝔡𝔯𝔦𝔳𝔢𝔰 𝔪𝔢 𝔱𝔬 𝔠𝔬𝔫𝔱𝔦𝔫𝔲𝔢 𝔬𝔫 𝔣𝔬𝔯 𝔤𝔯𝔢𝔞𝔱𝔢𝔯 𝔩𝔦𝔣𝔢..𝔴𝔥𝔞𝔱 𝔞𝔴𝔞𝔦𝔱𝔰 𝔪𝔢, ℑ 𝔨𝔫𝔬𝔴 𝔫𝔬𝔱. \"\n",
+    "experience_points": 0
+  },
+  "tokenId": "4234",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Strange Cloth Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Pilgrim's Touch",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "An accomplished, young seafarer from the far east, Adar was separated from his company during a monsoon upon the Wailing Waters, losing his entire brethren and father under its tumultuous foam. With nothing left but the blue cloak of his decimated clan, he's traversed the Forsaken Lands, burgeoning for new purpose. \n\nNow in the 18th Cycle, he takes heed of the massing armies and makes his way to the Church of Her, finding admittance into the Bulwark of the Serpent by bribing the rear watch-guard with a Toad of Detriti. His adventure is about to unravel...\n\n\"𝔗𝔥𝔢 𝔰𝔢𝔞 𝔡𝔬𝔢𝔰 𝔫𝔬𝔱 𝔢𝔵𝔱𝔯𝔦𝔠𝔞𝔱𝔢 𝔴𝔦𝔱𝔥𝔬𝔲𝔱 𝔯𝔢𝔞𝔰𝔬𝔫...𝔱𝔥𝔬𝔲𝔤𝔥 ℑ 𝔥𝔞𝔳𝔢 𝔟𝔢𝔢𝔫 𝔣𝔬𝔯𝔢𝔳𝔢𝔯 𝔡𝔦𝔳𝔬𝔯𝔠𝔢𝔡 𝔣𝔯𝔬𝔪 𝔥𝔢𝔯 𝔱𝔥𝔯𝔬𝔢𝔰, 𝔥𝔢𝔯 𝔴𝔞𝔳𝔢𝔰 𝔰𝔱𝔦𝔩𝔩 𝔩𝔞𝔭 𝔱𝔥𝔢 𝔰𝔥𝔬𝔯𝔢 𝔬𝔣 𝔪𝔶 𝔰𝔬𝔲𝔩. ℑ𝔱 𝔡𝔯𝔦𝔳𝔢𝔰 𝔪𝔢 𝔱𝔬 𝔠𝔬𝔫𝔱𝔦𝔫𝔲𝔢 𝔬𝔫 𝔣𝔬𝔯 𝔤𝔯𝔢𝔞𝔱𝔢𝔯 𝔩𝔦𝔣𝔢..𝔴𝔥𝔞𝔱 𝔞𝔴𝔞𝔦𝔱𝔰 𝔪𝔢, ℑ 𝔨𝔫𝔬𝔴 𝔫𝔬𝔱. \"\n",
+  "external_url": "https://fateofwagdie.com/characters/4234",
+  "animation_url": "https://fateofwagdie.com/characters/4234/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "???",
+  "image": "ipfs://bafkreigqoj7jji66zuhlyqar5vellvbmmcm4igv272b3hbltqlnoafwtde",
+  "sheet": {
+    "name": "???",
+    "level": 1,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "None",
+      "armor": "Pilgrim's Plain Chain"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 13,
+      "strength": 15,
+      "dexterity": 16,
+      "constitution": 13,
+      "intelligence": 14
+    },
+    "hit_points": 10,
+    "tokenIdInt": 6572,
+    "background_story": "This character has not yet been encountered.",
+    "experience_points": 0
+  },
+  "tokenId": "6572",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Plain Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Swamp Tassels",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "This character has not yet been encountered.",
+  "external_url": "https://fateofwagdie.com/characters/6572",
+  "animation_url": "https://fateofwagdie.com/characters/6572/animated"
+}

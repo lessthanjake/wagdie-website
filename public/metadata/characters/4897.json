@@ -1,0 +1,94 @@
+{
+  "name": "???",
+  "image": "ipfs://bafkreihpgrdwdkh6szqlb5zdewgn7znk43bknnmvssds5emcitw6ejli4a",
+  "sheet": {
+    "name": "???",
+    "level": 1,
+    "origin": "Wormlord Acolyte",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Dragonkin Helm",
+      "armor": "Swamp Traveler Cloak"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 11,
+      "strength": 17,
+      "dexterity": 15,
+      "constitution": 18,
+      "intelligence": 14
+    },
+    "hit_points": 14,
+    "tokenIdInt": 4897,
+    "background_story": "\n\"We are all going to die,\" seeps a grim, muffled voice from behind the metal helmet. \"...but to finally perish along with the world itself - how exhilarating.\" ",
+    "experience_points": 0
+  },
+  "tokenId": "4897",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Swamp Traveler Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Brimstone",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Dragonkin Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "\n\"We are all going to die,\" seeps a grim, muffled voice from behind the metal helmet. \"...but to finally perish along with the world itself - how exhilarating.\" ",
+  "external_url": "https://fateofwagdie.com/characters/4897",
+  "animation_url": "https://fateofwagdie.com/characters/4897/animated"
+}

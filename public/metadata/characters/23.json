@@ -1,0 +1,94 @@
+{
+  "name": "Red Crow Chen",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/23.png",
+  "sheet": {
+    "name": "Red Crow Chen",
+    "level": 7,
+    "origin": "Zolian Worm",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Blessing",
+      "armor": "Her Cursed Outcast"
+    },
+    "attributes": {
+      "wisdom": 7,
+      "charisma": 7,
+      "strength": 7,
+      "dexterity": 7,
+      "constitution": 7,
+      "intelligence": 7
+    },
+    "hit_points": 7,
+    "tokenIdInt": 23,
+    "background_story": "-Darkblade Leader-\n\n-Red Crow Member-",
+    "experience_points": 7
+  },
+  "tokenId": "23",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Cursed Outcast",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Envious Locks",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Blessing",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Blood Blade Shroud",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Bloody Crow's Talon",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Darkblade",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "-Darkblade Leader-\n\n-Red Crow Member-",
+  "external_url": "https://fateofwagdie.com/characters/23",
+  "animation_url": "https://fateofwagdie.com/characters/23/animated"
+}

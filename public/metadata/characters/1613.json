@@ -1,0 +1,94 @@
+{
+  "name": "Tana Lackman",
+  "image": "ipfs://bafkreiffzohdz4df5dksyhphjgqdd2ud633kuqczwcdiwnzjxqlpcwmng4",
+  "sheet": {
+    "name": "Tana Lackman",
+    "level": 1,
+    "origin": "Logun Disciple",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "Her Goddess of Vision",
+      "armor": "Young Knight of Logun"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 7,
+      "strength": 4,
+      "dexterity": 4,
+      "constitution": 11,
+      "intelligence": 16
+    },
+    "hit_points": 10,
+    "tokenIdInt": 1613,
+    "background_story": "Tana has the most advanced headgear known to wagdie. It lets him see things with incredible precision. Unfortunately, he lacks the dexterity to work a bow.",
+    "experience_points": 0
+  },
+  "tokenId": "1613",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Young Knight of Logun",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Death Temptress Hair",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Goddess of Vision",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Tana has the most advanced headgear known to wagdie. It lets him see things with incredible precision. Unfortunately, he lacks the dexterity to work a bow.",
+  "external_url": "https://fateofwagdie.com/characters/1613",
+  "animation_url": "https://fateofwagdie.com/characters/1613/animated"
+}

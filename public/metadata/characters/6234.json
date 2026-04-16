@@ -1,0 +1,94 @@
+{
+  "name": "The Nascent Bolas",
+  "image": "ipfs://bafkreie3l6xwiix5trcqqzn6er75kaaey5vdhlmiqhjhaptsnjktfiu334",
+  "sheet": {
+    "name": "The Nascent Bolas",
+    "level": 1,
+    "origin": "Leeched Devotee",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Nameless One's Blessing",
+      "mask": "Darkblade's Beak",
+      "armor": "Her Imprint"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 4,
+      "strength": 13,
+      "dexterity": 13,
+      "constitution": 18,
+      "intelligence": 13
+    },
+    "hit_points": 100,
+    "tokenIdInt": 6234,
+    "background_story": "Thrust into the lands without recollection of his original path, the Nascent Bolas knows only two drives. One, to wander the Forsaken Lands in search of purpose. As the most nascent being, he has been blessed with both youth and endurance, and though he does not know where the journey will take him, his mindful devotion to the task is perfection. His second drive is towards death. His beak points towards it, and his wings carry him to it. It effect, his chaotic arrival marks the unpredictability of the end. Spinning on a chain that whips between the gravitational forces of 3 bodies, the Bolas will find his target with an air of such randomness that even the gods need not predict whether his strike will be at man, at heaven, or at himself.",
+    "experience_points": 20
+  },
+  "tokenId": "6234",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Imprint",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Nameless One's Blessing",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Yearn",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Leeched Devotee",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Noble's Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Darkblade's Beak",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Leeched Devotee",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Thrust into the lands without recollection of his original path, the Nascent Bolas knows only two drives. One, to wander the Forsaken Lands in search of purpose. As the most nascent being, he has been blessed with both youth and endurance, and though he does not know where the journey will take him, his mindful devotion to the task is perfection. His second drive is towards death. His beak points towards it, and his wings carry him to it. It effect, his chaotic arrival marks the unpredictability of the end. Spinning on a chain that whips between the gravitational forces of 3 bodies, the Bolas will find his target with an air of such randomness that even the gods need not predict whether his strike will be at man, at heaven, or at himself.",
+  "external_url": "https://fateofwagdie.com/characters/6234",
+  "animation_url": "https://fateofwagdie.com/characters/6234/animated"
+}

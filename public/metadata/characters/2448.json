@@ -1,0 +1,94 @@
+{
+  "name": "Sariel Siannodel",
+  "image": "ipfs://bafkreibqcvr3sauuwlc4gsetkb4rgurrsfqe2r6exj3x4b5raehgfonope",
+  "sheet": {
+    "name": "Sariel Siannodel",
+    "level": 1,
+    "origin": "Garolin Champion",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Noxium Garb",
+      "armor": "Her Pathetic Waste"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 14,
+      "strength": 9,
+      "dexterity": 12,
+      "constitution": 10,
+      "intelligence": 16
+    },
+    "hit_points": 8,
+    "tokenIdInt": 2448,
+    "background_story": "Pretends to have fought in the Battle of the Burning Church for sympathy, and changes the story on which side he fought for, pending the alignments of those he's talking to.",
+    "experience_points": 0
+  },
+  "tokenId": "2448",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Pathetic Waste",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Noxium Garb",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Pretends to have fought in the Battle of the Burning Church for sympathy, and changes the story on which side he fought for, pending the alignments of those he's talking to.",
+  "external_url": "https://fateofwagdie.com/characters/2448",
+  "animation_url": "https://fateofwagdie.com/characters/2448/animated"
+}

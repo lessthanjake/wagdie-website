@@ -1,0 +1,94 @@
+{
+  "name": "Zero, the Blind Rat",
+  "image": "ipfs://bafkreib25i4g5np3z63m4zmlxgxllpvgao3ablppq6qeexnw23gsbr43nm",
+  "sheet": {
+    "name": "Zero, the Blind Rat",
+    "level": 3,
+    "origin": "Wormlord Acolyte",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "He Who Does Not See",
+      "armor": "Garolin Tunic"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 8,
+      "strength": 10,
+      "dexterity": 15,
+      "constitution": 9,
+      "intelligence": 11
+    },
+    "hit_points": 17,
+    "tokenIdInt": 1780,
+    "background_story": "The old adage that \"there is no  honor among thieves\" clearly has its roots in the dialect of a class that has never gone hungry. \n\nThose less fortunate, on the other hand, are aware of a code, loose as it may be, that binds and governs the groups that exist outside of the law.\n\nZero, the Blind Rat, is more aware of the code than most. \n\nAbandoned to the streets by his biological parents upon recognition of his congenital lack of vision, Zero nevertheless learned to survive through the use of his other senses. \n\nAlthough his demeanor can be off-putting to the uninitiated, and his physical health is reflective of his lean upbringing without a family, Zero's handicap is in some ways his greatest strength. Listening quietly to mechanisms of locks, to ragged respiratory systems in the throes of combat, to subtle changes of tone during important conversations is easy for him to do after years of being treated as an innocuous, helpless bystander.\n\nHis full face mask plays upon others' typical perception of him, and provides the perfect, impassive cover for him to collect and process information to be utilized to benefit. \n\nPerhaps he is known as the Blind Rat because of his preternatural ability to sniff out the root cause of unusual happenings. Perhaps the nickname is intended as a pejorative, suggesting that his loyalty is only as good as the next coffer of cheese.\n\nZero himself prefers to think of it as a compliment-- in a world full of rats, far better to be blind to the outcome than deaf to the goings-on.\n\n*              *               *                  *                *            *\nThe blasts of the trumpets by the fools supporting the Church were intended to \nrally their cause, and frighten the enemy. For the Serpent's blind assassin, all they did was provide a soundscape which gave him information, and raucous cover for him to move even more silently than usual. \n\nZero would only ever claim \"zero\" confirmed kills in a  contest with other warriors, as he first of all cannot make visual confirmation. Secondly, he values the opportunity to melt back into the shadows more than the chance to gloat. However, there is no question that his darkfang daggers wet themselves in the blood of numerous heretical zealots during the Battle of the Church.\n\n*             *               *              *              *             *  \n\nVictory for the Serpent was assured, though the loss of the Swamp Witch was no small cost to pay. Zero, having made his reputation within the Bulwark as a capable, if not particularly likeable fighter, melted off into the shadows as he frequently did, to resurface where next, remains to be seen.\n\n",
+    "experience_points": 100
+  },
+  "tokenId": "1780",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Garolin Tunic",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Discipline Helm Hair",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "He Who Does Not See",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The old adage that \"there is no  honor among thieves\" clearly has its roots in the dialect of a class that has never gone hungry. \n\nThose less fortunate, on the other hand, are aware of a code, loose as it may be, that binds and governs the groups that exist outside of the law.\n\nZero, the Blind Rat, is more aware of the code than most. \n\nAbandoned to the streets by his biological parents upon recognition of his congenital lack of vision, Zero nevertheless learned to survive through the use of his other senses. \n\nAlthough his demeanor can be off-putting to the uninitiated, and his physical health is reflective of his lean upbringing without a family, Zero's handicap is in some ways his greatest strength. Listening quietly to mechanisms of locks, to ragged respiratory systems in the throes of combat, to subtle changes of tone during important conversations is easy for him to do after years of being treated as an innocuous, helpless bystander.\n\nHis full face mask plays upon others' typical perception of him, and provides the perfect, impassive cover for him to collect and process information to be utilized to benefit. \n\nPerhaps he is known as the Blind Rat because of his preternatural ability to sniff out the root cause of unusual happenings. Perhaps the nickname is intended as a pejorative, suggesting that his loyalty is only as good as the next coffer of cheese.\n\nZero himself prefers to think of it as a compliment-- in a world full of rats, far better to be blind to the outcome than deaf to the goings-on.\n\n*              *               *                  *                *            *\nThe blasts of the trumpets by the fools supporting the Church were intended to \nrally their cause, and frighten the enemy. For the Serpent's blind assassin, all they did was provide a soundscape which gave him information, and raucous cover for him to move even more silently than usual. \n\nZero would only ever claim \"zero\" confirmed kills in a  contest with other warriors, as he first of all cannot make visual confirmation. Secondly, he values the opportunity to melt back into the shadows more than the chance to gloat. However, there is no question that his darkfang daggers wet themselves in the blood of numerous heretical zealots during the Battle of the Church.\n\n*             *               *              *              *             *  \n\nVictory for the Serpent was assured, though the loss of the Swamp Witch was no small cost to pay. Zero, having made his reputation within the Bulwark as a capable, if not particularly likeable fighter, melted off into the shadows as he frequently did, to resurface where next, remains to be seen.\n\n",
+  "external_url": "https://fateofwagdie.com/characters/1780",
+  "animation_url": "https://fateofwagdie.com/characters/1780/animated"
+}

@@ -1,0 +1,71 @@
+{
+  "name": "We are All Going to Die #1987",
+  "image": "ipfs://bafkreidshl2szd3jy6sr2dan66x6ijhi2cclp26lypw3hc2h6k3fh3tk24",
+  "tokenId": "1987",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Healer's Dress",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zaban Rough Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/1987",
+  "animation_url": "https://fateofwagdie.com/characters/1987/animated"
+}

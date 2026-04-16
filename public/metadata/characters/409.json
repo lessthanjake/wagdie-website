@@ -1,0 +1,94 @@
+{
+  "name": "A Quiet Waif",
+  "image": "ipfs://bafkreihwjebnrqnnnyeykeclgfs4bao52ycc7yyuy36xyjc47vgfrbrgbe",
+  "sheet": {
+    "name": "A Quiet Waif",
+    "level": 1,
+    "origin": "Hole Protector",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "None",
+      "armor": "Crow Lord's Blessing"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 16,
+      "strength": 10,
+      "dexterity": 17,
+      "constitution": 12,
+      "intelligence": 12
+    },
+    "hit_points": 4,
+    "tokenIdInt": 409,
+    "background_story": "This character has not yet been encountered.\n\n18th Cycle Lore:\nA pale young woman armed with a sword and draped in trappings reminiscent of the Crow's Den, carrying herself with a quiet and calculated grace. She was first seen at the Dark Blade Guild initiation ceremony of Chen, the Festival Tournament Champion. \n\nUpon preparing to return to the Den following a reconnaissance assignment at the Church of Her, she receives orders to recover the Jester's Wand, stolen by Julian Tryhard. Although not responsible for the capture of the thief, she is later tasked with escorting him to the Banshee's Hut for a meeting with the Hag of the Swamp.",
+    "experience_points": 0
+  },
+  "tokenId": "409",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Crow Lord's Blessing",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Pilgrim's Touch",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "This character has not yet been encountered.\n\n18th Cycle Lore:\nA pale young woman armed with a sword and draped in trappings reminiscent of the Crow's Den, carrying herself with a quiet and calculated grace. She was first seen at the Dark Blade Guild initiation ceremony of Chen, the Festival Tournament Champion. \n\nUpon preparing to return to the Den following a reconnaissance assignment at the Church of Her, she receives orders to recover the Jester's Wand, stolen by Julian Tryhard. Although not responsible for the capture of the thief, she is later tasked with escorting him to the Banshee's Hut for a meeting with the Hag of the Swamp.",
+  "external_url": "https://fateofwagdie.com/characters/409",
+  "animation_url": "https://fateofwagdie.com/characters/409/animated"
+}

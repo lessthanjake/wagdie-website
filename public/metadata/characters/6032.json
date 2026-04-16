@@ -1,0 +1,94 @@
+{
+  "name": "Lidda the Martyr",
+  "image": "ipfs://bafkreicwlfddrii2kfv6dnzpd5bvcm7uvw7gjr7equ2kb5cvzmytnnculq",
+  "sheet": {
+    "name": "Lidda the Martyr",
+    "level": 3,
+    "origin": "Simple Vagabond",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Seal of the Righteous",
+      "armor": "Her Pathetic Waste"
+    },
+    "attributes": {
+      "wisdom": 18,
+      "charisma": 13,
+      "strength": 13,
+      "dexterity": 12,
+      "constitution": 15,
+      "intelligence": 17
+    },
+    "hit_points": 10,
+    "tokenIdInt": 6032,
+    "background_story": "- ℜ𝔢𝔟𝔬𝔯𝔫 𝔞𝔫𝔡 𝔚𝔄𝔊𝔇ℑ𝔈 . -\n- 𝔒𝔫𝔢 𝔦𝔰 𝔄𝔩𝔩, 𝔄𝔩𝔩 𝔦𝔰 𝔬𝔫𝔢. -\n- 𝔑𝔬𝔱𝔥𝔦𝔫𝔤 𝔴𝔞𝔰𝔱𝔢𝔡, 𝔦𝔱'𝔰 𝔯𝔢𝔦𝔫𝔠𝔞𝔯𝔫𝔞𝔱𝔦𝔬𝔫. -\n\nDevout Lidda didn't talk too much in life, She is a gift from 𝔓𝔬𝔬𝔣.  \n\nShe made a secret deal with Negal. Let the body go back to heaven, as that day comes. \n\nShe jumps into the Void.",
+    "experience_points": 0
+  },
+  "tokenId": "6032",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Pathetic Waste",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Earth Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Seal of the Righteous",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "- ℜ𝔢𝔟𝔬𝔯𝔫 𝔞𝔫𝔡 𝔚𝔄𝔊𝔇ℑ𝔈 . -\n- 𝔒𝔫𝔢 𝔦𝔰 𝔄𝔩𝔩, 𝔄𝔩𝔩 𝔦𝔰 𝔬𝔫𝔢. -\n- 𝔑𝔬𝔱𝔥𝔦𝔫𝔤 𝔴𝔞𝔰𝔱𝔢𝔡, 𝔦𝔱'𝔰 𝔯𝔢𝔦𝔫𝔠𝔞𝔯𝔫𝔞𝔱𝔦𝔬𝔫. -\n\nDevout Lidda didn't talk too much in life, She is a gift from 𝔓𝔬𝔬𝔣.  \n\nShe made a secret deal with Negal. Let the body go back to heaven, as that day comes. \n\nShe jumps into the Void.",
+  "external_url": "https://fateofwagdie.com/characters/6032",
+  "animation_url": "https://fateofwagdie.com/characters/6032/animated"
+}

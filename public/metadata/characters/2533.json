@@ -1,0 +1,82 @@
+{
+  "name": "Penance",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/2533.png",
+  "sheet": {
+    "name": "Penance",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 13,
+      "strength": 10,
+      "dexterity": 8,
+      "constitution": 11,
+      "intelligence": 13
+    },
+    "hit_points": 7,
+    "tokenIdInt": 2533,
+    "background_story": "Penance was a young bard who couldn't help but be drawn to the magic that flowed through his veins as he played his lute and sang his songs. \n\nOne day, Penance's luck ran out. He was caught by the authorities and accused of being a witch. Desperate to prove his innocence, he begged for a chance to prove his magic was pure and used for good.\n\nThe authorities, however, were not swayed. Penance was sentenced to death, and he was burned at the stake as a warning to others who might dare to practice magic.\n\nBut death was not the end for Penance. As the flames consumed his body, a surge of magic flowed through him, bringing him back to life as an undead being.\n\nEmbracing his new form, Penance journeyed from town to town, weaving a forlorn song of sadness across the lands. ",
+    "experience_points": 0
+  },
+  "tokenId": "2533",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Swamp Witch Disciple",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Swamp Witch Disciple",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Her Ember",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Her Ember",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Bonfire",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Penance was a young bard who couldn't help but be drawn to the magic that flowed through his veins as he played his lute and sang his songs. \n\nOne day, Penance's luck ran out. He was caught by the authorities and accused of being a witch. Desperate to prove his innocence, he begged for a chance to prove his magic was pure and used for good.\n\nThe authorities, however, were not swayed. Penance was sentenced to death, and he was burned at the stake as a warning to others who might dare to practice magic.\n\nBut death was not the end for Penance. As the flames consumed his body, a surge of magic flowed through him, bringing him back to life as an undead being.\n\nEmbracing his new form, Penance journeyed from town to town, weaving a forlorn song of sadness across the lands. ",
+  "external_url": "https://fateofwagdie.com/characters/2533",
+  "animation_url": "https://fateofwagdie.com/characters/2533/animated"
+}

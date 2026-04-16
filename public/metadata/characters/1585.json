@@ -1,0 +1,94 @@
+{
+  "name": "Devil Dancing Devil",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/1585.png",
+  "sheet": {
+    "name": "Devil Dancing Devil",
+    "level": 6,
+    "origin": "Logun Disciple",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "None",
+      "armor": "Verite Protection"
+    },
+    "attributes": {
+      "wisdom": 6,
+      "charisma": 6,
+      "strength": 6,
+      "dexterity": 6,
+      "constitution": 6,
+      "intelligence": 6
+    },
+    "hit_points": 6,
+    "tokenIdInt": 1585,
+    "background_story": "Th devil doesn't need to dance for two...",
+    "experience_points": 6
+  },
+  "tokenId": "1585",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Verite Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Pilgrim's Touch",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Mothling's Guard",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Mothling",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Fossors",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Th devil doesn't need to dance for two...",
+  "external_url": "https://fateofwagdie.com/characters/1585",
+  "animation_url": "https://fateofwagdie.com/characters/1585/animated"
+}

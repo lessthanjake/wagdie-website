@@ -1,0 +1,94 @@
+{
+  "name": "Logun's Unknown",
+  "image": "ipfs://bafkreihjtdwaw5zvv2p3tferdfus45zosidypy7pgvi7a7fvuqki2kifim",
+  "sheet": {
+    "name": "Logun's Unknown",
+    "level": 2,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 0,
+      "strength": 1,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 243,
+    "background_story": "Logun...that is Unknown.",
+    "experience_points": 10
+  },
+  "tokenId": "243",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "None",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Pilgrim's Style",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Logun...that is Unknown.",
+  "external_url": "https://fateofwagdie.com/characters/243",
+  "animation_url": "https://fateofwagdie.com/characters/243/animated"
+}

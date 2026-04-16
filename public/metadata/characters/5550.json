@@ -1,0 +1,94 @@
+{
+  "name": "The Knight of Vanquish",
+  "image": "ipfs://bafkreihjb44o5oaplz2pgkgfnvbdtqquhawa37lwvw4zqbdjmwhyjxzrt4",
+  "sheet": {
+    "name": "The Knight of Vanquish",
+    "level": 1,
+    "origin": "Wormlord Acolyte",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "Solar Champion's Helm",
+      "armor": "Logun's Descent"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 9,
+      "strength": 16,
+      "dexterity": 7,
+      "constitution": 8,
+      "intelligence": 17
+    },
+    "hit_points": 10,
+    "tokenIdInt": 5550,
+    "background_story": "His early years were marked by the echoes of clashing swords and the cries of war. Alone in The Forsaken Lands, he surely would have died earlier if not for his love of vanquishing.\n\nWas he afraid? Always. \nWas he ready? Always.\nDid he win? Always.\n\nYet, with each victory his fear of the next threat grew. He knew the only way to survive, was to demolish every possible threat. Some threats were ended immediately. Others succumbed only after months of undetected defeats, planned far in advance by The Knight. Many wouldn't have even considered themselves a threat.\n\nOne day he heard of The Green Knight, of his command over his prisoners, and his cunning using the inmates as pawns in his own shadowy games. Clearly, The Green Knight was a threat.\n\nThe Knight of War positioned himself on the floor, and The Green Knight struck. While on his way to prison, he successfully conveyed to The Green Knight his abilities in combat whilst tactfully concealing his abilities in strategy. Consequently, The Green Knight saw him as an asset and not yet as a threat.",
+    "experience_points": 0
+  },
+  "tokenId": "5550",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Descent",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Solar Champion's Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "His early years were marked by the echoes of clashing swords and the cries of war. Alone in The Forsaken Lands, he surely would have died earlier if not for his love of vanquishing.\n\nWas he afraid? Always. \nWas he ready? Always.\nDid he win? Always.\n\nYet, with each victory his fear of the next threat grew. He knew the only way to survive, was to demolish every possible threat. Some threats were ended immediately. Others succumbed only after months of undetected defeats, planned far in advance by The Knight. Many wouldn't have even considered themselves a threat.\n\nOne day he heard of The Green Knight, of his command over his prisoners, and his cunning using the inmates as pawns in his own shadowy games. Clearly, The Green Knight was a threat.\n\nThe Knight of War positioned himself on the floor, and The Green Knight struck. While on his way to prison, he successfully conveyed to The Green Knight his abilities in combat whilst tactfully concealing his abilities in strategy. Consequently, The Green Knight saw him as an asset and not yet as a threat.",
+  "external_url": "https://fateofwagdie.com/characters/5550",
+  "animation_url": "https://fateofwagdie.com/characters/5550/animated"
+}

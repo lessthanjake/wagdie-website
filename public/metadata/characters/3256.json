@@ -1,0 +1,71 @@
+{
+  "name": "We are All Going to Die #3256",
+  "image": "ipfs://bafkreibg4ay44h2kzfmneduu4ojodgdm4ogxjqz6ldu3uysrusnakgw7j4",
+  "tokenId": "3256",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Healer's Dress",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Nameless One's Blessing",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Straw",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/3256",
+  "animation_url": "https://fateofwagdie.com/characters/3256/animated"
+}

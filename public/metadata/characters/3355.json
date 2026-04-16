@@ -1,0 +1,71 @@
+{
+  "name": "We are All Going to Die #3355",
+  "image": "ipfs://bafkreicf7dcoi36pourvtudtrrfwushhnc5f4jya3tw5sf6p7ilbay23oa",
+  "tokenId": "3355",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Pauldrons",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Zealot's Prowess",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/3355",
+  "animation_url": "https://fateofwagdie.com/characters/3355/animated"
+}

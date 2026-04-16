@@ -1,0 +1,94 @@
+{
+  "name": "Caramip of the Wastes",
+  "image": "ipfs://bafkreieczopwrv65p7rlqul5dvtgyoqfqk4y4ldn52xpnxz6jwmdczuy2y",
+  "sheet": {
+    "name": "Caramip of the Wastes",
+    "level": 1,
+    "origin": "Naive Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "Removal's Kin",
+      "armor": "Valorite Weight"
+    },
+    "attributes": {
+      "wisdom": 7,
+      "charisma": 13,
+      "strength": 16,
+      "dexterity": 10,
+      "constitution": 13,
+      "intelligence": 9
+    },
+    "hit_points": 5,
+    "tokenIdInt": 95,
+    "background_story": "The Artificers were once a beacon of sanity sharing knowledge over the Cycles. As that vision was lost to time and death, Caramip assembled a new collective to carry on where their predecessors had left off.",
+    "experience_points": 0
+  },
+  "tokenId": "95",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Valorite Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zaban Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Removal's Kin",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The Artificers were once a beacon of sanity sharing knowledge over the Cycles. As that vision was lost to time and death, Caramip assembled a new collective to carry on where their predecessors had left off.",
+  "external_url": "https://fateofwagdie.com/characters/95",
+  "animation_url": "https://fateofwagdie.com/characters/95/animated"
+}

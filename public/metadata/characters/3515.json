@@ -1,0 +1,71 @@
+{
+  "name": "We are All Going to Die #3515",
+  "image": "ipfs://bafkreiektlw6j44a2i2qk3drct5bctj6czku633psoo7iranu3nmyoezd4",
+  "tokenId": "3515",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Plain Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Altered",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Detritus Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/3515",
+  "animation_url": "https://fateofwagdie.com/characters/3515/animated"
+}

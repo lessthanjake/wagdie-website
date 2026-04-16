@@ -1,0 +1,94 @@
+{
+  "name": "Madison Vashti",
+  "image": "ipfs://bafkreigumfw2pkpdr6iag346u5us6st63abzdhsmpzfgfrnw7cm7nwcofi",
+  "sheet": {
+    "name": "Madison Vashti",
+    "level": 1,
+    "origin": "Wormkin Elite",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Blessing",
+      "armor": "Tunic of Yore"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 6188,
+    "background_story": "The serpent had an apple. Agora has Madison. ",
+    "experience_points": 0
+  },
+  "tokenId": "6188",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Tunic of Yore",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Swamp Tassels",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Blessing",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The serpent had an apple. Agora has Madison. ",
+  "external_url": "https://fateofwagdie.com/characters/6188",
+  "animation_url": "https://fateofwagdie.com/characters/6188/animated"
+}

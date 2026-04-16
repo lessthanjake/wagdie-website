@@ -1,0 +1,94 @@
+{
+  "name": "Leon D' Fluer",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/2367.png",
+  "sheet": {
+    "name": "Leon D' Fluer",
+    "level": 7,
+    "origin": "Seeker of Piat",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Zaban Explorer Garb"
+    },
+    "attributes": {
+      "wisdom": 7,
+      "charisma": 7,
+      "strength": 7,
+      "dexterity": 7,
+      "constitution": 7,
+      "intelligence": 7
+    },
+    "hit_points": 7,
+    "tokenIdInt": 2367,
+    "background_story": "Leon was a pious follower of Agora. He came to the call at the Church of Her and rallied his fellow men and women. However, his party was delayed coming from the North. They got lost in the Putrid Forest. As they finally escaped and made their way south, they ran into the worst possible group traveling east from the church. The Crow and her army of decrepits... Now he and his party become the slaves of the 48. The flesh taken, when blood wasn't spilled.",
+    "experience_points": 7
+  },
+  "tokenId": "2367",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Zaban Explorer Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Altered",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Stalwart Encyclopedia",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Field Notes",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Stalwart Researcher",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Leon was a pious follower of Agora. He came to the call at the Church of Her and rallied his fellow men and women. However, his party was delayed coming from the North. They got lost in the Putrid Forest. As they finally escaped and made their way south, they ran into the worst possible group traveling east from the church. The Crow and her army of decrepits... Now he and his party become the slaves of the 48. The flesh taken, when blood wasn't spilled.",
+  "external_url": "https://fateofwagdie.com/characters/2367",
+  "animation_url": "https://fateofwagdie.com/characters/2367/animated"
+}

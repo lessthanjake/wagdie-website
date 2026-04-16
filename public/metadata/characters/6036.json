@@ -1,0 +1,90 @@
+{
+  "name": "Agorn Umbrellatop",
+  "image": "ipfs://bafkreigsr3na6fwyfktvizqg4ssks3m5xdp7z3zdwkomxkzywcq7hdhlvi",
+  "sheet": {
+    "name": "Agorn Umbrellatop",
+    "level": 6,
+    "origin": "Seeker of Piat",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Nomad's Brim",
+      "armor": "Pilgrim's Chain"
+    },
+    "attributes": {
+      "wisdom": 21,
+      "charisma": 3,
+      "strength": 7,
+      "dexterity": 4,
+      "constitution": 3,
+      "intelligence": 24
+    },
+    "hit_points": 1,
+    "tokenIdInt": 6036,
+    "background_story": "As Agorn was bound to the pyre, he closed his eyes, steeling himself for the unavoidable fate that lay ahead. However, the lick of flames upon his skin stirred an unexpected force within him. A potent energy, fueled by fear and fury, surged through his veins, overwhelming his senses. As the fire consumed him, Agorn unleashed a primal scream, hurling curses and incantations that reverberated across the forsaken lands. And in a final act of defiance, he channeled all of his remaining strength into a surge of power that ran down his left leg, a pungent liquid that sizzled and hissed as it struck the flames below. The acrid smell of the substance filled the air, and for a moment, the inferno around him seemed to falter. Though he faced a slow, torturous demise, his flesh consumed by the flames, Agorn knew that his spirit would live on, forever burning bright in the annals of history.",
+    "experience_points": 69
+  },
+  "tokenId": "6036",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Nomad's Brim",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "As Agorn was bound to the pyre, he closed his eyes, steeling himself for the unavoidable fate that lay ahead. However, the lick of flames upon his skin stirred an unexpected force within him. A potent energy, fueled by fear and fury, surged through his veins, overwhelming his senses. As the fire consumed him, Agorn unleashed a primal scream, hurling curses and incantations that reverberated across the forsaken lands. And in a final act of defiance, he channeled all of his remaining strength into a surge of power that ran down his left leg, a pungent liquid that sizzled and hissed as it struck the flames below. The acrid smell of the substance filled the air, and for a moment, the inferno around him seemed to falter. Though he faced a slow, torturous demise, his flesh consumed by the flames, Agorn knew that his spirit would live on, forever burning bright in the annals of history.",
+  "external_url": "https://fateofwagdie.com/characters/6036",
+  "animation_url": "https://fateofwagdie.com/characters/6036/animated"
+}

@@ -1,0 +1,90 @@
+{
+  "name": "𝔖𝔦𝔩𝔢𝔫𝔲𝔰, 𝔓𝔦𝔶𝔲'𝔰 𝔚𝔞𝔯𝔡𝔢𝔫",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/4332.png",
+  "sheet": {
+    "name": "𝔖𝔦𝔩𝔢𝔫𝔲𝔰, 𝔓𝔦𝔶𝔲'𝔰 𝔚𝔞𝔯𝔡𝔢𝔫",
+    "level": 5,
+    "origin": "Foolish Jester",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 10,
+      "strength": 14,
+      "dexterity": 11,
+      "constitution": 10,
+      "intelligence": 11
+    },
+    "hit_points": 6,
+    "tokenIdInt": 4332,
+    "background_story": "As a child, Silenus was enthralled with stories of Piyu and her legendary beast, The Glutton.  He spent his formative years learning all he could about them and their mysterious home - The Primordial Lands.\n\nSilenus yearned to travel there, but knew it was a dangerous place.  So he waited, and planned, and researched ... until the opportunity presented itself.  And so he headed to Sibor's Mound with a group of others, who also felt at one with nature.\n\nAfter spending some time in the Primordial Lands, Silenus felt the change ... he started to hear Piyu call to him, a transformation of sorts was underway.  He started to wonder if his plans were foolish - should he escape while he could?  But he was also excited - what might become of him!\n\nOne day while the others argued about whether pauldrons should be allowed in the Mound, he wandered away from Sibor's Mound ... only to run into Piyu herself!  \n\nto be continued ...",
+    "experience_points": 70
+  },
+  "tokenId": "4332",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Gorlong Mane",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Primordial Mask",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Glutton Soup",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Ancient Reflections",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "As a child, Silenus was enthralled with stories of Piyu and her legendary beast, The Glutton.  He spent his formative years learning all he could about them and their mysterious home - The Primordial Lands.\n\nSilenus yearned to travel there, but knew it was a dangerous place.  So he waited, and planned, and researched ... until the opportunity presented itself.  And so he headed to Sibor's Mound with a group of others, who also felt at one with nature.\n\nAfter spending some time in the Primordial Lands, Silenus felt the change ... he started to hear Piyu call to him, a transformation of sorts was underway.  He started to wonder if his plans were foolish - should he escape while he could?  But he was also excited - what might become of him!\n\nOne day while the others argued about whether pauldrons should be allowed in the Mound, he wandered away from Sibor's Mound ... only to run into Piyu herself!  \n\nto be continued ...",
+  "external_url": "https://fateofwagdie.com/characters/4332",
+  "animation_url": "https://fateofwagdie.com/characters/4332/animated"
+}

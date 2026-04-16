@@ -1,0 +1,93 @@
+{
+  "name": "Borivik Astorio",
+  "image": "ipfs://bafkreibnmx7ky2q7fkzeomlfjohls2iulngjictntnzorxpiuworsfquiy",
+  "sheet": {
+    "name": "Borivik Astorio",
+    "level": 20,
+    "origin": "Hardened Merchant",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "Darkblade's Beak",
+      "armor": "Logun's Curse"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 28,
+      "strength": 30,
+      "dexterity": 25,
+      "constitution": 28,
+      "intelligence": 29
+    },
+    "hit_points": 100,
+    "tokenIdInt": 2050,
+    "experience_points": 77777
+  },
+  "tokenId": "2050",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Curse",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Swamp Tassels",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Darkblade's Beak",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/2050",
+  "animation_url": "https://fateofwagdie.com/characters/2050/animated"
+}

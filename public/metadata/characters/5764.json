@@ -1,0 +1,94 @@
+{
+  "name": "The Nameless Mercenary",
+  "image": "ipfs://bafkreiggjq4l6r3fxmznn2wep2ejkg6bcrwtxdbr2i4lgngpokn7qvr6cy",
+  "sheet": {
+    "name": "The Nameless Mercenary",
+    "level": 13,
+    "origin": "Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Noxian Jester Garb"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 15,
+      "strength": 11,
+      "dexterity": 16,
+      "constitution": 15,
+      "intelligence": 9
+    },
+    "hit_points": 69,
+    "tokenIdInt": 5764,
+    "background_story": "He is a brutal and bloodthirsty thief who fights without regard to his own safety. Some people believe he was originally named 'Cain' and that he was the wanted murderer.\n\nFaceless mercenary\nWith no conscience\nDarkness all you see\nDying hard your believe\n\nFreelance veteran\nAsk no forgiveness\nNo tears, no regrets\nMission completed",
+    "experience_points": 666
+  },
+  "tokenId": "5764",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Noxian Jester Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Her Golden Page",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "He is a brutal and bloodthirsty thief who fights without regard to his own safety. Some people believe he was originally named 'Cain' and that he was the wanted murderer.\n\nFaceless mercenary\nWith no conscience\nDarkness all you see\nDying hard your believe\n\nFreelance veteran\nAsk no forgiveness\nNo tears, no regrets\nMission completed",
+  "external_url": "https://fateofwagdie.com/characters/5764",
+  "animation_url": "https://fateofwagdie.com/characters/5764/animated"
+}

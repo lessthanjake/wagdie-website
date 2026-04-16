@@ -1,0 +1,94 @@
+{
+  "name": " Defensor Scientiae",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/4917.png",
+  "sheet": {
+    "name": " Defensor Scientiae",
+    "level": 1,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "An Ancient Device",
+      "armor": "Bandit's Garb"
+    },
+    "attributes": {
+      "wisdom": 6,
+      "charisma": 6,
+      "strength": 14,
+      "dexterity": 8,
+      "constitution": 16,
+      "intelligence": 20
+    },
+    "hit_points": 9,
+    "tokenIdInt": 4917,
+    "background_story": "One of Luta's followers that became enamored with Stalwart Fortress and the power of the knowledge within.\n\nHe fused himself with an ancient device to prolong his life in service of defending the tomes of The Strivers after Luta's leaving.\n\nSince, he has stood guard over the deepest libraries. None have breached his chamber.\n\nHe has a friendly relationship with another defender, Pilosus Telum.\n\nAfter the death of Zell he has grown increasingly preoccupied with his studies and carries his tomes around, weaponized as a mallet.\n\nIn the year passing, he grew increasingly fascinated with The World Maker and the machinery of The Operator's Chamber, and begun to design experiments using it.",
+    "experience_points": 0
+  },
+  "tokenId": "4917",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Bandit's Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Light Uirian Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "An Ancient Device",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Engineer's Mallet",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Artificer's Crystal",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Artificers",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "One of Luta's followers that became enamored with Stalwart Fortress and the power of the knowledge within.\n\nHe fused himself with an ancient device to prolong his life in service of defending the tomes of The Strivers after Luta's leaving.\n\nSince, he has stood guard over the deepest libraries. None have breached his chamber.\n\nHe has a friendly relationship with another defender, Pilosus Telum.\n\nAfter the death of Zell he has grown increasingly preoccupied with his studies and carries his tomes around, weaponized as a mallet.\n\nIn the year passing, he grew increasingly fascinated with The World Maker and the machinery of The Operator's Chamber, and begun to design experiments using it.",
+  "external_url": "https://fateofwagdie.com/characters/4917",
+  "animation_url": "https://fateofwagdie.com/characters/4917/animated"
+}

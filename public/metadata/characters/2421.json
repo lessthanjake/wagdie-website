@@ -1,0 +1,94 @@
+{
+  "name": "Ethan",
+  "image": "ipfs://bafkreihgu5lotaf46a3qmua5sdjssnpttbo3q3i6i36f6qpoyi2jkojnqy",
+  "sheet": {
+    "name": "Ethan",
+    "level": 1,
+    "origin": "Young Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "None",
+      "armor": "Bandit's Garb"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 13,
+      "strength": 17,
+      "dexterity": 15,
+      "constitution": 17,
+      "intelligence": 14
+    },
+    "hit_points": 11,
+    "tokenIdInt": 2421,
+    "background_story": "Meet Ethan, a survivor molded by the crucible of adversity. Once a man of ordinary circumstances, he found himself thrust into an unforgiving world that tested his limits and reshaped his very essence. From the depths of tragedy, he emerged as a beacon of resilience and fortitude.\n\nEthan's journey began amidst the aftermath of a catastrophic event that shattered his familiar reality. Against all odds, he managed to navigate through the chaos, evading danger at every turn. His physical strength and agility, coupled with an unwavering determination, allowed him to overcome countless obstacles.\n\nBut it was not just his physical prowess that defined him as a survivor. Ethan possessed an indomitable spirit that refused to yield to despair. In the face of unimaginable loss, he embraced the darkness and emerged with a flicker of hope, a flame that burned brightly within his heart.\n\nDriven by an unwavering desire to rebuild and protect, Ethan ventured into the treacherous remnants of the world he once knew. With each step, he encountered others in need—orphans searching for family, the wounded seeking solace, and the forgotten crying out for a champion. He became their steadfast guardian, their unwavering support.\n\nEthan's survival was not without sacrifice. He bore the scars of battles fought, both physical and emotional. Each scar was a testament to his unwavering will to survive, a reminder of the price he paid to protect those he cared for. Yet, despite the weight of his burdens, he wore them with honor, a badge of honor earned through adversity.\n\nThrough sheer resilience and adaptability, Ethan learned to thrive in a world turned hostile. He honed his skills, becoming a proficient hunter, a cunning strategist, and a master of improvisation. His resourcefulness and ingenuity allowed him to fashion tools and weapons from the remnants of a broken civilization, leveling the playing field against all odds.\n\nBut beneath his weathered exterior, Ethan carried a glimmer of compassion. He understood that survival was not solely a solitary pursuit; it was about forging connections and fostering a sense of unity. He formed alliances with fellow survivors, building a tight-knit community that thrived on mutual support and shared purpose.\n\nEthan's resilience, both physical and emotional, set him apart in a world gripped by chaos. He embodied the unwavering spirit of a survivor, inspiring those around him to rise above the darkness and strive for a brighter future. In a world of uncertainty, he was a steadfast beacon, reminding everyone that resilience and hope can triumph even in the harshest of circumstances.",
+    "experience_points": 0
+  },
+  "tokenId": "2421",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Bandit's Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Her Dark Blessing",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Meet Ethan, a survivor molded by the crucible of adversity. Once a man of ordinary circumstances, he found himself thrust into an unforgiving world that tested his limits and reshaped his very essence. From the depths of tragedy, he emerged as a beacon of resilience and fortitude.\n\nEthan's journey began amidst the aftermath of a catastrophic event that shattered his familiar reality. Against all odds, he managed to navigate through the chaos, evading danger at every turn. His physical strength and agility, coupled with an unwavering determination, allowed him to overcome countless obstacles.\n\nBut it was not just his physical prowess that defined him as a survivor. Ethan possessed an indomitable spirit that refused to yield to despair. In the face of unimaginable loss, he embraced the darkness and emerged with a flicker of hope, a flame that burned brightly within his heart.\n\nDriven by an unwavering desire to rebuild and protect, Ethan ventured into the treacherous remnants of the world he once knew. With each step, he encountered others in need—orphans searching for family, the wounded seeking solace, and the forgotten crying out for a champion. He became their steadfast guardian, their unwavering support.\n\nEthan's survival was not without sacrifice. He bore the scars of battles fought, both physical and emotional. Each scar was a testament to his unwavering will to survive, a reminder of the price he paid to protect those he cared for. Yet, despite the weight of his burdens, he wore them with honor, a badge of honor earned through adversity.\n\nThrough sheer resilience and adaptability, Ethan learned to thrive in a world turned hostile. He honed his skills, becoming a proficient hunter, a cunning strategist, and a master of improvisation. His resourcefulness and ingenuity allowed him to fashion tools and weapons from the remnants of a broken civilization, leveling the playing field against all odds.\n\nBut beneath his weathered exterior, Ethan carried a glimmer of compassion. He understood that survival was not solely a solitary pursuit; it was about forging connections and fostering a sense of unity. He formed alliances with fellow survivors, building a tight-knit community that thrived on mutual support and shared purpose.\n\nEthan's resilience, both physical and emotional, set him apart in a world gripped by chaos. He embodied the unwavering spirit of a survivor, inspiring those around him to rise above the darkness and strive for a brighter future. In a world of uncertainty, he was a steadfast beacon, reminding everyone that resilience and hope can triumph even in the harshest of circumstances.",
+  "external_url": "https://fateofwagdie.com/characters/2421",
+  "animation_url": "https://fateofwagdie.com/characters/2421/animated"
+}

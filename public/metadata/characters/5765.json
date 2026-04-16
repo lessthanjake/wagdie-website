@@ -1,0 +1,94 @@
+{
+  "name": "Gorgon Medusa",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/5765.png",
+  "sheet": {
+    "name": "Gorgon Medusa",
+    "level": 13,
+    "origin": "Leeched Devotee",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Favor in Light",
+      "mask": "Death Dealer's Helm",
+      "armor": "Blessing of the Worm"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 0,
+      "strength": 15,
+      "dexterity": 15,
+      "constitution": 15,
+      "intelligence": 15
+    },
+    "hit_points": 100,
+    "tokenIdInt": 5765,
+    "background_story": "Once a priestess of Agora, this young maiden defiled the church and received eternal disfigurement.  Some say it was the mother's curse; other's say the serpent's blessing.  ",
+    "experience_points": 69
+  },
+  "tokenId": "5765",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Blessing of the Worm",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Favor in Light",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Leeched Devotee",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Death Dealer's Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Leeched Devotee",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Visage of the Nameless",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Jester's Dice",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Grand Jester",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Once a priestess of Agora, this young maiden defiled the church and received eternal disfigurement.  Some say it was the mother's curse; other's say the serpent's blessing.  ",
+  "external_url": "https://fateofwagdie.com/characters/5765",
+  "animation_url": "https://fateofwagdie.com/characters/5765/animated"
+}

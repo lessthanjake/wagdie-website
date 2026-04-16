@@ -1,0 +1,94 @@
+{
+  "name": "Aldric",
+  "image": "ipfs://bafkreibero4i2s2fjuym6uecz3fcmnzad7p6z2nvd3ivmr6hoqlhjkpgtq",
+  "sheet": {
+    "name": "Aldric",
+    "level": 2,
+    "origin": "Wormlord Acolyte",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "Sibor's Brace",
+      "armor": "Strange Cloth Cloak"
+    },
+    "attributes": {
+      "wisdom": 8,
+      "charisma": 13,
+      "strength": 12,
+      "dexterity": 12,
+      "constitution": 12,
+      "intelligence": 10
+    },
+    "hit_points": 4,
+    "tokenIdInt": 667,
+    "background_story": "\nIn the age of yore, amidst cobblestone streets, wandered Aldric, a lost soul burdened by past misdeeds. In a chance encounter with a sage of ancient wisdom, he found a glimmer of hope, a path to redemption. With newfound resolve, Aldric embarked on a quest to reclaim his honor, facing demons and trials with unwavering courage. Through the crucible of his journey, he emerged reborn, a beacon of hope in the darkness. Thus, the tale of Aldric was etched into history, a testament to the power of redemption.",
+    "experience_points": 0
+  },
+  "tokenId": "667",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Strange Cloth Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Brimstone",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Luta's Firey Bangs",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Sibor's Brace",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "\nIn the age of yore, amidst cobblestone streets, wandered Aldric, a lost soul burdened by past misdeeds. In a chance encounter with a sage of ancient wisdom, he found a glimmer of hope, a path to redemption. With newfound resolve, Aldric embarked on a quest to reclaim his honor, facing demons and trials with unwavering courage. Through the crucible of his journey, he emerged reborn, a beacon of hope in the darkness. Thus, the tale of Aldric was etched into history, a testament to the power of redemption.",
+  "external_url": "https://fateofwagdie.com/characters/667",
+  "animation_url": "https://fateofwagdie.com/characters/667/animated"
+}

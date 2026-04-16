@@ -1,0 +1,94 @@
+{
+  "name": "Brother Kairos",
+  "image": "ipfs://bafkreiasdvwqhv23gzgo3dyljmkueqjdn6qhj4ajgupx3ofzsfphnq2ike",
+  "sheet": {
+    "name": "Brother Kairos",
+    "level": 1,
+    "origin": "Hardened Merchant",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "Goldbeard's Eyes",
+      "armor": "Crow Lord's Blessing"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 15,
+      "strength": 11,
+      "dexterity": 11,
+      "constitution": 14,
+      "intelligence": 15
+    },
+    "hit_points": 14,
+    "tokenIdInt": 3806,
+    "background_story": "Once a devout monk named Kairos, he grew disillusioned with the monastery's rigid teachings and hypocrisy. Seeking freedom, he joined the Darklade Guild, becoming known as Brother Kairos. With his monk training, he excelled as a cunning bandit, using his skills for infiltration and strategy. Though he found purpose among the outlaws, a part of him still longed for the peace he once sought in his former life.",
+    "experience_points": 0
+  },
+  "tokenId": "3806",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Crow Lord's Blessing",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Discipline Helm Hair",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Goldbeard's Eyes",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Once a devout monk named Kairos, he grew disillusioned with the monastery's rigid teachings and hypocrisy. Seeking freedom, he joined the Darklade Guild, becoming known as Brother Kairos. With his monk training, he excelled as a cunning bandit, using his skills for infiltration and strategy. Though he found purpose among the outlaws, a part of him still longed for the peace he once sought in his former life.",
+  "external_url": "https://fateofwagdie.com/characters/3806",
+  "animation_url": "https://fateofwagdie.com/characters/3806/animated"
+}

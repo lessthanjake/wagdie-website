@@ -1,0 +1,82 @@
+{
+  "name": "Alse",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/64.png",
+  "sheet": {
+    "name": "Alse",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Censure",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 6
+    },
+    "hit_points": 1,
+    "tokenIdInt": 64,
+    "background_story": "A young witch, burned by the church of Agora for casting her first and only spell. The Eunuchs first humiliated her sealing her head in a mask to blind and make her deaf.\n\nThree days she was left to wonder about the world in the mask while her flesh remained intact.\n\nNow she exists forever, a husk with no senses.",
+    "experience_points": 0
+  },
+  "tokenId": "64",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Convert of the Swamp Witch",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Her Censure",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Convert of the Swamp Witch",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Her Legionnaire",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Her Ash",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Bonfire",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A young witch, burned by the church of Agora for casting her first and only spell. The Eunuchs first humiliated her sealing her head in a mask to blind and make her deaf.\n\nThree days she was left to wonder about the world in the mask while her flesh remained intact.\n\nNow she exists forever, a husk with no senses.",
+  "external_url": "https://fateofwagdie.com/characters/64",
+  "animation_url": "https://fateofwagdie.com/characters/64/animated"
+}

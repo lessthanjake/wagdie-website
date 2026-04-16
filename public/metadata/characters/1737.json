@@ -1,0 +1,71 @@
+{
+  "name": "We are All Going to Die #1737",
+  "image": "ipfs://bafkreidgdmr666s6y55jvqpnuqbbzo3cx7bitcmdgte7cli6qzjvoeeinm",
+  "tokenId": "1737",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Young Knight of Logun",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Her Golden Page",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Goldbeard's Eyes",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/1737",
+  "animation_url": "https://fateofwagdie.com/characters/1737/animated"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Alvyn Raulnor",
+  "image": "ipfs://bafkreiavhuzs6xwzxsqagxyqqwdxngru6etgyr3g5atiuvtn75iszgnhna",
+  "sheet": {
+    "name": "Alvyn Raulnor",
+    "level": 1,
+    "origin": "Garolin Champion",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Favor",
+      "mask": "Her Censure",
+      "armor": "Zaban Explorer Garb"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 11,
+      "strength": 9,
+      "dexterity": 13,
+      "constitution": 15,
+      "intelligence": 9
+    },
+    "hit_points": 10,
+    "tokenIdInt": 2575,
+    "experience_points": 0
+  },
+  "tokenId": "2575",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Zaban Explorer Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Favor",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Censure",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/2575",
+  "animation_url": "https://fateofwagdie.com/characters/2575/animated"
+}

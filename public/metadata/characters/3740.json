@@ -1,0 +1,94 @@
+{
+  "name": "Gideon Herald",
+  "image": "ipfs://bafkreicabikxqxbw46qzjmsh4yutayryg7qgsm3n6hmivgpyowpdqitxgm",
+  "sheet": {
+    "name": "Gideon Herald",
+    "level": 1,
+    "origin": "Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "Wormlord Curse",
+      "armor": "Logun Forged Weight"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 8,
+      "strength": 13,
+      "dexterity": 15,
+      "constitution": 14,
+      "intelligence": 18
+    },
+    "hit_points": 34,
+    "tokenIdInt": 3740,
+    "background_story": "Gideon lived a life ill regarded by many, feeding himself through underhanded tactics as a thief and hired muscle, until a child was born to him and an escort, Toriel. The girls birth cost Toriel her life, Gideons moved for a new life with the child. In the lands between however, no one is safe from the forces that be, his daughter, has contracted a disease that caused fungal extremities to protrude from her body.\nGideon accompanied by a blind woman who whispers of futures to come, has reclaimed his once discarded armaments in search of a cure for his daughters ailment.",
+    "experience_points": 0
+  },
+  "tokenId": "3740",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun Forged Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Death Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wormlord Curse",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Gideon lived a life ill regarded by many, feeding himself through underhanded tactics as a thief and hired muscle, until a child was born to him and an escort, Toriel. The girls birth cost Toriel her life, Gideons moved for a new life with the child. In the lands between however, no one is safe from the forces that be, his daughter, has contracted a disease that caused fungal extremities to protrude from her body.\nGideon accompanied by a blind woman who whispers of futures to come, has reclaimed his once discarded armaments in search of a cure for his daughters ailment.",
+  "external_url": "https://fateofwagdie.com/characters/3740",
+  "animation_url": "https://fateofwagdie.com/characters/3740/animated"
+}

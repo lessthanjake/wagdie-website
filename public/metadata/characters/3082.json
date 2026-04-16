@@ -1,0 +1,71 @@
+{
+  "name": "We are All Going to Die #3082",
+  "image": "ipfs://bafkreicqzmpb23vl6n6ehad3u2yyoc6birbdqbxm7hsrgybrtzjd2vqadq",
+  "tokenId": "3082",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Garolin Tunic",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Nameless Adventurer",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Noxium Garb",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Nameless Adventurer",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/3082",
+  "animation_url": "https://fateofwagdie.com/characters/3082/animated"
+}

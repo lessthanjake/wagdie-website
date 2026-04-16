@@ -1,0 +1,94 @@
+{
+  "name": "Johny Deep Hole",
+  "image": "ipfs://bafkreieprngemncedyf4aodnx25otxnmhzboaq54f45xguvcvgngvpg6j4",
+  "sheet": {
+    "name": "Johny Deep Hole",
+    "level": 6,
+    "origin": "Worm Devotee",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Bandit's Garb"
+    },
+    "attributes": {
+      "wisdom": 6,
+      "charisma": 6,
+      "strength": 6,
+      "dexterity": 6,
+      "constitution": 6,
+      "intelligence": 6
+    },
+    "hit_points": 6,
+    "tokenIdInt": 1637,
+    "background_story": "Johny always like going to deep dark places. He prefers the solitude of a good warm hole.",
+    "experience_points": 6
+  },
+  "tokenId": "1637",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Bandit's Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Worm Devotee",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Worm Devotee",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Johny always like going to deep dark places. He prefers the solitude of a good warm hole.",
+  "external_url": "https://fateofwagdie.com/characters/1637",
+  "animation_url": "https://fateofwagdie.com/characters/1637/animated"
+}

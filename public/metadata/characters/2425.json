@@ -1,0 +1,94 @@
+{
+  "name": "Pilgrim Ruby",
+  "image": "ipfs://bafkreiaye7eiyhkh45cfx6f3k3lwrlo7pttaiwzwj22v5eh3fh6oebhghi",
+  "sheet": {
+    "name": "Pilgrim Ruby",
+    "level": 1,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Logun Forged Weight"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 15,
+      "strength": 15,
+      "dexterity": 12,
+      "constitution": 16,
+      "intelligence": 7
+    },
+    "hit_points": 9,
+    "tokenIdInt": 2425,
+    "background_story": "An energetic, but inexperienced brawler who seeks adventures across The Forsaken Lands.",
+    "experience_points": 0
+  },
+  "tokenId": "2425",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun Forged Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "An energetic, but inexperienced brawler who seeks adventures across The Forsaken Lands.",
+  "external_url": "https://fateofwagdie.com/characters/2425",
+  "animation_url": "https://fateofwagdie.com/characters/2425/animated"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "We are All Going to Die #3749",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/3749.png",
+  "sheet": {
+    "name": "New Character",
+    "level": 0,
+    "origin": "Simple Vagabond",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Wormlord Visage",
+      "armor": "Holy Diamond of Her"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 3749,
+    "experience_points": 0
+  },
+  "tokenId": "3749",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Holy Diamond of Her",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Her Page",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wormlord Visage",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Necromancer",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Guard of the Seers",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Seer's Gem",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Seers",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/3749",
+  "animation_url": "https://fateofwagdie.com/characters/3749/animated"
+}

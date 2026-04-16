@@ -1,0 +1,94 @@
+{
+  "name": "Rangrim Holderhek",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/1448.png",
+  "sheet": {
+    "name": "Rangrim Holderhek",
+    "level": 9,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "Blind Thief's Charm",
+      "armor": "Luta's Full Weight"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 15,
+      "strength": 13,
+      "dexterity": 10,
+      "constitution": 8,
+      "intelligence": 15
+    },
+    "hit_points": 1,
+    "tokenIdInt": 1448,
+    "background_story": "",
+    "experience_points": 3890
+  },
+  "tokenId": "1448",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Luta's Full Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Noxian Tint",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Blind Thief's Charm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Crusader's Plate",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Her Ash",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Bonfire",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/1448",
+  "animation_url": "https://fateofwagdie.com/characters/1448/animated"
+}

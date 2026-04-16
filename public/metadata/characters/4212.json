@@ -1,0 +1,94 @@
+{
+  "name": "Violet ",
+  "image": "ipfs://QmZcxURL9ckfhfutLFyQaSeMKtKfTHCERTQc6kBmr8vhzx",
+  "sheet": {
+    "name": "Violet ",
+    "level": 2,
+    "origin": "Hole Protector",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Spring Crown",
+      "armor": "Bridal Gown"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 11,
+      "strength": 15,
+      "dexterity": 13,
+      "constitution": 14,
+      "intelligence": 10
+    },
+    "hit_points": 24,
+    "tokenIdInt": 4212,
+    "background_story": "Once gifted a brush from Detriti, Violet has set out on a path of creation and destruction. She seeks knowledge and power most of all. \n\nAfter Detriti's passing she felt compelled to leave the swamp and her knight armor behind. On lighter feet she traverses the lands in search of higher wisdom and to aid in Detriti's retribution. \n\nViolet enjoys art, botany, magic and the chaos of nature. ",
+    "experience_points": 330
+  },
+  "tokenId": "4212",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Bridal Gown",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Wedding Braids",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Spring Crown",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Once gifted a brush from Detriti, Violet has set out on a path of creation and destruction. She seeks knowledge and power most of all. \n\nAfter Detriti's passing she felt compelled to leave the swamp and her knight armor behind. On lighter feet she traverses the lands in search of higher wisdom and to aid in Detriti's retribution. \n\nViolet enjoys art, botany, magic and the chaos of nature. ",
+  "external_url": "https://fateofwagdie.com/characters/4212",
+  "animation_url": "https://fateofwagdie.com/characters/4212/animated"
+}

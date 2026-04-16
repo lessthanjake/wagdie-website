@@ -1,0 +1,94 @@
+{
+  "name": "Eira the Wyrd",
+  "image": "ipfs://bafkreiduzogi4qv6f6qkssbltvyddu5coachcdrktcxup7urtcb3y524uq",
+  "sheet": {
+    "name": "Eira the Wyrd",
+    "level": 1,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Yogg's Folly",
+      "armor": "Death Dealer's Choice"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 16,
+      "strength": 12,
+      "dexterity": 10,
+      "constitution": 14,
+      "intelligence": 14
+    },
+    "hit_points": 6,
+    "tokenIdInt": 6659,
+    "background_story": "Oft shunned for her unusual disposition, she found comfort in the military academy that saw value in her tactical mindset.\n\nAfter rejection upon professing her love for Lady Fielding, she fled to the forests to hide and study strange texts of the wyrd.\n\nNow she protects her unrequited love from the shadows, using a newfound power.\n\nPlunged into the depths of The Void, forsaking love.",
+    "experience_points": 0
+  },
+  "tokenId": "6659",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Death Dealer's Choice",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Swamp Tassels",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Yogg's Folly",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Oft shunned for her unusual disposition, she found comfort in the military academy that saw value in her tactical mindset.\n\nAfter rejection upon professing her love for Lady Fielding, she fled to the forests to hide and study strange texts of the wyrd.\n\nNow she protects her unrequited love from the shadows, using a newfound power.\n\nPlunged into the depths of The Void, forsaking love.",
+  "external_url": "https://fateofwagdie.com/characters/6659",
+  "animation_url": "https://fateofwagdie.com/characters/6659/animated"
+}

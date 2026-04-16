@@ -1,0 +1,94 @@
+{
+  "name": "Stor Greycastle",
+  "image": "ipfs://bafkreibcstpsfaqkdwtzio7q4bospwytr27as6hwpqbmhvmmbiuqn6runq",
+  "sheet": {
+    "name": "Stor Greycastle",
+    "level": 1,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Her Cursed Outcast"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 12,
+      "strength": 18,
+      "dexterity": 15,
+      "constitution": 13,
+      "intelligence": 13
+    },
+    "hit_points": 8,
+    "tokenIdInt": 6368,
+    "background_story": "It is said that Stor Greycastle was given unnatural might by forces beyond The Two, and that he is prophesized to one day reshape The Forsaken Lands with his bare hands.\n\nOf course, this may just be drunken tavern chatter and hold no truth whatsoever.\n\nPlunged unto the depths of The Void, forsaking strength.",
+    "experience_points": 0
+  },
+  "tokenId": "6368",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Cursed Outcast",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "It is said that Stor Greycastle was given unnatural might by forces beyond The Two, and that he is prophesized to one day reshape The Forsaken Lands with his bare hands.\n\nOf course, this may just be drunken tavern chatter and hold no truth whatsoever.\n\nPlunged unto the depths of The Void, forsaking strength.",
+  "external_url": "https://fateofwagdie.com/characters/6368",
+  "animation_url": "https://fateofwagdie.com/characters/6368/animated"
+}

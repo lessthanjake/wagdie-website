@@ -1,0 +1,94 @@
+{
+  "name": "Lar Sunstrider",
+  "image": "ipfs://bafkreies7icxtfjoz4gyfugyfmuvyhb3nptvete6wr5iqnodexkc3svyq4",
+  "sheet": {
+    "name": "Lar Sunstrider",
+    "level": 1,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "None",
+      "armor": "Her Zealot's Gear"
+    },
+    "attributes": {
+      "wisdom": 8,
+      "charisma": 7,
+      "strength": 9,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 9
+    },
+    "hit_points": 7,
+    "tokenIdInt": 968,
+    "background_story": "He's strict, quick, and impatient. But there's more than this to somebody with his troubled past.\n\nHe was born and grew up in a large family in a merchant capital, he lived in peace until he was about 8 years old, but at that point life changed.\n\nHe lost his brothers in a power outage and was headed for a life of misery. With the help of a suspicious stranger he had to survive in a odd world. But with his persistance and strength, he managed to reach full potential and escape hell. \n\nWhile haunted by memories of the past, he now works as a mercenary until he decide to do otherwise...\n\n\nEther Beasts Quest\nLars Sunstrider aided Doran and seven other pilgrims in battling an ether monster outside the Putrid Forest, earning a reward item for their efforts.\n\nAs dawn approaches, Lars decides to beatthe constant threat and heads towards the Coven's Lair.",
+    "experience_points": 0
+  },
+  "tokenId": "968",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Zealot's Gear",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Darkness",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "He's strict, quick, and impatient. But there's more than this to somebody with his troubled past.\n\nHe was born and grew up in a large family in a merchant capital, he lived in peace until he was about 8 years old, but at that point life changed.\n\nHe lost his brothers in a power outage and was headed for a life of misery. With the help of a suspicious stranger he had to survive in a odd world. But with his persistance and strength, he managed to reach full potential and escape hell. \n\nWhile haunted by memories of the past, he now works as a mercenary until he decide to do otherwise...\n\n\nEther Beasts Quest\nLars Sunstrider aided Doran and seven other pilgrims in battling an ether monster outside the Putrid Forest, earning a reward item for their efforts.\n\nAs dawn approaches, Lars decides to beatthe constant threat and heads towards the Coven's Lair.",
+  "external_url": "https://fateofwagdie.com/characters/968",
+  "animation_url": "https://fateofwagdie.com/characters/968/animated"
+}

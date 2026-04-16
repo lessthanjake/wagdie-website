@@ -1,0 +1,93 @@
+{
+  "name": "Havilar Turnuroth",
+  "image": "ipfs://bafkreibyvbq3xcxkthecdlqituwi4ofng3w67juispz2ubmris4qxthbgq",
+  "sheet": {
+    "name": "Havilar Turnuroth",
+    "level": 1,
+    "origin": "Aged Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "None",
+      "armor": "Strange Cloth Cloak"
+    },
+    "attributes": {
+      "wisdom": 4,
+      "charisma": 11,
+      "strength": 11,
+      "dexterity": 15,
+      "constitution": 18,
+      "intelligence": 15
+    },
+    "hit_points": 11,
+    "tokenIdInt": 653,
+    "experience_points": 0
+  },
+  "tokenId": "653",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Strange Cloth Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Aged Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Noble's Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Aged Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/653",
+  "animation_url": "https://fateofwagdie.com/characters/653/animated"
+}

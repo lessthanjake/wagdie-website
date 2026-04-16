@@ -1,0 +1,94 @@
+{
+  "name": "Ran",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/5015.png",
+  "sheet": {
+    "name": "Ran",
+    "level": 15,
+    "origin": "Garolin Champion",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Seal of the Righteous",
+      "armor": "Death Dealer's Choice"
+    },
+    "attributes": {
+      "wisdom": 18,
+      "charisma": 0,
+      "strength": 11,
+      "dexterity": 21,
+      "constitution": 0,
+      "intelligence": 18
+    },
+    "hit_points": 16,
+    "tokenIdInt": 5015,
+    "background_story": "Foresight and vengeance. ",
+    "experience_points": 60
+  },
+  "tokenId": "5015",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Death Dealer's Choice",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Swamp Tassels",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Seal of the Righteous",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Talon's Edge",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Fetid Crow's Talon",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Darkblade",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Foresight and vengeance. ",
+  "external_url": "https://fateofwagdie.com/characters/5015",
+  "animation_url": "https://fateofwagdie.com/characters/5015/animated"
+}

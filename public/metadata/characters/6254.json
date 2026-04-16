@@ -1,0 +1,94 @@
+{
+  "name": "Chevalier des Cieux",
+  "image": "ipfs://bafkreigumlgvs5vbfy2wxh2nlesnlfydnekktcaxwwroe2vbwlhlxijptu",
+  "sheet": {
+    "name": "Chevalier des Cieux",
+    "level": 2,
+    "origin": "Hole Protector",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "None",
+      "armor": "Pilgrim's Plain Chain"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 12,
+      "strength": 14,
+      "dexterity": 13,
+      "constitution": 11,
+      "intelligence": 10
+    },
+    "hit_points": 100,
+    "tokenIdInt": 6254,
+    "background_story": "Combattant des Tournois",
+    "experience_points": 50
+  },
+  "tokenId": "6254",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Plain Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Pilgrim's Touch",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Combattant des Tournois",
+  "external_url": "https://fateofwagdie.com/characters/6254",
+  "animation_url": "https://fateofwagdie.com/characters/6254/animated"
+}

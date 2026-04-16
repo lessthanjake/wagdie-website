@@ -1,0 +1,93 @@
+{
+  "name": "Chathi Uuthrakt",
+  "image": "ipfs://bafkreiajx7etgivu42rdjidbzgr3uolkkfzt2p5u67jg4vcqbfb2sda2oe",
+  "sheet": {
+    "name": "Chathi Uuthrakt",
+    "level": 1,
+    "origin": "Naive Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "None",
+      "armor": "Her Imprint"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 16,
+      "strength": 13,
+      "dexterity": 5,
+      "constitution": 14,
+      "intelligence": 9
+    },
+    "hit_points": 7,
+    "tokenIdInt": 2187,
+    "experience_points": 0
+  },
+  "tokenId": "2187",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Imprint",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/2187",
+  "animation_url": "https://fateofwagdie.com/characters/2187/animated"
+}

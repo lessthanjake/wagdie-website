@@ -1,0 +1,94 @@
+{
+  "name": "The Fetid Wizard",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/3507.png",
+  "sheet": {
+    "name": "The Fetid Wizard",
+    "level": 1,
+    "origin": "Logun Disciple",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Her Zealot's Gear"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 3507,
+    "background_story": "A reclusive sorcerer who communes with insect and creature to achieve power and oversight in the realm. ",
+    "experience_points": 0
+  },
+  "tokenId": "3507",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Zealot's Gear",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Altered",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Darkness",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Flyling Duo",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Sparkling Fly",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Lord Grem's Diptera",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A reclusive sorcerer who communes with insect and creature to achieve power and oversight in the realm. ",
+  "external_url": "https://fateofwagdie.com/characters/3507",
+  "animation_url": "https://fateofwagdie.com/characters/3507/animated"
+}

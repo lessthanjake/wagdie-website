@@ -1,0 +1,94 @@
+{
+  "name": "Cursed Archer Goblin",
+  "image": "ipfs://bafkreicxkfaxare5jacnnq7o7yfqczoarpavr2itoux4t3weolrl76isga",
+  "sheet": {
+    "name": "Cursed Archer Goblin",
+    "level": 1,
+    "origin": "Her Wetnurse",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "Idiot's Helm",
+      "armor": "Death Stroker Doublet"
+    },
+    "attributes": {
+      "wisdom": 8,
+      "charisma": 11,
+      "strength": 13,
+      "dexterity": 11,
+      "constitution": 14,
+      "intelligence": 11
+    },
+    "hit_points": 5,
+    "tokenIdInt": 1072,
+    "background_story": "Among the goblins, he is known as a sureshot archer, bearing a serious demeanor. \n\nUnfortunately, he is cursed with being an easier target to hit, which is evident by the prominent 10-inch forehead beneath his helmet.",
+    "experience_points": 0
+  },
+  "tokenId": "1072",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Death Stroker Doublet",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Wetnurse",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Idiot's Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Wetnurse",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Among the goblins, he is known as a sureshot archer, bearing a serious demeanor. \n\nUnfortunately, he is cursed with being an easier target to hit, which is evident by the prominent 10-inch forehead beneath his helmet.",
+  "external_url": "https://fateofwagdie.com/characters/1072",
+  "animation_url": "https://fateofwagdie.com/characters/1072/animated"
+}

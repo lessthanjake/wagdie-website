@@ -1,0 +1,71 @@
+{
+  "name": "We are All Going to Die #4627",
+  "image": "ipfs://bafkreidpdhgf2sf6e4j4yqke4qpfm3irhw5tkyviegwbcq3cxnxmmsrmla",
+  "tokenId": "4627",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Valorite Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Pilgrim's Touch",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Removal's Kin",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/4627",
+  "animation_url": "https://fateofwagdie.com/characters/4627/animated"
+}

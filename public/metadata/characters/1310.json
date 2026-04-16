@@ -1,0 +1,93 @@
+{
+  "name": "Juan le Morte",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/1310.png",
+  "sheet": {
+    "name": "Juan le Morte",
+    "level": 6,
+    "origin": "Hardened Merchant",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Worm's Protection"
+    },
+    "attributes": {
+      "wisdom": 6,
+      "charisma": 6,
+      "strength": 6,
+      "dexterity": 6,
+      "constitution": 6,
+      "intelligence": 6
+    },
+    "hit_points": 6,
+    "tokenIdInt": 1310,
+    "experience_points": 6
+  },
+  "tokenId": "1310",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm's Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Her Golden Page",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Bastard Sword",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/1310",
+  "animation_url": "https://fateofwagdie.com/characters/1310/animated"
+}

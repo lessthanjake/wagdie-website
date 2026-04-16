@@ -1,0 +1,94 @@
+{
+  "name": "Laughter",
+  "image": "ipfs://bafkreie34lagjch4ge7t6tdb75wkmltbpkhruhofx7tuquu2wxkyzbdeyu",
+  "sheet": {
+    "name": "Laughter",
+    "level": 2,
+    "origin": "Journeyman",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "The Blue Beast",
+      "armor": "Worm Caller"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 10,
+      "strength": 10,
+      "dexterity": 12,
+      "constitution": 14,
+      "intelligence": 16
+    },
+    "hit_points": 10,
+    "tokenIdInt": 2700,
+    "background_story": "Laughter is amusing and inspiring, it tickles the soul. But this is no ordinary laughter for its' best friend is one others might consider a foe.\n\nThose who receive laughter are inclined to seek out its' companion.. For if we don't laugh together, we are laughed at.\n\n",
+    "experience_points": 300
+  },
+  "tokenId": "2700",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm Caller",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "The Blue Beast",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Laughter is amusing and inspiring, it tickles the soul. But this is no ordinary laughter for its' best friend is one others might consider a foe.\n\nThose who receive laughter are inclined to seek out its' companion.. For if we don't laugh together, we are laughed at.\n\n",
+  "external_url": "https://fateofwagdie.com/characters/2700",
+  "animation_url": "https://fateofwagdie.com/characters/2700/animated"
+}

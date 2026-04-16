@@ -1,0 +1,94 @@
+{
+  "name": "Falkrunn",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/5070.png",
+  "sheet": {
+    "name": "Falkrunn",
+    "level": 1,
+    "origin": "Pilgrim of the Lakes",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Worm God's Blessing",
+      "mask": "Goldbeard's Eyes",
+      "armor": "Garolin Tunic"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 12,
+      "strength": 11,
+      "dexterity": 10,
+      "constitution": 10,
+      "intelligence": 14
+    },
+    "hit_points": 3,
+    "tokenIdInt": 5070,
+    "background_story": "Astaroth's executioner.",
+    "experience_points": 10
+  },
+  "tokenId": "5070",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Garolin Tunic",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Worm God's Blessing",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Yearn",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Death Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Goldbeard's Eyes",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Serpent's Maw",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Nameless Scale Fragment",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Wormkin",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Astaroth's executioner.",
+  "external_url": "https://fateofwagdie.com/characters/5070",
+  "animation_url": "https://fateofwagdie.com/characters/5070/animated"
+}

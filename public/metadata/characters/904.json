@@ -1,0 +1,94 @@
+{
+  "name": "Knight of Despair",
+  "image": "ipfs://bafkreiau5hp26kwjsc7ulucs7baosq2plafwhrk765xkxnftcfimcrs4xu",
+  "sheet": {
+    "name": "Knight of Despair",
+    "level": 1,
+    "origin": "Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "Yogg's Love",
+      "armor": "Worm's Protection"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 904,
+    "background_story": "𝔉𝔢𝔴 𝔦𝔫𝔱𝔢𝔯𝔢𝔰𝔱𝔰 𝔬𝔲𝔱𝔰𝔦𝔡𝔢 𝔬𝔣 𝔣𝔦𝔫𝔡𝔦𝔫𝔤 ℨ𝔬. 𝔑𝔬 𝔪𝔬𝔯𝔢 𝔡𝔢𝔱𝔬𝔲𝔯𝔰.\n\n𝔈𝔫𝔱𝔯𝔬𝔭𝔶  Journals:\nhttps://twitter.com/DefiYourMaker/status/1537289296146624512?s=20&t=7e6apuzTJHAZRxD-rocV2w",
+    "experience_points": 0
+  },
+  "tokenId": "904",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm's Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Yogg's Love",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "𝔉𝔢𝔴 𝔦𝔫𝔱𝔢𝔯𝔢𝔰𝔱𝔰 𝔬𝔲𝔱𝔰𝔦𝔡𝔢 𝔬𝔣 𝔣𝔦𝔫𝔡𝔦𝔫𝔤 ℨ𝔬. 𝔑𝔬 𝔪𝔬𝔯𝔢 𝔡𝔢𝔱𝔬𝔲𝔯𝔰.\n\n𝔈𝔫𝔱𝔯𝔬𝔭𝔶  Journals:\nhttps://twitter.com/DefiYourMaker/status/1537289296146624512?s=20&t=7e6apuzTJHAZRxD-rocV2w",
+  "external_url": "https://fateofwagdie.com/characters/904",
+  "animation_url": "https://fateofwagdie.com/characters/904/animated"
+}

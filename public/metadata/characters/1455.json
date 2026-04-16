@@ -1,0 +1,94 @@
+{
+  "name": "GORDON the Dimensional",
+  "image": "ipfs://bafkreicqskqtxw6rwpa2v66vfcptzk2lprtevctyibe5uhf7dlstp3d3ri",
+  "sheet": {
+    "name": "GORDON the Dimensional",
+    "level": 15,
+    "origin": "Naive Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "An Ancient Device",
+      "armor": "Valorite Protection"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 16,
+      "strength": 11,
+      "dexterity": 10,
+      "constitution": 14,
+      "intelligence": 18
+    },
+    "hit_points": 8,
+    "tokenIdInt": 1455,
+    "background_story": "The Alchemist calls from the concords. LO Bringer of Transformation beckoned a mid-aged Gordon to untether the mind and body with the spores of the depths. \"The shadows of the forsaken  sow the sins of the curious.\" Will he be bound by Alchemy or is the future wound by fate in the Fusion of Chaos to transform his mind and body through Nature's Augmentation?",
+    "experience_points": 460
+  },
+  "tokenId": "1455",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Valorite Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit Set",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "An Ancient Device",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The Alchemist calls from the concords. LO Bringer of Transformation beckoned a mid-aged Gordon to untether the mind and body with the spores of the depths. \"The shadows of the forsaken  sow the sins of the curious.\" Will he be bound by Alchemy or is the future wound by fate in the Fusion of Chaos to transform his mind and body through Nature's Augmentation?",
+  "external_url": "https://fateofwagdie.com/characters/1455",
+  "animation_url": "https://fateofwagdie.com/characters/1455/animated"
+}

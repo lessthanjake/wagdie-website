@@ -1,0 +1,82 @@
+{
+  "name": "Magoo Says Boo",
+  "image": "ipfs://bafkreihapgchhthjffs734k7ggunhtnwbj5ovjhraru5alafejhd5i7yp4",
+  "sheet": {
+    "name": "Magoo Says Boo",
+    "level": 6,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "The Hat Without Death",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 6,
+      "charisma": 6,
+      "strength": 6,
+      "dexterity": 6,
+      "constitution": 6,
+      "intelligence": 6
+    },
+    "hit_points": 69,
+    "tokenIdInt": 4709,
+    "background_story": "Ever heard the story of Magoo? A teacher at the Stalwart found a hat in a lower sanctum closest. Put on the hat and out came Boo. Now Magoo only Says Boo.",
+    "experience_points": 69
+  },
+  "tokenId": "4709",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Swamp Witch Curse",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "The Hat Without Death",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Witch",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Swamp Witch Curse",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Ever heard the story of Magoo? A teacher at the Stalwart found a hat in a lower sanctum closest. Put on the hat and out came Boo. Now Magoo only Says Boo.",
+  "external_url": "https://fateofwagdie.com/characters/4709",
+  "animation_url": "https://fateofwagdie.com/characters/4709/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "bussin blader ",
+  "image": "ipfs://bafkreieub5vhx36svbvbsygnrwf3tkbseoayjqtybc3trov663hwhe5vyy",
+  "sheet": {
+    "name": "bussin blader ",
+    "level": 20,
+    "origin": "Journeyman",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "None",
+      "armor": "Pilgrim's Chain"
+    },
+    "attributes": {
+      "wisdom": 2,
+      "charisma": 4,
+      "strength": 30,
+      "dexterity": 30,
+      "constitution": 5,
+      "intelligence": 2
+    },
+    "hit_points": 100,
+    "tokenIdInt": 4722,
+    "background_story": "bussin blader has sword to protect bussin boy from all the evil in the forsaken lands! ",
+    "experience_points": 355000
+  },
+  "tokenId": "4722",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Guard's Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "bussin blader has sword to protect bussin boy from all the evil in the forsaken lands! ",
+  "external_url": "https://fateofwagdie.com/characters/4722",
+  "animation_url": "https://fateofwagdie.com/characters/4722/animated"
+}

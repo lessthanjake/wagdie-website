@@ -1,0 +1,94 @@
+{
+  "name": "Swampwarden",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/4741.png",
+  "sheet": {
+    "name": "Swampwarden",
+    "level": 4,
+    "origin": "Luta's Lover",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "Death Smelt Hat",
+      "armor": "Bandit's Garb"
+    },
+    "attributes": {
+      "wisdom": 18,
+      "charisma": 6,
+      "strength": 11,
+      "dexterity": 8,
+      "constitution": 15,
+      "intelligence": 16
+    },
+    "hit_points": 9,
+    "tokenIdInt": 4741,
+    "background_story": "Born with eyes sealed shut by skin as if cursed from birth, he sees not with sight but with senses honed by the dark magics and the constant, whispering guidance of the flies that perpetually buzz around him. These flies are not mere insects but the eyes and ears of Lord Grem, through which the witch perceives the world in a tapestry of sounds, smells, and the faint vibrations of life teeming in the decay.\n\nHis mastery lies in the ancient and obscure art of mud magic, a craft as primal as the swamp itself. With chants that echo through the gnarled trees and gestures that stir the very essence of the bog, he bends the mud to his will, crafting spells of protection, healing, and sometimes, when the balance of his murky realm is threatened, malevolence.",
+    "experience_points": 4000
+  },
+  "tokenId": "4741",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Bandit's Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Luta's Lover",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit's Claim",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Death Smelt Hat",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Witch",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Luta's Lover",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Chosen Swarm",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Chosen Fly",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Lord Grem's Diptera",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Born with eyes sealed shut by skin as if cursed from birth, he sees not with sight but with senses honed by the dark magics and the constant, whispering guidance of the flies that perpetually buzz around him. These flies are not mere insects but the eyes and ears of Lord Grem, through which the witch perceives the world in a tapestry of sounds, smells, and the faint vibrations of life teeming in the decay.\n\nHis mastery lies in the ancient and obscure art of mud magic, a craft as primal as the swamp itself. With chants that echo through the gnarled trees and gestures that stir the very essence of the bog, he bends the mud to his will, crafting spells of protection, healing, and sometimes, when the balance of his murky realm is threatened, malevolence.",
+  "external_url": "https://fateofwagdie.com/characters/4741",
+  "animation_url": "https://fateofwagdie.com/characters/4741/animated"
+}

@@ -1,0 +1,89 @@
+{
+  "name": "Scar-Challenges-Deliberately",
+  "image": "ipfs://bafkreian4pqnny7y27hkeosutmy3dphffhq6enic6w44cu5sjhrsoopjbm",
+  "sheet": {
+    "name": "Scar-Challenges-Deliberately",
+    "level": 1,
+    "origin": "Wormlord Acolyte",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Darkblade's Beak",
+      "armor": "Death Dealer's Choice"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 11,
+      "strength": 12,
+      "dexterity": 12,
+      "constitution": 13,
+      "intelligence": 9
+    },
+    "hit_points": 3,
+    "tokenIdInt": 555,
+    "experience_points": 0
+  },
+  "tokenId": "555",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Death Dealer's Choice",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Darkblade's Beak",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/555",
+  "animation_url": "https://fateofwagdie.com/characters/555/animated"
+}

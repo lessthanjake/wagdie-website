@@ -1,0 +1,94 @@
+{
+  "name": "His Loudness",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/3902.png",
+  "sheet": {
+    "name": "His Loudness",
+    "level": 1,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Silence",
+      "armor": "Logun's Pauldrons"
+    },
+    "attributes": {
+      "wisdom": 1,
+      "charisma": 1,
+      "strength": 1,
+      "dexterity": 1,
+      "constitution": 1,
+      "intelligence": 1
+    },
+    "hit_points": 1,
+    "tokenIdInt": 3902,
+    "background_story": "He was told to be a she, he said naw.\nHe was told be quite, he said naw.\nHis Loudness will not be Her Silence.",
+    "experience_points": 1
+  },
+  "tokenId": "3902",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Pauldrons",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Piltin Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Silence",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Glutton's Secret Ladle",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Gnawed Bone",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Ancient Reflections",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "He was told to be a she, he said naw.\nHe was told be quite, he said naw.\nHis Loudness will not be Her Silence.",
+  "external_url": "https://fateofwagdie.com/characters/3902",
+  "animation_url": "https://fateofwagdie.com/characters/3902/animated"
+}

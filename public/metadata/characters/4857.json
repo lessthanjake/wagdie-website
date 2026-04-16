@@ -1,0 +1,94 @@
+{
+  "name": "kashikoi",
+  "image": "ipfs://bafkreihh5saxpbxmizmkwnlqiks5anogoxi4imbtrag4nluznosydjdqbu",
+  "sheet": {
+    "name": "kashikoi",
+    "level": 1,
+    "origin": "Garolin Champion",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "An Ancient Device",
+      "armor": "The Wisened"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 14,
+      "strength": 12,
+      "dexterity": 8,
+      "constitution": 14,
+      "intelligence": 11
+    },
+    "hit_points": 7,
+    "tokenIdInt": 4857,
+    "background_story": "he appeared, as if for the first time, but somehow knowing every creature, every leaf,   every rooftop, every back-alley. \n\nhe didn't speak much.",
+    "experience_points": 0
+  },
+  "tokenId": "4857",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "The Wisened",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Feeble Spikes",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "An Ancient Device",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "he appeared, as if for the first time, but somehow knowing every creature, every leaf,   every rooftop, every back-alley. \n\nhe didn't speak much.",
+  "external_url": "https://fateofwagdie.com/characters/4857",
+  "animation_url": "https://fateofwagdie.com/characters/4857/animated"
+}

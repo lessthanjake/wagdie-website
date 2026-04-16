@@ -1,0 +1,94 @@
+{
+  "name": "Freya Reiss",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/3457.png",
+  "sheet": {
+    "name": "Freya Reiss",
+    "level": 1,
+    "origin": "Wormkin Elite",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Removal's Kin",
+      "armor": "Yuria's Power"
+    },
+    "attributes": {
+      "wisdom": 21,
+      "charisma": 21,
+      "strength": 1,
+      "dexterity": 1,
+      "constitution": 1,
+      "intelligence": 21
+    },
+    "hit_points": 1,
+    "tokenIdInt": 3457,
+    "background_story": "\"So long as we remain ignorant...and accept the world's rage, we will be the only ones who have to die in this Forsaken Land.\"",
+    "experience_points": 0
+  },
+  "tokenId": "3457",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Yuria's Power",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Death Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Removal's Kin",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Mothling's Moon",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Mothling",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Fossors",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "\"So long as we remain ignorant...and accept the world's rage, we will be the only ones who have to die in this Forsaken Land.\"",
+  "external_url": "https://fateofwagdie.com/characters/3457",
+  "animation_url": "https://fateofwagdie.com/characters/3457/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Falcor the mighty",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/169.png",
+  "sheet": {
+    "name": "Falcor the mighty",
+    "level": 10,
+    "origin": "Young Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "Her Glory",
+      "armor": "Her Imprint"
+    },
+    "attributes": {
+      "wisdom": 4,
+      "charisma": 1,
+      "strength": 13,
+      "dexterity": 19,
+      "constitution": 5,
+      "intelligence": 9
+    },
+    "hit_points": 9,
+    "tokenIdInt": 169,
+    "background_story": "In battles so fighty...",
+    "experience_points": 50
+  },
+  "tokenId": "169",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Imprint",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Wisened Zealot",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Pyre Torch",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Pyre Doll",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Druids of the Southern Plains",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "In battles so fighty...",
+  "external_url": "https://fateofwagdie.com/characters/169",
+  "animation_url": "https://fateofwagdie.com/characters/169/animated"
+}

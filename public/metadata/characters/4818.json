@@ -1,0 +1,94 @@
+{
+  "name": "Klaus Keen",
+  "image": "ipfs://bafkreihde6pqtskxke26eip7m2xwfjcyttpiksrbxxith3j3bfzzweha34",
+  "sheet": {
+    "name": "Klaus Keen",
+    "level": 1,
+    "origin": "Garolin Champion",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Her Goddess of Vision",
+      "armor": "Luta's Full Weight"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 5,
+      "strength": 16,
+      "dexterity": 12,
+      "constitution": 15,
+      "intelligence": 19
+    },
+    "hit_points": 80,
+    "tokenIdInt": 4818,
+    "background_story": "A descendent from the Knights of the Kingdom of Enlightened, Klaus Keen  revels in his ability to claim this noble lineage. His family's ties allowed him to receive the very best education and training for also becoming a Knight of Agora. \n\nAlthough he possess an above-average intelligence that allows him to quickly problem-solve and survive most battles, socially, he is arrogant and has little self-awareness. This causes him to be unliked by his peers, and therefore have little influence as a leader.\n\nHis combat skills are not to be underestimated though: He was able to kill the wolves during the quest of the Cavern of Lost Souls, and survive hits from the Giant Spider.",
+    "experience_points": 20
+  },
+  "tokenId": "4818",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Luta's Full Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Darkness",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Goddess of Vision",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A descendent from the Knights of the Kingdom of Enlightened, Klaus Keen  revels in his ability to claim this noble lineage. His family's ties allowed him to receive the very best education and training for also becoming a Knight of Agora. \n\nAlthough he possess an above-average intelligence that allows him to quickly problem-solve and survive most battles, socially, he is arrogant and has little self-awareness. This causes him to be unliked by his peers, and therefore have little influence as a leader.\n\nHis combat skills are not to be underestimated though: He was able to kill the wolves during the quest of the Cavern of Lost Souls, and survive hits from the Giant Spider.",
+  "external_url": "https://fateofwagdie.com/characters/4818",
+  "animation_url": "https://fateofwagdie.com/characters/4818/animated"
+}

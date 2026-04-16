@@ -1,0 +1,93 @@
+{
+  "name": "𝔅𝔢𝔩𝔦𝔞𝔩 The fallen ",
+  "image": "ipfs://bafkreiccujeka2mtwdtfadzcy2thmqnpnjfti2l35n4rs635jkqg3nznay",
+  "sheet": {
+    "name": "𝔅𝔢𝔩𝔦𝔞𝔩 The fallen ",
+    "level": 0,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Nameless One's Blessing",
+      "mask": "Wormlord Visage",
+      "armor": "Strange Cloth Cloak"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 100,
+    "tokenIdInt": 5456,
+    "experience_points": 666
+  },
+  "tokenId": "5456",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Strange Cloth Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Nameless One's Blessing",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Naive Pilgrim's Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wormlord Visage",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Necromancer",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/5456",
+  "animation_url": "https://fateofwagdie.com/characters/5456/animated"
+}

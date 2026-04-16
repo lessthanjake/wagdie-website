@@ -1,0 +1,82 @@
+{
+  "name": "Boro",
+  "image": "ipfs://bafkreidvt6ler7gsqkjfpiyi6eskkeahwvjmuditmiga6k2xiu34fwhek4",
+  "sheet": {
+    "name": "Boro",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Artificial God Bringer",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 10,
+      "strength": 13,
+      "dexterity": 10,
+      "constitution": 14,
+      "intelligence": 12
+    },
+    "hit_points": 8,
+    "tokenIdInt": 2204,
+    "background_story": "A living skeleton with a helmet of ancient technology affixed to their head. Boro has no memories from before the explosion at The Wound, where they met Mozre Dee and decided to travel together. A friendly character who now resides at The Welcome Stranger Inn helping take care of beasts.  ",
+    "experience_points": 0
+  },
+  "tokenId": "2204",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Convert of the Swamp Witch",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Artificial God Bringer",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Convert of the Swamp Witch",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A living skeleton with a helmet of ancient technology affixed to their head. Boro has no memories from before the explosion at The Wound, where they met Mozre Dee and decided to travel together. A friendly character who now resides at The Welcome Stranger Inn helping take care of beasts.  ",
+  "external_url": "https://fateofwagdie.com/characters/2204",
+  "animation_url": "https://fateofwagdie.com/characters/2204/animated"
+}

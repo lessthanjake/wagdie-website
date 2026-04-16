@@ -1,0 +1,94 @@
+{
+  "name": "Black Scryer Spy",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/6539.png",
+  "sheet": {
+    "name": "Black Scryer Spy",
+    "level": 1,
+    "origin": "Wormlord Acolyte",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "He Who Does Not See",
+      "armor": "Peasant Garb"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 10,
+      "strength": 13,
+      "dexterity": 6,
+      "constitution": 4,
+      "intelligence": 6
+    },
+    "hit_points": 4,
+    "tokenIdInt": 6539,
+    "background_story": "Following my master's orders  I stayed at the Church waiting. \n\nNow, seeking revenge, my master leads us to the Coven's Lair to thwart the ritual.\n\nThe Spy found her demise during the battle of the Coven's Lair protecting his master the Black Scryer.",
+    "experience_points": 0
+  },
+  "tokenId": "6539",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Peasant Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Luta's Firey Bangs",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "He Who Does Not See",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Southern Plains Mask",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Pyre Doll",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Druids of the Southern Plains",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Following my master's orders  I stayed at the Church waiting. \n\nNow, seeking revenge, my master leads us to the Coven's Lair to thwart the ritual.\n\nThe Spy found her demise during the battle of the Coven's Lair protecting his master the Black Scryer.",
+  "external_url": "https://fateofwagdie.com/characters/6539",
+  "animation_url": "https://fateofwagdie.com/characters/6539/animated"
+}

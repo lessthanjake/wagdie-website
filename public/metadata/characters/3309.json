@@ -1,0 +1,94 @@
+{
+  "name": "RobinHood of Assassins",
+  "image": "ipfs://bafkreiefugdm4ja4uumwza67zdxipeax4z7oiyaf6n5jrmkdg4od2gle4e",
+  "sheet": {
+    "name": "RobinHood of Assassins",
+    "level": 5,
+    "origin": "Leeched Devotee",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Detritus Helm",
+      "armor": "Journeyman Tunic"
+    },
+    "attributes": {
+      "wisdom": 1,
+      "charisma": 29,
+      "strength": 5,
+      "dexterity": 10,
+      "constitution": 19,
+      "intelligence": 1
+    },
+    "hit_points": 5,
+    "tokenIdInt": 3309,
+    "background_story": "I am a GREAT and GOOD assassin. I only kill those who have wronged the weak and the good. SOMETIMES!!! I will work for money. It's only to be able to provide for my many wives. ",
+    "experience_points": 10
+  },
+  "tokenId": "3309",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Journeyman Tunic",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Leeched Devotee",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Detritus Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Leeched Devotee",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "I am a GREAT and GOOD assassin. I only kill those who have wronged the weak and the good. SOMETIMES!!! I will work for money. It's only to be able to provide for my many wives. ",
+  "external_url": "https://fateofwagdie.com/characters/3309",
+  "animation_url": "https://fateofwagdie.com/characters/3309/animated"
+}

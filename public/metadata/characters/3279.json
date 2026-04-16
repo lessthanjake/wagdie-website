@@ -1,0 +1,94 @@
+{
+  "name": "Suka",
+  "image": "ipfs://bafkreiepgxytaobwcbtbasvpdvd5g2tansgbrqwutkwcoujureolxh63ei",
+  "sheet": {
+    "name": "Suka",
+    "level": 7,
+    "origin": "Foolish Jester",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "Wormlord Visage",
+      "armor": "Punished Shirt"
+    },
+    "attributes": {
+      "wisdom": 7,
+      "charisma": 7,
+      "strength": 7,
+      "dexterity": 7,
+      "constitution": 7,
+      "intelligence": 7
+    },
+    "hit_points": 7,
+    "tokenIdInt": 3279,
+    "background_story": "Suka of Brother Uka, server the blood master with his bother Smuka.\n",
+    "experience_points": 7
+  },
+  "tokenId": "3279",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Punished Shirt",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wormlord Visage",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Necromancer",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Suka of Brother Uka, server the blood master with his bother Smuka.\n",
+  "external_url": "https://fateofwagdie.com/characters/3279",
+  "animation_url": "https://fateofwagdie.com/characters/3279/animated"
+}

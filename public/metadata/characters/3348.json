@@ -1,0 +1,94 @@
+{
+  "name": "Lord Ovak",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/3348.png",
+  "sheet": {
+    "name": "Lord Ovak",
+    "level": 20,
+    "origin": "Her Hidden Blade",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "None",
+      "armor": "Strange Cloth Cloak"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 14,
+      "strength": 30,
+      "dexterity": 28,
+      "constitution": 17,
+      "intelligence": 30
+    },
+    "hit_points": 100,
+    "tokenIdInt": 3348,
+    "background_story": "Lord Ovak is a renowned member of the Royal family known for his exceptional skills with the blade. \nHe is a legendary fighter but prefers peace as old age has taken over.",
+    "experience_points": 99
+  },
+  "tokenId": "3348",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Strange Cloth Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit Set",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Felfrost Sword",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Felfrost",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Knights of Piat",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Lord Ovak is a renowned member of the Royal family known for his exceptional skills with the blade. \nHe is a legendary fighter but prefers peace as old age has taken over.",
+  "external_url": "https://fateofwagdie.com/characters/3348",
+  "animation_url": "https://fateofwagdie.com/characters/3348/animated"
+}

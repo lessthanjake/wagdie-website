@@ -1,0 +1,94 @@
+{
+  "name": "Twosix",
+  "image": "ipfs://bafkreibypsezpvjjzl4nanwuglgoojbvbnmwcwglrl373ss3b4jcseepwy",
+  "sheet": {
+    "name": "Twosix",
+    "level": 1,
+    "origin": "Journeyman",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Dark One's Call"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 16,
+      "strength": 10,
+      "dexterity": 11,
+      "constitution": 3,
+      "intelligence": 14
+    },
+    "hit_points": 4,
+    "tokenIdInt": 2638,
+    "background_story": "Twosix is a young adventurer who dreams of a rewarding life filled with glory.\n\nAfter his brother Tenten was abducted by the nefarious space wizards of The Arcane Council, he set out on a quest to either reclaim his brother or vanquish the forces that stole his life.",
+    "experience_points": 0
+  },
+  "tokenId": "2638",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Dark One's Call",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Her Page",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Twosix is a young adventurer who dreams of a rewarding life filled with glory.\n\nAfter his brother Tenten was abducted by the nefarious space wizards of The Arcane Council, he set out on a quest to either reclaim his brother or vanquish the forces that stole his life.",
+  "external_url": "https://fateofwagdie.com/characters/2638",
+  "animation_url": "https://fateofwagdie.com/characters/2638/animated"
+}

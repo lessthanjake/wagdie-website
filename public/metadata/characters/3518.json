@@ -1,0 +1,94 @@
+{
+  "name": "Mizmor The Blind",
+  "image": "ipfs://bafkreidpiunt3t2akz2fqc75ttuquhdndepb7ot6w2wtv73yqamuxrn75i",
+  "sheet": {
+    "name": "Mizmor The Blind",
+    "level": 5,
+    "origin": "Pilgrim of the Lakes",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "Her Goddess of Vision",
+      "armor": "Pilgrim's Chain"
+    },
+    "attributes": {
+      "wisdom": 8,
+      "charisma": 13,
+      "strength": 12,
+      "dexterity": 16,
+      "constitution": 10,
+      "intelligence": 15
+    },
+    "hit_points": 16,
+    "tokenIdInt": 3518,
+    "background_story": "Mizmor has lost his vision when he was a child - he was born with a rare eye disease that took his vision away before he even said his first words. His parents were poor and couldn't attend to his needs, so one day they just left him on The Church's doorstep. Since then The Church became his only hope in this world.\n\nYears passed and he was raised as a faithful servant of Agora - his mother and his caregiver. The forthcoming war left him with no other choice than becoming a defender of his only home. For his lifetime service to The Church, he has been blessed by Her Goddess of Vision and gained sight through The Searing Light.",
+    "experience_points": 80
+  },
+  "tokenId": "3518",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Goddess of Vision",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Mizmor has lost his vision when he was a child - he was born with a rare eye disease that took his vision away before he even said his first words. His parents were poor and couldn't attend to his needs, so one day they just left him on The Church's doorstep. Since then The Church became his only hope in this world.\n\nYears passed and he was raised as a faithful servant of Agora - his mother and his caregiver. The forthcoming war left him with no other choice than becoming a defender of his only home. For his lifetime service to The Church, he has been blessed by Her Goddess of Vision and gained sight through The Searing Light.",
+  "external_url": "https://fateofwagdie.com/characters/3518",
+  "animation_url": "https://fateofwagdie.com/characters/3518/animated"
+}

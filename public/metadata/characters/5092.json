@@ -1,0 +1,94 @@
+{
+  "name": "Cino Eval",
+  "image": "ipfs://bafkreied3xu6adu37sizk4hwi2qpymr6fcxb26dwfxavngjcx2fj2wfpka",
+  "sheet": {
+    "name": "Cino Eval",
+    "level": 1,
+    "origin": "Her Hidden Blade",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "He Who Does Not See",
+      "armor": "Blessing of the Worm"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 14,
+      "strength": 8,
+      "dexterity": 13,
+      "constitution": 15,
+      "intelligence": 11
+    },
+    "hit_points": 10,
+    "tokenIdInt": 5092,
+    "background_story": "A pious man who believed that his senses were the only thing blinding him to truth.\n\nCoerced to self-immolation at the foot of Mount Turlo by a callous King Offling who sought passage to The Molten Heart of Yuria.",
+    "experience_points": 0
+  },
+  "tokenId": "5092",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Blessing of the Worm",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "He Who Does Not See",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A pious man who believed that his senses were the only thing blinding him to truth.\n\nCoerced to self-immolation at the foot of Mount Turlo by a callous King Offling who sought passage to The Molten Heart of Yuria.",
+  "external_url": "https://fateofwagdie.com/characters/5092",
+  "animation_url": "https://fateofwagdie.com/characters/5092/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Ozma the Damned ",
+  "image": "ipfs://bafkreib2jteompffumlrjd6ayx2l3ahzsmyxadcntqvthqivq5uul5pfe4",
+  "sheet": {
+    "name": "Ozma the Damned ",
+    "level": 20,
+    "origin": "Hole Protector",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "Smiling Witness to All",
+      "armor": "Champion of Logun"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 21,
+      "strength": 30,
+      "dexterity": 30,
+      "constitution": 30,
+      "intelligence": 30
+    },
+    "hit_points": 99,
+    "tokenIdInt": 3182,
+    "background_story": "Ozma is damned. ",
+    "experience_points": 666
+  },
+  "tokenId": "3182",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Champion of Logun",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit Set",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Smiling Witness to All",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Ozma is damned. ",
+  "external_url": "https://fateofwagdie.com/characters/3182",
+  "animation_url": "https://fateofwagdie.com/characters/3182/animated"
+}

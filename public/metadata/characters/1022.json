@@ -1,0 +1,94 @@
+{
+  "name": "???",
+  "image": "ipfs://bafkreiapwzpev43qd26cafykzmsn3i6ynufv3qqkpdn4l7moycfyp7gmjm",
+  "sheet": {
+    "name": "???",
+    "level": 1,
+    "origin": "Young Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Death Stroker Doublet"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 1022,
+    "background_story": "This character has not yet been encountered.",
+    "experience_points": 0
+  },
+  "tokenId": "1022",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Death Stroker Doublet",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Noxian Tint",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "This character has not yet been encountered.",
+  "external_url": "https://fateofwagdie.com/characters/1022",
+  "animation_url": "https://fateofwagdie.com/characters/1022/animated"
+}

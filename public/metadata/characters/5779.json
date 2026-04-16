@@ -1,0 +1,94 @@
+{
+  "name": "Eustice",
+  "image": "ipfs://bafkreicwfemcv5v53wpwhirdkc3e77zhc3m7lwnjfc6jdaqp2on3mcy7ky",
+  "sheet": {
+    "name": "Eustice",
+    "level": 20,
+    "origin": "Hardened Merchant",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Journeyman Tunic"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 30,
+      "strength": 30,
+      "dexterity": 30,
+      "constitution": 30,
+      "intelligence": 30
+    },
+    "hit_points": 100,
+    "tokenIdInt": 5779,
+    "background_story": "The Ritual of Her Return has begun...",
+    "experience_points": 355000
+  },
+  "tokenId": "5779",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Journeyman Tunic",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit's Claim",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The Ritual of Her Return has begun...",
+  "external_url": "https://fateofwagdie.com/characters/5779",
+  "animation_url": "https://fateofwagdie.com/characters/5779/animated"
+}

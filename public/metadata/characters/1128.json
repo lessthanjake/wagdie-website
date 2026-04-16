@@ -1,0 +1,94 @@
+{
+  "name": "Identity Crisis",
+  "image": "ipfs://bafkreiacvccv24rgsbg6zfrx6ly6g46tvsl66pbmssac5ive6bw6lxa3a4",
+  "sheet": {
+    "name": "Identity Crisis",
+    "level": 1,
+    "origin": "Astorian Adventurer",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Blind Thief's Charm",
+      "armor": "Worm's Protection"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 1,
+      "intelligence": 14
+    },
+    "hit_points": 1,
+    "tokenIdInt": 1128,
+    "background_story": "Oh man… who am I?",
+    "experience_points": 20
+  },
+  "tokenId": "1128",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm's Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Her Golden Page",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Blind Thief's Charm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Oh man… who am I?",
+  "external_url": "https://fateofwagdie.com/characters/1128",
+  "animation_url": "https://fateofwagdie.com/characters/1128/animated"
+}

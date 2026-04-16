@@ -1,0 +1,94 @@
+{
+  "name": "OLWEN THE GRAY",
+  "image": "ipfs://bafkreiexrdchaapf7knkkq2jhyhrhtoctwivsxbrrlqkd2choetsheldbi",
+  "sheet": {
+    "name": "OLWEN THE GRAY",
+    "level": 20,
+    "origin": "Zolian Worm",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "An Ancient Device",
+      "armor": "Valorite Weight"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 10,
+      "strength": 12,
+      "dexterity": 16,
+      "constitution": 10,
+      "intelligence": 14
+    },
+    "hit_points": 47,
+    "tokenIdInt": 2250,
+    "background_story": "Olwen is the strong but silent type. Not much of a communicator but they are very calculated in the words and actions. \nOwen woke up with fragmented memories of his past. Unclear, they seek her light. ",
+    "experience_points": 70
+  },
+  "tokenId": "2250",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Valorite Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Discipline Helm Hair",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "An Ancient Device",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Olwen is the strong but silent type. Not much of a communicator but they are very calculated in the words and actions. \nOwen woke up with fragmented memories of his past. Unclear, they seek her light. ",
+  "external_url": "https://fateofwagdie.com/characters/2250",
+  "animation_url": "https://fateofwagdie.com/characters/2250/animated"
+}

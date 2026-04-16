@@ -1,0 +1,82 @@
+{
+  "name": "De'Crip'It Part 2",
+  "image": "ipfs://bafkreidd44qg5yrudxtxrbxwz6klfb4vsfgh42pdhw525xtumkupnkohae",
+  "sheet": {
+    "name": "De'Crip'It Part 2",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Chosen Seal",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 1,
+      "charisma": 1,
+      "strength": 1,
+      "dexterity": 1,
+      "constitution": 1,
+      "intelligence": 1
+    },
+    "hit_points": 1,
+    "tokenIdInt": 4902,
+    "background_story": "Skeleton with a gold cross chain,\nBattling death and feeling no pain,\nRising from the ashes,\nTo live another day,\nDefying fate and all the odds,\nA true survivor, a true God.\n\nHe's got a heart made of stone,\nBut a spirit that's never alone,\nWith a cross to guide him,\nHe'll never fall,\nHe's the skeleton with a gold cross chain,\nThe one who battled death and remained.\n\nWith his bones and his chain,\nHe's an unlikely hero,\nBut he's the one who's always there,\nWhen the world is in zero,\nWith a will of iron,\nAnd a soul of gold,\nHe'll never back down,\nHe'll never grow old.\n\nHe's got a heart made of stone,\nBut a spirit that's never alone,\nWith a cross to guide him,\nHe'll never fall,\nHe's the skeleton with a gold cross chain,\nThe one who battled death and remained.\n\nSo if you ever feel down,\nJust remember this skeleton's crown,\nWith a gold cross chain on his neck,\nHe's the one who defied death's check,\nAnd emerged victorious,\nForever living glorious.",
+    "experience_points": 1
+  },
+  "tokenId": "4902",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Swamp Witch Curse",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Her Chosen Seal",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Swamp Witch Curse",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Skeleton with a gold cross chain,\nBattling death and feeling no pain,\nRising from the ashes,\nTo live another day,\nDefying fate and all the odds,\nA true survivor, a true God.\n\nHe's got a heart made of stone,\nBut a spirit that's never alone,\nWith a cross to guide him,\nHe'll never fall,\nHe's the skeleton with a gold cross chain,\nThe one who battled death and remained.\n\nWith his bones and his chain,\nHe's an unlikely hero,\nBut he's the one who's always there,\nWhen the world is in zero,\nWith a will of iron,\nAnd a soul of gold,\nHe'll never back down,\nHe'll never grow old.\n\nHe's got a heart made of stone,\nBut a spirit that's never alone,\nWith a cross to guide him,\nHe'll never fall,\nHe's the skeleton with a gold cross chain,\nThe one who battled death and remained.\n\nSo if you ever feel down,\nJust remember this skeleton's crown,\nWith a gold cross chain on his neck,\nHe's the one who defied death's check,\nAnd emerged victorious,\nForever living glorious.",
+  "external_url": "https://fateofwagdie.com/characters/4902",
+  "animation_url": "https://fateofwagdie.com/characters/4902/animated"
+}

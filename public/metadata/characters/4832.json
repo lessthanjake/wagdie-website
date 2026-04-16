@@ -1,0 +1,94 @@
+{
+  "name": "Leghan",
+  "image": "ipfs://bafkreieumrqffgkp7v7ylt65b7fvixa6phyhtbnljbngpk6xr4kr5bln7e",
+  "sheet": {
+    "name": "Leghan",
+    "level": 1,
+    "origin": "Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "None",
+      "armor": "Peasant Garb"
+    },
+    "attributes": {
+      "wisdom": 8,
+      "charisma": 11,
+      "strength": 12,
+      "dexterity": 12,
+      "constitution": 10,
+      "intelligence": 10
+    },
+    "hit_points": 4,
+    "tokenIdInt": 4832,
+    "background_story": "Leghan's story begins in a small, unremarkable village nestled within the vast expanse of The Forsaken Lands. From an early age, he was different from his peers, always gazing towards the horizon with a spark of longing in his eyes. His imagination was fueled by the tales of The Fools, a group of wandering bards renowned for their captivating stories of distant lands and heroic deeds. These tales stirred a deep desire within Leghan to break free from the predictable life of his village, where his parents, like most villagers, were farmers leading simple, uneventful lives.\n\nThe turning point in Leghan's life came unexpectedly when he was sixteen. The Tinker's Consortium, a group of merchants known for their extensive travels and exotic goods, arrived in the village. They spoke of a land far away, a place where courage and bravery were in high demand. This ignited a flame within Leghan, and he knew that his destiny lay beyond the familiar boundaries of his home. With a heart full of dreams and a spirit unchained by the mundane, Leghan bid farewell to his family and set off with the Tinker's Consortium.\n\n\n\n\n\n",
+    "experience_points": 0
+  },
+  "tokenId": "4832",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Peasant Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Her Page",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Leghan's story begins in a small, unremarkable village nestled within the vast expanse of The Forsaken Lands. From an early age, he was different from his peers, always gazing towards the horizon with a spark of longing in his eyes. His imagination was fueled by the tales of The Fools, a group of wandering bards renowned for their captivating stories of distant lands and heroic deeds. These tales stirred a deep desire within Leghan to break free from the predictable life of his village, where his parents, like most villagers, were farmers leading simple, uneventful lives.\n\nThe turning point in Leghan's life came unexpectedly when he was sixteen. The Tinker's Consortium, a group of merchants known for their extensive travels and exotic goods, arrived in the village. They spoke of a land far away, a place where courage and bravery were in high demand. This ignited a flame within Leghan, and he knew that his destiny lay beyond the familiar boundaries of his home. With a heart full of dreams and a spirit unchained by the mundane, Leghan bid farewell to his family and set off with the Tinker's Consortium.\n\n\n\n\n\n",
+  "external_url": "https://fateofwagdie.com/characters/4832",
+  "animation_url": "https://fateofwagdie.com/characters/4832/animated"
+}

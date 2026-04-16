@@ -1,0 +1,94 @@
+{
+  "name": "Septimus",
+  "image": "ipfs://bafkreifa5yln6jkhaqy2v3mok5tznxea2ghjnvnfegy2q472vbnvmv36um",
+  "sheet": {
+    "name": "Septimus",
+    "level": 1,
+    "origin": "Pilgrim of the Lakes",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Goldbeard's Eyes",
+      "armor": "Her Zealot's Gear"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 17,
+      "strength": 15,
+      "dexterity": 13,
+      "constitution": 11,
+      "intelligence": 10
+    },
+    "hit_points": 5,
+    "tokenIdInt": 4994,
+    "background_story": "🎵 Septimus 🎵 Septimus 🎵\n\nIn pursuit of the Void, I yearned to soar,\nBlind to its depths, what lay in store.\n\n🎵 Septimus 🎵 Septimus 🎵\n\nI toyed with fates, in reckless jest,\nTill empty halls mirrored my quest. \n\n🎵 Septimus 🎵 Septimus 🎵",
+    "experience_points": 0
+  },
+  "tokenId": "4994",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Zealot's Gear",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Noble's Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Goldbeard's Eyes",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "🎵 Septimus 🎵 Septimus 🎵\n\nIn pursuit of the Void, I yearned to soar,\nBlind to its depths, what lay in store.\n\n🎵 Septimus 🎵 Septimus 🎵\n\nI toyed with fates, in reckless jest,\nTill empty halls mirrored my quest. \n\n🎵 Septimus 🎵 Septimus 🎵",
+  "external_url": "https://fateofwagdie.com/characters/4994",
+  "animation_url": "https://fateofwagdie.com/characters/4994/animated"
+}

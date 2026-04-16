@@ -1,0 +1,94 @@
+{
+  "name": "Gell Marsk the Blind Worm",
+  "image": "ipfs://bafkreif55xhupknnlzhijzgc4zuv4nnrudppkngszt4e7ggra3rhsqd7la",
+  "sheet": {
+    "name": "Gell Marsk the Blind Worm",
+    "level": 20,
+    "origin": "Foolish Jester",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "He Who Does Not See",
+      "armor": "Worm's Protection"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 25,
+      "strength": 30,
+      "dexterity": 22,
+      "constitution": 10,
+      "intelligence": 25
+    },
+    "hit_points": 100,
+    "tokenIdInt": 5804,
+    "background_story": "An assassin that blindly followed the Wormlord. The dark mysterious aura on Gell Marsks armor had kept him alive in the forsaken lands, his devotion to darkness allowed him to survive in the Battle of the Burning Church.\n\nGell Marsk died shortly after the battle to noxious gas in the abyss, his curiosity the led him down the wrong path.\n\n",
+    "experience_points": 1500
+  },
+  "tokenId": "5804",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm's Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Noxian Tint",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "He Who Does Not See",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "An assassin that blindly followed the Wormlord. The dark mysterious aura on Gell Marsks armor had kept him alive in the forsaken lands, his devotion to darkness allowed him to survive in the Battle of the Burning Church.\n\nGell Marsk died shortly after the battle to noxious gas in the abyss, his curiosity the led him down the wrong path.\n\n",
+  "external_url": "https://fateofwagdie.com/characters/5804",
+  "animation_url": "https://fateofwagdie.com/characters/5804/animated"
+}

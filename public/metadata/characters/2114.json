@@ -1,0 +1,94 @@
+{
+  "name": "HerSilence",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/2114.png",
+  "sheet": {
+    "name": "HerSilence",
+    "level": 1,
+    "origin": "Wormlord Acolyte",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "Her Silence",
+      "armor": "Logun's Decree"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 9,
+      "strength": 13,
+      "dexterity": 11,
+      "constitution": 14,
+      "intelligence": 8
+    },
+    "hit_points": 5,
+    "tokenIdInt": 2114,
+    "background_story": "Detriti was a god most rare,\nA skeleton with bones so bare,\nShe ruled with power and might,\nBut one day, her reign took flight.\n\nHerSilence, a holy knight,\nThrew a rock with all his might,\nAnd struck Detriti dead,\nLeaving her bones to lay in bed.\n\nThe people cheered and celebrated,\nNo longer were they berated,\nBy the cruel and ruthless god,\nThey were finally free from the sod.\n\nSo let this be a lesson to all,\nBe careful who you call,\nA god, for even they can fall,\nTo the might of a rock, so small.",
+    "experience_points": 0
+  },
+  "tokenId": "2114",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Decree",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Brimstone",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Death Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Silence",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Death Dealer's Scythe",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Detriti was a god most rare,\nA skeleton with bones so bare,\nShe ruled with power and might,\nBut one day, her reign took flight.\n\nHerSilence, a holy knight,\nThrew a rock with all his might,\nAnd struck Detriti dead,\nLeaving her bones to lay in bed.\n\nThe people cheered and celebrated,\nNo longer were they berated,\nBy the cruel and ruthless god,\nThey were finally free from the sod.\n\nSo let this be a lesson to all,\nBe careful who you call,\nA god, for even they can fall,\nTo the might of a rock, so small.",
+  "external_url": "https://fateofwagdie.com/characters/2114",
+  "animation_url": "https://fateofwagdie.com/characters/2114/animated"
+}

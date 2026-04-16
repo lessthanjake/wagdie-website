@@ -1,0 +1,94 @@
+{
+  "name": "Sir Bloodboi",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/346.png",
+  "sheet": {
+    "name": "Sir Bloodboi",
+    "level": 1,
+    "origin": "Foolish Jester",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "None",
+      "armor": "Noxian Jester Garb"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 346,
+    "background_story": "Loves blood. Don't let him find you.",
+    "experience_points": 0
+  },
+  "tokenId": "346",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Noxian Jester Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Brimstone",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Pilgrim's Style",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Death Dealer's Scythe",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Loves blood. Don't let him find you.",
+  "external_url": "https://fateofwagdie.com/characters/346",
+  "animation_url": "https://fateofwagdie.com/characters/346/animated"
+}

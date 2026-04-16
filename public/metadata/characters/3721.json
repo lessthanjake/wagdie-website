@@ -1,0 +1,94 @@
+{
+  "name": "Steely",
+  "image": "ipfs://bafkreifwe5r3bq3rxv6szhiixsbaauw3mqfgzdrbibdyujr4g4qkryvd4i",
+  "sheet": {
+    "name": "Steely",
+    "level": 1,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "He Who Does Not See",
+      "armor": "Luta's Full Weight"
+    },
+    "attributes": {
+      "wisdom": 9,
+      "charisma": 8,
+      "strength": 9,
+      "dexterity": 11,
+      "constitution": 14,
+      "intelligence": 10
+    },
+    "hit_points": 9,
+    "tokenIdInt": 3721,
+    "background_story": "Steely is a skilled blacksmith who has been honing his craft since he was a young boy. His family has been in the blacksmithing business for generations, and he learned the trade from his father and grandfather. Steely has a reputation in the community for producing some of the finest weapons and armor around, and he takes great pride in his work.\n\nOne of his frequent customers is a mercenary named Pockeye Bracington. Despite their differing backgrounds, Steely and Pockeye became good friends after Pockeye began commissioning weapons from Steely. Pockeye is one of the few customers who appreciates the artistry and craftsmanship that goes into creating a quality weapon, and Steely enjoys the challenge of creating custom pieces that meet Pockeye's exacting standards.\n\nWhile on the trail near The Putrid Forest with his friend, they were accosted by 5 cyclopic warriors from a Land of Red. After watching his friend slain by the beings, he raised his sword like never before and fought to defend his land and reap vengeance upon them; slaying all 5.",
+    "experience_points": 0
+  },
+  "tokenId": "3721",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Luta's Full Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "He Who Does Not See",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Steely is a skilled blacksmith who has been honing his craft since he was a young boy. His family has been in the blacksmithing business for generations, and he learned the trade from his father and grandfather. Steely has a reputation in the community for producing some of the finest weapons and armor around, and he takes great pride in his work.\n\nOne of his frequent customers is a mercenary named Pockeye Bracington. Despite their differing backgrounds, Steely and Pockeye became good friends after Pockeye began commissioning weapons from Steely. Pockeye is one of the few customers who appreciates the artistry and craftsmanship that goes into creating a quality weapon, and Steely enjoys the challenge of creating custom pieces that meet Pockeye's exacting standards.\n\nWhile on the trail near The Putrid Forest with his friend, they were accosted by 5 cyclopic warriors from a Land of Red. After watching his friend slain by the beings, he raised his sword like never before and fought to defend his land and reap vengeance upon them; slaying all 5.",
+  "external_url": "https://fateofwagdie.com/characters/3721",
+  "animation_url": "https://fateofwagdie.com/characters/3721/animated"
+}

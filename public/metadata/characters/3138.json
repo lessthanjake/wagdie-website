@@ -1,0 +1,59 @@
+{
+  "name": "We are All Going to Die #3138",
+  "image": "ipfs://bafkreihsj2zr2vwxausj5evygr4sntbhwalxmfcl3dysxoozzqdkwgpu5u",
+  "tokenId": "3138",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Fallen Worshipper",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Worm Touch",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Fallen Worshipper",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/3138",
+  "animation_url": "https://fateofwagdie.com/characters/3138/animated"
+}

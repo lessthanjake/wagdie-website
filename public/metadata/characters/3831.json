@@ -1,0 +1,94 @@
+{
+  "name": "Carnyx of Tuto",
+  "image": "ipfs://bafkreibybmq2n7wn4o2w7r2pvqi7bhkrmez4c6qz5mw4t65usvq5t2gq7m",
+  "sheet": {
+    "name": "Carnyx of Tuto",
+    "level": 2,
+    "origin": "Wormlord Acolyte",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Eunech's Prison",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 6,
+      "charisma": 3,
+      "strength": 4,
+      "dexterity": 5,
+      "constitution": 6,
+      "intelligence": 3
+    },
+    "hit_points": 4,
+    "tokenIdInt": 3831,
+    "background_story": "A vessel of esteemed purpose, the Carnyx exists to proclaim the will of his eminence: Tuto the Keeper,  whose own tongue has been burned  out by the light of the Mother.",
+    "experience_points": 10
+  },
+  "tokenId": "3831",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "None",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Eunech's Prison",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A vessel of esteemed purpose, the Carnyx exists to proclaim the will of his eminence: Tuto the Keeper,  whose own tongue has been burned  out by the light of the Mother.",
+  "external_url": "https://fateofwagdie.com/characters/3831",
+  "animation_url": "https://fateofwagdie.com/characters/3831/animated"
+}

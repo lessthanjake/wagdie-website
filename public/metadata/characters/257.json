@@ -1,0 +1,94 @@
+{
+  "name": "King Ranch Boardington",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/257.png",
+  "sheet": {
+    "name": "King Ranch Boardington",
+    "level": 1,
+    "origin": "Astorian Adventurer",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "Fool's Crown",
+      "armor": "Champion of Logun"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 257,
+    "background_story": "King Ranch is a sand-punching, meth-sweating, mosquito-ketamine crustacean loving individual. He fancies himself a mariner, fond of floating aimlessly on glorified rafts. \n\nNot for the faint of heart, he will shock you with his vulgar wit and leave you in stitches. Just don't get too close, unless you're into that kind of thing.",
+    "experience_points": 0
+  },
+  "tokenId": "257",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Champion of Logun",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Her Golden Page",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Fool's Crown",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Tentacles of the Abyss",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Burrow Worm",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Wormkin",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "King Ranch is a sand-punching, meth-sweating, mosquito-ketamine crustacean loving individual. He fancies himself a mariner, fond of floating aimlessly on glorified rafts. \n\nNot for the faint of heart, he will shock you with his vulgar wit and leave you in stitches. Just don't get too close, unless you're into that kind of thing.",
+  "external_url": "https://fateofwagdie.com/characters/257",
+  "animation_url": "https://fateofwagdie.com/characters/257/animated"
+}

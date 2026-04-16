@@ -1,0 +1,93 @@
+{
+  "name": "Bald Savior",
+  "image": "ipfs://bafkreia7ii7c4xwrniq6exud5qff5oy546i3zo2bgeygzjefel33577fye",
+  "sheet": {
+    "name": "Bald Savior",
+    "level": 6,
+    "origin": "Zolian Worm",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Detritus Helm",
+      "armor": "Worm Caller"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 9,
+      "strength": 12,
+      "dexterity": 13,
+      "constitution": 14,
+      "intelligence": 10
+    },
+    "hit_points": 100,
+    "tokenIdInt": 4265,
+    "experience_points": 110
+  },
+  "tokenId": "4265",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm Caller",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Detritus Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/4265",
+  "animation_url": "https://fateofwagdie.com/characters/4265/animated"
+}

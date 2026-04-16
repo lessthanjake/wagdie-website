@@ -1,0 +1,93 @@
+{
+  "name": "Myev Sepret",
+  "image": "ipfs://bafkreib6o3sdkbobp5kpp3qpj6rpkk7i5tlbwxt5au6mg7xtwfx7w4hefy",
+  "sheet": {
+    "name": "Myev Sepret",
+    "level": 1,
+    "origin": "Journeyman",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "Her Goddess of Vision",
+      "armor": "Death Dealer's Choice"
+    },
+    "attributes": {
+      "wisdom": 7,
+      "charisma": 14,
+      "strength": 10,
+      "dexterity": 10,
+      "constitution": 13,
+      "intelligence": 17
+    },
+    "hit_points": 6,
+    "tokenIdInt": 4961,
+    "experience_points": 0
+  },
+  "tokenId": "4961",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Death Dealer's Choice",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Darkness",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Goddess of Vision",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/4961",
+  "animation_url": "https://fateofwagdie.com/characters/4961/animated"
+}

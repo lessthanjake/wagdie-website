@@ -1,0 +1,94 @@
+{
+  "name": "The Hapless Deserter ",
+  "image": "ipfs://bafkreieoz7ixjt4kg3663pdr5zpnmuq2whdtttnaw5rbmiec3ccbicywxe",
+  "sheet": {
+    "name": "The Hapless Deserter ",
+    "level": 1,
+    "origin": "Worm Devotee",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Pilgrim's Chain"
+    },
+    "attributes": {
+      "wisdom": 2,
+      "charisma": 1,
+      "strength": 11,
+      "dexterity": 9,
+      "constitution": 13,
+      "intelligence": 3
+    },
+    "hit_points": 45,
+    "tokenIdInt": 1947,
+    "background_story": "Since fleeing his charge during a bygone war, he has traversed the Forsaken Lands seeking penance for his cowardice. \n\nHis path since has been one forked between the unpredictable swings of well meaning charity and muted sensibility - he has found the nox to offer suitable respite from the spectre of guilt. \n\nAt the eve of the Blood Moon harvest, he trails a company of Leornings and Pilgrims to the Cairn in a lucid stupor. ",
+    "experience_points": 0
+  },
+  "tokenId": "1947",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Worm Devotee",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Worm Devotee",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Since fleeing his charge during a bygone war, he has traversed the Forsaken Lands seeking penance for his cowardice. \n\nHis path since has been one forked between the unpredictable swings of well meaning charity and muted sensibility - he has found the nox to offer suitable respite from the spectre of guilt. \n\nAt the eve of the Blood Moon harvest, he trails a company of Leornings and Pilgrims to the Cairn in a lucid stupor. ",
+  "external_url": "https://fateofwagdie.com/characters/1947",
+  "animation_url": "https://fateofwagdie.com/characters/1947/animated"
+}

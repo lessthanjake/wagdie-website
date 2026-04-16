@@ -1,0 +1,94 @@
+{
+  "name": "Ryan the All-Seeing",
+  "image": "ipfs://bafkreifia2groa7gnuclhhhrarp74vy2wi7vq22lisimwyi2w5m5dxkdom",
+  "sheet": {
+    "name": "Ryan the All-Seeing",
+    "level": 1,
+    "origin": "Simple Vagabond",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "Removal's Kin",
+      "armor": "Blessing of the Worm"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 14,
+      "strength": 16,
+      "dexterity": 16,
+      "constitution": 11,
+      "intelligence": 16
+    },
+    "hit_points": 6,
+    "tokenIdInt": 2419,
+    "background_story": "I see myself with your mother",
+    "experience_points": 0
+  },
+  "tokenId": "2419",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Blessing of the Worm",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Guard's Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Removal's Kin",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "I see myself with your mother",
+  "external_url": "https://fateofwagdie.com/characters/2419",
+  "animation_url": "https://fateofwagdie.com/characters/2419/animated"
+}

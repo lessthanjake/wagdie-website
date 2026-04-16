@@ -1,0 +1,94 @@
+{
+  "name": "Yogg's Judgment",
+  "image": "ipfs://bafkreigfd7m4hggs5wt464umxubz4on4qkcnlv6pazbjr7hz7enjgk5sfu",
+  "sheet": {
+    "name": "Yogg's Judgment",
+    "level": 1,
+    "origin": "Young Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "Yogg's Love",
+      "armor": "Worm's Protection"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 12,
+      "strength": 11,
+      "dexterity": 15,
+      "constitution": 15,
+      "intelligence": 11
+    },
+    "hit_points": 10,
+    "tokenIdInt": 5503,
+    "background_story": "A devout follower of Yogg, this hardened cleric has been in service of the great eye for so long it no longer remembers its name.\n\nYogg's Judgment now stalks The Forsaken Lands with impunity, tracking and executing the most egregious heretics from afar with his incredible marksmanship.",
+    "experience_points": 0
+  },
+  "tokenId": "5503",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm's Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Yogg's Love",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A devout follower of Yogg, this hardened cleric has been in service of the great eye for so long it no longer remembers its name.\n\nYogg's Judgment now stalks The Forsaken Lands with impunity, tracking and executing the most egregious heretics from afar with his incredible marksmanship.",
+  "external_url": "https://fateofwagdie.com/characters/5503",
+  "animation_url": "https://fateofwagdie.com/characters/5503/animated"
+}

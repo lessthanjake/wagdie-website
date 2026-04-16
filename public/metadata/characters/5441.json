@@ -1,0 +1,94 @@
+{
+  "name": "Alcina Wormfury",
+  "image": "ipfs://bafkreibhwdrqlbdkbjpi5qur4ly4jnkvix7eymbum4khmx4laov3zgw2xy",
+  "sheet": {
+    "name": "Alcina Wormfury",
+    "level": 2,
+    "origin": "Wormkin Elite",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Noxium Garb",
+      "armor": "Yuria's Power"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 11,
+      "strength": 14,
+      "dexterity": 11,
+      "constitution": 13,
+      "intelligence": 16
+    },
+    "hit_points": 8,
+    "tokenIdInt": 5441,
+    "background_story": "Child of Turlo who travels the forsaken lands with the burning flames of vengeance and knowledge. The magic that runs through her flesh chars the wretches who dare to defy her.\nShe increased her power after absorbing the soul of the otherworldly being defeated in the event of the hills between The Desecrated Valley and The Glistening Wall.\n\nSwallowed by the abyss in The Burrows.",
+    "experience_points": 10
+  },
+  "tokenId": "5441",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Yuria's Power",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Noxium Garb",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Child of Turlo who travels the forsaken lands with the burning flames of vengeance and knowledge. The magic that runs through her flesh chars the wretches who dare to defy her.\nShe increased her power after absorbing the soul of the otherworldly being defeated in the event of the hills between The Desecrated Valley and The Glistening Wall.\n\nSwallowed by the abyss in The Burrows.",
+  "external_url": "https://fateofwagdie.com/characters/5441",
+  "animation_url": "https://fateofwagdie.com/characters/5441/animated"
+}

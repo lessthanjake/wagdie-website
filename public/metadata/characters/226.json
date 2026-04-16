@@ -1,0 +1,94 @@
+{
+  "name": "Otato Otato",
+  "image": "ipfs://bafkreig7hrgjsdh77aarthuzqnjiowbtqjzjelaxzfnwfl3cqpfd3jerne",
+  "sheet": {
+    "name": "Otato Otato",
+    "level": 4,
+    "origin": "Young Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Goddess of Vision",
+      "armor": "Journeyman Tunic"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 9,
+      "strength": 16,
+      "dexterity": 15,
+      "constitution": 18,
+      "intelligence": 14
+    },
+    "hit_points": 34,
+    "tokenIdInt": 226,
+    "background_story": "Pronounced (Oh-taye-toe Oh-tah-toe)\n\nA villainous youth with a history of thievery, Otato once made the mistake of attempting to rob the inner sanctum of a church of Agora. In there he witnessed the performance of an unspeakable ritual, and was punished with the searing of a metal dome to his skull.\n\nThe eyes which witnessed this forbidden act were thus blinded, and the holy trauma of the searing event now prevents Otato from remembering what he saw in that Inner Sanctum. Raised by the clergy of the Church, Otato has been a stalwart servant of Her ever since.",
+    "experience_points": 0
+  },
+  "tokenId": "226",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Journeyman Tunic",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Guard's Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Goddess of Vision",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Pronounced (Oh-taye-toe Oh-tah-toe)\n\nA villainous youth with a history of thievery, Otato once made the mistake of attempting to rob the inner sanctum of a church of Agora. In there he witnessed the performance of an unspeakable ritual, and was punished with the searing of a metal dome to his skull.\n\nThe eyes which witnessed this forbidden act were thus blinded, and the holy trauma of the searing event now prevents Otato from remembering what he saw in that Inner Sanctum. Raised by the clergy of the Church, Otato has been a stalwart servant of Her ever since.",
+  "external_url": "https://fateofwagdie.com/characters/226",
+  "animation_url": "https://fateofwagdie.com/characters/226/animated"
+}

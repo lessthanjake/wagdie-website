@@ -1,0 +1,94 @@
+{
+  "name": "Zell's Corpse",
+  "image": "ipfs://bafkreid7e2gl4bapqfvxnlf7zfqclxhmky6worlflnvcujpmkd3mwxan7i",
+  "sheet": {
+    "name": "Zell's Corpse",
+    "level": 20,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Royal Fool's Curse",
+      "armor": "Her Cursed Outcast"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 30,
+      "strength": 30,
+      "dexterity": 30,
+      "constitution": 30,
+      "intelligence": 30
+    },
+    "hit_points": 100,
+    "tokenIdInt": 5026,
+    "background_story": "Blinded by the light\nRevved up like a deuce\nAnother runner in the night\nBlinded by the light\nRevved up like a deuce\nAnother runner in the night\nBlinded by the light\nRevved up like a deuce\nAnother runner in the night",
+    "experience_points": 355000
+  },
+  "tokenId": "5026",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Cursed Outcast",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Royal Fool's Curse",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Blinded by the light\nRevved up like a deuce\nAnother runner in the night\nBlinded by the light\nRevved up like a deuce\nAnother runner in the night\nBlinded by the light\nRevved up like a deuce\nAnother runner in the night",
+  "external_url": "https://fateofwagdie.com/characters/5026",
+  "animation_url": "https://fateofwagdie.com/characters/5026/animated"
+}

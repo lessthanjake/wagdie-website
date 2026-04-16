@@ -1,0 +1,94 @@
+{
+  "name": "CC0 Josiah",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/750.png",
+  "sheet": {
+    "name": "CC0 Josiah",
+    "level": 1,
+    "origin": "Hardened Merchant",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Blessing of the Worm"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 750,
+    "background_story": "    CC0 Josiah is a well know, extraordinary Artist in the Forsaken Lands! His visual skills and use of all mediums is exceptional. Everything he produces is a masterpiece!\n    In addition to his stunning visual creations, CC0 Josiah is a phenomenal storyteller. His stories are legendary and will be told through all of time.\n    The Forsaken Lands are blessed to have the beloved and famed CC0 Josiah!\n",
+    "experience_points": 0
+  },
+  "tokenId": "750",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Blessing of the Worm",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Piat's Destruction",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Witches' Brush",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Witches' Brush",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Coven of Detriti",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "    CC0 Josiah is a well know, extraordinary Artist in the Forsaken Lands! His visual skills and use of all mediums is exceptional. Everything he produces is a masterpiece!\n    In addition to his stunning visual creations, CC0 Josiah is a phenomenal storyteller. His stories are legendary and will be told through all of time.\n    The Forsaken Lands are blessed to have the beloved and famed CC0 Josiah!\n",
+  "external_url": "https://fateofwagdie.com/characters/750",
+  "animation_url": "https://fateofwagdie.com/characters/750/animated"
+}

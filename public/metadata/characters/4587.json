@@ -1,0 +1,94 @@
+{
+  "name": "Killer",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/4587.png",
+  "sheet": {
+    "name": "Killer",
+    "level": 2,
+    "origin": "Galy Veetus the Aged",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Noxium Death Cage",
+      "armor": "Blessing of the Worm"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 4,
+      "strength": 14,
+      "dexterity": 14,
+      "constitution": 12,
+      "intelligence": 10
+    },
+    "hit_points": 16,
+    "tokenIdInt": 4587,
+    "background_story": "A psychopath with no known name.\n\nCan occasionally be heard muttering.\n\n\"__ ______. __ ____.\"\n",
+    "experience_points": 300
+  },
+  "tokenId": "4587",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Blessing of the Worm",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Galy Veetus the Aged",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit Set",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Noxium Death Cage",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Galy Veetus the Aged",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Worm Greatsword",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A psychopath with no known name.\n\nCan occasionally be heard muttering.\n\n\"__ ______. __ ____.\"\n",
+  "external_url": "https://fateofwagdie.com/characters/4587",
+  "animation_url": "https://fateofwagdie.com/characters/4587/animated"
+}

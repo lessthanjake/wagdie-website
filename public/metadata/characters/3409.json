@@ -1,0 +1,94 @@
+{
+  "name": "Akeldama",
+  "image": "ipfs://bafkreic35vqqhl6e4ievdc3vwt64cx66zbf2vxcmqpp7gnh67qluqj3ohy",
+  "sheet": {
+    "name": "Akeldama",
+    "level": 17,
+    "origin": "Her Lover",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Stranger's Cry",
+      "armor": "Yuria's Power"
+    },
+    "attributes": {
+      "wisdom": 8,
+      "charisma": 7,
+      "strength": 17,
+      "dexterity": 11,
+      "constitution": 12,
+      "intelligence": 8
+    },
+    "hit_points": 100,
+    "tokenIdInt": 3409,
+    "background_story": "She is driven by revenge.  Her family, servants of the late King Offling, were also infected and succumbed to the disease.  She escaped the infection through an intense act of self mutilation through fire, searing the infection from her skin.  Her singular goal in life is the death and destruction of King Offling's family and remaining kingdom.\n\n\"Through fire, I was reborn; in vengeance, I will find purpose.\"",
+    "experience_points": 1
+  },
+  "tokenId": "3409",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Yuria's Power",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Stranger's Cry",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "She is driven by revenge.  Her family, servants of the late King Offling, were also infected and succumbed to the disease.  She escaped the infection through an intense act of self mutilation through fire, searing the infection from her skin.  Her singular goal in life is the death and destruction of King Offling's family and remaining kingdom.\n\n\"Through fire, I was reborn; in vengeance, I will find purpose.\"",
+  "external_url": "https://fateofwagdie.com/characters/3409",
+  "animation_url": "https://fateofwagdie.com/characters/3409/animated"
+}

@@ -8,6 +8,8 @@ import { NextRequest, NextResponse } from 'next/server'
 import { getCharacters } from '@/lib/services/character-service'
 import type { CharacterFilterTab, SortOrder } from '@/types/character'
 
+export const runtime = 'nodejs'
+
 export async function GET(request: NextRequest) {
   try {
     const searchParams = request.nextUrl.searchParams
@@ -52,4 +54,3 @@ export async function GET(request: NextRequest) {
     return NextResponse.json({ error: 'Failed to fetch characters' }, { status: 500 })
   }
 }
-

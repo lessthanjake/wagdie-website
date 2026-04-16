@@ -1,0 +1,94 @@
+{
+  "name": "The Black Scryer",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/3015.png",
+  "sheet": {
+    "name": "The Black Scryer",
+    "level": 1,
+    "origin": "Follower of Logun",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "Removal's Kin",
+      "armor": "Verite Supports"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 18,
+      "strength": 8,
+      "dexterity": 11,
+      "constitution": 12,
+      "intelligence": 14
+    },
+    "hit_points": 9,
+    "tokenIdInt": 3015,
+    "background_story": "Act I: Descent into the Underworld\nOrigin of the Scryer.\n\nScene 1: The Fleeting Light of Integrity\nIn my early days, before the shadows clung to my name, I was a different man—lighter, perhaps, but blinded by naive ambition. I dealt in the currency of false hopes, selling futures to pilgrims too desperate to question the cost. Each lie chipped away at whatever good remained within me.\n\nScene 2: A Fall from Grace\nThe deceit couldn't last. The enraged voices of those I'd wronged dragged me from the flickering twilight into the abyss of the underworld. Their anger was a baptism by fire that burned away my former self, leaving only The Black Scryer in its wake.\n\nScene 3: The Cloak of Shadows\nFate, with its cruel humor, led me to a cloak store—an unassuming twist in my sordid tale. Those cloaks weren’t just fabric; they were woven with dark destinies. Donning one, I joined the Crows. Chaos whispered in my ear, and I listened.\n\nAct II: Rise of the Swindler\nMania's Grip Saga\n\nScene 1: The Jester's Wand\nI watched as Julian, pilfered The Jester's Wand from our sanctum. His treachery set into motion the Guild’s relentless hunt through cursed lands and shattered hopes.\n\nScene 2: The Pursuit\nThe Murder, crows ourselves, chased Julian across the forsaken lands. The hunt was relentless—a test of our wills against his desperation. It was a dance with despair on the grand stage of chaos.\n\nScene 3: The Inescapable Past\nWe captured him, dragging Julian back to the Crow's Den. The Crows were unforgiving. I saw in his eyes a mirror of my past follies—the inescapable grip of the deeds that define us.\n\nThe Swindler Saga\n\nScene 1: Chasing Ghosts\nMy own past, a gallery of ghosts, haunted me relentlessly. I pursued the Swindler, a man whose crimes mirrored my own. But was I seeking justice, or was I merely confronting my own shadow?\n\nScene 2: Xur's Madness\nAmid our vendettas, Xur toiled away at his monstrous experiment. His ambition to create a new form of terror was a reminder that some are drawn to chaos not as a path, but as an end.\n\nScene 3: A Cage of One's Own Making\nWe recaptured the Swindler, locking him away. In the chilling silence of his cell, I wondered if he found madness or truth. How thin the line between them seemed then. As we become the Red Cows, the ritual of Xur starts, making the corpse of the swindler explode in different parts ...\n\nAct III: Redemption or Damnation\nA New Beginning\n\nScene 1: The Weight of Guilt\nThe death of Chen, a comrade under my watch shattered something within me. I could no longer bear the weight of the cloak, nor the shadows it cast. Was there redemption for one such as I? I had to find out.\n\nScene 2: Return to Darkness\nDriven by a newfound resolve, I returned to the Crow's Den. It was time to confront the dark forces I had once served. This was my penance, or perhaps my end.\n\nScene 3: The Final Stand\nAs I rally my allies, I set my sights on the Coven's Lair as the ultimate battleground to seek vengeance for Chen.\nAnd died..\n\nImportant links:\n\nhttps://twitter.com/DarkBladeGuild/status/1569032822064615427\nhttps://twitter.com/CryptoChencho/status/1569780442475425792\nhttps://twitter.com/CryptoChencho/status/1568353995877666817\nhttps://twitter.com/CryptoChencho/status/1586423819669237760\nhttps://twitter.com/CryptoChencho/status/1591844496068968448\nhttps://twitter.com/CryptoChencho/status/1597722188026875904\nhttps://twitter.com/DarkBladeGuild/status/1653915390647451651\nhttps://twitter.com/DarkBladeGuild/status/1600729137765056512\nhttps://twitter.com/DarkBladeGuild/status/1616602933759467522\nhttps://twitter.com/DarkBladeGuild/status/1621001159283712000\nhttps://twitter.com/DarkBladeGuild/status/1653914693482737664",
+    "experience_points": 0
+  },
+  "tokenId": "3015",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Verite Supports",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Follower of Logun",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Removal's Kin",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Follower of Logun",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Blood Blade Shroud",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Bloody Crow's Talon",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Darkblade",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Act I: Descent into the Underworld\nOrigin of the Scryer.\n\nScene 1: The Fleeting Light of Integrity\nIn my early days, before the shadows clung to my name, I was a different man—lighter, perhaps, but blinded by naive ambition. I dealt in the currency of false hopes, selling futures to pilgrims too desperate to question the cost. Each lie chipped away at whatever good remained within me.\n\nScene 2: A Fall from Grace\nThe deceit couldn't last. The enraged voices of those I'd wronged dragged me from the flickering twilight into the abyss of the underworld. Their anger was a baptism by fire that burned away my former self, leaving only The Black Scryer in its wake.\n\nScene 3: The Cloak of Shadows\nFate, with its cruel humor, led me to a cloak store—an unassuming twist in my sordid tale. Those cloaks weren’t just fabric; they were woven with dark destinies. Donning one, I joined the Crows. Chaos whispered in my ear, and I listened.\n\nAct II: Rise of the Swindler\nMania's Grip Saga\n\nScene 1: The Jester's Wand\nI watched as Julian, pilfered The Jester's Wand from our sanctum. His treachery set into motion the Guild’s relentless hunt through cursed lands and shattered hopes.\n\nScene 2: The Pursuit\nThe Murder, crows ourselves, chased Julian across the forsaken lands. The hunt was relentless—a test of our wills against his desperation. It was a dance with despair on the grand stage of chaos.\n\nScene 3: The Inescapable Past\nWe captured him, dragging Julian back to the Crow's Den. The Crows were unforgiving. I saw in his eyes a mirror of my past follies—the inescapable grip of the deeds that define us.\n\nThe Swindler Saga\n\nScene 1: Chasing Ghosts\nMy own past, a gallery of ghosts, haunted me relentlessly. I pursued the Swindler, a man whose crimes mirrored my own. But was I seeking justice, or was I merely confronting my own shadow?\n\nScene 2: Xur's Madness\nAmid our vendettas, Xur toiled away at his monstrous experiment. His ambition to create a new form of terror was a reminder that some are drawn to chaos not as a path, but as an end.\n\nScene 3: A Cage of One's Own Making\nWe recaptured the Swindler, locking him away. In the chilling silence of his cell, I wondered if he found madness or truth. How thin the line between them seemed then. As we become the Red Cows, the ritual of Xur starts, making the corpse of the swindler explode in different parts ...\n\nAct III: Redemption or Damnation\nA New Beginning\n\nScene 1: The Weight of Guilt\nThe death of Chen, a comrade under my watch shattered something within me. I could no longer bear the weight of the cloak, nor the shadows it cast. Was there redemption for one such as I? I had to find out.\n\nScene 2: Return to Darkness\nDriven by a newfound resolve, I returned to the Crow's Den. It was time to confront the dark forces I had once served. This was my penance, or perhaps my end.\n\nScene 3: The Final Stand\nAs I rally my allies, I set my sights on the Coven's Lair as the ultimate battleground to seek vengeance for Chen.\nAnd died..\n\nImportant links:\n\nhttps://twitter.com/DarkBladeGuild/status/1569032822064615427\nhttps://twitter.com/CryptoChencho/status/1569780442475425792\nhttps://twitter.com/CryptoChencho/status/1568353995877666817\nhttps://twitter.com/CryptoChencho/status/1586423819669237760\nhttps://twitter.com/CryptoChencho/status/1591844496068968448\nhttps://twitter.com/CryptoChencho/status/1597722188026875904\nhttps://twitter.com/DarkBladeGuild/status/1653915390647451651\nhttps://twitter.com/DarkBladeGuild/status/1600729137765056512\nhttps://twitter.com/DarkBladeGuild/status/1616602933759467522\nhttps://twitter.com/DarkBladeGuild/status/1621001159283712000\nhttps://twitter.com/DarkBladeGuild/status/1653914693482737664",
+  "external_url": "https://fateofwagdie.com/characters/3015",
+  "animation_url": "https://fateofwagdie.com/characters/3015/animated"
+}

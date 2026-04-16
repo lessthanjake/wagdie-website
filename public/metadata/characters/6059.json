@@ -1,0 +1,94 @@
+{
+  "name": "Her Golden Warrior",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/6059.png",
+  "sheet": {
+    "name": "Her Golden Warrior",
+    "level": 1,
+    "origin": "Her Hidden Blade",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Goldbeard's Eyes",
+      "armor": "Her Devotion"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 12,
+      "strength": 14,
+      "dexterity": 14,
+      "constitution": 11,
+      "intelligence": 11
+    },
+    "hit_points": 3,
+    "tokenIdInt": 6059,
+    "background_story": "Devotee to Mother Agora and eager warrior for her cause.",
+    "experience_points": 0
+  },
+  "tokenId": "6059",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Devotion",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Earth Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Goldbeard's Eyes",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Her Infinite Light",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Encampment Medallion",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Encampment Militia",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Devotee to Mother Agora and eager warrior for her cause.",
+  "external_url": "https://fateofwagdie.com/characters/6059",
+  "animation_url": "https://fateofwagdie.com/characters/6059/animated"
+}

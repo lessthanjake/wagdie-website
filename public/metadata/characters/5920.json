@@ -1,0 +1,94 @@
+{
+  "name": "Rian the Worm Scholar",
+  "image": "ipfs://bafkreifcfj3kuoxtcbwci5wbcpmdmbm4nhbua7fkbidjg53hzxioa5hriy",
+  "sheet": {
+    "name": "Rian the Worm Scholar",
+    "level": 1,
+    "origin": "Zolian Worm",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "An Ancient Device",
+      "armor": "The Wisened"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 5920,
+    "background_story": "Her devotion knows no end to the Worm. ",
+    "experience_points": 0
+  },
+  "tokenId": "5920",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "The Wisened",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Earth Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "An Ancient Device",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Her devotion knows no end to the Worm. ",
+  "external_url": "https://fateofwagdie.com/characters/5920",
+  "animation_url": "https://fateofwagdie.com/characters/5920/animated"
+}

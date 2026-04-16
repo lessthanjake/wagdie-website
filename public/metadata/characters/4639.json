@@ -1,0 +1,94 @@
+{
+  "name": "Triboulet ",
+  "image": "ipfs://bafkreifz457u4ph4stwhcdkyiig4jjcot22xr6ocyhtvohxftvbikypxhy",
+  "sheet": {
+    "name": "Triboulet ",
+    "level": 1,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Worm Touch",
+      "armor": "Noxian Jester Garb"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 17,
+      "strength": 8,
+      "dexterity": 16,
+      "constitution": 11,
+      "intelligence": 8
+    },
+    "hit_points": 5,
+    "tokenIdInt": 4639,
+    "background_story": "Proud member of the Noxian Jesters and a perpetual fool, Triboulet makes light of every situation no matter how grave it may be.\n\nAlways cracking jokes in the face of danger and tragedy has estranged Triboulet from many who do not appreciate their overtly dark sense of humor.\n\nSince the Battle of the Burning Church, she has ventured to The Festival grounds with Punchline. Together, the two hope to find The Nameless Charter again and a great quantity of Noxium Brew.",
+    "experience_points": 0
+  },
+  "tokenId": "4639",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Noxian Jester Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Altered",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Earth Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Worm Touch",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Proud member of the Noxian Jesters and a perpetual fool, Triboulet makes light of every situation no matter how grave it may be.\n\nAlways cracking jokes in the face of danger and tragedy has estranged Triboulet from many who do not appreciate their overtly dark sense of humor.\n\nSince the Battle of the Burning Church, she has ventured to The Festival grounds with Punchline. Together, the two hope to find The Nameless Charter again and a great quantity of Noxium Brew.",
+  "external_url": "https://fateofwagdie.com/characters/4639",
+  "animation_url": "https://fateofwagdie.com/characters/4639/animated"
+}

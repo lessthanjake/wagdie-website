@@ -1,0 +1,93 @@
+{
+  "name": "MAX PAIN",
+  "image": "ipfs://bafkreicmvc6pfk4rwne4hd2byyiflt7gndp2fano65nvraxm6bqybw7buy",
+  "sheet": {
+    "name": "MAX PAIN",
+    "level": 20,
+    "origin": "Garolin Champion",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "Logun's Wings",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 0,
+      "strength": 30,
+      "dexterity": 30,
+      "constitution": 30,
+      "intelligence": 30
+    },
+    "hit_points": 100,
+    "tokenIdInt": 3095,
+    "experience_points": 9999
+  },
+  "tokenId": "3095",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "None",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Logun's Wings",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/3095",
+  "animation_url": "https://fateofwagdie.com/characters/3095/animated"
+}

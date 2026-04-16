@@ -1,0 +1,94 @@
+{
+  "name": "Josiah Our Leader",
+  "image": "ipfs://bafkreidyfa5625qf7wxcixkzetnek6to5ibv5osb6t26ok43um655nxu7e",
+  "sheet": {
+    "name": "Josiah Our Leader",
+    "level": 1,
+    "origin": "Pilgrim of the Lakes",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Favor in Light",
+      "mask": "Her Blessing",
+      "armor": "Her Zealot's Gear"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 2517,
+    "background_story": "Josiah always swoops in whenever he is needed. A Divine Being, he is often being sought for help, advice, and wisdom. Josiah caringly and willingly aids any and all Pilgrims in the Forsaken Lands, even those unworthy. Tirelessly giving, Josiah will be forever remembered in the Mystical Halls of the Forsaken Lands.",
+    "experience_points": 0
+  },
+  "tokenId": "2517",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Zealot's Gear",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Favor in Light",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Piat's Destruction",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Blessing",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Josiah always swoops in whenever he is needed. A Divine Being, he is often being sought for help, advice, and wisdom. Josiah caringly and willingly aids any and all Pilgrims in the Forsaken Lands, even those unworthy. Tirelessly giving, Josiah will be forever remembered in the Mystical Halls of the Forsaken Lands.",
+  "external_url": "https://fateofwagdie.com/characters/2517",
+  "animation_url": "https://fateofwagdie.com/characters/2517/animated"
+}

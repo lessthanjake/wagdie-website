@@ -1,0 +1,94 @@
+{
+  "name": "Cheyenne Tysdale",
+  "image": "ipfs://bafkreibg6urvkvovxzuvipcthtzxuk7c2z657qtolgp3sm7dggjj2kggdi",
+  "sheet": {
+    "name": "Cheyenne Tysdale",
+    "level": 1,
+    "origin": "Naive Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "None",
+      "armor": "Valorite Amateur Garb"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 94,
+    "background_story": "Lady Cheyenne Tysdale is the daughter of Lord Liam and Lady Eva Tysdale of House Tysdale.\n\nAs the youngest member of her family, Cheyenne has inherited the scholarly traits of her parents and shares their passion for knowledge and discovery.\n\nShe is fiercely protected by her brothers Roy and Theo.\n\nCheyenne has risen to prominence within the family, and is destined to make a significant impact on the Dawnlands in the years to come.",
+    "experience_points": 0
+  },
+  "tokenId": "94",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Valorite Amateur Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Lady Cheyenne Tysdale is the daughter of Lord Liam and Lady Eva Tysdale of House Tysdale.\n\nAs the youngest member of her family, Cheyenne has inherited the scholarly traits of her parents and shares their passion for knowledge and discovery.\n\nShe is fiercely protected by her brothers Roy and Theo.\n\nCheyenne has risen to prominence within the family, and is destined to make a significant impact on the Dawnlands in the years to come.",
+  "external_url": "https://fateofwagdie.com/characters/94",
+  "animation_url": "https://fateofwagdie.com/characters/94/animated"
+}

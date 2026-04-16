@@ -1,0 +1,94 @@
+{
+  "name": "𝔐𝔞𝔩𝔞𝔠𝔥𝔦𝔱𝔢, 𝔱𝔥𝔢 𝔐𝔞𝔯𝔞𝔲𝔡𝔢𝔯",
+  "image": "ipfs://bafkreignfylwz5onmfh7lrzjbpu42tzes6i34uudfvpz2mq2d2xslxdqey",
+  "sheet": {
+    "name": "𝔐𝔞𝔩𝔞𝔠𝔥𝔦𝔱𝔢, 𝔱𝔥𝔢 𝔐𝔞𝔯𝔞𝔲𝔡𝔢𝔯",
+    "level": 5,
+    "origin": "Hardened Merchant",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "Darkblade's Beak",
+      "armor": "Verite Protection"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 15,
+      "strength": 8,
+      "dexterity": 27,
+      "constitution": 10,
+      "intelligence": 19
+    },
+    "hit_points": 10,
+    "tokenIdInt": 6558,
+    "background_story": "𝔚𝔥𝔢𝔫 𝔱𝔥𝔢 𝔠𝔯𝔬𝔴𝔰 𝔠𝔬𝔪𝔢\n𝔟𝔩𝔞𝔠𝔨 𝔞𝔤𝔞𝔦𝔫𝔰𝔱 𝔱𝔥𝔢 𝔡𝔞𝔯𝔨𝔢𝔫𝔦𝔫𝔤 𝔰𝔨𝔶\n𝔱𝔥𝔢𝔦𝔯 𝔴𝔦𝔫𝔤𝔰 𝔬𝔟𝔰𝔠𝔲𝔯𝔢 𝔱𝔥𝔢 𝔰𝔲𝔫\n𝔞𝔫𝔡 𝔰𝔪𝔞𝔩𝔩 𝔰𝔬𝔲𝔫𝔡𝔰 𝔡𝔯𝔬𝔴𝔫\n𝔦𝔫 𝔱𝔥𝔢𝔦𝔯 𝔰𝔱𝔯𝔦𝔡𝔢𝔫𝔱 𝔠𝔞𝔴𝔰. \n \n𝔄𝔫𝔡 𝔴𝔥𝔢𝔫 𝔱𝔥𝔢 𝔪𝔬𝔲𝔫𝔱𝔞𝔦𝔫𝔰 𝔱𝔲𝔯𝔫 𝔟𝔩𝔲𝔢\n𝔴𝔦𝔱𝔥 𝔱𝔥𝔢 𝔥𝔞𝔷𝔢 𝔬𝔣 𝔢𝔳𝔢𝔫𝔦𝔫𝔤\n𝔱𝔥𝔢 𝔠𝔯𝔬𝔴𝔰 𝔩𝔦𝔣𝔱 𝔬𝔣𝔣 𝔦𝔫 𝔢𝔟𝔬𝔫𝔶 𝔣𝔬𝔯𝔪𝔞𝔱𝔦𝔬𝔫\n𝔥𝔢𝔞𝔡 𝔱𝔬𝔴𝔞𝔯𝔡 𝔰𝔬𝔪𝔢 𝔰𝔢𝔠𝔯𝔢𝔱 𝔯𝔬𝔬𝔰𝔱\n𝔴𝔥𝔢𝔯𝔢 𝔱𝔥𝔢𝔶 𝔟𝔩𝔢𝔫𝔡 𝔦𝔫𝔱𝔬 𝔱𝔥𝔢 𝔫𝔦𝔤𝔥𝔱.",
+    "experience_points": 50
+  },
+  "tokenId": "6558",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Verite Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Naive Pilgrim's Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Darkblade's Beak",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "𝔚𝔥𝔢𝔫 𝔱𝔥𝔢 𝔠𝔯𝔬𝔴𝔰 𝔠𝔬𝔪𝔢\n𝔟𝔩𝔞𝔠𝔨 𝔞𝔤𝔞𝔦𝔫𝔰𝔱 𝔱𝔥𝔢 𝔡𝔞𝔯𝔨𝔢𝔫𝔦𝔫𝔤 𝔰𝔨𝔶\n𝔱𝔥𝔢𝔦𝔯 𝔴𝔦𝔫𝔤𝔰 𝔬𝔟𝔰𝔠𝔲𝔯𝔢 𝔱𝔥𝔢 𝔰𝔲𝔫\n𝔞𝔫𝔡 𝔰𝔪𝔞𝔩𝔩 𝔰𝔬𝔲𝔫𝔡𝔰 𝔡𝔯𝔬𝔴𝔫\n𝔦𝔫 𝔱𝔥𝔢𝔦𝔯 𝔰𝔱𝔯𝔦𝔡𝔢𝔫𝔱 𝔠𝔞𝔴𝔰. \n \n𝔄𝔫𝔡 𝔴𝔥𝔢𝔫 𝔱𝔥𝔢 𝔪𝔬𝔲𝔫𝔱𝔞𝔦𝔫𝔰 𝔱𝔲𝔯𝔫 𝔟𝔩𝔲𝔢\n𝔴𝔦𝔱𝔥 𝔱𝔥𝔢 𝔥𝔞𝔷𝔢 𝔬𝔣 𝔢𝔳𝔢𝔫𝔦𝔫𝔤\n𝔱𝔥𝔢 𝔠𝔯𝔬𝔴𝔰 𝔩𝔦𝔣𝔱 𝔬𝔣𝔣 𝔦𝔫 𝔢𝔟𝔬𝔫𝔶 𝔣𝔬𝔯𝔪𝔞𝔱𝔦𝔬𝔫\n𝔥𝔢𝔞𝔡 𝔱𝔬𝔴𝔞𝔯𝔡 𝔰𝔬𝔪𝔢 𝔰𝔢𝔠𝔯𝔢𝔱 𝔯𝔬𝔬𝔰𝔱\n𝔴𝔥𝔢𝔯𝔢 𝔱𝔥𝔢𝔶 𝔟𝔩𝔢𝔫𝔡 𝔦𝔫𝔱𝔬 𝔱𝔥𝔢 𝔫𝔦𝔤𝔥𝔱.",
+  "external_url": "https://fateofwagdie.com/characters/6558",
+  "animation_url": "https://fateofwagdie.com/characters/6558/animated"
+}

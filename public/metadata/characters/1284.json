@@ -1,0 +1,94 @@
+{
+  "name": "M3rl1n's Minion",
+  "image": "ipfs://bafkreigvuestxeyarddbsv3vslbpmhky6fi2ocqodrisl2wqjtiakyml5q",
+  "sheet": {
+    "name": "M3rl1n's Minion",
+    "level": 1,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Darkblade's Beak",
+      "armor": "Worm's Weight"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 1284,
+    "background_story": "A mere minion of M3rl1n",
+    "experience_points": 0
+  },
+  "tokenId": "1284",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm's Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Luta's Firey Bangs",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Darkblade's Beak",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A mere minion of M3rl1n",
+  "external_url": "https://fateofwagdie.com/characters/1284",
+  "animation_url": "https://fateofwagdie.com/characters/1284/animated"
+}

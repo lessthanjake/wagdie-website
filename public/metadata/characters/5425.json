@@ -1,0 +1,94 @@
+{
+  "name": "The First Torchbearer",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/5425.png",
+  "sheet": {
+    "name": "The First Torchbearer",
+    "level": 1,
+    "origin": "Wormlord Acolyte",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Fool's Crown",
+      "armor": "Pilgrim's Chain"
+    },
+    "attributes": {
+      "wisdom": 17,
+      "charisma": 13,
+      "strength": 13,
+      "dexterity": 11,
+      "constitution": 12,
+      "intelligence": 11
+    },
+    "hit_points": 4,
+    "tokenIdInt": 5425,
+    "background_story": "Within the depths of the Forsaken Lands lies a realm enshrouded in pure darkness. Skilled adventures have ventured forth only to vanish without a trace. For centuries there was nothing that was able to illuminate this area, that is, until one unknown king is seen from within, carrying a torch that seemingly burned the soul of a living human.",
+    "experience_points": 0
+  },
+  "tokenId": "5425",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Golden Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Fool's Crown",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Pyre Torch",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Pyre Doll",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Druids of the Southern Plains",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Within the depths of the Forsaken Lands lies a realm enshrouded in pure darkness. Skilled adventures have ventured forth only to vanish without a trace. For centuries there was nothing that was able to illuminate this area, that is, until one unknown king is seen from within, carrying a torch that seemingly burned the soul of a living human.",
+  "external_url": "https://fateofwagdie.com/characters/5425",
+  "animation_url": "https://fateofwagdie.com/characters/5425/animated"
+}

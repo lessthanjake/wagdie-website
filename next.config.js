@@ -21,11 +21,19 @@ const nextConfig = {
       },
       {
         protocol: 'https',
+        hostname: 'dweb.link',
+      },
+      {
+        protocol: 'https',
         hostname: 'cloudflare-ipfs.com',
       },
       {
         protocol: 'https',
         hostname: 'storage.googleapis.com',
+      },
+      {
+        protocol: 'https',
+        hostname: 'raw.seadn.io',
       },
       // Twitter/X media domains
       {

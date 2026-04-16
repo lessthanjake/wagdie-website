@@ -1,0 +1,94 @@
+{
+  "name": "Gurdis Ungart",
+  "image": "ipfs://bafkreihm7egxbb6hl3nzvoa55n2azftpfhf4r37ksabldhupac66bpvzwu",
+  "sheet": {
+    "name": "Gurdis Ungart",
+    "level": 1,
+    "origin": "Simple Vagabond",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Noxium Death Cage",
+      "armor": "Logun's Descent"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 16,
+      "strength": 12,
+      "dexterity": 12,
+      "constitution": 14,
+      "intelligence": 9
+    },
+    "hit_points": 9,
+    "tokenIdInt": 3898,
+    "background_story": "Gurdis refuses to elaborate on his deeds, giving only his name and his rates.",
+    "experience_points": 0
+  },
+  "tokenId": "3898",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Descent",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Altered",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Cursed Essence",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Noxium Death Cage",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Gurdis refuses to elaborate on his deeds, giving only his name and his rates.",
+  "external_url": "https://fateofwagdie.com/characters/3898",
+  "animation_url": "https://fateofwagdie.com/characters/3898/animated"
+}

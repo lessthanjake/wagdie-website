@@ -1,0 +1,94 @@
+{
+  "name": "Long Naïlo",
+  "image": "ipfs://bafkreigb5cpan7xbqzimyhxztcbxvssx3iyhbkjwwqqqlmvud2gqzhmezq",
+  "sheet": {
+    "name": "Long Naïlo",
+    "level": 10,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "None",
+      "armor": "Noxian Jester Garb"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 10,
+      "strength": 16,
+      "dexterity": 7,
+      "constitution": 9,
+      "intelligence": 13
+    },
+    "hit_points": 5,
+    "tokenIdInt": 6631,
+    "background_story": "\n",
+    "experience_points": 100
+  },
+  "tokenId": "6631",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Noxian Jester Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Darkness",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "\n",
+  "external_url": "https://fateofwagdie.com/characters/6631",
+  "animation_url": "https://fateofwagdie.com/characters/6631/animated"
+}

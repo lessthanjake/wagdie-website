@@ -1,0 +1,94 @@
+{
+  "name": "2-Fly Assassin",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/1030.png",
+  "sheet": {
+    "name": "2-Fly Assassin",
+    "level": 1,
+    "origin": "Simple Vagabond",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Smiling Witness to All",
+      "armor": "Crow Lord's Blessing"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 21,
+      "strength": 1,
+      "dexterity": 21,
+      "constitution": 1,
+      "intelligence": 11
+    },
+    "hit_points": 1,
+    "tokenIdInt": 1030,
+    "background_story": "The \"2-Fly Assassin\" was a shadowy figure who never used more than two flies to carry out deadly deeds. Each fly bore a specific poison, one to paralyze and the other to deliver the final lethal sting, making the assassin's methods virtually untraceable.",
+    "experience_points": 21
+  },
+  "tokenId": "1030",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Crow Lord's Blessing",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Lotharian Hair",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Smiling Witness to All",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Flyling Duo",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Sparkling Fly",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Lord Grem's Diptera",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The \"2-Fly Assassin\" was a shadowy figure who never used more than two flies to carry out deadly deeds. Each fly bore a specific poison, one to paralyze and the other to deliver the final lethal sting, making the assassin's methods virtually untraceable.",
+  "external_url": "https://fateofwagdie.com/characters/1030",
+  "animation_url": "https://fateofwagdie.com/characters/1030/animated"
+}

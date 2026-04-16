@@ -1,0 +1,93 @@
+{
+  "name": "Ander Tan",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/2285.png",
+  "sheet": {
+    "name": "Ander Tan",
+    "level": 1,
+    "origin": "Zolian Worm",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Goldbeard's Eyes",
+      "armor": "The Wisened"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 11,
+      "strength": 16,
+      "dexterity": 7,
+      "constitution": 14,
+      "intelligence": 14
+    },
+    "hit_points": 9,
+    "tokenIdInt": 2285,
+    "experience_points": 0
+  },
+  "tokenId": "2285",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "The Wisened",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Envious Locks",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Goldbeard's Eyes",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Glutton's Bone",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Gnawed Bone",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Ancient Reflections",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/2285",
+  "animation_url": "https://fateofwagdie.com/characters/2285/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Doodleybob Ruler oF Realms",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/2016.png",
+  "sheet": {
+    "name": "Doodleybob Ruler oF Realms",
+    "level": 1,
+    "origin": "Logun Disciple",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "Worm Touch",
+      "armor": "Her Zealot's Gear"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 11,
+      "strength": 30,
+      "dexterity": 13,
+      "constitution": 12,
+      "intelligence": 12
+    },
+    "hit_points": 7,
+    "tokenIdInt": 2016,
+    "background_story": "I am Doodleybob.\n\nRuler of Realms, Conqueror of the Concord, and a Survivor in a project full of sacrifice. I am here today as Doodleybob and one day I will die as Doodleybob but that does not change the way I lived nor does it change the way that I will die. All I know is the way of death is a mere glimpse of the potential you achieved while living. Do not Cower join me and Conquer.",
+    "experience_points": 0
+  },
+  "tokenId": "2016",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Zealot's Gear",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Vaulted",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zaban Rough Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Worm Touch",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Southern Plains Mask",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Pyre Doll",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Druids of the Southern Plains",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "I am Doodleybob.\n\nRuler of Realms, Conqueror of the Concord, and a Survivor in a project full of sacrifice. I am here today as Doodleybob and one day I will die as Doodleybob but that does not change the way I lived nor does it change the way that I will die. All I know is the way of death is a mere glimpse of the potential you achieved while living. Do not Cower join me and Conquer.",
+  "external_url": "https://fateofwagdie.com/characters/2016",
+  "animation_url": "https://fateofwagdie.com/characters/2016/animated"
+}

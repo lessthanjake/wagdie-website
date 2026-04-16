@@ -1,0 +1,93 @@
+{
+  "name": "The Keeper",
+  "image": "ipfs://bafkreiepmtutexdj2cuvlq42zusdac6mzpdre42eydg4sza2tqiekuktlu",
+  "sheet": {
+    "name": "The Keeper",
+    "level": 1,
+    "origin": "Her Hidden Blade",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Yorn's Sadness",
+      "armor": "Worm's Protection"
+    },
+    "attributes": {
+      "wisdom": 17,
+      "charisma": 10,
+      "strength": 11,
+      "dexterity": 12,
+      "constitution": 16,
+      "intelligence": 18
+    },
+    "hit_points": 11,
+    "tokenIdInt": 5048,
+    "experience_points": 0
+  },
+  "tokenId": "5048",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm's Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Yorn's Sadness",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/5048",
+  "animation_url": "https://fateofwagdie.com/characters/5048/animated"
+}

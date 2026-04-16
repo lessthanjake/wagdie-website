@@ -1,0 +1,94 @@
+{
+  "name": "Arxikas",
+  "image": "ipfs://bafkreiaoxfj6bagbrhjxcpmdd6i5tabs44p6miqgdgjz62ncumyrsp7n4i",
+  "sheet": {
+    "name": "Arxikas",
+    "level": 10,
+    "origin": "Hole Protector",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Worm God's Blessing",
+      "mask": "Thorgod's Symbol",
+      "armor": "Dark One's Call"
+    },
+    "attributes": {
+      "wisdom": 17,
+      "charisma": 14,
+      "strength": 15,
+      "dexterity": 7,
+      "constitution": 11,
+      "intelligence": 10
+    },
+    "hit_points": 6,
+    "tokenIdInt": 541,
+    "background_story": "Do you dare possess the courage to confront Arxikas?",
+    "experience_points": 100
+  },
+  "tokenId": "541",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Dark One's Call",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Worm God's Blessing",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Darkness",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Thorgod's Symbol",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Do you dare possess the courage to confront Arxikas?",
+  "external_url": "https://fateofwagdie.com/characters/541",
+  "animation_url": "https://fateofwagdie.com/characters/541/animated"
+}

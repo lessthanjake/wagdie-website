@@ -1,0 +1,93 @@
+{
+  "name": "Anton Evenwood",
+  "image": "ipfs://bafkreidtsjzladpxc4zf6wevfp7ezjqjvrd5nauwm62wtekq72a523gcuy",
+  "sheet": {
+    "name": "Anton Evenwood",
+    "level": 1,
+    "origin": "Pilgrim of the Lakes",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "None",
+      "armor": "Logun Forged Weight"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 14,
+      "strength": 7,
+      "dexterity": 14,
+      "constitution": 18,
+      "intelligence": 14
+    },
+    "hit_points": 11,
+    "tokenIdInt": 1387,
+    "experience_points": 0
+  },
+  "tokenId": "1387",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun Forged Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Piltin Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/1387",
+  "animation_url": "https://fateofwagdie.com/characters/1387/animated"
+}

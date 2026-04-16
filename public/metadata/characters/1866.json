@@ -1,0 +1,93 @@
+{
+  "name": "Shimone the lost",
+  "image": "ipfs://bafkreid46cmjh2bsqh4kgurqg76vjqabdzrw5am4hwsu5krt5gzboc3t5a",
+  "sheet": {
+    "name": "Shimone the lost",
+    "level": 1,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Royal Fool's Curse",
+      "armor": "Strange Cloth Cloak"
+    },
+    "attributes": {
+      "wisdom": 17,
+      "charisma": 15,
+      "strength": 12,
+      "dexterity": 10,
+      "constitution": 12,
+      "intelligence": 13
+    },
+    "hit_points": 8,
+    "tokenIdInt": 1866,
+    "experience_points": 0
+  },
+  "tokenId": "1866",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Strange Cloth Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Pilgrim's Style",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Royal Fool's Curse",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/1866",
+  "animation_url": "https://fateofwagdie.com/characters/1866/animated"
+}

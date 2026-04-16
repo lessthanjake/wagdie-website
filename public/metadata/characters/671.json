@@ -1,0 +1,93 @@
+{
+  "name": "We are All Going to Die #671",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/671.png",
+  "sheet": {
+    "name": "New Character",
+    "level": 0,
+    "origin": "Foolish Jester",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Blessing",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 671,
+    "experience_points": 0
+  },
+  "tokenId": "671",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "None",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Vaulted",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Straw",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Blessing",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Spore Cap",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Stale Mushroom",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Spores of the Headless",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/671",
+  "animation_url": "https://fateofwagdie.com/characters/671/animated"
+}

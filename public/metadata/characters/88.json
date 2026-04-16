@@ -1,0 +1,94 @@
+{
+  "name": "Oskar",
+  "image": "ipfs://bafkreifccqh3gasy3slve763x3g2fetagtn7vzyuqbqrnjbg4ah7pozp3m",
+  "sheet": {
+    "name": "Oskar",
+    "level": 1,
+    "origin": "Galy Veetus the Aged",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "None",
+      "armor": "Young Knight of Logun"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 9,
+      "strength": 9,
+      "dexterity": 7,
+      "constitution": 9,
+      "intelligence": 9
+    },
+    "hit_points": 14,
+    "tokenIdInt": 88,
+    "background_story": "Oskar is a disciple of Galy Veetus. He is often found on the streets shouting the word \"gratitude.\" It is unclear who he is speaking to.",
+    "experience_points": 20
+  },
+  "tokenId": "88",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Young Knight of Logun",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Galy Veetus the Aged",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Earth Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Galy Veetus the Aged",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Oskar is a disciple of Galy Veetus. He is often found on the streets shouting the word \"gratitude.\" It is unclear who he is speaking to.",
+  "external_url": "https://fateofwagdie.com/characters/88",
+  "animation_url": "https://fateofwagdie.com/characters/88/animated"
+}

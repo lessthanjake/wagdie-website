@@ -1,0 +1,94 @@
+{
+  "name": "Woelmur",
+  "image": "ipfs://bafkreihwvz5xxoggh52rh2mw2ujnbog7cgw4jobujnitqpe4ld62ghod44",
+  "sheet": {
+    "name": "Woelmur",
+    "level": 3,
+    "origin": "Foolish Jester",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Luta's Support"
+    },
+    "attributes": {
+      "wisdom": 3,
+      "charisma": 3,
+      "strength": 3,
+      "dexterity": 3,
+      "constitution": 3,
+      "intelligence": 3
+    },
+    "hit_points": 3,
+    "tokenIdInt": 1010,
+    "background_story": "Woelmur was the last to join the Council after Assiniok and Urethmel. Unlike the other two, Woelmur maintains a stronger connection with his former life before joining the Arcane Council. \n\nHe has faint memories of when he was a human in the Forsaken Lands. This causes Woelmur to be the most empathetic to the plights of humanity.\n\nWoelmur forsees the potential harm the Arcane Council is capable of if they continue down the current path.",
+    "experience_points": 3
+  },
+  "tokenId": "1010",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Luta's Support",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Guard's Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Woelmur was the last to join the Council after Assiniok and Urethmel. Unlike the other two, Woelmur maintains a stronger connection with his former life before joining the Arcane Council. \n\nHe has faint memories of when he was a human in the Forsaken Lands. This causes Woelmur to be the most empathetic to the plights of humanity.\n\nWoelmur forsees the potential harm the Arcane Council is capable of if they continue down the current path.",
+  "external_url": "https://fateofwagdie.com/characters/1010",
+  "animation_url": "https://fateofwagdie.com/characters/1010/animated"
+}

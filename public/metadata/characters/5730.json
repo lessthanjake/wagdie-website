@@ -1,0 +1,94 @@
+{
+  "name": "Rolu",
+  "image": "ipfs://bafkreidx25ifwzyvejzis2cq2refa2lc6to5kdcyay6mc5upcpwy4qvrj4",
+  "sheet": {
+    "name": "Rolu",
+    "level": 8,
+    "origin": "Astorian Adventurer",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "Wormlord's Hole",
+      "armor": "Zaban Explorer Garb"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 11,
+      "strength": 11,
+      "dexterity": 13,
+      "constitution": 14,
+      "intelligence": 19
+    },
+    "hit_points": 50,
+    "tokenIdInt": 5730,
+    "background_story": "Once a follower of Her, Rolu's mission was to search out holy artefacts to seize, or destroy, depending on their sanctity. Over time strange dreams developed, digging their claws into his psyche, showing Rolu what lay beyond the veil of stricture. As belief in these visions grew, so did the tentacled aberration crowning his skull. He feels that there is some symbolic beauty in the unknowable affliction dominating his appearance. Peace to be found in recognising that reality is chaos.\n\nNot long after this affliction, Rolu was witness to the bonfires of the 18th cycle. The mind-bending events of those nights saw Rolu set off on the journey of The Lost Pilgrim, feasting on new borders of knowledge outside the shackles of his religion.",
+    "experience_points": 100
+  },
+  "tokenId": "5730",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Zaban Explorer Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit's Pieces",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wormlord's Hole",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Necromancer",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Once a follower of Her, Rolu's mission was to search out holy artefacts to seize, or destroy, depending on their sanctity. Over time strange dreams developed, digging their claws into his psyche, showing Rolu what lay beyond the veil of stricture. As belief in these visions grew, so did the tentacled aberration crowning his skull. He feels that there is some symbolic beauty in the unknowable affliction dominating his appearance. Peace to be found in recognising that reality is chaos.\n\nNot long after this affliction, Rolu was witness to the bonfires of the 18th cycle. The mind-bending events of those nights saw Rolu set off on the journey of The Lost Pilgrim, feasting on new borders of knowledge outside the shackles of his religion.",
+  "external_url": "https://fateofwagdie.com/characters/5730",
+  "animation_url": "https://fateofwagdie.com/characters/5730/animated"
+}

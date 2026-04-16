@@ -1,0 +1,94 @@
+{
+  "name": "None of this Matters",
+  "image": "ipfs://bafkreib5nntpmeu3ueh7plhnhuzvchq6gfkgskbieyot2o7xelyuatwuya",
+  "sheet": {
+    "name": "None of this Matters",
+    "level": 1,
+    "origin": "Young Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "Wormlord Visage",
+      "armor": "Death Dealer's Choice"
+    },
+    "attributes": {
+      "wisdom": 6,
+      "charisma": 11,
+      "strength": 13,
+      "dexterity": 16,
+      "constitution": 11,
+      "intelligence": 9
+    },
+    "hit_points": 7,
+    "tokenIdInt": 1924,
+    "background_story": "Do whatever you want.\nHold expectations to none.\n\nIf you feel discontent, change things.\nIf you wish things to change, cause it.\n",
+    "experience_points": 0
+  },
+  "tokenId": "1924",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Death Dealer's Choice",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wormlord Visage",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Necromancer",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Do whatever you want.\nHold expectations to none.\n\nIf you feel discontent, change things.\nIf you wish things to change, cause it.\n",
+  "external_url": "https://fateofwagdie.com/characters/1924",
+  "animation_url": "https://fateofwagdie.com/characters/1924/animated"
+}

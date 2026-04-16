@@ -1,0 +1,94 @@
+{
+  "name": "Simon the Younger",
+  "image": "ipfs://bafkreiezqf6jqbwnmcnbfshmj7q2cqcxpdll4dmzaag7k52e747dcn3mru",
+  "sheet": {
+    "name": "Simon the Younger",
+    "level": 6,
+    "origin": "Journeyman",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "Zoltan Helm",
+      "armor": "Strange Cloth Cloak"
+    },
+    "attributes": {
+      "wisdom": 1,
+      "charisma": 12,
+      "strength": 9,
+      "dexterity": 8,
+      "constitution": 13,
+      "intelligence": 1
+    },
+    "hit_points": 14,
+    "tokenIdInt": 2713,
+    "background_story": "Simon, easy on the eyes but slow on the uptake, is from Sandy Bay.  He came to the Forsaken Lands almost by accident, following Soldar the Chimerical, who had downplayed the risks of the war significantly.  He is strong and a good fighter, but has no connection to either serpents or children of Agora.\nRecently, following the disappearance of Soldar, he has become despondent.  He joined with the pilgrims who went to seek out the Druids, and was greatly moved by the vast pyre they were building.  Cautiously, he stepped towards it.",
+    "experience_points": 150
+  },
+  "tokenId": "2713",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Strange Cloth Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Zoltan Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Simon, easy on the eyes but slow on the uptake, is from Sandy Bay.  He came to the Forsaken Lands almost by accident, following Soldar the Chimerical, who had downplayed the risks of the war significantly.  He is strong and a good fighter, but has no connection to either serpents or children of Agora.\nRecently, following the disappearance of Soldar, he has become despondent.  He joined with the pilgrims who went to seek out the Druids, and was greatly moved by the vast pyre they were building.  Cautiously, he stepped towards it.",
+  "external_url": "https://fateofwagdie.com/characters/2713",
+  "animation_url": "https://fateofwagdie.com/characters/2713/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Jermyn the Honest",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/5164.png",
+  "sheet": {
+    "name": "Jermyn the Honest",
+    "level": 1,
+    "origin": "Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "An Ancient Device",
+      "armor": "Logun's Decree"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 10,
+      "strength": 13,
+      "dexterity": 11,
+      "constitution": 11,
+      "intelligence": 12
+    },
+    "hit_points": 5,
+    "tokenIdInt": 5164,
+    "background_story": "Jermyn was a late and curious follower of the Strivers who became fascinated with the power and knowledge of the ancient technologies that The Artificers had uncovered.\n\nWhile experimenting with the ancient mask that he affixed to his face, he gained the ability to discern truth, but lost the ability to tell lies.\n\nHe has ventured to The Wound to discover more about the ancient technologies that have caused his truthful condition.",
+    "experience_points": 0
+  },
+  "tokenId": "5164",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Decree",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Naive Pilgrim's Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "An Ancient Device",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Guard of the Seers",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Seer's Gem",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Seers",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Jermyn was a late and curious follower of the Strivers who became fascinated with the power and knowledge of the ancient technologies that The Artificers had uncovered.\n\nWhile experimenting with the ancient mask that he affixed to his face, he gained the ability to discern truth, but lost the ability to tell lies.\n\nHe has begun studying the experimetns and findings of The Arcane Council.",
+  "external_url": "https://fateofwagdie.com/characters/5164",
+  "animation_url": "https://fateofwagdie.com/characters/5164/animated"
+}

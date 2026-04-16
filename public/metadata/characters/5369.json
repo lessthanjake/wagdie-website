@@ -1,0 +1,94 @@
+{
+  "name": "We are All Going to Die #5369",
+  "image": "ipfs://bafkreices5eknrfn6tkkuvykwp35cnxsgq4xpysbikp6cnus2prlrw3z5y",
+  "sheet": {
+    "name": "",
+    "level": 20,
+    "origin": "Zolian Worm",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "None",
+      "armor": "Dark Blade Shroud"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 30,
+      "strength": 30,
+      "dexterity": 30,
+      "constitution": 30,
+      "intelligence": 30
+    },
+    "hit_points": 100,
+    "tokenIdInt": 5369,
+    "background_story": "𝔑𝔬𝔱 𝔪𝔲𝔠𝔥 𝔦𝔰 𝔨𝔫𝔬𝔴𝔫 \n𝔞𝔟𝔬𝔲𝔱 𝔱𝔥𝔢 11 𝔖𝔥𝔯𝔬𝔲𝔡𝔢𝔡 𝔇𝔞𝔯𝔨𝔟𝔩𝔞𝔡𝔢𝔰.\n",
+    "experience_points": 10570
+  },
+  "tokenId": "5369",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Dark Blade Shroud",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "𝔑𝔬𝔱 𝔪𝔲𝔠𝔥 𝔦𝔰 𝔨𝔫𝔬𝔴𝔫 \n𝔞𝔟𝔬𝔲𝔱 𝔱𝔥𝔢 11 𝔖𝔥𝔯𝔬𝔲𝔡𝔢𝔡 𝔇𝔞𝔯𝔨𝔟𝔩𝔞𝔡𝔢𝔰.\n",
+  "external_url": "https://fateofwagdie.com/characters/5369",
+  "animation_url": "https://fateofwagdie.com/characters/5369/animated"
+}

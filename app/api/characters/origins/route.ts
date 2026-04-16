@@ -4,11 +4,13 @@
  */
 
 import { NextResponse } from 'next/server'
-import { characterRepository } from '@/lib/repositories/character-repository'
+import { serverCharacterRepository } from '@/lib/repositories/character-repository.server'
+
+export const runtime = 'nodejs'
 
 export async function GET() {
   try {
-    const result = await characterRepository.getOrigins()
+    const result = await serverCharacterRepository.getOrigins()
     return NextResponse.json(result)
   } catch (error) {
     console.error('Error fetching origins:', error)

@@ -1,0 +1,94 @@
+{
+  "name": "Android 18th",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/4011.png",
+  "sheet": {
+    "name": "Android 18th",
+    "level": 18,
+    "origin": "Her Hidden Blade",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "An Ancient Device",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 18,
+      "charisma": 18,
+      "strength": 18,
+      "dexterity": 18,
+      "constitution": 18,
+      "intelligence": 18
+    },
+    "hit_points": 18,
+    "tokenIdInt": 4011,
+    "background_story": "Once a scholar dedicated to learning of the two is now under control of an ancient device. Programmed with only one vision. To continue to burn balds in the vein of ‘The Bald Burner’. \n\nAndroid 18 had eventually come into contact with Cirdan and was able to be subdued. Cirdan had information on an ancient device and codex to re program android 18 into being a devotee to the merchant and his shop. \n\nCirdan has sent Android 18 to the stalwart fortress to mourn the infected King",
+    "experience_points": 180
+  },
+  "tokenId": "4011",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "None",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "An Ancient Device",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Engineer's Mallet",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Artificer's Crystal",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Artificers",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Once a scholar dedicated to learning of the two is now under control of an ancient device. Programmed with only one vision. To continue to burn balds in the vein of ‘The Bald Burner’. \n\nAndroid 18 had eventually come into contact with Cirdan and was able to be subdued. Cirdan had information on an ancient device and codex to re program android 18 into being a devotee to the merchant and his shop. \n\nCirdan has sent Android 18 to the stalwart fortress to mourn the infected King",
+  "external_url": "https://fateofwagdie.com/characters/4011",
+  "animation_url": "https://fateofwagdie.com/characters/4011/animated"
+}

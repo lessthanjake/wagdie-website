@@ -1,0 +1,93 @@
+{
+  "name": "Skamos Ulmokina",
+  "image": "ipfs://bafkreieqj2lqodywmltjhfiruzvuxkyfxfxcm462jje3ikhrp5l3cior2a",
+  "sheet": {
+    "name": "Skamos Ulmokina",
+    "level": 1,
+    "origin": "Simple Vagabond",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "None",
+      "armor": "Her Champion's Sacrifice"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 15,
+      "strength": 18,
+      "dexterity": 14,
+      "constitution": 15,
+      "intelligence": 11
+    },
+    "hit_points": 7,
+    "tokenIdInt": 4167,
+    "experience_points": 0
+  },
+  "tokenId": "4167",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Champion's Sacrifice",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/4167",
+  "animation_url": "https://fateofwagdie.com/characters/4167/animated"
+}

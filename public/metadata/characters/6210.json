@@ -1,0 +1,94 @@
+{
+  "name": "Secret Lover of Prince Ham Doe",
+  "image": "https://i2c.seadn.io/ethereum/0x659a4bdaaacc62d2bd9cb18225d9c89b5b697a5a/288987039765fc80b9fc6a5456d9fc/3c288987039765fc80b9fc6a5456d9fc.png",
+  "sheet": {
+    "name": "Secret Lover of Prince Ham Doe",
+    "level": 1,
+    "origin": "Naive Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Blessing",
+      "armor": "Valorite Amateur Garb"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 6210,
+    "background_story": "Our unbridled love must be hidden... Is life worth living? My sweet Prince Ham Doe... You do not have to worry anymore. I go to battle in hopes of death. Goodbye.",
+    "experience_points": 0
+  },
+  "tokenId": "6210",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Her Golden Page",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Blessing",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Valorite Amateur Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Wormkin",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "Chaotic Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Yearn",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Nameless Scale Fragment",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Serpent's Maw",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    }
+  ],
+  "description": "Our unbridled love must be hidden... Is life worth living? My sweet Prince Ham Doe... You do not have to worry anymore. I go to battle in hopes of death. Goodbye.",
+  "external_url": "https://fateofwagdie.com/characters/6210",
+  "animation_url": "https://fateofwagdie.com/characters/6210/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Wally, the Wise Worm Wiggler",
+  "image": "ipfs://bafkreibvzfittfmgbkgwgaiyxncu5fdubaxpkzfwkyjhkzcnuj2dciyqbe",
+  "sheet": {
+    "name": "Wally, the Wise Worm Wiggler",
+    "level": 20,
+    "origin": "Garolin Champion",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Worm God's Blessing",
+      "mask": "Worm Touch",
+      "armor": "The Wisened"
+    },
+    "attributes": {
+      "wisdom": 21,
+      "charisma": 22,
+      "strength": 15,
+      "dexterity": 10,
+      "constitution": 17,
+      "intelligence": 19
+    },
+    "hit_points": 100,
+    "tokenIdInt": 2986,
+    "background_story": "Some associate wisdom with Agora's cult, but Wally's experience as a wisened one was different. Wally's wisdom led him beneath Her Church where he was touched and blessed by The Worm God.",
+    "experience_points": 200
+  },
+  "tokenId": "2986",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "The Wisened",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Worm God's Blessing",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit Set",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Worm Touch",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Some associate wisdom with Agora's cult, but Wally's experience as a wisened one was different. Wally's wisdom led him beneath Her Church where he was touched and blessed by The Worm God.",
+  "external_url": "https://fateofwagdie.com/characters/2986",
+  "animation_url": "https://fateofwagdie.com/characters/2986/animated"
+}

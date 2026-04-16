@@ -1,0 +1,94 @@
+{
+  "name": "Alton Leagallow",
+  "image": "ipfs://bafkreiadfhnwvowojj6oze26jnlm7l462t6skxijdimihqfja6zlaote4a",
+  "sheet": {
+    "name": "Alton Leagallow",
+    "level": 1,
+    "origin": "Foolish Jester",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "Blind Thief's Charm",
+      "armor": "Her Champion's Sacrifice"
+    },
+    "attributes": {
+      "wisdom": 9,
+      "charisma": 12,
+      "strength": 8,
+      "dexterity": 14,
+      "constitution": 16,
+      "intelligence": 10
+    },
+    "hit_points": 11,
+    "tokenIdInt": 4412,
+    "background_story": "[REDACTED BY AGENT DE ZYZZ]\n\nFound not guilty of charges laid by Soven the Silent through process of The Court of The Forsaken Lands.\n\nPlunged unto the depths of The Void, forsaking freedom.",
+    "experience_points": 0
+  },
+  "tokenId": "4412",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Champion's Sacrifice",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Blind Thief's Charm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "[REDACTED BY AGENT DE ZYZZ]\n\nFound not guilty of charges laid by Soven the Silent through process of The Court of The Forsaken Lands.\n\nPlunged unto the depths of The Void, forsaking freedom.",
+  "external_url": "https://fateofwagdie.com/characters/4412",
+  "animation_url": "https://fateofwagdie.com/characters/4412/animated"
+}

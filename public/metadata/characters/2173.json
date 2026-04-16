@@ -1,0 +1,94 @@
+{
+  "name": "Justabra",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/2173.png",
+  "sheet": {
+    "name": "Justabra",
+    "level": 6,
+    "origin": "Wormkin Elite",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "Blind Thief's Charm",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 6,
+      "charisma": 6,
+      "strength": 6,
+      "dexterity": 6,
+      "constitution": 6,
+      "intelligence": 6
+    },
+    "hit_points": 6,
+    "tokenIdInt": 2173,
+    "background_story": "The adventures of Justabra and Mia. The Blind Nudist and Her Murderous Hound.\n\nBorn with a hereditary blindness, Justabra never adjusted as normal wagdie's do. She decide to be free of the world's constraints and find herself in the Primordial Lands. She found an enclave of like minded individuals in the Sibor's Mound and during her time there she met a unique Hound. She named her Mia.",
+    "experience_points": 6
+  },
+  "tokenId": "2173",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "None",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Earth Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Blind Thief's Charm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Wings of the Monarch",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Monarch",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Monarch's Call",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The adventures of Justabra and Mia. The Blind Nudist and Her Murderous Hound.\n\nBorn with a hereditary blindness, Justabra never adjusted as normal wagdie's do. She decide to be free of the world's constraints and find herself in the Primordial Lands. She found an enclave of like minded individuals in the Sibor's Mound and during her time there she met a unique Hound. She named her Mia.",
+  "external_url": "https://fateofwagdie.com/characters/2173",
+  "animation_url": "https://fateofwagdie.com/characters/2173/animated"
+}

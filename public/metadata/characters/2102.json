@@ -1,0 +1,94 @@
+{
+  "name": "Aeliana",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/2102.png",
+  "sheet": {
+    "name": "Aeliana",
+    "level": 1,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 16,
+      "strength": 13,
+      "dexterity": 11,
+      "constitution": 14,
+      "intelligence": 14
+    },
+    "hit_points": 9,
+    "tokenIdInt": 2102,
+    "background_story": "In the expansive Southern Plains, Aeliana, a skilled warrior and devoted follower of Yorn, inadvertently trespassed upon sacred Druidic grounds. Enraged by her intrusion, the Druids cursed Aeliana to become a woodland automaton. Her once agile form transformed into gnarling roots, and her entire face became an eerie stone mask, reflecting her unwavering loyalty to Yorn. Now, she roams the open plains as a silent guardian, blending her warrior skills with the mystical essence of the cursed automaton.",
+    "experience_points": 0
+  },
+  "tokenId": "2102",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "None",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Noxian Tint",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Druid's Automaton",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Mimic Tablet",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Druids of His Shame",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "In the expansive Southern Plains, Aeliana, a skilled warrior and devoted follower of Yorn, inadvertently trespassed upon sacred Druidic grounds. Enraged by her intrusion, the Druids cursed Aeliana to become a woodland automaton. Her once agile form transformed into gnarling roots, and her entire face became an eerie stone mask, reflecting her unwavering loyalty to Yorn. Now, she roams the open plains as a silent guardian, blending her warrior skills with the mystical essence of the cursed automaton.",
+  "external_url": "https://fateofwagdie.com/characters/2102",
+  "animation_url": "https://fateofwagdie.com/characters/2102/animated"
+}

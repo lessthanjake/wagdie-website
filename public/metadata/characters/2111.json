@@ -1,0 +1,94 @@
+{
+  "name": "Kestrel, Julian's Champion",
+  "image": "ipfs://bafkreigzie4wczkzghjzvjkj2zg2jiearj5x7zz5hye6oe72yhnqnvkfcu",
+  "sheet": {
+    "name": "Kestrel, Julian's Champion",
+    "level": 1,
+    "origin": "Worm Devotee",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "None",
+      "armor": "Her Cursed Outcast"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 2111,
+    "background_story": "A knight, known as Kestrel, sent to participate in the Darkblade Guild's tournament on the behalf of Julian Tryhard.\n\nThe purple shade of his weathered, wrinkled skin distinguishes the serpentine heritage of this tall and imposing man. He is protected by a heavy set of plate armor, battered from use but a major factor in his seemingly unshakable poise that he has cultivated over frequent and intense combat encounters.\n\nKestrel is reserved in nature and not easily provoked, though he prefers decisive action over endless words and will not suffer fools. He has little tolerance for disciples of Agora and is ready to welcome the all-consuming oblivion of the Nameless Serpent, content in considering himself having lived a full life.\n\nHe fights with a typical Pilgrim's blade; a well-worn sword he has plenty of experience with. He is comfortable wielding this weapon with a single hand and utilizing his off hand to feint, strike or grapple with those who would oppose him.\n\nThere is a certain swagger to his stance and he often leans forward to expose a pauldron-covered shoulder, as though baiting his adversary into making a move.",
+    "experience_points": 0
+  },
+  "tokenId": "2111",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Cursed Outcast",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Worm Devotee",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit's Pieces",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Worm Devotee",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A knight, known as Kestrel, sent to participate in the Darkblade Guild's tournament on the behalf of Julian Tryhard.\n\nThe purple shade of his weathered, wrinkled skin distinguishes the serpentine heritage of this tall and imposing man. He is protected by a heavy set of plate armor, battered from use but a major factor in his seemingly unshakable poise that he has cultivated over frequent and intense combat encounters.\n\nKestrel is reserved in nature and not easily provoked, though he prefers decisive action over endless words and will not suffer fools. He has little tolerance for disciples of Agora and is ready to welcome the all-consuming oblivion of the Nameless Serpent, content in considering himself having lived a full life.\n\nHe fights with a typical Pilgrim's blade; a well-worn sword he has plenty of experience with. He is comfortable wielding this weapon with a single hand and utilizing his off hand to feint, strike or grapple with those who would oppose him.\n\nThere is a certain swagger to his stance and he often leans forward to expose a pauldron-covered shoulder, as though baiting his adversary into making a move.",
+  "external_url": "https://fateofwagdie.com/characters/2111",
+  "animation_url": "https://fateofwagdie.com/characters/2111/animated"
+}

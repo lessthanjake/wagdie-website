@@ -1,0 +1,94 @@
+{
+  "name": "Elamnelim",
+  "image": "ipfs://bafkreiaclfgdfyxeixncv4gxgry5cdikzxdxye3n6ebrkk6tekwwkfh2ju",
+  "sheet": {
+    "name": "Elamnelim",
+    "level": 20,
+    "origin": "Pilgrim of the Lakes",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Her Pathetic Waste"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 1,
+      "dexterity": 1,
+      "constitution": 30,
+      "intelligence": 0
+    },
+    "hit_points": 100,
+    "tokenIdInt": 2343,
+    "background_story": "He's nervous but on the surface he looks calm and ready. Off to support Agora.",
+    "experience_points": 0
+  },
+  "tokenId": "2343",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Pathetic Waste",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Naive Blonde Pilgrim's Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "He's nervous but on the surface he looks calm and ready. Off to support Agora.",
+  "external_url": "https://fateofwagdie.com/characters/2343",
+  "animation_url": "https://fateofwagdie.com/characters/2343/animated"
+}

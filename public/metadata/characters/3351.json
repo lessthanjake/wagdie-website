@@ -1,0 +1,94 @@
+{
+  "name": "Julian Tryhard has returned",
+  "image": "ipfs://bafkreibsdpkf44cpy52tvmfd3e4ok2ehyhjjx5asobsmv2n7d5u3oyo3ne",
+  "sheet": {
+    "name": "Julian Tryhard has returned",
+    "level": 1,
+    "origin": "Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Bandit Helm",
+      "armor": "Death Dealer's Choice"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 3351,
+    "background_story": "The Forsaken Lands were so devastated about Julian's demise. He was one of the most famous Pilgrims of all! Julian's incredible stories and adventures will be told for eons. \nBUT, something exciting and fortuitous has happened, Julian's soul has reappeared in this similarily appearing body. What joy will spread when the Pilgrims of the Forsaken Lands hear of this great news! \nThe Return of Our Beloved Julian!!!",
+    "experience_points": 0
+  },
+  "tokenId": "3351",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Death Dealer's Choice",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Void",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Bandit Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The Forsaken Lands were so devastated about Julian's demise. He was one of the most famous Pilgrims of all! Julian's incredible stories and adventures will be told for eons. \nBUT, something exciting and fortuitous has happened, Julian's soul has reappeared in this similarily appearing body. What joy will spread when the Pilgrims of the Forsaken Lands hear of this great news! \nThe Return of Our Beloved Julian!!!",
+  "external_url": "https://fateofwagdie.com/characters/3351",
+  "animation_url": "https://fateofwagdie.com/characters/3351/animated"
+}

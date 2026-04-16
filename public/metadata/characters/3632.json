@@ -1,0 +1,82 @@
+{
+  "name": "Julian Diehard",
+  "image": "ipfs://bafkreih7aa3wz3fmx6hlmq6es2j3dvdkercuryr6mo3bynjhksbigh5apa",
+  "sheet": {
+    "name": "Julian Diehard",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Bandit Helm",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 13,
+      "strength": 7,
+      "dexterity": 17,
+      "constitution": 13,
+      "intelligence": 15
+    },
+    "hit_points": 2,
+    "tokenIdInt": 3632,
+    "background_story": "He was someone who defeated a fearsome beast and saved a missing man. All he wanted was to grow his reputation.",
+    "experience_points": 0
+  },
+  "tokenId": "3632",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Painless Worshipper",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Bandit Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Painless Worshipper",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "He was someone who defeated a fearsome beast and saved a missing man. All he wanted was to grow his reputation.",
+  "external_url": "https://fateofwagdie.com/characters/3632",
+  "animation_url": "https://fateofwagdie.com/characters/3632/animated"
+}

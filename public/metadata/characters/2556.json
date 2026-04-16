@@ -1,0 +1,94 @@
+{
+  "name": "Johnny the Cat Lover ",
+  "image": "ipfs://bafkreicundptf7l35rifb4oknablrxbk47fyvokzeukwdtjpm43eb745ri",
+  "sheet": {
+    "name": "Johnny the Cat Lover ",
+    "level": 1,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "He Who Does Not See",
+      "armor": "Verite Supports"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 9,
+      "strength": 13,
+      "dexterity": 16,
+      "constitution": 14,
+      "intelligence": 13
+    },
+    "hit_points": 7,
+    "tokenIdInt": 2556,
+    "background_story": "\nJohnny the Cat Lover has been hired by King's Cousin (who is always plotting to take the throne) to go to The Crow's Den to see what beomes of M3rlin, and to find anyone else willing to take the side of King's Cousin. In addition, Johnny is also lookign for any cute cats to steal and keep for himself.",
+    "experience_points": 0
+  },
+  "tokenId": "2556",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Verite Supports",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Naive Pilgrim's Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "He Who Does Not See",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "\nJohnny the Cat Lover has been hired by King's Cousin (who is always plotting to take the throne) to go to The Crow's Den to see what beomes of M3rlin, and to find anyone else willing to take the side of King's Cousin. In addition, Johnny is also lookign for any cute cats to steal and keep for himself.",
+  "external_url": "https://fateofwagdie.com/characters/2556",
+  "animation_url": "https://fateofwagdie.com/characters/2556/animated"
+}

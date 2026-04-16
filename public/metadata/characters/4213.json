@@ -1,0 +1,71 @@
+{
+  "name": "We are All Going to Die #4213",
+  "image": "https://i2.seadn.io/ethereum/0x659a4bdaaacc62d2bd9cb18225d9c89b5b697a5a/b4cd58dbbf20a75c63572803770e7c/9eb4cd58dbbf20a75c63572803770e7c.png",
+  "tokenId": "4213",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Straw",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Blessing",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Verite Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/4213",
+  "animation_url": "https://fateofwagdie.com/characters/4213/animated"
+}

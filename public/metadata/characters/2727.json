@@ -1,0 +1,94 @@
+{
+  "name": "Nude Lord",
+  "image": "ipfs://bafkreifulhj4us3womvzs2f3nhgqk5fbovdirm2qtxxvcgtopkjcwckkuy",
+  "sheet": {
+    "name": "Nude Lord",
+    "level": 1,
+    "origin": "Luta's Lover",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 8,
+      "strength": 15,
+      "dexterity": 7,
+      "constitution": 11,
+      "intelligence": 11
+    },
+    "hit_points": 7,
+    "tokenIdInt": 2727,
+    "background_story": "♡ ♥💕❤😘 Luta  ♥💕❤😘",
+    "experience_points": 10
+  },
+  "tokenId": "2727",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "None",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Luta's Lover",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Luta's Lover",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "♡ ♥💕❤😘 Luta  ♥💕❤😘",
+  "external_url": "https://fateofwagdie.com/characters/2727",
+  "animation_url": "https://fateofwagdie.com/characters/2727/animated"
+}

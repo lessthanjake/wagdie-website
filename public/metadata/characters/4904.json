@@ -1,0 +1,94 @@
+{
+  "name": "Wraynman",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/4904.png",
+  "sheet": {
+    "name": "Wraynman",
+    "level": 5,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Spring Crown",
+      "armor": "Mystics' Finery"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 11,
+      "strength": 14,
+      "dexterity": 13,
+      "constitution": 14,
+      "intelligence": 12
+    },
+    "hit_points": 25,
+    "tokenIdInt": 4904,
+    "background_story": "Wraynman's story plays out like a scratched '90s CD.  His parents abandoned him before his third birthday leaving him with only a magical bow and a well loved copy of Shrek 2 on DVD.  As he grew older he begin to feel an unexplained power within him, more subtle than a subliminal message in a Tool song.  His bow would often glow an eerie light, humming like a dial-up modem, which, according to the wise elders was a sign of latent magical abilities passed down to him.",
+    "experience_points": 10
+  },
+  "tokenId": "4904",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Mytics' Finery",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Darkness",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Spring Crown",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Swamp Shroud",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Cauldron of Detriti",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Coven of Detriti",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Wraynman's story plays out like a scratched '90s CD.  His parents abandoned him before his third birthday leaving him with only a magical bow and a well loved copy of Shrek 2 on DVD.  As he grew older he begin to feel an unexplained power within him, more subtle than a subliminal message in a Tool song.  His bow would often glow an eerie light, humming like a dial-up modem, which, according to the wise elders was a sign of latent magical abilities passed down to him.",
+  "external_url": "https://fateofwagdie.com/characters/4904",
+  "animation_url": "https://fateofwagdie.com/characters/4904/animated"
+}

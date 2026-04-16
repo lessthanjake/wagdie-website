@@ -1,0 +1,94 @@
+{
+  "name": "Soft Skin Sammy",
+  "image": "ipfs://bafkreibh5c55desub7fbi7aukjulbcn43t4haupcw5azqauiwpvu7oao6i",
+  "sheet": {
+    "name": "Soft Skin Sammy",
+    "level": 1,
+    "origin": "Her Hidden Blade",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Peasant Garb"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 5807,
+    "background_story": "Kid has some soft skin...",
+    "experience_points": 0
+  },
+  "tokenId": "5807",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Peasant Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Kid has some soft skin...",
+  "external_url": "https://fateofwagdie.com/characters/5807",
+  "animation_url": "https://fateofwagdie.com/characters/5807/animated"
+}

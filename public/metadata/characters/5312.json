@@ -1,0 +1,94 @@
+{
+  "name": "Umbero Liadon",
+  "image": "ipfs://bafkreienc4y2pbjifqnab52npfhywyenr43usp7ygirdnig3i6m25wmzli",
+  "sheet": {
+    "name": "Umbero Liadon",
+    "level": 3,
+    "origin": "Garolin Champion",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "He Who Does Not See",
+      "armor": "Peasant Garb"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 13,
+      "strength": 15,
+      "dexterity": 16,
+      "constitution": 14,
+      "intelligence": 11
+    },
+    "hit_points": 6,
+    "tokenIdInt": 5312,
+    "background_story": "Even having been born blind and with no hope of life, Umbero left his village and became a mercenary. At first, he struggled to find work due to his disability, but eventually, he got a job looking after a wealthy merchant's caravan. It was during this assignment that Umbero faced his biggest challenge yet.\n\nThe caravan was ambushed by a group of bandits, and Umbero found himself facing off against a skilled swordsman. Using his other senses from him, Umbero was able to anticipate the bandit's moves and deal a decisive blow to him, defeating him in combat. From then on, Umbero's reputation as a mercenary champion grew and he began to receive more and more job offers.",
+    "experience_points": 0
+  },
+  "tokenId": "5312",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Peasant Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Straw",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "He Who Does Not See",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Even having been born blind and with no hope of life, Umbero left his village and became a mercenary. At first, he struggled to find work due to his disability, but eventually, he got a job looking after a wealthy merchant's caravan. It was during this assignment that Umbero faced his biggest challenge yet.\n\nThe caravan was ambushed by a group of bandits, and Umbero found himself facing off against a skilled swordsman. Using his other senses from him, Umbero was able to anticipate the bandit's moves and deal a decisive blow to him, defeating him in combat. From then on, Umbero's reputation as a mercenary champion grew and he began to receive more and more job offers.",
+  "external_url": "https://fateofwagdie.com/characters/5312",
+  "animation_url": "https://fateofwagdie.com/characters/5312/animated"
+}

@@ -1,0 +1,71 @@
+{
+  "name": "We are All Going to Die #1028",
+  "image": "ipfs://bafkreig3yosq3m2hsj4k2q63df4iin4cszlz26genod5pa43jafcf4cu6y",
+  "tokenId": "1028",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Dark One's Call",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Feeble Spikes",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Sibor's Brace",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/1028",
+  "animation_url": "https://fateofwagdie.com/characters/1028/animated"
+}

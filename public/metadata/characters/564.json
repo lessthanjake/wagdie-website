@@ -1,0 +1,94 @@
+{
+  "name": "𝕻𝖆𝖓𝖉𝖎𝖗𝖆",
+  "image": "ipfs://bafkreihqdkmzaxvwn3iletg5v65jelrg2hrtjaooajizma6t2rercoip7a",
+  "sheet": {
+    "name": "𝕻𝖆𝖓𝖉𝖎𝖗𝖆",
+    "level": 20,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "He Who Does Not See",
+      "armor": "Worm's Protection"
+    },
+    "attributes": {
+      "wisdom": 18,
+      "charisma": 8,
+      "strength": 20,
+      "dexterity": 20,
+      "constitution": 18,
+      "intelligence": 18
+    },
+    "hit_points": 88,
+    "tokenIdInt": 564,
+    "background_story": "ℑ𝔫 𝔱𝔥𝔶 𝔫𝔞𝔪𝔢 𝔬𝔣 𝔱𝔥𝔢 𝔬.𝔪.𝖗. 𝔞𝔫𝔡 𝔦𝔫 𝔥𝔦𝔰 𝖔𝔴𝔫, 𝔱𝔥𝔢 𝔪𝔦𝔫𝔦𝖘𝔱𝔢𝔯 𝔬𝔣 𝔱𝔥𝔢 𝔬𝔯𝔡𝖊𝔯 𝔬𝔣𝔣𝔢𝔯𝔰 𝔞 𝔤𝔯𝔢𝔢𝔱𝔦𝔫𝔤, 𝔱𝔥𝔞𝔱 𝔦𝔰, 𝔞 𝔖𝔦𝔤𝔫 𝔬𝔣 𝔥𝔬𝔫𝔬𝔯 𝔱𝔬 𝔱𝔥𝔬𝔰𝔢 𝔴𝔥𝔬 𝔥𝔞𝔳𝔢 𝔟𝔢𝔢𝔫 𝔠𝔥𝔬𝔰𝔢𝔫 𝔱𝔬 𝔯𝔢𝔠𝔢𝔦𝔳𝔢 𝔥𝔢𝔯 𝔪𝔶𝔰𝔱𝔢𝔯𝔦𝔢𝔰.\n\n𝔗𝔥𝔢 𝔪𝔦𝔰𝔰𝔦𝔬𝔫 𝔬𝔣 𝔱𝔥𝔢 𝔬𝔯𝔡𝔢𝔯 𝔭𝔯𝔬𝔭𝔬𝔰𝔢𝔰 𝔱𝔬 𝔱𝔥𝔢 𝔠𝔥𝔬𝔰𝔢𝔫 𝔬𝔫𝔢 𝔱𝔬 𝔣𝔞𝔠𝔢 𝔴𝔦𝔱𝔥 𝔥𝔬𝔫𝔬𝔯, 𝔱𝔥𝔢 𝔫𝔢𝔵𝔱 𝔈𝔫𝔡 𝔬𝔣 𝔠𝔶𝔠𝔩𝔢.  ℑ𝔫 𝔞 𝔪𝔬𝔪𝔢𝔫𝔱 𝔬𝔣 𝔪𝔞𝔵𝔦𝔪𝔲𝔪 𝔡𝔯𝔞𝔪𝔞𝔱𝔦𝔠 𝔱𝔢𝔫𝔰𝔦𝔬𝔫, 𝔴𝔥𝔢𝔫 𝔱𝔥𝔢 𝔩.𝔡. [ᴛʜᴇ ᴏᴛʜᴇʀ] 𝔭𝔩𝔞𝔫𝔰 𝔰𝔢𝔢𝔪 𝔣𝔲𝔩𝔣𝔦𝔩𝔩𝔢𝔡, 𝔱𝔥𝔢 𝔬𝔯𝔡𝔢𝔯 𝔰𝔥𝔞𝔩𝔩 𝔦𝔫𝔱𝔢𝔯𝔳𝔢𝔫𝔢 𝔱𝔬 𝔭𝔲𝔱 𝔞𝔫 𝔢𝔫𝔡 𝔱𝔬 𝔱𝔥𝔢 𝔠𝔬𝔫𝔣𝔩𝔦𝔠𝔱 𝔱𝔥𝔞𝔱 𝔟𝔢𝔤𝔞𝔫 𝔦𝔫 𝔥𝔢𝔞𝔳𝔢𝔫 𝔞𝔫𝔡 𝔰𝔭𝔯𝔢𝔞𝔡 𝔱𝔬 𝔢𝔞𝔯𝔱𝔥, 𝔞𝔫𝔡 𝔫𝔬𝔱 𝔱𝔥𝔢 𝔬𝔱𝔥𝔢𝔯 𝔴𝔞𝔶 𝔞𝔯𝔬𝔲𝔫𝔡.\n\n𝕻𝔞𝔫𝔡𝔦𝔯𝔞 𝔱𝔥𝔢 𝔬𝔫𝔢 𝔴𝔥𝔬 𝔟𝔞𝔭𝔱𝔦𝔷𝔢 𝔴𝔦𝔱𝔥 𝔣𝔦𝔯𝔢 𝔞𝔫𝔡 𝔟𝔲𝔯𝔫𝔰 𝔴𝔦𝔱𝔥 𝔦𝔠𝔢.",
+    "experience_points": 888
+  },
+  "tokenId": "564",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm's Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Guard's Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "He Who Does Not See",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "ℑ𝔫 𝔱𝔥𝔶 𝔫𝔞𝔪𝔢 𝔬𝔣 𝔱𝔥𝔢 𝔬.𝔪.𝖗. 𝔞𝔫𝔡 𝔦𝔫 𝔥𝔦𝔰 𝖔𝔴𝔫, 𝔱𝔥𝔢 𝔪𝔦𝔫𝔦𝖘𝔱𝔢𝔯 𝔬𝔣 𝔱𝔥𝔢 𝔬𝔯𝔡𝖊𝔯 𝔬𝔣𝔣𝔢𝔯𝔰 𝔞 𝔤𝔯𝔢𝔢𝔱𝔦𝔫𝔤, 𝔱𝔥𝔞𝔱 𝔦𝔰, 𝔞 𝔖𝔦𝔤𝔫 𝔬𝔣 𝔥𝔬𝔫𝔬𝔯 𝔱𝔬 𝔱𝔥𝔬𝔰𝔢 𝔴𝔥𝔬 𝔥𝔞𝔳𝔢 𝔟𝔢𝔢𝔫 𝔠𝔥𝔬𝔰𝔢𝔫 𝔱𝔬 𝔯𝔢𝔠𝔢𝔦𝔳𝔢 𝔥𝔢𝔯 𝔪𝔶𝔰𝔱𝔢𝔯𝔦𝔢𝔰.\n\n𝔗𝔥𝔢 𝔪𝔦𝔰𝔰𝔦𝔬𝔫 𝔬𝔣 𝔱𝔥𝔢 𝔬𝔯𝔡𝔢𝔯 𝔭𝔯𝔬𝔭𝔬𝔰𝔢𝔰 𝔱𝔬 𝔱𝔥𝔢 𝔠𝔥𝔬𝔰𝔢𝔫 𝔬𝔫𝔢 𝔱𝔬 𝔣𝔞𝔠𝔢 𝔴𝔦𝔱𝔥 𝔥𝔬𝔫𝔬𝔯, 𝔱𝔥𝔢 𝔫𝔢𝔵𝔱 𝔈𝔫𝔡 𝔬𝔣 𝔠𝔶𝔠𝔩𝔢.  ℑ𝔫 𝔞 𝔪𝔬𝔪𝔢𝔫𝔱 𝔬𝔣 𝔪𝔞𝔵𝔦𝔪𝔲𝔪 𝔡𝔯𝔞𝔪𝔞𝔱𝔦𝔠 𝔱𝔢𝔫𝔰𝔦𝔬𝔫, 𝔴𝔥𝔢𝔫 𝔱𝔥𝔢 𝔩.𝔡. [ᴛʜᴇ ᴏᴛʜᴇʀ] 𝔭𝔩𝔞𝔫𝔰 𝔰𝔢𝔢𝔪 𝔣𝔲𝔩𝔣𝔦𝔩𝔩𝔢𝔡, 𝔱𝔥𝔢 𝔬𝔯𝔡𝔢𝔯 𝔰𝔥𝔞𝔩𝔩 𝔦𝔫𝔱𝔢𝔯𝔳𝔢𝔫𝔢 𝔱𝔬 𝔭𝔲𝔱 𝔞𝔫 𝔢𝔫𝔡 𝔱𝔬 𝔱𝔥𝔢 𝔠𝔬𝔫𝔣𝔩𝔦𝔠𝔱 𝔱𝔥𝔞𝔱 𝔟𝔢𝔤𝔞𝔫 𝔦𝔫 𝔥𝔢𝔞𝔳𝔢𝔫 𝔞𝔫𝔡 𝔰𝔭𝔯𝔢𝔞𝔡 𝔱𝔬 𝔢𝔞𝔯𝔱𝔥, 𝔞𝔫𝔡 𝔫𝔬𝔱 𝔱𝔥𝔢 𝔬𝔱𝔥𝔢𝔯 𝔴𝔞𝔶 𝔞𝔯𝔬𝔲𝔫𝔡.\n\n𝕻𝔞𝔫𝔡𝔦𝔯𝔞 𝔱𝔥𝔢 𝔬𝔫𝔢 𝔴𝔥𝔬 𝔟𝔞𝔭𝔱𝔦𝔷𝔢 𝔴𝔦𝔱𝔥 𝔣𝔦𝔯𝔢 𝔞𝔫𝔡 𝔟𝔲𝔯𝔫𝔰 𝔴𝔦𝔱𝔥 𝔦𝔠𝔢.",
+  "external_url": "https://fateofwagdie.com/characters/564",
+  "animation_url": "https://fateofwagdie.com/characters/564/animated"
+}

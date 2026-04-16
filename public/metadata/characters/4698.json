@@ -1,0 +1,94 @@
+{
+  "name": "Bimpnackle",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/4698.png",
+  "sheet": {
+    "name": "Bimpnackle",
+    "level": 1,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "None",
+      "armor": "Peasant Garb"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 11,
+      "strength": 11,
+      "dexterity": 13,
+      "constitution": 9,
+      "intelligence": 10
+    },
+    "hit_points": 1,
+    "tokenIdInt": 4698,
+    "background_story": "Cursed with an incredibly foolish name, the hero known as Bimpnackle travels The Forsaken Lands in search of a deed that will bring enough honor and renown that people no longer laugh when he introduces himself.\n\nSo far he has not succeeded.\n\nAfter the devastation of The Church of Her, Bimpnackle turned to the light of Agora and had his eyes seared by its divinity.",
+    "experience_points": 0
+  },
+  "tokenId": "4698",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Peasant Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Darkness",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Her Unwavering Sight",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Her Ash",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Bonfire",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Cursed with an incredibly foolish name, the hero known as Bimpnackle travels The Forsaken Lands in search of a deed that will bring enough honor and renown that people no longer laugh when he introduces himself.\n\nSo far he has not succeeded.\n\nAfter the devastation of The Church of Her, Bimpnackle turned to the light of Agora and had his eyes seared by its divinity.",
+  "external_url": "https://fateofwagdie.com/characters/4698",
+  "animation_url": "https://fateofwagdie.com/characters/4698/animated"
+}

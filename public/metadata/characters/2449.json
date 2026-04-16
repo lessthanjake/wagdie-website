@@ -1,0 +1,94 @@
+{
+  "name": "Knight of Degeneracy",
+  "image": "ipfs://bafkreihc23o2vlewxzt6asr2m7d4zpewldjrc7pym6j7syly2mjvdofib4",
+  "sheet": {
+    "name": "Knight of Degeneracy",
+    "level": 1,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Solar Champion's Helm",
+      "armor": "Her Pathetic Waste"
+    },
+    "attributes": {
+      "wisdom": 7,
+      "charisma": 17,
+      "strength": 11,
+      "dexterity": 12,
+      "constitution": 20,
+      "intelligence": 9
+    },
+    "hit_points": 100,
+    "tokenIdInt": 2449,
+    "background_story": "https://twitter.com/wagdie_degen\n\nThrough many cycles in the soul trading business, KoD's spirits have developed an immunity to all but the most intense of highs and lows. Some call it enlightenment, others psychopathy. Either way, trying your luck in his games could be immensely rewarding.... Or costly.",
+    "experience_points": 1000
+  },
+  "tokenId": "2449",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Pathetic Waste",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Solar Champion's Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "https://twitter.com/wagdie_degen\n\nThrough many cycles in the soul trading business, KoD's spirits have developed an immunity to all but the most intense of highs and lows. Some call it enlightenment, others psychopathy. Either way, trying your luck in his games could be immensely rewarding.... Or costly.",
+  "external_url": "https://fateofwagdie.com/characters/2449",
+  "animation_url": "https://fateofwagdie.com/characters/2449/animated"
+}

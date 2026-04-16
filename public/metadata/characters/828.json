@@ -1,0 +1,71 @@
+{
+  "name": "We are All Going to Die #828",
+  "image": "ipfs://bafkreieoppecf7bxfmrbhkkjy37uzimfyvdyp6gxtet5bp3qxpimttc64q",
+  "tokenId": "828",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Plain Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Favor",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Transformed Devotee",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Transformed Devotee",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/828",
+  "animation_url": "https://fateofwagdie.com/characters/828/animated"
+}

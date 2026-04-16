@@ -1,0 +1,82 @@
+{
+  "name": "𝔇𝔦𝔰𝔠𝔦𝔭𝔩𝔢 𝔒𝔣 𝔗𝔥𝔢 𝔑𝔦𝔤𝔥𝔱",
+  "image": "ipfs://bafkreiea2p6o3f6j4qlige7nrywbdhjrn6expe7ql6xauwwwn2aty2xjta",
+  "sheet": {
+    "name": "𝔇𝔦𝔰𝔠𝔦𝔭𝔩𝔢 𝔒𝔣 𝔗𝔥𝔢 𝔑𝔦𝔤𝔥𝔱",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "The Hat Without Death",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 12,
+      "strength": 13,
+      "dexterity": 13,
+      "constitution": 7,
+      "intelligence": 30
+    },
+    "hit_points": 5,
+    "tokenIdInt": 3966,
+    "background_story": "",
+    "experience_points": 0
+  },
+  "tokenId": "3966",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Fallen Worshipper",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "The Hat Without Death",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Witch",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Fallen Worshipper",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/3966",
+  "animation_url": "https://fateofwagdie.com/characters/3966/animated"
+}

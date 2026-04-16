@@ -1,0 +1,94 @@
+{
+  "name": "Punchline",
+  "image": "ipfs://bafkreihzmypzocb23xrs4oa45p6vvnfmxjtmszzp6ch3nldsf26d35y2ma",
+  "sheet": {
+    "name": "Punchline",
+    "level": 3,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Removal's Kin",
+      "armor": "Noxian Jester Garb"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 14,
+      "strength": 14,
+      "dexterity": 15,
+      "constitution": 16,
+      "intelligence": 16
+    },
+    "hit_points": 32,
+    "tokenIdInt": 2702,
+    "background_story": "Do you want to hear a joke?\n\nYour life.\n\nWhen he heard The Nameless Charter had joined The Bulwark of The Serpent amid the Battle of the Burning Church, Punchline leapt at the opportuntiy to fight at his side. Surviving both portions of the war with aplomb, he made jest of the whole conflict as he departed so drunk on Noxium Brew he nearly forgot to collect his rewards.\n\nSince the conflict, he has ventured back to The Festival grounds with Triboulet. Together, the two hope to find The Nameless Charter again and a great quantity of Noxium Brew.",
+    "experience_points": 900
+  },
+  "tokenId": "2702",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Noxian Jester Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit's Pieces",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Removal's Kin",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Do you want to hear a joke?\n\nYour life.\n\nWhen he heard The Nameless Charter had joined The Bulwark of The Serpent amid the Battle of the Burning Church, Punchline leapt at the opportuntiy to fight at his side. Surviving both portions of the war with aplomb, he made jest of the whole conflict as he departed so drunk on Noxium Brew he nearly forgot to collect his rewards.\n\nSince the conflict, he has ventured back to The Festival grounds with Triboulet. Together, the two hope to find The Nameless Charter again and a great quantity of Noxium Brew.",
+  "external_url": "https://fateofwagdie.com/characters/2702",
+  "animation_url": "https://fateofwagdie.com/characters/2702/animated"
+}

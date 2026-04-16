@@ -1,0 +1,94 @@
+{
+  "name": "Black Scryer Underling",
+  "image": "ipfs://bafkreic3x6dyswalzf2pqeetsguny3mogr465rixp2mesubd7okrdtetsa",
+  "sheet": {
+    "name": "Black Scryer Underling",
+    "level": 1,
+    "origin": "Wormlord Acolyte",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "Darkblade's Beak",
+      "armor": "Peasant Garb"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 10,
+      "strength": 10,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 10
+    },
+    "hit_points": 7,
+    "tokenIdInt": 6342,
+    "background_story": "Following my master's orders  I stayed at the Crow's Den waiting. \n\nNow, seeking revenge, my master leads us to the Coven's Lair to thwart the ritual.\n\nSurviving The Black Scryer's failed attempt to assasinate The Crow, the underling searched The Roost for some weapon, or treasure, or power that could save his master or turn their fate...\n\n...he found The Crow's Pet instead",
+    "experience_points": 0
+  },
+  "tokenId": "6342",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Peasant Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Discipline Helm Hair",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Darkblade's Beak",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Following my master's orders  I stayed at the Crow's Den waiting. \n\nNow, seeking revenge, my master leads us to the Coven's Lair to thwart the ritual.\n\nSurviving The Black Scryer's failed attempt to assasinate The Crow, the underling searched The Roost for some weapon, or treasure, or power that could save his master or turn their fate...\n\n...he found The Crow's Pet instead",
+  "external_url": "https://fateofwagdie.com/characters/6342",
+  "animation_url": "https://fateofwagdie.com/characters/6342/animated"
+}

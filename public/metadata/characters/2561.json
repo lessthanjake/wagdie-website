@@ -1,0 +1,94 @@
+{
+  "name": "Portia Hilltopple",
+  "image": "ipfs://bafkreihjkrjet5mkplsld6wdvrb5rrvi3otbl62uap2yjvhuxodv4yjeke",
+  "sheet": {
+    "name": "Portia Hilltopple",
+    "level": 1,
+    "origin": "Pilgrim",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "Goldbeard's Eyes",
+      "armor": "Her Cursed Outcast"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 13,
+      "strength": 16,
+      "dexterity": 14,
+      "constitution": 15,
+      "intelligence": 12
+    },
+    "hit_points": 8,
+    "tokenIdInt": 2561,
+    "background_story": "Portia grew up enamored with nature and carried a deep love for it, but no matter how hard she try to find peace among the forests of The Forsaken Lands, she has been unable to find respite from the bugs, heat, thorns, and other discomforts that nature presents.\n\nStill, she finds time to explore her local wilderness and appreciate it as she may.\n\nHer journey has taken her over and back across the same lands she's tread before, and with this came substantial wisdom.",
+    "experience_points": 0
+  },
+  "tokenId": "2561",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Cursed Outcast",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Earth Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Goldbeard's Eyes",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Portia grew up enamored with nature and carried a deep love for it, but no matter how hard she try to find peace among the forests of The Forsaken Lands, she has been unable to find respite from the bugs, heat, thorns, and other discomforts that nature presents.\n\nStill, she finds time to explore her local wilderness and appreciate it as she may.\n\nHer journey has taken her over and back across the same lands she's tread before, and with this came substantial wisdom.",
+  "external_url": "https://fateofwagdie.com/characters/2561",
+  "animation_url": "https://fateofwagdie.com/characters/2561/animated"
+}

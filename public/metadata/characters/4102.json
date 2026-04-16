@@ -1,0 +1,82 @@
+{
+  "name": "Sin, Agora's False hope",
+  "image": "ipfs://bafkreicp7qi46ovkitso7je2coqqiybpqajns6md2gu3qtyarzdvpy67e4",
+  "sheet": {
+    "name": "Sin, Agora's False hope",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Blessing",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 1,
+      "charisma": 1,
+      "strength": 1,
+      "dexterity": 1,
+      "constitution": 1,
+      "intelligence": 1
+    },
+    "hit_points": 1,
+    "tokenIdInt": 4102,
+    "background_story": "Sin, born of false hopes and agora's wish for a perfect world.",
+    "experience_points": 0
+  },
+  "tokenId": "4102",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Swamp Witch Curse",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Her Blessing",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Swamp Witch Curse",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Sin, born of false hopes and agora's wish for a perfect world.",
+  "external_url": "https://fateofwagdie.com/characters/4102",
+  "animation_url": "https://fateofwagdie.com/characters/4102/animated"
+}

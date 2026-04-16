@@ -1,0 +1,94 @@
+{
+  "name": "Josiah Kinship",
+  "image": "ipfs://bafkreickyelswxib6ngl2derkyscxzdoo6dehwivuprmscusofnf24ptby",
+  "sheet": {
+    "name": "Josiah Kinship",
+    "level": 1,
+    "origin": "Naive Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Valorite Protection"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 6170,
+    "background_story": "Josiah Kinship is sought out in The Forsaken Lands, providing a kind and thoughtful demeanor. Those who were lucky to get in his presence claim that he says \"I'm listening.\" ",
+    "experience_points": 0
+  },
+  "tokenId": "6170",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Valorite Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Pilgrim's Style",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Josiah Kinship is sought out in The Forsaken Lands, providing a kind and thoughtful demeanor. Those who were lucky to get in his presence claim that he says \"I'm listening.\" ",
+  "external_url": "https://fateofwagdie.com/characters/6170",
+  "animation_url": "https://fateofwagdie.com/characters/6170/animated"
+}

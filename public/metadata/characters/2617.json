@@ -1,0 +1,93 @@
+{
+  "name": "Jebeddo Beren",
+  "image": "ipfs://bafkreicgxcnnuhj2uqrnay4dkbsnhre6roavctzb24bcihvidiwpmylreq",
+  "sheet": {
+    "name": "Jebeddo Beren",
+    "level": 1,
+    "origin": "Aged Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Worm Touch",
+      "armor": "Her Pathetic Waste"
+    },
+    "attributes": {
+      "wisdom": 9,
+      "charisma": 15,
+      "strength": 15,
+      "dexterity": 12,
+      "constitution": 13,
+      "intelligence": 13
+    },
+    "hit_points": 9,
+    "tokenIdInt": 2617,
+    "experience_points": 0
+  },
+  "tokenId": "2617",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Pathetic Waste",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Aged Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Naive Blonde Pilgrim's Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Worm Touch",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Aged Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/2617",
+  "animation_url": "https://fateofwagdie.com/characters/2617/animated"
+}

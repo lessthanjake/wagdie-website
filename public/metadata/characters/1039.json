@@ -1,0 +1,94 @@
+{
+  "name": "February",
+  "image": "ipfs://bafkreic7hlo6ym6va5x5kruiwj2vbkhy63ae5674cowlcssrvfrcros6hu",
+  "sheet": {
+    "name": "February",
+    "level": 1,
+    "origin": "Wormlord Acolyte",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Blind Thief's Charm",
+      "armor": "Bandit's Garb"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 1039,
+    "background_story": "A mysterious wayfarer who has made his living on prodigious slight of hand prowess. His visage may adorn the bulletins of many a town square in the eastern regions of the Forsaken Lands. \n\nHe chases the appearance of exotic and mystical objects, applying use of an illicit trade network to scout out his next quarry. ",
+    "experience_points": 0
+  },
+  "tokenId": "1039",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Bandit's Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Cursed Essence",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Blind Thief's Charm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A mysterious wayfarer who has made his living on prodigious slight of hand prowess. His visage may adorn the bulletins of many a town square in the eastern regions of the Forsaken Lands. \n\nHe chases the appearance of exotic and mystical objects, applying use of an illicit trade network to scout out his next quarry. ",
+  "external_url": "https://fateofwagdie.com/characters/1039",
+  "animation_url": "https://fateofwagdie.com/characters/1039/animated"
+}

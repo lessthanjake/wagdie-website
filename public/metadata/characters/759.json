@@ -1,0 +1,82 @@
+{
+  "name": "Scars-Thirst-Quietly",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/759.png",
+  "sheet": {
+    "name": "Scars-Thirst-Quietly",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Dragonkin Helm",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 12,
+      "strength": 14,
+      "dexterity": 12,
+      "constitution": 13,
+      "intelligence": 10
+    },
+    "hit_points": 8,
+    "tokenIdInt": 759,
+    "background_story": "A newly formed decrepit with lots to learn. Very Eager to please Detriti.",
+    "experience_points": 0
+  },
+  "tokenId": "759",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Dark Blessing",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Swamp Witch Disciple",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Dragonkin Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Swamp Witch Disciple",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Spark of the Magus",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Seer's Gem",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Seers",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A newly formed decrepit with lots to learn. Very Eager to please Detriti.",
+  "external_url": "https://fateofwagdie.com/characters/759",
+  "animation_url": "https://fateofwagdie.com/characters/759/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Her Darkness",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/38.png",
+  "sheet": {
+    "name": "Her Darkness",
+    "level": 1,
+    "origin": "Her Lover",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "None",
+      "armor": "Worm's Protection"
+    },
+    "attributes": {
+      "wisdom": 3,
+      "charisma": 15,
+      "strength": 16,
+      "dexterity": 11,
+      "constitution": 7,
+      "intelligence": 11
+    },
+    "hit_points": 6,
+    "tokenIdInt": 38,
+    "background_story": "Born in the church.\nThe night took us.\nWe need no sight.\nNo Eyes.\nWe will be Her Darkness.\nWe need no Eyes.",
+    "experience_points": 0
+  },
+  "tokenId": "38",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm's Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Void",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Serpent Mask",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Nameless Scale Fragment",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Wormkin",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Born in the church.\nThe night took us.\nWe need no sight.\nNo Eyes.\nWe will be Her Darkness.\nWe need no Eyes.",
+  "external_url": "https://fateofwagdie.com/characters/38",
+  "animation_url": "https://fateofwagdie.com/characters/38/animated"
+}

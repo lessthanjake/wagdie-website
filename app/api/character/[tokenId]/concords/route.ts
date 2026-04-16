@@ -7,6 +7,8 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getCharacterConcords } from '@/lib/services/character-service'
 
+export const runtime = 'nodejs'
+
 export async function GET(
   request: NextRequest,
   context: { params: Promise<{ tokenId: string }> }
@@ -26,4 +28,3 @@ export async function GET(
     return NextResponse.json({ error: 'Failed to fetch character concords' }, { status: 500 })
   }
 }
-

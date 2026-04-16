@@ -1,0 +1,93 @@
+{
+  "name": "New Character",
+  "image": "ipfs://bafkreigzswwxvbdicvp64yb5temmmqmh34x77a5zumzovq6cwd2sbf35ni",
+  "sheet": {
+    "name": "New Character",
+    "level": 20,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Royal Fool's Curse",
+      "armor": "Pilgrim's Plain Chain"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 30,
+      "strength": 30,
+      "dexterity": 30,
+      "constitution": 30,
+      "intelligence": 30
+    },
+    "hit_points": 100,
+    "tokenIdInt": 3958,
+    "experience_points": 320
+  },
+  "tokenId": "3958",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Plain Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Void",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Her Golden Page",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Royal Fool's Curse",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/3958",
+  "animation_url": "https://fateofwagdie.com/characters/3958/animated"
+}

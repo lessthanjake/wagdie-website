@@ -1,0 +1,94 @@
+{
+  "name": "Ham of the Dough",
+  "image": "ipfs://bafkreiaf5wkrcygja6gel2wrephuaelyrkqisbff2os6syemefik7o5x5y",
+  "sheet": {
+    "name": "Ham of the Dough",
+    "level": 1,
+    "origin": "Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "None",
+      "armor": "Her Champion's Sacrifice"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 13,
+      "strength": 14,
+      "dexterity": 12,
+      "constitution": 10,
+      "intelligence": 11
+    },
+    "hit_points": 4,
+    "tokenIdInt": 4558,
+    "background_story": "Like Hammond, he is hardworking and resilient, but possesses a streak of pride and arrogance in his strength that seems to take after their father. Deep down, he is secretly jealous of his brother, who he believes was able to get everyone's love and the position of king without any effort.",
+    "experience_points": 0
+  },
+  "tokenId": "4558",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Champion's Sacrifice",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Her Golden Page",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Like Hammond, he is hardworking and resilient, but possesses a streak of pride and arrogance in his strength that seems to take after their father. Deep down, he is secretly jealous of his brother, who he believes was able to get everyone's love and the position of king without any effort.",
+  "external_url": "https://fateofwagdie.com/characters/4558",
+  "animation_url": "https://fateofwagdie.com/characters/4558/animated"
+}

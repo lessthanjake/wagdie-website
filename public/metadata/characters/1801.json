@@ -1,0 +1,82 @@
+{
+  "name": "Sixty-Four",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/1801.png",
+  "sheet": {
+    "name": "Sixty-Four",
+    "level": 13,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Wormlord Visage",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 13,
+      "strength": 13,
+      "dexterity": 13,
+      "constitution": 13,
+      "intelligence": 13
+    },
+    "hit_points": 69,
+    "tokenIdInt": 1801,
+    "background_story": "The soul of Sixty-Four is a tale from antiquity. Legend says Sixty-Four, the wandering Necromancer, was among those most loyal to Agora, before something terrible happened. Some say they’ve seen Sixty-Four wandering the swamps, after the hour of the serpent, others say Sixty-Four is just a myth; to scare travelers on the road and that the foul art of Necromancy Magic has long been lost to time. ",
+    "experience_points": 13
+  },
+  "tokenId": "1801",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Painless Worshipper",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Wormlord Visage",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Necromancer",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Painless Worshipper",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Hag's Staff",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Witches' Brush",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Coven of Detriti",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The soul of Sixty-Four is a tale from antiquity. Legend says Sixty-Four, the wandering Necromancer, was among those most loyal to Agora, before something terrible happened. Some say they’ve seen Sixty-Four wandering the swamps, after the hour of the serpent, others say Sixty-Four is just a myth; to scare travelers on the road and that the foul art of Necromancy Magic has long been lost to time. ",
+  "external_url": "https://fateofwagdie.com/characters/1801",
+  "animation_url": "https://fateofwagdie.com/characters/1801/animated"
+}

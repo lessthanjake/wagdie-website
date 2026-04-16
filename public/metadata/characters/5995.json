@@ -1,0 +1,93 @@
+{
+  "name": "Milo Goodbarrel",
+  "image": "ipfs://bafkreidido6qhollhuoxiroxnitcdcyh5s34l4eahlxgoaq2nafqjyam2a",
+  "sheet": {
+    "name": "Milo Goodbarrel",
+    "level": 1,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "None",
+      "armor": "Garolin Tunic"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 15,
+      "strength": 15,
+      "dexterity": 15,
+      "constitution": 11,
+      "intelligence": 16
+    },
+    "hit_points": 8,
+    "tokenIdInt": 5995,
+    "experience_points": 0
+  },
+  "tokenId": "5995",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Garolin Tunic",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Galactic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zaban Rough Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/5995",
+  "animation_url": "https://fateofwagdie.com/characters/5995/animated"
+}

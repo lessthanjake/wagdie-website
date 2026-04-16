@@ -1,0 +1,94 @@
+{
+  "name": "Butterfly Man",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/769.png",
+  "sheet": {
+    "name": "Butterfly Man",
+    "level": 1,
+    "origin": "Pilgrim of the Lakes",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "Wormlord Guard",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 769,
+    "background_story": "Don't say his name 3x.",
+    "experience_points": 0
+  },
+  "tokenId": "769",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "None",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wormlord Guard",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Wings of the Monarch",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Monarch",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Monarch's Call",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Don't say his name 3x.",
+  "external_url": "https://fateofwagdie.com/characters/769",
+  "animation_url": "https://fateofwagdie.com/characters/769/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Glancing Star",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/4028.png",
+  "sheet": {
+    "name": "Glancing Star",
+    "level": 1,
+    "origin": "Wormkin Elite",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Blind Thief's Charm",
+      "armor": "Yuria's Power"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 9,
+      "strength": 11,
+      "dexterity": 12,
+      "constitution": 14,
+      "intelligence": 12
+    },
+    "hit_points": 9,
+    "tokenIdInt": 4028,
+    "background_story": "The owner of the notorious Galerie of Ze Dead is an avid star-gazer who firmly believes that the movements of celestial bodies can predict the entirety of the future. In a frenzied trance induced by her personal stash of m.eth, she crafts intricate paintings depicting the events, beings, and scenes she encounters. ",
+    "experience_points": 0
+  },
+  "tokenId": "4028",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Yuria's Power",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Cursed Essence",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Blind Thief's Charm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Warrior's Adornment",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Raptor's Tooth",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Furies",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The owner of the notorious Galerie of Ze Dead is an avid star-gazer who firmly believes that the movements of celestial bodies can predict the entirety of the future. In a frenzied trance induced by her personal stash of m.eth, she crafts intricate paintings depicting the events, beings, and scenes she encounters. ",
+  "external_url": "https://fateofwagdie.com/characters/4028",
+  "animation_url": "https://fateofwagdie.com/characters/4028/animated"
+}

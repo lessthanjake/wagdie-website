@@ -1,0 +1,94 @@
+{
+  "name": "Dilbert the Holy",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/1587.png",
+  "sheet": {
+    "name": "Dilbert the Holy",
+    "level": 2,
+    "origin": "Journeyman",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Pope",
+      "armor": "Her Pathetic Waste"
+    },
+    "attributes": {
+      "wisdom": 9,
+      "charisma": 15,
+      "strength": 9,
+      "dexterity": 8,
+      "constitution": 13,
+      "intelligence": 8
+    },
+    "hit_points": 12,
+    "tokenIdInt": 1587,
+    "background_story": "Dilbert the Squire lived at Stalwart Fortress and worked for The Concord of Research.\n\nHis day to day activities included handling vatious duties for members of the concord, including laundry and latrine services, as well as general upkeep of the vast libraries.\n\nAfter the passing of King Offling, he took upon himself a devout fascination. He now dons holy garb and pursues a journey to comprehend the heavens.",
+    "experience_points": 300
+  },
+  "tokenId": "1587",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Pathetic Waste",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Pope",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Stalwart Encyclopedia",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Field Notes",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Stalwart Researcher",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Dilbert the Squire lived at Stalwart Fortress and worked for The Concord of Research.\n\nHis day to day activities included handling vatious duties for members of the concord, including laundry and latrine services, as well as general upkeep of the vast libraries.\n\nAfter the passing of King Offling, he took upon himself a devout fascination. He now dons holy garb and pursues a journey to comprehend the heavens.",
+  "external_url": "https://fateofwagdie.com/characters/1587",
+  "animation_url": "https://fateofwagdie.com/characters/1587/animated"
+}

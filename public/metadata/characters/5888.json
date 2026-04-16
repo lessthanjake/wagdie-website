@@ -1,0 +1,94 @@
+{
+  "name": "Myrinda",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/5888.png",
+  "sheet": {
+    "name": "Myrinda",
+    "level": 1,
+    "origin": "Seeker of Piat",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "Worm Touch",
+      "armor": "Worm Caller"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 15,
+      "strength": 12,
+      "dexterity": 14,
+      "constitution": 12,
+      "intelligence": 11
+    },
+    "hit_points": 9,
+    "tokenIdInt": 5888,
+    "background_story": "She'll gut you like a fish",
+    "experience_points": 0
+  },
+  "tokenId": "5888",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm Caller",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Wisened Zealot",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Worm Touch",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Her Ember",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Her Ember",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Bonfire",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "She'll gut you like a fish",
+  "external_url": "https://fateofwagdie.com/characters/5888",
+  "animation_url": "https://fateofwagdie.com/characters/5888/animated"
+}

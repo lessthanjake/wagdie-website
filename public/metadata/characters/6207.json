@@ -1,0 +1,94 @@
+{
+  "name": "We are All Going to Die #6207",
+  "image": "ipfs://bafkreicvh4bygddtgicwf3gfpknxpw5smai2dlvv35afku32gsc3btwqb4",
+  "sheet": {
+    "name": "",
+    "level": 1,
+    "origin": "Young Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "Her Goddess of Vision",
+      "armor": "Strange Cloth Cloak"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 13,
+      "strength": 10,
+      "dexterity": 16,
+      "constitution": 17,
+      "intelligence": 9
+    },
+    "hit_points": 7,
+    "tokenIdInt": 6207,
+    "background_story": "The High Priest is kind when it comes to judging others, something which comes from her looking down on everyone. Zanna has a tendency to rewrite her definition of what's right based on how she perceives, believing that her thoughts are all connected by a continuous thread of logic.",
+    "experience_points": 0
+  },
+  "tokenId": "6207",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Strange Cloth Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Goddess of Vision",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The High Priest is kind when it comes to judging others, something which comes from her looking down on everyone. Zanna has a tendency to rewrite her definition of what's right based on how she perceives, believing that her thoughts are all connected by a continuous thread of logic.",
+  "external_url": "https://fateofwagdie.com/characters/6207",
+  "animation_url": "https://fateofwagdie.com/characters/6207/animated"
+}

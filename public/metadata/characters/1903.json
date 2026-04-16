@@ -1,0 +1,94 @@
+{
+  "name": "The Bald Burner",
+  "image": "ipfs://bafkreigqcgdi6x6oq6izol2iyrbismdia5jxbvybwdkn2kq3hzls44fzmq",
+  "sheet": {
+    "name": "The Bald Burner",
+    "level": 3,
+    "origin": "Young Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "Darkblade's Beak",
+      "armor": "Worm's Weight"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 5,
+      "strength": 10,
+      "dexterity": 15,
+      "constitution": 10,
+      "intelligence": 14
+    },
+    "hit_points": 25,
+    "tokenIdInt": 1903,
+    "background_story": "No one knows his origin... There is only one constant: Some men just want to see the Balds burn. ",
+    "experience_points": 530
+  },
+  "tokenId": "1903",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm's Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Gorlong Mane",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Darkblade's Beak",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No one knows his origin... There is only one constant: Some men just want to see the Balds burn. ",
+  "external_url": "https://fateofwagdie.com/characters/1903",
+  "animation_url": "https://fateofwagdie.com/characters/1903/animated"
+}

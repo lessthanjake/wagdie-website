@@ -1,0 +1,94 @@
+{
+  "name": "The Exalted Pilgrim",
+  "image": "ipfs://bafkreicerkrsw2u3y3phqikkzl2zaiaejydgj6wut7mgxzlsdkdzgoydma",
+  "sheet": {
+    "name": "The Exalted Pilgrim",
+    "level": 1,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Her Devotion"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 16,
+      "strength": 14,
+      "dexterity": 14,
+      "constitution": 16,
+      "intelligence": 11
+    },
+    "hit_points": 7,
+    "tokenIdInt": 4518,
+    "background_story": "Sent from the Kingdom of the Enlightened to showcase the glory and power of Her Light.\n\nHe seldom speaks, though is said to be an instrument of Yorn himself, showcasing tremendous aptitude on the battlefield.\n\nHe enters The Grand Jester's Tournament to punish all hethens before him.",
+    "experience_points": 0
+  },
+  "tokenId": "4518",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Devotion",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Her Golden Page",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Sent from the Kingdom of the Enlightened to showcase the glory and power of Her Light.\n\nHe seldom speaks, though is said to be an instrument of Yorn himself, showcasing tremendous aptitude on the battlefield.\n\nHe enters The Grand Jester's Tournament to punish all hethens before him.",
+  "external_url": "https://fateofwagdie.com/characters/4518",
+  "animation_url": "https://fateofwagdie.com/characters/4518/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Lady Slimone",
+  "image": "ipfs://bafkreid7wr63laxg645euov76wv2b3en4oqja5w6xebtfzzwgdryeln53i",
+  "sheet": {
+    "name": "Lady Slimone",
+    "level": 1,
+    "origin": "Foolish Jester",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Yogg's Folly",
+      "armor": "Her Pathetic Waste"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 4703,
+    "background_story": "A high ranking noble within the Kingdom of Aurora, Lady Slimone appeared recently but no one knows from where she came.",
+    "experience_points": 0
+  },
+  "tokenId": "4703",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Pathetic Waste",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Altered",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Aqi Knot",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Yogg's Folly",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A high ranking noble within the Kingdom of Aurora, Lady Slimone appeared recently but no one knows from where she came.",
+  "external_url": "https://fateofwagdie.com/characters/4703",
+  "animation_url": "https://fateofwagdie.com/characters/4703/animated"
+}

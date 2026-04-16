@@ -1,0 +1,94 @@
+{
+  "name": "Vastum The Vermin",
+  "image": "ipfs://bafkreick43qd53ul3nmv65nrglofuzvu2jarxxdbu5x3yafs546iljxp64",
+  "sheet": {
+    "name": "Vastum The Vermin",
+    "level": 15,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "None",
+      "armor": "Pilgrim's Plain Chain"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 8,
+      "strength": 17,
+      "dexterity": 18,
+      "constitution": 21,
+      "intelligence": 14
+    },
+    "hit_points": 69,
+    "tokenIdInt": 615,
+    "background_story": "Facing the vermin that I am\nTerror coursing through me\nShuddering, I stand\nTo become this animal divine\nSodomite, demiurge, this hell is mine",
+    "experience_points": 2500
+  },
+  "tokenId": "615",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Plain Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Facing the vermin that I am\nTerror coursing through me\nShuddering, I stand\nTo become this animal divine\nSodomite, demiurge, this hell is mine",
+  "external_url": "https://fateofwagdie.com/characters/615",
+  "animation_url": "https://fateofwagdie.com/characters/615/animated"
+}

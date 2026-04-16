@@ -1,0 +1,94 @@
+{
+  "name": "Mersiah the Gift",
+  "image": "ipfs://bafkreie7l7o7fvr3vcpbkr6ekr2cfs5xteosvgs2ao6hf2cb4sv7i2el7m",
+  "sheet": {
+    "name": "Mersiah the Gift",
+    "level": 1,
+    "origin": "Journeyman",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "Her Blessing",
+      "armor": "Death Dealer's Choice"
+    },
+    "attributes": {
+      "wisdom": 8,
+      "charisma": 20,
+      "strength": 7,
+      "dexterity": 10,
+      "constitution": 6,
+      "intelligence": 16
+    },
+    "hit_points": 0,
+    "tokenIdInt": 5383,
+    "background_story": "Born into a bourgeoisie House in the province of Joslin, Mersiah experienced all the conventional privileges of the middle ruling class. He selected archery as his recreational combat focus and a commitment to the routine of academia allowed him to graduate from the University of Jerridah with honors, resulting in him receiving Her Blessing. \n\nLife was often comfortable for Mersiah and the thrill seeking throes of his unanchored lifestyle occasionally led him to pursue risky interactions at Artisgild and even with the wizard M3RL1N. \n\nIn the 18th cycle, such an orientation led him to journey to the Marketplace within the Abyss, where he spontaneously adventured with the Lost Pilgrim deeper into the Coil, ultimately losing his life by inhaling a fatal amount of noxious gas. \n\n\"ℑ 𝔱𝔢𝔩𝔩 𝔶𝔬𝔲 𝔱𝔥𝔢 𝔱𝔯𝔲𝔱𝔥, 𝔱𝔥𝔢𝔰𝔢 𝔩𝔞𝔫𝔡𝔰 𝔞𝔯𝔢 𝔪𝔦𝔰𝔫𝔞𝔪𝔢𝔡 𝔣𝔬𝔯 𝔱𝔥𝔢𝔯𝔢 𝔦𝔰 𝔪𝔲𝔠𝔥 𝔧𝔬𝔶 𝔞𝔫𝔡 𝔳𝔦𝔱𝔞𝔩𝔦𝔱𝔶 𝔱𝔬 𝔟𝔢 𝔣𝔬𝔲𝔫𝔡 𝔦𝔫 𝔡𝔯𝔦𝔫𝔨, 𝔠𝔬𝔪𝔭𝔞𝔫𝔦𝔬𝔫𝔰𝔥𝔦𝔭, 𝔞𝔫𝔡 𝔰𝔭𝔬𝔯𝔱. ℑ 𝔥𝔞𝔳𝔢 𝔪𝔞𝔫𝔶 𝔤𝔬𝔬𝔡 𝔣𝔯𝔦𝔢𝔫𝔡𝔰 𝔴𝔥𝔬 𝔞𝔯𝔢 𝔤𝔢𝔫𝔢𝔯𝔬𝔲𝔰 𝔱𝔬 𝔪𝔢 𝔞𝔫𝔡 ℑ 𝔦𝔫𝔱𝔢𝔫𝔡 𝔱𝔬 𝔣𝔲𝔩𝔩𝔶 𝔩𝔦𝔳𝔢 𝔦𝔫 𝔱𝔥𝔢𝔦𝔯 𝔠𝔬𝔪𝔭𝔞𝔫𝔶 𝔲𝔫𝔱𝔦𝔩 𝔱𝔥𝔢 𝔢𝔫𝔡 𝔬𝔣 𝔪𝔶 𝔶𝔢𝔞𝔯𝔰, 𝔪𝔞𝔶 𝔱𝔥𝔢𝔶 𝔟𝔢 𝔡𝔦𝔰𝔱𝔞𝔫𝔱. ℑ𝔱 𝔦𝔰 𝔞𝔩𝔩 𝔞 𝔊𝔦𝔣𝔱. \"",
+    "experience_points": 0
+  },
+  "tokenId": "5383",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Death Dealer's Choice",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Darkness",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Blessing",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Born into a bourgeoisie House in the province of Joslin, Mersiah experienced all the conventional privileges of the middle ruling class. He selected archery as his recreational combat focus and a commitment to the routine of academia allowed him to graduate from the University of Jerridah with honors, resulting in him receiving Her Blessing. \n\nLife was often comfortable for Mersiah and the thrill seeking throes of his unanchored lifestyle occasionally led him to pursue risky interactions at Artisgild and even with the wizard M3RL1N. \n\nIn the 18th cycle, such an orientation led him to journey to the Marketplace within the Abyss, where he spontaneously adventured with the Lost Pilgrim deeper into the Coil, ultimately losing his life by inhaling a fatal amount of noxious gas. \n\n\"ℑ 𝔱𝔢𝔩𝔩 𝔶𝔬𝔲 𝔱𝔥𝔢 𝔱𝔯𝔲𝔱𝔥, 𝔱𝔥𝔢𝔰𝔢 𝔩𝔞𝔫𝔡𝔰 𝔞𝔯𝔢 𝔪𝔦𝔰𝔫𝔞𝔪𝔢𝔡 𝔣𝔬𝔯 𝔱𝔥𝔢𝔯𝔢 𝔦𝔰 𝔪𝔲𝔠𝔥 𝔧𝔬𝔶 𝔞𝔫𝔡 𝔳𝔦𝔱𝔞𝔩𝔦𝔱𝔶 𝔱𝔬 𝔟𝔢 𝔣𝔬𝔲𝔫𝔡 𝔦𝔫 𝔡𝔯𝔦𝔫𝔨, 𝔠𝔬𝔪𝔭𝔞𝔫𝔦𝔬𝔫𝔰𝔥𝔦𝔭, 𝔞𝔫𝔡 𝔰𝔭𝔬𝔯𝔱. ℑ 𝔥𝔞𝔳𝔢 𝔪𝔞𝔫𝔶 𝔤𝔬𝔬𝔡 𝔣𝔯𝔦𝔢𝔫𝔡𝔰 𝔴𝔥𝔬 𝔞𝔯𝔢 𝔤𝔢𝔫𝔢𝔯𝔬𝔲𝔰 𝔱𝔬 𝔪𝔢 𝔞𝔫𝔡 ℑ 𝔦𝔫𝔱𝔢𝔫𝔡 𝔱𝔬 𝔣𝔲𝔩𝔩𝔶 𝔩𝔦𝔳𝔢 𝔦𝔫 𝔱𝔥𝔢𝔦𝔯 𝔠𝔬𝔪𝔭𝔞𝔫𝔶 𝔲𝔫𝔱𝔦𝔩 𝔱𝔥𝔢 𝔢𝔫𝔡 𝔬𝔣 𝔪𝔶 𝔶𝔢𝔞𝔯𝔰, 𝔪𝔞𝔶 𝔱𝔥𝔢𝔶 𝔟𝔢 𝔡𝔦𝔰𝔱𝔞𝔫𝔱. ℑ𝔱 𝔦𝔰 𝔞𝔩𝔩 𝔞 𝔊𝔦𝔣𝔱. \"",
+  "external_url": "https://fateofwagdie.com/characters/5383",
+  "animation_url": "https://fateofwagdie.com/characters/5383/animated"
+}

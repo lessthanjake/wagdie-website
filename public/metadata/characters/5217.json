@@ -1,0 +1,94 @@
+{
+  "name": "Weirdo the I",
+  "image": "ipfs://bafkreih3m7ni2nyjfmcc6uefl3cdkoqho67dgetephjhxo47h4gswl6uvu",
+  "sheet": {
+    "name": "Weirdo the I",
+    "level": 1,
+    "origin": "Aged Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "Her Silence",
+      "armor": "Papal Garb"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 11,
+      "strength": 8,
+      "dexterity": 9,
+      "constitution": 15,
+      "intelligence": 12
+    },
+    "hit_points": 6,
+    "tokenIdInt": 5217,
+    "background_story": "Pope Gianni Paul was born to a noble family 42 years before the burning of MAYC #20438. He was always a pious child, and showed great promise as a student of the church. When he was old enough, he joined the clergy and quickly rose through the ranks. He was eventually made pope, and served with distinction for many years.\n\nHowever, Pope Gianni Paul always had a passion for archery, and he secretly began to practice in his spare time. He became quite skilled, and even began to compete in archery tournaments under the pseudonym \"Her Silence.\" He won many prizes and became quite famous in the archery world.\n\nEventually, his secret was revealed, and he was forced to resign as pope. He retired to a life of archery and contemplation, and is now remembered as one of the most unusual popes in history.",
+    "experience_points": 0
+  },
+  "tokenId": "5217",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Papal Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Altered",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Aged Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Luta's Firey Bangs",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Silence",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Aged Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Pope Gianni Paul was born to a noble family 42 years before the burning of MAYC #20438. He was always a pious child, and showed great promise as a student of the church. When he was old enough, he joined the clergy and quickly rose through the ranks. He was eventually made pope, and served with distinction for many years.\n\nHowever, Pope Gianni Paul always had a passion for archery, and he secretly began to practice in his spare time. He became quite skilled, and even began to compete in archery tournaments under the pseudonym \"Her Silence.\" He won many prizes and became quite famous in the archery world.\n\nEventually, his secret was revealed, and he was forced to resign as pope. He retired to a life of archery and contemplation, and is now remembered as one of the most unusual popes in history.",
+  "external_url": "https://fateofwagdie.com/characters/5217",
+  "animation_url": "https://fateofwagdie.com/characters/5217/animated"
+}

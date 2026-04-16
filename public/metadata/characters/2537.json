@@ -1,0 +1,94 @@
+{
+  "name": "Putrescence The Ruined King",
+  "image": "ipfs://bafkreic6tv22wnzhy376yfmggcidssgemkxa4ce5h25u3iqa76awngtzam",
+  "sheet": {
+    "name": "Putrescence The Ruined King",
+    "level": 1,
+    "origin": "Old Pilgrim",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "Fool's Crown",
+      "armor": "Her Cursed Outcast"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 10,
+      "strength": 8,
+      "dexterity": 16,
+      "constitution": 10,
+      "intelligence": 6
+    },
+    "hit_points": 9,
+    "tokenIdInt": 2537,
+    "background_story": "𝔒𝔫𝔠𝔢 𝔥𝔢 𝔴𝔞𝔰 𝔯𝔲𝔩𝔢𝔯 𝔬𝔣 𝔞 𝔨𝔦𝔫𝔤𝔡𝔬𝔪 𝔣𝔞𝔯 𝔱𝔬 𝔱𝔥𝔢 𝔴𝔢𝔰𝔱, 𝔟𝔲𝔱 𝔫𝔬𝔴 𝔞𝔩𝔩 𝔱𝔥𝔞𝔱 𝔯𝔢𝔪𝔞𝔦𝔫𝔰 𝔬𝔣 𝔦𝔱, 𝔦𝔰 𝔱𝔥𝔢 𝔠𝔯𝔬𝔴𝔫 𝔱𝔥𝔞𝔱 𝔞𝔡𝔬𝔯𝔫𝔰 𝔥𝔦𝔰 𝔥𝔢𝔞𝔡 𝔞𝔫𝔡 𝔥𝔦𝔰 𝔪𝔬𝔰𝔱 𝔩𝔬𝔶𝔞𝔩 𝔨𝔫𝔦𝔤𝔥𝔱. ℌ𝔢 𝔴𝔞𝔰 𝔣𝔬𝔬𝔩𝔦𝔰𝔥, 𝔟𝔢𝔩𝔦𝔢𝔳𝔦𝔫𝔤 \n𝔱𝔯𝔲𝔢 𝔭𝔢𝔞𝔠𝔢 𝔴𝔞𝔰 𝔞 𝔭𝔬𝔰𝔰𝔦𝔟𝔦𝔩𝔦𝔱𝔶... 𝔦𝔫𝔰𝔦𝔡𝔦𝔬𝔲𝔰 𝔞𝔱𝔱𝔞𝔠𝔨𝔰 𝔟𝔶 𝔰𝔲𝔭𝔭𝔬𝔰𝔢𝔡 𝔞𝔩𝔩𝔦𝔢𝔰 𝔭𝔯𝔬𝔳𝔢𝔡 𝔥𝔦𝔪 𝔴𝔯𝔬𝔫𝔤. 𝔑𝔬𝔴 𝔴𝔞𝔫𝔡𝔢𝔯𝔦𝔫𝔤 𝔱𝔥𝔯𝔬𝔲𝔤𝔥 𝔱𝔥𝔢 𝔞𝔠𝔠𝔲𝔯𝔰𝔢𝔡 𝔩𝔞𝔫𝔡𝔰, 𝔲𝔫𝔠𝔢𝔯𝔱𝔞𝔦𝔫 𝔬𝔣 𝔥𝔦𝔰 𝔣𝔞𝔱𝔢. 𝔐𝔞𝔫𝔶 𝔱𝔬𝔩𝔡 𝔥𝔦𝔪 𝔱𝔥𝔞𝔱 𝔱𝔥𝔢 𝔬𝔫𝔩𝔶 𝔠𝔬𝔫𝔰𝔱𝔞𝔫𝔱 𝔦𝔰 𝔡𝔢𝔞𝔱𝔥, 𝔟𝔲𝔱 𝔩𝔢𝔱𝔱𝔦𝔫𝔤 𝔡𝔬𝔴𝔫 𝔥𝔦𝔰 𝔪𝔬𝔰𝔱 𝔩𝔬𝔶𝔞𝔩 𝔣𝔯𝔦𝔢𝔫𝔡 𝔞𝔫𝔡 𝔟𝔯𝔬𝔱𝔥𝔢𝔯 𝔦𝔫 𝔞𝔯𝔪𝔰 𝔧𝔲𝔰𝔱 𝔟𝔢𝔠𝔞𝔲𝔰𝔢 𝔥𝔢 𝔨𝔫𝔬𝔴𝔰 𝔥𝔦𝔰 𝔞𝔴𝔞𝔦𝔱𝔦𝔫𝔤 𝔣𝔞𝔱𝔢...? 𝔗𝔥𝔞𝔱 𝔦𝔰 𝔫𝔬𝔱 𝔞𝔫 𝔬𝔭𝔱𝔦𝔬𝔫 𝔣𝔬𝔯 𝔥𝔦𝔪.\n",
+    "experience_points": 0
+  },
+  "tokenId": "2537",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Cursed Outcast",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Old Pilgrim",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Aqi Knot",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Fool's Crown",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Old Pilgrim",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "𝔒𝔫𝔠𝔢 𝔥𝔢 𝔴𝔞𝔰 𝔯𝔲𝔩𝔢𝔯 𝔬𝔣 𝔞 𝔨𝔦𝔫𝔤𝔡𝔬𝔪 𝔣𝔞𝔯 𝔱𝔬 𝔱𝔥𝔢 𝔴𝔢𝔰𝔱, 𝔟𝔲𝔱 𝔫𝔬𝔴 𝔞𝔩𝔩 𝔱𝔥𝔞𝔱 𝔯𝔢𝔪𝔞𝔦𝔫𝔰 𝔬𝔣 𝔦𝔱, 𝔦𝔰 𝔱𝔥𝔢 𝔠𝔯𝔬𝔴𝔫 𝔱𝔥𝔞𝔱 𝔞𝔡𝔬𝔯𝔫𝔰 𝔥𝔦𝔰 𝔥𝔢𝔞𝔡 𝔞𝔫𝔡 𝔥𝔦𝔰 𝔪𝔬𝔰𝔱 𝔩𝔬𝔶𝔞𝔩 𝔨𝔫𝔦𝔤𝔥𝔱. ℌ𝔢 𝔴𝔞𝔰 𝔣𝔬𝔬𝔩𝔦𝔰𝔥, 𝔟𝔢𝔩𝔦𝔢𝔳𝔦𝔫𝔤 \n𝔱𝔯𝔲𝔢 𝔭𝔢𝔞𝔠𝔢 𝔴𝔞𝔰 𝔞 𝔭𝔬𝔰𝔰𝔦𝔟𝔦𝔩𝔦𝔱𝔶... 𝔦𝔫𝔰𝔦𝔡𝔦𝔬𝔲𝔰 𝔞𝔱𝔱𝔞𝔠𝔨𝔰 𝔟𝔶 𝔰𝔲𝔭𝔭𝔬𝔰𝔢𝔡 𝔞𝔩𝔩𝔦𝔢𝔰 𝔭𝔯𝔬𝔳𝔢𝔡 𝔥𝔦𝔪 𝔴𝔯𝔬𝔫𝔤. 𝔑𝔬𝔴 𝔴𝔞𝔫𝔡𝔢𝔯𝔦𝔫𝔤 𝔱𝔥𝔯𝔬𝔲𝔤𝔥 𝔱𝔥𝔢 𝔞𝔠𝔠𝔲𝔯𝔰𝔢𝔡 𝔩𝔞𝔫𝔡𝔰, 𝔲𝔫𝔠𝔢𝔯𝔱𝔞𝔦𝔫 𝔬𝔣 𝔥𝔦𝔰 𝔣𝔞𝔱𝔢. 𝔐𝔞𝔫𝔶 𝔱𝔬𝔩𝔡 𝔥𝔦𝔪 𝔱𝔥𝔞𝔱 𝔱𝔥𝔢 𝔬𝔫𝔩𝔶 𝔠𝔬𝔫𝔰𝔱𝔞𝔫𝔱 𝔦𝔰 𝔡𝔢𝔞𝔱𝔥, 𝔟𝔲𝔱 𝔩𝔢𝔱𝔱𝔦𝔫𝔤 𝔡𝔬𝔴𝔫 𝔥𝔦𝔰 𝔪𝔬𝔰𝔱 𝔩𝔬𝔶𝔞𝔩 𝔣𝔯𝔦𝔢𝔫𝔡 𝔞𝔫𝔡 𝔟𝔯𝔬𝔱𝔥𝔢𝔯 𝔦𝔫 𝔞𝔯𝔪𝔰 𝔧𝔲𝔰𝔱 𝔟𝔢𝔠𝔞𝔲𝔰𝔢 𝔥𝔢 𝔨𝔫𝔬𝔴𝔰 𝔥𝔦𝔰 𝔞𝔴𝔞𝔦𝔱𝔦𝔫𝔤 𝔣𝔞𝔱𝔢...? 𝔗𝔥𝔞𝔱 𝔦𝔰 𝔫𝔬𝔱 𝔞𝔫 𝔬𝔭𝔱𝔦𝔬𝔫 𝔣𝔬𝔯 𝔥𝔦𝔪.\n",
+  "external_url": "https://fateofwagdie.com/characters/2537",
+  "animation_url": "https://fateofwagdie.com/characters/2537/animated"
+}

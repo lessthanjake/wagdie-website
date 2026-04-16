@@ -1,0 +1,94 @@
+{
+  "name": "Stormcrow",
+  "image": "ipfs://bafkreihwdqrucwaijrf3dfia5kj55jreg5jnivitcdkav22wdkiucbmg5u",
+  "sheet": {
+    "name": "Stormcrow",
+    "level": 1,
+    "origin": "Zolian Worm",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "Her Goddess of Vision",
+      "armor": "Punished Shirt"
+    },
+    "attributes": {
+      "wisdom": 9,
+      "charisma": 9,
+      "strength": 14,
+      "dexterity": 17,
+      "constitution": 17,
+      "intelligence": 15
+    },
+    "hit_points": 11,
+    "tokenIdInt": 3447,
+    "background_story": "Once a faithful servant of the King, this knight was abandoned in a retreat. He spent an inconceivable amount of time wandering around the Ruined Kingdoms of Yore. Somewhere in the deserted lands south of the Church of Her, he called to the sky one last time  for anyone to help. His skin parched from the sun, he collapsed on the ground until a dark figure appeared above him, and gave him water to drink. \n\nSince then, he has lived his life as a harbinger of doom to those corrupt individuals who would prey upon the vulnerable. Always seeking vengeance on the captain who discarded him, leaving him for dead on the battlefield. A faithful servant no more. \n\nStorm crow descending, winter unending. Storm crow departing, summer is starting.",
+    "experience_points": 0
+  },
+  "tokenId": "3447",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Punished Shirt",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit Set",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Goddess of Vision",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Once a faithful servant of the King, this knight was abandoned in a retreat. He spent an inconceivable amount of time wandering around the Ruined Kingdoms of Yore. Somewhere in the deserted lands south of the Church of Her, he called to the sky one last time  for anyone to help. His skin parched from the sun, he collapsed on the ground until a dark figure appeared above him, and gave him water to drink. \n\nSince then, he has lived his life as a harbinger of doom to those corrupt individuals who would prey upon the vulnerable. Always seeking vengeance on the captain who discarded him, leaving him for dead on the battlefield. A faithful servant no more. \n\nStorm crow descending, winter unending. Storm crow departing, summer is starting.",
+  "external_url": "https://fateofwagdie.com/characters/3447",
+  "animation_url": "https://fateofwagdie.com/characters/3447/animated"
+}

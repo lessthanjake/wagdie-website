@@ -1,0 +1,94 @@
+{
+  "name": "Ulfgar Ungart",
+  "image": "ipfs://bafkreibyzbqtiu4egj6flkx7aekosgn5qvyudwarla3tlsgk7a5kdyr4we",
+  "sheet": {
+    "name": "Ulfgar Ungart",
+    "level": 4,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Blessing of the Worm"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 10,
+      "strength": 16,
+      "dexterity": 14,
+      "constitution": 14,
+      "intelligence": 8
+    },
+    "hit_points": 45,
+    "tokenIdInt": 203,
+    "background_story": "Ulfgar is a nomad warrior who believes that The Nameless Serpent brings destruction as a means of cleansing the weak from existence.\n\nIn this fashion, he believes in the survival of the fittest, and seeks opponents that can challenge his natural combat prowess.\n\nHe was among The Thirty of Turlo and relishes his battle against Molosh The Outcast, lamenting only that it ended in the outcast's escape. He looks forward to another fight with the traitor.\n\nAfter escorting King Offling from Stalwart Fortress to The Church of Her upon the pilgrims' return, Ulfgar saw the flames and was among the first to join the Bulwark of The Serpent ; eager to fight and hoping to find his rival amongst the many.\n\nAlthough he did not find an opportunity to face Molosh during the Battle of the Burning Church, Ulfgar did fight and survive through both portions of the war.\n\nWhen the opportunity to descend into The Burrow presented itself, he went forth in pursuit of Molosh and to gaze upon The Serpent's face.\n\nWeighed down by the poor choices of his cohorts amid The First Expedition to The Abyss, Ulfgar met his end trying to unlock a puzzle while being suffocated by noxious gas.",
+    "experience_points": 2700
+  },
+  "tokenId": "203",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Blessing of the Worm",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Feeble Spikes",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Ulfgar is a nomad warrior who believes that The Nameless Serpent brings destruction as a means of cleansing the weak from existence.\n\nIn this fashion, he believes in the survival of the fittest, and seeks opponents that can challenge his natural combat prowess.\n\nHe was among The Thirty of Turlo and relishes his battle against Molosh The Outcast, lamenting only that it ended in the outcast's escape. He looks forward to another fight with the traitor.\n\nAfter escorting King Offling from Stalwart Fortress to The Church of Her upon the pilgrims' return, Ulfgar saw the flames and was among the first to join the Bulwark of The Serpent ; eager to fight and hoping to find his rival amongst the many.\n\nAlthough he did not find an opportunity to face Molosh during the Battle of the Burning Church, Ulfgar did fight and survive through both portions of the war.\n\nWhen the opportunity to descend into The Burrow presented itself, he went forth in pursuit of Molosh and to gaze upon The Serpent's face.\n\nWeighed down by the poor choices of his cohorts amid The First Expedition to The Abyss, Ulfgar met his end trying to unlock a puzzle while being suffocated by noxious gas.",
+  "external_url": "https://fateofwagdie.com/characters/203",
+  "animation_url": "https://fateofwagdie.com/characters/203/animated"
+}

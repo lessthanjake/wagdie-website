@@ -1,0 +1,93 @@
+{
+  "name": "Boddynock Timbers",
+  "image": "ipfs://bafkreidhlzyf5ry263yuyi77whczu7wlumjmgmxlgfakz43v3dteudvvaq",
+  "sheet": {
+    "name": "Boddynock Timbers",
+    "level": 1,
+    "origin": "Worm Devotee",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Removal's Kin",
+      "armor": "Swamp Traveler Cloak"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 7,
+      "strength": 9,
+      "dexterity": 11,
+      "constitution": 17,
+      "intelligence": 13
+    },
+    "hit_points": 10,
+    "tokenIdInt": 3841,
+    "experience_points": 0
+  },
+  "tokenId": "3841",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Swamp Traveler Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Worm Devotee",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zaban Rough Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Removal's Kin",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Worm Devotee",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/3841",
+  "animation_url": "https://fateofwagdie.com/characters/3841/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Taurus, The Brute",
+  "image": "ipfs://bafkreie3mtpwmmqvgphtmb64jn6mbgoiwk7sv5gcykwokyxfuqwmbhnjtq",
+  "sheet": {
+    "name": "Taurus, The Brute",
+    "level": 1,
+    "origin": "Seeker of Piat",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Zoltan War Helm",
+      "armor": "Logun's Pauldrons"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 12,
+      "strength": 18,
+      "dexterity": 8,
+      "constitution": 16,
+      "intelligence": 9
+    },
+    "hit_points": 20,
+    "tokenIdInt": 4884,
+    "background_story": "Taurus, known as \"The Brute,\" is a powerful berserker from the outskirts of Mount Turlo. He's a fearsome fighter with incredible strength, but his rage can sometimes make him lose control. Despite this, he's fiercely loyal to his allies and will do whatever it takes to protect them.\n\nHe has been in a relationship with Elizabeth Corporus for a very long time.",
+    "experience_points": 0
+  },
+  "tokenId": "4884",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Pauldrons",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Zoltan War Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Taurus, known as \"The Brute,\" is a powerful berserker from the outskirts of Mount Turlo. He's a fearsome fighter with incredible strength, but his rage can sometimes make him lose control. Despite this, he's fiercely loyal to his allies and will do whatever it takes to protect them.\n\nHe has been in a relationship with Elizabeth Corporus for a very long time.",
+  "external_url": "https://fateofwagdie.com/characters/4884",
+  "animation_url": "https://fateofwagdie.com/characters/4884/animated"
+}

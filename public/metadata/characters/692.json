@@ -1,0 +1,94 @@
+{
+  "name": "Turen Naur",
+  "image": "ipfs://bafkreidut7viuvifkfatpyjx5ogws7npn4r5iwnfyuyi6csqzgqi6muzpu",
+  "sheet": {
+    "name": "Turen Naur",
+    "level": 1,
+    "origin": "Hole Protector",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Logun Forged Weight"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 14,
+      "strength": 16,
+      "dexterity": 8,
+      "constitution": 9,
+      "intelligence": 12
+    },
+    "hit_points": 1,
+    "tokenIdInt": 692,
+    "background_story": "After seeing the glorious battle of Church of Her, Turen wants to live his own adventure, he has decided to join the second raid that will try to sail The Burrow. \n\nHe also wouldn't mind taking some loot with him during his expedition into the depths. \n\nDied at the Depths fighting Molosh, he helped kill it with the spear before succumbing to his wounds. ",
+    "experience_points": 0
+  },
+  "tokenId": "692",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun Forged Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Pilgrim's Style",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "After seeing the glorious battle of Church of Her, Turen wants to live his own adventure, he has decided to join the second raid that will try to sail The Burrow. \n\nHe also wouldn't mind taking some loot with him during his expedition into the depths. \n\nDied at the Depths fighting Molosh, he helped kill it with the spear before succumbing to his wounds. ",
+  "external_url": "https://fateofwagdie.com/characters/692",
+  "animation_url": "https://fateofwagdie.com/characters/692/animated"
+}

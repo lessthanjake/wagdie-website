@@ -1,0 +1,94 @@
+{
+  "name": "Kriv Drachedandion",
+  "image": "ipfs://bafkreibei7gz6v4xzzvmbyw5brgnsy6efwebqmuupiwbk5y2m4g3fpunyq",
+  "sheet": {
+    "name": "Kriv Drachedandion",
+    "level": 5,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "Sibor's Brace",
+      "armor": "Luta's Full Weight"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 11,
+      "strength": 16,
+      "dexterity": 13,
+      "constitution": 8,
+      "intelligence": 14
+    },
+    "hit_points": 7,
+    "tokenIdInt": 1302,
+    "background_story": "Kriv was born a sickly child who longed to explore the world. When his parents died, he had no choice but to rely on his street smarts to get by. Then one day at the tavern he bychance spoke to a member of the local assassin's guild and was tempted by the promise of glory and gold. Now many years on, Kriv tires of the endless violence and searches for a way out. ",
+    "experience_points": 30
+  },
+  "tokenId": "1302",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Luta's Full Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "More Envious Locks",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Sibor's Brace",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Kriv was born a sickly child who longed to explore the world. When his parents died, he had no choice but to rely on his street smarts to get by. Then one day at the tavern he bychance spoke to a member of the local assassin's guild and was tempted by the promise of glory and gold. Now many years on, Kriv tires of the endless violence and searches for a way out. ",
+  "external_url": "https://fateofwagdie.com/characters/1302",
+  "animation_url": "https://fateofwagdie.com/characters/1302/animated"
+}

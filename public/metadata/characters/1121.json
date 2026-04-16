@@ -1,0 +1,82 @@
+{
+  "name": "Blood, Agora's first mistake",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/1121.png",
+  "sheet": {
+    "name": "Blood, Agora's first mistake",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Noxium Death Cage",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 1,
+      "charisma": 1,
+      "strength": 1,
+      "dexterity": 1,
+      "constitution": 1,
+      "intelligence": 1
+    },
+    "hit_points": 1,
+    "tokenIdInt": 1121,
+    "background_story": "Blood is the sacrifice Agora made to breathe new life into this world.",
+    "experience_points": 0
+  },
+  "tokenId": "1121",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Convert of the Swamp Witch",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Noxium Death Cage",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Convert of the Swamp Witch",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Chosen Swarm",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Chosen Fly",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Lord Grem's Diptera",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Blood is the sacrifice Agora made to breathe new life into this world.",
+  "external_url": "https://fateofwagdie.com/characters/1121",
+  "animation_url": "https://fateofwagdie.com/characters/1121/animated"
+}

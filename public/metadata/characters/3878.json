@@ -1,0 +1,94 @@
+{
+  "name": "Based Apostate",
+  "image": "ipfs://bafkreie4bcr2yx2hvfovrd6dl6xkb377sygshdnaostnffl4ys7q5loaxu",
+  "sheet": {
+    "name": "Based Apostate",
+    "level": 1,
+    "origin": "Hole Protector",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "Her Silence",
+      "armor": "Luta's Full Weight"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 30,
+      "strength": 30,
+      "dexterity": 30,
+      "constitution": 30,
+      "intelligence": 30
+    },
+    "hit_points": 30,
+    "tokenIdInt": 3878,
+    "background_story": "Oh ye faithful deity, Based God\nThou may partake of my wench, Based God\nThy swag is to the utmost level, Based God\nThy swag is countless beyond reproach, Based God\nThe most severe damnation to any other deity, Based God",
+    "experience_points": 0
+  },
+  "tokenId": "3878",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Luta's Full Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zaban Rough Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Silence",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Oh ye faithful deity, Based God\nThou may partake of my wench, Based God\nThy swag is to the utmost level, Based God\nThy swag is countless beyond reproach, Based God\nThe most severe damnation to any other deity, Based God",
+  "external_url": "https://fateofwagdie.com/characters/3878",
+  "animation_url": "https://fateofwagdie.com/characters/3878/animated"
+}

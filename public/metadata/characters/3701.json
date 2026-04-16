@@ -1,0 +1,94 @@
+{
+  "name": "Banq de Sange",
+  "image": "ipfs://bafkreifz6mo5i7s6uhgkrfgdf7nff75ohxb54sa7iwxiajcotl76jrhtge",
+  "sheet": {
+    "name": "Banq de Sange",
+    "level": 1,
+    "origin": "Hole Protector",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "Darkblade's Beak",
+      "armor": "Verite Protection"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 11,
+      "strength": 10,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 13
+    },
+    "hit_points": 9,
+    "tokenIdInt": 3701,
+    "background_story": "A ruthless moneylender who operates within The Darkblade Guild.\n\nAfter the disappearance of Tenten, he has set out on a vengeful pursuit to find the man, as he still owes a large sum of money.",
+    "experience_points": 0
+  },
+  "tokenId": "3701",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Verite Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Darkblade's Beak",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A ruthless moneylender who operates within The Darkblade Guild.\n\nAfter the disappearance of Tenten, he has set out on a vengeful pursuit to find the man, as he still owes a large sum of money.",
+  "external_url": "https://fateofwagdie.com/characters/3701",
+  "animation_url": "https://fateofwagdie.com/characters/3701/animated"
+}

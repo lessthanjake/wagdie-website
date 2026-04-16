@@ -1,0 +1,94 @@
+{
+  "name": "Faceless",
+  "image": "ipfs://bafkreig3h3jz3lbw4svuaw2njumeas2xuh7txefgeo277ji7zsig57tcai",
+  "sheet": {
+    "name": "Faceless",
+    "level": 1,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "An Ancient Device",
+      "armor": "Garolin Tunic"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 9,
+      "strength": 16,
+      "dexterity": 12,
+      "constitution": 11,
+      "intelligence": 11
+    },
+    "hit_points": 5,
+    "tokenIdInt": 3527,
+    "background_story": "𝔑𝔬 𝔬𝔫𝔢 𝔨𝔫𝔬𝔴𝔰 𝔥𝔦𝔰 𝔬𝔯𝔦𝔤𝔦𝔫 𝔬𝔯 𝔥𝔦𝔰 𝔤𝔬𝔞𝔩𝔰, 𝔬𝔫𝔩𝔶 𝔥𝔦𝔰 𝔩𝔬𝔶𝔞𝔩𝔱𝔶 𝔱𝔬 𝔥𝔦𝔰 𝔯𝔲𝔦𝔫𝔢𝔡 𝔨𝔦𝔫𝔤 𝔯𝔢𝔪𝔞𝔦𝔫𝔰 𝔲𝔫𝔰𝔥𝔞𝔨𝔞𝔟𝔩𝔢...\n",
+    "experience_points": 0
+  },
+  "tokenId": "3527",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Garolin Tunic",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Aqi Knot",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "An Ancient Device",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "𝔑𝔬 𝔬𝔫𝔢 𝔨𝔫𝔬𝔴𝔰 𝔥𝔦𝔰 𝔬𝔯𝔦𝔤𝔦𝔫 𝔬𝔯 𝔥𝔦𝔰 𝔤𝔬𝔞𝔩𝔰, 𝔬𝔫𝔩𝔶 𝔥𝔦𝔰 𝔩𝔬𝔶𝔞𝔩𝔱𝔶 𝔱𝔬 𝔥𝔦𝔰 𝔯𝔲𝔦𝔫𝔢𝔡 𝔨𝔦𝔫𝔤 𝔯𝔢𝔪𝔞𝔦𝔫𝔰 𝔲𝔫𝔰𝔥𝔞𝔨𝔞𝔟𝔩𝔢...\n",
+  "external_url": "https://fateofwagdie.com/characters/3527",
+  "animation_url": "https://fateofwagdie.com/characters/3527/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Illusive Goat",
+  "image": "ipfs://bafkreidcb47fvptw5r4ciyjgcxzzyxvnsnkil22ph6dezv5dkm2bqmyoay",
+  "sheet": {
+    "name": "Illusive Goat",
+    "level": 1,
+    "origin": "Pilgrim of the Lakes",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Her Goddess of Vision",
+      "armor": "Blessing of the Worm"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 20,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 3,
+    "tokenIdInt": 4797,
+    "background_story": "Baaaaah!",
+    "experience_points": 0
+  },
+  "tokenId": "4797",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Blessing of the Worm",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Swamp Tassels",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Goddess of Vision",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Baaaaah!",
+  "external_url": "https://fateofwagdie.com/characters/4797",
+  "animation_url": "https://fateofwagdie.com/characters/4797/animated"
+}

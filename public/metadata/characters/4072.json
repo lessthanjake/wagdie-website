@@ -1,0 +1,94 @@
+{
+  "name": "Chris P. Bacon",
+  "image": "ipfs://bafkreiejstrcwtkphor2vhii3er4ti23fgxhoeizdegavyil6tbkgbwome",
+  "sheet": {
+    "name": "Chris P. Bacon",
+    "level": 1,
+    "origin": "Her Hidden Blade",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Royal Fool's Curse",
+      "armor": "Valorite Amateur Garb"
+    },
+    "attributes": {
+      "wisdom": 9,
+      "charisma": 11,
+      "strength": 18,
+      "dexterity": 9,
+      "constitution": 18,
+      "intelligence": 11
+    },
+    "hit_points": 8,
+    "tokenIdInt": 4072,
+    "background_story": "I must let the world know that I changed my last name to Bacon on my own accord",
+    "experience_points": 0
+  },
+  "tokenId": "4072",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Valorite Amateur Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Naive Blonde Pilgrim's Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Royal Fool's Curse",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "I must let the world know that I changed my last name to Bacon on my own accord",
+  "external_url": "https://fateofwagdie.com/characters/4072",
+  "animation_url": "https://fateofwagdie.com/characters/4072/animated"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Shandri Amastacia",
+  "image": "ipfs://bafkreifjcc4itgu4gubnd3y4v7uvb4usvpat6wril7mwe7w3fxho7mk474",
+  "sheet": {
+    "name": "Shandri Amastacia",
+    "level": 1,
+    "origin": "Leeched Devotee",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Her Champion's Sacrifice"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 14,
+      "strength": 5,
+      "dexterity": 16,
+      "constitution": 13,
+      "intelligence": 12
+    },
+    "hit_points": 9,
+    "tokenIdInt": 1253,
+    "experience_points": 0
+  },
+  "tokenId": "1253",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Champion's Sacrifice",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Leeched Devotee",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit's Claim",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Leeched Devotee",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/1253",
+  "animation_url": "https://fateofwagdie.com/characters/1253/animated"
+}

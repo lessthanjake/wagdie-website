@@ -1,0 +1,71 @@
+{
+  "name": "We are All Going to Die #4567",
+  "image": "ipfs://bafkreifnpxtr3l5dbsr3sjuvp7jlsufjxjlsw7jq6tszeicxsv6szctmnq",
+  "tokenId": "4567",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Yuria's Power",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Piat's Destruction",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "The Stranger's Mark",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Necromancer",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/4567",
+  "animation_url": "https://fateofwagdie.com/characters/4567/animated"
+}

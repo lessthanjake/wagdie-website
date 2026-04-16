@@ -1,0 +1,93 @@
+{
+  "name": "Urhur Stayanoga",
+  "image": "ipfs://bafkreigrwiltjo5xt357bq2xhqboe74a3n367nciqv7vzrpzcdn62rbmd4",
+  "sheet": {
+    "name": "Urhur Stayanoga",
+    "level": 1,
+    "origin": "Aged Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Zol's Woe"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 5,
+      "strength": 9,
+      "dexterity": 8,
+      "constitution": 14,
+      "intelligence": 13
+    },
+    "hit_points": 10,
+    "tokenIdInt": 2516,
+    "experience_points": 0
+  },
+  "tokenId": "2516",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Zol's Woe",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Her Illusionary Grace",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Aged Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Aged Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/2516",
+  "animation_url": "https://fateofwagdie.com/characters/2516/animated"
+}

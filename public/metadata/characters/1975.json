@@ -1,0 +1,71 @@
+{
+  "name": "We are All Going to Die #1975",
+  "image": "ipfs://bafkreicdqmxiv3a2wyq3prfoq7oeqxvjmgzwxvi536gxg37ttd5537iw6a",
+  "tokenId": "1975",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Verite Supports",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Piltin Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Royal Fool's Curse",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/1975",
+  "animation_url": "https://fateofwagdie.com/characters/1975/animated"
+}

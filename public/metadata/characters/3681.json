@@ -1,0 +1,94 @@
+{
+  "name": "Happy Burniversary",
+  "image": "ipfs://bafkreiftkz56nj5w6k6r5gde6zm4zeff224dni4v46vjhbipkjpyxwjyci",
+  "sheet": {
+    "name": "Happy Burniversary",
+    "level": 1,
+    "origin": "Aged Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "Her Silence",
+      "armor": "Her Zealot's Gear"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 3681,
+    "background_story": "Cleric Ennual keeps in the shadows just observing and recording. He was once an extreme devotee of Agora, but has recently been questioning his alignment. Now he is making notes of everything he is seeing, and much of it is starting to look unbalanced. ",
+    "experience_points": 0
+  },
+  "tokenId": "3681",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Zealot's Gear",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Aged Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Silence",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Cleric Ennual keeps in the shadows just observing and recording. He was once an extreme devotee of Agora, but has recently been questioning his alignment. Now he is making notes of everything he is seeing, and much of it is starting to look unbalanced. ",
+  "external_url": "https://fateofwagdie.com/characters/3681",
+  "animation_url": "https://fateofwagdie.com/characters/3681/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Zerdos",
+  "image": "https://i2c.seadn.io/ethereum/0x659a4bdaaacc62d2bd9cb18225d9c89b5b697a5a/0b5d603b6c04f32b4022599c48574b/1f0b5d603b6c04f32b4022599c48574b.png",
+  "sheet": {
+    "name": "Zerdos",
+    "level": 1,
+    "origin": "Seeker of Piat",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "An Ancient Device",
+      "armor": "Strange Cloth Cloak"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 13,
+      "strength": 12,
+      "dexterity": 14,
+      "constitution": 10,
+      "intelligence": 10
+    },
+    "hit_points": 8,
+    "tokenIdInt": 5508,
+    "background_story": "In the shadowed corridors of the Stalwart Fortress, Zerdos, once a mere scholar of ancient relics, rose to a peculiar destiny through the twisting paths of fate and arcane legacy. His journey began under the tutelage of Pyrrhus, a formidable adept of The Church of Her, whose mastery of Her Light had earned him a place among The Chosen in the Chamber. Pyrrhus, who bore a secret lineage to The Grand Jester's Tournament, met an untimely demise there, his powers celebrated and mourned in equal measure.\n\nUnknown to many, Pyrrhus had been the keeper of \"An Ancient Device,\" a mask of mysterious origin and uncharted powers. It was said to hold the essence of resurrection, not as a mere return to life but as a transformation and continuation of spirit in new forms. Upon his death, as per his last will, the mask found its way to Zerdos.\n\nWith the mask upon his face, Zerdos experienced an ethereal synthesis of his consciousness with fragments of Pyrrhus’s essence. This integration was not complete but allowed Zerdos glimpses into Pyrrhus's memories and unfinished quests. As a scholar, Zerdos had been brilliant but physically unremarkable. Now, endowed with enhanced wisdom and newfound strength from the mask, he seeks to continue Pyrrhus’s work, explore the untold powers of the mask, and unveil hidden truths of The Church of Her.\n\nBound by fate to the legacy of his late mentor and driven by the chaotic good nature of his scholarly curiosity, Zerdos steps into The Forsaken Lands, where every shadow and light may hold a secret of the mystical arts he now is sworn to master. His journey is more than a quest for power; it is a pilgrimage for enlightenment, seeking the truths behind Her Light and the mysteries veiled within The Ancient Device.",
+    "experience_points": 0
+  },
+  "tokenId": "5508",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "An Ancient Device",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Strange Cloth Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    }
+  ],
+  "description": "In the shadowed corridors of the Stalwart Fortress, Zerdos, once a mere scholar of ancient relics, rose to a peculiar destiny through the twisting paths of fate and arcane legacy. His journey began under the tutelage of Pyrrhus, a formidable adept of The Church of Her, whose mastery of Her Light had earned him a place among The Chosen in the Chamber. Pyrrhus, who bore a secret lineage to The Grand Jester's Tournament, met an untimely demise there, his powers celebrated and mourned in equal measure.\n\nUnknown to many, Pyrrhus had been the keeper of \"An Ancient Device,\" a mask of mysterious origin and uncharted powers. It was said to hold the essence of resurrection, not as a mere return to life but as a transformation and continuation of spirit in new forms. Upon his death, as per his last will, the mask found its way to Zerdos.\n\nWith the mask upon his face, Zerdos experienced an ethereal synthesis of his consciousness with fragments of Pyrrhus’s essence. This integration was not complete but allowed Zerdos glimpses into Pyrrhus's memories and unfinished quests. As a scholar, Zerdos had been brilliant but physically unremarkable. Now, endowed with enhanced wisdom and newfound strength from the mask, he seeks to continue Pyrrhus’s work, explore the untold powers of the mask, and unveil hidden truths of The Church of Her.\n\nBound by fate to the legacy of his late mentor and driven by the chaotic good nature of his scholarly curiosity, Zerdos steps into The Forsaken Lands, where every shadow and light may hold a secret of the mystical arts he now is sworn to master. His journey is more than a quest for power; it is a pilgrimage for enlightenment, seeking the truths behind Her Light and the mysteries veiled within The Ancient Device.",
+  "external_url": "https://fateofwagdie.com/characters/5508",
+  "animation_url": "https://fateofwagdie.com/characters/5508/animated"
+}

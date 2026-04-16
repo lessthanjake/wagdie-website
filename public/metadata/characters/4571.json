@@ -1,0 +1,94 @@
+{
+  "name": "Slave #2",
+  "image": "ipfs://bafkreid6qteu35q67i6gevvrzhstuxmkcosahbdn2s7hwqxfigxsc72ooa",
+  "sheet": {
+    "name": "Slave #2",
+    "level": 1,
+    "origin": "Young Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "Thorgod's Symbol",
+      "armor": "Verite Encumbrance"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 13,
+      "strength": 9,
+      "dexterity": 12,
+      "constitution": 11,
+      "intelligence": 14
+    },
+    "hit_points": 2,
+    "tokenIdInt": 4571,
+    "background_story": "Journal Log: I don't remember what happened to Slave #1, but my fate must be coming to an end as well. Thankfully, my owner has given me this ridiculously strong but ugly looking armor. Until the next mission, lads.",
+    "experience_points": 0
+  },
+  "tokenId": "4571",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Verite Encumbrance",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Earth Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Thorgod's Symbol",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Journal Log: I don't remember what happened to Slave #1, but my fate must be coming to an end as well. Thankfully, my owner has given me this ridiculously strong but ugly looking armor. Until the next mission, lads.",
+  "external_url": "https://fateofwagdie.com/characters/4571",
+  "animation_url": "https://fateofwagdie.com/characters/4571/animated"
+}

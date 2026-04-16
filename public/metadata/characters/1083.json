@@ -1,0 +1,94 @@
+{
+  "name": "Alden the Ascetic",
+  "image": "ipfs://bafkreiepem4ln7s2oehlt4hj3rwkpz43fyijukcipjuqd7huh3byeutqsq",
+  "sheet": {
+    "name": "Alden the Ascetic",
+    "level": 3,
+    "origin": "Zolian Worm",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Favor",
+      "mask": "None",
+      "armor": "The Wisened"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 6,
+      "strength": 8,
+      "dexterity": 14,
+      "constitution": 12,
+      "intelligence": 20
+    },
+    "hit_points": 9,
+    "tokenIdInt": 1083,
+    "background_story": "- 𝔄𝔫𝔶 𝔯𝔢𝔞𝔰𝔬𝔫𝔞𝔟𝔩𝔢 𝔞𝔯𝔢 𝔱𝔥𝔢𝔯𝔢. 𝔞𝔩𝔩 𝔢𝔵𝔦𝔰𝔱𝔢𝔫𝔠𝔢 𝔦𝔰 𝔯𝔢𝔞𝔰𝔬𝔫𝔞𝔟𝔩𝔢. -\n\nExistence is misery, every day is ascetic practice. Alden used to trap himself in the prison of yore. But the days are gone, he frees himself from prison and then try to travel to different place as ascetic practice.",
+    "experience_points": 111
+  },
+  "tokenId": "1083",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "The Wisened",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Favor",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "- 𝔄𝔫𝔶 𝔯𝔢𝔞𝔰𝔬𝔫𝔞𝔟𝔩𝔢 𝔞𝔯𝔢 𝔱𝔥𝔢𝔯𝔢. 𝔞𝔩𝔩 𝔢𝔵𝔦𝔰𝔱𝔢𝔫𝔠𝔢 𝔦𝔰 𝔯𝔢𝔞𝔰𝔬𝔫𝔞𝔟𝔩𝔢. -\n\nExistence is misery, every day is ascetic practice. Alden used to trap himself in the prison of yore. But the days are gone, he frees himself from prison and then try to travel to different place as ascetic practice.",
+  "external_url": "https://fateofwagdie.com/characters/1083",
+  "animation_url": "https://fateofwagdie.com/characters/1083/animated"
+}

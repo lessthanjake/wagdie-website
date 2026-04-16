@@ -1,0 +1,94 @@
+{
+  "name": "The Everburned",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/2113.png",
+  "sheet": {
+    "name": "The Everburned",
+    "level": 1,
+    "origin": "Hardened Merchant",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Zol's Woe"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 2113,
+    "background_story": "This character has not yet been encountered.",
+    "experience_points": 0
+  },
+  "tokenId": "2113",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Zol's Woe",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Her Ember",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Her Ember",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Bonfire",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "This character has not yet been encountered.",
+  "external_url": "https://fateofwagdie.com/characters/2113",
+  "animation_url": "https://fateofwagdie.com/characters/2113/animated"
+}

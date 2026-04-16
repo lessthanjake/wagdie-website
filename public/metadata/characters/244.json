@@ -1,0 +1,93 @@
+{
+  "name": "Mival",
+  "image": "ipfs://bafkreielv3m5wiabpyr2tmmwia265wa4ck543xeiihn4ni7cqipl3qlw4m",
+  "sheet": {
+    "name": "Mival",
+    "level": 4,
+    "origin": "Astorian Adventurer",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Worm Touch",
+      "armor": "Dark One's Call"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 13,
+      "strength": 12,
+      "dexterity": 14,
+      "constitution": 10,
+      "intelligence": 14
+    },
+    "hit_points": 3,
+    "tokenIdInt": 244,
+    "experience_points": 30
+  },
+  "tokenId": "244",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Dark One's Call",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Worm Touch",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/244",
+  "animation_url": "https://fateofwagdie.com/characters/244/animated"
+}

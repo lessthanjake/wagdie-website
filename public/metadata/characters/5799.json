@@ -1,0 +1,90 @@
+{
+  "name": "𝔖𝔢𝔯𝔞𝔭𝔥𝔦𝔫𝔞, 𝔗𝔥𝔢 𝔊𝔩𝔲𝔱𝔱𝔬𝔫'𝔰 𝔈𝔪𝔦𝔰𝔰𝔞𝔯𝔶 ",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/5799.png",
+  "sheet": {
+    "name": "𝔖𝔢𝔯𝔞𝔭𝔥𝔦𝔫𝔞, 𝔗𝔥𝔢 𝔊𝔩𝔲𝔱𝔱𝔬𝔫'𝔰 𝔈𝔪𝔦𝔰𝔰𝔞𝔯𝔶 ",
+    "level": 10,
+    "origin": "Wormkin Elite",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Favor in Light",
+      "mask": "Solar Champion's Helm",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 17,
+      "strength": 15,
+      "dexterity": 6,
+      "constitution": 16,
+      "intelligence": 13
+    },
+    "hit_points": 10,
+    "tokenIdInt": 5799,
+    "background_story": "𝔖𝔢𝔯𝔞𝔭𝔥𝔦𝔫𝔞!  ℑ 𝔥𝔞𝔳𝔢 𝔟𝔢𝔢𝔫 𝔴𝔞𝔦𝔱𝔦𝔫𝔤 𝔣𝔬𝔯 𝔶𝔬𝔲.  ℭ𝔬𝔪𝔢, 𝔩𝔢𝔱 𝔪𝔢 𝔰𝔥𝔬𝔴 𝔶𝔬𝔲 𝔪𝔶 𝔰𝔬𝔲𝔭 ...\n\nSee, The Glutton had become lonely, and being unable to venture far from Piyu he yearned for adventure.  There seemed to be so much happening in the rest of the Forsaken Lands and since he gorged himself on 62 pilgrims in one go, things had been a little dull.\n\nAfter chatting for some time, Seraphina willingly allowed The Glutton to sear his Soup into her flesh, completing her transformation and creating an eternal bond.\n\n𝔜𝔬𝔲 𝔰𝔥𝔞𝔩𝔩 𝔟𝔢 𝔪𝔶 𝔢𝔪𝔦𝔰𝔰𝔞𝔯𝔶.  𝔐𝔶 𝔢𝔶𝔢𝔰, 𝔢𝔞𝔯𝔰 𝔞𝔫𝔡 𝔳𝔬𝔦𝔠𝔢 𝔬𝔲𝔱𝔰𝔦𝔡𝔢 𝔬𝔣 𝔱𝔥𝔢 𝔓𝔯𝔦𝔪𝔬𝔡𝔦𝔞𝔩 𝔏𝔞𝔫𝔡𝔰.  𝔄𝔱 𝔱𝔥𝔢 𝔯𝔦𝔤𝔥𝔱 𝔱𝔦𝔪𝔢 𝔶𝔬𝔲 𝔰𝔥𝔞𝔩𝔩 𝔳𝔢𝔫𝔱𝔲𝔯𝔢 𝔣𝔬𝔯𝔱𝔥 - 𝔣𝔬𝔯 𝔫𝔬𝔴 𝔶𝔬𝔲 𝔪𝔞𝔶 𝔯𝔢𝔰𝔱 𝔴𝔦𝔱𝔥 𝔪𝔢 𝔥𝔢𝔯𝔢 𝔦𝔫 𝔪𝔶 𝔥𝔲𝔱.\n",
+    "experience_points": 100
+  },
+  "tokenId": "5799",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Favor in Light",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Solar Champion's Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Glutton's Blessing",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Gnawed Bone",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Ancient Reflections",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "𝔖𝔢𝔯𝔞𝔭𝔥𝔦𝔫𝔞!  ℑ 𝔥𝔞𝔳𝔢 𝔟𝔢𝔢𝔫 𝔴𝔞𝔦𝔱𝔦𝔫𝔤 𝔣𝔬𝔯 𝔶𝔬𝔲.  ℭ𝔬𝔪𝔢, 𝔩𝔢𝔱 𝔪𝔢 𝔰𝔥𝔬𝔴 𝔶𝔬𝔲 𝔪𝔶 𝔰𝔬𝔲𝔭 ...\n\nSee, The Glutton had become lonely, and being unable to venture far from Piyu he yearned for adventure.  There seemed to be so much happening in the rest of the Forsaken Lands and since he gorged himself on 62 pilgrims in one go, things had been a little dull.\n\nAfter chatting for some time, Seraphina willingly allowed The Glutton to sear his Soup into her flesh, completing her transformation and creating an eternal bond.\n\n𝔜𝔬𝔲 𝔰𝔥𝔞𝔩𝔩 𝔟𝔢 𝔪𝔶 𝔢𝔪𝔦𝔰𝔰𝔞𝔯𝔶.  𝔐𝔶 𝔢𝔶𝔢𝔰, 𝔢𝔞𝔯𝔰 𝔞𝔫𝔡 𝔳𝔬𝔦𝔠𝔢 𝔬𝔲𝔱𝔰𝔦𝔡𝔢 𝔬𝔣 𝔱𝔥𝔢 𝔓𝔯𝔦𝔪𝔬𝔡𝔦𝔞𝔩 𝔏𝔞𝔫𝔡𝔰.  𝔄𝔱 𝔱𝔥𝔢 𝔯𝔦𝔤𝔥𝔱 𝔱𝔦𝔪𝔢 𝔶𝔬𝔲 𝔰𝔥𝔞𝔩𝔩 𝔳𝔢𝔫𝔱𝔲𝔯𝔢 𝔣𝔬𝔯𝔱𝔥 - 𝔣𝔬𝔯 𝔫𝔬𝔴 𝔶𝔬𝔲 𝔪𝔞𝔶 𝔯𝔢𝔰𝔱 𝔴𝔦𝔱𝔥 𝔪𝔢 𝔥𝔢𝔯𝔢 𝔦𝔫 𝔪𝔶 𝔥𝔲𝔱.\n",
+  "external_url": "https://fateofwagdie.com/characters/5799",
+  "animation_url": "https://fateofwagdie.com/characters/5799/animated"
+}

@@ -1,0 +1,71 @@
+{
+  "name": "We are All Going to Die #172",
+  "image": "ipfs://bafkreif3sa456dtc4h5wbsgqnnnhn7gk77ekzuufzvsgfa7ut5zut4nfeu",
+  "tokenId": "172",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Valorite Amateur Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Feeble Spikes",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Noxium Death Cage",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/172",
+  "animation_url": "https://fateofwagdie.com/characters/172/animated"
+}

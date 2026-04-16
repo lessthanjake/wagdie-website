@@ -1,0 +1,82 @@
+{
+  "name": "Shadow, Agora's final cast",
+  "image": "ipfs://bafkreif2lkaqj4iujby6vla3lelfpxd4kyt3jg4ovzkgkay3v2ik2nto3e",
+  "sheet": {
+    "name": "Shadow, Agora's final cast",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 1,
+      "charisma": 1,
+      "strength": 1,
+      "dexterity": 1,
+      "constitution": 1,
+      "intelligence": 1
+    },
+    "hit_points": 1,
+    "tokenIdInt": 2387,
+    "background_story": "Shadow is what happens when you try and shine light upon the world. Nothing can be without darkness.",
+    "experience_points": 0
+  },
+  "tokenId": "2387",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Swamp Witch Disciple",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Swamp Witch Disciple",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Shadow is what happens when you try and shine light upon the world. Nothing can be without darkness.",
+  "external_url": "https://fateofwagdie.com/characters/2387",
+  "animation_url": "https://fateofwagdie.com/characters/2387/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Seldor",
+  "image": "ipfs://bafkreib7tz53b43hk24opim42uqe4kcvdnvccg2sbwspgymaebmmnojsqy",
+  "sheet": {
+    "name": "Seldor",
+    "level": 2,
+    "origin": "Logun Disciple",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Yogg's Folly",
+      "armor": "Valorite Amateur Garb"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 16,
+      "strength": 15,
+      "dexterity": 11,
+      "constitution": 8,
+      "intelligence": 14
+    },
+    "hit_points": 31,
+    "tokenIdInt": 75,
+    "background_story": "Raised among the Druids of Logun, Seldor learned from a young age to look at all things with balance. He longed to travel the lands and see the greatness that the Two may bring. Upon trying the Noxium Brew of a passing merchant, his search was over. Ever since he has been a member of the Traveling Jesters delivering good tidings to all.",
+    "experience_points": 190
+  },
+  "tokenId": "75",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Valorite Amateur Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zaban Rough Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Yogg's Folly",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Raised among the Druids of Logun, Seldor learned from a young age to look at all things with balance. He longed to travel the lands and see the greatness that the Two may bring. Upon trying the Noxium Brew of a passing merchant, his search was over. Ever since he has been a member of the Traveling Jesters delivering good tidings to all.",
+  "external_url": "https://fateofwagdie.com/characters/75",
+  "animation_url": "https://fateofwagdie.com/characters/75/animated"
+}

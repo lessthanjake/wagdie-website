@@ -1,0 +1,94 @@
+{
+  "name": "Sunfire",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/2943.png",
+  "sheet": {
+    "name": "Sunfire",
+    "level": 1,
+    "origin": "Astorian Adventurer",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Worm Touch",
+      "armor": "Logun Forged Weight"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 2943,
+    "background_story": "Yeah...",
+    "experience_points": 0
+  },
+  "tokenId": "2943",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun Forged Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Brimstone",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Envious Locks",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Worm Touch",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Serpent's Maw",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Nameless Scale Fragment",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Wormkin",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Yeah...",
+  "external_url": "https://fateofwagdie.com/characters/2943",
+  "animation_url": "https://fateofwagdie.com/characters/2943/animated"
+}

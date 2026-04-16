@@ -1,0 +1,93 @@
+{
+  "name": "Riswynn Lutgehr",
+  "image": "ipfs://bafkreih7xqvzg5svyixcuofrsbqycozl7adxtaaifvtxjuqj366pu63ezu",
+  "sheet": {
+    "name": "Riswynn Lutgehr",
+    "level": 1,
+    "origin": "Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "Noxium Death Cage",
+      "armor": "Verite Protection"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 15,
+      "strength": 13,
+      "dexterity": 16,
+      "constitution": 14,
+      "intelligence": 14
+    },
+    "hit_points": 10,
+    "tokenIdInt": 5670,
+    "experience_points": 0
+  },
+  "tokenId": "5670",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Verite Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit's Pieces",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Noxium Death Cage",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/5670",
+  "animation_url": "https://fateofwagdie.com/characters/5670/animated"
+}

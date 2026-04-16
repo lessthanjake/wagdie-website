@@ -1,0 +1,82 @@
+{
+  "name": "Ø",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/5659.png",
+  "sheet": {
+    "name": "Ø",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 16,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 20
+    },
+    "hit_points": 0,
+    "tokenIdInt": 5659,
+    "background_story": "\n\n[[KRAK.....KRAKKK..KRAK.KRAK]]\n\n[[KRRRRRRR.........KRAK]]\n\n[[AK..AK...KRAK..AK]]\n\n[[KRRRRRAAAAAKKK...]]",
+    "experience_points": 0
+  },
+  "tokenId": "5659",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Swamp Witch Curse",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Swamp Witch Curse",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Mystic Smoke",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Wraynman's Vial",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Mystics",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "\n\n[[KRAK.....KRAKKK..KRAK.KRAK]]\n\n[[KRRRRRRR.........KRAK]]\n\n[[AK..AK...KRAK..AK]]\n\n[[KRRRRRAAAAAKKK...]]",
+  "external_url": "https://fateofwagdie.com/characters/5659",
+  "animation_url": "https://fateofwagdie.com/characters/5659/animated"
+}

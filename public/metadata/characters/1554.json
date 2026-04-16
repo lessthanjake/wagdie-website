@@ -1,0 +1,94 @@
+{
+  "name": "Guile",
+  "image": "ipfs://bafkreidjc4iyknvc3l747k7vqratje4dlkrvhfab7dyyckpcltlj7pqkve",
+  "sheet": {
+    "name": "Guile",
+    "level": 1,
+    "origin": "Hardened Merchant",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "None",
+      "armor": "Her Zealot's Gear"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 1554,
+    "background_story": "As the newest member to Wolf's party Guile feels the most responsible and obligated to prove he had nothing to do with the Fury who stole the Molten Talisman.\n\n",
+    "experience_points": 0
+  },
+  "tokenId": "1554",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Zealot's Gear",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Body"
+    },
+    {
+      "value": "More Envious Locks",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "As the newest member to Wolf's party Guile feels the most responsible and obligated to prove he had nothing to do with the Fury who stole the Molten Talisman.\n\n",
+  "external_url": "https://fateofwagdie.com/characters/1554",
+  "animation_url": "https://fateofwagdie.com/characters/1554/animated"
+}

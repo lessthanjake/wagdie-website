@@ -1,0 +1,94 @@
+{
+  "name": "Dryn \"Not Usually a Sign guy... but geeze\"",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/432.png",
+  "sheet": {
+    "name": "Dryn \"Not Usually a Sign guy... but geeze\"",
+    "level": 1,
+    "origin": "Her Hidden Blade",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Uirian Outfit"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 8,
+      "strength": 9,
+      "dexterity": 12,
+      "constitution": 14,
+      "intelligence": 16
+    },
+    "hit_points": 4,
+    "tokenIdInt": 432,
+    "background_story": "\"GET A BRAIN MORANS!\"\n\n^ this was my sign.  \n\nI was there during the protest of the Judicar.  I honestly thought it would be peaceful.  but that word doesn't have any meaning in these Forsaken Lands.  \n\nAnd no, I didn't kill her.  But I also didn't try to stop the mob from killing her.  That guilt weighs heavily on my mind.\n\nI somehow feel compelled to stop... no... assist the Crow with the ritual this evening?  That doesn't make any sense.  No idea where this thought is coming from...  \n\nmaybe I can find some sort of redemption. Her forgiveness...\n\n",
+    "experience_points": 0
+  },
+  "tokenId": "432",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Uirian Outfit",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Makeshift Polearm",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Encampment Medallion",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Encampment Militia",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "\"GET A BRAIN MORANS!\"\n\n^ this was my sign.  \n\nI was there during the protest of the Judicar.  I honestly thought it would be peaceful.  but that word doesn't have any meaning in these Forsaken Lands.  \n\nAnd no, I didn't kill her.  But I also didn't try to stop the mob from killing her.  That guilt weighs heavily on my mind.\n\nI somehow feel compelled to stop... no... assist the Crow with the ritual this evening?  That doesn't make any sense.  No idea where this thought is coming from...  \n\nmaybe I can find some sort of redemption. Her forgiveness...\n\n",
+  "external_url": "https://fateofwagdie.com/characters/432",
+  "animation_url": "https://fateofwagdie.com/characters/432/animated"
+}

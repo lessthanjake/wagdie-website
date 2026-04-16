@@ -1,0 +1,94 @@
+{
+  "name": "The Royal Fool",
+  "image": "https://i2c.seadn.io/ethereum/0x659a4bdaaacc62d2bd9cb18225d9c89b5b697a5a/233e47d077b873b30ad214372dca52/a8233e47d077b873b30ad214372dca52.png",
+  "sheet": {
+    "name": "The Royal Fool",
+    "level": 1,
+    "origin": "Her Hidden Blade",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Royal Fool's Curse",
+      "armor": "Her Champion's Sacrifice"
+    },
+    "attributes": {
+      "wisdom": 18,
+      "charisma": 18,
+      "strength": 18,
+      "dexterity": 6,
+      "constitution": 12,
+      "intelligence": 12
+    },
+    "hit_points": 18,
+    "tokenIdInt": 6427,
+    "background_story": "Born of noble blood, and destined to succeed the throne of his kingdom, he has dedicated his way of life to being the living embodiment of the law.  \n\nHe believes firmly that true justice is blind, in that one's transgressions will be judged solely by the severity of the act, whether high or low born.\n\nThis rigid and uniform system of judgement was considered foolish by many, once even those of noble blood were being imprisoned and even executed. \n\nAs he returned to the forsaken lands and neared the second anniversary of The Bonfire, he returned to the Church of Her, carrying the token of Her Ember as he had for nearly two years. The most blessed token came into his possession after one of his original companions, an assassin disguised as a Mad Jester felt the calling for his own death and sacrificed himself in The Bonfire.\n\nIn a most devout ritual, The Royal Fool stood before Her statue, not as a king or even as one of her champions. He stood upon her hallowed ground as a simple descendant of Her Hidden Blade. Embracing the searing glory of Her Ember, he realized his destined form as one of the few or perhaps the only member of his lineage to bear Her Champion’s Sacrifice and to have his flesh seared in Her name.\n\nHe escorted two of his band to the Crow’s Den, then returned to the Church of Her with his accursed Decrepit companion whose ghastly form was a constant reminder of Detriti’s mark on this world. Though before leaving the Crow’s Den, he could’ve sword the Decrepit and The Shadowed Scribe exchanged whispered words… impossible and surely just his imagination.\n\nAlas, somehow his whereabouts were leaked to one who hunted him and others who received the cure to The Spread. \n\nIt happened faster than he could process the presence of the threat as the blade passed swiftly through his neck. In his last glimpse of light, he saw the decrepit beside the one wielding the blade, The Lord of the Pyre. In the Decrepit’s shadowy voice he heard “A convenient death serving us both. One so devoted to Her was too risky to be left alive and might have upset the balance in Her favor.”\n\nAs he drifted to oblivion the familiar voice of his sacrificed companion grew audible… “Welcome to the void, brother. Now we prepare for what comes next”.",
+    "experience_points": 666
+  },
+  "tokenId": "6427",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Noble's Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Royal Fool's Curse",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Her Champion's Sacrifice",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Bonfire",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Ember",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Her Ember",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    }
+  ],
+  "description": "Born of noble blood, and destined to succeed the throne of his kingdom, he has dedicated his way of life to being the living embodiment of the law.  \n\nHe believes firmly that true justice is blind, in that one's transgressions will be judged solely by the severity of the act, whether high or low born.\n\nThis rigid and uniform system of judgement was considered foolish by many, once even those of noble blood were being imprisoned and even executed. \n\nAs he returned to the forsaken lands and neared the second anniversary of The Bonfire, he returned to the Church of Her, carrying the token of Her Ember as he had for nearly two years. The most blessed token came into his possession after one of his original companions, an assassin disguised as a Mad Jester felt the calling for his own death and sacrificed himself in The Bonfire.\n\nIn a most devout ritual, The Royal Fool stood before Her statue, not as a king or even as one of her champions. He stood upon her hallowed ground as a simple descendant of Her Hidden Blade. Embracing the searing glory of Her Ember, he realized his destined form as one of the few or perhaps the only member of his lineage to bear Her Champion’s Sacrifice and to have his flesh seared in Her name.\n\nHe escorted two of his band to the Crow’s Den, then returned to the Church of Her with his accursed Decrepit companion whose ghastly form was a constant reminder of Detriti’s mark on this world. Though before leaving the Crow’s Den, he could’ve sword the Decrepit and The Shadowed Scribe exchanged whispered words… impossible and surely just his imagination.\n\nAlas, somehow his whereabouts were leaked to one who hunted him and others who received the cure to The Spread. \n\nIt happened faster than he could process the presence of the threat as the blade passed swiftly through his neck. In his last glimpse of light, he saw the decrepit beside the one wielding the blade, The Lord of the Pyre. In the Decrepit’s shadowy voice he heard “A convenient death serving us both. One so devoted to Her was too risky to be left alive and might have upset the balance in Her favor.”\n\nAs he drifted to oblivion the familiar voice of his sacrificed companion grew audible… “Welcome to the void, brother. Now we prepare for what comes next”.",
+  "external_url": "https://fateofwagdie.com/characters/6427",
+  "animation_url": "https://fateofwagdie.com/characters/6427/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Elizabeth Corporus",
+  "image": "ipfs://bafkreiamcde5rtojj4jzmsatqahu5rzq5h4mkxonodv5rmogxib5zjy574",
+  "sheet": {
+    "name": "Elizabeth Corporus",
+    "level": 1,
+    "origin": "Young Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "None",
+      "armor": "Her Cursed Outcast"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 14,
+      "strength": 12,
+      "dexterity": 16,
+      "constitution": 10,
+      "intelligence": 13
+    },
+    "hit_points": 11,
+    "tokenIdInt": 5201,
+    "background_story": "Elizabeth Corporus is a skilled knight hailing from the Ruined Kingdoms of Yore. She is an expert in archery and has honed her skills to perfection. Elizabeth holds a strong belief that The Forsaken Lands are a living hell.\n\nShe has been in a long-time relationship with Taurus, The Brute.",
+    "experience_points": 0
+  },
+  "tokenId": "5201",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Cursed Outcast",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Death Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Elizabeth Corporus is a skilled knight hailing from the Ruined Kingdoms of Yore. She is an expert in archery and has honed her skills to perfection. Elizabeth holds a strong belief that The Forsaken Lands are a living hell.\n\nShe has been in a long-time relationship with Taurus, The Brute.",
+  "external_url": "https://fateofwagdie.com/characters/5201",
+  "animation_url": "https://fateofwagdie.com/characters/5201/animated"
+}

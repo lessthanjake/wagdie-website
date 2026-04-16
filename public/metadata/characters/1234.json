@@ -1,0 +1,94 @@
+{
+  "name": "Judicar, Mara Solar",
+  "image": "ipfs://bafkreibr7yppcdlfpk24lub2wumr5hmngtlgiihuwc7mj6cc75rpfunt44",
+  "sheet": {
+    "name": "Judicar, Mara Solar",
+    "level": 18,
+    "origin": "Astorian Adventurer",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Blind Thief's Charm",
+      "armor": "Healer's Dress"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 10,
+      "strength": 15,
+      "dexterity": 17,
+      "constitution": 14,
+      "intelligence": 14
+    },
+    "hit_points": 10,
+    "tokenIdInt": 1234,
+    "background_story": "Mara Solar grew up in poverty, and blamed the injustice of crime as the greatest factor contributing to her station in life.\n\nThus, she vowed to become a protector of the law, and servant of the downtrodden.\n\nShe acts as Judicar on behalf of the Encampment of Her Light, hunting criminals with extreme prejudice.",
+    "experience_points": 40
+  },
+  "tokenId": "1234",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Healer's Dress",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zol's Elegance",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Blind Thief's Charm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Mara Solar grew up in poverty, and blamed the injustice of crime as the greatest factor contributing to her station in life.\n\nThus, she vowed to become a protector of the law, and servant of the downtrodden.\n\nShe acts as Judicar on behalf of the Encampment of Her Light, hunting criminals with extreme prejudice.",
+  "external_url": "https://fateofwagdie.com/characters/1234",
+  "animation_url": "https://fateofwagdie.com/characters/1234/animated"
+}

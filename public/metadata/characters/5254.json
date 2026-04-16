@@ -1,0 +1,93 @@
+{
+  "name": "Spearmint Gum - So Fresh!",
+  "image": "ipfs://bafkreihe7de47e4olpl3ayn4rqdca4ncjmj3stsgj7tz3c5crb3ev2gxue",
+  "sheet": {
+    "name": "Spearmint Gum - So Fresh!",
+    "level": 10,
+    "origin": "Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Goldbeard's Eyes",
+      "armor": "Noxian Jester Garb"
+    },
+    "attributes": {
+      "wisdom": 9,
+      "charisma": 8,
+      "strength": 7,
+      "dexterity": 8,
+      "constitution": 9,
+      "intelligence": 11
+    },
+    "hit_points": 12,
+    "tokenIdInt": 5254,
+    "experience_points": 80
+  },
+  "tokenId": "5254",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Noxian Jester Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Vaulted",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit Set",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Goldbeard's Eyes",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/5254",
+  "animation_url": "https://fateofwagdie.com/characters/5254/animated"
+}

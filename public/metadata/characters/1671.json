@@ -1,0 +1,90 @@
+{
+  "name": "Agora's Blade",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/1671.png",
+  "sheet": {
+    "name": "Agora's Blade",
+    "level": 1,
+    "origin": "Transformed Devotee",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Silence",
+      "armor": "Peasant Garb"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 14,
+      "strength": 4,
+      "dexterity": 10,
+      "constitution": 9,
+      "intelligence": 11
+    },
+    "hit_points": 7,
+    "tokenIdInt": 1671,
+    "background_story": "Many seasons past in the Forsaken Lands of old, where the sky was often shrouded in mist, and the earth shook with the tread of mighty beasts, there lived a holy knight known only as \"Agora's Blade\".\n\nIn a world beset by darkness he stood as a shining beacon of hope. Armed with his sacred sword, blessed by the goddess herself, he rode forth to battle against the minions of the shadow. His skill with a blade was unmatched, and his courage in the face of danger was unwavering.\n\nAnd so, he became known as the defender of the forsaken, the slayer of the wicked, and the protector of the innocent. Mother Agora smiled down upon her faithful knight, and the people of the Forsaken Lands whispered his name in hushed tones, filled with awe and reverence.\n\nHe roamed the realm, righting wrongs, and fighting for justice. His legend grew with each passing day, and all who knew of him saw him as a symbol of hope, a shining star in the darkness.  And though his name may have been lost to time, his deeds would live on forever, for he was truly Agora's Blade, the sword of the goddess, and the defender of the Forsaken Lands.\n\n",
+    "experience_points": 0
+  },
+  "tokenId": "1671",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Peasant Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Altered",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Transformed Devotee",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Her Silence",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Transformed Devotee",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Worm Greatsword",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Many seasons past in the Forsaken Lands of old, where the sky was often shrouded in mist, and the earth shook with the tread of mighty beasts, there lived a holy knight known only as \"Agora's Blade\".\n\nIn a world beset by darkness he stood as a shining beacon of hope. Armed with his sacred sword, blessed by the goddess herself, he rode forth to battle against the minions of the shadow. His skill with a blade was unmatched, and his courage in the face of danger was unwavering.\n\nAnd so, he became known as the defender of the forsaken, the slayer of the wicked, and the protector of the innocent. Mother Agora smiled down upon her faithful knight, and the people of the Forsaken Lands whispered his name in hushed tones, filled with awe and reverence.\n\nHe roamed the realm, righting wrongs, and fighting for justice. His legend grew with each passing day, and all who knew of him saw him as a symbol of hope, a shining star in the darkness.  And though his name may have been lost to time, his deeds would live on forever, for he was truly Agora's Blade, the sword of the goddess, and the defender of the Forsaken Lands.\n\n",
+  "external_url": "https://fateofwagdie.com/characters/1671",
+  "animation_url": "https://fateofwagdie.com/characters/1671/animated"
+}

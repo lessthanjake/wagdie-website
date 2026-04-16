@@ -1,0 +1,82 @@
+{
+  "name": "Knight of Regret",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/1003.png",
+  "sheet": {
+    "name": "Knight of Regret",
+    "level": 3,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Yogg's Love",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 17,
+      "charisma": 16,
+      "strength": 13,
+      "dexterity": 12,
+      "constitution": 14,
+      "intelligence": 15
+    },
+    "hit_points": 46,
+    "tokenIdInt": 1003,
+    "background_story": "An embodiment of sorrowful reflection.",
+    "experience_points": 0
+  },
+  "tokenId": "1003",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Galactic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Fallen Worshipper",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Yogg's Love",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Fallen Worshipper",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Her Truth",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Encampment Medallion",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Encampment Militia",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "An embodiment of sorrowful reflection.",
+  "external_url": "https://fateofwagdie.com/characters/1003",
+  "animation_url": "https://fateofwagdie.com/characters/1003/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Lyle Kyle",
+  "image": "ipfs://bafkreibri6slbaaqbb27gafj7xingha6bsmliyhnargrl6zlprvhcjtfhq",
+  "sheet": {
+    "name": "Lyle Kyle",
+    "level": 1,
+    "origin": "Foolish Jester",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Favor in Light",
+      "mask": "Eunech's Prison",
+      "armor": "Detritus Mail"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 11,
+      "strength": 10,
+      "dexterity": 14,
+      "constitution": 10,
+      "intelligence": 12
+    },
+    "hit_points": 7,
+    "tokenIdInt": 1633,
+    "background_story": "Lyle isnt just any other Kyle Lyle Kyle loves floating around the primordial lands. Studying mushrooms and eating salt and pepper pistachios. Some times  he/they like to rock some lo fi songs on their ipod shuffle that he found in a walgreens shopping cart.\n\n",
+    "experience_points": 0
+  },
+  "tokenId": "1633",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Detritus Mail",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Favor in Light",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Eunech's Prison",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Lyle isnt just any other Kyle Lyle Kyle loves floating around the primordial lands. Studying mushrooms and eating salt and pepper pistachios. Some times  he/they like to rock some lo fi songs on their ipod shuffle that he found in a walgreens shopping cart.\n\n",
+  "external_url": "https://fateofwagdie.com/characters/1633",
+  "animation_url": "https://fateofwagdie.com/characters/1633/animated"
+}

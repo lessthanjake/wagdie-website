@@ -1,0 +1,94 @@
+{
+  "name": "Knightfaul",
+  "image": "ipfs://bafkreihrmvnccikz44rq6qiuucgpeyc77jbciz4y6ht5dwc5jus3bixyxi",
+  "sheet": {
+    "name": "Knightfaul",
+    "level": 1,
+    "origin": "Pilgrim",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Stranger's Cry",
+      "armor": "Verite Supports"
+    },
+    "attributes": {
+      "wisdom": 8,
+      "charisma": 8,
+      "strength": 13,
+      "dexterity": 9,
+      "constitution": 13,
+      "intelligence": 6
+    },
+    "hit_points": 44,
+    "tokenIdInt": 1414,
+    "background_story": "On the night of his betrothal, his bride, Princess of the Verdant, was poisoned by the dart of a hired assassin.  \n\nHeartbroken and rageful, he forsook his code of chivalry and donned his beloved's ceremonial armor, vowing not to rest until she was avenged. After months of relentless pursuit, word reached his ears of the assassin's appearance at the edge of the Child's Nest. The end of a long vendetta draws near...",
+    "experience_points": 0
+  },
+  "tokenId": "1414",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Verite Supports",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Stranger's Cry",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "On the night of his betrothal, his bride, Princess of the Verdant, was poisoned by the dart of a hired assassin.  \n\nHeartbroken and rageful, he forsook his code of chivalry and donned his beloved's ceremonial armor, vowing not to rest until she was avenged. After months of relentless pursuit, word reached his ears of the assassin's appearance at the edge of the Child's Nest. The end of a long vendetta draws near...",
+  "external_url": "https://fateofwagdie.com/characters/1414",
+  "animation_url": "https://fateofwagdie.com/characters/1414/animated"
+}

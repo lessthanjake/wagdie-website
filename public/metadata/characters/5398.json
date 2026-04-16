@@ -1,0 +1,94 @@
+{
+  "name": "Silver Shield",
+  "image": "ipfs://bafkreighks5s4izak3ns3abaotr4emojqfdtwyetaesulbdtjmlnshewfu",
+  "sheet": {
+    "name": "Silver Shield",
+    "level": 1,
+    "origin": "Wormlord Acolyte",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "He Who Does Not See",
+      "armor": "Luta's Full Weight"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 8,
+      "strength": 18,
+      "dexterity": 12,
+      "constitution": 16,
+      "intelligence": 12
+    },
+    "hit_points": 20,
+    "tokenIdInt": 5398,
+    "background_story": "Silver Shield, his visage concealed by a mask wrought from dark metals. His tarnished armor, marred by endless encounters with aberrant beasts. A lone knight, his presence is both a beacon of defiance and a harbinger of solitude.",
+    "experience_points": 0
+  },
+  "tokenId": "5398",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Luta's Full Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit Set",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "He Who Does Not See",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Silver Shield, his visage concealed by a mask wrought from dark metals. His tarnished armor, marred by endless encounters with aberrant beasts. A lone knight, his presence is both a beacon of defiance and a harbinger of solitude.",
+  "external_url": "https://fateofwagdie.com/characters/5398",
+  "animation_url": "https://fateofwagdie.com/characters/5398/animated"
+}

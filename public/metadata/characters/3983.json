@@ -1,0 +1,94 @@
+{
+  "name": "Liam McMullen",
+  "image": "ipfs://bafkreibjfc6z5v5cplng6zo4sfaknq2ze565tpaj4dvebj27inupajajdu",
+  "sheet": {
+    "name": "Liam McMullen",
+    "level": 1,
+    "origin": "Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Royal Fool's Curse",
+      "armor": "Worm's Protection"
+    },
+    "attributes": {
+      "wisdom": 2,
+      "charisma": 15,
+      "strength": 30,
+      "dexterity": 15,
+      "constitution": 4,
+      "intelligence": 10
+    },
+    "hit_points": 50,
+    "tokenIdInt": 3983,
+    "background_story": "Liam's royal fool's crown was given to him after he left the royal family to become a prize fighter.   He may never be a prince, but he's now the undisputed middleweight champion.",
+    "experience_points": 3
+  },
+  "tokenId": "3983",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm's Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Piat's Destruction",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Royal Fool's Curse",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Liam's royal fool's crown was given to him after he left the royal family to become a prize fighter.   He may never be a prince, but he's now the undisputed middleweight champion.",
+  "external_url": "https://fateofwagdie.com/characters/3983",
+  "animation_url": "https://fateofwagdie.com/characters/3983/animated"
+}

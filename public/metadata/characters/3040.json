@@ -1,0 +1,94 @@
+{
+  "name": "Seeker of Knowledge",
+  "image": "ipfs://bafkreigxpaxohha5ht7n6vdhcehrztot7gsx42opeewv3ybysos7ay7lry",
+  "sheet": {
+    "name": "Seeker of Knowledge",
+    "level": 1,
+    "origin": "Simple Vagabond",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Death Smelt Hat",
+      "armor": "Death Stroker Doublet"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 8,
+      "strength": 8,
+      "dexterity": 4,
+      "constitution": 10,
+      "intelligence": 10
+    },
+    "hit_points": 1,
+    "tokenIdInt": 3040,
+    "background_story": "Isk has sought the knowledge of these lands since the dawn of the 17th Cycle.\n\nFew are old enough to recall, but Isk also welcomed the construction of The Green Knight's Farm. Originally Isk welcomed the opportunity for lowly wagdie to have some purpose in this world. However, Isk soon learned of the horrors that occur within this farm.\n\nHe has since retreated into the background. Best not draw attention to oneself during a street sweep.",
+    "experience_points": 0
+  },
+  "tokenId": "3040",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Death Stroker Doublet",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit Set",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Death Smelt Hat",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Witch",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Isk has sought the knowledge of these lands since the dawn of the 17th Cycle.\n\nFew are old enough to recall, but Isk also welcomed the construction of The Green Knight's Farm. Originally Isk welcomed the opportunity for lowly wagdie to have some purpose in this world. However, Isk soon learned of the horrors that occur within this farm.\n\nHe has since retreated into the background. Best not draw attention to oneself during a street sweep.",
+  "external_url": "https://fateofwagdie.com/characters/3040",
+  "animation_url": "https://fateofwagdie.com/characters/3040/animated"
+}

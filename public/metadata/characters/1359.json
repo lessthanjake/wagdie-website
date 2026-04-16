@@ -1,0 +1,94 @@
+{
+  "name": "Wagon",
+  "image": "ipfs://bafkreidr3l7qkuoykhojquyyd2iv3lq7fm4hbmctqgkapnm3muimi4ec3q",
+  "sheet": {
+    "name": "Wagon",
+    "level": 10,
+    "origin": "Naive Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "None",
+      "armor": "Crow Lord's Blessing"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 12,
+      "strength": 8,
+      "dexterity": 16,
+      "constitution": 12,
+      "intelligence": 9
+    },
+    "hit_points": 4,
+    "tokenIdInt": 1359,
+    "background_story": "Wagon had just joined the Darkblade Guild when he was given the note left when Bus died. \nAfter narrowly avoiding the raptors in Turlo. He successfully collected the items left when Bus was crushed. \nWagon has since decided to scavenge these lands for any resources possible. ",
+    "experience_points": 0
+  },
+  "tokenId": "1359",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Crow Lord's Blessing",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Her Golden Page",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Wagon had just joined the Darkblade Guild when he was given the note left when Bus died. \nAfter narrowly avoiding the raptors in Turlo. He successfully collected the items left when Bus was crushed. \nWagon has since decided to scavenge these lands for any resources possible. ",
+  "external_url": "https://fateofwagdie.com/characters/1359",
+  "animation_url": "https://fateofwagdie.com/characters/1359/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Church Prisoner",
+  "image": "ipfs://bafkreiaimtubed3ofjfhhtip5k7pa4wxkbp26gltn3qwq7xhnxwzdro7ju",
+  "sheet": {
+    "name": "Church Prisoner",
+    "level": 1,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Darkblade's Beak",
+      "armor": "Her Devotion"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 3445,
+    "background_story": "Future burn victim 🔥 ",
+    "experience_points": 0
+  },
+  "tokenId": "3445",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Devotion",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Galactic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Darkblade's Beak",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Future burn victim 🔥 ",
+  "external_url": "https://fateofwagdie.com/characters/3445",
+  "animation_url": "https://fateofwagdie.com/characters/3445/animated"
+}

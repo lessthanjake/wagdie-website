@@ -1,0 +1,94 @@
+{
+  "name": "Metro",
+  "image": "https://i2c.seadn.io/ethereum/0x659a4bdaaacc62d2bd9cb18225d9c89b5b697a5a/8bc32ee6f9bc60aa8fbf70cacb6d1e/338bc32ee6f9bc60aa8fbf70cacb6d1e.png",
+  "sheet": {
+    "name": "Metro",
+    "level": 1,
+    "origin": "Astorian Adventurer",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Goldbeard's Eyes",
+      "armor": "Her Cursed Outcast"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 6389,
+    "background_story": "Metro is a wanderer, and lover of sweet baked goods, especially donuts. He likes to explore the Forsaken Lands with his friend Ran who enjoys fishing.  They hope someday they may come across hidden treasures or magical items.  ",
+    "experience_points": 0
+  },
+  "tokenId": "6389",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Pilgrim's Style",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Goldbeard's Eyes",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Her Cursed Outcast",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    }
+  ],
+  "description": "Metro is a wanderer, and lover of sweet baked goods, especially donuts. He likes to explore the Forsaken Lands with his friend Ran who enjoys fishing.  They hope someday they may come across hidden treasures or magical items.  ",
+  "external_url": "https://fateofwagdie.com/characters/6389",
+  "animation_url": "https://fateofwagdie.com/characters/6389/animated"
+}

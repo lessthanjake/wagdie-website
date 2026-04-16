@@ -1,0 +1,94 @@
+{
+  "name": "The Ungrateful Swindler",
+  "image": "ipfs://bafkreihs5eto5r7bfxhdx53fnvbt4xq5orzyzxmfrmlns6kz33ya7ezgku",
+  "sheet": {
+    "name": "The Ungrateful Swindler",
+    "level": 1,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "None",
+      "armor": "Pilgrim's Plain Chain"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 5192,
+    "background_story": "This insolent being has dared to take advantage of a generous traveler. \nHe betrayed the trust of a generous traveler and had the audacity to think that his actions would have no consequences. \n\nThis cursed one has sealed his fate after being captured by the Crows. \n\nHe awaits his sentence crowsdenofdeath.eth \n\n\"Every wise man fear three things: the storm at sea, the moonless night, and the wrath of a kind man\"",
+    "experience_points": 0
+  },
+  "tokenId": "5192",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Plain Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit Set",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "This insolent being has dared to take advantage of a generous traveler. \nHe betrayed the trust of a generous traveler and had the audacity to think that his actions would have no consequences. \n\nThis cursed one has sealed his fate after being captured by the Crows. \n\nHe awaits his sentence crowsdenofdeath.eth \n\n\"Every wise man fear three things: the storm at sea, the moonless night, and the wrath of a kind man\"",
+  "external_url": "https://fateofwagdie.com/characters/5192",
+  "animation_url": "https://fateofwagdie.com/characters/5192/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Lindal Tosscobble",
+  "image": "ipfs://bafkreicmzox5rpch43aekildba3zh73t5akxxcbnmssxcwukb6g4zczo7i",
+  "sheet": {
+    "name": "Lindal Tosscobble",
+    "level": 1,
+    "origin": "Naive Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Her Silence",
+      "armor": "Pilgrim's Chain"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 12,
+      "strength": 14,
+      "dexterity": 14,
+      "constitution": 10,
+      "intelligence": 8
+    },
+    "hit_points": 7,
+    "tokenIdInt": 2863,
+    "background_story": "Captured by Knight of Despair in Mt Turlo",
+    "experience_points": 0
+  },
+  "tokenId": "2863",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Earth Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Silence",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Captured by Knight of Despair in Mt Turlo",
+  "external_url": "https://fateofwagdie.com/characters/2863",
+  "animation_url": "https://fateofwagdie.com/characters/2863/animated"
+}

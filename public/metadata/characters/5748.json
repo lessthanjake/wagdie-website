@@ -1,0 +1,81 @@
+{
+  "name": "We Are All Going To Die #5748",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/5748.png",
+  "sheet": {
+    "name": "We Are All Going To Die #5748",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 8,
+      "strength": 11,
+      "dexterity": 14,
+      "constitution": 14,
+      "intelligence": 9
+    },
+    "hit_points": 7,
+    "tokenIdInt": 5748,
+    "experience_points": 0
+  },
+  "tokenId": "5748",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Swamp Witch Disciple",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Swamp Witch Disciple",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Scaled Visage",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Nameless Scale Fragment",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Wormkin",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/5748",
+  "animation_url": "https://fateofwagdie.com/characters/5748/animated"
+}

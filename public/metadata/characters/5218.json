@@ -1,0 +1,94 @@
+{
+  "name": "Axan the Berserker",
+  "image": "ipfs://bafkreicqhastgulrmpoudrrnxpzb25oaiyrhov2winznxft4fbc3hddgzm",
+  "sheet": {
+    "name": "Axan the Berserker",
+    "level": 1,
+    "origin": "Her Lover",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Wormlord Guard",
+      "armor": "Yuria's Power"
+    },
+    "attributes": {
+      "wisdom": 8,
+      "charisma": 12,
+      "strength": 16,
+      "dexterity": 8,
+      "constitution": 16,
+      "intelligence": 9
+    },
+    "hit_points": 43,
+    "tokenIdInt": 5218,
+    "background_story": "Full blooded Turlo, Axan was a warrior of renown, holding the singular honor of being the only male berserker among Yuria's elite Furies. \n\nAfter Yuria sold her soul to the being within Mt. Turlo, reforming the Desecrated Valley in fire and smoke, Axan found new purpose in gladiatorial escapades where his prowess with the blade and shield gained widespread notoriety, eventually attracting the attention of the Nameless Devotees. They enlisted him into the elite vanguard of the Wormlord Kuul where he has since served. \n\nIn the 18th cycle, Axan was patrolling the Burrow when Glepherin and one of the Lost Pilgrim happened his way. He recognized the former, identifying him by his worm moniker, but was completely taken by surprise with a disorienting blow to the head. He gave chase to the two runners but was unable to catch them before they fled through the Wormkin Shaft. He was expelled from the Wormlord Guard for his failures, granted clemency should he catch and return the two escapees. \n\nIn the Garden of the Primordial Lands, Axan narrowly missed the Protagonist but procured information regarding where he was going before taking a necrotic dart in the shoulder.\n\nHe finally reached his target and an automaton companion in the depths of the Catacombs, toying with with him in ideological dialogue before clashing. Axan easily gained the upper hand before the ancient Malefactor of the Turlo arrived and dispatched him by accelerating the necrotic damage in his arm through fel magic. \n\n\"𝔅𝔩𝔬𝔬𝔡 𝔞𝔫𝔡 𝔟𝔬𝔫𝔢, 𝔴𝔦𝔩𝔩 𝔣𝔩𝔬𝔴 𝔞𝔫𝔡 𝔟𝔯𝔢𝔞𝔨, \n𝔟𝔲𝔱 𝔱𝔥𝔢 𝔠𝔥𝔞𝔯𝔤𝔢 𝔱𝔬 𝔭𝔯𝔬𝔱𝔢𝔠𝔱, \n𝔜𝔬𝔲 𝔰𝔥𝔞𝔩𝔩 𝔫𝔬𝔱 𝔰𝔥𝔞𝔨𝔢\n𝔑𝔢𝔦𝔱𝔥𝔢𝔯 𝔣𝔢𝔞𝔯 𝔫𝔬𝔯 𝔩𝔬𝔳𝔢 𝔴𝔦𝔩𝔩 𝔡𝔦𝔰𝔪𝔦𝔰𝔰 𝔶𝔬𝔲𝔯 𝔠𝔞𝔩𝔩, \n𝔣𝔬𝔯 𝔱𝔥𝔢 𝔑𝔞𝔪𝔢𝔩𝔢𝔰𝔰 𝔒𝔫𝔢 𝔡𝔢𝔪𝔞𝔫𝔡𝔰 𝔦𝔱 𝔞𝔩𝔩.\"\n \n",
+    "experience_points": 0
+  },
+  "tokenId": "5218",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Yuria's Power",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Brimstone",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wormlord Guard",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Full blooded Turlo, Axan was a warrior of renown, holding the singular honor of being the only male berserker among Yuria's elite Furies. \n\nAfter Yuria sold her soul to the being within Mt. Turlo, reforming the Desecrated Valley in fire and smoke, Axan found new purpose in gladiatorial escapades where his prowess with the blade and shield gained widespread notoriety, eventually attracting the attention of the Nameless Devotees. They enlisted him into the elite vanguard of the Wormlord Kuul where he has since served. \n\nIn the 18th cycle, Axan was patrolling the Burrow when Glepherin and one of the Lost Pilgrim happened his way. He recognized the former, identifying him by his worm moniker, but was completely taken by surprise with a disorienting blow to the head. He gave chase to the two runners but was unable to catch them before they fled through the Wormkin Shaft. He was expelled from the Wormlord Guard for his failures, granted clemency should he catch and return the two escapees. \n\nIn the Garden of the Primordial Lands, Axan narrowly missed the Protagonist but procured information regarding where he was going before taking a necrotic dart in the shoulder.\n\nHe finally reached his target and an automaton companion in the depths of the Catacombs, toying with with him in ideological dialogue before clashing. Axan easily gained the upper hand before the ancient Malefactor of the Turlo arrived and dispatched him by accelerating the necrotic damage in his arm through fel magic. \n\n\"𝔅𝔩𝔬𝔬𝔡 𝔞𝔫𝔡 𝔟𝔬𝔫𝔢, 𝔴𝔦𝔩𝔩 𝔣𝔩𝔬𝔴 𝔞𝔫𝔡 𝔟𝔯𝔢𝔞𝔨, \n𝔟𝔲𝔱 𝔱𝔥𝔢 𝔠𝔥𝔞𝔯𝔤𝔢 𝔱𝔬 𝔭𝔯𝔬𝔱𝔢𝔠𝔱, \n𝔜𝔬𝔲 𝔰𝔥𝔞𝔩𝔩 𝔫𝔬𝔱 𝔰𝔥𝔞𝔨𝔢\n𝔑𝔢𝔦𝔱𝔥𝔢𝔯 𝔣𝔢𝔞𝔯 𝔫𝔬𝔯 𝔩𝔬𝔳𝔢 𝔴𝔦𝔩𝔩 𝔡𝔦𝔰𝔪𝔦𝔰𝔰 𝔶𝔬𝔲𝔯 𝔠𝔞𝔩𝔩, \n𝔣𝔬𝔯 𝔱𝔥𝔢 𝔑𝔞𝔪𝔢𝔩𝔢𝔰𝔰 𝔒𝔫𝔢 𝔡𝔢𝔪𝔞𝔫𝔡𝔰 𝔦𝔱 𝔞𝔩𝔩.\"\n \n",
+  "external_url": "https://fateofwagdie.com/characters/5218",
+  "animation_url": "https://fateofwagdie.com/characters/5218/animated"
+}

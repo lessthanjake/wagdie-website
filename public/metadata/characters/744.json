@@ -1,0 +1,94 @@
+{
+  "name": "𝔊𝔞𝔟𝔯𝔦𝔢𝔩, 𝔱𝔥𝔢 𝔐𝔢𝔰𝔰𝔢𝔫𝔤𝔢𝔯",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/744.png",
+  "sheet": {
+    "name": "𝔊𝔞𝔟𝔯𝔦𝔢𝔩, 𝔱𝔥𝔢 𝔐𝔢𝔰𝔰𝔢𝔫𝔤𝔢𝔯",
+    "level": 3,
+    "origin": "Seeker of Piat",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Favor",
+      "mask": "Her Blessing",
+      "armor": "Her Cursed Outcast"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 13,
+      "strength": 14,
+      "dexterity": 7,
+      "constitution": 12,
+      "intelligence": 10
+    },
+    "hit_points": 7,
+    "tokenIdInt": 744,
+    "background_story": "Gabriel",
+    "experience_points": 100
+  },
+  "tokenId": "744",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Cursed Outcast",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Favor",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Naive Blonde Pilgrim's Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Blessing",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Mothling's Guard",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Mothling",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Fossors",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Gabriel",
+  "external_url": "https://fateofwagdie.com/characters/744",
+  "animation_url": "https://fateofwagdie.com/characters/744/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "We are All Going to Die #978",
+  "image": "ipfs://bafkreihm7i6iapjjkpzpr5eirjgodkl27566z2nm5kbrx7z2mlsa6b7w7a",
+  "sheet": {
+    "name": "",
+    "level": 1,
+    "origin": "Hole Protector",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "None",
+      "armor": "Valorite Amateur Garb"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 18,
+      "strength": 12,
+      "dexterity": 14,
+      "constitution": 16,
+      "intelligence": 13
+    },
+    "hit_points": 11,
+    "tokenIdInt": 978,
+    "background_story": "",
+    "experience_points": 0
+  },
+  "tokenId": "978",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Valorite Amateur Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Cursed Essence",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/978",
+  "animation_url": "https://fateofwagdie.com/characters/978/animated"
+}

@@ -1,0 +1,59 @@
+{
+  "name": "We are All Going to Die #1296",
+  "image": "ipfs://bafkreid4xyw2pn3qm7s4m7dmyxbtw22tofu34hsmfmvb4w2eknjizds2s4",
+  "tokenId": "1296",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Convert of the Swamp Witch",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Yogg's Love",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Convert of the Swamp Witch",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/1296",
+  "animation_url": "https://fateofwagdie.com/characters/1296/animated"
+}

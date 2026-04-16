@@ -1,0 +1,94 @@
+{
+  "name": "Crisp",
+  "image": "ipfs://bafkreigwhdyaanbgnt3edmvtwhw5xba5aguxyyu3tm2oeosiy3ddycaucm",
+  "sheet": {
+    "name": "Crisp",
+    "level": 1,
+    "origin": "Transformed Devotee",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Her Champion's Sacrifice"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 1,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 1268,
+    "background_story": "He bet he couldn’t be burned. He was wrong.",
+    "experience_points": 0
+  },
+  "tokenId": "1268",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Champion's Sacrifice",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Transformed Devotee",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Gorlong Mane",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Transformed Devotee",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "He bet he couldn’t be burned. He was wrong.",
+  "external_url": "https://fateofwagdie.com/characters/1268",
+  "animation_url": "https://fateofwagdie.com/characters/1268/animated"
+}

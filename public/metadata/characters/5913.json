@@ -1,0 +1,94 @@
+{
+  "name": "Charles Thete",
+  "image": "ipfs://bafkreifctn7fghin67eeuad6itffw5a4aofaawrmdmemgemb3cztxl2w6q",
+  "sheet": {
+    "name": "Charles Thete",
+    "level": 5,
+    "origin": "Pilgrim of the Lakes",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Wisened Touch",
+      "armor": "Worm's Protection"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 15,
+      "strength": 17,
+      "dexterity": 13,
+      "constitution": 1,
+      "intelligence": 11
+    },
+    "hit_points": 35,
+    "tokenIdInt": 5913,
+    "background_story": "Charles hails from family Thete, a small family of laymen and warriors. \n\nFather to Zergiok Thete. \n\nCharles only motivation is when he will have his next drink. Exhausted by the wars he has fought over the years, he searches for the love he once had. ",
+    "experience_points": 6500
+  },
+  "tokenId": "5913",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm's Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit's Pieces",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wisened Touch",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Charles hails from family Thete, a small family of laymen and warriors. \n\nFather to Zergiok Thete. \n\nCharles only motivation is when he will have his next drink. Exhausted by the wars he has fought over the years, he searches for the love he once had. ",
+  "external_url": "https://fateofwagdie.com/characters/5913",
+  "animation_url": "https://fateofwagdie.com/characters/5913/animated"
+}

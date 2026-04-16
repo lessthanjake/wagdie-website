@@ -1,0 +1,94 @@
+{
+  "name": "25th Birthday Boi",
+  "image": "ipfs://bafkreig2rqwubuuylxrv2dyl3elrheaouat75unqoir3zxpv5brrythk3y",
+  "sheet": {
+    "name": "25th Birthday Boi",
+    "level": 1,
+    "origin": "Hardened Merchant",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Goldbeard's Eyes",
+      "armor": "Her Cursed Outcast"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 1133,
+    "background_story": "Birthday Boi has recently been spotted  in the Forsaken Lands . Pilgrims have started to include him in various fun and games. He has proven to be a formidable chess player and also a great speaker.  Plus he has a great sense of humor. Will the Pilgrims lead him to a burning!?  Happy 25th Birthday!",
+    "experience_points": 0
+  },
+  "tokenId": "1133",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Cursed Outcast",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Guard's Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Goldbeard's Eyes",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Birthday Boi has recently been spotted  in the Forsaken Lands . Pilgrims have started to include him in various fun and games. He has proven to be a formidable chess player and also a great speaker.  Plus he has a great sense of humor. Will the Pilgrims lead him to a burning!?  Happy 25th Birthday!",
+  "external_url": "https://fateofwagdie.com/characters/1133",
+  "animation_url": "https://fateofwagdie.com/characters/1133/animated"
+}

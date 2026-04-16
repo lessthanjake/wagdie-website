@@ -1,0 +1,94 @@
+{
+  "name": "Xilocient",
+  "image": "ipfs://bafkreib3gmtv64kfnhm3ducm3h5ce5u45stbviatdussg2fdmj3koqsueu",
+  "sheet": {
+    "name": "Xilocient",
+    "level": 1,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Death Smelt Hat",
+      "armor": "Pilgrim's Chain"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 6,
+      "strength": 12,
+      "dexterity": 12,
+      "constitution": 15,
+      "intelligence": 16
+    },
+    "hit_points": 6,
+    "tokenIdInt": 4159,
+    "background_story": "An incredibly capable witch, Xilocient is both brilliant and creative in his application of the arcane arts. However, his strict adherence to the doctrines of his order and eagerness to uphold his moral values make him absolutely insufferable as a person.\n\nHe has very few friends because of this.",
+    "experience_points": 0
+  },
+  "tokenId": "4159",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zaban Rough Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Death Smelt Hat",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Witch",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "An incredibly capable witch, Xilocient is both brilliant and creative in his application of the arcane arts. However, his strict adherence to the doctrines of his order and eagerness to uphold his moral values make him absolutely insufferable as a person.\n\nHe has very few friends because of this.",
+  "external_url": "https://fateofwagdie.com/characters/4159",
+  "animation_url": "https://fateofwagdie.com/characters/4159/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Rowan Boats",
+  "image": "ipfs://bafkreicx77x3rpvofxkajux76hqgom6dqks7hntxv73wm3qk7icjma2t7q",
+  "sheet": {
+    "name": "Rowan Boats",
+    "level": 1,
+    "origin": "Logun Disciple",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "He Who Does Not See",
+      "armor": "Strange Cloth Cloak"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 13,
+      "strength": 16,
+      "dexterity": 10,
+      "constitution": 15,
+      "intelligence": 10
+    },
+    "hit_points": 10,
+    "tokenIdInt": 5822,
+    "background_story": "During the celebration of his 8th birthday, Rowan's parents told him to cover his eyes as they were bringing out a surprise for him. They very sternly warned that he shouldn't open his eyes until they say so, or he'll spoil his birthday fun.\n\nUnfortunately, amid the gift giving, his parents were waylaid by bandits and murdered before they could ever tell him to uncover his eyes. So, to this day Rowan has refused to see anything for fear of ruining his own birthday.",
+    "experience_points": 0
+  },
+  "tokenId": "5822",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Strange Cloth Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Naive Blonde Pilgrim's Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "He Who Does Not See",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "During the celebration of his 8th birthday, Rowan's parents told him to cover his eyes as they were bringing out a surprise for him. They very sternly warned that he shouldn't open his eyes until they say so, or he'll spoil his birthday fun.\n\nUnfortunately, amid the gift giving, his parents were waylaid by bandits and murdered before they could ever tell him to uncover his eyes. So, to this day Rowan has refused to see anything for fear of ruining his own birthday.",
+  "external_url": "https://fateofwagdie.com/characters/5822",
+  "animation_url": "https://fateofwagdie.com/characters/5822/animated"
+}

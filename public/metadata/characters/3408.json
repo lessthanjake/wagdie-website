@@ -1,0 +1,94 @@
+{
+  "name": "Steph Scurry",
+  "image": "ipfs://bafkreifxscz6v7mmfckoke7pah4vwpwmbf4fiiqxklyonta6c5cqoz4cei",
+  "sheet": {
+    "name": "Steph Scurry",
+    "level": 1,
+    "origin": "Seeker of Piat",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "None",
+      "armor": "Swamp Traveler Cloak"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 15,
+      "strength": 12,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 14
+    },
+    "hit_points": 7,
+    "tokenIdInt": 3408,
+    "background_story": "A traveler from the Conclave.",
+    "experience_points": 0
+  },
+  "tokenId": "3408",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Swamp Traveler Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Pilgrim's Touch",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A traveler from the Conclave.",
+  "external_url": "https://fateofwagdie.com/characters/3408",
+  "animation_url": "https://fateofwagdie.com/characters/3408/animated"
+}

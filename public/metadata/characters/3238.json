@@ -1,0 +1,93 @@
+{
+  "name": "Henk",
+  "image": "ipfs://bafkreicoxnzoj7juhfdv5vrxp6kvk33xkqzbvyz5dteombrwe52kgk3qta",
+  "sheet": {
+    "name": "Henk",
+    "level": 5,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Idiot's Helm",
+      "armor": "Swamp Traveler Cloak"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 13,
+      "strength": 16,
+      "dexterity": 13,
+      "constitution": 14,
+      "intelligence": 13
+    },
+    "hit_points": 6,
+    "tokenIdInt": 3238,
+    "experience_points": 10
+  },
+  "tokenId": "3238",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Swamp Traveler Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Altered",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Idiot's Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/3238",
+  "animation_url": "https://fateofwagdie.com/characters/3238/animated"
+}

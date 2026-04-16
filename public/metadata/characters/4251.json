@@ -1,0 +1,94 @@
+{
+  "name": "Dintin the Fence",
+  "image": "ipfs://bafkreiad3q75zjwzjceycqqnefx765tp34iwvdkn2lhdgnioeksyu6o4oa",
+  "sheet": {
+    "name": "Dintin the Fence",
+    "level": 4,
+    "origin": "Garolin Champion",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Fool's Crown",
+      "armor": "Strange Cloth Cloak"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 17,
+      "strength": 9,
+      "dexterity": 16,
+      "constitution": 8,
+      "intelligence": 15
+    },
+    "hit_points": 17,
+    "tokenIdInt": 4251,
+    "background_story": "Notorious delinquent serving as a middleman for stolen goods, and mastermind of various criminal plots.\n\nOrchestrated a raid on Cirdan the Merchant's caravan, leading to his death, and capturing the Rare Spice market.\n\nHe has recently begun setting up a little stall outside of Pilgrim's Arena, in advance of the forthcoming tournament.",
+    "experience_points": 2700
+  },
+  "tokenId": "4251",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Strange Cloth Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Straw",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Fool's Crown",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Notorious delinquent serving as a middleman for stolen goods, and mastermind of various criminal plots.\n\nOrchestrated a raid on Cirdan the Merchant's caravan, leading to his death, and capturing the Rare Spice market.\n\nHe has recently begun setting up a little stall outside of Pilgrim's Arena, in advance of the forthcoming tournament.",
+  "external_url": "https://fateofwagdie.com/characters/4251",
+  "animation_url": "https://fateofwagdie.com/characters/4251/animated"
+}

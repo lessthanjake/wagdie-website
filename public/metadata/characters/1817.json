@@ -1,0 +1,94 @@
+{
+  "name": "Lucian Seraph",
+  "image": "ipfs://bafkreibtupo4xajhor2ljkhspdmdwqadsvj7pm5iyzirsevrf4kgtjowwi",
+  "sheet": {
+    "name": "Lucian Seraph",
+    "level": 4,
+    "origin": "Foolish Jester",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Favor in Light",
+      "mask": "Worm Touch",
+      "armor": "Her Imprint"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 15,
+      "strength": 15,
+      "dexterity": 10,
+      "constitution": 8,
+      "intelligence": 12
+    },
+    "hit_points": 18,
+    "tokenIdInt": 1817,
+    "background_story": "Lucian Seraph, once a mortal man, was transformed by the divine touch of a god, his mind now a tumultuous blend of the purest angelic thoughts and the cunning wiles of a trickster devil. As an asset to the enigmatic Council of Ascendancy, his dual nature grants him unparalleled insight and adaptability, making him a formidable force in their service.",
+    "experience_points": 20
+  },
+  "tokenId": "1817",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Imprint",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Favor in Light",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Envious Locks",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Worm Touch",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Lucian Seraph, once a mortal man, was transformed by the divine touch of a god, his mind now a tumultuous blend of the purest angelic thoughts and the cunning wiles of a trickster devil. As an asset to the enigmatic Council of Ascendancy, his dual nature grants him unparalleled insight and adaptability, making him a formidable force in their service.",
+  "external_url": "https://fateofwagdie.com/characters/1817",
+  "animation_url": "https://fateofwagdie.com/characters/1817/animated"
+}

@@ -1,0 +1,91 @@
+{
+  "name": "We are All Going to Die #5909",
+  "image": "https://i2c.seadn.io/ethereum/0x659a4bdaaacc62d2bd9cb18225d9c89b5b697a5a/d42befc70a7888892b90da3763e4d5b4.png",
+  "sheet": {
+    "name": "Ront Purified of The Dawnlands",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 18,
+      "strength": 12,
+      "dexterity": 14,
+      "constitution": 11,
+      "intelligence": 9
+    },
+    "hit_points": 7,
+    "tokenIdInt": 5909,
+    "background_story": "Ront was once a robust and fearsome warrior from the plains. However, fate took a dark turn during one of his quests in the dense forests of the Forsaken Lands.\n\nIn these cursed woods, Ront stumbled upon a peculiar sight—a glowing mushroom circle, humming with an otherworldly energy. Compelled by curiosity and an adventurer's boldness, he stepped into the circle, unaware of the spores that clouded the air.\n\nIn the days that followed, Ront began to feel a strange affliction taking hold of him. His skin started to harden, and patches of fungal growth appeared on his body. The infection spread, endowing him with unnatural resilience but at a dire cost—his mind began to cloud, and a constant hunger for the very forests that cursed him gnawed at his sanity.\n\nNow the pyre awaits for him, as a last resort to find a cure. \n\n\nFollowing the events at the pyre, I embarked on a journey to the Dawnlands alongside my savior, Ham Doe. Thanks to the cure provided, I've regained my sense of self. It's been quite the transformative experience.\n\nMy next destination lies in the Crow's Den, as directed by my lord, Ham Doe. He has tasked us with aiding Julian in his quest to locate Merlin. It seems our journey is far from over.\n\nOur destiny calls at the Coven's Lair; I will conquer my fate as I have before...\n\nDuring my travel I dealt with a lingering affliction due to misapplication of  Ham Doe's cure, yet I stayed loyal to his bond.\n\nI helped my Lord Ham Doe and the thief Julian at the gates of the Coven's Lair, I did my best but couldn't help him in the end..\n\nI tried to protect  Julian and my lord until i wasn't able...",
+    "experience_points": 0
+  },
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Swamp Tassels",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Champion of Logun",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "Infected",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Face of the Headless",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "Smile of the Headless",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE"
+}

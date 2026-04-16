@@ -1,0 +1,94 @@
+{
+  "name": "Nero Silverblade",
+  "image": "ipfs://bafkreifex52ymredd2h5zqluqkfxx3lvwxyzvco5dy3xegsw7fk5nsamie",
+  "sheet": {
+    "name": "Nero Silverblade",
+    "level": 4,
+    "origin": "Hardened Merchant",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Noxium Death Cage",
+      "armor": "Punished Shirt"
+    },
+    "attributes": {
+      "wisdom": 9,
+      "charisma": 15,
+      "strength": 7,
+      "dexterity": 17,
+      "constitution": 8,
+      "intelligence": 11
+    },
+    "hit_points": 100,
+    "tokenIdInt": 1425,
+    "background_story": "TBD...",
+    "experience_points": 0
+  },
+  "tokenId": "1425",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Punished Shirt",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Envious Locks",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Noxium Death Cage",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "TBD...",
+  "external_url": "https://fateofwagdie.com/characters/1425",
+  "animation_url": "https://fateofwagdie.com/characters/1425/animated"
+}

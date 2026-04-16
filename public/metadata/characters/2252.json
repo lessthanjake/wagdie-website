@@ -1,0 +1,94 @@
+{
+  "name": "Prince Maxim",
+  "image": "ipfs://bafkreigdxdw2txgnjuw2po5vvtezewu2kxiranui6mxj2mexntq3kdwx24",
+  "sheet": {
+    "name": "Prince Maxim",
+    "level": 1,
+    "origin": "Seeker of Piat",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Fool's Crown",
+      "armor": "Peasant Garb"
+    },
+    "attributes": {
+      "wisdom": 9,
+      "charisma": 17,
+      "strength": 13,
+      "dexterity": 14,
+      "constitution": 12,
+      "intelligence": 15
+    },
+    "hit_points": 7,
+    "tokenIdInt": 2252,
+    "background_story": "Estranged nephew to King Offling who, upon hearing of his uncle's questing, left home and sought a similar adventure.\n\nFinding himself shunned by his parents for risking the crown, he was disowned.\n\nWith no royal guard, he personally hired two mercenaries to protect him — Sir Benedict and Ranger Viola.\n\nWhen Ranger Viola did not return from The Battle of the Burning Church, he the prince began to fear his expense of her had been in vain and felt a haste to make the most of his time with Sir Benedict.\n\nSince The Second Expedition to The Void, he has been stalked by a shadow reflection of himself.",
+    "experience_points": 0
+  },
+  "tokenId": "2252",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Peasant Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Noble's Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Fool's Crown",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Estranged nephew to King Offling who, upon hearing of his uncle's questing, left home and sought a similar adventure.\n\nFinding himself shunned by his parents for risking the crown, he was disowned.\n\nWith no royal guard, he personally hired two mercenaries to protect him — Sir Benedict and Ranger Viola.\n\nWhen Ranger Viola did not return from The Battle of the Burning Church, he the prince began to fear his expense of her had been in vain and felt a haste to make the most of his time with Sir Benedict.\n\nSince The Second Expedition to The Void, he has been stalked by a shadow reflection of himself.",
+  "external_url": "https://fateofwagdie.com/characters/2252",
+  "animation_url": "https://fateofwagdie.com/characters/2252/animated"
+}

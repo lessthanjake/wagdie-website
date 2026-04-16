@@ -1,0 +1,93 @@
+{
+  "name": "The Winged Bald Boy of Yore",
+  "image": "ipfs://bafkreigrgk6yuytrqnoyyusfuxkz7jpt3euxk5iosfuqozlgjpvdqymwhq",
+  "sheet": {
+    "name": "The Winged Bald Boy of Yore",
+    "level": 1,
+    "origin": "Naive Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Favor",
+      "mask": "Removal's Kin",
+      "armor": "Luta's Full Weight"
+    },
+    "attributes": {
+      "wisdom": 17,
+      "charisma": 11,
+      "strength": 10,
+      "dexterity": 10,
+      "constitution": 8,
+      "intelligence": 15
+    },
+    "hit_points": 6,
+    "tokenIdInt": 1998,
+    "experience_points": 0
+  },
+  "tokenId": "1998",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Luta's Full Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Favor",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Altered",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Removal's Kin",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/1998",
+  "animation_url": "https://fateofwagdie.com/characters/1998/animated"
+}

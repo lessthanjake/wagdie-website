@@ -1,0 +1,94 @@
+{
+  "name": "Unknown Murderer",
+  "image": "ipfs://bafkreicqmqnalc2634umznwadoo4cuyplko7wvvvsvapdfec5hntp53fai",
+  "sheet": {
+    "name": "Unknown Murderer",
+    "level": 5,
+    "origin": "Young Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "Darkblade's Beak",
+      "armor": "Her Devotion"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 17,
+      "strength": 16,
+      "dexterity": 15,
+      "constitution": 15,
+      "intelligence": 14
+    },
+    "hit_points": 44,
+    "tokenIdInt": 57,
+    "background_story": "This Darkblade wears the armor and weapon of those they killed in the Southern Plains.",
+    "experience_points": 410
+  },
+  "tokenId": "57",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Devotion",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Piat's Destruction",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Darkblade's Beak",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "This Darkblade wears the armor and weapon of those they killed in the Southern Plains.",
+  "external_url": "https://fateofwagdie.com/characters/57",
+  "animation_url": "https://fateofwagdie.com/characters/57/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Travok Balderk",
+  "image": "ipfs://bafkreieuyk66pbstzq2jg3q3j5x5bzcfrcgf2xmnpysxouwcogdan4qpca",
+  "sheet": {
+    "name": "Travok Balderk",
+    "level": 1,
+    "origin": "Pilgrim",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Death Dealer's Helm",
+      "armor": "Worm's Protection"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 8,
+      "strength": 11,
+      "dexterity": 11,
+      "constitution": 13,
+      "intelligence": 10
+    },
+    "hit_points": 8,
+    "tokenIdInt": 4433,
+    "background_story": "\nTravork, possessed by his armor, ceased to be human long ago. Now, driven by a thirst for blood, he is drawn to the final battle. \n\nThe Coven's Lair awaits...\n\nDied at the battle of the Coven's Lair, by the bloodlust rage induced by the demonic armor.",
+    "experience_points": 0
+  },
+  "tokenId": "4433",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm's Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Death Dealer's Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "\nTravork, possessed by his armor, ceased to be human long ago. Now, driven by a thirst for blood, he is drawn to the final battle. \n\nThe Coven's Lair awaits...\n\nDied at the battle of the Coven's Lair, by the bloodlust rage induced by the demonic armor.",
+  "external_url": "https://fateofwagdie.com/characters/4433",
+  "animation_url": "https://fateofwagdie.com/characters/4433/animated"
+}

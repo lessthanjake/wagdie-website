@@ -1,0 +1,94 @@
+{
+  "name": "Rïcsïg",
+  "image": "ipfs://bafkreigu4as5bp5s5wh7ezfcyeav3npd7ew5w55hi4hprqcop5xx54io3i",
+  "sheet": {
+    "name": "Rïcsïg",
+    "level": 8,
+    "origin": "Simple Vagabond",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "None",
+      "armor": "Champion of Logun"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 6,
+      "strength": 14,
+      "dexterity": 20,
+      "constitution": 12,
+      "intelligence": 13
+    },
+    "hit_points": 7,
+    "tokenIdInt": 1902,
+    "background_story": "An orphan of this world, Rïcsïg learned to fend for himself from a young age.\n\nHe spent his youth stealing and begging before being incarcerated in the Prisons of Yore.\n\nBought as a slave, Rïcsïg re-earnt saving his Lord from a rabid wolf in the Putrid Forests",
+    "experience_points": 18
+  },
+  "tokenId": "1902",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Champion of Logun",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "An orphan of this world, Rïcsïg learned to fend for himself from a young age.\n\nHe spent his youth stealing and begging before being incarcerated in the Prisons of Yore.\n\nBought as a slave, Rïcsïg re-earnt saving his Lord from a rabid wolf in the Putrid Forests",
+  "external_url": "https://fateofwagdie.com/characters/1902",
+  "animation_url": "https://fateofwagdie.com/characters/1902/animated"
+}

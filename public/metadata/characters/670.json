@@ -1,0 +1,93 @@
+{
+  "name": "Probable Caws",
+  "image": "ipfs://bafkreidzhvom76723zndly3ud6uw2xfgxyfcl3flgcyhkirr27a5pbw2uq",
+  "sheet": {
+    "name": "Probable Caws",
+    "level": 1,
+    "origin": "Pilgrim",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Darkblade's Beak",
+      "armor": "Valorite Protection"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 13,
+      "strength": 15,
+      "dexterity": 21,
+      "constitution": 11,
+      "intelligence": 14
+    },
+    "hit_points": 10,
+    "tokenIdInt": 670,
+    "experience_points": 0
+  },
+  "tokenId": "670",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Valorite Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim",
+      "trait_type": "Body"
+    },
+    {
+      "value": "The One From Below",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Darkblade's Beak",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/670",
+  "animation_url": "https://fateofwagdie.com/characters/670/animated"
+}

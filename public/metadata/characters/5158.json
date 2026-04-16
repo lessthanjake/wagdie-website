@@ -1,0 +1,94 @@
+{
+  "name": "Yoreia",
+  "image": "ipfs://bafkreief7vcviecry5wtk7lf7fh4vhvile3kj7ipwf55bqmw5uuhhiiuei",
+  "sheet": {
+    "name": "Yoreia",
+    "level": 1,
+    "origin": "Hole Protector",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "Zoltan War Helm",
+      "armor": "Her Zealot's Gear"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 9,
+      "strength": 13,
+      "dexterity": 15,
+      "constitution": 7,
+      "intelligence": 13
+    },
+    "hit_points": 5,
+    "tokenIdInt": 5158,
+    "background_story": "After narrowly escaping the persecution of House Yorn by the peasant named Josiah, Yoreia is trained as a Berserker at the Prisons of Yore, using her abilities to avenge her comrades. Upon her return to the Forsaken Lands, she plans to exact retribution by exterminating Josiah's family line.",
+    "experience_points": 0
+  },
+  "tokenId": "5158",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Zealot's Gear",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Zoltan War Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "After narrowly escaping the persecution of House Yorn by the peasant named Josiah, Yoreia is trained as a Berserker at the Prisons of Yore, using her abilities to avenge her comrades. Upon her return to the Forsaken Lands, she plans to exact retribution by exterminating Josiah's family line.",
+  "external_url": "https://fateofwagdie.com/characters/5158",
+  "animation_url": "https://fateofwagdie.com/characters/5158/animated"
+}

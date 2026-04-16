@@ -1,0 +1,94 @@
+{
+  "name": "Faila Pisacar",
+  "image": "ipfs://bafkreicmrzuy5omuab4aomh4l4mmd2ctvaw3zpgjkkg3nabapyo4cjg22q",
+  "sheet": {
+    "name": "Faila Pisacar",
+    "level": 2,
+    "origin": "Hole Protector",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Young Knight of Logun"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 13,
+      "strength": 13,
+      "dexterity": 12,
+      "constitution": 14,
+      "intelligence": 12
+    },
+    "hit_points": 10,
+    "tokenIdInt": 2927,
+    "background_story": "Current: Entering The Burrows on behalf of Gunther’s party, hopeful to give a better showing than Jep of Nox.\n\n On behalf of Gunther fought for The Bulwark I’m both battles of the Church War\n\nJoined Wolf's party to represent his banner in Questing, Tournaments, Events.",
+    "experience_points": 300
+  },
+  "tokenId": "2927",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Young Knight of Logun",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Current: Entering The Burrows on behalf of Gunther’s party, hopeful to give a better showing than Jep of Nox.\n\n On behalf of Gunther fought for The Bulwark I’m both battles of the Church War\n\nJoined Wolf's party to represent his banner in Questing, Tournaments, Events.",
+  "external_url": "https://fateofwagdie.com/characters/2927",
+  "animation_url": "https://fateofwagdie.com/characters/2927/animated"
+}

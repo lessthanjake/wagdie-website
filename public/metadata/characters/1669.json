@@ -1,0 +1,94 @@
+{
+  "name": "Newsten ",
+  "image": "ipfs://bafkreibyrcc77ikgdlsfdhtmzgjt2d5roqvexd3mzlpspxepfakgfycwr4",
+  "sheet": {
+    "name": "Newsten ",
+    "level": 1,
+    "origin": "Garolin Champion",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "The Wisened"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 1669,
+    "background_story": "I miss the Olsten, straight from the 'Go Sten\nChop up the soul Sten, set on his goals Sten\nI hate the Newsten , the bad mood Sten\nThe always rude Sten, spaz in the news Sten\nI miss the sweet Sten, chop up the beats Sten\nI gotta to say at that time I'd like to meet Olsten\nSee I invented Sten, it wasn't any Olstens\nAnd now I look and look around and there's so many Olstens",
+    "experience_points": 0
+  },
+  "tokenId": "1669",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "The Wisened",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Altered",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zaban Rough Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "I miss the Olsten, straight from the 'Go Sten\nChop up the soul Sten, set on his goals Sten\nI hate the Newsten , the bad mood Sten\nThe always rude Sten, spaz in the news Sten\nI miss the sweet Sten, chop up the beats Sten\nI gotta to say at that time I'd like to meet Olsten\nSee I invented Sten, it wasn't any Olstens\nAnd now I look and look around and there's so many Olstens",
+  "external_url": "https://fateofwagdie.com/characters/1669",
+  "animation_url": "https://fateofwagdie.com/characters/1669/animated"
+}

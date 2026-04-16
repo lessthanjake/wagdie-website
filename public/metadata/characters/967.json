@@ -1,0 +1,94 @@
+{
+  "name": "Gerwin the Bard",
+  "image": "ipfs://bafkreihr55r5c2v5p5xwvqdpzpicrwrsrqynnhxqz4fszjwbobm4yvvbfi",
+  "sheet": {
+    "name": "Gerwin the Bard",
+    "level": 1,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Her Glory",
+      "armor": "Luta's Support"
+    },
+    "attributes": {
+      "wisdom": 7,
+      "charisma": 16,
+      "strength": 10,
+      "dexterity": 13,
+      "constitution": 12,
+      "intelligence": 17
+    },
+    "hit_points": 8,
+    "tokenIdInt": 967,
+    "background_story": "Gerwin was born with a gift of song and story and after making friends with a theif named Udo Dundragon hatched a plot to raise their station in life through false recounts of noble deeds and royal ascent as the pair stole a variety of valuables and artifacts to add believability to their story.\n\nThe pair now live comfortably, though perpetually hope none discover the depths of their lies.",
+    "experience_points": 0
+  },
+  "tokenId": "967",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Luta's Support",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Naive Blonde Pilgrim's Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Gerwin was born with a gift of song and story and after making friends with a theif named Udo Dundragon hatched a plot to raise their station in life through false recounts of noble deeds and royal ascent as the pair stole a variety of valuables and artifacts to add believability to their story.\n\nThe pair now live comfortably, though perpetually hope none discover the depths of their lies.",
+  "external_url": "https://fateofwagdie.com/characters/967",
+  "animation_url": "https://fateofwagdie.com/characters/967/animated"
+}

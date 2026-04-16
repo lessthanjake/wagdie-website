@@ -1,0 +1,94 @@
+{
+  "name": "Thalvorran",
+  "image": "ipfs://bafkreiakyjv3d5hnqnmcn47beagh55hahjwfjvbz5e4ignls53quoinzhy",
+  "sheet": {
+    "name": "Thalvorran",
+    "level": 7,
+    "origin": "Her Hidden Blade",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "Noxium Death Cage",
+      "armor": "Logun's Decree"
+    },
+    "attributes": {
+      "wisdom": 8,
+      "charisma": 4,
+      "strength": 6,
+      "dexterity": 5,
+      "constitution": 3,
+      "intelligence": 4
+    },
+    "hit_points": 8,
+    "tokenIdInt": 272,
+    "background_story": "I wander in pursuit of solace, yet it remains ever elusive—a faint whisper in the depths, slipping through shadows and silences. Each step draws me nearer to the void, a place where peace and desolation are one, but the closer I come, the further it fades, leaving only echoes of what could be.",
+    "experience_points": 20
+  },
+  "tokenId": "272",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Decree",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Envious Locks",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Noxium Death Cage",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "I wander in pursuit of solace, yet it remains ever elusive—a faint whisper in the depths, slipping through shadows and silences. Each step draws me nearer to the void, a place where peace and desolation are one, but the closer I come, the further it fades, leaving only echoes of what could be.",
+  "external_url": "https://fateofwagdie.com/characters/272",
+  "animation_url": "https://fateofwagdie.com/characters/272/animated"
+}

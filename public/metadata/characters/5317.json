@@ -1,0 +1,94 @@
+{
+  "name": "???",
+  "image": "ipfs://bafkreifk2qeqj4x2yhsv7wlas634emvcue4tiippuwcwow764spqz7q7wy",
+  "sheet": {
+    "name": "???",
+    "level": 1,
+    "origin": "Astorian Adventurer",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Shield of Glory",
+      "armor": "Healer's Dress"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 5317,
+    "background_story": "This character has not yet been encountered.",
+    "experience_points": 0
+  },
+  "tokenId": "5317",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Healer's Dress",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Shield of Glory",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "This character has not yet been encountered.",
+  "external_url": "https://fateofwagdie.com/characters/5317",
+  "animation_url": "https://fateofwagdie.com/characters/5317/animated"
+}

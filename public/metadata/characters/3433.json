@@ -1,0 +1,90 @@
+{
+  "name": "Umbro Beati",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/3433.png",
+  "sheet": {
+    "name": "Umbro Beati",
+    "level": 3,
+    "origin": "Wormlord Acolyte",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Journeyman Tunic"
+    },
+    "attributes": {
+      "wisdom": 1,
+      "charisma": 2,
+      "strength": 3,
+      "dexterity": 7,
+      "constitution": 3,
+      "intelligence": 3
+    },
+    "hit_points": 2,
+    "tokenIdInt": 3433,
+    "background_story": "As a child, Lucifer's only desire was to wield the creator's brush.  He would frequently get lost in his work and surround himself with sprawling, creative chaos.  But his parents couldn't stand this and would verbally and oft-times physically beat him whenever he made a mess.\n\nThings *must* be done in the proper order. Everything has its place. Sweep it all out of sight and out of mind.  Perfect is as perfect does.  Each day, stifling order tightened its grip, chaining him to a life that lacked both color and joy. In the silent hours of the night, Lucifer found his hand twitching, reaching for a canvas that wasn’t there. Conflicting screams trapped in his head as he held tight to the faint hope of a different life. Yet with each monotonous day that passed, a piece of his soul seemed to crumble away, leaving a hollow shell.\n\nEmotionless and without friends, Lucifer pursued his studies in alchemy and linguistics at the great universities in the far South.  As graduation approached, and with it the inevitability of returning home to a life preordained, Lucifer found himself wandering the gardens instead of late nights studying in the library.  And then one day, there she was in the courtyard—a splash of color and unpredictability in human form.\n\nShe seemed so out of place that overcast day, her glowing presence mesmerizing and fluidly hypnotic.  Her name was Amaryllis.  Lucifer approached and introduced himself. Her laughter at his awkwardness filled the air as she led him to a bar on the town's outskirts.\n\nUnder the night sky, their confessions poured out—mingling with sips of Noxium brew, their thoughts became as fluid as the shadows encircling them. Something unspoken yet intimately understood passed between them, and by dawn, a decision was made: They slipped away to the Primordial Lands, chasing a freedom Lucifer had only dared dream about.\n\nYears later, Lucifer returned to the world he had once fled, now under the name Umbro, transformed not only in name but in essence—marked by the concord of Ancient Reflections. Of Amaryllis, there was no sign. When pressed what became of her, he responded with a glazed over look: \n\n\"Forever my Flower, roots reunited with the Ancients.\"",
+    "experience_points": 1
+  },
+  "tokenId": "3433",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Journeyman Tunic",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Glutton's Blessing",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Gnawed Bone",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Ancient Reflections",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "As a child, Lucifer's only desire was to wield the creator's brush.  He would frequently get lost in his work and surround himself with sprawling, creative chaos.  But his parents couldn't stand this and would verbally and oft-times physically beat him whenever he made a mess.\n\nThings *must* be done in the proper order. Everything has its place. Sweep it all out of sight and out of mind.  Perfect is as perfect does.  Each day, stifling order tightened its grip, chaining him to a life that lacked both color and joy. In the silent hours of the night, Lucifer found his hand twitching, reaching for a canvas that wasn’t there. Conflicting screams trapped in his head as he held tight to the faint hope of a different life. Yet with each monotonous day that passed, a piece of his soul seemed to crumble away, leaving a hollow shell.\n\nEmotionless and without friends, Lucifer pursued his studies in alchemy and linguistics at the great universities in the far South.  As graduation approached, and with it the inevitability of returning home to a life preordained, Lucifer found himself wandering the gardens instead of late nights studying in the library.  And then one day, there she was in the courtyard—a splash of color and unpredictability in human form.\n\nShe seemed so out of place that overcast day, her glowing presence mesmerizing and fluidly hypnotic.  Her name was Amaryllis.  Lucifer approached and introduced himself. Her laughter at his awkwardness filled the air as she led him to a bar on the town's outskirts.\n\nUnder the night sky, their confessions poured out—mingling with sips of Noxium brew, their thoughts became as fluid as the shadows encircling them. Something unspoken yet intimately understood passed between them, and by dawn, a decision was made: They slipped away to the Primordial Lands, chasing a freedom Lucifer had only dared dream about.\n\nYears later, Lucifer returned to the world he had once fled, now under the name Umbro, transformed not only in name but in essence—marked by the concord of Ancient Reflections. Of Amaryllis, there was no sign. When pressed what became of her, he responded with a glazed over look: \n\n\"Forever my Flower, roots reunited with the Ancients.\"",
+  "external_url": "https://fateofwagdie.com/characters/3433",
+  "animation_url": "https://fateofwagdie.com/characters/3433/animated"
+}

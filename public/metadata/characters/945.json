@@ -1,0 +1,94 @@
+{
+  "name": "Malark",
+  "image": "ipfs://bafkreiajrofjz2rqrypckafo6hs2gpgrqx42eez2qx7lsmsevmi4difu6u",
+  "sheet": {
+    "name": "Malark",
+    "level": 1,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "Zealot's Prowess",
+      "armor": "Logun's Descent"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 30,
+      "strength": 30,
+      "dexterity": 30,
+      "constitution": 30,
+      "intelligence": 30
+    },
+    "hit_points": 100,
+    "tokenIdInt": 945,
+    "background_story": "As an orphan his childhood was spent in servitude to the keepers of the Arena.  Exposure to combat, violence and death at a young age molded his nihilistic view on life while also forging his skills in combat.  In his teenage years he volunteered as a combatant in the Arena.  In time he accrued a substantial following amongst the bloodthirsty crowd and ultimately won his freedom.  \n\nHis early life experiences molded a nihilistic philosophy of life as transactional at best and otherwise meaningless.  As he grew older these beliefs matured into an extreme fanaticism and zeal towards the tenants of chaos.\n\nWhile generally neutral and apathetic towards others, his views of the church are exceptionally vile and he believes those who sell the illusion of safety and purpose to the common people for their own gain are deserving of death and despair.",
+    "experience_points": 0
+  },
+  "tokenId": "945",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Descent",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Zealot's Prowess",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "As an orphan his childhood was spent in servitude to the keepers of the Arena.  Exposure to combat, violence and death at a young age molded his nihilistic view on life while also forging his skills in combat.  In his teenage years he volunteered as a combatant in the Arena.  In time he accrued a substantial following amongst the bloodthirsty crowd and ultimately won his freedom.  \n\nHis early life experiences molded a nihilistic philosophy of life as transactional at best and otherwise meaningless.  As he grew older these beliefs matured into an extreme fanaticism and zeal towards the tenants of chaos.\n\nWhile generally neutral and apathetic towards others, his views of the church are exceptionally vile and he believes those who sell the illusion of safety and purpose to the common people for their own gain are deserving of death and despair.",
+  "external_url": "https://fateofwagdie.com/characters/945",
+  "animation_url": "https://fateofwagdie.com/characters/945/animated"
+}

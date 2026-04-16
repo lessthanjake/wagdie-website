@@ -1,0 +1,94 @@
+{
+  "name": "Jakob Lux",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/3568.png",
+  "sheet": {
+    "name": "Jakob Lux",
+    "level": 1,
+    "origin": "Pilgrim of the Lakes",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Removal's Kin",
+      "armor": "Her Devotion"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 3568,
+    "background_story": "Belonging to Ordo Solis.",
+    "experience_points": 0
+  },
+  "tokenId": "3568",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Devotion",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Body"
+    },
+    {
+      "value": "The One From Below",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Removal's Kin",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Engineer's Mallet",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Artificer's Crystal",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Artificers",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Belonging to Ordo Solis.",
+  "external_url": "https://fateofwagdie.com/characters/3568",
+  "animation_url": "https://fateofwagdie.com/characters/3568/animated"
+}

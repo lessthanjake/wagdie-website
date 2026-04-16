@@ -1,0 +1,94 @@
+{
+  "name": "Damien Falorn",
+  "image": "https://i2c.seadn.io/ethereum/0x659a4bdaaacc62d2bd9cb18225d9c89b5b697a5a/4d63004aee72d383c6c4060477767d/ea4d63004aee72d383c6c4060477767d.png",
+  "sheet": {
+    "name": "Damien Falorn",
+    "level": 7,
+    "origin": "Galy Veetus the Aged",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Wormlord Visage",
+      "armor": "Valorite Amateur Garb"
+    },
+    "attributes": {
+      "wisdom": 6,
+      "charisma": 8,
+      "strength": 10,
+      "dexterity": 6,
+      "constitution": 8,
+      "intelligence": 5
+    },
+    "hit_points": 18,
+    "tokenIdInt": 3211,
+    "background_story": "Damien Falorn, a necromancer of human descent, commands the dark arts within the shadowed confines of Detritis Haven. With an enigmatic aura shrouding his every move, he navigates the delicate balance between life and death with unsettling ease. Rumors swirl about his origins, whispered tales of forbidden rituals and ancient pacts with the underworld. Despite his chilling reputation, some speak of a hidden complexity beneath his macabre exterior, hinting at motives obscured by layers of necromantic intrigue. In Detritis Haven, where the line between the living and the dead blurs, Damien Falorn stands as a figure both feared and respected.",
+    "experience_points": 40
+  },
+  "tokenId": "3211",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Galy Veetus the Aged",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Pilgrim's Style",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wormlord Visage",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Valorite Amateur Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Necromancer",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Galy Veetus the Aged",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    }
+  ],
+  "description": "Damien Falorn, a necromancer of human descent, commands the dark arts within the shadowed confines of Detritis Haven. With an enigmatic aura shrouding his every move, he navigates the delicate balance between life and death with unsettling ease. Rumors swirl about his origins, whispered tales of forbidden rituals and ancient pacts with the underworld. Despite his chilling reputation, some speak of a hidden complexity beneath his macabre exterior, hinting at motives obscured by layers of necromantic intrigue. In Detritis Haven, where the line between the living and the dead blurs, Damien Falorn stands as a figure both feared and respected.",
+  "external_url": "https://fateofwagdie.com/characters/3211",
+  "animation_url": "https://fateofwagdie.com/characters/3211/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Gary",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/2810.png",
+  "sheet": {
+    "name": "Gary",
+    "level": 1,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "Darkblade's Beak",
+      "armor": "Her Imprint"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 2810,
+    "background_story": "This is Gary, he smells so bad the Dark Blade Guild kicked him out. He still wears the mask cause he smells so bad.",
+    "experience_points": 0
+  },
+  "tokenId": "2810",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Imprint",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Noxian Tint",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Darkblade's Beak",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Flyling Duo",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Sparkling Fly",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Lord Grem's Diptera",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "This is Gary, he smells so bad the Dark Blade Guild kicked him out. He still wears the mask cause he smells so bad.",
+  "external_url": "https://fateofwagdie.com/characters/2810",
+  "animation_url": "https://fateofwagdie.com/characters/2810/animated"
+}

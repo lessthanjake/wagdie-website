@@ -1,0 +1,93 @@
+{
+  "name": "Flame accelerant",
+  "image": "ipfs://bafkreibr5kgx6jmwdffcrcask5i7z5lt5cbhg6n5fruzaniolp4w63ha5u",
+  "sheet": {
+    "name": "Flame accelerant",
+    "level": 1,
+    "origin": "Wormkin Elite",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Darkblade's Beak",
+      "armor": "Tunic of Yore"
+    },
+    "attributes": {
+      "wisdom": 9,
+      "charisma": 11,
+      "strength": 16,
+      "dexterity": 16,
+      "constitution": 8,
+      "intelligence": 13
+    },
+    "hit_points": 35,
+    "tokenIdInt": 4184,
+    "experience_points": 5
+  },
+  "tokenId": "4184",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Tunic of Yore",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Naive Blonde Pilgrim's Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Darkblade's Beak",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/4184",
+  "animation_url": "https://fateofwagdie.com/characters/4184/animated"
+}

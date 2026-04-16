@@ -1,0 +1,94 @@
+{
+  "name": "Bloodstroke",
+  "image": "ipfs://bafkreiajhsthirg7qc4o7yo43jgtp7ox6m2x3ciymbt2jvydn4vfgb3clq",
+  "sheet": {
+    "name": "Bloodstroke",
+    "level": 1,
+    "origin": "Garolin Champion",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "None",
+      "armor": "Logun's Curse"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 14,
+      "strength": 15,
+      "dexterity": 6,
+      "constitution": 13,
+      "intelligence": 8
+    },
+    "hit_points": 45,
+    "tokenIdInt": 4233,
+    "background_story": "A colossus of combat and knight of keen word, Bastion Blood serves as the vanguard of \"Paragon of the Spectrum\"  under the moniker Bloodstroke. \n\nBy the Red Banner, he espouses the \"Enkindled Mind\": Illuminating the path of knowledge and wisdom.",
+    "experience_points": 0
+  },
+  "tokenId": "4233",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Curse",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Brimstone",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Body"
+    },
+    {
+      "value": "The One From Below",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A colossus of combat and knight of keen word, Bastion Blood serves as the vanguard of \"Paragon of the Spectrum\"  under the moniker Bloodstroke. \n\nBy the Red Banner, he espouses the \"Enkindled Mind\": Illuminating the path of knowledge and wisdom.",
+  "external_url": "https://fateofwagdie.com/characters/4233",
+  "animation_url": "https://fateofwagdie.com/characters/4233/animated"
+}

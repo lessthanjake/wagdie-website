@@ -1,0 +1,94 @@
+{
+  "name": "Assiniok",
+  "image": "ipfs://bafkreidm2uajfkr2mvrwpz72suiem5w35jamc2ix4bho6s266gjywndkju",
+  "sheet": {
+    "name": "Assiniok",
+    "level": 3,
+    "origin": "Zolian Worm",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "None",
+      "armor": "Valorite Protection"
+    },
+    "attributes": {
+      "wisdom": 3,
+      "charisma": 3,
+      "strength": 3,
+      "dexterity": 3,
+      "constitution": 3,
+      "intelligence": 3
+    },
+    "hit_points": 3,
+    "tokenIdInt": 561,
+    "background_story": "Although the Arcane Council consists of three members to maintain the balance of power, The eldest of the Council, Assiniok, holds the greatest influence for he was the first to enter the council and has secret knowledge Urethmel and Woelmur do not...  \n\nHe is one of great pride of the position he holds in the Arcane Council and is the primary voice of the Council. \n\nHis desire to grow the reach of the Arcane Council outside of its bound grows with each passing cycle...",
+    "experience_points": 3
+  },
+  "tokenId": "561",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Valorite Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Although the Arcane Council consists of three members to maintain the balance of power, The eldest of the Council, Assiniok, holds the greatest influence for he was the first to enter the council and has secret knowledge Urethmel and Woelmur do not...  \n\nHe is one of great pride of the position he holds in the Arcane Council and is the primary voice of the Council. \n\nHis desire to grow the reach of the Arcane Council outside of its bound grows with each passing cycle...",
+  "external_url": "https://fateofwagdie.com/characters/561",
+  "animation_url": "https://fateofwagdie.com/characters/561/animated"
+}

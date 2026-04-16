@@ -1,0 +1,94 @@
+{
+  "name": "Arbiter Jessep",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/4915.png",
+  "sheet": {
+    "name": "Arbiter Jessep",
+    "level": 1,
+    "origin": "Hardened Merchant",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Glory",
+      "armor": "Swamp Traveler Cloak"
+    },
+    "attributes": {
+      "wisdom": 18,
+      "charisma": 12,
+      "strength": 7,
+      "dexterity": 10,
+      "constitution": 11,
+      "intelligence": 15
+    },
+    "hit_points": 2,
+    "tokenIdInt": 4915,
+    "background_story": "The fair and noble Arbiter who presides over the Court of The Forsaken Lands.\n\nCases are brought before him for hearings, though many of his verdicts have relied on juries or public opinion.",
+    "experience_points": 0
+  },
+  "tokenId": "4915",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Swamp Traveler Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zaban Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Stalwart Lost Tome",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Field Notes",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Stalwart Researcher",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The fair and noble Arbiter who presides over the Court of The Forsaken Lands.\n\nCases are brought before him for hearings, though many of his verdicts have relied on juries or public opinion.",
+  "external_url": "https://fateofwagdie.com/characters/4915",
+  "animation_url": "https://fateofwagdie.com/characters/4915/animated"
+}

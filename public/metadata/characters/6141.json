@@ -1,0 +1,94 @@
+{
+  "name": "Chauxlemagne the Wise",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/6141.png",
+  "sheet": {
+    "name": "Chauxlemagne the Wise",
+    "level": 1,
+    "origin": "Wormkin Elite",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "None",
+      "armor": "Worm Caller"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 6141,
+    "background_story": "Chauxlemagne the Wise of The Dawnlands, is the leader of the Mage Wardens found at the Sentinel of the Dawn, a massive defense castle tasked with guarding the Dawnlands borders alongside Shawyn the Dawnlands Revenant.\n\n\n",
+    "experience_points": 0
+  },
+  "tokenId": "6141",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm Caller",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Void",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Pilgrim's Style",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Spark of the Magus",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Seer's Gem",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Seers",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Chauxlemagne the Wise of The Dawnlands, is the leader of the Mage Wardens found at the Sentinel of the Dawn, a massive defense castle tasked with guarding the Dawnlands borders alongside Shawyn the Dawnlands Revenant.\n\n\n",
+  "external_url": "https://fateofwagdie.com/characters/6141",
+  "animation_url": "https://fateofwagdie.com/characters/6141/animated"
+}

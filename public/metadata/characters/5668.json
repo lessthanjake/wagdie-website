@@ -1,0 +1,94 @@
+{
+  "name": "Agosto, The Agora Simp",
+  "image": "ipfs://bafkreidtjgtlovs2txuyxnchjhhb2s6wbe32pymqylvgjxkoivht5likhq",
+  "sheet": {
+    "name": "Agosto, The Agora Simp",
+    "level": 1,
+    "origin": "Her Hidden Blade",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Shield of Glory",
+      "armor": "Her Champion's Sacrifice"
+    },
+    "attributes": {
+      "wisdom": 7,
+      "charisma": 13,
+      "strength": 7,
+      "dexterity": 9,
+      "constitution": 10,
+      "intelligence": 8
+    },
+    "hit_points": 2,
+    "tokenIdInt": 5668,
+    "background_story": "Agosto was alone in The Sea, from which they were called to serve their purpose as a warrior for Agora in the first battle of the 18th cycle.",
+    "experience_points": 0
+  },
+  "tokenId": "5668",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Champion's Sacrifice",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Shield of Glory",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Agosto was alone in The Sea, from which they were called to serve their purpose as a warrior for Agora in the first battle of the 18th cycle.",
+  "external_url": "https://fateofwagdie.com/characters/5668",
+  "animation_url": "https://fateofwagdie.com/characters/5668/animated"
+}

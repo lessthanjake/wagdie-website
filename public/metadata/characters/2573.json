@@ -1,0 +1,94 @@
+{
+  "name": "Brightlord Treymayne Praxl",
+  "image": "ipfs://bafkreieesjke2vehnzak6nr6k7dfi6uh2ug2aiumcrg2awjtgwo2gyre6q",
+  "sheet": {
+    "name": "Brightlord Treymayne Praxl",
+    "level": 1,
+    "origin": "Simple Vagabond",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "Fool's Crown",
+      "armor": "Young Knight of Logun"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 2573,
+    "background_story": "Brightlord Treymayne is the head of House Praxl and the King of Covington.\n\nIn his youth, Brightlord Treymayne is widely credited for bringing about a time of peace and prosperity known as The Golden Age.\n\nThis is due to the efforts of the Brightlord and his formation of the Grand Cohort.\n",
+    "experience_points": 0
+  },
+  "tokenId": "2573",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Young Knight of Logun",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit Set",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Fool's Crown",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Brightlord Treymayne is the head of House Praxl and the King of Covington.\n\nIn his youth, Brightlord Treymayne is widely credited for bringing about a time of peace and prosperity known as The Golden Age.\n\nThis is due to the efforts of the Brightlord and his formation of the Grand Cohort.\n",
+  "external_url": "https://fateofwagdie.com/characters/2573",
+  "animation_url": "https://fateofwagdie.com/characters/2573/animated"
+}

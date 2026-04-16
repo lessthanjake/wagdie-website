@@ -1,0 +1,90 @@
+{
+  "name": "Deacon of the Void",
+  "image": "ipfs://bafkreiacdtnxfmwbwtixlnqvabvjzq7janmchlzzyzyirtctlgvetxpwwe",
+  "sheet": {
+    "name": "Deacon of the Void",
+    "level": 7,
+    "origin": "Hardened Merchant",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Goddess of Vision",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 7,
+      "charisma": 7,
+      "strength": 7,
+      "dexterity": 7,
+      "constitution": 7,
+      "intelligence": 7
+    },
+    "hit_points": 7,
+    "tokenIdInt": 1482,
+    "background_story": "And now... the gates of the Void are shutting... You have chosen your paths, representatives of the Lost Pilgrim. Do not forget, you are the Void. Children of the Void. That which has always been many... The Conclave is but an organization of the true nature of the Void... Do not forget traveler. Do not forget your truth, our truth.\n\nAll have touched the Void as all have touched Her Light... And all will pass... and fade... and transform... and shift... My memory is yours... with no bounds...\n\n113 - 14 - 85\n42 - 71 - 99\n56 - 127 - 28\n​\n  \n\n\n\n​\n  \n\n\n\n​\n \n",
+    "experience_points": 7
+  },
+  "tokenId": "1482",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit's Pieces",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Goddess of Vision",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "And now... the gates of the Void are shutting... You have chosen your paths, representatives of the Lost Pilgrim. Do not forget, you are the Void. Children of the Void. That which has always been many... The Conclave is but an organization of the true nature of the Void... Do not forget traveler. Do not forget your truth, our truth.\n\nAll have touched the Void as all have touched Her Light... And all will pass... and fade... and transform... and shift... My memory is yours... with no bounds...\n\n113 - 14 - 85\n42 - 71 - 99\n56 - 127 - 28\n​\n  \n\n\n\n​\n  \n\n\n\n​\n \n",
+  "external_url": "https://fateofwagdie.com/characters/1482",
+  "animation_url": "https://fateofwagdie.com/characters/1482/animated"
+}

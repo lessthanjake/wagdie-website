@@ -1,5 +1,10 @@
-import { getSupabaseAdmin, supabase } from '@/lib/supabase'
 import { CHARACTERS_TABLE } from '@/lib/db/tables'
+import {
+  type CharacterRuntimeAssets,
+  type CharacterTraitFilters,
+  noopCharacterRuntimeAssets,
+} from '@/lib/domain/character/character-runtime-assets'
+import { getSupabaseAdmin, supabase } from '@/lib/supabase'
 import { isBurnedOwner } from '@/lib/utils/blockchain'
 import type {
   Character,
@@ -10,113 +15,233 @@ import type {
   EditableCharacterFields,
 } from '@/types/character'
 
+const TOKEN_ID_CHUNK_SIZE = 500
+
+type CharacterQueryBuilder = ReturnType<NonNullable<typeof supabase>['from']>
+
+function hasTraitFilters(filters: CharacterFilters): boolean {
+  return Boolean(
+    filters.origin ||
+    filters.alignment ||
+    filters.armor ||
+    filters.back ||
+    filters.mask
+  )
+}
+
+function toTraitFilters(filters: CharacterFilters): CharacterTraitFilters {
+  return {
+    origin: filters.origin,
+    alignment: filters.alignment,
+    armor: filters.armor,
+    back: filters.back,
+    mask: filters.mask,
+  }
+}
+
+function normalizeCharacters(rows: Character[]): Character[] {
+  return rows.map((row) => ({
+    ...row,
+    burned: isBurnedOwner(row.owner_address, row.burned),
+  }))
+}
+
+function sortCharacters(characters: Character[], direction: CharacterFilters['sort']): Character[] {
+  return [...characters].sort((left, right) => {
+    return direction === 'asc'
+      ? left.token_id - right.token_id
+      : right.token_id - left.token_id
+  })
+}
+
+function paginateCharacters(characters: Character[], filters: CharacterFilters): Character[] {
+  const from = (filters.page - 1) * filters.perPage
+  return characters.slice(from, from + filters.perPage)
+}
+
+function applyWalletFilter(query: CharacterQueryBuilder, filters: CharacterFilters): CharacterQueryBuilder {
+  if (!filters.wallet) {
+    return query
+  }
+
+  const walletLower = filters.wallet.toLowerCase()
+  if (filters.tab === 'owned') {
+    return query.or(`owner_address.eq.${walletLower},staker_address.eq.${walletLower}`)
+  }
+
+  return query.eq('owner_address', walletLower)
+}
+
+function applyTabFilter(query: CharacterQueryBuilder, filters: CharacterFilters): CharacterQueryBuilder {
+  if (filters.tab === 'infected') {
+    return query.eq('infection_status', 'infected')
+  }
+
+  if (filters.tab === 'cured') {
+    return query.neq('infection_status', 'infected')
+  }
+
+  if (filters.tab === 'staked') {
+    return query.not('location_id', 'is', null)
+  }
+
+  if (filters.tab === 'fallen') {
+    return query.eq('burned', true)
+  }
+
+  return query
+}
+
+function applySearchFilter(query: CharacterQueryBuilder, filters: CharacterFilters): CharacterQueryBuilder {
+  if (!filters.search) {
+    return query
+  }
+
+  const searchTerm = filters.search.trim()
+  const tokenIdSearch = parseInt(searchTerm, 10)
+  if (!Number.isNaN(tokenIdSearch) && tokenIdSearch > 0) {
+    return query.eq('token_id', tokenIdSearch)
+  }
+
+  return query.ilike('metadata->>name', `%${searchTerm}%`)
+}
+
+function applyHasSheetFilter(query: CharacterQueryBuilder, filters: CharacterFilters): CharacterQueryBuilder {
+  if (!filters.hasSheet) {
+    return query
+  }
+
+  return query.or(
+    'name.not.is.null,' +
+    'str.not.is.null,' +
+    'level.gt.1,' +
+    'background_story.not.is.null'
+  )
+}
+
+function applyMetadataTraitFilters(query: CharacterQueryBuilder, filters: CharacterFilters): CharacterQueryBuilder {
+  let nextQuery = query
+
+  if (filters.origin) {
+    nextQuery = nextQuery.contains('metadata', {
+      attributes: [{ trait_type: 'Body', value: filters.origin }],
+    })
+  }
+
+  if (filters.alignment) {
+    nextQuery = nextQuery.contains('metadata', {
+      attributes: [{ trait_type: 'Alignment', value: filters.alignment }],
+    })
+  }
+
+  if (filters.armor) {
+    nextQuery = nextQuery.contains('metadata', {
+      attributes: [{ trait_type: 'Armor', value: filters.armor }],
+    })
+  }
+
+  if (filters.back) {
+    nextQuery = nextQuery.contains('metadata', {
+      attributes: [{ trait_type: 'Back', value: filters.back }],
+    })
+  }
+
+  if (filters.mask) {
+    nextQuery = nextQuery.contains('metadata', {
+      attributes: [{ trait_type: 'Mask', value: filters.mask }],
+    })
+  }
+
+  return nextQuery
+}
+
+function applyNonTraitFilters(query: CharacterQueryBuilder, filters: CharacterFilters): CharacterQueryBuilder {
+  let nextQuery = query
+  nextQuery = applyWalletFilter(nextQuery, filters)
+  nextQuery = applyTabFilter(nextQuery, filters)
+  nextQuery = applySearchFilter(nextQuery, filters)
+  nextQuery = applyHasSheetFilter(nextQuery, filters)
+  return nextQuery
+}
+
+function chunkTokenIds(tokenIds: number[]): number[][] {
+  const chunks: number[][] = []
+
+  for (let index = 0; index < tokenIds.length; index += TOKEN_ID_CHUNK_SIZE) {
+    chunks.push(tokenIds.slice(index, index + TOKEN_ID_CHUNK_SIZE))
+  }
+
+  return chunks
+}
+
 /**
  * Handles core character listing, lookup, updates, and concord queries.
  */
 export class CharacterQueryRepository {
+  constructor(
+    private readonly runtimeAssets: CharacterRuntimeAssets = noopCharacterRuntimeAssets
+  ) {}
+
+  private async findManyByLocalTraitFilters(filters: CharacterFilters): Promise<CharactersResponse> {
+    const matchedTokenIds = await this.runtimeAssets.getTokenIdsForTraitFilters(toTraitFilters(filters))
+    if (!matchedTokenIds || matchedTokenIds.size === 0) {
+      return { characters: [], hasMore: false, totalCount: 0 }
+    }
+
+    const rows: Character[] = []
+
+    for (const tokenIdChunk of chunkTokenIds(Array.from(matchedTokenIds))) {
+      let query = supabase!
+        .from(CHARACTERS_TABLE)
+        .select('*')
+        .in('token_id', tokenIdChunk)
+
+      query = applyNonTraitFilters(query, filters)
+
+      const { data, error } = await query
+      if (error) {
+        console.error('Error fetching locally-filtered characters:', error)
+        throw new Error(`Failed to fetch characters: ${error.message}`)
+      }
+
+      rows.push(...((data || []) as unknown as Character[]))
+    }
+
+    const normalized = sortCharacters(normalizeCharacters(rows), filters.sort)
+    const totalCount = normalized.length
+    const pagedCharacters = paginateCharacters(normalized, filters)
+    const hydratedCharacters = await this.runtimeAssets.hydrateCharacters(pagedCharacters)
+
+    return {
+      characters: hydratedCharacters,
+      hasMore: totalCount > filters.page * filters.perPage,
+      totalCount,
+    }
+  }
+
   /**
    * Find characters with filtering, pagination, and sorting
    */
   async findMany(filters: CharacterFilters): Promise<CharactersResponse> {
-    // Safety net: 'owned' tab without wallet returns empty (not all characters)
     if (filters.tab === 'owned' && !filters.wallet) {
       return { characters: [], hasMore: false, totalCount: 0 }
+    }
+
+    if (hasTraitFilters(filters)) {
+      const localTokenIds = await this.runtimeAssets.getTokenIdsForTraitFilters(toTraitFilters(filters))
+      if (localTokenIds) {
+        return this.findManyByLocalTraitFilters(filters)
+      }
     }
 
     let query = supabase!
       .from(CHARACTERS_TABLE)
       .select('*', { count: 'exact' })
 
-    // Apply wallet filter whenever wallet is provided
-    // This allows wallet-scoped queries for any tab (owned, staked, etc.)
-    // For 'owned' tab, include characters where user is either the owner OR the staker
-    // (staker_address is set when character is staked, owner_address becomes the contract)
-    if (filters.wallet) {
-      const walletLower = filters.wallet.toLowerCase()
-      if (filters.tab === 'owned') {
-        // Include both owned (unstaked) and staked-by-user characters
-        query = query.or(`owner_address.eq.${walletLower},staker_address.eq.${walletLower}`)
-      } else {
-        query = query.eq('owner_address', walletLower)
-      }
-    }
+    query = applyNonTraitFilters(query, filters)
+    query = applyMetadataTraitFilters(query, filters)
+    query = query.order('token_id', { ascending: filters.sort === 'asc' })
 
-    // Apply tab-specific filters (additive to wallet filter)
-    if (filters.tab === 'infected') {
-      // `wagdie_characters` uses the canonical infection_status enum
-      query = query.eq('infection_status', 'infected')
-    } else if (filters.tab === 'cured') {
-      // Cured means 'not infected' - includes both 'healthy' and 'cured' statuses
-      query = query.neq('infection_status', 'infected')
-    } else if (filters.tab === 'staked') {
-      // Staked characters are those with a non-null location_id
-      query = query.not('location_id', 'is', null)
-    } else if (filters.tab === 'fallen') {
-      // Fallen Warriors: characters with burned flag = true
-      query = query.eq('burned', true)
-    }
-    // Note: 'owned' and 'all' tabs only use the wallet filter above
-
-    // Apply search filter
-    if (filters.search) {
-      const searchTerm = filters.search.trim()
-      // Check if search is a number (token ID search)
-      const tokenIdSearch = parseInt(searchTerm, 10)
-      if (!isNaN(tokenIdSearch) && tokenIdSearch > 0) {
-        query = query.eq('token_id', tokenIdSearch)
-      } else {
-        // Search by name in metadata (case-insensitive)
-        query = query.ilike('metadata->>name', `%${searchTerm}%`)
-      }
-    }
-
-    // Has sheet filter - characters with custom data (name, stats, level, or background)
-    // A character "has sheet" if any player-edited field is populated
-    if (filters.hasSheet) {
-      query = query.or(
-        'name.not.is.null,' +           // Custom name
-        'str.not.is.null,' +            // Core stats defined
-        'level.gt.1,' +                 // Level > 1 (default is 1)
-        'background_story.not.is.null'  // Custom backstory
-      )
-    }
-
-    // NEW: Origin filter - filter by Body trait in metadata JSONB
-    if (filters.origin) {
-      query = query.contains('metadata', {
-        attributes: [{ trait_type: 'Body', value: filters.origin }]
-      })
-    }
-
-    // Alignment filter - filter by Alignment trait in metadata JSONB
-    if (filters.alignment) {
-      query = query.contains('metadata', {
-        attributes: [{ trait_type: 'Alignment', value: filters.alignment }]
-      })
-    }
-
-    // Equipment filters - filter by Armor, Back, Mask traits in metadata JSONB
-    if (filters.armor) {
-      query = query.contains('metadata', {
-        attributes: [{ trait_type: 'Armor', value: filters.armor }]
-      })
-    }
-    if (filters.back) {
-      query = query.contains('metadata', {
-        attributes: [{ trait_type: 'Back', value: filters.back }]
-      })
-    }
-    if (filters.mask) {
-      query = query.contains('metadata', {
-        attributes: [{ trait_type: 'Mask', value: filters.mask }]
-      })
-    }
-
-    // Apply sorting
-    const sortColumn = 'token_id'
-    query = query.order(sortColumn, { ascending: filters.sort === 'asc' })
-
-    // Apply pagination
     const from = (filters.page - 1) * filters.perPage
     const to = from + filters.perPage - 1
     query = query.range(from, to)
@@ -128,20 +253,14 @@ export class CharacterQueryRepository {
       throw new Error(`Failed to fetch characters: ${error.message}`)
     }
 
+    const normalizedCharacters = normalizeCharacters((data || []) as unknown as Character[])
+    const hydratedCharacters = await this.runtimeAssets.hydrateCharacters(normalizedCharacters)
     const totalCount = count || 0
-    const hasMore = totalCount > filters.page * filters.perPage
-
-    // Normalize burned flag based on owner_address rule
-    const rows = (data || []) as unknown as Character[]
-    const characters = rows.map((row) => ({
-      ...row,
-      burned: isBurnedOwner(row.owner_address, row.burned),
-    })) as Character[]
 
     return {
-      characters,
-      hasMore,
-      totalCount
+      characters: hydratedCharacters,
+      hasMore: totalCount > filters.page * filters.perPage,
+      totalCount,
     }
   }
 
@@ -160,12 +279,11 @@ export class CharacterQueryRepository {
       return null
     }
 
-    // Normalize burned flag based on owner_address rule
-    const character = data as unknown as Character
-    return {
-      ...character,
-      burned: isBurnedOwner(character.owner_address, character.burned),
-    } as Character
+    const [hydratedCharacter] = await this.runtimeAssets.hydrateCharacters(
+      normalizeCharacters([data as unknown as Character])
+    )
+
+    return hydratedCharacter || null
   }
 
   /**
@@ -176,14 +294,12 @@ export class CharacterQueryRepository {
     tokenId: number,
     updates: Partial<Pick<Character, EditableCharacterFields>>
   ): Promise<Character | null> {
-    // Use admin client for writes - auth/ownership is validated at API route level
     const client = getSupabaseAdmin()
     if (!client) {
       console.error('[Repository] Supabase admin client not initialized (missing service role key)')
       throw new Error('Database client not configured. Please check server configuration.')
     }
 
-    // Cast required: Supabase generated types may not allow partial updates on this table
     const query = client.from(CHARACTERS_TABLE) as unknown as {
       update: (values: Record<string, unknown>) => {
         eq: (column: string, value: number) => {
@@ -204,12 +320,11 @@ export class CharacterQueryRepository {
       throw new Error(`Failed to update character: ${error.message}`)
     }
 
-    // Normalize burned flag based on owner_address rule
-    const character = data as Character
-    return {
-      ...character,
-      burned: isBurnedOwner(character.owner_address, character.burned),
-    } as Character
+    const [hydratedCharacter] = await this.runtimeAssets.hydrateCharacters(
+      normalizeCharacters([data as Character])
+    )
+
+    return hydratedCharacter || null
   }
 
   /**

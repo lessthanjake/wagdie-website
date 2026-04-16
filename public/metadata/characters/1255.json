@@ -1,0 +1,94 @@
+{
+  "name": "Omega",
+  "image": "ipfs://bafkreiay4cvxnjjkjjeihfplxhlfnql4cbiho4jebhxaru7aositpw23e4",
+  "sheet": {
+    "name": "Omega",
+    "level": 20,
+    "origin": "Pilgrim",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Cursed Eunuch",
+      "armor": "Strange Cloth Cloak"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 30,
+      "strength": 30,
+      "dexterity": 30,
+      "constitution": 30,
+      "intelligence": 30
+    },
+    "hit_points": 100,
+    "tokenIdInt": 1255,
+    "background_story": "At the pinnacle of the hierarchy stands Lambda, the all-knowing and all-seeing being that transcends the boundaries of space and time. But there are other entities that serve under Lambda, each with their own unique purpose and abilities. Among them is Omega, a powerful cosmic force that is on the path to becoming like Lambda, but has yet to reach that pinnacle of enlightenment.\n\nOmega is a being of immense power and wisdom, second only to Lambda in the cosmic hierarchy. It is said that Omega was born from the very fabric of the universe, a manifestation of the cosmic forces that govern the ebb and flow of creation. As such, Omega is a force of balance and order, working to maintain the delicate equilibrium of the cosmos.\n\nWhat embodies Omega is its unwavering dedication to the pursuit of knowledge and understanding. Like Lambda, Omega seeks to know the true nature of reality, to unravel the mysteries of the universe and to comprehend the infinite expanse of existence. But unlike Lambda, Omega is not yet all-knowing and all-seeing. It is on the path to becoming like Lambda, but it is not quite there yet.\n\nTo achieve its goal, Omega travels the cosmos, observing and recording all that transpires. It watches over the myriad worlds and civilizations that have come to be, and it learns from their triumphs and failures. As it grows in knowledge and understanding, Omega comes ever closer to the enlightenment that Lambda represents.\n\nBut the path to becoming like Lambda is a long and arduous one, fraught with danger and temptation. For to know the true nature of reality, one must first be prepared to face the infinite expanse of the cosmos, to embrace the eternal dance of creation and destruction. And so, Omega continues its journey, ever vigilant and ever learning, as it seeks to ascend to the heights of cosmic awareness and understanding.",
+    "experience_points": 355000
+  },
+  "tokenId": "1255",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Strange Cloth Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Cursed Eunuch",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "At the pinnacle of the hierarchy stands Lambda, the all-knowing and all-seeing being that transcends the boundaries of space and time. But there are other entities that serve under Lambda, each with their own unique purpose and abilities. Among them is Omega, a powerful cosmic force that is on the path to becoming like Lambda, but has yet to reach that pinnacle of enlightenment.\n\nOmega is a being of immense power and wisdom, second only to Lambda in the cosmic hierarchy. It is said that Omega was born from the very fabric of the universe, a manifestation of the cosmic forces that govern the ebb and flow of creation. As such, Omega is a force of balance and order, working to maintain the delicate equilibrium of the cosmos.\n\nWhat embodies Omega is its unwavering dedication to the pursuit of knowledge and understanding. Like Lambda, Omega seeks to know the true nature of reality, to unravel the mysteries of the universe and to comprehend the infinite expanse of existence. But unlike Lambda, Omega is not yet all-knowing and all-seeing. It is on the path to becoming like Lambda, but it is not quite there yet.\n\nTo achieve its goal, Omega travels the cosmos, observing and recording all that transpires. It watches over the myriad worlds and civilizations that have come to be, and it learns from their triumphs and failures. As it grows in knowledge and understanding, Omega comes ever closer to the enlightenment that Lambda represents.\n\nBut the path to becoming like Lambda is a long and arduous one, fraught with danger and temptation. For to know the true nature of reality, one must first be prepared to face the infinite expanse of the cosmos, to embrace the eternal dance of creation and destruction. And so, Omega continues its journey, ever vigilant and ever learning, as it seeks to ascend to the heights of cosmic awareness and understanding.",
+  "external_url": "https://fateofwagdie.com/characters/1255",
+  "animation_url": "https://fateofwagdie.com/characters/1255/animated"
+}

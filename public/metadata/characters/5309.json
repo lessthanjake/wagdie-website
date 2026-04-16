@@ -1,0 +1,94 @@
+{
+  "name": "Feng the Indecent",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/5309.png",
+  "sheet": {
+    "name": "Feng the Indecent",
+    "level": 1,
+    "origin": "Logun Disciple",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 16,
+      "strength": 13,
+      "dexterity": 11,
+      "constitution": 11,
+      "intelligence": 14
+    },
+    "hit_points": 7,
+    "tokenIdInt": 5309,
+    "background_story": "Feng often spent a lot of his time showing people his mushroom before becoming infected by the spores. \nCurious of their affects he ate the first one to grow off his forearm. This did not give him the “groovy” sensation he was searching for, and perhaps even sped up the spread.",
+    "experience_points": 0
+  },
+  "tokenId": "5309",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "None",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Noxian Tint",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Her Truth",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Encampment Medallion",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Encampment Militia",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Feng often spent a lot of his time showing people his mushroom before becoming infected by the spores. \nCurious of their affects he ate the first one to grow off his forearm. This did not give him the “groovy” sensation he was searching for, and perhaps even sped up the spread.",
+  "external_url": "https://fateofwagdie.com/characters/5309",
+  "animation_url": "https://fateofwagdie.com/characters/5309/animated"
+}

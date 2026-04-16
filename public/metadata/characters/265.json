@@ -1,0 +1,94 @@
+{
+  "name": "Molosh the Reborn",
+  "image": "ipfs://bafkreibz43dyll3hbt5ejfl3e2rkz6qnmapm3vpqbftre2g5n3nzxuscqa",
+  "sheet": {
+    "name": "Molosh the Reborn",
+    "level": 20,
+    "origin": "Wormlord Hybrid",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Wormlord Hybrid",
+      "mask": "Wormlord Hybrid",
+      "armor": "Wormlord Hybrid"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 30,
+      "strength": 30,
+      "dexterity": 30,
+      "constitution": 30,
+      "intelligence": 30
+    },
+    "hit_points": 100,
+    "tokenIdInt": 265,
+    "background_story": "The act of devouring Molosh's remains unleashed a surge of dark energy that coursed through Hedrick's veins, binding him irreversibly to Molosh's body and essence. Initially, the connection between them was subtle, with mere whispers of Molosh's presence echoing in Hedrick's mind. However, as time passed, the memories and pain of Molosh forcefully invaded Hedrick's consciousness. The fusion of their identities had commenced, erasing Hedrick's true self and succumbing entirely to the malevolence of Molosh.\n\nAs the transformation unfolded, Hedrick's once-curious nature morphed into an insatiable hunger for power and knowledge, driven by the twisted desires of Molosh. The memories and experiences of Molosh permeated every fiber of Hedrick's being, altering his physical form and endowing him with dark and formidable abilities.\n\nNow fully consumed by Molosh's essence, Hedrick embarked on a malevolent path, bound to fulfill the wishes of the Nameless Serpent. Their shared objective was to spread the scales—the symbolic mark of the Nameless Serpent—across the Forsaken Lands. As agents of chaos and darkness, Molosh sought to bring forth a new era of the Serpent’s dominance, where the scales would signify the supremacy of their enigmatic master.",
+    "experience_points": 666
+  },
+  "tokenId": "265",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Wormlord Hybrid",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Wormlord Hybrid",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Wormlord Hybrid",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormlord Hybrid",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Wormlord Hybrid",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wormlord Hybrid",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormlord Hybrid",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The act of devouring Molosh's remains unleashed a surge of dark energy that coursed through Hedrick's veins, binding him irreversibly to Molosh's body and essence. Initially, the connection between them was subtle, with mere whispers of Molosh's presence echoing in Hedrick's mind. However, as time passed, the memories and pain of Molosh forcefully invaded Hedrick's consciousness. The fusion of their identities had commenced, erasing Hedrick's true self and succumbing entirely to the malevolence of Molosh.\n\nAs the transformation unfolded, Hedrick's once-curious nature morphed into an insatiable hunger for power and knowledge, driven by the twisted desires of Molosh. The memories and experiences of Molosh permeated every fiber of Hedrick's being, altering his physical form and endowing him with dark and formidable abilities.\n\nNow fully consumed by Molosh's essence, Hedrick embarked on a malevolent path, bound to fulfill the wishes of the Nameless Serpent. Their shared objective was to spread the scales—the symbolic mark of the Nameless Serpent—across the Forsaken Lands. As agents of chaos and darkness, Molosh sought to bring forth a new era of the Serpent’s dominance, where the scales would signify the supremacy of their enigmatic master.",
+  "external_url": "https://fateofwagdie.com/characters/265",
+  "animation_url": "https://fateofwagdie.com/characters/265/animated"
+}

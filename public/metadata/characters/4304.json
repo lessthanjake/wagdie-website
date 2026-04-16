@@ -1,0 +1,94 @@
+{
+  "name": "Black Scryer Assasin",
+  "image": "ipfs://bafkreidvz7ezg7mh7g66vcnrpxhhxtu2aaafgl3gd6aeh3xoio6nqc3enm",
+  "sheet": {
+    "name": "Black Scryer Assasin",
+    "level": 1,
+    "origin": "Young Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "Wormlord Visage",
+      "armor": "Healer's Dress"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 4304,
+    "background_story": "Following my master's commands, I pursued and eliminated the targets he designated\n\nNow, seeking revenge, my master leads us to the Coven's Lair to thwart the ritual.\n\nThe Black Scryer's Assassin fled The Roost during their failed attempt on The Crow, but was chased through the halls of The Coven's Lair in a panic.\n\nHe dodged most of the traps, but you need to dodge them all to survive...",
+    "experience_points": 0
+  },
+  "tokenId": "4304",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Healer's Dress",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Golden Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wormlord Visage",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Necromancer",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Following my master's commands, I pursued and eliminated the targets he designated\n\nNow, seeking revenge, my master leads us to the Coven's Lair to thwart the ritual.\n\nThe Black Scryer's Assassin fled The Roost during their failed attempt on The Crow, but was chased through the halls of The Coven's Lair in a panic.\n\nHe dodged most of the traps, but you need to dodge them all to survive...",
+  "external_url": "https://fateofwagdie.com/characters/4304",
+  "animation_url": "https://fateofwagdie.com/characters/4304/animated"
+}

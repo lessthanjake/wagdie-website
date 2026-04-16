@@ -1,0 +1,94 @@
+{
+  "name": "Katie Boomstick",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/3287.png",
+  "sheet": {
+    "name": "Katie Boomstick",
+    "level": 6,
+    "origin": "Wormkin Elite",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "None",
+      "armor": "Turlo Tunic"
+    },
+    "attributes": {
+      "wisdom": 6,
+      "charisma": 6,
+      "strength": 6,
+      "dexterity": 6,
+      "constitution": 6,
+      "intelligence": 6
+    },
+    "hit_points": 6,
+    "tokenIdInt": 3287,
+    "background_story": "The naughty boys like to bring me their boomsticks... I just know how to fire them better.",
+    "experience_points": 6
+  },
+  "tokenId": "3287",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Turlo Tunic",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Void",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Curse of Logun",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Mothling's Guard",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Mothling",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Fossors",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The naughty boys like to bring me their boomsticks... I just know how to fire them better.",
+  "external_url": "https://fateofwagdie.com/characters/3287",
+  "animation_url": "https://fateofwagdie.com/characters/3287/animated"
+}

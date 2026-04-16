@@ -1,0 +1,94 @@
+{
+  "name": "Aitos De'oz",
+  "image": "ipfs://bafkreib3p6hag2nkcgxrqkdjdf3ofu4aagjyfxf4f525csegurjrjm2gpm",
+  "sheet": {
+    "name": "Aitos De'oz",
+    "level": 1,
+    "origin": "Seeker of Piat",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "None",
+      "armor": "Blessing of the Worm"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 13,
+      "strength": 11,
+      "dexterity": 15,
+      "constitution": 15,
+      "intelligence": 17
+    },
+    "hit_points": 9,
+    "tokenIdInt": 1968,
+    "background_story": "He was born of a wild tribe, their name unpronounceable in the common tongue but referred to as the \"Windseekers\" by the more civilized people in nearby villages.\n \nHis people roamed between the grasslands through the long summers hunting the wild beasts that roamed in abundance.    In the winter they retreated to the forest that bordered the swamp.  \n\nHis people gave tribute in all things to nature around them; to the animals for their sustenance, to the trees for their protection, to the swamp for the spiritual lessons it provided.\n\nOver many generations, the Windseekers found their bodies, minds and souls in tune to the natural magics found in this realm.  Inspired by the nature around them, they found means to give tribute through words, song and dance which could harness those magics in their favor.",
+    "experience_points": 0
+  },
+  "tokenId": "1968",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Blessing of the Worm",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Lotharian Hair",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "He was born of a wild tribe, their name unpronounceable in the common tongue but referred to as the \"Windseekers\" by the more civilized people in nearby villages.\n \nHis people roamed between the grasslands through the long summers hunting the wild beasts that roamed in abundance.    In the winter they retreated to the forest that bordered the swamp.  \n\nHis people gave tribute in all things to nature around them; to the animals for their sustenance, to the trees for their protection, to the swamp for the spiritual lessons it provided.\n\nOver many generations, the Windseekers found their bodies, minds and souls in tune to the natural magics found in this realm.  Inspired by the nature around them, they found means to give tribute through words, song and dance which could harness those magics in their favor.",
+  "external_url": "https://fateofwagdie.com/characters/1968",
+  "animation_url": "https://fateofwagdie.com/characters/1968/animated"
+}

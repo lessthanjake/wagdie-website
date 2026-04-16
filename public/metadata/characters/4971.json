@@ -1,0 +1,94 @@
+{
+  "name": "Feya",
+  "image": "ipfs://bafkreiebuigvrmfpcuightzecu7apks7j4tm4hjeszh2yzlscinhedkauy",
+  "sheet": {
+    "name": "Feya",
+    "level": 1,
+    "origin": "Wormlord Acolyte",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Blind Thief's Charm",
+      "armor": "Healer's Dress"
+    },
+    "attributes": {
+      "wisdom": 18,
+      "charisma": 17,
+      "strength": 5,
+      "dexterity": 12,
+      "constitution": 8,
+      "intelligence": 14
+    },
+    "hit_points": 8,
+    "tokenIdInt": 4971,
+    "background_story": "Always clutching a book from which she cannot read, seen muttering to herself in a soft, loving tone, that of a mother soothing a perturbed child. She speaks of things to come, many dismiss her as another madwoman, lost within the darkness of her own blindness. A one Gideon Herald however,  has taken a liking to her after she befriended his child, he's come to search for meaning in the otherwise incoherent rambles during her prayer, will it guide him to his destiny, or their mutual demise?",
+    "experience_points": 0
+  },
+  "tokenId": "4971",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Healer's Dress",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Earth Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Blind Thief's Charm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Always clutching a book from which she cannot read, seen muttering to herself in a soft, loving tone, that of a mother soothing a perturbed child. She speaks of things to come, many dismiss her as another madwoman, lost within the darkness of her own blindness. A one Gideon Herald however,  has taken a liking to her after she befriended his child, he's come to search for meaning in the otherwise incoherent rambles during her prayer, will it guide him to his destiny, or their mutual demise?",
+  "external_url": "https://fateofwagdie.com/characters/4971",
+  "animation_url": "https://fateofwagdie.com/characters/4971/animated"
+}

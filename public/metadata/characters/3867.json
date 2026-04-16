@@ -1,0 +1,94 @@
+{
+  "name": "Logun's Yuler",
+  "image": "ipfs://bafkreial5pbp5wusvaq5foafgxrqy35y26xnsppeamk3k5x3amzi7th7ku",
+  "sheet": {
+    "name": "Logun's Yuler",
+    "level": 20,
+    "origin": "Logun Disciple",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Verite Protection"
+    },
+    "attributes": {
+      "wisdom": 1,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 1,
+    "tokenIdInt": 3867,
+    "background_story": "A version of Yuler (WAGDIE#87) altered by Logun in the Primordial lands.\n\nhttps://wagdie.wiki/characters/npc/yuler_the_pawn",
+    "experience_points": 0
+  },
+  "tokenId": "3867",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Verite Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Discipline Helm Hair",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A version of Yuler (WAGDIE#87) altered by Logun in the Primordial lands.\n\nhttps://wagdie.wiki/characters/npc/yuler_the_pawn",
+  "external_url": "https://fateofwagdie.com/characters/3867",
+  "animation_url": "https://fateofwagdie.com/characters/3867/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Mezer Nahri",
+  "image": "ipfs://bafkreibxhh5wqahwoxjpqm37ch2t3o23zfsimalmhjxe632xjh66r734qm",
+  "sheet": {
+    "name": "Mezer Nahri",
+    "level": 1,
+    "origin": "Pilgrim of the Lakes",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Swamp Traveler Cloak"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 16,
+      "strength": 15,
+      "dexterity": 13,
+      "constitution": 16,
+      "intelligence": 16
+    },
+    "hit_points": 6,
+    "tokenIdInt": 6134,
+    "background_story": "The baker's son.\n\nJust an NPC",
+    "experience_points": 0
+  },
+  "tokenId": "6134",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Swamp Traveler Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Naive Pilgrim's Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The baker's son.\n\nJust an NPC",
+  "external_url": "https://fateofwagdie.com/characters/6134",
+  "animation_url": "https://fateofwagdie.com/characters/6134/animated"
+}

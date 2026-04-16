@@ -1,0 +1,94 @@
+{
+  "name": "Zergiok Thete",
+  "image": "ipfs://bafkreifvhhjexhq73cg57h4dxs4xdcujxh7dubridxxhz4i65erofuqgj4",
+  "sheet": {
+    "name": "Zergiok Thete",
+    "level": 1,
+    "origin": "Astorian Adventurer",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "Removal's Kin",
+      "armor": "Her Zealot's Gear"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 15,
+      "strength": 10,
+      "dexterity": 15,
+      "constitution": 8,
+      "intelligence": 16
+    },
+    "hit_points": 7,
+    "tokenIdInt": 5633,
+    "background_story": "Zergiok hails from family Thete, a small family of mostly laymen and warriors. \n\nOnly son of Charles Thete. \n\nHe searches for something once taken from him. ",
+    "experience_points": 0
+  },
+  "tokenId": "5633",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Zealot's Gear",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Vaulted",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Straw",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Removal's Kin",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Zergiok hails from family Thete, a small family of mostly laymen and warriors. \n\nOnly son of Charles Thete. \n\nHe searches for something once taken from him. ",
+  "external_url": "https://fateofwagdie.com/characters/5633",
+  "animation_url": "https://fateofwagdie.com/characters/5633/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "𝕰𝖑𝖉𝖗𝖎𝖙𝖈𝖍, 𝖙𝖍𝖊 𝕰𝖑𝖔𝖖𝖚𝖊𝖓𝖙",
+  "image": "ipfs://bafkreidq374rxigik2hfls7o4f3vyvqoqq36klikqnmbrmgnzu7m5r2usy",
+  "sheet": {
+    "name": "𝕰𝖑𝖉𝖗𝖎𝖙𝖈𝖍, 𝖙𝖍𝖊 𝕰𝖑𝖔𝖖𝖚𝖊𝖓𝖙",
+    "level": 10,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Uirian Outfit"
+    },
+    "attributes": {
+      "wisdom": 9,
+      "charisma": 15,
+      "strength": 13,
+      "dexterity": 12,
+      "constitution": 13,
+      "intelligence": 16
+    },
+    "hit_points": 8,
+    "tokenIdInt": 1749,
+    "background_story": "ℑ𝔣 𝔯𝔢𝔮𝔲𝔢𝔰𝔱𝔢𝔡, ℑ 𝔰𝔭𝔢𝔞𝔨 𝔬𝔫 𝔟𝔢𝔥𝔞𝔩𝔣 𝔬𝔣 𝔪𝔶 𝔪𝔞𝔰𝔱𝔢𝔯, 𝔖𝔬𝔯𝔢𝔫.",
+    "experience_points": 200
+  },
+  "tokenId": "1749",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Uirian Outfit",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "ℑ𝔣 𝔯𝔢𝔮𝔲𝔢𝔰𝔱𝔢𝔡, ℑ 𝔰𝔭𝔢𝔞𝔨 𝔬𝔫 𝔟𝔢𝔥𝔞𝔩𝔣 𝔬𝔣 𝔪𝔶 𝔪𝔞𝔰𝔱𝔢𝔯, 𝔖𝔬𝔯𝔢𝔫.",
+  "external_url": "https://fateofwagdie.com/characters/1749",
+  "animation_url": "https://fateofwagdie.com/characters/1749/animated"
+}

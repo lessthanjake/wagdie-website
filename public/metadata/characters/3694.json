@@ -1,0 +1,94 @@
+{
+  "name": "Jeanne d’ETH",
+  "image": "ipfs://bafkreidh672rohjkvkm2elbc7kjfim6lwayranqrbysmbdqbl53wlp2nwe",
+  "sheet": {
+    "name": "Jeanne d’ETH",
+    "level": 1,
+    "origin": "Young Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "None",
+      "armor": "Logun's Decree"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 30,
+      "strength": 30,
+      "dexterity": 4,
+      "constitution": 0,
+      "intelligence": 30
+    },
+    "hit_points": 100,
+    "tokenIdInt": 3694,
+    "background_story": "This is the sister of Jeanne d’Arc. Now fighting the evil on web3",
+    "experience_points": 10
+  },
+  "tokenId": "3694",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Decree",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Altered",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Naive Blonde Pilgrim's Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "This is the sister of Jeanne d’Arc. Now fighting the evil on web3",
+  "external_url": "https://fateofwagdie.com/characters/3694",
+  "animation_url": "https://fateofwagdie.com/characters/3694/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Genius Josiah",
+  "image": "ipfs://bafkreibe4itiizyfmcam5oypng27znxxfmzvguj57kjog6jid6sdpd3n2u",
+  "sheet": {
+    "name": "Genius Josiah",
+    "level": 1,
+    "origin": "Young Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Dark One's Call"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 3948,
+    "background_story": "Genius Josiah is well known in the Forsaken Lands, and beloved by everyone. A natural and kind leader, he is always quick to volunteer or lend a helping hand. Gifted with an ability to use the perfect word, he masterfully tells stories and legends of the Forsaken Lands. Also, he naturally sees things clearly, comes to correct conclusions, and categorizes them understandably for others. In addition to his high IQ, he is renowned for his outstanding EQ which graciously presents itself in all interactions. Pilgrims all over seek him out.",
+    "experience_points": 0
+  },
+  "tokenId": "3948",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Dark One's Call",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Altered",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Straw",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Genius Josiah is well known in the Forsaken Lands, and beloved by everyone. A natural and kind leader, he is always quick to volunteer or lend a helping hand. Gifted with an ability to use the perfect word, he masterfully tells stories and legends of the Forsaken Lands. Also, he naturally sees things clearly, comes to correct conclusions, and categorizes them understandably for others. In addition to his high IQ, he is renowned for his outstanding EQ which graciously presents itself in all interactions. Pilgrims all over seek him out.",
+  "external_url": "https://fateofwagdie.com/characters/3948",
+  "animation_url": "https://fateofwagdie.com/characters/3948/animated"
+}

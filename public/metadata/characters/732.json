@@ -1,0 +1,94 @@
+{
+  "name": "Ser Pieter of the Sign",
+  "image": "ipfs://bafkreie46capqp5ie6f4igneavawmaoszjvus6u6iwyhrqsgwhe5xfplou",
+  "sheet": {
+    "name": "Ser Pieter of the Sign",
+    "level": 2,
+    "origin": "Hardened Merchant",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Blessing",
+      "armor": "Valorite Protection"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 18,
+      "strength": 14,
+      "dexterity": 13,
+      "constitution": 10,
+      "intelligence": 16
+    },
+    "hit_points": 5,
+    "tokenIdInt": 732,
+    "background_story": "I'M HOLDING A SIGN!",
+    "experience_points": 10
+  },
+  "tokenId": "732",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Valorite Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Discipline Helm Hair",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Blessing",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "I'M HOLDING A SIGN!",
+  "external_url": "https://fateofwagdie.com/characters/732",
+  "animation_url": "https://fateofwagdie.com/characters/732/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Pelaios Calabra",
+  "image": "ipfs://bafkreiho7afvtnnmqctzn7firnedxon7rvgnn7nbarcrsywt3s2reknqsu",
+  "sheet": {
+    "name": "Pelaios Calabra",
+    "level": 8,
+    "origin": "Alchemangel",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Alchemangel's Descent",
+      "mask": "None",
+      "armor": "Alb of the Enduring Eye"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 30,
+      "strength": 30,
+      "dexterity": 30,
+      "constitution": 30,
+      "intelligence": 30
+    },
+    "hit_points": 100,
+    "tokenIdInt": 4491,
+    "background_story": "Pelaios has a fascination with the concept of strength and power. He believes that only the strong should survive and the weak should be eliminated to make way for the more powerful. This belief only grows stronger as Pelaios continues to study and hone his magical abilities.",
+    "experience_points": 80
+  },
+  "tokenId": "4491",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Alb of the Enduring Eye",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Alchemangel's Descent",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Alchemangel",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Alchemangel",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Pelaios has a fascination with the concept of strength and power. He believes that only the strong should survive and the weak should be eliminated to make way for the more powerful. This belief only grows stronger as Pelaios continues to study and hone his magical abilities.",
+  "external_url": "https://fateofwagdie.com/characters/4491",
+  "animation_url": "https://fateofwagdie.com/characters/4491/animated"
+}

@@ -1,0 +1,82 @@
+{
+  "name": "Mugogi",
+  "image": "ipfs://bafkreidw7dwd2fx2mbzuqvsaneqaf5h2yat2ixvavfylnkjf62sdoea2tm",
+  "sheet": {
+    "name": "Mugogi",
+    "level": 16,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Zo's Decree",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 27,
+      "charisma": 6,
+      "strength": 3,
+      "dexterity": 4,
+      "constitution": 7,
+      "intelligence": 21
+    },
+    "hit_points": 13,
+    "tokenIdInt": 2679,
+    "background_story": "Mugogi is classified as an Elder Decrepit, one that possesses large quantities of Dark Miasma and is capable of using it as would a sorcerer does with magic. There is no other information on this being, due to the extreme difficulty of surviving encounters with it.",
+    "experience_points": 276
+  },
+  "tokenId": "2679",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Painless Worshipper",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Zo's Decree",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Painless Worshipper",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Mugogi is classified as an Elder Decrepit, one that possesses large quantities of Dark Miasma and is capable of using it as would a sorcerer does with magic. There is no other information on this being, due to the extreme difficulty of surviving encounters with it.",
+  "external_url": "https://fateofwagdie.com/characters/2679",
+  "animation_url": "https://fateofwagdie.com/characters/2679/animated"
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Vessel of Beelzus",
+  "image": "ipfs://bafkreigblmmelptolc2hg5jxoozwqgoq6f6uq2xqrvqpv4e4o4uxrqv34q",
+  "sheet": {
+    "name": "Vessel of Beelzus",
+    "level": 1,
+    "origin": "Vessel of Beelzus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 92,
+    "background_story": "A strange Vessel with piercing eyes... The Vessels are the most recently converted. They are maggots of Beelzus, not yet taken its true form. First hairs appear across their body. Then slowly their body is pierced by an exoskeleton ripping through their epidermis. The putrid consumption of Lord Grem has long since consumed most flesh so these creatures have a strange, perverse appeal.\n\nThe Vessels transform over the course of 1000 years before attaining the next form. Due to the strain of transformation, most Vessels cannot speak and lack cognitive abilities. Great care goes into ensuring the Vessels are not harmed by themselves or others in the world of X23494. Their burrows are created by the Flies who hide the Vessels deep within the Earth. Lord Beelzus is known to have a strange appetite for Vessels and will occasionally summon one for a meal using his dark magic.",
+    "experience_points": 0
+  },
+  "tokenId": "92",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Vessel of Beelzus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Minion of Grem",
+      "trait_type": "Portal of Grem"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Vessel of Beelzus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A strange Vessel with piercing eyes... The Vessels are the most recently converted. They are maggots of Beelzus, not yet taken its true form. First hairs appear across their body. Then slowly their body is pierced by an exoskeleton ripping through their epidermis. The putrid consumption of Lord Grem has long since consumed most flesh so these creatures have a strange, perverse appeal.\n\nThe Vessels transform over the course of 1000 years before attaining the next form. Due to the strain of transformation, most Vessels cannot speak and lack cognitive abilities. Great care goes into ensuring the Vessels are not harmed by themselves or others in the world of X23494. Their burrows are created by the Flies who hide the Vessels deep within the Earth. Lord Beelzus is known to have a strange appetite for Vessels and will occasionally summon one for a meal using his dark magic.",
+  "external_url": "https://fateofwagdie.com/characters/92",
+  "animation_url": "https://fateofwagdie.com/characters/92/animated"
+}

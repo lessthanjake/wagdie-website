@@ -1,0 +1,94 @@
+{
+  "name": "Lucius “The Blind”",
+  "image": "ipfs://bafkreidbcowomfoantqkr5kpzjer3f47klxerxtmug52d4uelow3ttuxmu",
+  "sheet": {
+    "name": "Lucius “The Blind”",
+    "level": 4,
+    "origin": "Hole Protector",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "None",
+      "armor": "Her Devotion"
+    },
+    "attributes": {
+      "wisdom": 17,
+      "charisma": 27,
+      "strength": 19,
+      "dexterity": 13,
+      "constitution": 13,
+      "intelligence": 16
+    },
+    "hit_points": 80,
+    "tokenIdInt": 1219,
+    "background_story": "Born in the castle of King Arthur many say is the unrecognized son of Dorian “The Wise” Kings Arthur hand. \n\nHe’s a survivor of the battle between Agora and The Serpent \n\nAfter the battle in the church Lucius was possessed by an entity that called himself “Dark Lucius”  that entity vanish after Lucius was attacked and almost killed in the Burrow. ",
+    "experience_points": 1980
+  },
+  "tokenId": "1219",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Devotion",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Her Golden Page",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Born in the castle of King Arthur many say is the unrecognized son of Dorian “The Wise” Kings Arthur hand. \n\nHe’s a survivor of the battle between Agora and The Serpent \n\nAfter the battle in the church Lucius was possessed by an entity that called himself “Dark Lucius”  that entity vanish after Lucius was attacked and almost killed in the Burrow. ",
+  "external_url": "https://fateofwagdie.com/characters/1219",
+  "animation_url": "https://fateofwagdie.com/characters/1219/animated"
+}

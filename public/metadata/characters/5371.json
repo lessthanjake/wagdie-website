@@ -1,0 +1,94 @@
+{
+  "name": "Glutton's Cook",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/5371.png",
+  "sheet": {
+    "name": "Glutton's Cook",
+    "level": 1,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Yogg's Love",
+      "armor": "Logun's Pauldrons"
+    },
+    "attributes": {
+      "wisdom": 1,
+      "charisma": 1,
+      "strength": 10,
+      "dexterity": 1,
+      "constitution": 1,
+      "intelligence": 1
+    },
+    "hit_points": 1,
+    "tokenIdInt": 5371,
+    "background_story": "The only cook alive that can satisfy the Glutton's hunger. They spend their existence brewing the bones of other Pilgrim's in it's service.",
+    "experience_points": 0
+  },
+  "tokenId": "5371",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Pauldrons",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Yogg's Love",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Glutton's Secret Ladle",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Gnawed Bone",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Ancient Reflections",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The only cook alive that can satisfy the Glutton's hunger. They spend their existence brewing the bones of other Pilgrim's in it's service.",
+  "external_url": "https://fateofwagdie.com/characters/5371",
+  "animation_url": "https://fateofwagdie.com/characters/5371/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Wandering Spirit",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/6628.png",
+  "sheet": {
+    "name": "Wandering Spirit",
+    "level": 0,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Yogg's Folly",
+      "armor": "Swamp Traveler Cloak"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 6628,
+    "background_story": "\nType: Ghost.",
+    "experience_points": 0
+  },
+  "tokenId": "6628",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Swamp Traveler Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Yogg's Folly",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Cursed Cage",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Toad of Detriti",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Coven of Detriti",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "\nType: Ghost.",
+  "external_url": "https://fateofwagdie.com/characters/6628",
+  "animation_url": "https://fateofwagdie.com/characters/6628/animated"
+}

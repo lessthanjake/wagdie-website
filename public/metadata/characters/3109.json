@@ -1,0 +1,94 @@
+{
+  "name": "Kinightic",
+  "image": "ipfs://bafkreigzbcgqfolob6sp5bwwb3imtqv73dvryhfpxnib6l6vikwi7faqni",
+  "sheet": {
+    "name": "Kinightic",
+    "level": 1,
+    "origin": "Luta's Lover",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "Artificial God Bringer",
+      "armor": "Holy Diamond of Her"
+    },
+    "attributes": {
+      "wisdom": 6,
+      "charisma": 12,
+      "strength": 17,
+      "dexterity": 9,
+      "constitution": 18,
+      "intelligence": 16
+    },
+    "hit_points": 50,
+    "tokenIdInt": 3109,
+    "background_story": "An automaton of arcane sentience beholden under the White Banner",
+    "experience_points": 0
+  },
+  "tokenId": "3109",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Holy Diamond of Her",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Luta's Lover",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Artificial God Bringer",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Luta's Lover",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "An automaton of arcane sentience beholden under the White Banner",
+  "external_url": "https://fateofwagdie.com/characters/3109",
+  "animation_url": "https://fateofwagdie.com/characters/3109/animated"
+}

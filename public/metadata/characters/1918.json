@@ -1,0 +1,94 @@
+{
+  "name": "Benoîte",
+  "image": "ipfs://bafkreid4spdkhichrdfr4kauln52hfz5xqhpports3qrv6wqozi6zcsil4",
+  "sheet": {
+    "name": "Benoîte",
+    "level": 1,
+    "origin": "Her Lover",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "None",
+      "armor": "Yuria's Power"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 14,
+      "strength": 7,
+      "dexterity": 16,
+      "constitution": 15,
+      "intelligence": 10
+    },
+    "hit_points": 7,
+    "tokenIdInt": 1918,
+    "background_story": "Sister to Elise, devout follower of Yuria.",
+    "experience_points": 0
+  },
+  "tokenId": "1918",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Yuria's Power",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Sister to Elise, devout follower of Yuria.",
+  "external_url": "https://fateofwagdie.com/characters/1918",
+  "animation_url": "https://fateofwagdie.com/characters/1918/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "𝔟𝔲𝔰𝔰𝔦𝔫 𝔨𝔦𝔫𝔤",
+  "image": "ipfs://bafkreiemvxzywm5rlex2rvz5r2isafvqh5qnuepk6x5w7iimfedqwefmsq",
+  "sheet": {
+    "name": "𝔟𝔲𝔰𝔰𝔦𝔫 𝔨𝔦𝔫𝔤",
+    "level": 20,
+    "origin": "Astorian Adventurer",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Royal Fool's Curse",
+      "armor": "Journeyman Tunic"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 11,
+      "strength": 14,
+      "dexterity": 13,
+      "constitution": 16,
+      "intelligence": 8
+    },
+    "hit_points": 8,
+    "tokenIdInt": 6334,
+    "background_story": "Bussin King was a man who had it all. He was rich, powerful, and famous, and he loved to flaunt his wealth and status. Everywhere he went, he would make a grand entrance, dressed in the finest clothes and driving the most expensive cars.\n\nBut despite his success, Bussin King was deeply unhappy. He felt like something was missing from his life, like there was a hole in his soul that could not be filled. He tried to numb the pain with drugs, alcohol, and partying, but nothing seemed to work.\n\nOne day, Bussin King's son, Bussin Boy, came to him with a warning. He told his father that they were all going to die, that the world was on the brink of collapse and that there was no escaping it. Bussin King scoffed at his son's warning, telling him that he was just being paranoid and that he should enjoy life while he still could.\n\nBut as time went on, Bussin King began to see the truth in his son's words. He saw the world around him crumbling, as natural disasters, wars, and pandemics ravaged the planet. He saw the suffering of the people, the poverty, and the desperation. He realized that all of his wealth and power could not protect him from the inevitable end that was coming.\n\nAnd so, Bussin King began to change. He stopped living for himself and started living for others. He used his wealth and influence to help those in need, to build shelters for the homeless, and to provide food and medicine for the sick. He started to see the beauty in the world, in the small moments of kindness and love that people shared.\n\nBussin King's transformation inspired others to change as well. People began to see that they could make a difference, that they could help each other and build a better world, even in the face of death and destruction. They realized that the only way to truly live was to live for others, to find meaning in service and sacrifice.\n\nIn the end, Bussin King died like everyone else, but he died knowing that he had made a difference. He had left behind a legacy of love and compassion, one that would continue to inspire others long after he was gone. And as the world crumbled around them, the people who had been touched by Bussin King's example held onto hope, knowing that even in the darkest of times, there was still a glimmer of light.",
+    "experience_points": 30
+  },
+  "tokenId": "6334",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Journeyman Tunic",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zaban Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Royal Fool's Curse",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Bussin King was a man who had it all. He was rich, powerful, and famous, and he loved to flaunt his wealth and status. Everywhere he went, he would make a grand entrance, dressed in the finest clothes and driving the most expensive cars.\n\nBut despite his success, Bussin King was deeply unhappy. He felt like something was missing from his life, like there was a hole in his soul that could not be filled. He tried to numb the pain with drugs, alcohol, and partying, but nothing seemed to work.\n\nOne day, Bussin King's son, Bussin Boy, came to him with a warning. He told his father that they were all going to die, that the world was on the brink of collapse and that there was no escaping it. Bussin King scoffed at his son's warning, telling him that he was just being paranoid and that he should enjoy life while he still could.\n\nBut as time went on, Bussin King began to see the truth in his son's words. He saw the world around him crumbling, as natural disasters, wars, and pandemics ravaged the planet. He saw the suffering of the people, the poverty, and the desperation. He realized that all of his wealth and power could not protect him from the inevitable end that was coming.\n\nAnd so, Bussin King began to change. He stopped living for himself and started living for others. He used his wealth and influence to help those in need, to build shelters for the homeless, and to provide food and medicine for the sick. He started to see the beauty in the world, in the small moments of kindness and love that people shared.\n\nBussin King's transformation inspired others to change as well. People began to see that they could make a difference, that they could help each other and build a better world, even in the face of death and destruction. They realized that the only way to truly live was to live for others, to find meaning in service and sacrifice.\n\nIn the end, Bussin King died like everyone else, but he died knowing that he had made a difference. He had left behind a legacy of love and compassion, one that would continue to inspire others long after he was gone. And as the world crumbled around them, the people who had been touched by Bussin King's example held onto hope, knowing that even in the darkest of times, there was still a glimmer of light.",
+  "external_url": "https://fateofwagdie.com/characters/6334",
+  "animation_url": "https://fateofwagdie.com/characters/6334/animated"
+}

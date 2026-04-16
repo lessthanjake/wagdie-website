@@ -1,0 +1,94 @@
+{
+  "name": "The Crimson Cap of Carnage",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/1494.png",
+  "sheet": {
+    "name": "The Crimson Cap of Carnage",
+    "level": 6,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Noxium Garb",
+      "armor": "Logun's Descent"
+    },
+    "attributes": {
+      "wisdom": 6,
+      "charisma": 6,
+      "strength": 6,
+      "dexterity": 6,
+      "constitution": 6,
+      "intelligence": 6
+    },
+    "hit_points": 6,
+    "tokenIdInt": 1494,
+    "background_story": "\"In decay, all shall obey!\"\n\nThe Mushroom Headed Warlord, often known as \"The Crimson Cap of Carnage\", looms at an intimidating 6'7\". His physique, though robust, seems to pulsate with a dark, ominous aura. His mushroom-capped head is a deep shade of blood-red, with black, venomous spores occasionally seeping out, leaving a trail of decay wherever they land. His full red armor is twisted in design, echoing the nightmarish forms of poisonous fungi, with shadowy gills that seem to whisper dark secrets. Cunning, merciless, and unpredictable, the Crimson Cap of Carnage is a force to be reckoned with. He has an insatiable hunger for power and dominance. Every word he utters is dripping with malice, and his laughter, though rare, sends chills down the spine of those who hear it. He views the world as his fungal garden, ready to be infected and consumed. Wielding the \"Decay Blade\", a broadsword tainted with the deadliest of fungal toxins, he can bring down foes with a single touch. The blade's dark red sheen seems to throb with a malevolent life of its own. In battle, he uses the sword not just for brutal assaults but also for spreading decay. With swift, lethal strokes, he targets his foes' weaknesses, relishing their suffering. His armor releases a deadly spore cloud on command, choking enemies and rendering them helpless. The Crimson Cap of Carnage seeks to spread the influence of his dark fungal empire across all lands, corrupting nature, and bending all living beings to his twisted will. Driven by an insidious vision where the world bows to the might of fungi, he'll stop at nothing to see this dark dream realized.",
+    "experience_points": 6
+  },
+  "tokenId": "1494",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Descent",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Galactic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Noxium Garb",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Spore Cap",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Stale Mushroom",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Spores of the Headless",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "\"In decay, all shall obey!\"\n\nThe Mushroom Headed Warlord, often known as \"The Crimson Cap of Carnage\", looms at an intimidating 6'7\". His physique, though robust, seems to pulsate with a dark, ominous aura. His mushroom-capped head is a deep shade of blood-red, with black, venomous spores occasionally seeping out, leaving a trail of decay wherever they land. His full red armor is twisted in design, echoing the nightmarish forms of poisonous fungi, with shadowy gills that seem to whisper dark secrets. Cunning, merciless, and unpredictable, the Crimson Cap of Carnage is a force to be reckoned with. He has an insatiable hunger for power and dominance. Every word he utters is dripping with malice, and his laughter, though rare, sends chills down the spine of those who hear it. He views the world as his fungal garden, ready to be infected and consumed. Wielding the \"Decay Blade\", a broadsword tainted with the deadliest of fungal toxins, he can bring down foes with a single touch. The blade's dark red sheen seems to throb with a malevolent life of its own. In battle, he uses the sword not just for brutal assaults but also for spreading decay. With swift, lethal strokes, he targets his foes' weaknesses, relishing their suffering. His armor releases a deadly spore cloud on command, choking enemies and rendering them helpless. The Crimson Cap of Carnage seeks to spread the influence of his dark fungal empire across all lands, corrupting nature, and bending all living beings to his twisted will. Driven by an insidious vision where the world bows to the might of fungi, he'll stop at nothing to see this dark dream realized.",
+  "external_url": "https://fateofwagdie.com/characters/1494",
+  "animation_url": "https://fateofwagdie.com/characters/1494/animated"
+}

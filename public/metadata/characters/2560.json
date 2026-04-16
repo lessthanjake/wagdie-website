@@ -1,0 +1,94 @@
+{
+  "name": "Evendur Amblecrown",
+  "image": "ipfs://bafkreiaile6iu5coxibmyhmzznemzh3czaoe3btbixmok3uu7sbayl4s3q",
+  "sheet": {
+    "name": "Evendur Amblecrown",
+    "level": 1,
+    "origin": "Zolian Worm",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "Her Shield of Glory",
+      "armor": "Logun's Pauldrons"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 15,
+      "strength": 13,
+      "dexterity": 10,
+      "constitution": 15,
+      "intelligence": 11
+    },
+    "hit_points": 6,
+    "tokenIdInt": 2560,
+    "background_story": "A pious soldier who believes in doing what's right.",
+    "experience_points": 0
+  },
+  "tokenId": "2560",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Pauldrons",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Shield of Glory",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A pious soldier who believes in doing what's right.",
+  "external_url": "https://fateofwagdie.com/characters/2560",
+  "animation_url": "https://fateofwagdie.com/characters/2560/animated"
+}

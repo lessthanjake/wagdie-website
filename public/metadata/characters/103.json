@@ -1,0 +1,98 @@
+{
+  "name": "Protagonist",
+  "image": "https://crimson-static-barnacle-945.mypinata.cloud/ipfs/QmRWgsTwpMotqqbVbb91pBgGXUbAAiannPabgA5Kv9s6RH",
+  "sheet": {
+    "name": "Protagonist",
+    "level": 1,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Bandit Helm",
+      "armor": "Dark One's Call"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 13,
+      "strength": 8,
+      "dexterity": 14,
+      "constitution": 9,
+      "intelligence": 17
+    },
+    "hit_points": 35,
+    "tokenIdInt": 103,
+    "background_story": "Explorer and chronicler of the Forsaken Lands, protagonist awoke at the start of the 18th cycle alongside many others at the Church of Her. He believes it to be his destiny to uncover the mysteries of the Appendices of the 17 while journeying with the Lost Pilgrim in the unraveling events of this significant cycle. His name is currently undisclosed. \n\nFollow his adventure: \n https://www.youtube.com/@wagdiestory ",
+    "experience_points": 0
+  },
+  "tokenId": "103",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Dark One's Call",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Bandit Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Explorer",
+      "trait_type": "A Knight is Born"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Explorer and chronicler of the Forsaken Lands, protagonist awoke at the start of the 18th cycle alongside many others at the Church of Her. He believes it to be his destiny to uncover the mysteries of the Appendices of the 17 while journeying with the Lost Pilgrim in the unraveling events of this significant cycle. His name is currently undisclosed. \n\nFollow his adventure: \n https://www.youtube.com/@wagdiestory ",
+  "external_url": "https://fateofwagdie.com/characters/103",
+  "animation_url": "https://fateofwagdie.com/characters/103/animated"
+}

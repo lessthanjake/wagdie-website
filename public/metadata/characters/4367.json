@@ -1,0 +1,94 @@
+{
+  "name": "Osborn bottle",
+  "image": "ipfs://bafkreic4up77wv54jdzf7vmwpgp3ke2hrufxbjap3fgelkz25g4gb2i2da",
+  "sheet": {
+    "name": "Osborn bottle",
+    "level": 1,
+    "origin": "Pilgrim of the Lakes",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "An Ancient Device",
+      "armor": "Zaban Explorer Garb"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 10,
+      "strength": 17,
+      "dexterity": 14,
+      "constitution": 11,
+      "intelligence": 12
+    },
+    "hit_points": 5,
+    "tokenIdInt": 4367,
+    "background_story": "Keeper of Artificer's Concord Tokens in Wolf's party. Staying behind in the Stalwart near Gunther.\n\nAffiliations: Curious about The Artificers & ancient technology.",
+    "experience_points": 0
+  },
+  "tokenId": "4367",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Zaban Explorer Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "An Ancient Device",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Keeper of Artificer's Concord Tokens in Wolf's party. Staying behind in the Stalwart near Gunther.\n\nAffiliations: Curious about The Artificers & ancient technology.",
+  "external_url": "https://fateofwagdie.com/characters/4367",
+  "animation_url": "https://fateofwagdie.com/characters/4367/animated"
+}

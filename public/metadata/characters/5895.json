@@ -1,0 +1,94 @@
+{
+  "name": "Vedric Meegredth",
+  "image": "ipfs://bafkreiggkdnsmidfvwl7lcou6nbybkp3xksslrpeay3ollxyl22kobsoiq",
+  "sheet": {
+    "name": "Vedric Meegredth",
+    "level": 1,
+    "origin": "Hardened Merchant",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Silence",
+      "armor": "Swamp Traveler Cloak"
+    },
+    "attributes": {
+      "wisdom": 8,
+      "charisma": 10,
+      "strength": 11,
+      "dexterity": 11,
+      "constitution": 14,
+      "intelligence": 13
+    },
+    "hit_points": 8,
+    "tokenIdInt": 5895,
+    "background_story": "I seeketh direction into the guiding light of Her. For upon this miniscule patch of earth upon which I dwell, it is only a temporary vessel and satisfaction. I depart from my small village, away from the trivialities and mundaneness. I begin my journey headed east, whereupon I travel along the same steps of my forebears.",
+    "experience_points": 0
+  },
+  "tokenId": "5895",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Swamp Traveler Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Vaulted",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Naive Pilgrim's Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Silence",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "I seeketh direction into the guiding light of Her. For upon this miniscule patch of earth upon which I dwell, it is only a temporary vessel and satisfaction. I depart from my small village, away from the trivialities and mundaneness. I begin my journey headed east, whereupon I travel along the same steps of my forebears.",
+  "external_url": "https://fateofwagdie.com/characters/5895",
+  "animation_url": "https://fateofwagdie.com/characters/5895/animated"
+}

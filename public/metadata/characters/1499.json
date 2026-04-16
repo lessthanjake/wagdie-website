@@ -1,0 +1,82 @@
+{
+  "name": "De Crip It",
+  "image": "ipfs://bafkreihu7hom3cluy4g6z5a3d4n5i6gvdu377eeiw3q2dwc7ddsc7dceqa",
+  "sheet": {
+    "name": "De Crip It",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Blind Thief's Charm",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 8,
+      "charisma": 7,
+      "strength": 13,
+      "dexterity": 14,
+      "constitution": 11,
+      "intelligence": 9
+    },
+    "hit_points": 8,
+    "tokenIdInt": 1499,
+    "background_story": "Come around these parts and you might get cut. Fallen and on the rise again. De Crip It steals to survive and at night cries remembering the days he was close to her.",
+    "experience_points": 0
+  },
+  "tokenId": "1499",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Fallen Worshipper",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Blind Thief's Charm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Fallen Worshipper",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Come around these parts and you might get cut. Fallen and on the rise again. De Crip It steals to survive and at night cries remembering the days he was close to her.",
+  "external_url": "https://fateofwagdie.com/characters/1499",
+  "animation_url": "https://fateofwagdie.com/characters/1499/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Muddy Puddles",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/2489.png",
+  "sheet": {
+    "name": "Muddy Puddles",
+    "level": 1,
+    "origin": "Her Lover",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Fool's Crown",
+      "armor": "Yuria's Power"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 2489,
+    "background_story": "Rolling pine trees, minus seeds, sipping muddy puddles",
+    "experience_points": 0
+  },
+  "tokenId": "2489",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Yuria's Power",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zaban Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Fool's Crown",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Mothling's Guard",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Mothling",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Fossors",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Rolling pine trees, minus seeds, sipping muddy puddles",
+  "external_url": "https://fateofwagdie.com/characters/2489",
+  "animation_url": "https://fateofwagdie.com/characters/2489/animated"
+}

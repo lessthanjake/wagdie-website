@@ -1,0 +1,94 @@
+{
+  "name": "𝔖𝔢𝔯𝔞𝔭𝔥𝔦𝔫, ℌ𝔢𝔯 𝔚𝔞𝔯𝔯𝔦𝔬𝔯",
+  "image": "ipfs://bafkreic4t3kc2o3e5q4c7ssz3sxqg4kswlk6m5ztqlkyflkosxhtsfxg2i",
+  "sheet": {
+    "name": "𝔖𝔢𝔯𝔞𝔭𝔥𝔦𝔫, ℌ𝔢𝔯 𝔚𝔞𝔯𝔯𝔦𝔬𝔯",
+    "level": 4,
+    "origin": "Journeyman",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Her Glory",
+      "armor": "Her Imprint"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 10,
+      "strength": 10,
+      "dexterity": 14,
+      "constitution": 12,
+      "intelligence": 9
+    },
+    "hit_points": 9,
+    "tokenIdInt": 2881,
+    "background_story": "Devout follower of Mother Agora, sworn to protect her at all costs.",
+    "experience_points": 100
+  },
+  "tokenId": "2881",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Imprint",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Swamp Tassels",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Devout follower of Mother Agora, sworn to protect her at all costs.",
+  "external_url": "https://fateofwagdie.com/characters/2881",
+  "animation_url": "https://fateofwagdie.com/characters/2881/animated"
+}

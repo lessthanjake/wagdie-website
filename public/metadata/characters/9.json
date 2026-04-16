@@ -1,0 +1,90 @@
+{
+  "name": "Yuria's Madness",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/9.png",
+  "sheet": {
+    "name": "Yuria's Madness",
+    "level": 2,
+    "origin": "Her Lover",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "None",
+      "armor": "Yuria's Power"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 9,
+      "strength": 12,
+      "dexterity": 14,
+      "constitution": 15,
+      "intelligence": 9
+    },
+    "hit_points": 9,
+    "tokenIdInt": 9,
+    "background_story": "Her rage has mostly subsided with the end of the war, and now she only knows the frustration of trying to please a companion who is hungers for more than the Turlo can provide.\n\nJoined Natasha, her companion, to enter Final Battle at Church and survived.\n\nLingered around Wolf's party until the gates of Turlo opened. Stole the Molten Talisman and rushed into the Turlo alone.\n\nSister to Yuria's Fury. Keeper of Fury Concord Tokens: Obsidian Blade, Molten Talisman, and Raptor's Tooth.\n\nHas taken on Natasha Sult as an apprentice.",
+    "experience_points": 300
+  },
+  "tokenId": "9",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Yuria's Power",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Mothling's Guard",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Mothling",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Fossors",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Her rage has mostly subsided with the end of the war, and now she only knows the frustration of trying to please a companion who is hungers for more than the Turlo can provide.\n\nJoined Natasha, her companion, to enter Final Battle at Church and survived.\n\nLingered around Wolf's party until the gates of Turlo opened. Stole the Molten Talisman and rushed into the Turlo alone.\n\nSister to Yuria's Fury. Keeper of Fury Concord Tokens: Obsidian Blade, Molten Talisman, and Raptor's Tooth.\n\nHas taken on Natasha Sult as an apprentice.",
+  "external_url": "https://fateofwagdie.com/characters/9",
+  "animation_url": "https://fateofwagdie.com/characters/9/animated"
+}

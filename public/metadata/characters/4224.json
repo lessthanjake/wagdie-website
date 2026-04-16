@@ -1,0 +1,94 @@
+{
+  "name": "Norg the Silent ",
+  "image": "ipfs://bafkreibfnokarbqfegwcl75shhhufr4d3ijl74rikjdghnz47d7p3katau",
+  "sheet": {
+    "name": "Norg the Silent ",
+    "level": 3,
+    "origin": "Zolian Worm",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Noxium Garb",
+      "armor": "Journeyman Tunic"
+    },
+    "attributes": {
+      "wisdom": 8,
+      "charisma": 9,
+      "strength": 15,
+      "dexterity": 14,
+      "constitution": 12,
+      "intelligence": 13
+    },
+    "hit_points": 10,
+    "tokenIdInt": 4224,
+    "background_story": "Norg the Silent has taken a vow of silence for his service of the Wormlords, because of this little is known of Norg and his past. Norg is simply known as a stoic warrior who enjoys a Noxium Brew or two. ",
+    "experience_points": 0
+  },
+  "tokenId": "4224",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Journeyman Tunic",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Noxium Garb",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Norg the Silent has taken a vow of silence for his service of the Wormlords, because of this little is known of Norg and his past. Norg is simply known as a stoic warrior who enjoys a Noxium Brew or two. ",
+  "external_url": "https://fateofwagdie.com/characters/4224",
+  "animation_url": "https://fateofwagdie.com/characters/4224/animated"
+}

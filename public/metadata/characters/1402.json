@@ -1,0 +1,94 @@
+{
+  "name": "Blockhead Billy",
+  "image": "ipfs://bafkreih66z2uv2a2lrpse4pj5ppnc67prwgj3245rdiujopudpmfmp2pc4",
+  "sheet": {
+    "name": "Blockhead Billy",
+    "level": 1,
+    "origin": "Garolin Champion",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Verite Supports"
+    },
+    "attributes": {
+      "wisdom": 4,
+      "charisma": 15,
+      "strength": 16,
+      "dexterity": 16,
+      "constitution": 11,
+      "intelligence": 8
+    },
+    "hit_points": 5,
+    "tokenIdInt": 1402,
+    "background_story": "Repurposed this new Verite plate from a 1960's GE refrigerator in classic green",
+    "experience_points": 0
+  },
+  "tokenId": "1402",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Verite Supports",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Discipline Helm Hair",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Repurposed this new Verite plate from a 1960's GE refrigerator in classic green",
+  "external_url": "https://fateofwagdie.com/characters/1402",
+  "animation_url": "https://fateofwagdie.com/characters/1402/animated"
+}

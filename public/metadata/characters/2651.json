@@ -1,0 +1,94 @@
+{
+  "name": "The Void Drinker",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/2651.png",
+  "sheet": {
+    "name": "The Void Drinker",
+    "level": 1,
+    "origin": "Worm Devotee",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Wisened Touch",
+      "armor": "Punished Shirt"
+    },
+    "attributes": {
+      "wisdom": 9,
+      "charisma": 15,
+      "strength": 18,
+      "dexterity": 16,
+      "constitution": 15,
+      "intelligence": 14
+    },
+    "hit_points": 10,
+    "tokenIdInt": 2651,
+    "background_story": "The Void Exists",
+    "experience_points": 0
+  },
+  "tokenId": "2651",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Punished Shirt",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Void",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Worm Devotee",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Pilgrim's Touch",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wisened Touch",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Worm Devotee",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Void Drinker",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Jester's Wand",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Grand Jester",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The Void Exists",
+  "external_url": "https://fateofwagdie.com/characters/2651",
+  "animation_url": "https://fateofwagdie.com/characters/2651/animated"
+}

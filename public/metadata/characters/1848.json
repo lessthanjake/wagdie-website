@@ -1,0 +1,94 @@
+{
+  "name": "Tristan Chaddington IV",
+  "image": "ipfs://bafkreibh4gd45cchsq5utau37vc6mlyk7mancwd3px3y64xvnitgzbaghi",
+  "sheet": {
+    "name": "Tristan Chaddington IV",
+    "level": 1,
+    "origin": "Young Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "None",
+      "armor": "Strange Cloth Cloak"
+    },
+    "attributes": {
+      "wisdom": 1,
+      "charisma": 13,
+      "strength": 13,
+      "dexterity": 11,
+      "constitution": 12,
+      "intelligence": 1
+    },
+    "hit_points": 10,
+    "tokenIdInt": 1848,
+    "background_story": "After Tristan’s father, Tristan, died. Tristan decided to journey the Forsaken Lands to spread his vibes to everyone.\n\nMood.",
+    "experience_points": 0
+  },
+  "tokenId": "1848",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Strange Cloth Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Straw",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "After Tristan’s father, Tristan, died. Tristan decided to journey the Forsaken Lands to spread his vibes to everyone.\n\nMood.",
+  "external_url": "https://fateofwagdie.com/characters/1848",
+  "animation_url": "https://fateofwagdie.com/characters/1848/animated"
+}

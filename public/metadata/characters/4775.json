@@ -1,0 +1,94 @@
+{
+  "name": "Shamil Scheppen",
+  "image": "ipfs://bafkreidc35724dynda6lgtuzmrotyhengcldh6o3sgpxpx3jdmagn74p5a",
+  "sheet": {
+    "name": "Shamil Scheppen",
+    "level": 1,
+    "origin": "Aged Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Fool's Crown",
+      "armor": "Zaban Explorer Garb"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 14,
+      "strength": 16,
+      "dexterity": 12,
+      "constitution": 14,
+      "intelligence": 9
+    },
+    "hit_points": 8,
+    "tokenIdInt": 4775,
+    "background_story": "Shamil Scheppen, a character of noble lineage and charisma, was born into the esteemed royal family of Scheppen. From an early age, it was evident that Shamil possessed a unique sense of justice and compassion. Despite being surrounded by opulence and privilege, Shamil remained grounded and attuned to the struggles of the common people.\n\nAs a young prince, Shamil was groomed to inherit the throne and rule over the prosperous kingdom. However, the weight of the royal responsibilities and the constraints of the monarchy began to suffocate Shamil's spirit. Disenchanted by the political games and power struggles, Shamil yearned for a deeper understanding of the world outside the palace walls.\n\nAt the age of twenty, Shamil made a bold decision. Disregarding the expectations set upon him, he renounced his claim to the throne, forsaking his royal privileges and embarking on a journey as an aged traveler. Driven by a desire to experience life beyond the confines of his birthright, Shamil sought wisdom, knowledge, and adventure in the far corners of the realm.\n\nDuring his travels, Shamil encountered diverse cultures, civilizations, and peoples. He witnessed both the remarkable beauty and profound suffering that existed throughout the lands. This exposure further fueled his determination to bring about positive change, utilizing his royal background and inherent goodness for the greater good.\n\nShamil's travels also led him to meet individuals from all walks of life— peasants, merchants, warriors, and even reclusive sages. He learned from their experiences, understanding the hardships they faced and the significance of community and cooperation. These encounters molded Shamil into a compassionate and just individual, driven by the moral imperative to alleviate suffering and promote harmony.\n\nHis royal lineage bestowed upon Shamil a natural leadership ability, and he harnessed this power to establish connections with influential figures across the realm. Shamil became known as a mediator, an arbitrator who sought diplomatic resolutions to conflicts and strived to restore balance where discord had taken hold.\n\nShamil's neutral good alignment is a testament to his unwavering commitment to justice, fairness, and the greater good. Though he may lack a formal position of power, Shamil's innate nobility and charisma allow him to inspire change and lead by example.\n\nAs an aged traveler, Shamil's wisdom and experience are evident in his actions and decisions. He draws upon the wealth of knowledge he acquired during his journeys, making him a formidable ally and mentor to those who join him in his quest for justice and peace.\n\nIn the realm, Shamil's reputation as a selfless and honorable figure grew, earning him the respect of both the common folk and influential figures alike. Though he may have forsaken his royal heritage, Shamil remains a beacon of hope and integrity, working tirelessly to create a world where fairness and compassion prevail.",
+    "experience_points": 0
+  },
+  "tokenId": "4775",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Zaban Explorer Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Aged Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Fool's Crown",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Aged Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Shamil Scheppen, a character of noble lineage and charisma, was born into the esteemed royal family of Scheppen. From an early age, it was evident that Shamil possessed a unique sense of justice and compassion. Despite being surrounded by opulence and privilege, Shamil remained grounded and attuned to the struggles of the common people.\n\nAs a young prince, Shamil was groomed to inherit the throne and rule over the prosperous kingdom. However, the weight of the royal responsibilities and the constraints of the monarchy began to suffocate Shamil's spirit. Disenchanted by the political games and power struggles, Shamil yearned for a deeper understanding of the world outside the palace walls.\n\nAt the age of twenty, Shamil made a bold decision. Disregarding the expectations set upon him, he renounced his claim to the throne, forsaking his royal privileges and embarking on a journey as an aged traveler. Driven by a desire to experience life beyond the confines of his birthright, Shamil sought wisdom, knowledge, and adventure in the far corners of the realm.\n\nDuring his travels, Shamil encountered diverse cultures, civilizations, and peoples. He witnessed both the remarkable beauty and profound suffering that existed throughout the lands. This exposure further fueled his determination to bring about positive change, utilizing his royal background and inherent goodness for the greater good.\n\nShamil's travels also led him to meet individuals from all walks of life— peasants, merchants, warriors, and even reclusive sages. He learned from their experiences, understanding the hardships they faced and the significance of community and cooperation. These encounters molded Shamil into a compassionate and just individual, driven by the moral imperative to alleviate suffering and promote harmony.\n\nHis royal lineage bestowed upon Shamil a natural leadership ability, and he harnessed this power to establish connections with influential figures across the realm. Shamil became known as a mediator, an arbitrator who sought diplomatic resolutions to conflicts and strived to restore balance where discord had taken hold.\n\nShamil's neutral good alignment is a testament to his unwavering commitment to justice, fairness, and the greater good. Though he may lack a formal position of power, Shamil's innate nobility and charisma allow him to inspire change and lead by example.\n\nAs an aged traveler, Shamil's wisdom and experience are evident in his actions and decisions. He draws upon the wealth of knowledge he acquired during his journeys, making him a formidable ally and mentor to those who join him in his quest for justice and peace.\n\nIn the realm, Shamil's reputation as a selfless and honorable figure grew, earning him the respect of both the common folk and influential figures alike. Though he may have forsaken his royal heritage, Shamil remains a beacon of hope and integrity, working tirelessly to create a world where fairness and compassion prevail.",
+  "external_url": "https://fateofwagdie.com/characters/4775",
+  "animation_url": "https://fateofwagdie.com/characters/4775/animated"
+}

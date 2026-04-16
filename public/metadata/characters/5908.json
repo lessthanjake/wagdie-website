@@ -1,0 +1,82 @@
+{
+  "name": "Lust, Agora's hidden desire",
+  "image": "https://i2c.seadn.io/ethereum/0x659a4bdaaacc62d2bd9cb18225d9c89b5b697a5a/93d5b90a7fc43194aa33c16f96c1d7/8f93d5b90a7fc43194aa33c16f96c1d7.png",
+  "sheet": {
+    "name": "Lust, Agora's hidden desire",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 1,
+      "charisma": 1,
+      "strength": 1,
+      "dexterity": 1,
+      "constitution": 1,
+      "intelligence": 1
+    },
+    "hit_points": 1,
+    "tokenIdInt": 5908,
+    "background_story": "Lust, the desires agora has on the world creates a secret fetish.",
+    "experience_points": 0
+  },
+  "tokenId": "5908",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Painless Worshipper",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "Her Painless Worshipper",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    }
+  ],
+  "description": "Lust, the desires agora has on the world creates a secret fetish.",
+  "external_url": "https://fateofwagdie.com/characters/5908",
+  "animation_url": "https://fateofwagdie.com/characters/5908/animated"
+}

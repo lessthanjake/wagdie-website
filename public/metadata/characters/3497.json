@@ -1,0 +1,94 @@
+{
+  "name": "#*@($&#@*($&(@*#&$)(@#*$&",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/3497.png",
+  "sheet": {
+    "name": "#*@($&#@*($&(@*#&$)(@#*$&",
+    "level": 1,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "Wormlord Curse",
+      "armor": "Dark One's Call"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 3497,
+    "background_story": "@#$(*&%n] )*$#&@()$*&%|||||#%*#(W&$)#(*Q$^)Q*#(%&0%|||#$@_&*(#@&$)R&EQ_)WR&()#Q$&)(Q#%&_W)(%&0-97_)W#&(%W*($)W$*%_W($&%)_W($&%(_$",
+    "experience_points": 0
+  },
+  "tokenId": "3497",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Dark One's Call",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Luta's Firey Bangs",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wormlord Curse",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Worm Greatsword",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "@#$(*&%n] )*$#&@()$*&%|||||#%*#(W&$)#(*Q$^)Q*#(%&0%|||#$@_&*(#@&$)R&EQ_)WR&()#Q$&)(Q#%&_W)(%&0-97_)W#&(%W*($)W$*%_W($&%)_W($&%(_$",
+  "external_url": "https://fateofwagdie.com/characters/3497",
+  "animation_url": "https://fateofwagdie.com/characters/3497/animated"
+}

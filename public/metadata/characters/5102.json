@@ -1,0 +1,94 @@
+{
+  "name": "Marvin Meltbrain",
+  "image": "ipfs://bafkreihvh3hbzvj4kfe3nisdmqslsnodhj23c6kdkwdj4enk62vooqk2qq",
+  "sheet": {
+    "name": "Marvin Meltbrain",
+    "level": 20,
+    "origin": "Follower of Logun",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "Darkblade's Beak",
+      "armor": "Verite Protection"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 30,
+      "strength": 30,
+      "dexterity": 30,
+      "constitution": 30,
+      "intelligence": 30
+    },
+    "hit_points": 100,
+    "tokenIdInt": 5102,
+    "background_story": "Not much is known about Marvins background. He doesn't talk much. But when he does you know he earned his last name.",
+    "experience_points": 355000
+  },
+  "tokenId": "5102",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Verite Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Follower of Logun",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Darkblade's Beak",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Follower of Logun",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Not much is known about Marvins background. He doesn't talk much. But when he does you know he earned his last name.",
+  "external_url": "https://fateofwagdie.com/characters/5102",
+  "animation_url": "https://fateofwagdie.com/characters/5102/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Guts",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/1265.png",
+  "sheet": {
+    "name": "Guts",
+    "level": 9,
+    "origin": "Zolian Worm",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Her Goddess of Vision",
+      "armor": "Bishop Garb"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 10,
+      "strength": 12,
+      "dexterity": 30,
+      "constitution": 12,
+      "intelligence": 13
+    },
+    "hit_points": 26,
+    "tokenIdInt": 1265,
+    "background_story": "Battle hardened mercenary of The Band of the Sparrow.  Haunted by a tragic past within The Forsaken Lands, knowing only abuse, battle, and death. Protecting what little humanity remains.",
+    "experience_points": 550
+  },
+  "tokenId": "1265",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Bishop Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Discipline Helm Hair",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Goddess of Vision",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Crusader's Plate",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Her Ash",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Bonfire",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Battle hardened mercenary of The Band of the Sparrow.  Haunted by a tragic past within The Forsaken Lands, knowing only abuse, battle, and death. Protecting what little humanity remains.",
+  "external_url": "https://fateofwagdie.com/characters/1265",
+  "animation_url": "https://fateofwagdie.com/characters/1265/animated"
+}

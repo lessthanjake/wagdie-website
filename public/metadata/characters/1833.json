@@ -1,0 +1,94 @@
+{
+  "name": "Lady of the Golden Estate",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/1833.png",
+  "sheet": {
+    "name": "Lady of the Golden Estate",
+    "level": 1,
+    "origin": "Her Lover",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Wisened Touch",
+      "armor": "Tunic of Yore"
+    },
+    "attributes": {
+      "wisdom": 7,
+      "charisma": 11,
+      "strength": 14,
+      "dexterity": 10,
+      "constitution": 14,
+      "intelligence": 9
+    },
+    "hit_points": 6,
+    "tokenIdInt": 1833,
+    "background_story": "In a small village, nestled among the green fields, there lived a woman known as the Lady of the Golden Estate. Despite her beauty locked behind a mask, she was a beacon of elegance and grace. The villagers whispered tales of her opulent aura, gleaming like a treasure trove of gold. Her enchanting presence captured the hearts of all who beheld her, yet her true nature remained shrouded in mystery. Some believed she possessed mystical powers, while others whispered she was a lost princess from a faraway land. But one thing was certain: the Lady held a mesmerizing allure that left an indelible mark on the village and its inhabitants.",
+    "experience_points": 0
+  },
+  "tokenId": "1833",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Tunic of Yore",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Brimstone",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Death Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wisened Touch",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Lord of the Pyre",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Monad Carving",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Druids of the Southern Plains",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "In a small village, nestled among the green fields, there lived a woman known as the Lady of the Golden Estate. Despite her beauty locked behind a mask, she was a beacon of elegance and grace. The villagers whispered tales of her opulent aura, gleaming like a treasure trove of gold. Her enchanting presence captured the hearts of all who beheld her, yet her true nature remained shrouded in mystery. Some believed she possessed mystical powers, while others whispered she was a lost princess from a faraway land. But one thing was certain: the Lady held a mesmerizing allure that left an indelible mark on the village and its inhabitants.",
+  "external_url": "https://fateofwagdie.com/characters/1833",
+  "animation_url": "https://fateofwagdie.com/characters/1833/animated"
+}

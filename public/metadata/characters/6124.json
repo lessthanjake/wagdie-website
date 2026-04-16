@@ -1,0 +1,94 @@
+{
+  "name": "Rasaka, Flower of Piyu",
+  "image": "ipfs://bafkreigjtltl474oyllboisl3jnnam6wkkxilpapn32vfff364nu2rz7ta",
+  "sheet": {
+    "name": "Rasaka, Flower of Piyu",
+    "level": 8,
+    "origin": "Seeker of Piat",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "She Who Cries",
+      "armor": "Blessing of the Worm"
+    },
+    "attributes": {
+      "wisdom": 19,
+      "charisma": 13,
+      "strength": 11,
+      "dexterity": 16,
+      "constitution": 14,
+      "intelligence": 12
+    },
+    "hit_points": 30,
+    "tokenIdInt": 6124,
+    "background_story": "Rasaka does not remember much before Piyu... \n\nLife on the road. The caravan. Smiling faces and hard work. These memories shift painfully, into a blood red night full of horror. The fetid smell of death and an unearthly glow.\n\nAn escape to the forest followed by years of toil, reduced to base instinct.\n\nOne day a wanderer stepped through to our world. Such Light she brought with her. The forest itself seemed to bloom in Piyu's presence. Rasaka was the first to bathe in her light, drawn by the same simple desire that brings a moth to flame. Rasaka's mind unfurled into a new kind of awareness, becoming something far from human. In thanks, Rasaka shared with Piyu what knowledge they could of this world as she came to power.\n\nIt was Rasaka's honor to watch the forest and its creatures grow into something strange and beautiful.\n\nSince her Sacrifice, Rasaka tends to the forest. Piyu's power is not gone, but shared through all living things within her domain. The jumbled paths are her blood vessels, the leaves her lungs.\n\nPiyu became the garden, and they became her.",
+    "experience_points": 0
+  },
+  "tokenId": "6124",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Blessing of the Worm",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Darkdweller Chapel",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "She Who Cries",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Rasaka does not remember much before Piyu... \n\nLife on the road. The caravan. Smiling faces and hard work. These memories shift painfully, into a blood red night full of horror. The fetid smell of death and an unearthly glow.\n\nAn escape to the forest followed by years of toil, reduced to base instinct.\n\nOne day a wanderer stepped through to our world. Such Light she brought with her. The forest itself seemed to bloom in Piyu's presence. Rasaka was the first to bathe in her light, drawn by the same simple desire that brings a moth to flame. Rasaka's mind unfurled into a new kind of awareness, becoming something far from human. In thanks, Rasaka shared with Piyu what knowledge they could of this world as she came to power.\n\nIt was Rasaka's honor to watch the forest and its creatures grow into something strange and beautiful.\n\nSince her Sacrifice, Rasaka tends to the forest. Piyu's power is not gone, but shared through all living things within her domain. The jumbled paths are her blood vessels, the leaves her lungs.\n\nPiyu became the garden, and they became her.",
+  "external_url": "https://fateofwagdie.com/characters/6124",
+  "animation_url": "https://fateofwagdie.com/characters/6124/animated"
+}

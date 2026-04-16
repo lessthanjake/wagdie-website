@@ -1,0 +1,94 @@
+{
+  "name": "Corvus the Corrupted",
+  "image": "ipfs://bafkreigtnrjlgnyiwondxzyuzweozi6um2ggm6hr2oivjm3pbrwi426ddq",
+  "sheet": {
+    "name": "Corvus the Corrupted",
+    "level": 1,
+    "origin": "Journeyman",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "Darkblade's Beak",
+      "armor": "Her Imprint"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 16,
+      "strength": 12,
+      "dexterity": 12,
+      "constitution": 13,
+      "intelligence": 16
+    },
+    "hit_points": 6,
+    "tokenIdInt": 2305,
+    "background_story": "A𝔣𝔱𝔢𝔯 𝔟𝔢𝔦𝔫𝔤 𝔠𝔬𝔯𝔯𝔲𝔭𝔱𝔢𝔡 𝔟𝔶 𝔱𝔥𝔢 𝔪𝔬𝔰𝔱 𝔠𝔯𝔲𝔢𝔩 𝔣𝔢𝔩𝔬𝔫𝔶 𝔦𝔪𝔞𝔤𝔦𝔫𝔞𝔟𝔩𝔢 𝔥𝔢 𝔰𝔴𝔬𝔯𝔢 𝔱𝔬 𝔡𝔬 𝔢𝔳𝔢𝔯𝔶𝔱𝔥𝔦𝔫𝔤 𝔦𝔫 𝔥𝔦𝔰 𝔭𝔬𝔴𝔢𝔯 𝔱𝔬 𝔭𝔯𝔬𝔱𝔢𝔠𝔱 𝔥𝔦𝔰 𝔨𝔦𝔫𝔤 𝔞𝔫𝔡 𝔟𝔯𝔦𝔫𝔤 𝔟𝔞𝔠𝔨 𝔥𝔦𝔰 𝔣𝔬𝔯𝔪𝔢𝔯 𝔤𝔩𝔬𝔯𝔶 𝔢𝔳𝔢𝔫 𝔦𝔣 𝔦𝔱 𝔪𝔢𝔞𝔫𝔰 𝔱𝔬 𝔡𝔬 𝔱𝔥𝔢 𝔲𝔫𝔰𝔭𝔢𝔞𝔨𝔞𝔟𝔩𝔢...",
+    "experience_points": 0
+  },
+  "tokenId": "2305",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Imprint",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zaban Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Darkblade's Beak",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A𝔣𝔱𝔢𝔯 𝔟𝔢𝔦𝔫𝔤 𝔠𝔬𝔯𝔯𝔲𝔭𝔱𝔢𝔡 𝔟𝔶 𝔱𝔥𝔢 𝔪𝔬𝔰𝔱 𝔠𝔯𝔲𝔢𝔩 𝔣𝔢𝔩𝔬𝔫𝔶 𝔦𝔪𝔞𝔤𝔦𝔫𝔞𝔟𝔩𝔢 𝔥𝔢 𝔰𝔴𝔬𝔯𝔢 𝔱𝔬 𝔡𝔬 𝔢𝔳𝔢𝔯𝔶𝔱𝔥𝔦𝔫𝔤 𝔦𝔫 𝔥𝔦𝔰 𝔭𝔬𝔴𝔢𝔯 𝔱𝔬 𝔭𝔯𝔬𝔱𝔢𝔠𝔱 𝔥𝔦𝔰 𝔨𝔦𝔫𝔤 𝔞𝔫𝔡 𝔟𝔯𝔦𝔫𝔤 𝔟𝔞𝔠𝔨 𝔥𝔦𝔰 𝔣𝔬𝔯𝔪𝔢𝔯 𝔤𝔩𝔬𝔯𝔶 𝔢𝔳𝔢𝔫 𝔦𝔣 𝔦𝔱 𝔪𝔢𝔞𝔫𝔰 𝔱𝔬 𝔡𝔬 𝔱𝔥𝔢 𝔲𝔫𝔰𝔭𝔢𝔞𝔨𝔞𝔟𝔩𝔢...",
+  "external_url": "https://fateofwagdie.com/characters/2305",
+  "animation_url": "https://fateofwagdie.com/characters/2305/animated"
+}

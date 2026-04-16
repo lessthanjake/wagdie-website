@@ -1,0 +1,94 @@
+{
+  "name": "Jep of Nox",
+  "image": "ipfs://bafkreiciipysepra2alojralt3dd3iv7fvdlwrcdss2u67d5jm3ijhnh3a",
+  "sheet": {
+    "name": "Jep of Nox",
+    "level": 2,
+    "origin": "Foolish Jester",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "None",
+      "armor": "Worm's Weight"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 12,
+      "strength": 11,
+      "dexterity": 10,
+      "constitution": 12,
+      "intelligence": 18
+    },
+    "hit_points": 12,
+    "tokenIdInt": 5261,
+    "background_story": "Current: Has entered the burrows on behalf of Gunther Wolfblade's party. As the keeper of Noxium Brew, most experienced with Grand Jester Concord and dawning Worm's Weight seems most fit to enter.\n\nOn behalf of Gunther explored The Church with the other Lost Pilgrims, survived both battles.\n\nKeeper of Grand Jester Concord Tokens in Wolf's Party.\n\nAffiliations: Curious about the Grand Jesters & the Worm.. Laughter & Death.",
+    "experience_points": 300
+  },
+  "tokenId": "5261",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm's Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Naive Pilgrim's Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Current: Has entered the burrows on behalf of Gunther Wolfblade's party. As the keeper of Noxium Brew, most experienced with Grand Jester Concord and dawning Worm's Weight seems most fit to enter.\n\nOn behalf of Gunther explored The Church with the other Lost Pilgrims, survived both battles.\n\nKeeper of Grand Jester Concord Tokens in Wolf's Party.\n\nAffiliations: Curious about the Grand Jesters & the Worm.. Laughter & Death.",
+  "external_url": "https://fateofwagdie.com/characters/5261",
+  "animation_url": "https://fateofwagdie.com/characters/5261/animated"
+}

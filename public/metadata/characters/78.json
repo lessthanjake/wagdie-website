@@ -1,0 +1,78 @@
+{
+  "name": "The Lost Blue Guard",
+  "image": "ipfs://bafkreicvghu7jo7dunpuojvgq2eoexfbfofvpfzgnlze3hyqoagb7srafu",
+  "sheet": {
+    "name": "The Lost Blue Guard",
+    "level": 1,
+    "origin": " The Lost Blue Guard",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 18,
+      "charisma": 12,
+      "strength": 14,
+      "dexterity": 14,
+      "constitution": 14,
+      "intelligence": 11
+    },
+    "hit_points": 8,
+    "tokenIdInt": 78,
+    "background_story": "The Lost Blue Guard represented the healing Light of Mother Agora. Their armor emitted a cold heat that had immense powers of healing. The Blue Guard protected Yogg and guarded his all seeing tower. Their bodies were marred with scars from the proximity to Yogg's immense knowledge. Their minds would eventually collapse under the weight of Mother Agora's knowledge, requiring new disciples to take up the call of the Blue Guard.\n\nAfter the desolation in Mt Turlo and the devastation of Yogg's armies, the Kingdom of Enlightenment lacked the new converts of Mother Agora that the Kingdom gained during the time of their dominance in the Forsaken Lands.\n\nTheir blue armor is no longer cold to the touch, but the Lost Blue Guard appears to retain this once lost trait.",
+    "experience_points": 0
+  },
+  "tokenId": "78",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": " The Lost Blue Guard",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Lost Traveler",
+      "trait_type": "Portal of Grem"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": " The Lost Blue Guard",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The Lost Blue Guard represented the healing Light of Mother Agora. Their armor emitted a cold heat that had immense powers of healing. The Blue Guard protected Yogg and guarded his all seeing tower. Their bodies were marred with scars from the proximity to Yogg's immense knowledge. Their minds would eventually collapse under the weight of Mother Agora's knowledge, requiring new disciples to take up the call of the Blue Guard.\n\nAfter the desolation in Mt Turlo and the devastation of Yogg's armies, the Kingdom of Enlightenment lacked the new converts of Mother Agora that the Kingdom gained during the time of their dominance in the Forsaken Lands.\n\nTheir blue armor is no longer cold to the touch, but the Lost Blue Guard appears to retain this once lost trait.",
+  "external_url": "https://fateofwagdie.com/characters/78",
+  "animation_url": "https://fateofwagdie.com/characters/78/animated"
+}

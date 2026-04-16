@@ -1,0 +1,94 @@
+{
+  "name": "The Bald Avenger",
+  "image": "ipfs://bafkreigj2ewjtkmzkloqil3fnv6oh2e4lmk352z3bzdfjhf3zphysgcnbm",
+  "sheet": {
+    "name": "The Bald Avenger",
+    "level": 1,
+    "origin": "Journeyman",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Her Devotion"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 13,
+      "strength": 17,
+      "dexterity": 12,
+      "constitution": 15,
+      "intelligence": 10
+    },
+    "hit_points": 9,
+    "tokenIdInt": 4241,
+    "background_story": "As the spirits of persecuted balds cried out to the heavens, some power beyond mortal comprehension sent a warrior to The Forsaken Lands.\n\nKnown only as The Bald Avenger, this great warrior has come to punish all who unjustly opress his hairless brothers.",
+    "experience_points": 0
+  },
+  "tokenId": "4241",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Devotion",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "As the spirits of persecuted balds cried out to the heavens, some power beyond mortal comprehension sent a warrior to The Forsaken Lands.\n\nKnown only as The Bald Avenger, this great warrior has come to punish all who unjustly opress his hairless brothers.",
+  "external_url": "https://fateofwagdie.com/characters/4241",
+  "animation_url": "https://fateofwagdie.com/characters/4241/animated"
+}

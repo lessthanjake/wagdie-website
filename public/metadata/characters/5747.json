@@ -1,0 +1,94 @@
+{
+  "name": "Titus Graimitus",
+  "image": "ipfs://bafkreigc5yunug45b4v5hnwelsbabwzfkd67jbmqthf3wasr3ibmwmitny",
+  "sheet": {
+    "name": "Titus Graimitus",
+    "level": 1,
+    "origin": "Aged Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "None",
+      "armor": "Peasant Garb"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 15,
+      "strength": 9,
+      "dexterity": 9,
+      "constitution": 10,
+      "intelligence": 15
+    },
+    "hit_points": 4,
+    "tokenIdInt": 5747,
+    "background_story": "Since the beginning of the new cycle, Titus has gone unnoticed, for many, this could be considered luck and for many others a misfortune. \n\nBut since the flames of the church reached the sky, something changed in Titus' destiny, \"Her\" face was drawn on the clouds and then he knew he had to support the cause of Agora.\n\nDied at the battle of the Church of Her.",
+    "experience_points": 0
+  },
+  "tokenId": "5747",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Peasant Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Aged Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Her Page",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Aged Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Since the beginning of the new cycle, Titus has gone unnoticed, for many, this could be considered luck and for many others a misfortune. \n\nBut since the flames of the church reached the sky, something changed in Titus' destiny, \"Her\" face was drawn on the clouds and then he knew he had to support the cause of Agora.\n\nDied at the battle of the Church of Her.",
+  "external_url": "https://fateofwagdie.com/characters/5747",
+  "animation_url": "https://fateofwagdie.com/characters/5747/animated"
+}

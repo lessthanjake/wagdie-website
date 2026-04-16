@@ -1,0 +1,94 @@
+{
+  "name": "Zelian Crique ",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/2527.png",
+  "sheet": {
+    "name": "Zelian Crique ",
+    "level": 1,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "None",
+      "armor": "Worm's Protection"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 12,
+      "strength": 11,
+      "dexterity": 16,
+      "constitution": 9,
+      "intelligence": 10
+    },
+    "hit_points": 7,
+    "tokenIdInt": 2527,
+    "background_story": "Zelian spent his childhood playing in the ashes, left in the wake of Her Blinding Light. ",
+    "experience_points": 0
+  },
+  "tokenId": "2527",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm's Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Yearn",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Noble's Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Serpent's Maw",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Nameless Scale Fragment",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Wormkin",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Zelian spent his childhood playing in the ashes, left in the wake of Her Blinding Light. ",
+  "external_url": "https://fateofwagdie.com/characters/2527",
+  "animation_url": "https://fateofwagdie.com/characters/2527/animated"
+}

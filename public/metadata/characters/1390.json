@@ -1,0 +1,94 @@
+{
+  "name": "Archaeus the Necromancer",
+  "image": "ipfs://bafkreicsr7e2atabmf6pvmy5maeecduwagmlzsm42a7fw6iuwncvng6gfa",
+  "sheet": {
+    "name": "Archaeus the Necromancer",
+    "level": 1,
+    "origin": "Hardened Merchant",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Spines of The Worm"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 1390,
+    "background_story": "Prince Hamdoe resurrection arc begins now",
+    "experience_points": 0
+  },
+  "tokenId": "1390",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Spines of The Worm",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Necromancer",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Prince Hamdoe resurrection arc begins now",
+  "external_url": "https://fateofwagdie.com/characters/1390",
+  "animation_url": "https://fateofwagdie.com/characters/1390/animated"
+}

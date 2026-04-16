@@ -1,0 +1,94 @@
+{
+  "name": "Clark Smarkington",
+  "image": "ipfs://bafkreigiabdvicnmjxzcgumur7crdiudzn7r5qgdq4ve5gb42ngplihqvi",
+  "sheet": {
+    "name": "Clark Smarkington",
+    "level": 7,
+    "origin": "Leeched Devotee",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Pilgrim's Plain Chain"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 21,
+      "strength": 3,
+      "dexterity": 4,
+      "constitution": 3,
+      "intelligence": 10
+    },
+    "hit_points": 10,
+    "tokenIdInt": 3080,
+    "background_story": "Clark likes to party\nClark enjoys galavanting in the woods\nClark's favorite color is indigo\nClark's favorite pizza is supreme",
+    "experience_points": 5
+  },
+  "tokenId": "3080",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Plain Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Leeched Devotee",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Feeble Spikes",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Leeched Devotee",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Clark likes to party\nClark enjoys galavanting in the woods\nClark's favorite color is indigo\nClark's favorite pizza is supreme",
+  "external_url": "https://fateofwagdie.com/characters/3080",
+  "animation_url": "https://fateofwagdie.com/characters/3080/animated"
+}

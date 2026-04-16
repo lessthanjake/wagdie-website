@@ -1,0 +1,94 @@
+{
+  "name": "Soven, the Silent",
+  "image": "ipfs://bafkreieg6z4vjg5rg5gny7nj4viuejhe45pnec4oacx7lrr7sjzj5bcnoi",
+  "sheet": {
+    "name": "Soven, the Silent",
+    "level": 10,
+    "origin": "Pilgrim",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "None",
+      "armor": "Serpent's Cowl"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 10,
+      "strength": 10,
+      "dexterity": 10,
+      "constitution": 10,
+      "intelligence": 10
+    },
+    "hit_points": 10,
+    "tokenIdInt": 5091,
+    "background_story": "...",
+    "experience_points": 100
+  },
+  "tokenId": "5091",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Serpent's Cowl",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "...",
+  "external_url": "https://fateofwagdie.com/characters/5091",
+  "animation_url": "https://fateofwagdie.com/characters/5091/animated"
+}

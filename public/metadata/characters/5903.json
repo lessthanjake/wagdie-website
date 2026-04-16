@@ -1,0 +1,94 @@
+{
+  "name": "Flint Dankil",
+  "image": "ipfs://bafkreib4azrss2dnb7jaxtfqjw77lyywcsgifpxdokdgatdosyw6paermm",
+  "sheet": {
+    "name": "Flint Dankil",
+    "level": 1,
+    "origin": "Young Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "Detritus Helm",
+      "armor": "Her Pathetic Waste"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 10,
+      "strength": 14,
+      "dexterity": 14,
+      "constitution": 16,
+      "intelligence": 10
+    },
+    "hit_points": 14,
+    "tokenIdInt": 5903,
+    "background_story": "An assassin with a high asking price.",
+    "experience_points": 0
+  },
+  "tokenId": "5903",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Pathetic Waste",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Detritus Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "An assassin with a high asking price.",
+  "external_url": "https://fateofwagdie.com/characters/5903",
+  "animation_url": "https://fateofwagdie.com/characters/5903/animated"
+}

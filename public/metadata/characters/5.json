@@ -1,0 +1,94 @@
+{
+  "name": "Astaroth The Horned Devil",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/5.png",
+  "sheet": {
+    "name": "Astaroth The Horned Devil",
+    "level": 11,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Wormlord Curse",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 18,
+      "charisma": 11,
+      "strength": 20,
+      "dexterity": 14,
+      "constitution": 17,
+      "intelligence": 18
+    },
+    "hit_points": 100,
+    "tokenIdInt": 5,
+    "background_story": "After The Monarch sacrificed himself in vain during Piyu's Call in attempts to solicit her help, the Lonely Bone of The Monarch was carried outside The Primordial Lands where it was forgotten by the travelers.\n\nThe Lonely Bone, fused with the remnants of The Monarch's heart and soul, impaled  itself on the interstice between the Primordial and Forsaken Lands. On these grounds is where The Fate of Astaroth, The Horned Devil would begin.\n\nOn the eve of the Water Bearer's Super Moon, a translucent ivory butterfly fluttered above the staked, mineralized bone that had begun to shape-form into the hilt of a blade, scattering rays of moonlight in all directions. Horns of obsidian ore began to protrude from dirt, and a devil-man broke himself free from the earth, as if he had just torn out of a metal cage...\n\nOne night later, Astaroth, The Horned Devil fully emerged, entranced by the ivory butterfly that had hovered above both his grave and birthplace.  The light from the butterfly is the only thing that Astaroth appears to be able to \"see\", and therefore the butterfly itself acts as Astaroth's visual probe in the world. Astaroth can control the Monarch's illumination using his gaze.\n\nAstaroth is only able to travel during night time under the \"spell\" of the ivory butterfly, as its hauntingly incandescent glow illuminates the clouded thoughts that lack clarity during the day when the monarch's radiance is not visible. When Astaroths mind clears ever night, it allows him to focus on the hatred of the primordial whore Piyu that keeps the shell of his life connected to this forsaken world.\n\nUpon traveling from the Primordial Lands on his way to The Swamps of Detriti to learn of the alchemy that the Glutton had taught her, he came across the battleground that had become the Church of Her. \n\nWith the smell of burning flesh permeating the air,  Astaroth instinctively knew that only one of the 17 could produce that smell in battle. From the hill to the West of the Church of Her, the Witch Detriti was visible scorching human bodies into both boiling flesh and beating hearts.\n\n",
+    "experience_points": 100
+  },
+  "tokenId": "5",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "None",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zaban Rough Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wormlord Curse",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Red Mark of the Furies",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Molten Heart",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Furies",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "After The Monarch sacrificed himself in vain during Piyu's Call in attempts to solicit her help, the Lonely Bone of The Monarch was carried outside The Primordial Lands where it was forgotten by the travelers.\n\nThe Lonely Bone, fused with the remnants of The Monarch's heart and soul, impaled  itself on the interstice between the Primordial and Forsaken Lands. On these grounds is where The Fate of Astaroth, The Horned Devil would begin.\n\nOn the eve of the Water Bearer's Super Moon, a translucent ivory butterfly fluttered above the staked, mineralized bone that had begun to shape-form into the hilt of a blade, scattering rays of moonlight in all directions. Horns of obsidian ore began to protrude from dirt, and a devil-man broke himself free from the earth, as if he had just torn out of a metal cage...\n\nOne night later, Astaroth, The Horned Devil fully emerged, entranced by the ivory butterfly that had hovered above both his grave and birthplace.  The light from the butterfly is the only thing that Astaroth appears to be able to \"see\", and therefore the butterfly itself acts as Astaroth's visual probe in the world. Astaroth can control the Monarch's illumination using his gaze.\n\nAstaroth is only able to travel during night time under the \"spell\" of the ivory butterfly, as its hauntingly incandescent glow illuminates the clouded thoughts that lack clarity during the day when the monarch's radiance is not visible. When Astaroths mind clears ever night, it allows him to focus on the hatred of the primordial whore Piyu that keeps the shell of his life connected to this forsaken world.\n\nUpon traveling from the Primordial Lands on his way to The Swamps of Detriti to learn of the alchemy that the Glutton had taught her, he came across the battleground that had become the Church of Her. \n\nWith the smell of burning flesh permeating the air,  Astaroth instinctively knew that only one of the 17 could produce that smell in battle. From the hill to the West of the Church of Her, the Witch Detriti was visible scorching human bodies into both boiling flesh and beating hearts.\n\n",
+  "external_url": "https://fateofwagdie.com/characters/5",
+  "animation_url": "https://fateofwagdie.com/characters/5/animated"
+}

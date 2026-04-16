@@ -11,6 +11,7 @@ import { CharacterQueryRepository } from './character/character-query-repository
 import { CharacterStakingRepository } from './character/character-staking-repository'
 import { CharacterTraitsRepository } from './character/character-traits-repository'
 import type { CharacterWithLocation } from './character/character-types'
+import { type CharacterRuntimeAssets, noopCharacterRuntimeAssets } from '@/lib/domain/character/character-runtime-assets'
 import type {
   AlignmentsResponse,
   Character,
@@ -40,6 +41,7 @@ type CharacterRepositoryDependencies = {
   traitsRepository?: CharacterTraitsRepository
   stakingRepository?: CharacterStakingRepository
   ownershipRepository?: CharacterOwnershipRepository
+  runtimeAssets?: CharacterRuntimeAssets
 }
 
 /**
@@ -55,9 +57,11 @@ export class CharacterRepository implements ICharacterRepository {
   private readonly ownershipRepository: CharacterOwnershipRepository
 
   constructor(dependencies: CharacterRepositoryDependencies = {}) {
-    this.queryRepository = dependencies.queryRepository ?? new CharacterQueryRepository()
-    this.traitsRepository = dependencies.traitsRepository ?? new CharacterTraitsRepository()
-    this.stakingRepository = dependencies.stakingRepository ?? new CharacterStakingRepository()
+    const runtimeAssets = dependencies.runtimeAssets ?? noopCharacterRuntimeAssets
+
+    this.queryRepository = dependencies.queryRepository ?? new CharacterQueryRepository(runtimeAssets)
+    this.traitsRepository = dependencies.traitsRepository ?? new CharacterTraitsRepository(runtimeAssets)
+    this.stakingRepository = dependencies.stakingRepository ?? new CharacterStakingRepository(runtimeAssets)
     this.ownershipRepository = dependencies.ownershipRepository ?? new CharacterOwnershipRepository()
   }
 

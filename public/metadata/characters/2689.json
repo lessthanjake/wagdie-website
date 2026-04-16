@@ -1,0 +1,94 @@
+{
+  "name": "Haaayyy!",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/2689.png",
+  "sheet": {
+    "name": "Haaayyy!",
+    "level": 1,
+    "origin": "Young Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Goldbeard's Eyes",
+      "armor": "Logun's Pauldrons"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 2689,
+    "background_story": "Let me tell you the importance of a proper skin-care routine! First off, face masks... those things are awesome. How else am I going to keep my skin so silky soft?",
+    "experience_points": 0
+  },
+  "tokenId": "2689",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Pauldrons",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Goldbeard's Eyes",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Warrior's Adornment",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Raptor's Tooth",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Furies",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Let me tell you the importance of a proper skin-care routine! First off, face masks... those things are awesome. How else am I going to keep my skin so silky soft?",
+  "external_url": "https://fateofwagdie.com/characters/2689",
+  "animation_url": "https://fateofwagdie.com/characters/2689/animated"
+}
