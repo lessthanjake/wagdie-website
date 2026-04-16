@@ -1,0 +1,94 @@
+{
+  "name": "Riven",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/3578.png",
+  "sheet": {
+    "name": "Riven",
+    "level": 11,
+    "origin": "Wormlord Acolyte",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Guiding Torch",
+      "mask": "Face of Vengeance",
+      "armor": "Acolyte's Shawl"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 6,
+      "strength": 10,
+      "dexterity": 8,
+      "constitution": 9,
+      "intelligence": 11
+    },
+    "hit_points": 11,
+    "tokenIdInt": 3578,
+    "background_story": "Berserker Knight of the Concord of Furies. Holder of the sacred Obsidian Blade. Master of the Astral Barrier sword technique. \n\nTrust no-one in these forsaken lands.\n\n",
+    "experience_points": 80
+  },
+  "tokenId": "3578",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Acolyte's Shawl",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Guiding Torch",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Galactic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Darkness",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Face of Vengeance",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Red Edge of Yuria",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Obsidian Blade",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Furies",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Berserker Knight of the Concord of Furies. Holder of the sacred Obsidian Blade. Master of the Astral Barrier sword technique. \n\nTrust no-one in these forsaken lands.\n\n",
+  "external_url": "https://fateofwagdie.com/characters/3578",
+  "animation_url": "https://crimson-static-barnacle-945.mypinata.cloud/ipfs/Qmek5CTaVYXT9BZKvptg9VwDo1ZS5FZsHuAkE7BUg4yLf7"
+}

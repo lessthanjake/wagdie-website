@@ -1,0 +1,94 @@
+{
+  "name": "An Amakiir",
+  "image": "ipfs://bafkreieag6btkhbf5detzcr45ljfepc2rtfqec3ujkmvzovgegrrwyh5ze",
+  "sheet": {
+    "name": "An Amakiir",
+    "level": 1,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Blessing",
+      "armor": "Noxian Jester Garb"
+    },
+    "attributes": {
+      "wisdom": 9,
+      "charisma": 10,
+      "strength": 11,
+      "dexterity": 16,
+      "constitution": 14,
+      "intelligence": 11
+    },
+    "hit_points": 9,
+    "tokenIdInt": 6464,
+    "background_story": "\n",
+    "experience_points": 0
+  },
+  "tokenId": "6464",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Noxian Jester Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Death Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Blessing",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "\n",
+  "external_url": "https://fateofwagdie.com/characters/6464",
+  "animation_url": "https://fateofwagdie.com/characters/6464/animated"
+}

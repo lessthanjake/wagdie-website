@@ -1,0 +1,94 @@
+{
+  "name": "Quarion the Seeker",
+  "image": "ipfs://bafkreiggaopgzf4ulenkzyun5s5i3tfa6z4s5qaongsxylxb2s3o7du4fe",
+  "sheet": {
+    "name": "Quarion the Seeker",
+    "level": 3,
+    "origin": "Young Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "Her Silence",
+      "armor": "Luta's Full Weight"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 15,
+      "strength": 8,
+      "dexterity": 14,
+      "constitution": 7,
+      "intelligence": 12
+    },
+    "hit_points": 25,
+    "tokenIdInt": 2815,
+    "background_story": "Quarion has a lifelong passion for knowledge and heard legend of Luta and The Stalwart, so when an opportunity came to join them he hurried to offer everything he could to their cause and become a researcher.\n\nUnfortunately, his indoctrination came from Remo, who forever tainted his perception and misguided his journey.\n\nHis enforced faith in Mother Agora caused him to join the army of Her Silence during the Battle of the Burning Church. He was one of the few to survive both portions of the war, which has affirmed his faith in Her Light.\n\nPlunged unto the depths of The Void, forsaking faith.",
+    "experience_points": 900
+  },
+  "tokenId": "2815",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Luta's Full Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Silence",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Quarion has a lifelong passion for knowledge and heard legend of Luta and The Stalwart, so when an opportunity came to join them he hurried to offer everything he could to their cause and become a researcher.\n\nUnfortunately, his indoctrination came from Remo, who forever tainted his perception and misguided his journey.\n\nHis enforced faith in Mother Agora caused him to join the army of Her Silence during the Battle of the Burning Church. He was one of the few to survive both portions of the war, which has affirmed his faith in Her Light.\n\nPlunged unto the depths of The Void, forsaking faith.",
+  "external_url": "https://fateofwagdie.com/characters/2815",
+  "animation_url": "https://fateofwagdie.com/characters/2815/animated"
+}

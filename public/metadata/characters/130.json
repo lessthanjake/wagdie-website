@@ -1,0 +1,94 @@
+{
+  "name": "Heavy Armored Witch",
+  "image": "ipfs://bafkreifr4emmizrzh25mx2szbwh2ctio3hbuqmp2ojtfdlgfxdhhvab7ya",
+  "sheet": {
+    "name": "Heavy Armored Witch",
+    "level": 2,
+    "origin": "Foolish Jester",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Death Smelt Hat",
+      "armor": "Logun's Descent"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 30,
+      "strength": 1,
+      "dexterity": 1,
+      "constitution": 1,
+      "intelligence": 30
+    },
+    "hit_points": 2,
+    "tokenIdInt": 130,
+    "background_story": "Parry this you filthy casual!",
+    "experience_points": 2
+  },
+  "tokenId": "130",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Descent",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Piat's Destruction",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Death Smelt Hat",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Witch",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Parry this you filthy casual!",
+  "external_url": "https://fateofwagdie.com/characters/130",
+  "animation_url": "https://fateofwagdie.com/characters/130/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Urethmel",
+  "image": "ipfs://bafkreibooc7tglez5ems2ajjasy6oncejr4rzi34c573mxyxfofqvaucci",
+  "sheet": {
+    "name": "Urethmel",
+    "level": 3,
+    "origin": "Garolin Champion",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Glory",
+      "armor": "Her Cursed Outcast"
+    },
+    "attributes": {
+      "wisdom": 3,
+      "charisma": 3,
+      "strength": 3,
+      "dexterity": 3,
+      "constitution": 3,
+      "intelligence": 3
+    },
+    "hit_points": 3,
+    "tokenIdInt": 1697,
+    "background_story": "Urethmel was the second to join the Council after Assiniok. A strict follower of hierarchy and laws, Urethmel does not question the purpose of the Arcane Council and removes emotions completely from his duty. \n\nAs a consequence Assiniok holds great influence over the ever subservient and perhaps naïve Urethmel.\n\nUrethmel is one of few words... but the words he chooses to speak carry great meaning.",
+    "experience_points": 3
+  },
+  "tokenId": "1697",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Cursed Outcast",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Luta's Firey Bangs",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Urethmel was the second to join the Council after Assiniok. A strict follower of hierarchy and laws, Urethmel does not question the purpose of the Arcane Council and removes emotions completely from his duty. \n\nAs a consequence Assiniok holds great influence over the ever subservient and perhaps naïve Urethmel.\n\nUrethmel is one of few words... but the words he chooses to speak carry great meaning.",
+  "external_url": "https://fateofwagdie.com/characters/1697",
+  "animation_url": "https://fateofwagdie.com/characters/1697/animated"
+}

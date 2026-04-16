@@ -1,0 +1,94 @@
+{
+  "name": "Logun's Perfect Being",
+  "image": "ipfs://bafkreiay7tlsfp4gqrtak6k6ssvz56uj4g2yvujvxb62vrkxxyzw7huehu",
+  "sheet": {
+    "name": "Logun's Perfect Being",
+    "level": 1,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Logun's Wings",
+      "armor": "Logun's Pauldrons"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 623,
+    "background_story": "To Logun the Shameful, he was the pinnacle of perfection. He carried out Logun's orders without question, no matter how morally questionable they were. He was feared by those who knew of him, and his signature red armor struck fear into the hearts of his enemies. Yet, in reality he was far from perfect, unable to break free of the control that Logun had over him.",
+    "experience_points": 0
+  },
+  "tokenId": "623",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Pauldrons",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Logun's Wings",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "To Logun the Shameful, he was the pinnacle of perfection. He carried out Logun's orders without question, no matter how morally questionable they were. He was feared by those who knew of him, and his signature red armor struck fear into the hearts of his enemies. Yet, in reality he was far from perfect, unable to break free of the control that Logun had over him.",
+  "external_url": "https://fateofwagdie.com/characters/623",
+  "animation_url": "https://fateofwagdie.com/characters/623/animated"
+}

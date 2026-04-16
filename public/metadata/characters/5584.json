@@ -1,0 +1,93 @@
+{
+  "name": "Wrenn Ningel",
+  "image": "ipfs://bafkreieksh7prqdubtpt5suajg3knhj534zqfo56d4rvbzjqyss4tqqktq",
+  "sheet": {
+    "name": "Wrenn Ningel",
+    "level": 1,
+    "origin": "Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "None",
+      "armor": "Pilgrim's Chain"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 16,
+      "strength": 14,
+      "dexterity": 12,
+      "constitution": 9,
+      "intelligence": 10
+    },
+    "hit_points": 6,
+    "tokenIdInt": 5584,
+    "experience_points": 0
+  },
+  "tokenId": "5584",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Guard's Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/5584",
+  "animation_url": "https://fateofwagdie.com/characters/5584/animated"
+}

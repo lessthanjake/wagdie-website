@@ -1,0 +1,94 @@
+{
+  "name": "Rei",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/6049.png",
+  "sheet": {
+    "name": "Rei",
+    "level": 16,
+    "origin": "Hardened Merchant",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Noxium Alchemist Hybrid",
+      "armor": "Pilgrim's Plain Chain"
+    },
+    "attributes": {
+      "wisdom": 28,
+      "charisma": 10,
+      "strength": 8,
+      "dexterity": 29,
+      "constitution": 17,
+      "intelligence": 29
+    },
+    "hit_points": 26,
+    "tokenIdInt": 6049,
+    "background_story": "You’re nothing but an object living a lie, pretending to be a person.",
+    "experience_points": 20
+  },
+  "tokenId": "6049",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Plain Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Vaulted",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Death Temptress Hair",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Noxium Alchemist Hybrid",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Bastard Sword",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "You’re nothing but an object living a lie, pretending to be a person.",
+  "external_url": "https://fateofwagdie.com/characters/6049",
+  "animation_url": "https://fateofwagdie.com/characters/6049/animated"
+}

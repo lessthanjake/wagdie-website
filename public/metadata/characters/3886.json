@@ -1,0 +1,78 @@
+{
+  "name": "Am I Brittney?",
+  "image": "ipfs://bafkreibqz3anhj7ptxfodfm5dnbueez3xeuoidgx6sc5kclvycrat4wi5q",
+  "sheet": {
+    "name": "Am I Brittney?",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "She who Smiles",
+      "mask": "She who Smiles",
+      "armor": "She who Smiles"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 16,
+      "strength": 13,
+      "dexterity": 12,
+      "constitution": 11,
+      "intelligence": 11
+    },
+    "hit_points": 3,
+    "tokenIdInt": 3886,
+    "background_story": "Yes I am.",
+    "experience_points": 0
+  },
+  "tokenId": "3886",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "She who Smiles",
+      "trait_type": "The 17"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Yes I am.",
+  "external_url": "https://fateofwagdie.com/characters/3886",
+  "animation_url": "https://fateofwagdie.com/characters/3886/animated"
+}

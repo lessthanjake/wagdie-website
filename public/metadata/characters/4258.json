@@ -1,0 +1,94 @@
+{
+  "name": "Pokeye Bracington",
+  "image": "ipfs://bafkreia4fbuyzgaz43pqixphrlth73zloqbthfog4pdosmfevjddbf6mai",
+  "sheet": {
+    "name": "Pokeye Bracington",
+    "level": 1,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "None",
+      "armor": "Her Cursed Outcast"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 14,
+      "strength": 11,
+      "dexterity": 12,
+      "constitution": 14,
+      "intelligence": 13
+    },
+    "hit_points": 3,
+    "tokenIdInt": 4258,
+    "background_story": "A steadfast knight of The Forsaken Lands, known for his immense strength and brutal combat style. Wielding a massive hammer, Pokeye made a name for himself as a mercenary, taking on any job as long as the price was right.\n\nHis unpredictable nature made him a force to be reckoned with on the battlefield, but also made it difficult for those who hired him to trust him completely. ",
+    "experience_points": 0
+  },
+  "tokenId": "4258",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Cursed Outcast",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit's Pieces",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A steadfast knight of The Forsaken Lands, known for his immense strength and brutal combat style. Wielding a massive hammer, Pokeye made a name for himself as a mercenary, taking on any job as long as the price was right.\n\nHis unpredictable nature made him a force to be reckoned with on the battlefield, but also made it difficult for those who hired him to trust him completely. ",
+  "external_url": "https://fateofwagdie.com/characters/4258",
+  "animation_url": "https://fateofwagdie.com/characters/4258/animated"
+}

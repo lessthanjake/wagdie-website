@@ -1,0 +1,94 @@
+{
+  "name": "Serathis",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/5639.png",
+  "sheet": {
+    "name": "Serathis",
+    "level": 1,
+    "origin": "Logun Disciple",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Worm Touch",
+      "armor": "Garolin Tunic"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 13,
+      "strength": 11,
+      "dexterity": 12,
+      "constitution": 9,
+      "intelligence": 17
+    },
+    "hit_points": 4,
+    "tokenIdInt": 5639,
+    "background_story": "Serathis was originally a disciple of Logun, and student of the Druids. Though, eventually he found his own path to a more potent form of power.\n\nAs his interest gradually shifted towards The Nameless Serpent, he beset upon a quest driven by his growing fascination. As intrigue turned to worship, he began to unlock the power of transmutation.\n\nSerathis is now in the midst of transforming into a wormlord, driven by his dedication to the Nameless Serpent and a devotion to Kuul.",
+    "experience_points": 0
+  },
+  "tokenId": "5639",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Garolin Tunic",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Darkness",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Worm Touch",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Tentacles of the Abyss",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Burrow Worm",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Wormkin",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Serathis was originally a disciple of Logun, and student of the Druids. Though, eventually he found his own path to a more potent form of power.\n\nAs his interest gradually shifted towards The Nameless Serpent, he beset upon a quest driven by his growing fascination. As intrigue turned to worship, he began to unlock the power of transmutation.\n\nSerathis is now in the midst of transforming into a wormlord, driven by his dedication to the Nameless Serpent and a devotion to Kuul.",
+  "external_url": "https://fateofwagdie.com/characters/5639",
+  "animation_url": "https://fateofwagdie.com/characters/5639/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Verne Troyer w/ Mech suit",
+  "image": "ipfs://bafkreihjvwfcgdv3ktqggdafxagyoiuxeg6lmxnhjif3jssergfje65tnm",
+  "sheet": {
+    "name": "Verne Troyer w/ Mech suit",
+    "level": 1,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "None",
+      "armor": "Verite Encumbrance"
+    },
+    "attributes": {
+      "wisdom": 9,
+      "charisma": 11,
+      "strength": 8,
+      "dexterity": 11,
+      "constitution": 11,
+      "intelligence": 18
+    },
+    "hit_points": 8,
+    "tokenIdInt": 1808,
+    "background_story": "In the dark ages, Verne Troyer was a small but mighty warrior, known for his bravery and cunning on the battlefield. Despite his diminutive stature, he was a fierce opponent, feared by all who faced him.\n\nOne day, Verne came across a discarded suit of armor, battered and beaten from years of battle. He saw potential in the suit, and with the help of skilled blacksmiths, he set to work forging it into a mech suit that would allow him to take on even larger and more powerful foes.\n\nAfter months of hard work, the suit was finally complete. Verne stepped into it, feeling a surge of power as the suit's mechanical arms and legs moved in unison with his own. With a fierce determination in his heart, he set out onto the battlefield once more.\n\nThe sight of Verne in his mech suit was a terrifying one for his enemies. They had never seen anything like it before, and they were taken aback by his ferocity as he charged into battle, laying waste to all who stood in his way.\n\nDespite the odds stacked against him, Verne was unstoppable in his mech suit. He fought with a fierce determination, never backing down from a challenge. In the end, he emerged victorious, earning the admiration and respect of all who had witnessed his incredible feats of strength and bravery.\n\nFrom that day on, Verne Troyer was known throughout the land as the \"Mech Warrior,\" a hero who had overcome his physical limitations to become a powerful and unstoppable force on the battlefield",
+    "experience_points": 0
+  },
+  "tokenId": "1808",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Verite Encumbrance",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "In the dark ages, Verne Troyer was a small but mighty warrior, known for his bravery and cunning on the battlefield. Despite his diminutive stature, he was a fierce opponent, feared by all who faced him.\n\nOne day, Verne came across a discarded suit of armor, battered and beaten from years of battle. He saw potential in the suit, and with the help of skilled blacksmiths, he set to work forging it into a mech suit that would allow him to take on even larger and more powerful foes.\n\nAfter months of hard work, the suit was finally complete. Verne stepped into it, feeling a surge of power as the suit's mechanical arms and legs moved in unison with his own. With a fierce determination in his heart, he set out onto the battlefield once more.\n\nThe sight of Verne in his mech suit was a terrifying one for his enemies. They had never seen anything like it before, and they were taken aback by his ferocity as he charged into battle, laying waste to all who stood in his way.\n\nDespite the odds stacked against him, Verne was unstoppable in his mech suit. He fought with a fierce determination, never backing down from a challenge. In the end, he emerged victorious, earning the admiration and respect of all who had witnessed his incredible feats of strength and bravery.\n\nFrom that day on, Verne Troyer was known throughout the land as the \"Mech Warrior,\" a hero who had overcome his physical limitations to become a powerful and unstoppable force on the battlefield",
+  "external_url": "https://fateofwagdie.com/characters/1808",
+  "animation_url": "https://fateofwagdie.com/characters/1808/animated"
+}

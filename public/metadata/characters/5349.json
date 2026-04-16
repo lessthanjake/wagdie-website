@@ -1,0 +1,82 @@
+{
+  "name": "Simp, Agora's only child",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/5349.png",
+  "sheet": {
+    "name": "Simp, Agora's only child",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 9,
+      "strength": 10,
+      "dexterity": 12,
+      "constitution": 11,
+      "intelligence": 14
+    },
+    "hit_points": 6,
+    "tokenIdInt": 5349,
+    "background_story": "Detriti got decrepit simps looking simple",
+    "experience_points": 0
+  },
+  "tokenId": "5349",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Swamp Witch Disciple",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Swamp Witch Disciple",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Her Legionnaire",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Her Ash",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Bonfire",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Detriti got decrepit simps looking simple",
+  "external_url": "https://fateofwagdie.com/characters/5349",
+  "animation_url": "https://fateofwagdie.com/characters/5349/animated"
+}

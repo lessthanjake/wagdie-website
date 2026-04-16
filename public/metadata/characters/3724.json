@@ -1,0 +1,82 @@
+{
+  "name": "Eyeball Scary ",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/3724.png",
+  "sheet": {
+    "name": "Eyeball Scary ",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Zoltan Helm",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 3724,
+    "background_story": "This story is by the adorable daughter of @MeepleDad;  This is Eyeball Scary, the skeleton reading in the library. There is an eyeball wall, making scary faces. Eyeball Scary sits in his chair, reading an eyeball book. He loves eyeballs. Some eyeballs are blue & purple, but some are orange & green.",
+    "experience_points": 0
+  },
+  "tokenId": "3724",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Fallen Worshipper",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Zoltan Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Fallen Worshipper",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Cursed Cage",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Toad of Detriti",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Coven of Detriti",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "This story is by the adorable daughter of @MeepleDad;  This is Eyeball Scary, the skeleton reading in the library. There is an eyeball wall, making scary faces. Eyeball Scary sits in his chair, reading an eyeball book. He loves eyeballs. Some eyeballs are blue & purple, but some are orange & green.",
+  "external_url": "https://fateofwagdie.com/characters/3724",
+  "animation_url": "https://fateofwagdie.com/characters/3724/animated"
+}

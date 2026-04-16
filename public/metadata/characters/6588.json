@@ -1,0 +1,93 @@
+{
+  "name": "Brilliant-Moon-Reaching",
+  "image": "ipfs://bafkreidfmecrsb6quqfg3bwj37varunte4losbzx2zabelzvtsat2iwegm",
+  "sheet": {
+    "name": "Brilliant-Moon-Reaching",
+    "level": 1,
+    "origin": "Old Pilgrim",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Smiling Witness to All",
+      "armor": "Noxian Jester Garb"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 15,
+      "strength": 10,
+      "dexterity": 14,
+      "constitution": 14,
+      "intelligence": 7
+    },
+    "hit_points": 6,
+    "tokenIdInt": 6588,
+    "experience_points": 0
+  },
+  "tokenId": "6588",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Noxian Jester Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Old Pilgrim",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Luta's Firey Bangs",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Smiling Witness to All",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Old Pilgrim",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/6588",
+  "animation_url": "https://fateofwagdie.com/characters/6588/animated"
+}

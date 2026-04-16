@@ -1,0 +1,94 @@
+{
+  "name": "First Of The Year",
+  "image": "ipfs://bafkreidud5p4bkglrps7yblr3vwhtzdos533bchmt4lwi55sonhtt2taka",
+  "sheet": {
+    "name": "First Of The Year",
+    "level": 1,
+    "origin": "Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "Noxium Garb",
+      "armor": "Logun's Pauldrons"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 7,
+      "strength": 14,
+      "dexterity": 11,
+      "constitution": 8,
+      "intelligence": 9
+    },
+    "hit_points": 5,
+    "tokenIdInt": 6248,
+    "background_story": "In our dark, Forsaken Lands,\nDestiny reaches its cold hand,\n\"First of the Year\" takes the stand,\nAnd marks the start of a year's demand.\n\nNone alone, this silent night,\nEchoes of those who'll share his plight.\nMany more will face the light,\nIn this cycle of endless fight.",
+    "experience_points": 0
+  },
+  "tokenId": "6248",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Pauldrons",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Noxium Garb",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "In our dark, Forsaken Lands,\nDestiny reaches its cold hand,\n\"First of the Year\" takes the stand,\nAnd marks the start of a year's demand.\n\nNone alone, this silent night,\nEchoes of those who'll share his plight.\nMany more will face the light,\nIn this cycle of endless fight.",
+  "external_url": "https://fateofwagdie.com/characters/6248",
+  "animation_url": "https://fateofwagdie.com/characters/6248/animated"
+}

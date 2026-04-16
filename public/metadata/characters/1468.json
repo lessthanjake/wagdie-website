@@ -1,0 +1,94 @@
+{
+  "name": "Ranger Viola",
+  "image": "ipfs://bafkreihsrhbxmj2n5r7v556uo6ajquaoff5msjhay67gvcmst6nlmpl4ou",
+  "sheet": {
+    "name": "Ranger Viola",
+    "level": 5,
+    "origin": "Wormkin Elite",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "None",
+      "armor": "Tunic of Yore"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 12,
+      "strength": 14,
+      "dexterity": 15,
+      "constitution": 13,
+      "intelligence": 11
+    },
+    "hit_points": 46,
+    "tokenIdInt": 1468,
+    "background_story": "A descendent of Yuria that has forsaken all hope of a peaceful life. She operates as a mercenary and dwells just outside The Putrid Forest.\n\nWhen the young Prince Maxim came looking for protection, she offered her services at an extreme discount as part of a plot to one day assasinate him and steal his wealth.\n\nAs the Bulwark of the Serpent began to gain advantage during the Battle of the Burning Church, she leant her skills to their forces to take full exploit of the easy victory. She survived both portions of the war, gleefully counting her calculated rewards, but has not yet returned to her duties with Prince Maxim.\n\nShe has instead absconded to The Putrid Forest with Ulfgar Ungart in search of Molosh, but was abandoned by him as he raced to join the First Expedition to The Abyss.\n\nShortly after King Offling's Funeral, she was infected with The Spread. After this time, she lingered in The Putrid Forest, living as a creature on the fringes of society until the return of Prince Ham Doe where she received a Strange Pellet and was able to cure herself of the disease.\n\nAfter receiving the gift of a cure at The Dawnlands from Ham Doe, she agreed to escort Julian Tryhard to Crow's Den in pursuit of Merlin. ",
+    "experience_points": 6500
+  },
+  "tokenId": "1468",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Tunic of Yore",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Brimstone",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A descendent of Yuria that has forsaken all hope of a peaceful life. She operates as a mercenary and dwells just outside The Putrid Forest.\n\nWhen the young Prince Maxim came looking for protection, she offered her services at an extreme discount as part of a plot to one day assasinate him and steal his wealth.\n\nAs the Bulwark of the Serpent began to gain advantage during the Battle of the Burning Church, she leant her skills to their forces to take full exploit of the easy victory. She survived both portions of the war, gleefully counting her calculated rewards, but has not yet returned to her duties with Prince Maxim.\n\nShe has instead absconded to The Putrid Forest with Ulfgar Ungart in search of Molosh, but was abandoned by him as he raced to join the First Expedition to The Abyss.\n\nShortly after King Offling's Funeral, she was infected with The Spread. After this time, she lingered in The Putrid Forest, living as a creature on the fringes of society until the return of Prince Ham Doe where she received a Strange Pellet and was able to cure herself of the disease.\n\nAfter receiving the gift of a cure at The Dawnlands from Ham Doe, she agreed to escort Julian Tryhard to Crow's Den in pursuit of Merlin. ",
+  "external_url": "https://fateofwagdie.com/characters/1468",
+  "animation_url": "https://fateofwagdie.com/characters/1468/animated"
+}

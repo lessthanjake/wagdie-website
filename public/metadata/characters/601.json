@@ -1,0 +1,94 @@
+{
+  "name": "Scalp Serene",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/601.png",
+  "sheet": {
+    "name": "Scalp Serene",
+    "level": 5,
+    "origin": "Wormkin Elite",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "Noxium Garb",
+      "armor": "Her Zealot's Gear"
+    },
+    "attributes": {
+      "wisdom": 6,
+      "charisma": 8,
+      "strength": 7,
+      "dexterity": 5,
+      "constitution": 30,
+      "intelligence": 8
+    },
+    "hit_points": 66,
+    "tokenIdInt": 601,
+    "background_story": "Scalp Serene roamed the desolate wasteland, her bald head shining in the sun. People whispered of her fearsome reputation as a hunter, her arrows never missing their mark. With a bandaged wrap around half her head, she cut a striking figure as she strode confidently through the catacombs.\n\nSome said she was a ruthless killer, using her arrows to bring down anything and everything in her path. Others whispered that she was a protector of the weak, using her skills to defend those who couldn't defend themselves. No one knew the truth for certain, but everyone agreed that she was one hot and dangerous woman.\n\nScalp Serene didn't pay much attention to the rumors. She was focused on surviving in this harsh world, and if people wanted to fear her, that was their prerogative. As long as they stayed out of her way, everything was good.\n\nOne day, Scalp Serene stumbled upon a small village, the residents of which were being terrorized by a group of bandits. Without a moment's hesitation, she stepped forward, offering her services to rid the village of its tormentors. The villagers were skeptical at first, but as they watched her take down the bandits one by one with her deadly arrows, they realized that she was indeed a force to be reckoned with.\n\nFrom that day on, Scalp Serene became a legend in the wasteland, a symbol of hope to those who needed it most. People whispered of her bravery, her skill, and her fiery determination. And when they looked at her bald head, they saw not just a lack of hair, but a strength and resilience that could withstand anything the wasteland could throw at her.\n\nFor Scalp Serene, life in the wasteland was just another day at the office, and she wouldn't have it any other way.",
+    "experience_points": 10
+  },
+  "tokenId": "601",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Zealot's Gear",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Noxium Garb",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Mothling's Guard",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Mothling",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Fossors",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Scalp Serene roamed the desolate wasteland, her bald head shining in the sun. People whispered of her fearsome reputation as a hunter, her arrows never missing their mark. With a bandaged wrap around half her head, she cut a striking figure as she strode confidently through the catacombs.\n\nSome said she was a ruthless killer, using her arrows to bring down anything and everything in her path. Others whispered that she was a protector of the weak, using her skills to defend those who couldn't defend themselves. No one knew the truth for certain, but everyone agreed that she was one hot and dangerous woman.\n\nScalp Serene didn't pay much attention to the rumors. She was focused on surviving in this harsh world, and if people wanted to fear her, that was their prerogative. As long as they stayed out of her way, everything was good.\n\nOne day, Scalp Serene stumbled upon a small village, the residents of which were being terrorized by a group of bandits. Without a moment's hesitation, she stepped forward, offering her services to rid the village of its tormentors. The villagers were skeptical at first, but as they watched her take down the bandits one by one with her deadly arrows, they realized that she was indeed a force to be reckoned with.\n\nFrom that day on, Scalp Serene became a legend in the wasteland, a symbol of hope to those who needed it most. People whispered of her bravery, her skill, and her fiery determination. And when they looked at her bald head, they saw not just a lack of hair, but a strength and resilience that could withstand anything the wasteland could throw at her.\n\nFor Scalp Serene, life in the wasteland was just another day at the office, and she wouldn't have it any other way.",
+  "external_url": "https://fateofwagdie.com/characters/601",
+  "animation_url": "https://fateofwagdie.com/characters/601/animated"
+}

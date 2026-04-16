@@ -1,0 +1,93 @@
+{
+  "name": "A Druid",
+  "image": "ipfs://bafkreifitvla5ioqskzyyl5deirhwnjkkngfxk7rb7v5h3jsr5z4z7xjhu",
+  "sheet": {
+    "name": "A Druid",
+    "level": 1,
+    "origin": "Leeched Devotee",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Blessing",
+      "armor": "Crow Lord's Blessing"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 16,
+      "strength": 16,
+      "dexterity": 11,
+      "constitution": 14,
+      "intelligence": 9
+    },
+    "hit_points": 7,
+    "tokenIdInt": 106,
+    "experience_points": 0
+  },
+  "tokenId": "106",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Crow Lord's Blessing",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Leeched Devotee",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Her Golden Page",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Blessing",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Leeched Devotee",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/106",
+  "animation_url": "https://fateofwagdie.com/characters/106/animated"
+}

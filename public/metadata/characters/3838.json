@@ -1,0 +1,94 @@
+{
+  "name": "Sinān The Hash",
+  "image": "ipfs://bafkreif3li4n2ln3xzodzkita5gip45pp2g2m5awitoo37ma4eonv3amre",
+  "sheet": {
+    "name": "Sinān The Hash",
+    "level": 3,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Death Stroker Doublet"
+    },
+    "attributes": {
+      "wisdom": 29,
+      "charisma": 18,
+      "strength": 25,
+      "dexterity": 28,
+      "constitution": 19,
+      "intelligence": 27
+    },
+    "hit_points": 76,
+    "tokenIdInt": 3838,
+    "background_story": "In the dimly lit streets of The Forsaken Lands, a mysterious figure emerged from the East, known as Sinān the Hash, a monk assassin of extraordinary strength, wisdom, and stealth. Born in the heart of undiscovered land's dunes, Sinān's journey took him far from the realms of his birthplace, bringing the shadowy arts of the Umbral to the enigmatic landscapes of The Forsaken Land.\n\nSelected at a young age for his exceptional physical prowess, Sinān underwent rigorous training within the secluded order of the Umbral. Nestled in the desert terrains of the bare East, the fortress that housed their secrets was a crucible of discipline, where martial arts, stealth, and strategic wisdom were honed to perfection.\n\nSinān's strength, a product of relentless training, set him apart as a force to be reckoned with on the Forsaken battlegrounds. His wisdom, gleaned from ancient texts and the teachings of the Umbral, allowed him to approach his missions with calculated precision, adapting the tactics of his homeland to the unfamiliar landscapes of The Forsaken.\n\nMoving through the labyrinthine streets with the agility of a seasoned acrobat, Sinān's high dexterity allowed him to navigate the narrow alleyways and treacherous rooftops of Forsaken locations with unparalleled finesse. His shadowy presence was known, yet seldom seen, leaving only whispers of his actions in the wake of his missions.\n\nWhile Sinān excelled in the arts of war, his charisma did not always translate seamlessly to the Forsaken courts. The Umbral's code, steeped in secrecy and subtlety, cast an air of mystery around Sinān, making his interactions marked by a quiet intensity rather than a charismatic charm.\n\nIn battles, Sinān preferred the art of evasion and calculated strikes, eschewing heavy armor for swift movements. His agility and quick reflexes made him a master of dodging attacks, though his reluctance to embrace the encumbering armor left him less durable than the knights and warriors of The Forsaken Lands.\n\nSinān the Hash became a whispered legend among the courts and nobility of medieval Europe. His arrival, like a silent breeze from the East, brought with it the shadowy skills of an assassin monk—an icon of mystery, feared by those who glimpsed the swift and deadly art he practiced in the heart of a distant world.",
+    "experience_points": 420
+  },
+  "tokenId": "3838",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Death Stroker Doublet",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "In the dimly lit streets of The Forsaken Lands, a mysterious figure emerged from the East, known as Sinān the Hash, a monk assassin of extraordinary strength, wisdom, and stealth. Born in the heart of undiscovered land's dunes, Sinān's journey took him far from the realms of his birthplace, bringing the shadowy arts of the Umbral to the enigmatic landscapes of The Forsaken Land.\n\nSelected at a young age for his exceptional physical prowess, Sinān underwent rigorous training within the secluded order of the Umbral. Nestled in the desert terrains of the bare East, the fortress that housed their secrets was a crucible of discipline, where martial arts, stealth, and strategic wisdom were honed to perfection.\n\nSinān's strength, a product of relentless training, set him apart as a force to be reckoned with on the Forsaken battlegrounds. His wisdom, gleaned from ancient texts and the teachings of the Umbral, allowed him to approach his missions with calculated precision, adapting the tactics of his homeland to the unfamiliar landscapes of The Forsaken.\n\nMoving through the labyrinthine streets with the agility of a seasoned acrobat, Sinān's high dexterity allowed him to navigate the narrow alleyways and treacherous rooftops of Forsaken locations with unparalleled finesse. His shadowy presence was known, yet seldom seen, leaving only whispers of his actions in the wake of his missions.\n\nWhile Sinān excelled in the arts of war, his charisma did not always translate seamlessly to the Forsaken courts. The Umbral's code, steeped in secrecy and subtlety, cast an air of mystery around Sinān, making his interactions marked by a quiet intensity rather than a charismatic charm.\n\nIn battles, Sinān preferred the art of evasion and calculated strikes, eschewing heavy armor for swift movements. His agility and quick reflexes made him a master of dodging attacks, though his reluctance to embrace the encumbering armor left him less durable than the knights and warriors of The Forsaken Lands.\n\nSinān the Hash became a whispered legend among the courts and nobility of medieval Europe. His arrival, like a silent breeze from the East, brought with it the shadowy skills of an assassin monk—an icon of mystery, feared by those who glimpsed the swift and deadly art he practiced in the heart of a distant world.",
+  "external_url": "https://fateofwagdie.com/characters/3838",
+  "animation_url": "https://fateofwagdie.com/characters/3838/animated"
+}

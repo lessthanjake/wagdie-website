@@ -1,0 +1,94 @@
+{
+  "name": "Cousin John",
+  "image": "ipfs://bafkreibumn6rewypbdkvcfoeh3sihrsl6iywose7ltofbpyzzruxzuymny",
+  "sheet": {
+    "name": "Cousin John",
+    "level": 1,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Her Silence",
+      "armor": "Champion of Logun"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 1303,
+    "background_story": "Cousin John can't seem to find his rank. He isn't particularly smart, or hardworking, and is often floundering. Many are starting to whisper that he doesn't pull his own weight. Secretly, they are voting to send him off on the next quest...to either prove his worth...or perish...and burn. At least that would be worthy.",
+    "experience_points": 0
+  },
+  "tokenId": "1303",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Champion of Logun",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Luta's Firey Bangs",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Silence",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Cousin John can't seem to find his rank. He isn't particularly smart, or hardworking, and is often floundering. Many are starting to whisper that he doesn't pull his own weight. Secretly, they are voting to send him off on the next quest...to either prove his worth...or perish...and burn. At least that would be worthy.",
+  "external_url": "https://fateofwagdie.com/characters/1303",
+  "animation_url": "https://fateofwagdie.com/characters/1303/animated"
+}

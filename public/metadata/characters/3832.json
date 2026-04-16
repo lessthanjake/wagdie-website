@@ -1,0 +1,82 @@
+{
+  "name": "ℌ𝔢𝔯 𝔏𝔬𝔰𝔱 𝔉𝔬𝔩𝔩𝔬𝔴𝔢𝔯",
+  "image": "ipfs://bafkreibuwvvodbk67gv4rh3ekl2qo2fcernqgwqge5jt7xp23o6z3bsrm4",
+  "sheet": {
+    "name": "ℌ𝔢𝔯 𝔏𝔬𝔰𝔱 𝔉𝔬𝔩𝔩𝔬𝔴𝔢𝔯",
+    "level": 10,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 20,
+      "strength": 10,
+      "dexterity": 10,
+      "constitution": 30,
+      "intelligence": 30
+    },
+    "hit_points": 70,
+    "tokenIdInt": 3832,
+    "background_story": "𝔒𝔫𝔠𝔢 𝔞 𝔣𝔬𝔩𝔩𝔬𝔴𝔢𝔯 𝔬𝔣 ℌ𝔢𝔯, 𝔫𝔬𝔴 𝔩𝔬𝔰𝔱, 𝔱𝔯𝔞𝔳𝔢𝔩𝔦𝔫𝔤 𝔱𝔥𝔢 𝔴𝔬𝔯𝔩𝔡 𝔰𝔢𝔞𝔯𝔠𝔥𝔦𝔫𝔤 𝔣𝔬𝔯 𝔱𝔥𝔞𝔱 𝔴𝔥𝔦𝔠𝔥 𝔟𝔯𝔦𝔫𝔤𝔰 𝔥𝔦𝔪 𝔩𝔦𝔤𝔥𝔱, 𝔟𝔲𝔱 𝔦𝔫 𝔱𝔥𝔢 𝔢𝔫𝔡, 𝔬𝔫𝔩𝔶 𝔡𝔢𝔞𝔱𝔥 𝔞𝔴𝔞𝔦𝔱𝔰. ",
+    "experience_points": 6667
+  },
+  "tokenId": "3832",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Galactic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Swamp Witch Disciple",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Swamp Witch Disciple",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "𝔒𝔫𝔠𝔢 𝔞 𝔣𝔬𝔩𝔩𝔬𝔴𝔢𝔯 𝔬𝔣 ℌ𝔢𝔯, 𝔫𝔬𝔴 𝔩𝔬𝔰𝔱, 𝔱𝔯𝔞𝔳𝔢𝔩𝔦𝔫𝔤 𝔱𝔥𝔢 𝔴𝔬𝔯𝔩𝔡 𝔰𝔢𝔞𝔯𝔠𝔥𝔦𝔫𝔤 𝔣𝔬𝔯 𝔱𝔥𝔞𝔱 𝔴𝔥𝔦𝔠𝔥 𝔟𝔯𝔦𝔫𝔤𝔰 𝔥𝔦𝔪 𝔩𝔦𝔤𝔥𝔱, 𝔟𝔲𝔱 𝔦𝔫 𝔱𝔥𝔢 𝔢𝔫𝔡, 𝔬𝔫𝔩𝔶 𝔡𝔢𝔞𝔱𝔥 𝔞𝔴𝔞𝔦𝔱𝔰. ",
+  "external_url": "https://fateofwagdie.com/characters/3832",
+  "animation_url": "https://fateofwagdie.com/characters/3832/animated"
+}

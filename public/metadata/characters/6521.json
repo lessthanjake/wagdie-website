@@ -1,0 +1,94 @@
+{
+  "name": "Rangrim Loderr",
+  "image": "ipfs://bafkreide7bebrfck65m5xmvkqzj5ilz5j7avaot3su7cmcx7nuobd3h6za",
+  "sheet": {
+    "name": "Rangrim Loderr",
+    "level": 1,
+    "origin": "Zolian Worm",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "Royal Fool's Curse",
+      "armor": "Pilgrim's Chain"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 14,
+      "strength": 10,
+      "dexterity": 11,
+      "constitution": 12,
+      "intelligence": 15
+    },
+    "hit_points": 8,
+    "tokenIdInt": 6521,
+    "background_story": "A miner by trade, Rangrim worked pulling precious minerals from the ground so long that his skin turned a peculiar shade. When the magistrate that operated his mine began laying off his coworkers, Rangrim led a riot to seize power of the mine for the people. After the bloodshed had ceased, they were in control of the mine and he was crowned their new leader.",
+    "experience_points": 0
+  },
+  "tokenId": "6521",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Vaulted",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Royal Fool's Curse",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A miner by trade, Rangrim worked pulling precious minerals from the ground so long that his skin turned a peculiar shade. When the magistrate that operated his mine began laying off his coworkers, Rangrim led a riot to seize power of the mine for the people. After the bloodshed had ceased, they were in control of the mine and he was crowned their new leader.",
+  "external_url": "https://fateofwagdie.com/characters/6521",
+  "animation_url": "https://fateofwagdie.com/characters/6521/animated"
+}

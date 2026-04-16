@@ -1,0 +1,94 @@
+{
+  "name": "Skylark Chaddington IV",
+  "image": "ipfs://bafkreigjw52diee5gfj666rh37ygb3qqk2fkadrmy7l2hta3ne3tsqh7fa",
+  "sheet": {
+    "name": "Skylark Chaddington IV",
+    "level": 1,
+    "origin": "Young Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Strange Cloth Cloak"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 4,
+      "strength": 13,
+      "dexterity": 14,
+      "constitution": 14,
+      "intelligence": 12
+    },
+    "hit_points": 10,
+    "tokenIdInt": 5304,
+    "background_story": "After Skylark’s father, Skylark, died. Skylark decided to journey the Forsaken Lands to continue his sigma male grindset.\n\nMood.\n",
+    "experience_points": 0
+  },
+  "tokenId": "5304",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Strange Cloth Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Altered",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Straw",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "After Skylark’s father, Skylark, died. Skylark decided to journey the Forsaken Lands to continue his sigma male grindset.\n\nMood.\n",
+  "external_url": "https://fateofwagdie.com/characters/5304",
+  "animation_url": "https://fateofwagdie.com/characters/5304/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Incubus",
+  "image": "ipfs://bafkreiezh55aywscp4jgod6zx3hntnfxfwzy4b7qfk3xkitwnptn2y6uzi",
+  "sheet": {
+    "name": "Incubus",
+    "level": 1,
+    "origin": "Foolish Jester",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Wisened Touch",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 16,
+      "strength": 10,
+      "dexterity": 14,
+      "constitution": 16,
+      "intelligence": 6
+    },
+    "hit_points": 10,
+    "tokenIdInt": 6088,
+    "background_story": "He is renowned for his sexual charisma and alluring presence, drawing women to him with an almost magnetic force. He is known to be an attentive and passionate lover, always putting the pleasure of his partners first. With his undeniable charm and skill in the bedroom, Incubus has become a legend in Sibor's Mound, known to many simply as \"the giver.\"",
+    "experience_points": 0
+  },
+  "tokenId": "6088",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "None",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Curse of Logun",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wisened Touch",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "He is renowned for his sexual charisma and alluring presence, drawing women to him with an almost magnetic force. He is known to be an attentive and passionate lover, always putting the pleasure of his partners first. With his undeniable charm and skill in the bedroom, Incubus has become a legend in Sibor's Mound, known to many simply as \"the giver.\"",
+  "external_url": "https://fateofwagdie.com/characters/6088",
+  "animation_url": "https://fateofwagdie.com/characters/6088/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "DeadTiredDCLXVI",
+  "image": "ipfs://bafkreibp7ufjswxi62mbuzijsjp42cifyxl4gxhkfbdlarfu7rnwmhg3ja",
+  "sheet": {
+    "name": "DeadTiredDCLXVI",
+    "level": 1,
+    "origin": "Aged Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Sibor's Brace",
+      "armor": "Logun Forged Weight"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 7,
+      "strength": 16,
+      "dexterity": 10,
+      "constitution": 12,
+      "intelligence": 6
+    },
+    "hit_points": 15,
+    "tokenIdInt": 3490,
+    "background_story": "Death-Slumber was born in a small town in the outerrims. He never knew his father and his mother abandoned him shortly after he was born. D-S was taken in by the town drunk who used him as a slave to steal for him. D-S hated it. He was always hungry and often beaten. It wasn’t until he was about 10 years old that he tried to escape. He managed to sneak out of town with a backpack full of food and some clothing. He kept to the shadows, stealing food from the merchants and staying under the cover of night as much as possible. After a few days, he ran into a group of bandits who thought he would make a good replacement for one of their former members. The bandit leader was a cruel man, but the other members were decent. They taught him how to survive on the streets and how to fight. After a few years, he was a competent fighter and able to survive on his own. He was scouted out by a group of thieves and eventually joined their guild.",
+    "experience_points": 0
+  },
+  "tokenId": "3490",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun Forged Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Aged Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Feeble Spikes",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Sibor's Brace",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Aged Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Death-Slumber was born in a small town in the outerrims. He never knew his father and his mother abandoned him shortly after he was born. D-S was taken in by the town drunk who used him as a slave to steal for him. D-S hated it. He was always hungry and often beaten. It wasn’t until he was about 10 years old that he tried to escape. He managed to sneak out of town with a backpack full of food and some clothing. He kept to the shadows, stealing food from the merchants and staying under the cover of night as much as possible. After a few days, he ran into a group of bandits who thought he would make a good replacement for one of their former members. The bandit leader was a cruel man, but the other members were decent. They taught him how to survive on the streets and how to fight. After a few years, he was a competent fighter and able to survive on his own. He was scouted out by a group of thieves and eventually joined their guild.",
+  "external_url": "https://fateofwagdie.com/characters/3490",
+  "animation_url": "https://fateofwagdie.com/characters/3490/animated"
+}

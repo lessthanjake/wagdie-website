@@ -1,0 +1,94 @@
+{
+  "name": "Danneth Brosbane",
+  "image": "ipfs://bafkreib5yvac25jh5xrqrvu6yslfwvwcz6ptibwqtkcgmro6lf24rkav4m",
+  "sheet": {
+    "name": "Danneth Brosbane",
+    "level": 1,
+    "origin": "Her Wetnurse",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "Fool's Crown",
+      "armor": "Valorite Protection"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 12,
+      "strength": 17,
+      "dexterity": 14,
+      "constitution": 13,
+      "intelligence": 8
+    },
+    "hit_points": 3,
+    "tokenIdInt": 4136,
+    "background_story": "Master Archer, heir of House Brosbane\n\nIt is rumored the Brosbanes claim lineage as descendants of the Illyrian tribes that emerged from the Putrid Forest ages ago.\n\n𝔗𝔞𝔨𝔢 𝔬𝔫𝔢 𝔪𝔬𝔯𝔢 𝔰𝔱𝔢𝔭 𝔞𝔫𝔡 𝔪𝔶 𝔮𝔲𝔦𝔳𝔢𝔯 𝔴𝔦𝔩𝔩 𝔢𝔪𝔭𝔱𝔶 𝔣𝔞𝔰𝔱𝔢𝔯 𝔱𝔥𝔞𝔫 𝔱𝔥𝔢 𝔖𝔱𝔞𝔩𝔴𝔞𝔯𝔱 𝔣𝔢𝔩𝔩 - 𝔇𝔞𝔫𝔫𝔢𝔱𝔥 𝔅𝔯𝔬𝔰𝔟𝔞𝔫𝔢",
+    "experience_points": 0
+  },
+  "tokenId": "4136",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Valorite Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Wetnurse",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Her Page",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Fool's Crown",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Wetnurse",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Master Archer, heir of House Brosbane\n\nIt is rumored the Brosbanes claim lineage as descendants of the Illyrian tribes that emerged from the Putrid Forest ages ago.\n\n𝔗𝔞𝔨𝔢 𝔬𝔫𝔢 𝔪𝔬𝔯𝔢 𝔰𝔱𝔢𝔭 𝔞𝔫𝔡 𝔪𝔶 𝔮𝔲𝔦𝔳𝔢𝔯 𝔴𝔦𝔩𝔩 𝔢𝔪𝔭𝔱𝔶 𝔣𝔞𝔰𝔱𝔢𝔯 𝔱𝔥𝔞𝔫 𝔱𝔥𝔢 𝔖𝔱𝔞𝔩𝔴𝔞𝔯𝔱 𝔣𝔢𝔩𝔩 - 𝔇𝔞𝔫𝔫𝔢𝔱𝔥 𝔅𝔯𝔬𝔰𝔟𝔞𝔫𝔢",
+  "external_url": "https://fateofwagdie.com/characters/4136",
+  "animation_url": "https://fateofwagdie.com/characters/4136/animated"
+}

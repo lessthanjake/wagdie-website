@@ -1,0 +1,94 @@
+{
+  "name": "Death",
+  "image": "ipfs://bafkreia3hx7unkxudcxdcu63hf73nwnpp4klmspoofsllxgxm2sngps2kq",
+  "sheet": {
+    "name": "Death",
+    "level": 2,
+    "origin": "Luta's Lover",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "None",
+      "armor": "Worm Caller"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 13,
+      "strength": 8,
+      "dexterity": 12,
+      "constitution": 11,
+      "intelligence": 10
+    },
+    "hit_points": 10,
+    "tokenIdInt": 5876,
+    "background_story": "Death is a nature's punctuation mark, only fools believe it's a stepping stone to a world above or below. But this is no ordinary death for its' best friend is one others might consider a foe.\n\nThose who receive death are inclined to seek out its' companion.. For if we don't die together, we die alone.",
+    "experience_points": 300
+  },
+  "tokenId": "5876",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm Caller",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Luta's Lover",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Luta's Firey Bangs",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Luta's Lover",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Death is a nature's punctuation mark, only fools believe it's a stepping stone to a world above or below. But this is no ordinary death for its' best friend is one others might consider a foe.\n\nThose who receive death are inclined to seek out its' companion.. For if we don't die together, we die alone.",
+  "external_url": "https://fateofwagdie.com/characters/5876",
+  "animation_url": "https://fateofwagdie.com/characters/5876/animated"
+}

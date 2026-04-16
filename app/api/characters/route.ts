@@ -9,6 +9,8 @@ import { parseEnumParam, parsePositiveIntParam } from '@/lib/api/params'
 import { jsonRaw } from '@/lib/api/responses'
 import type { CharacterFilterTab, CharactersResponse, SortOrder } from '@/types/character'
 
+export const runtime = 'nodejs'
+
 const CHARACTER_FILTER_TABS: readonly CharacterFilterTab[] = [
   'all',
   'owned',

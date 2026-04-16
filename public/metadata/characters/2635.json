@@ -1,0 +1,94 @@
+{
+  "name": "Xur",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/2635.png",
+  "sheet": {
+    "name": "Xur",
+    "level": 2,
+    "origin": "Her Lover",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "The Hat Without Death",
+      "armor": "Garolin Tunic"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 0,
+      "strength": 2,
+      "dexterity": 3,
+      "constitution": 30,
+      "intelligence": 30
+    },
+    "hit_points": 5,
+    "tokenIdInt": 2635,
+    "background_story": "Xur the witch, serving the Dark Blade Guild.. ",
+    "experience_points": 40
+  },
+  "tokenId": "2635",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Garolin Tunic",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Piat's Destruction",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "The Hat Without Death",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Witch",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Spark of the Magus",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Seer's Gem",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Seers",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Xur the witch, serving the Dark Blade Guild.. ",
+  "external_url": "https://fateofwagdie.com/characters/2635",
+  "animation_url": "https://fateofwagdie.com/characters/2635/animated"
+}

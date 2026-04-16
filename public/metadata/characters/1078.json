@@ -1,0 +1,94 @@
+{
+  "name": "???",
+  "image": "ipfs://bafkreidcnyl4siurkbxn43g567fqc4micjogmgilfpgd6cdu6nl3e5gdzi",
+  "sheet": {
+    "name": "???",
+    "level": 3,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "None",
+      "armor": "Detritus Mail"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 10,
+      "strength": 15,
+      "dexterity": 16,
+      "constitution": 15,
+      "intelligence": 13
+    },
+    "hit_points": 27,
+    "tokenIdInt": 1078,
+    "background_story": "This character has not yet been encountered.",
+    "experience_points": 0
+  },
+  "tokenId": "1078",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Detritus Mail",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Noble's Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "This character has not yet been encountered.",
+  "external_url": "https://fateofwagdie.com/characters/1078",
+  "animation_url": "https://fateofwagdie.com/characters/1078/animated"
+}

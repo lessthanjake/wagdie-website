@@ -1,0 +1,89 @@
+{
+  "name": "Your Mom",
+  "image": "ipfs://bafkreics5ukz5zp7utn4qel6ib3p223ql7ldf7ezhgkxxeb4b2ut2hcjpq",
+  "sheet": {
+    "name": "Your Mom",
+    "level": 20,
+    "origin": "Her Hidden Blade",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "An Ancient Device",
+      "armor": "Holy Garb"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 8,
+      "strength": 18,
+      "dexterity": 3,
+      "constitution": 8,
+      "intelligence": 5
+    },
+    "hit_points": 55,
+    "tokenIdInt": 3028,
+    "experience_points": 50
+  },
+  "tokenId": "3028",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Holy Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Body"
+    },
+    {
+      "value": "An Ancient Device",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/3028",
+  "animation_url": "https://fateofwagdie.com/characters/3028/animated"
+}

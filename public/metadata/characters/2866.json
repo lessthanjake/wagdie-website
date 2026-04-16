@@ -1,0 +1,94 @@
+{
+  "name": "Hopeful Bandit",
+  "image": "ipfs://bafkreicpvcyfz23xi73o4e2d6vtqyj43hv5ubio75trvi7deduatjbyle4",
+  "sheet": {
+    "name": "Hopeful Bandit",
+    "level": 2,
+    "origin": "Foolish Jester",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Pilgrim's Plain Chain"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 14,
+      "strength": 12,
+      "dexterity": 16,
+      "constitution": 11,
+      "intelligence": 16
+    },
+    "hit_points": 9,
+    "tokenIdInt": 2866,
+    "background_story": "Just a small town thug hoping to make a few bucks with a life of crime.\n\nSuccessfully robbed a large quantity of rare spice from Cirdan the Merchant during a raid at Outset Brush.\n\nWas caught by local authorities and brought to Prisons of Yore shortly after.",
+    "experience_points": 100
+  },
+  "tokenId": "2866",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Plain Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Feeble Spikes",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Just a small town thug hoping to make a few bucks with a life of crime.\n\nSuccessfully robbed a large quantity of rare spice from Cirdan the Merchant during a raid at Outset Brush.\n\nWas caught by local authorities and brought to Prisons of Yore shortly after.",
+  "external_url": "https://fateofwagdie.com/characters/2866",
+  "animation_url": "https://fateofwagdie.com/characters/2866/animated"
+}

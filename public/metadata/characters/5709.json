@@ -1,0 +1,94 @@
+{
+  "name": " Lyman Flacco",
+  "image": "ipfs://bafkreibhf3sngswyccsgbfpxaa226y6t3i5w7xkfp2tvdkg6g3o4pnswsa",
+  "sheet": {
+    "name": " Lyman Flacco",
+    "level": 1,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "None",
+      "armor": "Her Devotion"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 5709,
+    "background_story": "Lyman Flacco was a talented magician from the Kingdom of Aurora, and a member of the Ordo Solis. Despite his abilities, he was known for his reckless behavior and insatiable desire for women, boasting that he needed at least a dozen concubines to satisfy him. \n\nHis infidelity and treasonous behavior eventually led to his expulsion from the Ordo Solis, but he continued to live a life of luxury and excess. \n\nEven after losing his position, he maintained his trademark arrogance and swagger, declaring that he still had the juice and the sauce. His legend lived on, and his name became synonymous with reckless abandon and scandalous behavior.",
+    "experience_points": 0
+  },
+  "tokenId": "5709",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Devotion",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Darkness",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Lyman Flacco was a talented magician from the Kingdom of Aurora, and a member of the Ordo Solis. Despite his abilities, he was known for his reckless behavior and insatiable desire for women, boasting that he needed at least a dozen concubines to satisfy him. \n\nHis infidelity and treasonous behavior eventually led to his expulsion from the Ordo Solis, but he continued to live a life of luxury and excess. \n\nEven after losing his position, he maintained his trademark arrogance and swagger, declaring that he still had the juice and the sauce. His legend lived on, and his name became synonymous with reckless abandon and scandalous behavior.",
+  "external_url": "https://fateofwagdie.com/characters/5709",
+  "animation_url": "https://fateofwagdie.com/characters/5709/animated"
+}

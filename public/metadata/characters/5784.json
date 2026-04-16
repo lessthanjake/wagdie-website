@@ -1,0 +1,94 @@
+{
+  "name": "Black Scryer Scout",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/5784.png",
+  "sheet": {
+    "name": "Black Scryer Scout",
+    "level": 1,
+    "origin": "Naive Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "None",
+      "armor": "Crow Lord's Blessing"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 13,
+      "strength": 5,
+      "dexterity": 11,
+      "constitution": 10,
+      "intelligence": 12
+    },
+    "hit_points": 7,
+    "tokenIdInt": 5784,
+    "background_story": "Following my master's orders, I surveyed the terrain to ensure my lord is safe.\n\nNow, seeking revenge, my master leads us to the Coven's Lair to thwart the ritual.",
+    "experience_points": 0
+  },
+  "tokenId": "5784",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Crow Lord's Blessing",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Talon's Edge",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Fetid Crow's Talon",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Darkblade",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Following my master's orders, I surveyed the terrain to ensure my lord is safe.\n\nNow, seeking revenge, my master leads us to the Coven's Lair to thwart the ritual.",
+  "external_url": "https://fateofwagdie.com/characters/5784",
+  "animation_url": "https://fateofwagdie.com/characters/5784/animated"
+}

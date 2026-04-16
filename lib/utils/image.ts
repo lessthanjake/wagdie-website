@@ -2,6 +2,16 @@
  * Image utility functions for character images
  */
 
+import { hasLocalCharacterImage } from '@/lib/data/local-character-asset-status'
+
+const IPFS_GATEWAYS = [
+  'https://ipfs.io/ipfs/',
+  'https://gateway.pinata.cloud/ipfs/',
+  'https://dweb.link/ipfs/',
+] as const
+
+const RETIRED_IPFS_GATEWAY_HOSTS = new Set(['cloudflare-ipfs.com'])
+
 /**
  * Get the local image path for a character
  */
@@ -9,44 +19,190 @@ export function getLocalImagePath(tokenId: number): string {
   return `/images/characters/${tokenId}.png`
 }
 
-/**
- * Get the IPFS gateway URL for an image
- */
-export function getIpfsUrl(ipfsUri: string | undefined | null): string | null {
-  if (!ipfsUri) return null
-  if (ipfsUri.startsWith('ipfs://')) {
-    // Use Cloudflare IPFS gateway as fallback
-    return ipfsUri.replace('ipfs://', 'https://cloudflare-ipfs.com/ipfs/')
+function getIpfsPath(ipfsUri: string): string | null {
+  const trimmed = ipfsUri.trim()
+  if (!trimmed) return null
+
+  if (trimmed.startsWith('ipfs://')) {
+    return trimmed.slice('ipfs://'.length).replace(/^\/+/, '')
   }
-  return ipfsUri
+
+  try {
+    const url = new URL(trimmed)
+    const marker = '/ipfs/'
+    const markerIndex = url.pathname.indexOf(marker)
+    if (markerIndex >= 0) {
+      return decodeURIComponent(url.pathname.slice(markerIndex + marker.length).replace(/^\/+/, ''))
+    }
+  } catch {
+    // Non-URL strings are handled by the caller as plain image URLs.
+  }
+
+  return null
+}
+
+function shouldIncludeOriginalIpfsGatewayUrl(url: string): boolean {
+  try {
+    return !RETIRED_IPFS_GATEWAY_HOSTS.has(new URL(url).hostname)
+  } catch {
+    return false
+  }
+}
+
+function isIpfsLikeUrl(url: string | undefined | null): boolean {
+  return Boolean(url && getIpfsPath(url))
 }
 
 /**
- * Get the best image URL for a character
- * Prioritizes local images, falls back to IPFS
+ * Get IPFS gateway URLs for an image, ordered by preference.
+ */
+export function getIpfsUrls(ipfsUri: string | undefined | null): string[] {
+  if (!ipfsUri) return []
+
+  const trimmed = ipfsUri.trim()
+  const ipfsPath = getIpfsPath(trimmed)
+  if (!ipfsPath) return [trimmed]
+
+  const gatewayUrls = IPFS_GATEWAYS.map((gateway) => `${gateway}${ipfsPath}`)
+  return dedupeImageUrls([
+    ...(trimmed.startsWith('http') && shouldIncludeOriginalIpfsGatewayUrl(trimmed) ? [trimmed] : []),
+    ...gatewayUrls,
+  ])
+}
+
+/**
+ * Get the primary IPFS gateway URL for an image.
+ */
+export function getIpfsUrl(ipfsUri: string | undefined | null): string | null {
+  return getIpfsUrls(ipfsUri)[0] || null
+}
+
+/**
+ * Normalize a raw image URL from the database/metadata.
+ */
+export function normalizeImageUrl(url: string | undefined | null): string | null {
+  if (!url) return null
+  const trimmed = url.trim()
+  if (!trimmed) return null
+
+  if (trimmed.startsWith('ipfs://')) {
+    return getIpfsUrl(trimmed)
+  }
+
+  return trimmed
+}
+
+function normalizeImageUrlCandidates(url: string | undefined | null): string[] {
+  if (!url) return []
+  const trimmed = url.trim()
+  if (!trimmed) return []
+
+  if (isIpfsLikeUrl(trimmed)) {
+    return getIpfsUrls(trimmed)
+  }
+
+  return [trimmed]
+}
+
+type CharacterImageOptions = {
+  infectionStatus?: string | null
+  isInfected?: boolean | null
+}
+
+type CharacterImageMetadata = {
+  image?: string | null
+  image_url?: string | null
+  isSeared?: boolean | null
+  searImage?: string | null
+  infectedImage?: string | null
+  infected_image_url?: string | null
+  searing_materialization?: {
+    seared_image_url?: string | null
+  } | null
+  infection?: {
+    image?: string | null
+    image_url?: string | null
+  } | null
+}
+
+function isMetadataObject(value: unknown): value is CharacterImageMetadata {
+  return Boolean(value) && typeof value === 'object' && !Array.isArray(value)
+}
+
+function isCurrentlyInfected(options: CharacterImageOptions | undefined): boolean {
+  if (options?.infectionStatus != null) {
+    return options.infectionStatus === 'infected'
+  }
+
+  return options?.isInfected === true
+}
+
+function getInfectedMetadataImageCandidates(
+  metadata: CharacterImageMetadata | null,
+  options?: CharacterImageOptions
+): string[] {
+  if (!metadata || !isCurrentlyInfected(options)) return []
+  return [
+    ...normalizeImageUrlCandidates(metadata.infectedImage),
+    ...normalizeImageUrlCandidates(metadata.infected_image_url),
+    ...normalizeImageUrlCandidates(metadata.infection?.image_url),
+    ...normalizeImageUrlCandidates(metadata.infection?.image),
+  ]
+}
+
+function dedupeImageUrls(urls: string[]): string[] {
+  const seen = new Set<string>()
+  const deduped: string[] = []
+
+  for (const url of urls) {
+    if (!url || seen.has(url)) continue
+    seen.add(url)
+    deduped.push(url)
+  }
+
+  return deduped
+}
+
+/**
+ * Get ordered image URL candidates for a character.
+ *
+ * Local-only runtime policy:
+ * 1. local downloaded/static asset, when known to exist
+ * 2. placeholder
+ */
+export function getCharacterImageCandidates(
+  tokenId: number,
+  metadataOrImage?: CharacterImageMetadata | string | null,
+  imageUrl?: string | null,
+  options?: CharacterImageOptions
+): string[] {
+  void metadataOrImage
+  void imageUrl
+  void options
+
+  if (hasLocalCharacterImage(tokenId)) {
+    return [getLocalImagePath(tokenId), getCharacterImageFallback()]
+  }
+
+  return [getCharacterImageFallback()]
+}
+
+/**
+ * Get the best image URL for a character.
  */
 export function getCharacterImageUrl(
   tokenId: number,
-  _ipfsUri?: string | null,
-  _fallbackUrl?: string | null
+  metadataOrImage?: CharacterImageMetadata | string | null,
+  imageUrl?: string | null,
+  options?: CharacterImageOptions
 ): string {
-  // Primary: local image (downloaded from IPFS)
-  const localPath = getLocalImagePath(tokenId)
-
-  // We return local path - Next.js will handle 404s
-  // If local doesn't exist, the onError handler in the component should fallback
-  return localPath
+  return getCharacterImageCandidates(tokenId, metadataOrImage, imageUrl, options)[0] || getCharacterImageFallback()
 }
 
 /**
- * Get fallback URL for when local image fails to load
- * Always uses local placeholder - no external IPFS calls
+ * Get fallback URL when the primary image fails to load.
  */
-export function getCharacterImageFallback(
-  _ipfsUri?: string | null,
-  _fallbackUrl?: string | null
-): string {
-  // Always use local placeholder to avoid external image loading issues
+export function getCharacterImageFallback(): string {
   return '/images/placeholder-character.svg'
 }
 

@@ -1,0 +1,93 @@
+{
+  "name": "Nobody",
+  "image": "ipfs://bafkreicnu4jgj7syzrdaocroye72nwjaeyf2v6vk4t6yfpbzvgte6dfsv4",
+  "sheet": {
+    "name": "Nobody",
+    "level": 20,
+    "origin": "Young Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "An Ancient Device",
+      "armor": "Holy Garb"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 9,
+      "strength": 12,
+      "dexterity": 7,
+      "constitution": 16,
+      "intelligence": 12
+    },
+    "hit_points": 19,
+    "tokenIdInt": 1766,
+    "experience_points": 100
+  },
+  "tokenId": "1766",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Holy Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Her Golden Page",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "An Ancient Device",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/1766",
+  "animation_url": "https://fateofwagdie.com/characters/1766/animated"
+}

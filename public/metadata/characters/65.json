@@ -1,0 +1,98 @@
+{
+  "name": "The Blightminder",
+  "image": "https://crimson-static-barnacle-945.mypinata.cloud/ipfs/QmQUfLf8HXzyKPMQCSNTWy1k3B2fPyujgqw8kKpmrewDG1",
+  "sheet": {
+    "name": "The Blightminder",
+    "level": 1,
+    "origin": "Leeched Devotee",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Favor",
+      "mask": "None",
+      "armor": "Worm's Weight"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 12,
+      "strength": 7,
+      "dexterity": 17,
+      "constitution": 20,
+      "intelligence": 19
+    },
+    "hit_points": 38,
+    "tokenIdInt": 65,
+    "background_story": "An apothecary and former member of the Plague Watch, renown for his tinctures and occult remedies treating a wide breath of malaise.\n\nForgotten are the events related to his fall from grace as it was accompanied by a systematic erasure of his entire records, up to his very name. The few who remember now call him the Blightminder.\n",
+    "experience_points": 0
+  },
+  "tokenId": "65",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm's Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Favor",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Leeched Devotee",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit's Claim",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Apothecary",
+      "trait_type": "A Knight is Born"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Leeched Devotee",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "An apothecary and former member of the Plague Watch, renown for his tinctures and occult remedies treating a wide breath of malaise.\n\nForgotten are the events related to his fall from grace as it was accompanied by a systematic erasure of his entire records, up to his very name. The few who remember now call him the Blightminder.\n",
+  "external_url": "https://fateofwagdie.com/characters/65",
+  "animation_url": "https://fateofwagdie.com/characters/65/animated"
+}

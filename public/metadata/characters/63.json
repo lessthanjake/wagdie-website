@@ -1,0 +1,94 @@
+{
+  "name": "Molosh the Outcast",
+  "image": "ipfs://bafkreibz43dyll3hbt5ejfl3e2rkz6qnmapm3vpqbftre2g5n3nzxuscqa",
+  "sheet": {
+    "name": "Molosh the Outcast",
+    "level": 15,
+    "origin": "Worm Devotee",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Bandit's Garb"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 13,
+      "strength": 17,
+      "dexterity": 17,
+      "constitution": 27,
+      "intelligence": 15
+    },
+    "hit_points": 88,
+    "tokenIdInt": 63,
+    "background_story": "Molosh the Outcast was deemed unfit for the Worms. Slowly, he burrowed his way into a dark corner of the Earth. There he came in contact with a Hybrid being. In his fear, he called out to the Nameless Serpent. His call was received by the Hybrid. And he took a strange form. Molosh has long plotted in the depths since that moment.",
+    "experience_points": 750
+  },
+  "tokenId": "63",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Wormlord Hybrid",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Wormlord Hybrid",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Wormlord Hybrid",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormlord Hybrid",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Wormlord Hybrid",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wormlord Hybrid",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormlord Hybrid",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Molosh the Outcast was deemed unfit for the Worms. Slowly, he burrowed his way into a dark corner of the Earth. There he came in contact with a Hybrid being. In his fear, he called out to the Nameless Serpent. His call was received by the Hybrid. And he took a strange form. Molosh has long plotted in the depths since that moment.",
+  "external_url": "https://fateofwagdie.com/characters/63",
+  "animation_url": "https://fateofwagdie.com/characters/63/animated"
+}

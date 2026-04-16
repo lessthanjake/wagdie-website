@@ -1,0 +1,94 @@
+{
+  "name": "Dimension Lord Vader",
+  "image": "ipfs://bafkreidiiujeydpaek4k4e6vc3joqtjrijg6t7gzzum7dvxm33c6ivznaa",
+  "sheet": {
+    "name": "Dimension Lord Vader",
+    "level": 1,
+    "origin": "Luta's Lover",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Her Pathetic Waste"
+    },
+    "attributes": {
+      "wisdom": 18,
+      "charisma": 18,
+      "strength": 16,
+      "dexterity": 10,
+      "constitution": 13,
+      "intelligence": 19
+    },
+    "hit_points": 10,
+    "tokenIdInt": 2148,
+    "background_story": "Traveled Through multiple dimensions. Learned the ways of many. Much is not known about me. I myself have lost sight of who I truly once was originally. I've been to this dimension before...Do I have lovers? Children? What relationships were created if any? I must overcome this dimensions like many others and seek out my past here.",
+    "experience_points": 0
+  },
+  "tokenId": "2148",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Pathetic Waste",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Luta's Lover",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Swamp Tassels",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Luta's Lover",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Traveled Through multiple dimensions. Learned the ways of many. Much is not known about me. I myself have lost sight of who I truly once was originally. I've been to this dimension before...Do I have lovers? Children? What relationships were created if any? I must overcome this dimensions like many others and seek out my past here.",
+  "external_url": "https://fateofwagdie.com/characters/2148",
+  "animation_url": "https://fateofwagdie.com/characters/2148/animated"
+}

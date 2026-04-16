@@ -1,0 +1,93 @@
+{
+  "name": "Soveliss Amastacia",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/3014.png",
+  "sheet": {
+    "name": "Soveliss Amastacia",
+    "level": 1,
+    "origin": "Her Hidden Blade",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "Smiling Witness to All",
+      "armor": "Her Zealot's Gear"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 12,
+      "strength": 10,
+      "dexterity": 12,
+      "constitution": 14,
+      "intelligence": 13
+    },
+    "hit_points": 9,
+    "tokenIdInt": 3014,
+    "experience_points": 0
+  },
+  "tokenId": "3014",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Zealot's Gear",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit's Pieces",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Smiling Witness to All",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Her Legionnaire",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Her Ash",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Bonfire",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/3014",
+  "animation_url": "https://fateofwagdie.com/characters/3014/animated"
+}

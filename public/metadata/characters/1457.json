@@ -1,0 +1,94 @@
+{
+  "name": "Santa's Little Stinker",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/1457.png",
+  "sheet": {
+    "name": "Santa's Little Stinker",
+    "level": 1,
+    "origin": "Wormlord Acolyte",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "Her Blessing",
+      "armor": "Young Knight of Logun"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 10,
+      "strength": 13,
+      "dexterity": 9,
+      "constitution": 15,
+      "intelligence": 9
+    },
+    "hit_points": 10,
+    "tokenIdInt": 1457,
+    "background_story": "Somewhere in The Forsaken Lands, there lived a pitiable soul who became known as Santa's Little Stinker.\n\nHe was shunned by all the concords for his pungent and unbearable odor. His presence was a curse, and his name was an ironic jest among those who had to bear his awful stench.\n\nOne dismal Christmas eve, while Stinker sat weeping in the noxious Swamps of Detriti, Santa Claus himself descended from the bleak skies in his magnificent sleigh. \"Ho, ho, ho!\" Santa chuckled heartily, and it seemed as if a glimmer of hope might pierce the darkness. \"Come, Little Stinker, I have a grand adventure in store for you!\"\n\nSanta's sleigh soared high into the night sky, the stars glittering overhead, and Stinker's heart leapt with joy. He couldn't believe his fortune. Not only had he met the real Santa Claus, but he had finally made a friend.\n\nAs they soared through the frigid air, Stinker's stench grew more overpowering by the minute, filling Santa's sleigh with an unbearable stink. \"Oh, dear,\" Santa muttered under his breath, his jolly demeanor fading.\n\nUnable to endure it any longer, Santa turned to Stinker and said, \"I'm afraid this adventure isn't working out as I'd hoped.\" \nWith a swift kick, he sent Santa's Little Stinker plummeting into the fiery lavas of Mount Turlo below, where his fate was sealed.\n\nSanta, free of the noxious odor, continued on his way, leaving behind a trail of laughter that echoed through The Forsaken Lands.\n\n\"MERRY CHRISTMAS, LOST PILGRIM!\"",
+    "experience_points": 0
+  },
+  "tokenId": "1457",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Young Knight of Logun",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Guard's Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Blessing",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Flyling",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Fly",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Lord Grem's Diptera",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Somewhere in The Forsaken Lands, there lived a pitiable soul who became known as Santa's Little Stinker.\n\nHe was shunned by all the concords for his pungent and unbearable odor. His presence was a curse, and his name was an ironic jest among those who had to bear his awful stench.\n\nOne dismal Christmas eve, while Stinker sat weeping in the noxious Swamps of Detriti, Santa Claus himself descended from the bleak skies in his magnificent sleigh. \"Ho, ho, ho!\" Santa chuckled heartily, and it seemed as if a glimmer of hope might pierce the darkness. \"Come, Little Stinker, I have a grand adventure in store for you!\"\n\nSanta's sleigh soared high into the night sky, the stars glittering overhead, and Stinker's heart leapt with joy. He couldn't believe his fortune. Not only had he met the real Santa Claus, but he had finally made a friend.\n\nAs they soared through the frigid air, Stinker's stench grew more overpowering by the minute, filling Santa's sleigh with an unbearable stink. \"Oh, dear,\" Santa muttered under his breath, his jolly demeanor fading.\n\nUnable to endure it any longer, Santa turned to Stinker and said, \"I'm afraid this adventure isn't working out as I'd hoped.\" \nWith a swift kick, he sent Santa's Little Stinker plummeting into the fiery lavas of Mount Turlo below, where his fate was sealed.\n\nSanta, free of the noxious odor, continued on his way, leaving behind a trail of laughter that echoed through The Forsaken Lands.\n\n\"MERRY CHRISTMAS, LOST PILGRIM!\"",
+  "external_url": "https://fateofwagdie.com/characters/1457",
+  "animation_url": "https://fateofwagdie.com/characters/1457/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Kevin (with a Beard)",
+  "image": "ipfs://bafkreia7fzkwfq6ffezfxri4xctp2alogsvu5xx74pdfahbkuv5ha3wwei",
+  "sheet": {
+    "name": "Kevin (with a Beard)",
+    "level": 1,
+    "origin": "Young Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Wisened Touch",
+      "armor": "Punished Shirt"
+    },
+    "attributes": {
+      "wisdom": 8,
+      "charisma": 12,
+      "strength": 15,
+      "dexterity": 12,
+      "constitution": 18,
+      "intelligence": 14
+    },
+    "hit_points": 10,
+    "tokenIdInt": 153,
+    "background_story": "Why did he grow it?\nNobody knows.",
+    "experience_points": 0
+  },
+  "tokenId": "153",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Punished Shirt",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Piltin Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wisened Touch",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Why did he grow it?\nNobody knows.",
+  "external_url": "https://fateofwagdie.com/characters/153",
+  "animation_url": "https://fateofwagdie.com/characters/153/animated"
+}

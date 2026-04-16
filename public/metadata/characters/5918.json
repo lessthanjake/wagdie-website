@@ -1,0 +1,94 @@
+{
+  "name": "Black Swordsman",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/5918.png",
+  "sheet": {
+    "name": "Black Swordsman",
+    "level": 1,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "He Who Does Not See",
+      "armor": "Death Dealer's Choice"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 8,
+      "strength": 10,
+      "dexterity": 14,
+      "constitution": 11,
+      "intelligence": 13
+    },
+    "hit_points": 6,
+    "tokenIdInt": 5918,
+    "background_story": "Renowned as the 'Black Swordsman', he is a former mercenary and branded wanderer who travels the world in a constant internal struggle between pursuing his own ends and upholding his attachments to those dear to him.",
+    "experience_points": 0
+  },
+  "tokenId": "5918",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Death Dealer's Choice",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Piltin Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "He Who Does Not See",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Worm Greatsword",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Renowned as the 'Black Swordsman', he is a former mercenary and branded wanderer who travels the world in a constant internal struggle between pursuing his own ends and upholding his attachments to those dear to him.",
+  "external_url": "https://fateofwagdie.com/characters/5918",
+  "animation_url": "https://fateofwagdie.com/characters/5918/animated"
+}

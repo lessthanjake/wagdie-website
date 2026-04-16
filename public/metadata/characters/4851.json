@@ -1,0 +1,94 @@
+{
+  "name": "???",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/4851.png",
+  "sheet": {
+    "name": "???",
+    "level": 3,
+    "origin": "Her Lover",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Death Smelt Hat",
+      "armor": "Logun's Decree"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 14,
+      "strength": 11,
+      "dexterity": 9,
+      "constitution": 9,
+      "intelligence": 13
+    },
+    "hit_points": 19,
+    "tokenIdInt": 4851,
+    "background_story": "This character has not yet been encountered.\n\n18th Cycle Lore:\nImsh is an orphan of Turlo descent who was raised by a family with connections to The Druids of the Southern Plain. Because of this, she grew up aware of the difference in her lineage from those around her, but had little access to the history of her heritage.\n\nLearning bits and fragments of where she came from and her connections to Yuria and Detriti, she became fascinated with witchcraft and grew quite adept.\n\nWhen the opportunity to discover more about The Furies arose, Imsh did not hesitate and readily pursued Grimlok into Mount Turlo in an effort to learn all she could about where she came from.\n\nSince returning from the adventure, she is feeling grounded and part of something bigger than herself. She has developed a pride in her heritage, and taken a keen interest in the Red Raptors.\n\nAfter friends returned to Stalwart Fortress from The Archmagus Tower, she began experimenting with a Seer's Gem that was discovered there. She quickly realized its potential to enhance her witchcraft, and imbued herself with its powers.",
+    "experience_points": 900
+  },
+  "tokenId": "4851",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Decree",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Body"
+    },
+    {
+      "value": "The One From Below",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Death Smelt Hat",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Witch",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Spark of the Magus",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Seer's Gem",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Seers",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "This character has not yet been encountered.\n\n18th Cycle Lore:\nImsh is an orphan of Turlo descent who was raised by a family with connections to The Druids of the Southern Plain. Because of this, she grew up aware of the difference in her lineage from those around her, but had little access to the history of her heritage.\n\nLearning bits and fragments of where she came from and her connections to Yuria and Detriti, she became fascinated with witchcraft and grew quite adept.\n\nWhen the opportunity to discover more about The Furies arose, Imsh did not hesitate and readily pursued Grimlok into Mount Turlo in an effort to learn all she could about where she came from.\n\nSince returning from the adventure, she is feeling grounded and part of something bigger than herself. She has developed a pride in her heritage, and taken a keen interest in the Red Raptors.\n\nAfter friends returned to Stalwart Fortress from The Archmagus Tower, she began experimenting with a Seer's Gem that was discovered there. She quickly realized its potential to enhance her witchcraft, and imbued herself with its powers.",
+  "external_url": "https://fateofwagdie.com/characters/4851",
+  "animation_url": "https://fateofwagdie.com/characters/4851/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Osmon the Squire",
+  "image": "ipfs://bafkreibrthrhrfm4ak2v2oamzpslwqupgn3zjfibpefcgcte45epenkd7e",
+  "sheet": {
+    "name": "Osmon the Squire",
+    "level": 1,
+    "origin": "Hardened Merchant",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "None",
+      "armor": "Peasant Garb"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 652,
+    "background_story": "In the forsaken lands there lived a young squire named Osmon. He had served his knight, Sir Thomas, with unwavering loyalty and devotion since the day he had become his apprentice. Sir Thomas was a brave and honorable man, and Osmon knew that he was lucky to have such a mentor.\n\nOne fateful day, a group of fanatical acolytes of the Serpent attacked Sir Thomas and his men while they were out on patrol. Despite their best efforts, the acolytes were too strong, and Sir Thomas was killed in the battle.\n\nHeartbroken and lost, Peter set out on a journey across the forsaken lands, determined to avenge his fallen knight and bring justice to those who had wronged him. He traveled from town to town, offering his services as a warrior to anyone who needed it.\n\nAs he journeyed, Peter encountered many dangers and challenges, but he refused to let them stand in his way. He honed his skills with a sword and became a formidable opponent on the battlefield.\n\nYears passed, and Peter's reputation as a skilled warrior and defender of the innocent grew. He became known as the Squire of the Foresaken Lands, and he dedicated his life to protecting the people from those who would do them harm.\n\nDespite the dangers he faced, Peter never forgot the lessons he had learned from Sir Thomas, and he vowed to always uphold the values of honor and justice that his knight had lived by. And so, he continued his journey, always seeking out new opportunities to right wrongs and bring peace to the forsaken lands.",
+    "experience_points": 0
+  },
+  "tokenId": "652",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Peasant Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Straw",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hardened Merchant",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "In the forsaken lands there lived a young squire named Osmon. He had served his knight, Sir Thomas, with unwavering loyalty and devotion since the day he had become his apprentice. Sir Thomas was a brave and honorable man, and Osmon knew that he was lucky to have such a mentor.\n\nOne fateful day, a group of fanatical acolytes of the Serpent attacked Sir Thomas and his men while they were out on patrol. Despite their best efforts, the acolytes were too strong, and Sir Thomas was killed in the battle.\n\nHeartbroken and lost, Peter set out on a journey across the forsaken lands, determined to avenge his fallen knight and bring justice to those who had wronged him. He traveled from town to town, offering his services as a warrior to anyone who needed it.\n\nAs he journeyed, Peter encountered many dangers and challenges, but he refused to let them stand in his way. He honed his skills with a sword and became a formidable opponent on the battlefield.\n\nYears passed, and Peter's reputation as a skilled warrior and defender of the innocent grew. He became known as the Squire of the Foresaken Lands, and he dedicated his life to protecting the people from those who would do them harm.\n\nDespite the dangers he faced, Peter never forgot the lessons he had learned from Sir Thomas, and he vowed to always uphold the values of honor and justice that his knight had lived by. And so, he continued his journey, always seeking out new opportunities to right wrongs and bring peace to the forsaken lands.",
+  "external_url": "https://fateofwagdie.com/characters/652",
+  "animation_url": "https://fateofwagdie.com/characters/652/animated"
+}

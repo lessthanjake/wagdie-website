@@ -1,0 +1,94 @@
+{
+  "name": " Crogiolarsi al Sole",
+  "image": "ipfs://bafkreib57n7vjbf6apd7jlntcvxjzgss2lnft5hfbv5l43oaz4koccytf4",
+  "sheet": {
+    "name": " Crogiolarsi al Sole",
+    "level": 1,
+    "origin": "Wormkin Elite",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "He Who Does Not See",
+      "armor": "Journeyman Tunic"
+    },
+    "attributes": {
+      "wisdom": 5,
+      "charisma": 5,
+      "strength": 30,
+      "dexterity": 15,
+      "constitution": 30,
+      "intelligence": 5
+    },
+    "hit_points": 30,
+    "tokenIdInt": 5731,
+    "background_story": "I fight for one purpose: to bask in Her Glorious Light. ",
+    "experience_points": 10
+  },
+  "tokenId": "5731",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Journeyman Tunic",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "He Who Does Not See",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "I fight for one purpose: to bask in Her Glorious Light. ",
+  "external_url": "https://fateofwagdie.com/characters/5731",
+  "animation_url": "https://fateofwagdie.com/characters/5731/animated"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Nedda Tealeaf",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/4143.png",
+  "sheet": {
+    "name": "Nedda Tealeaf",
+    "level": 1,
+    "origin": "Wormkin Elite",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Yuria's Power"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 11,
+      "strength": 10,
+      "dexterity": 9,
+      "constitution": 8,
+      "intelligence": 7
+    },
+    "hit_points": 7,
+    "tokenIdInt": 4143,
+    "experience_points": 0
+  },
+  "tokenId": "4143",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Yuria's Power",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Uirian Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Warrior's Adornment",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Raptor's Tooth",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Furies",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/4143",
+  "animation_url": "https://fateofwagdie.com/characters/4143/animated"
+}

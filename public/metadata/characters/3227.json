@@ -1,0 +1,93 @@
+{
+  "name": "Aryae the Apostate",
+  "image": "ipfs://bafkreihlvm7hjdrmeab5fllqa3jfi44eim3jqjc2deihkw3gw5rovxbgfy",
+  "sheet": {
+    "name": "Aryae the Apostate",
+    "level": 1,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Worm God's Blessing",
+      "mask": "Her Censure",
+      "armor": "Detritus Mail"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 30,
+      "strength": 30,
+      "dexterity": 30,
+      "constitution": 30,
+      "intelligence": 30
+    },
+    "hit_points": 30,
+    "tokenIdInt": 3227,
+    "experience_points": 0
+  },
+  "tokenId": "3227",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Detritus Mail",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Worm God's Blessing",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Censure",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/3227",
+  "animation_url": "https://fateofwagdie.com/characters/3227/animated"
+}

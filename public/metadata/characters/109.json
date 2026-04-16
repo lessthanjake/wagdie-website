@@ -1,0 +1,81 @@
+{
+  "name": "Elizabeth of the Coven of Detriti",
+  "image": "ipfs://bafkreiahu7354oth3lvpdyra4t2p3f64oqr26utlwrzo3qz3lvszi7qzx4",
+  "sheet": {
+    "name": "Elizabeth of the Coven of Detriti",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 109,
+    "experience_points": 0
+  },
+  "tokenId": "109",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Altered",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Swamp Witch Curse",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Seal of the Righteous",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Swamp Witch Curse",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/109",
+  "animation_url": "https://fateofwagdie.com/characters/109/animated"
+}

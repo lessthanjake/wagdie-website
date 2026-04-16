@@ -1,0 +1,94 @@
+{
+  "name": "Khajerm The Slaughter",
+  "image": "ipfs://bafkreigyysqovpjhlxwcha2xqlowikucep64owonopgfs7saev2qg6t464",
+  "sheet": {
+    "name": "Khajerm The Slaughter",
+    "level": 1,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Death Dealer's Helm",
+      "armor": "Her Devotion"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 12,
+      "strength": 17,
+      "dexterity": 10,
+      "constitution": 16,
+      "intelligence": 13
+    },
+    "hit_points": 11,
+    "tokenIdInt": 4677,
+    "background_story": "Khajerm comes from a small nomadic tribe that was often forced to battle for its survival. \n\nAfter a lifetime of combat against zealots and landkeepers, Khajerm grew adept with a sword and enjoyed the spoils of his victory - assembling his armor from pieces claimed from his victims.\n\nHe now only finds joy in violence and awaits any opportunity to fight, sometimes manufacturing excuses to do so when there are none.",
+    "experience_points": 0
+  },
+  "tokenId": "4677",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Devotion",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Death Dealer's Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Khajerm comes from a small nomadic tribe that was often forced to battle for its survival. \n\nAfter a lifetime of combat against zealots and landkeepers, Khajerm grew adept with a sword and enjoyed the spoils of his victory - assembling his armor from pieces claimed from his victims.\n\nHe now only finds joy in violence and awaits any opportunity to fight, sometimes manufacturing excuses to do so when there are none.",
+  "external_url": "https://fateofwagdie.com/characters/4677",
+  "animation_url": "https://fateofwagdie.com/characters/4677/animated"
+}

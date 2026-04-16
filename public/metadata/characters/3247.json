@@ -1,0 +1,94 @@
+{
+  "name": "Vlarlot Givzidi",
+  "image": "ipfs://bafkreig24eovaxglpo7ts5vee6m46thco4qiq3a4dj3udyk2ausccui22q",
+  "sheet": {
+    "name": "Vlarlot Givzidi",
+    "level": 1,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Verite Protection"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 10,
+      "strength": 14,
+      "dexterity": 17,
+      "constitution": 15,
+      "intelligence": 11
+    },
+    "hit_points": 9,
+    "tokenIdInt": 3247,
+    "background_story": "Vladimir has been feeding of the corpses of crocodiles for years! This all changed when  he fell inlove with crocks (the shoes) he now has an olive garden. \n",
+    "experience_points": 0
+  },
+  "tokenId": "3247",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Verite Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Envious Locks",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Vladimir has been feeding of the corpses of crocodiles for years! This all changed when  he fell inlove with crocks (the shoes) he now has an olive garden. \n",
+  "external_url": "https://fateofwagdie.com/characters/3247",
+  "animation_url": "https://fateofwagdie.com/characters/3247/animated"
+}

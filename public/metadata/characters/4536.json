@@ -1,0 +1,94 @@
+{
+  "name": "King Arthur ",
+  "image": "ipfs://bafkreig5bfvg6b5gf537k75yb6yz626wq66ylbbifngptaaudc2wg2zd5q",
+  "sheet": {
+    "name": "King Arthur ",
+    "level": 18,
+    "origin": "Seeker of Piat",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Fool's Crown",
+      "armor": "Bandit's Garb"
+    },
+    "attributes": {
+      "wisdom": 26,
+      "charisma": 19,
+      "strength": 19,
+      "dexterity": 25,
+      "constitution": 20,
+      "intelligence": 23
+    },
+    "hit_points": 83,
+    "tokenIdInt": 4536,
+    "background_story": "This old wise king has no kingdom to rule no more… he was once a power monarch but time doesn’t forgive no one. The magic in Excalibur keeps him alive. His friends and family are long gone but Dead is still avoiding him. Maybe one day he shall Rest In Peace ",
+    "experience_points": 2310
+  },
+  "tokenId": "4536",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Bandit's Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit's Claim",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Fool's Crown",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "This old wise king has no kingdom to rule no more… he was once a power monarch but time doesn’t forgive no one. The magic in Excalibur keeps him alive. His friends and family are long gone but Dead is still avoiding him. Maybe one day he shall Rest In Peace ",
+  "external_url": "https://fateofwagdie.com/characters/4536",
+  "animation_url": "https://fateofwagdie.com/characters/4536/animated"
+}

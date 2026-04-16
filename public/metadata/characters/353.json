@@ -1,0 +1,94 @@
+{
+  "name": "ℌ𝔢 𝔴𝔥𝔬 𝔭𝔯𝔞𝔶𝔰 𝔱𝔬 𝔰𝔥𝔢 𝔴𝔥𝔬 𝔰𝔪𝔦𝔩𝔢𝔰",
+  "image": "ipfs://bafkreibhfy7r5hse63xb4zr4plk5dgxe26rg7yuoswuu6xmbsz44pbik34",
+  "sheet": {
+    "name": "ℌ𝔢 𝔴𝔥𝔬 𝔭𝔯𝔞𝔶𝔰 𝔱𝔬 𝔰𝔥𝔢 𝔴𝔥𝔬 𝔰𝔪𝔦𝔩𝔢𝔰",
+    "level": 1,
+    "origin": "Astorian Adventurer",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "Her Blessing",
+      "armor": "Punished Shirt"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 353,
+    "background_story": "They talked for hours, until the sun began to set. As they parted ways, he realized that he had found a kindred spirit, someone who understood his pain and his longing. And he knew that from that day forward, he would come to the park not just for the scenery, but for her smile.",
+    "experience_points": 0
+  },
+  "tokenId": "353",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Punished Shirt",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Envious Locks",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Blessing",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "They talked for hours, until the sun began to set. As they parted ways, he realized that he had found a kindred spirit, someone who understood his pain and his longing. And he knew that from that day forward, he would come to the park not just for the scenery, but for her smile.",
+  "external_url": "https://fateofwagdie.com/characters/353",
+  "animation_url": "https://fateofwagdie.com/characters/353/animated"
+}

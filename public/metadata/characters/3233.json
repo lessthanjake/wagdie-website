@@ -1,0 +1,82 @@
+{
+  "name": "Thrail ",
+  "image": "ipfs://bafkreibod4647ywhklmpt3p74bwxa7v5c7yoe2f6sgvvkk462ofipz4ve4",
+  "sheet": {
+    "name": "Thrail ",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Wormlord Guard",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 8,
+      "charisma": 20,
+      "strength": 8,
+      "dexterity": 7,
+      "constitution": 19,
+      "intelligence": 13
+    },
+    "hit_points": 50,
+    "tokenIdInt": 3233,
+    "background_story": "For as long as the Wormlord Guard existed, Thrail has always served as its warden, tasked with transporting threats, traitors, and enemies within its own ranks to the Yawning Pits. \n\nInexorable in his pursuit of those condemned in the eyes of the Nameless One, Thrail is widely feared within the Wormlord Guard, as he often threatens anyone impeding him with the same fate as his intended targets.\n\nThrail can astral teleport, allowing him to ferry back objects and entities with whom he has physical contact with, at great cost to himself. Using it over the course of cycles has corroded his physical body, only intensifying his abominable visage. \n\n\"𝔗𝔬 𝔱𝔯𝔢𝔞𝔠𝔥𝔢𝔯𝔶 𝔥𝔢 𝔱𝔲𝔯𝔫𝔢𝔡, 𝔦𝔫 𝔰𝔲𝔣𝔣𝔢𝔯𝔦𝔫𝔤 𝔥𝔢 𝔴𝔦𝔩𝔩 𝔯𝔢𝔪𝔞𝔦𝔫. 𝔅𝔯𝔢𝔞𝔨 𝔬𝔲𝔯 𝔴𝔞𝔶𝔰 𝔞𝔫𝔡 𝔬𝔫𝔩𝔶 𝔱𝔥𝔢 𝔭𝔦𝔱𝔰 𝔴𝔦𝔩𝔩 𝔴𝔢𝔩𝔠𝔬𝔪𝔢 𝔶𝔬𝔲. 𝔚𝔦𝔩𝔩 𝔶𝔬𝔲 𝔩𝔢𝔱 𝔥𝔦𝔪 𝔤𝔬... 𝔬𝔯 𝔴𝔦𝔩𝔩 𝔶𝔬𝔲 𝔠𝔥𝔞𝔩𝔩𝔢𝔫𝔤𝔢 𝔱𝔥𝔢 𝔖𝔢𝔯𝔭𝔢𝔫𝔱 𝔞𝔫𝔡 𝔯𝔦𝔰𝔨 𝔰𝔥𝔞𝔯𝔦𝔫𝔤 𝔥𝔦𝔰 𝔣𝔞𝔱𝔢?”",
+    "experience_points": 0
+  },
+  "tokenId": "3233",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Fallen Worshipper",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Wormlord Guard",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Fallen Worshipper",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "For as long as the Wormlord Guard existed, Thrail has always served as its warden, tasked with transporting threats, traitors, and enemies within its own ranks to the Yawning Pits. \n\nInexorable in his pursuit of those condemned in the eyes of the Nameless One, Thrail is widely feared within the Wormlord Guard, as he often threatens anyone impeding him with the same fate as his intended targets.\n\nThrail can astral teleport, allowing him to ferry back objects and entities with whom he has physical contact with, at great cost to himself. Using it over the course of cycles has corroded his physical body, only intensifying his abominable visage. \n\n\"𝔗𝔬 𝔱𝔯𝔢𝔞𝔠𝔥𝔢𝔯𝔶 𝔥𝔢 𝔱𝔲𝔯𝔫𝔢𝔡, 𝔦𝔫 𝔰𝔲𝔣𝔣𝔢𝔯𝔦𝔫𝔤 𝔥𝔢 𝔴𝔦𝔩𝔩 𝔯𝔢𝔪𝔞𝔦𝔫. 𝔅𝔯𝔢𝔞𝔨 𝔬𝔲𝔯 𝔴𝔞𝔶𝔰 𝔞𝔫𝔡 𝔬𝔫𝔩𝔶 𝔱𝔥𝔢 𝔭𝔦𝔱𝔰 𝔴𝔦𝔩𝔩 𝔴𝔢𝔩𝔠𝔬𝔪𝔢 𝔶𝔬𝔲. 𝔚𝔦𝔩𝔩 𝔶𝔬𝔲 𝔩𝔢𝔱 𝔥𝔦𝔪 𝔤𝔬... 𝔬𝔯 𝔴𝔦𝔩𝔩 𝔶𝔬𝔲 𝔠𝔥𝔞𝔩𝔩𝔢𝔫𝔤𝔢 𝔱𝔥𝔢 𝔖𝔢𝔯𝔭𝔢𝔫𝔱 𝔞𝔫𝔡 𝔯𝔦𝔰𝔨 𝔰𝔥𝔞𝔯𝔦𝔫𝔤 𝔥𝔦𝔰 𝔣𝔞𝔱𝔢?”",
+  "external_url": "https://fateofwagdie.com/characters/3233",
+  "animation_url": "https://fateofwagdie.com/characters/3233/animated"
+}

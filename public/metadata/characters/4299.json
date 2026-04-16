@@ -1,0 +1,94 @@
+{
+  "name": "Necromancer Aidenmir",
+  "image": "ipfs://bafkreidvy2zslxem7oofi3xvfkfl42g4pspbmjnhxnxbmuqhkecaycngq4",
+  "sheet": {
+    "name": "Necromancer Aidenmir",
+    "level": 1,
+    "origin": "Naive Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "The Stranger's Mark",
+      "armor": "Peasant Garb"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 14,
+      "strength": 8,
+      "dexterity": 9,
+      "constitution": 7,
+      "intelligence": 17
+    },
+    "hit_points": 8,
+    "tokenIdInt": 4299,
+    "background_story": "Aidenmir is a young and ambitious necromancer who seeks to gain immense power through a powerful ritual that requires several rare and exotic components found only in The Primordial Lands. He has hired Elizabeth and Taurus to protect him on this perilous journey.\n\nAidenmir is cautious and calculating, but also impulsive when it comes to achieving his goals. He is willing to take risks to see his plans come to fruition, but relies heavily on companions for their strength and expertise.\n\nAs they travel closer to The Primordial Lands, Aidenmir knows that the risks will only increase.",
+    "experience_points": 0
+  },
+  "tokenId": "4299",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Peasant Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Noxian Tint",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "The Stranger's Mark",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Necromancer",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Aidenmir is a young and ambitious necromancer who seeks to gain immense power through a powerful ritual that requires several rare and exotic components found only in The Primordial Lands. He has hired Elizabeth and Taurus to protect him on this perilous journey.\n\nAidenmir is cautious and calculating, but also impulsive when it comes to achieving his goals. He is willing to take risks to see his plans come to fruition, but relies heavily on companions for their strength and expertise.\n\nAs they travel closer to The Primordial Lands, Aidenmir knows that the risks will only increase.",
+  "external_url": "https://fateofwagdie.com/characters/4299",
+  "animation_url": "https://fateofwagdie.com/characters/4299/animated"
+}

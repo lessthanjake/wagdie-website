@@ -1,0 +1,94 @@
+{
+  "name": "Did you hear that fucking trumpet?",
+  "image": "ipfs://bafkreiduykccpeplb2aab2phvblsd24eqkronhnflttqfv2reatvqh3t7y",
+  "sheet": {
+    "name": "Did you hear that fucking trumpet?",
+    "level": 1,
+    "origin": "Hole Protector",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "Yorn's Sadness",
+      "armor": "Her Zealot's Gear"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 9,
+      "strength": 11,
+      "dexterity": 13,
+      "constitution": 8,
+      "intelligence": 11
+    },
+    "hit_points": 7,
+    "tokenIdInt": 4471,
+    "background_story": "Survivor of the first battle.\nDid you hear that fucking trumpet, brennen?",
+    "experience_points": 0
+  },
+  "tokenId": "4471",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Zealot's Gear",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Yorn's Sadness",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Survivor of the first battle.\nDid you hear that fucking trumpet, brennen?",
+  "external_url": "https://fateofwagdie.com/characters/4471",
+  "animation_url": "https://fateofwagdie.com/characters/4471/animated"
+}

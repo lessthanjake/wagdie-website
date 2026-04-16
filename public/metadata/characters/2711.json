@@ -1,0 +1,94 @@
+{
+  "name": "Iran Fast",
+  "image": "ipfs://bafkreidjzt6hxukcbxfyabxva2zzeyo7a3ilwgmwlczfhtddtzkzmftx4i",
+  "sheet": {
+    "name": "Iran Fast",
+    "level": 6,
+    "origin": "Her Hidden Blade",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "None",
+      "armor": "Apostle of the Waste"
+    },
+    "attributes": {
+      "wisdom": 6,
+      "charisma": 6,
+      "strength": 6,
+      "dexterity": 6,
+      "constitution": 6,
+      "intelligence": 6
+    },
+    "hit_points": 6,
+    "tokenIdInt": 2711,
+    "background_story": "Iran and Iran and Iran as fast as I could",
+    "experience_points": 6
+  },
+  "tokenId": "2711",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Apostle of the Waste",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Iran and Iran and Iran as fast as I could",
+  "external_url": "https://fateofwagdie.com/characters/2711",
+  "animation_url": "https://fateofwagdie.com/characters/2711/animated"
+}

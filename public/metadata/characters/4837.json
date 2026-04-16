@@ -1,0 +1,94 @@
+{
+  "name": "Tom",
+  "image": "ipfs://bafkreicwjapktxppbkfajfpjxrvetp66wvjzelbn6dpkjvfv3zekk6k774",
+  "sheet": {
+    "name": "Tom",
+    "level": 4,
+    "origin": "Wormkin Elite",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Tunic of Yore"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 14,
+      "strength": 12,
+      "dexterity": 15,
+      "constitution": 15,
+      "intelligence": 10
+    },
+    "hit_points": 8,
+    "tokenIdInt": 4837,
+    "background_story": "Tom wants to be a boy",
+    "experience_points": 30
+  },
+  "tokenId": "4837",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Tunic of Yore",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Naive Blonde Pilgrim's Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Tom wants to be a boy",
+  "external_url": "https://fateofwagdie.com/characters/4837",
+  "animation_url": "https://fateofwagdie.com/characters/4837/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Grim Talon",
+  "image": "ipfs://bafkreig5ovyqy7plxbti45am5gut4e2v37wha7rv4k3dpjoucfk7yurtlq",
+  "sheet": {
+    "name": "Grim Talon",
+    "level": 1,
+    "origin": "Galy Veetus the Aged",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Darkblade's Beak",
+      "armor": "Luta's Full Weight"
+    },
+    "attributes": {
+      "wisdom": 3,
+      "charisma": 2,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 1,
+    "tokenIdInt": 1308,
+    "background_story": "Silent prowler, eyes keen from within the shadows. Secretly whispering into the silent void.",
+    "experience_points": 0
+  },
+  "tokenId": "1308",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Luta's Full Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Galy Veetus the Aged",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Her Page",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Darkblade's Beak",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Galy Veetus the Aged",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Silent prowler, eyes keen from within the shadows. Secretly whispering into the silent void.",
+  "external_url": "https://fateofwagdie.com/characters/1308",
+  "animation_url": "https://fateofwagdie.com/characters/1308/animated"
+}

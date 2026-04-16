@@ -1,0 +1,82 @@
+{
+  "name": "Nixix The Noxium Dagger",
+  "image": "ipfs://bafkreif67usun3aqhqjgck3nkbmtmj75asqoupwsm77ksrhjybsn7pem4m",
+  "sheet": {
+    "name": "Nixix The Noxium Dagger",
+    "level": 2,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Noxium Death Dealer",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 10,
+      "strength": 13,
+      "dexterity": 14,
+      "constitution": 15,
+      "intelligence": 10
+    },
+    "hit_points": 9,
+    "tokenIdInt": 6280,
+    "background_story": "Nixix's misdeeds are notorious even in Noxium, his work with his victims could be considered a work of art.  \n\nHe usually wears a black cloak that allows him to keep his daggers and his own constitution, many of his opponents have discovered too late, terrified, that their opponent was a decrepit.\n\nNixix's actions have no pattern and to this day no one knows his true intentions. \n\nThe fall of Detriti pushed Nixix to come out of the shadows and fight for a burning cause that was growing inside him. DEATH TO AGORA.\n\nThe battle is over and The Bulwark of the Serpent has won. Nixix has finished his purpose and returns to the shadows. \n\nOnce again, Nixix emerges from the shadows to fight alongside Detriti, proclaiming death to Agora and death to the living.\n\nNixix defended the ritual and paid the ultimate price.",
+    "experience_points": 30
+  },
+  "tokenId": "6280",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Yearn",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Swamp Witch Disciple",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Noxium Death Dealer",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Swamp Witch Disciple",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Nixix's misdeeds are notorious even in Noxium, his work with his victims could be considered a work of art.  \n\nHe usually wears a black cloak that allows him to keep his daggers and his own constitution, many of his opponents have discovered too late, terrified, that their opponent was a decrepit.\n\nNixix's actions have no pattern and to this day no one knows his true intentions. \n\nThe fall of Detriti pushed Nixix to come out of the shadows and fight for a burning cause that was growing inside him. DEATH TO AGORA.\n\nThe battle is over and The Bulwark of the Serpent has won. Nixix has finished his purpose and returns to the shadows. \n\nOnce again, Nixix emerges from the shadows to fight alongside Detriti, proclaiming death to Agora and death to the living.\n\nNixix defended the ritual and paid the ultimate price.",
+  "external_url": "https://fateofwagdie.com/characters/6280",
+  "animation_url": "https://fateofwagdie.com/characters/6280/animated"
+}

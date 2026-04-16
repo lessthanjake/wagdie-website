@@ -1,0 +1,94 @@
+{
+  "name": "Doom Sayer",
+  "image": "ipfs://bafkreid747ipzy46mrpsaem3jxhjen7j3zsmvux4cn3qd6dpyvskvsk32e",
+  "sheet": {
+    "name": "Doom Sayer",
+    "level": 5,
+    "origin": "Astorian Adventurer",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Favor in Light",
+      "mask": "Noxium Death Cage",
+      "armor": "Luta's Full Weight"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 14,
+      "strength": 16,
+      "dexterity": 16,
+      "constitution": 18,
+      "intelligence": 14
+    },
+    "hit_points": 9,
+    "tokenIdInt": 3470,
+    "background_story": "They say Mr Sayer is a mute with a gifted tongue.\n\n\n",
+    "experience_points": 0
+  },
+  "tokenId": "3470",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Luta's Full Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Favor in Light",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Noxium Death Cage",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "They say Mr Sayer is a mute with a gifted tongue.\n\n\n",
+  "external_url": "https://fateofwagdie.com/characters/3470",
+  "animation_url": "https://fateofwagdie.com/characters/3470/animated"
+}

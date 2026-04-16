@@ -1,0 +1,94 @@
+{
+  "name": "The Hand of the Vøid",
+  "image": "ipfs://bafkreihxk45tec4aot4rdw4bh2c7eg5l64isjvi7ghmsqlc5x4bdx4lumm",
+  "sheet": {
+    "name": "The Hand of the Vøid",
+    "level": 1,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "Her Blessing",
+      "armor": "Worm's Protection"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 15,
+      "strength": 10,
+      "dexterity": 9,
+      "constitution": 16,
+      "intelligence": 13
+    },
+    "hit_points": 5,
+    "tokenIdInt": 5242,
+    "background_story": "The power of the Vøid was too significant to ignore. Searching for the Jesters wand to ascend was always the prime directive of the mission but along the way this changed.\n\nBuried deep in the black sand, a helmet with 6 eyes was uncovered.  All around it there was armour and weapons. Rusted and destroyed but no bones. It gave off a certain shimmer. You could not see the shimmer directly, but it existed on the periphery of vision. Placed upon the head the voices began. whispers began to grow into shouts. The voices multiplied. \n\n\"Leave the this mortal coil. The entry fee can only be paid in blood. Cast aside you identity, become one with the void\"\n\nHe removed the mask and set it down.\n\nHe drew his dagger and cut his finger. Letting the blood drops fall upon the mask. Nothing.....\n\nHe placed his hand down and with one large chop, cut off his small finger and placed within the mask. Nothing......\n\nIt was obvious that these offerings were too small. He reasoned with himself to stop as it could all just be a elaborate prank, however something compelled him to push further.\n\nHe rest his left hand down on the rock and lifted a rusty axe that was laying around. Raised above his head in one fluid motion, the axe came down like a guillotine and severed the hand.\n\nThe offering was satisfactory . The portal opened. He was now The Hand of the Vøid.\n",
+    "experience_points": 0
+  },
+  "tokenId": "5242",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm's Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zaban Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Blessing",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The power of the Vøid was too significant to ignore. Searching for the Jesters wand to ascend was always the prime directive of the mission but along the way this changed.\n\nBuried deep in the black sand, a helmet with 6 eyes was uncovered.  All around it there was armour and weapons. Rusted and destroyed but no bones. It gave off a certain shimmer. You could not see the shimmer directly, but it existed on the periphery of vision. Placed upon the head the voices began. whispers began to grow into shouts. The voices multiplied. \n\n\"Leave the this mortal coil. The entry fee can only be paid in blood. Cast aside you identity, become one with the void\"\n\nHe removed the mask and set it down.\n\nHe drew his dagger and cut his finger. Letting the blood drops fall upon the mask. Nothing.....\n\nHe placed his hand down and with one large chop, cut off his small finger and placed within the mask. Nothing......\n\nIt was obvious that these offerings were too small. He reasoned with himself to stop as it could all just be a elaborate prank, however something compelled him to push further.\n\nHe rest his left hand down on the rock and lifted a rusty axe that was laying around. Raised above his head in one fluid motion, the axe came down like a guillotine and severed the hand.\n\nThe offering was satisfactory . The portal opened. He was now The Hand of the Vøid.\n",
+  "external_url": "https://fateofwagdie.com/characters/5242",
+  "animation_url": "https://fateofwagdie.com/characters/5242/animated"
+}

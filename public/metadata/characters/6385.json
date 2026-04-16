@@ -1,0 +1,94 @@
+{
+  "name": "Grimm (Royal Assassin)",
+  "image": "ipfs://bafkreif4zkzdzzunnflic5ovda2j57n55r7yukr3x5ccovk6fc3f27xqle",
+  "sheet": {
+    "name": "Grimm (Royal Assassin)",
+    "level": 1,
+    "origin": "Wormkin Elite",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "Darkblade's Beak",
+      "armor": "Pilgrim's Chain"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 6,
+      "strength": 12,
+      "dexterity": 18,
+      "constitution": 11,
+      "intelligence": 10
+    },
+    "hit_points": 8,
+    "tokenIdInt": 6385,
+    "background_story": "An assassin once sent to murder King Offling within the walls of Stalwart Fortress, was thwarted by Lady Fielding, and spared his execution in exchange for an uneasy alliance and employment as Offling's Royal Assassin.\n\nWhile he is content with the pay he receives, he routinely plots to overthrow King Offling and the Concord of Research.",
+    "experience_points": 0
+  },
+  "tokenId": "6385",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Darkness",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Darkblade's Beak",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "An assassin once sent to murder King Offling within the walls of Stalwart Fortress, was thwarted by Lady Fielding, and spared his execution in exchange for an uneasy alliance and employment as Offling's Royal Assassin.\n\nWhile he is content with the pay he receives, he routinely plots to overthrow King Offling and the Concord of Research.",
+  "external_url": "https://fateofwagdie.com/characters/6385",
+  "animation_url": "https://fateofwagdie.com/characters/6385/animated"
+}

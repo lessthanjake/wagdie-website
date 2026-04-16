@@ -1,0 +1,94 @@
+{
+  "name": "Jon Snow",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/3137.png",
+  "sheet": {
+    "name": "Jon Snow",
+    "level": 1,
+    "origin": "Foolish Jester",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Crow Lord's Blessing"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 11,
+      "strength": 11,
+      "dexterity": 14,
+      "constitution": 15,
+      "intelligence": 12
+    },
+    "hit_points": 10,
+    "tokenIdInt": 3137,
+    "background_story": "Knows nothing.",
+    "experience_points": 0
+  },
+  "tokenId": "3137",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Crow Lord's Blessing",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Vaulted",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Pilgrim's Style",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Bastard Sword",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Knows nothing.",
+  "external_url": "https://fateofwagdie.com/characters/3137",
+  "animation_url": "https://fateofwagdie.com/characters/3137/animated"
+}

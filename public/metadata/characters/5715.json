@@ -1,0 +1,93 @@
+{
+  "name": "Tordek Frostbeard",
+  "image": "ipfs://bafkreih5zh5gc3flxgk7p6fit5sio5arobctectpdxvi7npw5cyehknsym",
+  "sheet": {
+    "name": "Tordek Frostbeard",
+    "level": 1,
+    "origin": "Her Hidden Blade",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "The Devotee's Mark",
+      "armor": "Healer's Dress"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 13,
+      "strength": 13,
+      "dexterity": 11,
+      "constitution": 5,
+      "intelligence": 9
+    },
+    "hit_points": 4,
+    "tokenIdInt": 5715,
+    "experience_points": 80
+  },
+  "tokenId": "5715",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Healer's Dress",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "The Devotee's Mark",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/5715",
+  "animation_url": "https://fateofwagdie.com/characters/5715/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "ℭ𝔯𝔢𝔰𝔠𝔢𝔫𝔱𝔦𝔲𝔰 ℭ𝔦𝔫𝔠𝔦𝔫𝔫𝔞𝔱𝔲𝔰",
+  "image": "ipfs://bafkreif7oxtbsg2lpot6x4mwrl5allndyiawvpcn5ai7t24icc4gicrhhi",
+  "sheet": {
+    "name": "ℭ𝔯𝔢𝔰𝔠𝔢𝔫𝔱𝔦𝔲𝔰 ℭ𝔦𝔫𝔠𝔦𝔫𝔫𝔞𝔱𝔲𝔰",
+    "level": 1,
+    "origin": "Astorian Adventurer",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "None",
+      "armor": "Bandit's Garb"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 11,
+      "strength": 12,
+      "dexterity": 13,
+      "constitution": 12,
+      "intelligence": 13
+    },
+    "hit_points": 9,
+    "tokenIdInt": 1608,
+    "background_story": "ℭ𝔯𝔢𝔰𝔠𝔢𝔫𝔱𝔦𝔲𝔰 ℭ𝔦𝔫𝔠𝔦𝔫𝔫𝔞𝔱𝔲𝔰, fifth of his name, hails from Astorian lands.\n\nSkilled thief but  no slouch in battle, once slayed a swamp witch after a long hard fought battle.\n\nHas been known to attract the ladies who are drawn to his silver locks.",
+    "experience_points": 0
+  },
+  "tokenId": "1608",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Bandit's Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Envious Locks",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "ℭ𝔯𝔢𝔰𝔠𝔢𝔫𝔱𝔦𝔲𝔰 ℭ𝔦𝔫𝔠𝔦𝔫𝔫𝔞𝔱𝔲𝔰, fifth of his name, hails from Astorian lands.\n\nSkilled thief but  no slouch in battle, once slayed a swamp witch after a long hard fought battle.\n\nHas been known to attract the ladies who are drawn to his silver locks.",
+  "external_url": "https://fateofwagdie.com/characters/1608",
+  "animation_url": "https://fateofwagdie.com/characters/1608/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Tommy",
+  "image": "ipfs://bafkreiawhk57yd4unnw6jtf5hdegdwiz73edojvcmmxhc5e5lo2titqwli",
+  "sheet": {
+    "name": "Tommy",
+    "level": 1,
+    "origin": "Foolish Jester",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "None",
+      "armor": "Apostle Tunic"
+    },
+    "attributes": {
+      "wisdom": 7,
+      "charisma": 10,
+      "strength": 14,
+      "dexterity": 15,
+      "constitution": 9,
+      "intelligence": 15
+    },
+    "hit_points": 7,
+    "tokenIdInt": 764,
+    "background_story": "Tommy is actually a 7-year-old boy who is wearing a fake beard and his father's padded tunic.",
+    "experience_points": 0
+  },
+  "tokenId": "764",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Apostle Tunic",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit's Claim",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Tommy is actually a 7-year-old boy who is wearing a fake beard and his father's padded tunic.",
+  "external_url": "https://fateofwagdie.com/characters/764",
+  "animation_url": "https://fateofwagdie.com/characters/764/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Scaldinous Visage",
+  "image": "ipfs://bafkreicy52rfwnnvckwqav6bfyynyezyebf6vh5njytkrvwqpprz2logqu",
+  "sheet": {
+    "name": "Scaldinous Visage",
+    "level": 4,
+    "origin": "Logun Disciple",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Sibor's Brace",
+      "armor": "Worm's Protection"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 14,
+      "strength": 5,
+      "dexterity": 9,
+      "constitution": 10,
+      "intelligence": 12
+    },
+    "hit_points": 7,
+    "tokenIdInt": 4836,
+    "background_story": "Oof",
+    "experience_points": 30
+  },
+  "tokenId": "4836",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm's Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Guard's Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Sibor's Brace",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Oof",
+  "external_url": "https://fateofwagdie.com/characters/4836",
+  "animation_url": "https://fateofwagdie.com/characters/4836/animated"
+}

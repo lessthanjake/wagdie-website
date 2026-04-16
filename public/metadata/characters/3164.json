@@ -1,0 +1,94 @@
+{
+  "name": "Horrut",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/3164.png",
+  "sheet": {
+    "name": "Horrut",
+    "level": 2,
+    "origin": "Seeker of Piat",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Removal's Kin",
+      "armor": "Verite Supports"
+    },
+    "attributes": {
+      "wisdom": 9,
+      "charisma": 9,
+      "strength": 8,
+      "dexterity": 16,
+      "constitution": 16,
+      "intelligence": 13
+    },
+    "hit_points": 10,
+    "tokenIdInt": 3164,
+    "background_story": "A group of thugs raided his parents' camp and after murdering everyone they took him and other children as slaves. As soon as possible he was sold as a servant to another group of thugs from which he freed himself by poisoning all the members while they slept. Since then he has wandered the world killing to survive and considering death as his daily bread.\nHe has a nasty fixation for getting blood on himself and doesn't like secrets.",
+    "experience_points": 0
+  },
+  "tokenId": "3164",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Verite Supports",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Removal's Kin",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Burrow Parasite",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Burrow Worm",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Wormkin",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A group of thugs raided his parents' camp and after murdering everyone they took him and other children as slaves. As soon as possible he was sold as a servant to another group of thugs from which he freed himself by poisoning all the members while they slept. Since then he has wandered the world killing to survive and considering death as his daily bread.\nHe has a nasty fixation for getting blood on himself and doesn't like secrets.",
+  "external_url": "https://fateofwagdie.com/characters/3164",
+  "animation_url": "https://fateofwagdie.com/characters/3164/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Loki",
+  "image": "ipfs://bafkreidlmzcxc2hhvhshomzl64ofx37bfhbv53kuwpzb7flyd37dknvb7u",
+  "sheet": {
+    "name": "Loki",
+    "level": 18,
+    "origin": "Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "None",
+      "armor": "Noxian Jester Garb"
+    },
+    "attributes": {
+      "wisdom": 24,
+      "charisma": 18,
+      "strength": 11,
+      "dexterity": 15,
+      "constitution": 8,
+      "intelligence": 24
+    },
+    "hit_points": 88,
+    "tokenIdInt": 3729,
+    "background_story": "Shapeshifter, master of disguise and illusions, always lurking in graveyards and dark alleys. Obsessed with noxium and deadly snakes.\n\n",
+    "experience_points": 420
+  },
+  "tokenId": "3729",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Noxian Jester Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "More Envious Locks",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Shapeshifter, master of disguise and illusions, always lurking in graveyards and dark alleys. Obsessed with noxium and deadly snakes.\n\n",
+  "external_url": "https://fateofwagdie.com/characters/3729",
+  "animation_url": "https://fateofwagdie.com/characters/3729/animated"
+}

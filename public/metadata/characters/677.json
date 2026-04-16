@@ -1,0 +1,94 @@
+{
+  "name": "Josiah Isekai",
+  "image": "ipfs://bafkreiczqtoggyz7f4cat6zq5t73llo2hebir4wewoyncpss2byoafcn4q",
+  "sheet": {
+    "name": "Josiah Isekai",
+    "level": 1,
+    "origin": "Naive Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "Thorgod's Symbol",
+      "armor": "Strange Cloth Cloak"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 15,
+      "strength": 6,
+      "dexterity": 15,
+      "constitution": 9,
+      "intelligence": 17
+    },
+    "hit_points": 4,
+    "tokenIdInt": 677,
+    "background_story": "Said to have transported into The Forsaken Lands from a realm far away, the myth of Josiah Isekai speaks of his unnatural knowledge and unconventional thinking.\n\nThe design of his strange cloak is recognized as uncommon within the lands, and gives some credence to his claims.\n\nHe was beckoned to The Desolate Wastes by The Merchant of Venom, who promised a portal beneath the sands that would take him to another world. Hoping it would lead him back to his home, he followed, and found himself in the Wildlands of forgotten runes.\n\nHis journey forward continues as he explores this strange new world, seeking the means to make his way back to the reality he once knew.\n\nThere's no telling what awaits him, or where his next leap to another realm may come.",
+    "experience_points": 0
+  },
+  "tokenId": "677",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Strange Cloth Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Pilgrim's Touch",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Thorgod's Symbol",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Said to have transported into The Forsaken Lands from a realm far away, the myth of Josiah Isekai speaks of his unnatural knowledge and unconventional thinking.\n\nThe design of his strange cloak is recognized as uncommon within the lands, and gives some credence to his claims.\n\nHe was beckoned to The Desolate Wastes by The Merchant of Venom, who promised a portal beneath the sands that would take him to another world. Hoping it would lead him back to his home, he followed, and found himself in the Wildlands of forgotten runes.\n\nHis journey forward continues as he explores this strange new world, seeking the means to make his way back to the reality he once knew.\n\nThere's no telling what awaits him, or where his next leap to another realm may come.",
+  "external_url": "https://fateofwagdie.com/characters/677",
+  "animation_url": "https://fateofwagdie.com/characters/677/animated"
+}

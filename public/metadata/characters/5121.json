@@ -1,0 +1,94 @@
+{
+  "name": "Galy Veetus the 5th",
+  "image": "ipfs://bafkreidnmt5pfzgupawlpo2uf5untftcijsnmt47nfhsnwlxbxvtexpui4",
+  "sheet": {
+    "name": "Galy Veetus the 5th",
+    "level": 1,
+    "origin": "Galy Veetus the Aged",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Pilgrim's Plain Chain"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 13,
+      "strength": 14,
+      "dexterity": 8,
+      "constitution": 13,
+      "intelligence": 16
+    },
+    "hit_points": 8,
+    "tokenIdInt": 5121,
+    "background_story": "Galy and his family migrated to the Stalwart Fortress from the Kingdom the Yore before the Primordial Era. He lived with his eight kin in a small cottage alongside the kingdom's outskirts before relocating to the fortress.",
+    "experience_points": 0
+  },
+  "tokenId": "5121",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Plain Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Galy Veetus the Aged",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Galy Veetus the Aged",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Galy and his family migrated to the Stalwart Fortress from the Kingdom the Yore before the Primordial Era. He lived with his eight kin in a small cottage alongside the kingdom's outskirts before relocating to the fortress.",
+  "external_url": "https://fateofwagdie.com/characters/5121",
+  "animation_url": "https://fateofwagdie.com/characters/5121/animated"
+}

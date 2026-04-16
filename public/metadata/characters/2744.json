@@ -1,0 +1,94 @@
+{
+  "name": "Shui",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/2744.png",
+  "sheet": {
+    "name": "Shui",
+    "level": 1,
+    "origin": "Her Hidden Blade",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "None",
+      "armor": "Verite Supports"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 15,
+      "strength": 12,
+      "dexterity": 14,
+      "constitution": 15,
+      "intelligence": 13
+    },
+    "hit_points": 9,
+    "tokenIdInt": 2744,
+    "background_story": "\nShui was a timid and cowardly knight who lived during the  19th cycle. He was known for his fearfulness and his tendency to flee at the first sign of danger. Despite his cowardice, he was a skilled swordsman and often found himself in situations that required him to face his fears. Despite his best efforts, he was often unable to overcome his fear and would retreat in the face of danger. Despite this, he was well-liked by his fellow knights and was known for his quick travels to the tavern for a drink ",
+    "experience_points": 0
+  },
+  "tokenId": "2744",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Verite Supports",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Vaulted",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Feeble Spikes",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Hag's Staff",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Witches' Brush",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Coven of Detriti",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "\nShui was a timid and cowardly knight who lived during the  19th cycle. He was known for his fearfulness and his tendency to flee at the first sign of danger. Despite his cowardice, he was a skilled swordsman and often found himself in situations that required him to face his fears. Despite his best efforts, he was often unable to overcome his fear and would retreat in the face of danger. Despite this, he was well-liked by his fellow knights and was known for his quick travels to the tavern for a drink ",
+  "external_url": "https://fateofwagdie.com/characters/2744",
+  "animation_url": "https://fateofwagdie.com/characters/2744/animated"
+}

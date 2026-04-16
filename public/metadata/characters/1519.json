@@ -1,0 +1,94 @@
+{
+  "name": "Artist formally known as Moby",
+  "image": "ipfs://bafkreicgipfts7dcwmz7smrwfu467e7bdttiea3ea4naxoyy2vcidmincq",
+  "sheet": {
+    "name": "Artist formally known as Moby",
+    "level": 1,
+    "origin": "Journeyman",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "None",
+      "armor": "Healer's Dress"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 14,
+      "strength": 30,
+      "dexterity": 8,
+      "constitution": 5,
+      "intelligence": 17
+    },
+    "hit_points": 100,
+    "tokenIdInt": 1519,
+    "background_story": "Moby is a vegan. That means he won't eat anything that comes from animals (eggs, cheese, milk, etc).\nWhen he couldn't get his songs on the radio, he started licensing them for commercials to get them exposure. His album Play is the first to have every song used in commercials. The ads gave the album a huge boost in sales.\nHis real name is Richard Melville Hall.\nHe is the great-great-great grandnephew of Herman Melville, who wrote Moby Dick. That is how he chose the name Moby.\nMoby is a born-again Christian. He doesn't drink alcohol.\nCreated the Area: One tour featuring different styles of music made up of bands he likes, including Incubus, Outkast, and Nelly Furtado. He kept the ticket prices down by working with sponsors, which he was good at from licensing his songs in commercials.\nHis prize posession is a drawing of Homer Simpson's head signed by Matt Groening, the creator of The Simpsons. >>\nHe used to be in a thrash punk band called the Vatican Commandos. >>\nMoby is yet another artist to demand concert promoters to buy him underwear, as his tour rider notes.\nMoby grew up an only child to a single mother after his father died in a drink-driving accident when he was two years old.\nHis mother died of cancer, in 1998, a year before Moby's hit album Play was released. He recalled to NME in 2018 how a night of heavy drinking left him hungover and too incapacitated to attend her funeral: \"Unsurprisingly, I'm sober now,\" Moby said. \"It's clearly a sign that things aren't working out when you sleep through your mom's funeral.\"\nMoby used to own Marlon Brando's old house, an eight-bedroom replica of a Norman castle dubbed Wolf's Lair. Built in 1927 for Milton Wolf, a Hollywood developer and art director, it has also been inhabited by Debbie Reynolds and The Beatles.",
+    "experience_points": 1
+  },
+  "tokenId": "1519",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Healer's Dress",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Altered",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Moby is a vegan. That means he won't eat anything that comes from animals (eggs, cheese, milk, etc).\nWhen he couldn't get his songs on the radio, he started licensing them for commercials to get them exposure. His album Play is the first to have every song used in commercials. The ads gave the album a huge boost in sales.\nHis real name is Richard Melville Hall.\nHe is the great-great-great grandnephew of Herman Melville, who wrote Moby Dick. That is how he chose the name Moby.\nMoby is a born-again Christian. He doesn't drink alcohol.\nCreated the Area: One tour featuring different styles of music made up of bands he likes, including Incubus, Outkast, and Nelly Furtado. He kept the ticket prices down by working with sponsors, which he was good at from licensing his songs in commercials.\nHis prize posession is a drawing of Homer Simpson's head signed by Matt Groening, the creator of The Simpsons. >>\nHe used to be in a thrash punk band called the Vatican Commandos. >>\nMoby is yet another artist to demand concert promoters to buy him underwear, as his tour rider notes.\nMoby grew up an only child to a single mother after his father died in a drink-driving accident when he was two years old.\nHis mother died of cancer, in 1998, a year before Moby's hit album Play was released. He recalled to NME in 2018 how a night of heavy drinking left him hungover and too incapacitated to attend her funeral: \"Unsurprisingly, I'm sober now,\" Moby said. \"It's clearly a sign that things aren't working out when you sleep through your mom's funeral.\"\nMoby used to own Marlon Brando's old house, an eight-bedroom replica of a Norman castle dubbed Wolf's Lair. Built in 1927 for Milton Wolf, a Hollywood developer and art director, it has also been inhabited by Debbie Reynolds and The Beatles.",
+  "external_url": "https://fateofwagdie.com/characters/1519",
+  "animation_url": "https://fateofwagdie.com/characters/1519/animated"
+}

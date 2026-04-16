@@ -1,0 +1,78 @@
+{
+  "name": "The Lost Red Guard",
+  "image": "ipfs://bafkreida5u2sl7hix3c6m2vwtd7xaxidrecxxoydrcigbsom5bi26bqjlu",
+  "sheet": {
+    "name": "The Lost Red Guard",
+    "level": 1,
+    "origin": "The Lost Red Guard",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 14,
+      "strength": 11,
+      "dexterity": 11,
+      "constitution": 16,
+      "intelligence": 12
+    },
+    "hit_points": 9,
+    "tokenIdInt": 33,
+    "background_story": "The Lost Red Guard donned his armor in service of Yorn during Wars of Her Light. Their strength was said to have been granted by Mother Agora herself. Their armor withstanding the strongest flames and the most devastating blows.\n\nAt the end of the War, their hunger for battle became a nuisance for the Kingdom of Enlightenment. The scholars of the Libraries turned their gaze upwards towards Her Light and away from the base morality of the Forsaken Lands.\n\nThe Red Guard was disbanded, their souls crushed and consumed by Yorn's angels. Where their flesh was destroyed, the blessed armored retained its shape.\n\nOver time it was recovered by those roaming the Forsaken Lands in the area surrounding Yorn's Hole.",
+    "experience_points": 0
+  },
+  "tokenId": "33",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "The Lost Red Guard",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Lost Traveler",
+      "trait_type": "Portal of Grem"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "The Lost Red Guard",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The Lost Red Guard donned his armor in service of Yorn during Wars of Her Light. Their strength was said to have been granted by Mother Agora herself. Their armor withstanding the strongest flames and the most devastating blows.\n\nAt the end of the War, their hunger for battle became a nuisance for the Kingdom of Enlightenment. The scholars of the Libraries turned their gaze upwards towards Her Light and away from the base morality of the Forsaken Lands.\n\nThe Red Guard was disbanded, their souls crushed and consumed by Yorn's angels. Where their flesh was destroyed, the blessed armored retained its shape.\n\nOver time it was recovered by those roaming the Forsaken Lands in the area surrounding Yorn's Hole.",
+  "external_url": "https://fateofwagdie.com/characters/33",
+  "animation_url": "https://fateofwagdie.com/characters/33/animated"
+}

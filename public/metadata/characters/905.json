@@ -1,0 +1,94 @@
+{
+  "name": "Daskil ",
+  "image": "ipfs://bafkreibzo6dwlrumqrufjghht3idhkuvitfz2beifdshd6fylczo5f52tu",
+  "sheet": {
+    "name": "Daskil ",
+    "level": 1,
+    "origin": "Wormkin Elite",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Favor in Light",
+      "mask": "Trapped One",
+      "armor": "Tunic of Yore"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 13,
+      "strength": 13,
+      "dexterity": 6,
+      "constitution": 15,
+      "intelligence": 15
+    },
+    "hit_points": 7,
+    "tokenIdInt": 905,
+    "background_story": "As the final battle nears, a silent Valkyrie descends from the sky, determined to halt the ritual that defies the gods themselves.",
+    "experience_points": 0
+  },
+  "tokenId": "905",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Tunic of Yore",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Favor in Light",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Trapped One",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Necromancer",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "As the final battle nears, a silent Valkyrie descends from the sky, determined to halt the ritual that defies the gods themselves.",
+  "external_url": "https://fateofwagdie.com/characters/905",
+  "animation_url": "https://fateofwagdie.com/characters/905/animated"
+}

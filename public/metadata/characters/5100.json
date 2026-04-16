@@ -1,0 +1,94 @@
+{
+  "name": "Viaxus of Nox",
+  "image": "ipfs://bafkreiffgqiusjnhy4yepbf4m4sqyrysv2myb2wrsvbwpeyvuj6zkmdghq",
+  "sheet": {
+    "name": "Viaxus of Nox",
+    "level": 1,
+    "origin": "Zolian Worm",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "None",
+      "armor": "Worm's Protection"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 13,
+      "strength": 12,
+      "dexterity": 16,
+      "constitution": 15,
+      "intelligence": 16
+    },
+    "hit_points": 9,
+    "tokenIdInt": 5100,
+    "background_story": "Approached Wolf’s party during the Festival Tournament, reasons unknown. \n\nInterests: Grand Jester & The Worm.",
+    "experience_points": 0
+  },
+  "tokenId": "5100",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm's Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Approached Wolf’s party during the Festival Tournament, reasons unknown. \n\nInterests: Grand Jester & The Worm.",
+  "external_url": "https://fateofwagdie.com/characters/5100",
+  "animation_url": "https://fateofwagdie.com/characters/5100/animated"
+}

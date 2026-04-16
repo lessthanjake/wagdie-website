@@ -1,0 +1,55 @@
+{
+  "name": "We are All Going to Die #2358",
+  "image": "ipfs://bafkreig3z7lizpzped56joj5wjpexqbdom65t4wdf3v4mgx7m3xmzodutu",
+  "tokenId": "2358",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Convert of the Swamp Witch",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Convert of the Swamp Witch",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/2358",
+  "animation_url": "https://fateofwagdie.com/characters/2358/animated"
+}

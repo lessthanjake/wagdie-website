@@ -1,0 +1,94 @@
+{
+  "name": "Elara",
+  "image": "ipfs://bafkreihpjkpg6m3ruee2n4kv22qsn37ou2cmi4cp3y5epf22h462fi2pue",
+  "sheet": {
+    "name": "Elara",
+    "level": 1,
+    "origin": "Her Lover",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Turlo Tunic"
+    },
+    "attributes": {
+      "wisdom": 1,
+      "charisma": 5,
+      "strength": 2,
+      "dexterity": 7,
+      "constitution": 6,
+      "intelligence": 2
+    },
+    "hit_points": 4,
+    "tokenIdInt": 1269,
+    "background_story": "Wait… how’d I get here?!!",
+    "experience_points": 30
+  },
+  "tokenId": "1269",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Turlo Tunic",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Piltin Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Wait… how’d I get here?!!",
+  "external_url": "https://fateofwagdie.com/characters/1269",
+  "animation_url": "https://fateofwagdie.com/characters/1269/animated"
+}

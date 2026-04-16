@@ -1,0 +1,94 @@
+{
+  "name": "King's Cousin",
+  "image": "ipfs://bafkreihhqvucuy7kw6io6tc6wbbvs45eb3sgpbqxmf7gdujwv3j5cfyzsy",
+  "sheet": {
+    "name": "King's Cousin",
+    "level": 1,
+    "origin": "Nameless Adventurer",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Garolin Tunic"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 5646,
+    "background_story": "King's Cousin is full of glee! King appears to be lost in the Void! Has King's Cousin's time finally arrived to take the throne! King's Cousin has made endless sinister attempts in the past, such as trying to steal at The Encampment of Her, hiring an assassin to attend Violet and Wraynman's wedding, and getting stolen spices.  Has his time finally come? He is entering The Tournament in hopes of winning it all, including the throne.",
+    "experience_points": 0
+  },
+  "tokenId": "5646",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Garolin Tunic",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Yearn",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Nameless Adventurer",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit's Claim",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Nameless Adventurer",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "King's Cousin is full of glee! King appears to be lost in the Void! Has King's Cousin's time finally arrived to take the throne! King's Cousin has made endless sinister attempts in the past, such as trying to steal at The Encampment of Her, hiring an assassin to attend Violet and Wraynman's wedding, and getting stolen spices.  Has his time finally come? He is entering The Tournament in hopes of winning it all, including the throne.",
+  "external_url": "https://fateofwagdie.com/characters/5646",
+  "animation_url": "https://fateofwagdie.com/characters/5646/animated"
+}

@@ -1,0 +1,93 @@
+{
+  "name": "Godwin",
+  "image": "ipfs://bafkreihbeylabzrkugpkzjrp7hjgafs7mvjqfomfcphkzqtlwvpimqwb4y",
+  "sheet": {
+    "name": "Godwin",
+    "level": 1,
+    "origin": "Transformed Devotee",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Sibor's Brace",
+      "armor": "The Wisened"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 17,
+      "strength": 11,
+      "dexterity": 16,
+      "constitution": 9,
+      "intelligence": 10
+    },
+    "hit_points": 7,
+    "tokenIdInt": 1041,
+    "experience_points": 0
+  },
+  "tokenId": "1041",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "The Wisened",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Transformed Devotee",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Aqi Knot",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Sibor's Brace",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Transformed Devotee",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/1041",
+  "animation_url": "https://fateofwagdie.com/characters/1041/animated"
+}

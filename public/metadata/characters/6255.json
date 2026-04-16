@@ -1,0 +1,94 @@
+{
+  "name": "Yung Serf",
+  "image": "ipfs://bafkreigasvursfuopg27d4afa7t63dpfptgf3pfqdztanbawtkbghvynkq",
+  "sheet": {
+    "name": "Yung Serf",
+    "level": 20,
+    "origin": "Zolian Worm",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "An Ancient Device",
+      "armor": "Punished Shirt"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 30,
+      "strength": 30,
+      "dexterity": 30,
+      "constitution": 30,
+      "intelligence": 30
+    },
+    "hit_points": 69,
+    "tokenIdInt": 6255,
+    "background_story": "𝔅𝔬𝔬𝔨 𝔬𝔣 𝔊𝔬𝔯𝔯\n𝔖𝔢𝔯𝔣𝔰 𝔘𝔭",
+    "experience_points": 420
+  },
+  "tokenId": "6255",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Punished Shirt",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Gorlong Mane",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "An Ancient Device",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "𝔅𝔬𝔬𝔨 𝔬𝔣 𝔊𝔬𝔯𝔯\n𝔖𝔢𝔯𝔣𝔰 𝔘𝔭",
+  "external_url": "https://fateofwagdie.com/characters/6255",
+  "animation_url": "https://fateofwagdie.com/characters/6255/animated"
+}

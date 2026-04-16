@@ -1,0 +1,93 @@
+{
+  "name": "Antinua Amakiir",
+  "image": "ipfs://bafkreic4iylmuajiz5ekxahyrfy7av77kov6jkwlatpjxc7ho63r5izu7u",
+  "sheet": {
+    "name": "Antinua Amakiir",
+    "level": 1,
+    "origin": "Pilgrim",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Bandit's Garb"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 14,
+      "strength": 16,
+      "dexterity": 15,
+      "constitution": 8,
+      "intelligence": 9
+    },
+    "hit_points": 5,
+    "tokenIdInt": 1381,
+    "experience_points": 0
+  },
+  "tokenId": "1381",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Bandit's Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim",
+      "trait_type": "Body"
+    },
+    {
+      "value": "More Envious Locks",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/1381",
+  "animation_url": "https://fateofwagdie.com/characters/1381/animated"
+}

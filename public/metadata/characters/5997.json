@@ -1,0 +1,94 @@
+{
+  "name": "Corian Praxl",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/5997.png",
+  "sheet": {
+    "name": "Corian Praxl",
+    "level": 1,
+    "origin": "Astorian Adventurer",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Fool's Crown",
+      "armor": "Logun's Descent"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 9,
+      "strength": 14,
+      "dexterity": 7,
+      "constitution": 15,
+      "intelligence": 10
+    },
+    "hit_points": 7,
+    "tokenIdInt": 5997,
+    "background_story": "Corian, the second youngest, is an intelligent scholar. \n\nWell versed in histories and sciences. There is not a topic he is unfamiliar with. \nHighly regarded amongst fellow scholars, and known for his brilliance. \n\nHe functions as Covington’s advisor in diplomatic matters, working closely with his mother Susan. \n\nUnlike his brother Nathanyel, Corian strays from the public eye, preferring to advise the Kingdom from behind the scenes, while living a more private life. \n",
+    "experience_points": 0
+  },
+  "tokenId": "5997",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Descent",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Swamp Tassels",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Fool's Crown",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Stalwart Encyclopedia",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Field Notes",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Stalwart Researcher",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Corian, the second youngest, is an intelligent scholar. \n\nWell versed in histories and sciences. There is not a topic he is unfamiliar with. \nHighly regarded amongst fellow scholars, and known for his brilliance. \n\nHe functions as Covington’s advisor in diplomatic matters, working closely with his mother Susan. \n\nUnlike his brother Nathanyel, Corian strays from the public eye, preferring to advise the Kingdom from behind the scenes, while living a more private life. \n",
+  "external_url": "https://fateofwagdie.com/characters/5997",
+  "animation_url": "https://fateofwagdie.com/characters/5997/animated"
+}

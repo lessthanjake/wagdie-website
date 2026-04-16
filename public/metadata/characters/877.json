@@ -1,0 +1,94 @@
+{
+  "name": "Thazar-De",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/877.png",
+  "sheet": {
+    "name": "Thazar-De",
+    "level": 1,
+    "origin": "Leeched Devotee",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "Noxium Death Cage",
+      "armor": "Her Imprint"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 15,
+      "strength": 10,
+      "dexterity": 9,
+      "constitution": 13,
+      "intelligence": 13
+    },
+    "hit_points": 3,
+    "tokenIdInt": 877,
+    "background_story": "Thazar-De, also known as Thaz, was a ruthless assassin who traveled the forsaken lands, carrying out murders for hire. He was feared and reviled by many, for his cold-blooded nature and his willingness to kill anyone for the right price.\n\nDespite his reputation, Thaz took pride in only accepting contracts on those he deemed deserving of death. He saw himself as a sort of vigilante, ridding the world of its worst scum. He was particularly active during the holiday season, as there seemed to be an abundance of \"bad people\" in need of his services.\n\nThaz was a master of stealth and deception, and could slip in and out of a target's stronghold without leaving a trace. He was also a skilled fighter, able to dispense with multiple opponents with ease.\n\nAs the years passed, Thaz's list of victims grew longer and longer, and he became one of the most feared men in the forsaken lands. But he cared little for his reputation, as long as he was able to rid the world of those he saw as a threat to society.\n\nEventually, Thaz's luck ran out, and he was caught by the authorities. But even as he faced trial and imprisonment, he remained unrepentant, convinced that he had done the world a service by eliminating those who sought to do harm.\n\nTo this day, Thaz's legend lives on, as a cautionary tale of the dangers of crossing the path of a ruthless assassin",
+    "experience_points": 0
+  },
+  "tokenId": "877",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Imprint",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Leeched Devotee",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Noxium Death Cage",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Leeched Devotee",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Worm Greatsword",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Thazar-De, also known as Thaz, was a ruthless assassin who traveled the forsaken lands, carrying out murders for hire. He was feared and reviled by many, for his cold-blooded nature and his willingness to kill anyone for the right price.\n\nDespite his reputation, Thaz took pride in only accepting contracts on those he deemed deserving of death. He saw himself as a sort of vigilante, ridding the world of its worst scum. He was particularly active during the holiday season, as there seemed to be an abundance of \"bad people\" in need of his services.\n\nThaz was a master of stealth and deception, and could slip in and out of a target's stronghold without leaving a trace. He was also a skilled fighter, able to dispense with multiple opponents with ease.\n\nAs the years passed, Thaz's list of victims grew longer and longer, and he became one of the most feared men in the forsaken lands. But he cared little for his reputation, as long as he was able to rid the world of those he saw as a threat to society.\n\nEventually, Thaz's luck ran out, and he was caught by the authorities. But even as he faced trial and imprisonment, he remained unrepentant, convinced that he had done the world a service by eliminating those who sought to do harm.\n\nTo this day, Thaz's legend lives on, as a cautionary tale of the dangers of crossing the path of a ruthless assassin",
+  "external_url": "https://fateofwagdie.com/characters/877",
+  "animation_url": "https://fateofwagdie.com/characters/877/animated"
+}

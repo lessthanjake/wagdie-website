@@ -1,0 +1,94 @@
+{
+  "name": "We are All Going to Die #3373",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/3373.png",
+  "sheet": {
+    "name": "",
+    "level": 20,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Darkblade's Beak",
+      "armor": "Garolin Tunic"
+    },
+    "attributes": {
+      "wisdom": 19,
+      "charisma": 2,
+      "strength": 16,
+      "dexterity": 16,
+      "constitution": 11,
+      "intelligence": 19
+    },
+    "hit_points": 100,
+    "tokenIdInt": 3373,
+    "background_story": "Hunted by mystic premonitions, Mercurio masters the lost arts of poisons, antidotes and aphrodisiacs.\n\n",
+    "experience_points": 388
+  },
+  "tokenId": "3373",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Garolin Tunic",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Darkblade's Beak",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Talon's Edge",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Fetid Crow's Talon",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Darkblade",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Hunted by mystic premonitions, Mercurio masters the lost arts of poisons, antidotes and aphrodisiacs.\n\n",
+  "external_url": "https://fateofwagdie.com/characters/3373",
+  "animation_url": "https://fateofwagdie.com/characters/3373/animated"
+}

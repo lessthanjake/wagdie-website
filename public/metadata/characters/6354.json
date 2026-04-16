@@ -1,0 +1,94 @@
+{
+  "name": "𝕄𝕠𝕠𝕟ℍ𝕦𝕟𝕥𝕖𝕣",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/6354.png",
+  "sheet": {
+    "name": "𝕄𝕠𝕠𝕟ℍ𝕦𝕟𝕥𝕖𝕣",
+    "level": 1,
+    "origin": "Zolian Worm",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "Her Silence",
+      "armor": "Her Imprint"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 16,
+      "strength": 12,
+      "dexterity": 10,
+      "constitution": 8,
+      "intelligence": 12
+    },
+    "hit_points": 5,
+    "tokenIdInt": 6354,
+    "background_story": "ℍ𝕚𝕤 𝕙𝕦𝕟𝕥𝕚𝕟𝕘 𝕝𝕠𝕕𝕘𝕖 𝕚𝕤 𝕕𝕖𝕔𝕠𝕣𝕒𝕥𝕖𝕕 𝕨𝕚𝕥𝕙 𝕨𝕠𝕝𝕗 𝕡𝕖𝕝𝕥𝕤 𝕒𝕟𝕕 𝕒 𝕤𝕥𝕠𝕝𝕖𝕟 𝔸𝕂-𝟜𝟟 𝕙𝕒𝕟𝕘𝕤 𝕠𝕧𝕖𝕣 𝕥𝕙𝕖 𝕗𝕚𝕣𝕖𝕡𝕝𝕒𝕔𝕖.",
+    "experience_points": 0
+  },
+  "tokenId": "6354",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Imprint",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Pilgrim's Style",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Silence",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Ancient's Automaton",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Mimic Tablet",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Druids of His Shame",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "ℍ𝕚𝕤 𝕙𝕦𝕟𝕥𝕚𝕟𝕘 𝕝𝕠𝕕𝕘𝕖 𝕚𝕤 𝕕𝕖𝕔𝕠𝕣𝕒𝕥𝕖𝕕 𝕨𝕚𝕥𝕙 𝕨𝕠𝕝𝕗 𝕡𝕖𝕝𝕥𝕤 𝕒𝕟𝕕 𝕒 𝕤𝕥𝕠𝕝𝕖𝕟 𝔸𝕂-𝟜𝟟 𝕙𝕒𝕟𝕘𝕤 𝕠𝕧𝕖𝕣 𝕥𝕙𝕖 𝕗𝕚𝕣𝕖𝕡𝕝𝕒𝕔𝕖.",
+  "external_url": "https://fateofwagdie.com/characters/6354",
+  "animation_url": "https://fateofwagdie.com/characters/6354/animated"
+}

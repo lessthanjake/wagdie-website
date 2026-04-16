@@ -1,0 +1,94 @@
+{
+  "name": "The White King",
+  "image": "ipfs://bafkreihkpaoroh27iphoboouape4ofijmayaaowm3qhyuulpmsee5uksbm",
+  "sheet": {
+    "name": "The White King",
+    "level": 1,
+    "origin": "Hole Protector",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Goddess of Vision",
+      "armor": "Death Stroker Doublet"
+    },
+    "attributes": {
+      "wisdom": 3,
+      "charisma": 8,
+      "strength": 16,
+      "dexterity": 12,
+      "constitution": 14,
+      "intelligence": 4
+    },
+    "hit_points": 44,
+    "tokenIdInt": 4319,
+    "background_story": "The largest of the three Visigor Brothers, founders of the Black Market of Yore, Limik operates as a brutish and deranged enforcer, his massive physicality enhancing his prowess for violence.  \n\nIt has long been rumored that his older siblings deliberately deprived him of basic instruction for fear of what a man of his proportions could achieve with a learned mind.  His pallid skin and large breadth earned him the moniker, \"The White King\". \n\nIn the 18th cycle, Limik ventured into the Putrid Forest alongside his brothers, where they encountered Axan. After a brief altercation, the duo fled assuming their third brother had been killed earlier. \n\n\"𝔒𝔫 𝔱𝔥𝔢 𝔩𝔢𝔣𝔱 𝔰𝔱𝔬𝔬𝔡 𝔱𝔥𝔢 𝔚𝔥𝔦𝔱𝔢 𝔎𝔦𝔫𝔤. 𝔄𝔫 𝔞𝔳𝔞𝔩𝔞𝔫𝔠𝔥𝔢 𝔬𝔣 𝔡𝔢𝔰𝔱𝔯𝔲𝔠𝔱𝔦𝔬𝔫. 𝔚𝔬𝔯𝔡𝔰 𝔴𝔢𝔯𝔢 𝔩𝔬𝔰𝔱 𝔬𝔫 𝔥𝔦𝔪, 𝔣𝔬𝔯 𝔥𝔦𝔰 𝔱𝔯𝔲𝔢 𝔩𝔞𝔫𝔤𝔲𝔞𝔤𝔢 𝔴𝔞𝔰 𝔴𝔯𝔦𝔱𝔱𝔢𝔫 𝔦𝔫 𝔟𝔯𝔬𝔨𝔢𝔫 𝔟𝔬𝔫𝔢𝔰 𝔞𝔫𝔡 𝔰𝔥𝔞𝔱𝔱𝔢𝔯𝔢𝔡 𝔥𝔢𝔩𝔪𝔰.\"\n\nWatch Limik here: \n\nhttps://www.youtube.com/watch?v=ww2qKpvewkc&t=125s\n\n\n ",
+    "experience_points": 0
+  },
+  "tokenId": "4319",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Death Stroker Doublet",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Earth Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Goddess of Vision",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The largest of the three Visigor Brothers, founders of the Black Market of Yore, Limik operates as a brutish and deranged enforcer, his massive physicality enhancing his prowess for violence.  \n\nIt has long been rumored that his older siblings deliberately deprived him of basic instruction for fear of what a man of his proportions could achieve with a learned mind.  His pallid skin and large breadth earned him the moniker, \"The White King\". \n\nIn the 18th cycle, Limik ventured into the Putrid Forest alongside his brothers, where they encountered Axan. After a brief altercation, the duo fled assuming their third brother had been killed earlier. \n\n\"𝔒𝔫 𝔱𝔥𝔢 𝔩𝔢𝔣𝔱 𝔰𝔱𝔬𝔬𝔡 𝔱𝔥𝔢 𝔚𝔥𝔦𝔱𝔢 𝔎𝔦𝔫𝔤. 𝔄𝔫 𝔞𝔳𝔞𝔩𝔞𝔫𝔠𝔥𝔢 𝔬𝔣 𝔡𝔢𝔰𝔱𝔯𝔲𝔠𝔱𝔦𝔬𝔫. 𝔚𝔬𝔯𝔡𝔰 𝔴𝔢𝔯𝔢 𝔩𝔬𝔰𝔱 𝔬𝔫 𝔥𝔦𝔪, 𝔣𝔬𝔯 𝔥𝔦𝔰 𝔱𝔯𝔲𝔢 𝔩𝔞𝔫𝔤𝔲𝔞𝔤𝔢 𝔴𝔞𝔰 𝔴𝔯𝔦𝔱𝔱𝔢𝔫 𝔦𝔫 𝔟𝔯𝔬𝔨𝔢𝔫 𝔟𝔬𝔫𝔢𝔰 𝔞𝔫𝔡 𝔰𝔥𝔞𝔱𝔱𝔢𝔯𝔢𝔡 𝔥𝔢𝔩𝔪𝔰.\"\n\nWatch Limik here: \n\nhttps://www.youtube.com/watch?v=ww2qKpvewkc&t=125s\n\n\n ",
+  "external_url": "https://fateofwagdie.com/characters/4319",
+  "animation_url": "https://fateofwagdie.com/characters/4319/animated"
+}

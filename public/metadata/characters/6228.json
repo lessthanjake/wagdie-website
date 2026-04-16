@@ -1,0 +1,94 @@
+{
+  "name": "Mozre Dee",
+  "image": "ipfs://bafkreigv7t2kp4t7jyfqmmz22b6t4z5x65ar2yvczepliisdaqznc7ixau",
+  "sheet": {
+    "name": "Mozre Dee",
+    "level": 4,
+    "origin": "Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "An Ancient Device",
+      "armor": "Swamp Traveler Cloak"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 11,
+      "strength": 12,
+      "dexterity": 18,
+      "constitution": 14,
+      "intelligence": 13
+    },
+    "hit_points": 21,
+    "tokenIdInt": 6228,
+    "background_story": "Mozre Dee was raised in a travelling contingent of the once-great Tinkerers' Consortia. While establishing markets in the Artificers' Sanctum years ago, a horrific malfunction caused the sudden death of almost everyone in the company. The cause was thought to be an explosive release of the energies harnessed from the strange technological wastes in The Wound.\n\nOnce worn as adornment, Mozre Dee's mask came to life on the day of the explosion. The language displaying through the visor is unintelligible, but she is able to intuit many creatures intentions and vulnerabilities through its alerts.\n\nMozre Dee survived alongside fellow guildman, Kuto the Strange. They travelled together but the silence of those they had lost was unbearable on the road, so they set up the Welcome Strange Inn as a place to rest.\n\nBetween respites at the Inn to take care of rescued beasts, Mozre Dee continues to travel. She's driven by a desire understand her mask and use its blessing to aid creatures left on the roadside, and keep up the work of the Tinkerer's Consortia.",
+    "experience_points": 0
+  },
+  "tokenId": "6228",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Swamp Traveler Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Golden Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "An Ancient Device",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Mozre Dee was raised in a travelling contingent of the once-great Tinkerers' Consortia. While establishing markets in the Artificers' Sanctum years ago, a horrific malfunction caused the sudden death of almost everyone in the company. The cause was thought to be an explosive release of the energies harnessed from the strange technological wastes in The Wound.\n\nOnce worn as adornment, Mozre Dee's mask came to life on the day of the explosion. The language displaying through the visor is unintelligible, but she is able to intuit many creatures intentions and vulnerabilities through its alerts.\n\nMozre Dee survived alongside fellow guildman, Kuto the Strange. They travelled together but the silence of those they had lost was unbearable on the road, so they set up the Welcome Strange Inn as a place to rest.\n\nBetween respites at the Inn to take care of rescued beasts, Mozre Dee continues to travel. She's driven by a desire understand her mask and use its blessing to aid creatures left on the roadside, and keep up the work of the Tinkerer's Consortia.",
+  "external_url": "https://fateofwagdie.com/characters/6228",
+  "animation_url": "https://fateofwagdie.com/characters/6228/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Ordaeus the Operator",
+  "image": "ipfs://bafkreiehjobhhewj44kxriwyzrodyx23ay7m4jbvvs4jx5vpr2mmq76fmy",
+  "sheet": {
+    "name": "Ordaeus the Operator",
+    "level": 1,
+    "origin": "Young Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Yogg's Love",
+      "armor": "Zaban Explorer Garb"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 7,
+      "strength": 11,
+      "dexterity": 14,
+      "constitution": 12,
+      "intelligence": 16
+    },
+    "hit_points": 50,
+    "tokenIdInt": 1291,
+    "background_story": "Former templar turned philologist of the Forsaken Lands, Ordaeus was part of Luta the Striver's original company of traveling researchers.  \n\nHe now resides in the Scriptorium of the Stalwart Fortress where he heads the effort to catalogue all languages of the realm and decipher the elusive writings of the Striver. To all able to locate his sequestered workplace, he welcomes. \n\nIn the 18th cycle, Ordaeus was chosen to be the World Maker's next Operator after the expiration of Zell. \n\n\"𝔇𝔦𝔰𝔠𝔦𝔭𝔩𝔦𝔫𝔢 𝔱𝔥𝔢 𝔟𝔬𝔡𝔶 𝔰𝔬 𝔱𝔥𝔞𝔱 𝔦𝔫 𝔱𝔦𝔪𝔢𝔰 𝔬𝔣 𝔫𝔢𝔢𝔡, 𝔦𝔱 𝔞𝔫𝔰𝔴𝔢𝔯𝔰 𝔱𝔬 𝔱𝔥𝔢 𝔪𝔦𝔫𝔡\"",
+    "experience_points": 0
+  },
+  "tokenId": "1291",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Zaban Explorer Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Yogg's Love",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Former templar turned philologist of the Forsaken Lands, Ordaeus was part of Luta the Striver's original company of traveling researchers.  \n\nHe now resides in the Scriptorium of the Stalwart Fortress where he heads the effort to catalogue all languages of the realm and decipher the elusive writings of the Striver. To all able to locate his sequestered workplace, he welcomes. \n\nIn the 18th cycle, Ordaeus was chosen to be the World Maker's next Operator after the expiration of Zell. \n\n\"𝔇𝔦𝔰𝔠𝔦𝔭𝔩𝔦𝔫𝔢 𝔱𝔥𝔢 𝔟𝔬𝔡𝔶 𝔰𝔬 𝔱𝔥𝔞𝔱 𝔦𝔫 𝔱𝔦𝔪𝔢𝔰 𝔬𝔣 𝔫𝔢𝔢𝔡, 𝔦𝔱 𝔞𝔫𝔰𝔴𝔢𝔯𝔰 𝔱𝔬 𝔱𝔥𝔢 𝔪𝔦𝔫𝔡\"",
+  "external_url": "https://fateofwagdie.com/characters/1291",
+  "animation_url": "https://fateofwagdie.com/characters/1291/animated"
+}

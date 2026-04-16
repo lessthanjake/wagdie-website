@@ -1,0 +1,94 @@
+{
+  "name": "Lord Protector Matholl Mylles aka The Steward",
+  "image": "ipfs://bafkreicturithzkbaonpaqlurmoq5z2kt2baca5l3f44fwdp2mwuzcghta",
+  "sheet": {
+    "name": "Lord Protector Matholl Mylles aka The Steward",
+    "level": 1,
+    "origin": "Young Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Fool's Crown",
+      "armor": "Verite Protection"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 5,
+      "strength": 15,
+      "dexterity": 13,
+      "constitution": 11,
+      "intelligence": 18
+    },
+    "hit_points": 6,
+    "tokenIdInt": 5395,
+    "background_story": "Motto: Honor virtutis pretium\n\nMatholl and Treymayne Praxl led the Grand Cohort for 20 years, ushering a time known as the Golden Age.\n\nAfter The Schism, Matholl chose self-exile to the Kingdom of Trynn, disgusted by the infighting that has befallen the once Grand Cohort\n\nMatholl has not been seen or heard from for 10 years\n\nHe wields a great longsword named \"Honor's Virtue\"",
+    "experience_points": 0
+  },
+  "tokenId": "5395",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Verite Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit's Claim",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Fool's Crown",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Motto: Honor virtutis pretium\n\nMatholl and Treymayne Praxl led the Grand Cohort for 20 years, ushering a time known as the Golden Age.\n\nAfter The Schism, Matholl chose self-exile to the Kingdom of Trynn, disgusted by the infighting that has befallen the once Grand Cohort\n\nMatholl has not been seen or heard from for 10 years\n\nHe wields a great longsword named \"Honor's Virtue\"",
+  "external_url": "https://fateofwagdie.com/characters/5395",
+  "animation_url": "https://fateofwagdie.com/characters/5395/animated"
+}

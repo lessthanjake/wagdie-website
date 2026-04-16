@@ -1,0 +1,82 @@
+{
+  "name": "Icarus",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/1139.png",
+  "sheet": {
+    "name": "Icarus",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Blind Thief's Charm",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 1139,
+    "background_story": "Death was not the end. Soaring above the world, a reminder that one’s dreams will always live on.",
+    "experience_points": 0
+  },
+  "tokenId": "1139",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Painless Worshipper",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Blind Thief's Charm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Painless Worshipper",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Glutton's Blessing",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Gnawed Bone",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Ancient Reflections",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Death was not the end. Soaring above the world, a reminder that one’s dreams will always live on.",
+  "external_url": "https://fateofwagdie.com/characters/1139",
+  "animation_url": "https://fateofwagdie.com/characters/1139/animated"
+}

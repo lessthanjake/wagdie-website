@@ -1,0 +1,94 @@
+{
+  "name": "Ralreus",
+  "image": "ipfs://bafkreihjmze5coeqdjggeuhjrxvy754qso7qpfwyonvehzspt63vmnkibi",
+  "sheet": {
+    "name": "Ralreus",
+    "level": 9,
+    "origin": "Foolish Jester",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Thorgod's Symbol",
+      "armor": "Her Devotion"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 15,
+      "strength": 30,
+      "dexterity": 15,
+      "constitution": 30,
+      "intelligence": 15
+    },
+    "hit_points": 100,
+    "tokenIdInt": 5988,
+    "background_story": "As a devoted cleric, he wore sacred armor and followed the path of his goddess, guided by compassion and justice. But everything changed the day he found the dark crown in the ruins of a forgotten temple. Touching it, he was seized by a shadowy, relentless power: the will of Thorgod.\n\nThe armor of his goddess shielded him from being consumed, but since that day, he has lived divided, the crown bound to his soul. Now, he walks a path between light and shadow, striving to balance the forces that rage within, knowing that each step could pull him into the abyss.",
+    "experience_points": 90
+  },
+  "tokenId": "5988",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Devotion",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Feeble Spikes",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Thorgod's Symbol",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "As a devoted cleric, he wore sacred armor and followed the path of his goddess, guided by compassion and justice. But everything changed the day he found the dark crown in the ruins of a forgotten temple. Touching it, he was seized by a shadowy, relentless power: the will of Thorgod.\n\nThe armor of his goddess shielded him from being consumed, but since that day, he has lived divided, the crown bound to his soul. Now, he walks a path between light and shadow, striving to balance the forces that rage within, knowing that each step could pull him into the abyss.",
+  "external_url": "https://fateofwagdie.com/characters/5988",
+  "animation_url": "https://fateofwagdie.com/characters/5988/animated"
+}

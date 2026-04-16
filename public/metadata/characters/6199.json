@@ -1,0 +1,94 @@
+{
+  "name": "𝕮𝖎𝖗𝖉𝖆𝖓",
+  "image": "ipfs://bafkreiayi765b2iaa5jku5xlmfy6a4r2pzm4r34bun7riismpckrfxm3ne",
+  "sheet": {
+    "name": "𝕮𝖎𝖗𝖉𝖆𝖓",
+    "level": 6,
+    "origin": "Hole Protector",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Apostle of the Waste"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 30,
+      "strength": 7,
+      "dexterity": 15,
+      "constitution": 4,
+      "intelligence": 10
+    },
+    "hit_points": 10,
+    "tokenIdInt": 6199,
+    "background_story": "𝕳𝖊𝖑𝖑𝖔 𝕿𝖗𝖆𝖛𝖊𝖑𝖊𝖗,\n\n𝕮𝖎𝖗𝖉𝖆𝖓 𝖙𝖍𝖊 𝕸𝖊𝖗𝖈𝖍𝖆𝖓𝖙 𝖎𝖘 𝖐𝖓𝖔𝖜𝖓 𝖆𝖘  𝕺𝖓𝖊 𝖔𝖋 𝖙𝖍𝖊  12 𝕬𝖕𝖔𝖘𝖙𝖑𝖊𝖘 𝖔𝖋 𝖙𝖍𝖊 𝖂𝖆𝖘𝖙𝖊. 𝕿𝖗𝖆𝖛𝖊𝖑𝖎𝖓𝖌 𝖆𝖒𝖔𝖓𝖌𝖘𝖙 𝖙𝖍𝖊 𝖑𝖆𝖓𝖉 𝖙𝖔 𝖔𝖋𝖋𝖊𝖗 𝖍𝖎𝖘 𝖜𝖆𝖗𝖊𝖘. \n\n𝕺𝖓𝖊 𝖔𝖋 𝖍𝖎𝖘 𝖘𝖍𝖔𝖕𝖘 𝖆𝖘 𝖇𝖊𝖊𝖓 𝖘𝖎𝖌𝖍𝖙𝖊𝖉 𝖕𝖆𝖘𝖙 𝖙𝖍𝖊 𝖌𝖆𝖙𝖊𝖘 𝖔𝖋 𝕸𝖙. 𝕿𝖚𝖗𝖑𝖔. 𝕿𝖍𝖊 𝖊𝖝𝖆𝖈𝖙 𝖑𝖔𝖈𝖆𝖙𝖎𝖔𝖓 𝖎𝖘 𝖚𝖓𝖐𝖓𝖔𝖜𝖓. 𝖜𝖍𝖎𝖘𝖕𝖊𝖗𝖘 𝖍𝖊𝖆𝖗𝖉 𝕵𝖚𝖘𝖙 𝖔𝖚𝖙𝖘𝖎𝖉𝖊 𝖚𝖉𝖚𝖓. \n\n\n\n",
+    "experience_points": 0
+  },
+  "tokenId": "6199",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Apostle of the Waste",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "𝕳𝖊𝖑𝖑𝖔 𝕿𝖗𝖆𝖛𝖊𝖑𝖊𝖗,\n\n𝕮𝖎𝖗𝖉𝖆𝖓 𝖙𝖍𝖊 𝕸𝖊𝖗𝖈𝖍𝖆𝖓𝖙 𝖎𝖘 𝖐𝖓𝖔𝖜𝖓 𝖆𝖘  𝕺𝖓𝖊 𝖔𝖋 𝖙𝖍𝖊  12 𝕬𝖕𝖔𝖘𝖙𝖑𝖊𝖘 𝖔𝖋 𝖙𝖍𝖊 𝖂𝖆𝖘𝖙𝖊. 𝕿𝖗𝖆𝖛𝖊𝖑𝖎𝖓𝖌 𝖆𝖒𝖔𝖓𝖌𝖘𝖙 𝖙𝖍𝖊 𝖑𝖆𝖓𝖉 𝖙𝖔 𝖔𝖋𝖋𝖊𝖗 𝖍𝖎𝖘 𝖜𝖆𝖗𝖊𝖘. \n\n𝕺𝖓𝖊 𝖔𝖋 𝖍𝖎𝖘 𝖘𝖍𝖔𝖕𝖘 𝖆𝖘 𝖇𝖊𝖊𝖓 𝖘𝖎𝖌𝖍𝖙𝖊𝖉 𝖕𝖆𝖘𝖙 𝖙𝖍𝖊 𝖌𝖆𝖙𝖊𝖘 𝖔𝖋 𝕸𝖙. 𝕿𝖚𝖗𝖑𝖔. 𝕿𝖍𝖊 𝖊𝖝𝖆𝖈𝖙 𝖑𝖔𝖈𝖆𝖙𝖎𝖔𝖓 𝖎𝖘 𝖚𝖓𝖐𝖓𝖔𝖜𝖓. 𝖜𝖍𝖎𝖘𝖕𝖊𝖗𝖘 𝖍𝖊𝖆𝖗𝖉 𝕵𝖚𝖘𝖙 𝖔𝖚𝖙𝖘𝖎𝖉𝖊 𝖚𝖉𝖚𝖓. \n\n\n\n",
+  "external_url": "https://fateofwagdie.com/characters/6199",
+  "animation_url": "https://fateofwagdie.com/characters/6199/animated"
+}

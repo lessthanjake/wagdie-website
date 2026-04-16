@@ -1,0 +1,78 @@
+{
+  "name": "Soul of the Wastes",
+  "image": "https://crimson-static-barnacle-945.mypinata.cloud/ipfs/QmVSeR88H7YQm5i2JTR9BVWepLb7kcmh9xv23NXapHyAwH",
+  "sheet": {
+    "name": "Soul of the Wastes",
+    "level": 1,
+    "origin": "Soul of the Wastes",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 86,
+    "background_story": "Plin's Wastes have long been inaccessible for all beings with flesh... Even the exoskeletons of Lord Grem's monstrosities have been unable to penetrate the hot white core at the center of Plin's metallic sphere.\n\nThe Wastes cover an incomprehensible distance filled with wandering lost creatures who have adapted to Plin's blessing.\n\nThe Souls of the Wastes have become one with Plin. Their very being is pure energy. ",
+    "experience_points": 0
+  },
+  "tokenId": "86",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Soul of the Wastes",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Minion of Plin",
+      "trait_type": "Portal of Grem"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Soul of the Wastes",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Plin's Wastes have long been inaccessible for all beings with flesh... Even the exoskeletons of Lord Grem's monstrosities have been unable to penetrate the hot white core at the center of Plin's metallic sphere.\n\nThe Wastes cover an incomprehensible distance filled with wandering lost creatures who have adapted to Plin's blessing.\n\nThe Souls of the Wastes have become one with Plin. Their very being is pure energy. ",
+  "external_url": "https://fateofwagdie.com/characters/86",
+  "animation_url": "https://fateofwagdie.com/characters/86/animated"
+}

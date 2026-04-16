@@ -1,0 +1,94 @@
+{
+  "name": "Aldred the Hermit",
+  "image": "ipfs://bafkreihlknfumhaxd37whpon6td4vloq57iwrdxczgpn6grj52mlgzfx2e",
+  "sheet": {
+    "name": "Aldred the Hermit",
+    "level": 20,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Valorite Weight"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 30,
+      "strength": 30,
+      "dexterity": 30,
+      "constitution": 30,
+      "intelligence": 30
+    },
+    "hit_points": 100,
+    "tokenIdInt": 1198,
+    "background_story": "Once a devout defender of the realm and servant of Mother Agora, Aldred has lost faith in the people of the world.\n\nHe choses now to live a life of solice and peace away from the chaos of this world until his passing.",
+    "experience_points": 355000
+  },
+  "tokenId": "1198",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Valorite Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit Set",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Once a devout defender of the realm and servant of Mother Agora, Aldred has lost faith in the people of the world.\n\nHe choses now to live a life of solice and peace away from the chaos of this world until his passing.",
+  "external_url": "https://fateofwagdie.com/characters/1198",
+  "animation_url": "https://fateofwagdie.com/characters/1198/animated"
+}

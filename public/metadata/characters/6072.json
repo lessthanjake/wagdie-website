@@ -1,0 +1,94 @@
+{
+  "name": "Santa Muerte",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/6072.png",
+  "sheet": {
+    "name": "Santa Muerte",
+    "level": 1,
+    "origin": "Astorian Adventurer",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Wormlord Visage",
+      "armor": "Death Dealer's Choice"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 9,
+      "strength": 17,
+      "dexterity": 12,
+      "constitution": 15,
+      "intelligence": 15
+    },
+    "hit_points": 6,
+    "tokenIdInt": 6072,
+    "background_story": "In a small village \n\n\"light is an island,\ndarkness a wave,\nlapping against the shore,\npatient, purposeful,\nwashing us away\n\noh, what it must be\nto command the tide\"\n\nIn a gesture from Her Silence, Santa Muerte was appointed to join The Royal Fool's party once he rejoined the forsaken lands.\n\nEager to continue his study of death, he followed the Mad Party on their renewed journey and bore witness to The Royal Fool's blessed searing of Her Ember. \n\nAs many gathered at the Crow's Den to accompany Julian in tracking the wizard, Merlin, he unfortunately met his end amongst the many traps set at Den.",
+    "experience_points": 0
+  },
+  "tokenId": "6072",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Death Dealer's Choice",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit Set",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wormlord Visage",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Necromancer",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Her Truth",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Encampment Medallion",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Encampment Militia",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "In a small village \n\n\"light is an island,\ndarkness a wave,\nlapping against the shore,\npatient, purposeful,\nwashing us away\n\noh, what it must be\nto command the tide\"\n\nIn a gesture from Her Silence, Santa Muerte was appointed to join The Royal Fool's party once he rejoined the forsaken lands.\n\nEager to continue his study of death, he followed the Mad Party on their renewed journey and bore witness to The Royal Fool's blessed searing of Her Ember. \n\nAs many gathered at the Crow's Den to accompany Julian in tracking the wizard, Merlin, he unfortunately met his end amongst the many traps set at Den.",
+  "external_url": "https://fateofwagdie.com/characters/6072",
+  "animation_url": "https://fateofwagdie.com/characters/6072/animated"
+}

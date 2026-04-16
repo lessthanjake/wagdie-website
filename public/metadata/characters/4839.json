@@ -1,0 +1,94 @@
+{
+  "name": "Oda Beren",
+  "image": "ipfs://bafkreic6iynurzyy6uiymqx6no4czrokbpryd4euhpcjfykwpkzowrfmcy",
+  "sheet": {
+    "name": "Oda Beren",
+    "level": 8,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "None",
+      "armor": "Her Cursed Outcast"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 15,
+      "strength": 30,
+      "dexterity": 30,
+      "constitution": 15,
+      "intelligence": 30
+    },
+    "hit_points": 100,
+    "tokenIdInt": 4839,
+    "background_story": "A wandering pilgrim burdened by an oath he scarcely comprehends. Driven by an unseen force, his path pulls him toward the unknown. He knows only duty, clad in worn yet unyielding armor, his sword ever at the ready to defend the helpless in places where even light dares not tread.\n\nHe is called chosen of an unfathomable purpose; yet he presses on, unaware of his destiny, carrying within him the certainty that in some shadowed corner, his true calling awaits.",
+    "experience_points": 80
+  },
+  "tokenId": "4839",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Cursed Outcast",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Earth Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A wandering pilgrim burdened by an oath he scarcely comprehends. Driven by an unseen force, his path pulls him toward the unknown. He knows only duty, clad in worn yet unyielding armor, his sword ever at the ready to defend the helpless in places where even light dares not tread.\n\nHe is called chosen of an unfathomable purpose; yet he presses on, unaware of his destiny, carrying within him the certainty that in some shadowed corner, his true calling awaits.",
+  "external_url": "https://fateofwagdie.com/characters/4839",
+  "animation_url": "https://fateofwagdie.com/characters/4839/animated"
+}

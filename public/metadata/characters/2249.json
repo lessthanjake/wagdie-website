@@ -1,0 +1,94 @@
+{
+  "name": "𝔐𝔢𝔯𝔠𝔲𝔯𝔦𝔲𝔰, 𝔱𝔥𝔢 𝔐𝔢𝔡𝔦𝔞𝔱𝔬𝔯",
+  "image": "ipfs://bafkreic5a27q6wpmoh2zyffxitm26jjgwgczgayknackkbt2nghqpvmciu",
+  "sheet": {
+    "name": "𝔐𝔢𝔯𝔠𝔲𝔯𝔦𝔲𝔰, 𝔱𝔥𝔢 𝔐𝔢𝔡𝔦𝔞𝔱𝔬𝔯",
+    "level": 4,
+    "origin": "Worm Devotee",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "None",
+      "armor": "Apostle of the Waste"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 13,
+      "strength": 6,
+      "dexterity": 13,
+      "constitution": 17,
+      "intelligence": 12
+    },
+    "hit_points": 10,
+    "tokenIdInt": 2249,
+    "background_story": "ℑ 𝔥𝔢𝔞𝔯 𝔞𝔩𝔩, ℑ 𝔰𝔭𝔢𝔞𝔨 𝔴𝔥𝔞𝔱 𝔬𝔱𝔥𝔢𝔯𝔰 𝔴𝔦𝔰𝔥 𝔱𝔬 𝔥𝔢𝔞𝔯.",
+    "experience_points": 40
+  },
+  "tokenId": "2249",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Apostle of the Waste",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Worm Devotee",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Worm Devotee",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "ℑ 𝔥𝔢𝔞𝔯 𝔞𝔩𝔩, ℑ 𝔰𝔭𝔢𝔞𝔨 𝔴𝔥𝔞𝔱 𝔬𝔱𝔥𝔢𝔯𝔰 𝔴𝔦𝔰𝔥 𝔱𝔬 𝔥𝔢𝔞𝔯.",
+  "external_url": "https://fateofwagdie.com/characters/2249",
+  "animation_url": "https://fateofwagdie.com/characters/2249/animated"
+}

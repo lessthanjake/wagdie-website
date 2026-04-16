@@ -1,0 +1,94 @@
+{
+  "name": "King Foffling",
+  "image": "https://raw.seadn.io/files/e9f04d9454ddd78967950be054d41ba5.png",
+  "sheet": {
+    "name": "King Foffling",
+    "level": 1,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Guiding Torch",
+      "mask": "Face of Vengeance",
+      "armor": "Acolyte's Shawl"
+    },
+    "attributes": {
+      "wisdom": 2,
+      "charisma": 30,
+      "strength": 30,
+      "dexterity": 10,
+      "constitution": 5,
+      "intelligence": 1
+    },
+    "hit_points": 69,
+    "tokenIdInt": 3933,
+    "background_story": "Right before the Headless Plague ravished the foresaken lands, King Offling had been working in his study attempting to extract his genetic material.\n\nThe idea came to him one night as he pondered about how identical baby twins must share some hereditary material present in our bodies.\n\nHe spit in a cup, tore out a lock of his silver white hair, and scraped his skin with a scalpel, ensuring he also got blood in there.\n\nOnce the plague broke out and he fell ill, He gave Dilbert a liquified tube that had been vacuumed and corked. \n\nNo one really knows how King Foffling materialized, as the only person who seems to know who this man is, is Dilbert himself, a most unreliable narrator.\n\nOnly strife will tell, who the fuck King Foffling .... ",
+    "experience_points": 69
+  },
+  "tokenId": "3933",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Acolyte's Shawl",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Guiding Torch",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit Set",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Face of Vengeance",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Right before the Headless Plague ravished the foresaken lands, King Offling had been working in his study attempting to extract his genetic material.\n\nThe idea came to him one night as he pondered about how identical baby twins must share some hereditary material present in our bodies.\n\nHe spit in a cup, tore out a lock of his silver white hair, and scraped his skin with a scalpel, ensuring he also got blood in there.\n\nOnce the plague broke out and he fell ill, He gave Dilbert a liquified tube that had been vacuumed and corked. \n\nNo one really knows how King Foffling materialized, as the only person who seems to know who this man is, is Dilbert himself, a most unreliable narrator.\n\nOnly strife will tell, who the fuck King Foffling .... ",
+  "external_url": "https://fateofwagdie.com/characters/3933",
+  "animation_url": "https://crimson-static-barnacle-945.mypinata.cloud/ipfs/QmPq2QMSCXDDEuthjhFxKGCNVMwDen231P6UW6ibewqv3F"
+}

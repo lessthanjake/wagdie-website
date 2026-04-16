@@ -1,0 +1,93 @@
+{
+  "name": "One-With-Rot",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/282.png",
+  "sheet": {
+    "name": "One-With-Rot",
+    "level": 1,
+    "origin": "Pilgrim of the Lakes",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Wormlord Visage",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 6,
+      "strength": 15,
+      "dexterity": 12,
+      "constitution": 11,
+      "intelligence": 13
+    },
+    "hit_points": 8,
+    "tokenIdInt": 282,
+    "experience_points": 0
+  },
+  "tokenId": "282",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "None",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Piat's Destruction",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wormlord Visage",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Necromancer",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Flyling Duo",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Sparkling Fly",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Lord Grem's Diptera",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/282",
+  "animation_url": "https://fateofwagdie.com/characters/282/animated"
+}

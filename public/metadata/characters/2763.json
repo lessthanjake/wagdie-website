@@ -1,0 +1,94 @@
+{
+  "name": "King OfDeez",
+  "image": "ipfs://bafkreibq4dwrzjpxhgmrfjatqwmxfbomhpkjtv66lzhqfwqf6olhbtdave",
+  "sheet": {
+    "name": "King OfDeez",
+    "level": 1,
+    "origin": "Astorian Adventurer",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Parody of the Fallen King",
+      "armor": "Holy Diamond of Her"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 2763,
+    "background_story": "Making fun of the fallen King.",
+    "experience_points": 0
+  },
+  "tokenId": "2763",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Holy Diamond of Her",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Parody of the Fallen King",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Making fun of the fallen King.",
+  "external_url": "https://fateofwagdie.com/characters/2763",
+  "animation_url": "https://fateofwagdie.com/characters/2763/animated"
+}

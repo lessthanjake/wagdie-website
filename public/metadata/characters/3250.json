@@ -1,0 +1,94 @@
+{
+  "name": "Iidabashimetro",
+  "image": "ipfs://bafkreid3xg6u2wxiecvdqm2zivciyvr3riz6weco4ppl7znitjtaopict4",
+  "sheet": {
+    "name": "Iidabashimetro",
+    "level": 1,
+    "origin": "Young Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Stranger's Cry",
+      "armor": "Her Zealot's Gear"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 3250,
+    "background_story": "I love fritters\nI love Mischi3vo\nThey bring me joy,\nAs you may know.",
+    "experience_points": 0
+  },
+  "tokenId": "3250",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Zealot's Gear",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Stranger's Cry",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "I love fritters\nI love Mischi3vo\nThey bring me joy,\nAs you may know.",
+  "external_url": "https://fateofwagdie.com/characters/3250",
+  "animation_url": "https://fateofwagdie.com/characters/3250/animated"
+}

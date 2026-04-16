@@ -1,0 +1,94 @@
+{
+  "name": "Korrus",
+  "image": "ipfs://bafkreiap5yopy2vetdof3ffsdzongksuccdaiwi42rpzddlpmdnubmdcmu",
+  "sheet": {
+    "name": "Korrus",
+    "level": 1,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Strange Traveling Garb"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 9,
+      "strength": 8,
+      "dexterity": 14,
+      "constitution": 8,
+      "intelligence": 14
+    },
+    "hit_points": 100,
+    "tokenIdInt": 3641,
+    "background_story": "Korrus joined the Concord of Research as the dying wish of Darrow of Enti, his lifelong friend who took his own life after the love of his life was killed by the Darkblades.\n\nKorrus enjoys studying history and solving puzzles in his spare time, a man after Luta's own heart. Knowledge above all.",
+    "experience_points": 0
+  },
+  "tokenId": "3641",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Strange Traveling Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Vaulted",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Korrus joined the Concord of Research as the dying wish of Darrow of Enti, his lifelong friend who took his own life after the love of his life was killed by the Darkblades.\n\nKorrus enjoys studying history and solving puzzles in his spare time, a man after Luta's own heart. Knowledge above all.",
+  "external_url": "https://fateofwagdie.com/characters/3641",
+  "animation_url": "https://fateofwagdie.com/characters/3641/animated"
+}

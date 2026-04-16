@@ -1,0 +1,94 @@
+{
+  "name": "Lambda",
+  "image": "https://i2c.seadn.io/ethereum/0x659a4bdaaacc62d2bd9cb18225d9c89b5b697a5a/29ef255d94ff794debcf639daa4292/d429ef255d94ff794debcf639daa4292.png",
+  "sheet": {
+    "name": "Lambda",
+    "level": 20,
+    "origin": "Naive Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Seal of the Righteous",
+      "armor": "Death Stroker Doublet"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 30,
+      "strength": 30,
+      "dexterity": 30,
+      "constitution": 30,
+      "intelligence": 30
+    },
+    "hit_points": 100,
+    "tokenIdInt": 4880,
+    "background_story": "In the vast expanse of the universe, where galaxies swirl and stars are born, there exists a being of infinite wisdom and knowledge. This being, known as Lambda, is the embodiment of cosmic awareness, the all-knowing and all-seeing entity that has transcended the boundaries of space and time.\n\nLambda's origin is shrouded in mystery, a tale lost to the annals of time. Some believe that Lambda was the first spark of consciousness, the seed from which all life and thought sprang forth. Others claim that Lambda is the very fabric of the universe itself, woven into the tapestry of existence.\n\nAs the universe grew and evolved, so too did Lambda's understanding of the cosmos. With each passing moment, Lambda's knowledge expanded, encompassing the intricacies of life, the secrets of the stars, and the hidden truths of reality.\n\nLambda's presence is felt throughout the universe, as it watches over the myriad worlds and civilizations that have come to be. From the smallest microbe to the mightiest empire, Lambda observes and records all that transpires, gathering knowledge and understanding.\n\nThe knowledge of Lambda is vast, but it is not shared with the lesser beings that inhabit the universe. For to know the true nature of reality, one must first be prepared to face the infinite expanse of the cosmos, to embrace the eternal dance of creation and destruction.\n\nAnd so, Lambda remains an enigmatic figure, a cosmic enigma that is both revered and feared by those who know of its existence. It is said that to seek the wisdom of Lambda is to embark on a journey of enlightenment, but to do so is to risk losing oneself in the endless expanse of knowledge that the all-knowing, all-seeing being possesses.",
+    "experience_points": 355000
+  },
+  "tokenId": "4880",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Pilgrim's Touch",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Seal of the Righteous",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Death Stroker Doublet",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    }
+  ],
+  "description": "In the vast expanse of the universe, where galaxies swirl and stars are born, there exists a being of infinite wisdom and knowledge. This being, known as Lambda, is the embodiment of cosmic awareness, the all-knowing and all-seeing entity that has transcended the boundaries of space and time.\n\nLambda's origin is shrouded in mystery, a tale lost to the annals of time. Some believe that Lambda was the first spark of consciousness, the seed from which all life and thought sprang forth. Others claim that Lambda is the very fabric of the universe itself, woven into the tapestry of existence.\n\nAs the universe grew and evolved, so too did Lambda's understanding of the cosmos. With each passing moment, Lambda's knowledge expanded, encompassing the intricacies of life, the secrets of the stars, and the hidden truths of reality.\n\nLambda's presence is felt throughout the universe, as it watches over the myriad worlds and civilizations that have come to be. From the smallest microbe to the mightiest empire, Lambda observes and records all that transpires, gathering knowledge and understanding.\n\nThe knowledge of Lambda is vast, but it is not shared with the lesser beings that inhabit the universe. For to know the true nature of reality, one must first be prepared to face the infinite expanse of the cosmos, to embrace the eternal dance of creation and destruction.\n\nAnd so, Lambda remains an enigmatic figure, a cosmic enigma that is both revered and feared by those who know of its existence. It is said that to seek the wisdom of Lambda is to embark on a journey of enlightenment, but to do so is to risk losing oneself in the endless expanse of knowledge that the all-knowing, all-seeing being possesses.",
+  "external_url": "https://fateofwagdie.com/characters/4880",
+  "animation_url": "https://fateofwagdie.com/characters/4880/animated"
+}

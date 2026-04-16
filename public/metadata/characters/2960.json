@@ -1,0 +1,93 @@
+{
+  "name": "Kritsopher",
+  "image": "ipfs://bafkreigaov3xzf2sdj26gqpkb5nrxn5zzjm66wcd437yrruxeqn2eiz5sa",
+  "sheet": {
+    "name": "Kritsopher",
+    "level": 3,
+    "origin": "Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "None",
+      "armor": "Logun's Pauldrons"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 17,
+      "strength": 12,
+      "dexterity": 13,
+      "constitution": 11,
+      "intelligence": 12
+    },
+    "hit_points": 6,
+    "tokenIdInt": 2960,
+    "experience_points": 0
+  },
+  "tokenId": "2960",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Pauldrons",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Galactic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Earth Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/2960",
+  "animation_url": "https://fateofwagdie.com/characters/2960/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Chastain, O Diabo Loiro",
+  "image": "ipfs://bafkreihhjk4mubeyaqlav7vga65e4xwv7k6fzps5c7zfy2jh4bkopyxkpa",
+  "sheet": {
+    "name": "Chastain, O Diabo Loiro",
+    "level": 1,
+    "origin": "Astorian Adventurer",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Verite Protection"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 13,
+      "strength": 14,
+      "dexterity": 10,
+      "constitution": 12,
+      "intelligence": 14
+    },
+    "hit_points": 8,
+    "tokenIdInt": 1367,
+    "background_story": "Hunger and misery shaped Chastain's personality. When his  father, Yosiah, died, his mother and brothers thanked him for the feast, eating his entrails along with what little they had of rotten grain from the last harvest. Her family no longer lives, but they nurtured Chastain until his journey to the Kingdoms of Yore, in search of something of value.",
+    "experience_points": 0
+  },
+  "tokenId": "1367",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Verite Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Naive Blonde Pilgrim's Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Hunger and misery shaped Chastain's personality. When his  father, Yosiah, died, his mother and brothers thanked him for the feast, eating his entrails along with what little they had of rotten grain from the last harvest. Her family no longer lives, but they nurtured Chastain until his journey to the Kingdoms of Yore, in search of something of value.",
+  "external_url": "https://fateofwagdie.com/characters/1367",
+  "animation_url": "https://fateofwagdie.com/characters/1367/animated"
+}

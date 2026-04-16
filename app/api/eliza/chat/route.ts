@@ -14,6 +14,8 @@ import { resolveCharacterByTokenId } from '@/lib/eliza/characterResolver'
 import { getCharacter } from '@/lib/services/character-service'
 import type { StreamCallbacks, ChatMessage } from '@eliza/sdk'
 
+export const runtime = 'nodejs'
+
 interface ChatRequest {
   tokenId: string
   message: string

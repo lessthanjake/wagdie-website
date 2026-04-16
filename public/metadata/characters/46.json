@@ -1,0 +1,94 @@
+{
+  "name": "Gotlin",
+  "image": "ipfs://bafkreihzzswhu6a4fsgcfmw57khzqjohhnbmajow3aopa5jzamvilx5hku",
+  "sheet": {
+    "name": "Gotlin",
+    "level": 4,
+    "origin": "Pilgrim",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "Her Chosen Seal",
+      "armor": "Pilgrim's Chain"
+    },
+    "attributes": {
+      "wisdom": 8,
+      "charisma": 14,
+      "strength": 11,
+      "dexterity": 12,
+      "constitution": 15,
+      "intelligence": 11
+    },
+    "hit_points": 7,
+    "tokenIdInt": 46,
+    "background_story": "Captured by the Druids...",
+    "experience_points": 0
+  },
+  "tokenId": "46",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Straw",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Chosen Seal",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Captured by the Druids...",
+  "external_url": "https://fateofwagdie.com/characters/46",
+  "animation_url": "https://fateofwagdie.com/characters/46/animated"
+}

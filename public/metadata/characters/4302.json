@@ -1,0 +1,94 @@
+{
+  "name": "Alberich Holderhek",
+  "image": "ipfs://bafkreihxpnt6z27a3f3xzhhf5wl5hpqhzmtukrz6gq3cuhdoepjpldgvhm",
+  "sheet": {
+    "name": "Alberich Holderhek",
+    "level": 20,
+    "origin": "Pilgrim of the Lakes",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "None",
+      "armor": "Crow Lord's Blessing"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 16,
+      "strength": 14,
+      "dexterity": 13,
+      "constitution": 12,
+      "intelligence": 8
+    },
+    "hit_points": 6,
+    "tokenIdInt": 4302,
+    "background_story": "The more I continue to travel these Forsaken Lands the more people call me by the name Wagon. \nWhile I continue to reassure them I am not, it has led me to look into what they had been doing. It seems they were a member of the Darkblade Guild who ended up battling alongside those fighting for Mother Agora during the Battle of the Church and losing their life.\n\n",
+    "experience_points": 69
+  },
+  "tokenId": "4302",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Crow Lord's Blessing",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Naive Blonde Pilgrim's Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The more I continue to travel these Forsaken Lands the more people call me by the name Wagon. \nWhile I continue to reassure them I am not, it has led me to look into what they had been doing. It seems they were a member of the Darkblade Guild who ended up battling alongside those fighting for Mother Agora during the Battle of the Church and losing their life.\n\n",
+  "external_url": "https://fateofwagdie.com/characters/4302",
+  "animation_url": "https://fateofwagdie.com/characters/4302/animated"
+}

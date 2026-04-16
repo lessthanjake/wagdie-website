@@ -1,0 +1,93 @@
+{
+  "name": "nicabar",
+  "image": "ipfs://bafkreigzrohsoimb3wmgvxor633i7sro3xf5gipmsfb36lhrdzutey45ju",
+  "sheet": {
+    "name": "nicabar",
+    "level": 1,
+    "origin": "Logun Disciple",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "Darkblade's Beak",
+      "armor": "Her Pathetic Waste"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 14,
+      "strength": 15,
+      "dexterity": 17,
+      "constitution": 14,
+      "intelligence": 18
+    },
+    "hit_points": 14,
+    "tokenIdInt": 334,
+    "experience_points": 0
+  },
+  "tokenId": "334",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Pathetic Waste",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Her Page",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Darkblade's Beak",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/334",
+  "animation_url": "https://fateofwagdie.com/characters/334/animated"
+}

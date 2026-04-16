@@ -1,0 +1,94 @@
+{
+  "name": "Solazar Ven",
+  "image": "ipfs://bafkreiglaw7k3thxy6mlhxp7raqcz2vs7iqvkxy242gbdkkgusaextn7hi",
+  "sheet": {
+    "name": "Solazar Ven",
+    "level": 5,
+    "origin": "Young Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Seal of the Righteous",
+      "armor": "Death Stroker Doublet"
+    },
+    "attributes": {
+      "wisdom": 18,
+      "charisma": 12,
+      "strength": 9,
+      "dexterity": 11,
+      "constitution": 15,
+      "intelligence": 14
+    },
+    "hit_points": 10,
+    "tokenIdInt": 2181,
+    "background_story": "Hailing from a distant land, the traveler known as Solusar Ven strides forth with a divine purpose: to heal the afflicted and warn of an impending darkness. Gifted with the power to mend both body and soul, his mind resonates with superhuman clarity, a beacon of wisdom and foresight in troubled times.",
+    "experience_points": 30
+  },
+  "tokenId": "2181",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Death Stroker Doublet",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit's Pieces",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Seal of the Righteous",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Hailing from a distant land, the traveler known as Solusar Ven strides forth with a divine purpose: to heal the afflicted and warn of an impending darkness. Gifted with the power to mend both body and soul, his mind resonates with superhuman clarity, a beacon of wisdom and foresight in troubled times.",
+  "external_url": "https://fateofwagdie.com/characters/2181",
+  "animation_url": "https://fateofwagdie.com/characters/2181/animated"
+}

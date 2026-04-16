@@ -1,0 +1,94 @@
+{
+  "name": "One Time Only",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/3019.png",
+  "sheet": {
+    "name": "One Time Only",
+    "level": 6,
+    "origin": "Her Lover",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Wormlord Visage",
+      "armor": "Turlo Tunic"
+    },
+    "attributes": {
+      "wisdom": 6,
+      "charisma": 6,
+      "strength": 6,
+      "dexterity": 6,
+      "constitution": 6,
+      "intelligence": 6
+    },
+    "hit_points": 6,
+    "tokenIdInt": 3019,
+    "background_story": "You only can look at her for one time only. Then you die.",
+    "experience_points": 6
+  },
+  "tokenId": "3019",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Turlo Tunic",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wormlord Visage",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Necromancer",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Red Edge of Yuria",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Obsidian Blade",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Furies",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "You only can look at her for one time only. Then you die.",
+  "external_url": "https://fateofwagdie.com/characters/3019",
+  "animation_url": "https://fateofwagdie.com/characters/3019/animated"
+}

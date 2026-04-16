@@ -1,0 +1,94 @@
+{
+  "name": "Patient Criminal",
+  "image": "ipfs://bafkreia76t7kcpqeg47ucaex62xtpbudkveqcgl56nfzzmgcgdofnwxzjy",
+  "sheet": {
+    "name": "Patient Criminal",
+    "level": 2,
+    "origin": "Worm Devotee",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "Blind Thief's Charm",
+      "armor": "Valorite Amateur Garb"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 12,
+      "strength": 14,
+      "dexterity": 18,
+      "constitution": 10,
+      "intelligence": 14
+    },
+    "hit_points": 12,
+    "tokenIdInt": 2312,
+    "background_story": "An experienced criminal who knows that the biggest reward is not always the best.\n\nSuccessfully robbed a modest quantity of rare spice from Cirdan the Merchant during a raid on his caravan in the Kingdom Slums.\n\nHas since been arrested by the authorities and taken to the Prisons of Yore.",
+    "experience_points": 100
+  },
+  "tokenId": "2312",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Valorite Amateur Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Yearn",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Worm Devotee",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Lotharian Hair",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Blind Thief's Charm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Worm Devotee",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "An experienced criminal who knows that the biggest reward is not always the best.\n\nSuccessfully robbed a modest quantity of rare spice from Cirdan the Merchant during a raid on his caravan in the Kingdom Slums.\n\nHas since been arrested by the authorities and taken to the Prisons of Yore.",
+  "external_url": "https://fateofwagdie.com/characters/2312",
+  "animation_url": "https://fateofwagdie.com/characters/2312/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Eoric “Silver head”",
+  "image": "ipfs://bafkreibyld67zxhgnw262uotv4uje3naosi76i6zhxlrahf34gca2xjn2m",
+  "sheet": {
+    "name": "Eoric “Silver head”",
+    "level": 5,
+    "origin": "Young Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Dragonkin Helm",
+      "armor": "Her Pathetic Waste"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 8,
+      "strength": 18,
+      "dexterity": 17,
+      "constitution": 15,
+      "intelligence": 15
+    },
+    "hit_points": 20,
+    "tokenIdInt": 1925,
+    "background_story": "Eoric believed in goodness, honor and justice. From a very young age he served for the order of the Gods of Light.\n\nHe witnessed the transformation of Detriti in the swamps. In an attempt to contain the evil, he pounced on the witch, believing that he could defeat her, she consumed him with her fire. It is not yet known how Eoric managed to survive. Since that encounter no one has seen him without his helmet. He walked away from his family and is now a ruthless fortune hunter. Many believe that he is no longer human.",
+    "experience_points": 30
+  },
+  "tokenId": "1925",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Pathetic Waste",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Dragonkin Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Eoric believed in goodness, honor and justice. From a very young age he served for the order of the Gods of Light.\n\nHe witnessed the transformation of Detriti in the swamps. In an attempt to contain the evil, he pounced on the witch, believing that he could defeat her, she consumed him with her fire. It is not yet known how Eoric managed to survive. Since that encounter no one has seen him without his helmet. He walked away from his family and is now a ruthless fortune hunter. Many believe that he is no longer human.",
+  "external_url": "https://fateofwagdie.com/characters/1925",
+  "animation_url": "https://fateofwagdie.com/characters/1925/animated"
+}

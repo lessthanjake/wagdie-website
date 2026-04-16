@@ -1,0 +1,94 @@
+{
+  "name": "Adam",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/4670.png",
+  "sheet": {
+    "name": "Adam",
+    "level": 1,
+    "origin": "Wormlord Acolyte",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 4,
+      "charisma": 9,
+      "strength": 2,
+      "dexterity": 4,
+      "constitution": 1,
+      "intelligence": 20
+    },
+    "hit_points": 12,
+    "tokenIdInt": 4670,
+    "background_story": "My the Serpent tempt me.",
+    "experience_points": 0
+  },
+  "tokenId": "4670",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "None",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Friend of the Nameless",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Noxium Brew",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Grand Jester",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "My the Serpent tempt me.",
+  "external_url": "https://fateofwagdie.com/characters/4670",
+  "animation_url": "https://fateofwagdie.com/characters/4670/animated"
+}

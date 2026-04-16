@@ -1,0 +1,94 @@
+{
+  "name": "Vola",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/1443.png",
+  "sheet": {
+    "name": "Vola",
+    "level": 20,
+    "origin": "Hole Protector",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Fool's Crown",
+      "armor": "Valorite Amateur Garb"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 14,
+      "strength": 8,
+      "dexterity": 18,
+      "constitution": 15,
+      "intelligence": 17
+    },
+    "hit_points": 100,
+    "tokenIdInt": 1443,
+    "background_story": "",
+    "experience_points": 420
+  },
+  "tokenId": "1443",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Valorite Amateur Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Altered",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Light Uirian Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Fool's Crown",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Spore Cap",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Stale Mushroom",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Spores of the Headless",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/1443",
+  "animation_url": "https://fateofwagdie.com/characters/1443/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Carlin Murnig",
+  "image": "ipfs://bafkreifq7vx2bb42jwxnpvhox2zzficqnro24pocke4r4cr3roe7vtbkja",
+  "sheet": {
+    "name": "Carlin Murnig",
+    "level": 1,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "None",
+      "armor": "Zaban Explorer Garb"
+    },
+    "attributes": {
+      "wisdom": 18,
+      "charisma": 14,
+      "strength": 15,
+      "dexterity": 12,
+      "constitution": 11,
+      "intelligence": 10
+    },
+    "hit_points": 5,
+    "tokenIdInt": 4421,
+    "background_story": "Carlin Murnig, an archer from the middle ages with grey hair, who wears the Zaban Explorer Garb and Uirian Quill arrows. He is known for\n-His excellent archery skills\n-His calm and collected demeanor\n-His knowledge of ancient history and mythology\nHis greatest secret was the fact that he was secretly a beast of the old occult. He would use his archery skills to hunt for prey at night, and then drink their blood to sustain himself. He was careful to only hunt those who were alone and would not be missed, so as not to draw attention to himself.\n\nOne night, however, he made the mistake of hunting someone who was not alone in the Putrid Forest just outside the Church of Her. His victim's companion saw him and cried out in alarm, alerting others to his presence. Carlin was forced to flee before he could finish his meal, and he has not dared to hunt in that area since. He now sticks to remote, uninhabited areas where he is unlikely to be discovered.",
+    "experience_points": 0
+  },
+  "tokenId": "4421",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Zaban Explorer Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit Set",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Carlin Murnig, an archer from the middle ages with grey hair, who wears the Zaban Explorer Garb and Uirian Quill arrows. He is known for\n-His excellent archery skills\n-His calm and collected demeanor\n-His knowledge of ancient history and mythology\nHis greatest secret was the fact that he was secretly a beast of the old occult. He would use his archery skills to hunt for prey at night, and then drink their blood to sustain himself. He was careful to only hunt those who were alone and would not be missed, so as not to draw attention to himself.\n\nOne night, however, he made the mistake of hunting someone who was not alone in the Putrid Forest just outside the Church of Her. His victim's companion saw him and cried out in alarm, alerting others to his presence. Carlin was forced to flee before he could finish his meal, and he has not dared to hunt in that area since. He now sticks to remote, uninhabited areas where he is unlikely to be discovered.",
+  "external_url": "https://fateofwagdie.com/characters/4421",
+  "animation_url": "https://fateofwagdie.com/characters/4421/animated"
+}

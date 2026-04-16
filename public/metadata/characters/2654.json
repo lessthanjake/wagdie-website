@@ -1,0 +1,94 @@
+{
+  "name": "2654",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/2654.png",
+  "sheet": {
+    "name": "2654",
+    "level": 2,
+    "origin": "Pilgrim of the Lakes",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "Darkblade's Beak",
+      "armor": "Swamp Traveler Cloak"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 18,
+      "strength": 4,
+      "dexterity": 7,
+      "constitution": 15,
+      "intelligence": 6
+    },
+    "hit_points": 10,
+    "tokenIdInt": 2654,
+    "background_story": "Current: Tasked with watching of Julian on a journey to the Coven after watching guard over Julian during Chen v King fight.\n\nSurvived the Final Battle in the War at the Church on the side of Bulwark.\n\nLittle else is known about 2654.. Their first public appearance was during the chase to retrieve the Jester’s wand.\n\nAffiliation: Darkblade Guild\nToken: Fetid's Crow Talon",
+    "experience_points": 300
+  },
+  "tokenId": "2654",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Swamp Traveler Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Her Illusionary Grace",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Pilgrim's Touch",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Darkblade's Beak",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Talon's Edge",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Fetid Crow's Talon",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Darkblade",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Current: Tasked with watching of Julian on a journey to the Coven after watching guard over Julian during Chen v King fight.\n\nSurvived the Final Battle in the War at the Church on the side of Bulwark.\n\nLittle else is known about 2654.. Their first public appearance was during the chase to retrieve the Jester’s wand.\n\nAffiliation: Darkblade Guild\nToken: Fetid's Crow Talon",
+  "external_url": "https://fateofwagdie.com/characters/2654",
+  "animation_url": "https://fateofwagdie.com/characters/2654/animated"
+}

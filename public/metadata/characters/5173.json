@@ -1,0 +1,94 @@
+{
+  "name": "Chicken Heart",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/5173.png",
+  "sheet": {
+    "name": "Chicken Heart",
+    "level": 4,
+    "origin": "Leeched Devotee",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Darkblade's Beak",
+      "armor": "Young Knight of Logun"
+    },
+    "attributes": {
+      "wisdom": 4,
+      "charisma": 6,
+      "strength": 6,
+      "dexterity": 5,
+      "constitution": 3,
+      "intelligence": 6
+    },
+    "hit_points": 7,
+    "tokenIdInt": 5173,
+    "background_story": "Chicken Heart\nchicken heart\nnothing but\na chicken fart",
+    "experience_points": 40
+  },
+  "tokenId": "5173",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Young Knight of Logun",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Leeched Devotee",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Swamp Tassels",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Darkblade's Beak",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Leeched Devotee",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Bastard Sword",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Chicken Heart\nchicken heart\nnothing but\na chicken fart",
+  "external_url": "https://fateofwagdie.com/characters/5173",
+  "animation_url": "https://fateofwagdie.com/characters/5173/animated"
+}

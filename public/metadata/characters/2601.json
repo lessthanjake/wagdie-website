@@ -1,0 +1,94 @@
+{
+  "name": "Brocc Murnig",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/2601.png",
+  "sheet": {
+    "name": "Brocc Murnig",
+    "level": 1,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Death Dealer's Choice"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 17,
+      "strength": 10,
+      "dexterity": 13,
+      "constitution": 16,
+      "intelligence": 13
+    },
+    "hit_points": 6,
+    "tokenIdInt": 2601,
+    "background_story": "\nBrocc was once a legendary hero known for his conquests of numerous dungeons, driven not by the desire for glory, but by a deeper quest for a peaceful life, much like the tranquil existences often depicted in isekai tales. He had settled into a serene routine, hoping to have left his adventurous past behind. \n\nHowever, the unsettling events at the Coven's Lair force him out of retirement. With the peace he cherishes at stake, Brocc must don his armor once more, stepping away from his idyllic respite. Reluctantly, he prepares to confront whatever darkness awaits, driven by the hope of returning to his tranquil life once the threat is vanquished.\n\nDied at the Coven's Lair seeking glory.",
+    "experience_points": 0
+  },
+  "tokenId": "2601",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Death Dealer's Choice",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Cursed Essence",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Worm Greatsword",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "\nBrocc was once a legendary hero known for his conquests of numerous dungeons, driven not by the desire for glory, but by a deeper quest for a peaceful life, much like the tranquil existences often depicted in isekai tales. He had settled into a serene routine, hoping to have left his adventurous past behind. \n\nHowever, the unsettling events at the Coven's Lair force him out of retirement. With the peace he cherishes at stake, Brocc must don his armor once more, stepping away from his idyllic respite. Reluctantly, he prepares to confront whatever darkness awaits, driven by the hope of returning to his tranquil life once the threat is vanquished.\n\nDied at the Coven's Lair seeking glory.",
+  "external_url": "https://fateofwagdie.com/characters/2601",
+  "animation_url": "https://fateofwagdie.com/characters/2601/animated"
+}

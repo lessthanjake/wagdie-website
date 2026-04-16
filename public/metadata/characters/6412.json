@@ -1,0 +1,94 @@
+{
+  "name": "We are All Going to Die #6412",
+  "image": "ipfs://bafkreiehbx6my7acfxhcmui4ybqwegtk7skhs6bla5squktbgnolwwwgiy",
+  "sheet": {
+    "name": "",
+    "level": 1,
+    "origin": "Pilgrim",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Logun's Decree"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 6412,
+    "background_story": "Three times nine girls, but one girl rode ahead,\nwhite-skinned under her helmet;\nthe horses were trembling, from their manes\ndew fell into the deep valleys,\nhail in the high woods;\ngood fortune comes to men from there.",
+    "experience_points": 0
+  },
+  "tokenId": "6412",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Decree",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zol's Elegance",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Three times nine girls, but one girl rode ahead,\nwhite-skinned under her helmet;\nthe horses were trembling, from their manes\ndew fell into the deep valleys,\nhail in the high woods;\ngood fortune comes to men from there.",
+  "external_url": "https://fateofwagdie.com/characters/6412",
+  "animation_url": "https://fateofwagdie.com/characters/6412/animated"
+}

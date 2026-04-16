@@ -1,0 +1,94 @@
+{
+  "name": "Bayliff",
+  "image": "ipfs://bafkreicranlzo7h5l55iq3pyeey7jf44zene5tkh7rhu5caidoq7kpojla",
+  "sheet": {
+    "name": "Bayliff",
+    "level": 1,
+    "origin": "Seeker of Piat",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Punished Shirt"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 15,
+      "strength": 14,
+      "dexterity": 7,
+      "constitution": 17,
+      "intelligence": 16
+    },
+    "hit_points": 6,
+    "tokenIdInt": 2459,
+    "background_story": "A laid back fellow who enjoys hanging around. But due to his immense strength, he is very confident and wields great authority. His mood can change quickly from angry to calm and vice versa.",
+    "experience_points": 0
+  },
+  "tokenId": "2459",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Punished Shirt",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Noble's Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A laid back fellow who enjoys hanging around. But due to his immense strength, he is very confident and wields great authority. His mood can change quickly from angry to calm and vice versa.",
+  "external_url": "https://fateofwagdie.com/characters/2459",
+  "animation_url": "https://fateofwagdie.com/characters/2459/animated"
+}

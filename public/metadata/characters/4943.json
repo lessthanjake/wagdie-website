@@ -1,0 +1,94 @@
+{
+  "name": "Bing Boffling",
+  "image": "ipfs://bafkreif2bbvofyy6xfa3vrx7rrw2kfku3bifjvk65ucmvx7ncec4qvzpey",
+  "sheet": {
+    "name": "Bing Boffling",
+    "level": 1,
+    "origin": "Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "None",
+      "armor": "Her Pathetic Waste"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 15,
+      "strength": 11,
+      "dexterity": 14,
+      "constitution": 10,
+      "intelligence": 15
+    },
+    "hit_points": 8,
+    "tokenIdInt": 4943,
+    "background_story": "No, I am not related to King Offling. Why do people keep asking that?",
+    "experience_points": 0
+  },
+  "tokenId": "4943",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Pathetic Waste",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit's Claim",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No, I am not related to King Offling. Why do people keep asking that?",
+  "external_url": "https://fateofwagdie.com/characters/4943",
+  "animation_url": "https://fateofwagdie.com/characters/4943/animated"
+}

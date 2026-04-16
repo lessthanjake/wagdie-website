@@ -1,0 +1,94 @@
+{
+  "name": "Cherel Ixion",
+  "image": "ipfs://bafkreiekrzmlqo5gu7yjzsegwhdkpcsqnksdmelke6sasvq2xvrt36f7e4",
+  "sheet": {
+    "name": "Cherel Ixion",
+    "level": 5,
+    "origin": "Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "Removal's Kin",
+      "armor": "Champion of Logun"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 15,
+      "strength": 14,
+      "dexterity": 18,
+      "constitution": 11,
+      "intelligence": 16
+    },
+    "hit_points": 16,
+    "tokenIdInt": 5863,
+    "background_story": "Growing up in the streets of Grabisco, Cherel was a bit of a scoundrel and a pickpocket. He eventually got caught and sent to the Prince’s Jail. While there, he met a priest of Ixion who took him under his wing and taught him how to serve the deity. Now, his life is dedicated to preaching the word of Ixion. He hopes to become a priest himself and to spread the word of Ixion.\n\nCherel is a free spirit, but he has a knack for getting into trouble. He is calm under pressure and relies upon his friends to pull him out of difficult situations. When he’s on a mission, he becomes devoted to the task at hand. He is a terrible liar and can’t hide his emotions.",
+    "experience_points": 0
+  },
+  "tokenId": "5863",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Champion of Logun",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Void",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Feeble Spikes",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Removal's Kin",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Growing up in the streets of Grabisco, Cherel was a bit of a scoundrel and a pickpocket. He eventually got caught and sent to the Prince’s Jail. While there, he met a priest of Ixion who took him under his wing and taught him how to serve the deity. Now, his life is dedicated to preaching the word of Ixion. He hopes to become a priest himself and to spread the word of Ixion.\n\nCherel is a free spirit, but he has a knack for getting into trouble. He is calm under pressure and relies upon his friends to pull him out of difficult situations. When he’s on a mission, he becomes devoted to the task at hand. He is a terrible liar and can’t hide his emotions.",
+  "external_url": "https://fateofwagdie.com/characters/5863",
+  "animation_url": "https://fateofwagdie.com/characters/5863/animated"
+}

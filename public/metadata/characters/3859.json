@@ -1,0 +1,94 @@
+{
+  "name": "The Opportunist",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/3859.png",
+  "sheet": {
+    "name": "The Opportunist",
+    "level": 1,
+    "origin": "Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Darkblade's Beak",
+      "armor": "Punished Shirt"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 11,
+      "strength": 15,
+      "dexterity": 11,
+      "constitution": 13,
+      "intelligence": 17
+    },
+    "hit_points": 5,
+    "tokenIdInt": 3859,
+    "background_story": "During the Battle of the church, \"The Opportunist\" was last seen on a hill, selling rocks purportedly related to the one that caused Detriti's demise.\n\nAs the final battle approaches, The Opportunist, true to form, positions himself where business thrives, even amidst the climactic clash. He is certain that even in these dire times, there are profits to be seized.\n\nAfter meeting with his master \"the Black Scryer\" he decided to sear an item to be prepare for the battle ahead.\n\nDied at the Coven's Lair\n\n\n\n\n\n",
+    "experience_points": 0
+  },
+  "tokenId": "3859",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Punished Shirt",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Earth Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Darkblade's Beak",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Worm Greatsword",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "During the Battle of the church, \"The Opportunist\" was last seen on a hill, selling rocks purportedly related to the one that caused Detriti's demise.\n\nAs the final battle approaches, The Opportunist, true to form, positions himself where business thrives, even amidst the climactic clash. He is certain that even in these dire times, there are profits to be seized.\n\nAfter meeting with his master \"the Black Scryer\" he decided to sear an item to be prepare for the battle ahead.\n\nDied at the Coven's Lair\n\n\n\n\n\n",
+  "external_url": "https://fateofwagdie.com/characters/3859",
+  "animation_url": "https://fateofwagdie.com/characters/3859/animated"
+}

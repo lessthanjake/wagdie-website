@@ -1,0 +1,94 @@
+{
+  "name": "Lysander Victor Dracula",
+  "image": "ipfs://bafkreifwgpstavewno3fvsiy4vlv6vgypohdvl5evpa5gxfujsosq54hgu",
+  "sheet": {
+    "name": "Lysander Victor Dracula",
+    "level": 1,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Nameless One's Blessing",
+      "mask": "Noxium Death Cage",
+      "armor": "Young Knight of Logun"
+    },
+    "attributes": {
+      "wisdom": 9,
+      "charisma": 2,
+      "strength": 12,
+      "dexterity": 13,
+      "constitution": 7,
+      "intelligence": 4
+    },
+    "hit_points": 7,
+    "tokenIdInt": 4764,
+    "background_story": "On one unfaithful night, Esmeralde Dracula copulated with a pig corpse. Later giving birth to the abomination that we all know today as Lysander Victor. \n\nKilling his Birthmother on exit, feeding of her blood he quickly grew strong and agile!\n\nSurviving in the wild off buck and boar until joining the Brotherhood of Bloodfeeders.",
+    "experience_points": 0
+  },
+  "tokenId": "4764",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Young Knight of Logun",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Nameless One's Blessing",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Altered",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Pilgrim's Touch",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Noxium Death Cage",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "On one unfaithful night, Esmeralde Dracula copulated with a pig corpse. Later giving birth to the abomination that we all know today as Lysander Victor. \n\nKilling his Birthmother on exit, feeding of her blood he quickly grew strong and agile!\n\nSurviving in the wild off buck and boar until joining the Brotherhood of Bloodfeeders.",
+  "external_url": "https://fateofwagdie.com/characters/4764",
+  "animation_url": "https://fateofwagdie.com/characters/4764/animated"
+}

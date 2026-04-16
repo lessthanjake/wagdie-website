@@ -1,0 +1,94 @@
+{
+  "name": "Chad \"The Muscle Mage\" Martin",
+  "image": "ipfs://bafkreieundlyms3eb77hxajshs5miq2rrmsb2kcipjydzhzjoh7raw4xze",
+  "sheet": {
+    "name": "Chad \"The Muscle Mage\" Martin",
+    "level": 1,
+    "origin": "Seeker of Piat",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 3242,
+    "background_story": "Chad \"The Muscle Mage\" Martin was once just a nerdy wizard, until he discovered the power of lifting weights and protein shakes. Now, he's so buff, he can cast spells just by flexing.",
+    "experience_points": 0
+  },
+  "tokenId": "3242",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "None",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Straw",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Chad \"The Muscle Mage\" Martin was once just a nerdy wizard, until he discovered the power of lifting weights and protein shakes. Now, he's so buff, he can cast spells just by flexing.",
+  "external_url": "https://fateofwagdie.com/characters/3242",
+  "animation_url": "https://fateofwagdie.com/characters/3242/animated"
+}

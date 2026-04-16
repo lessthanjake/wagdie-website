@@ -1,0 +1,94 @@
+{
+  "name": "Urmenos",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/1952.png",
+  "sheet": {
+    "name": "Urmenos",
+    "level": 5,
+    "origin": "Old Pilgrim",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "He Who Does Not See",
+      "armor": "Peasant Garb"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 13,
+      "strength": 10,
+      "dexterity": 17,
+      "constitution": 12,
+      "intelligence": 5
+    },
+    "hit_points": 8,
+    "tokenIdInt": 1952,
+    "background_story": "In desperation a father begged the darkness for his son's life, decay responded and the boy was given a new life, literally.\nThe strength of two souls restored the damaged body, but the vile energy of alien wills and faiths unleashed an internal struggle and a gradual corruption that no one should have lived through.\nUncertainty, revenge and fear drive the blade of a new chaos.",
+    "experience_points": 10
+  },
+  "tokenId": "1952",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Peasant Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Altered",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Old Pilgrim",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Feeble Spikes",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "He Who Does Not See",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Old Pilgrim",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Makeshift Polearm",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Encampment Medallion",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Encampment Militia",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "In desperation a father begged the darkness for his son's life, decay responded and the boy was given a new life, literally.\nThe strength of two souls restored the damaged body, but the vile energy of alien wills and faiths unleashed an internal struggle and a gradual corruption that no one should have lived through.\nUncertainty, revenge and fear drive the blade of a new chaos.",
+  "external_url": "https://fateofwagdie.com/characters/1952",
+  "animation_url": "https://fateofwagdie.com/characters/1952/animated"
+}

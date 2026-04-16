@@ -1,0 +1,94 @@
+{
+  "name": "Chane, Darkblade Assassin",
+  "image": "ipfs://bafkreihxsiga3wruy43uza6abnfwizglxnwsc5h3xqqrwwd3okg3cvrjh4",
+  "sheet": {
+    "name": "Chane, Darkblade Assassin",
+    "level": 1,
+    "origin": "Pilgrim of the Lakes",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "Darkblade's Beak",
+      "armor": "Bandit's Garb"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 11,
+      "strength": 13,
+      "dexterity": 18,
+      "constitution": 8,
+      "intelligence": 15
+    },
+    "hit_points": 7,
+    "tokenIdInt": 5547,
+    "background_story": "The son of a Bandit Lord, Chane was tasked by his father to spy on his own men at the ripe age of 6. Lurking the discord of camp became his specialty.\n\nUnlike his father, he was never interested in chasing power or coin but took a particular liking to the dagger and blade.\n\nA chance encounter in the northern kingdom lead him down the path of chaos, and the law of the Darkblade...",
+    "experience_points": 0
+  },
+  "tokenId": "5547",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Bandit's Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Discipline Helm Hair",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Darkblade's Beak",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The son of a Bandit Lord, Chane was tasked by his father to spy on his own men at the ripe age of 6. Lurking the discord of camp became his specialty.\n\nUnlike his father, he was never interested in chasing power or coin but took a particular liking to the dagger and blade.\n\nA chance encounter in the northern kingdom lead him down the path of chaos, and the law of the Darkblade...",
+  "external_url": "https://fateofwagdie.com/characters/5547",
+  "animation_url": "https://fateofwagdie.com/characters/5547/animated"
+}

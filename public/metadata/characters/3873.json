@@ -1,0 +1,94 @@
+{
+  "name": "Mystical Stranger",
+  "image": "ipfs://bafkreickv65kmajmyre4ai6r5y5f56irdvitx3prikeeqwm4o5pqedtfx4",
+  "sheet": {
+    "name": "Mystical Stranger",
+    "level": 1,
+    "origin": "Simple Vagabond",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Goddess of Vision",
+      "armor": "Her Zealot's Gear"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 3873,
+    "background_story": "As the Blood Moon draws near, an unknown Pilgrim with apparent mystical abilities has come though the Void and arrived in hiding at the Cairn of the Leorn. Rumors have it that this Pilgrim somehow went through the Void to where the Lorn were in a past cycle. There, he learned of their true mission! Sworn to secrecy, he lost his eyesight and a magical helm was put upon his head and eyes, giving him great powers. He lays in wait at the Cairn, ready to complete his mission.",
+    "experience_points": 0
+  },
+  "tokenId": "3873",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Zealot's Gear",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Noble's Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Goddess of Vision",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "As the Blood Moon draws near, an unknown Pilgrim with apparent mystical abilities has come though the Void and arrived in hiding at the Cairn of the Leorn. Rumors have it that this Pilgrim somehow went through the Void to where the Lorn were in a past cycle. There, he learned of their true mission! Sworn to secrecy, he lost his eyesight and a magical helm was put upon his head and eyes, giving him great powers. He lays in wait at the Cairn, ready to complete his mission.",
+  "external_url": "https://fateofwagdie.com/characters/3873",
+  "animation_url": "https://fateofwagdie.com/characters/3873/animated"
+}

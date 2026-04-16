@@ -1,0 +1,94 @@
+{
+  "name": "Honoring Kings Cabane",
+  "image": "ipfs://bafkreihj74ji7y5t2ytlaoogkfsbxzd4dwk6q3qctuajihxedrpz6zwbwa",
+  "sheet": {
+    "name": "Honoring Kings Cabane",
+    "level": 1,
+    "origin": "Her Lover",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "None",
+      "armor": "Tunic of Yore"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 6299,
+    "background_story": "King's Cabane dans la Broceliande has been completed and paid for! A sacrifical burn has been made in his honor! ",
+    "experience_points": 0
+  },
+  "tokenId": "6299",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Tunic of Yore",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit's Claim",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "King's Cabane dans la Broceliande has been completed and paid for! A sacrifical burn has been made in his honor! ",
+  "external_url": "https://fateofwagdie.com/characters/6299",
+  "animation_url": "https://fateofwagdie.com/characters/6299/animated"
+}

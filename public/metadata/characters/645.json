@@ -1,0 +1,82 @@
+{
+  "name": "Knight of Despair",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/645.png",
+  "sheet": {
+    "name": "Knight of Despair",
+    "level": 2,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Yogg's Love",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 14,
+      "strength": 11,
+      "dexterity": 6,
+      "constitution": 17,
+      "intelligence": 13
+    },
+    "hit_points": 10,
+    "tokenIdInt": 645,
+    "background_story": "Current: Survived first battle, entering final at the church.\n\nCaptivated by the berserker from Mt. Turlo known as Elise, the Knight of Despair engaged Merlin with a desperate request after witnessing her being slain in the Festival Tournament. \n\nWith his new form, Knight of Despair hopes to converse with Elise as well as escape the torments of the Moon.. \n\nNone of this however detours him from his main quest.. Seeking Zo.",
+    "experience_points": 300
+  },
+  "tokenId": "645",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Painless Worshipper",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Yogg's Love",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Painless Worshipper",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Artificer's Sight",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Artificer's Crystal",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Artificers",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Current: Survived first battle, entering final at the church.\n\nCaptivated by the berserker from Mt. Turlo known as Elise, the Knight of Despair engaged Merlin with a desperate request after witnessing her being slain in the Festival Tournament. \n\nWith his new form, Knight of Despair hopes to converse with Elise as well as escape the torments of the Moon.. \n\nNone of this however detours him from his main quest.. Seeking Zo.",
+  "external_url": "https://fateofwagdie.com/characters/645",
+  "animation_url": "https://fateofwagdie.com/characters/645/animated"
+}

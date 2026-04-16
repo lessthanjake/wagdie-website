@@ -4,7 +4,8 @@
  * Uses repository layer for data access (dependency injection)
  */
 
-import { characterRepository, type ICharacterRepository } from '../repositories'
+import type { ICharacterRepository } from '../repositories'
+import { serverCharacterRepository } from '../repositories/character-repository.server'
 import type { Character, CharacterFilters, CharactersResponse, CharacterConcord, Concord, EditableCharacterFields } from '@/types/character'
 
 /**
@@ -64,7 +65,7 @@ export class CharacterService {
 }
 
 // Export singleton instance
-export const characterService = new CharacterService(characterRepository)
+export const characterService = new CharacterService(serverCharacterRepository)
 
 // Export individual functions for backward compatibility
 export const getCharacters = (filters: CharacterFilters) => characterService.getCharacters(filters)

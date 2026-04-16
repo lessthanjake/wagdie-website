@@ -1,0 +1,94 @@
+{
+  "name": "Argyle Windthrope",
+  "image": "ipfs://bafkreidloczlfu74svjxg7orsbr6p7mk4lbtdt4z6aan5hsqb24qlghguy",
+  "sheet": {
+    "name": "Argyle Windthrope",
+    "level": 3,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Favor",
+      "mask": "None",
+      "armor": "Her Zealot's Gear"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 20,
+      "strength": 9,
+      "dexterity": 18,
+      "constitution": 13,
+      "intelligence": 16
+    },
+    "hit_points": 11,
+    "tokenIdInt": 436,
+    "background_story": "self-styled as \"The Unofficial Prince of Commerce,\" reigns over the marketplace with the flamboyance of a nobleman, yet without a single drop of blue blood in his veins. Born to a once-prosperous merchant family, Argyle's fortunes dipped, but his flair for dramatic leadership did not. In his lush, though somewhat worn, velvet coat, he commands the trading stalls like a tiny kingdom, earning both chuckles and loyalty from the townsfolk. Despite his lofty airs, Argyle is determined to restore his family's legacy and often finds himself tangled in the absurdities of trade wars and merchant squabbles, wielding his ledger book as if it were a royal scepter.",
+    "experience_points": 30
+  },
+  "tokenId": "436",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Zealot's Gear",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Favor",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "More Envious Locks",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "self-styled as \"The Unofficial Prince of Commerce,\" reigns over the marketplace with the flamboyance of a nobleman, yet without a single drop of blue blood in his veins. Born to a once-prosperous merchant family, Argyle's fortunes dipped, but his flair for dramatic leadership did not. In his lush, though somewhat worn, velvet coat, he commands the trading stalls like a tiny kingdom, earning both chuckles and loyalty from the townsfolk. Despite his lofty airs, Argyle is determined to restore his family's legacy and often finds himself tangled in the absurdities of trade wars and merchant squabbles, wielding his ledger book as if it were a royal scepter.",
+  "external_url": "https://fateofwagdie.com/characters/436",
+  "animation_url": "https://fateofwagdie.com/characters/436/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "L.E.W.I.S. the Automaton",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/6071.png",
+  "sheet": {
+    "name": "L.E.W.I.S. the Automaton",
+    "level": 1,
+    "origin": "Simple Vagabond",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Seal of the Righteous",
+      "armor": "Worm's Protection"
+    },
+    "attributes": {
+      "wisdom": 5,
+      "charisma": 20,
+      "strength": 15,
+      "dexterity": 8,
+      "constitution": 17,
+      "intelligence": 20
+    },
+    "hit_points": 50,
+    "tokenIdInt": 6071,
+    "background_story": "Programmed as a \"Labor and Energy Workforce Improvement System\", L.E.W.I.S. was created to serve royal houses during the early cycles. \n\nAt some point, it accompanied its master to the Catacombs for the cyclical advent of Searing upon which the two became separated. \n\nWithout directive, L.E.W.I.S. traversed the breadth of the Catacombs until his power source expired, his defunct form joining the slew of sear-heads and other unfortunate travelers in littering the underground halls. \n\nIn the 18th cycle, L.E.W.I.S. was rebooted through the searing power of \"Her Ember\", whereupon he immediately latched upon the searer, guiding him through the vast underpass of the depths. \n\nWhen Axan located the pair, L.E.W.I.S did not hesitate, ambushing the berserker before the three engaged in combat, an altercation that eventually led to his demise. \n\n❯ ꜱᴛᴀᴛᴜꜱ ᴄʜᴇᴄᴋ\n❯ ᴅᴀᴛᴀ ʀᴇᴛʀɪᴇᴠᴇᴅ\n\nᴘᴏᴡᴇʀ ꜱᴏᴜʀᴄᴇ ɪᴅᴇɴᴛɪfɪᴇᴅ...\nꜱʏꜱᴛᴇᴍꜱ ʀᴇʙᴏᴏᴛɪɴG...\n\n❯ ᴇɴᴅ",
+    "experience_points": 0
+  },
+  "tokenId": "6071",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm's Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Seal of the Righteous",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Her Ember",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Her Ember",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Bonfire",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Programmed as a \"Labor and Energy Workforce Improvement System\", L.E.W.I.S. was created to serve royal houses during the early cycles. \n\nAt some point, it accompanied its master to the Catacombs for the cyclical advent of Searing upon which the two became separated. \n\nWithout directive, L.E.W.I.S. traversed the breadth of the Catacombs until his power source expired, his defunct form joining the slew of sear-heads and other unfortunate travelers in littering the underground halls. \n\nIn the 18th cycle, L.E.W.I.S. was rebooted through the searing power of \"Her Ember\", whereupon he immediately latched upon the searer, guiding him through the vast underpass of the depths. \n\nWhen Axan located the pair, L.E.W.I.S did not hesitate, ambushing the berserker before the three engaged in combat, an altercation that eventually led to his demise. \n\n❯ ꜱᴛᴀᴛᴜꜱ ᴄʜᴇᴄᴋ\n❯ ᴅᴀᴛᴀ ʀᴇᴛʀɪᴇᴠᴇᴅ\n\nᴘᴏᴡᴇʀ ꜱᴏᴜʀᴄᴇ ɪᴅᴇɴᴛɪfɪᴇᴅ...\nꜱʏꜱᴛᴇᴍꜱ ʀᴇʙᴏᴏᴛɪɴG...\n\n❯ ᴇɴᴅ",
+  "external_url": "https://fateofwagdie.com/characters/6071",
+  "animation_url": "https://fateofwagdie.com/characters/6071/animated"
+}

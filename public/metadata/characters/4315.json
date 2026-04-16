@@ -1,0 +1,94 @@
+{
+  "name": "Blinded By the Light",
+  "image": "ipfs://bafkreifauzp5aqzadc7ag4ax47uhugf4mulqx2elf6kl2uwopq4abpwyiq",
+  "sheet": {
+    "name": "Blinded By the Light",
+    "level": 20,
+    "origin": "Foolish Jester",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "None",
+      "armor": "Garolin Tunic"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 30,
+      "strength": 30,
+      "dexterity": 30,
+      "constitution": 30,
+      "intelligence": 30
+    },
+    "hit_points": 100,
+    "tokenIdInt": 4315,
+    "background_story": "Blinded by the light\nRevved up like a deuce\nAnother runner in the night\nBlinded by the light\nRevved up like a deuce\nAnother runner in the night\nBlinded by the light\nRevved up like a deuce\nAnother runner in the night",
+    "experience_points": 355000
+  },
+  "tokenId": "4315",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Garolin Tunic",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Blinded by the light\nRevved up like a deuce\nAnother runner in the night\nBlinded by the light\nRevved up like a deuce\nAnother runner in the night\nBlinded by the light\nRevved up like a deuce\nAnother runner in the night",
+  "external_url": "https://fateofwagdie.com/characters/4315",
+  "animation_url": "https://fateofwagdie.com/characters/4315/animated"
+}

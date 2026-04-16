@@ -1,0 +1,94 @@
+{
+  "name": "Sicculus the Blind",
+  "image": "ipfs://bafkreigmtuhg6lozfynsnxgeuvyadedpcpyfj4kldzld6ug3ubf6ld7nne",
+  "sheet": {
+    "name": "Sicculus the Blind",
+    "level": 2,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Goddess of Vision",
+      "armor": "Journeyman Tunic"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 16,
+      "strength": 13,
+      "dexterity": 12,
+      "constitution": 15,
+      "intelligence": 14
+    },
+    "hit_points": 10,
+    "tokenIdInt": 4004,
+    "background_story": "Current: On behalf of Gunther goes to explore The Church with the other Lost Pilgrims. Went to Agora, unlike other party members. Survived first, entering final.\n\nJoined Wolf's party to represent his banner in Questing, Tournaments, Events.",
+    "experience_points": 300
+  },
+  "tokenId": "4004",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Journeyman Tunic",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Luta's Firey Bangs",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Goddess of Vision",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Current: On behalf of Gunther goes to explore The Church with the other Lost Pilgrims. Went to Agora, unlike other party members. Survived first, entering final.\n\nJoined Wolf's party to represent his banner in Questing, Tournaments, Events.",
+  "external_url": "https://fateofwagdie.com/characters/4004",
+  "animation_url": "https://fateofwagdie.com/characters/4004/animated"
+}

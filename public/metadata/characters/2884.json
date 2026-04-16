@@ -1,0 +1,93 @@
+{
+  "name": "infected.16",
+  "image": "ipfs://bafkreif2nv2ebhgh266bspr7rzcktgjm23ukp3mmvmmosm3be5g5piqnxa",
+  "sheet": {
+    "name": "infected.16",
+    "level": 1,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Wormlord Curse",
+      "armor": "Death Dealer's Choice"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 11,
+      "strength": 13,
+      "dexterity": 14,
+      "constitution": 15,
+      "intelligence": 10
+    },
+    "hit_points": 6,
+    "tokenIdInt": 2884,
+    "experience_points": 0
+  },
+  "tokenId": "2884",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Death Dealer's Choice",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Feeble Spikes",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wormlord Curse",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/2884",
+  "animation_url": "https://fateofwagdie.com/characters/2884/animated"
+}

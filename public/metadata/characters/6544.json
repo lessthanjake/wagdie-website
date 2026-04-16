@@ -1,0 +1,94 @@
+{
+  "name": "Seebo Garrick",
+  "image": "ipfs://bafkreifu7u2wwif7xsk7dtmwqrauqvvncl4uc7cgv6ckjlwxt6bjkqxaay",
+  "sheet": {
+    "name": "Seebo Garrick",
+    "level": 2,
+    "origin": "Her Hidden Blade",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Noxian Jester Garb"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 9,
+      "strength": 11,
+      "dexterity": 10,
+      "constitution": 8,
+      "intelligence": 16
+    },
+    "hit_points": 8,
+    "tokenIdInt": 6544,
+    "background_story": "Current: Survived 1st, entering Final Battle at the Church\n\nLaughter's apprentice, joining the Bulwark of the Serpent in honor of Julian.",
+    "experience_points": 300
+  },
+  "tokenId": "6544",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Noxian Jester Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Noxian Tint",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Current: Survived 1st, entering Final Battle at the Church\n\nLaughter's apprentice, joining the Bulwark of the Serpent in honor of Julian.",
+  "external_url": "https://fateofwagdie.com/characters/6544",
+  "animation_url": "https://fateofwagdie.com/characters/6544/animated"
+}

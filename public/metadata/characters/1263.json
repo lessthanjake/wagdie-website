@@ -1,0 +1,93 @@
+{
+  "name": "Biri Shestendeliath",
+  "image": "ipfs://bafkreifupg35ivczlivcztelyaps5etxvmybdcarqq32snmzg3fietaiv4",
+  "sheet": {
+    "name": "Biri Shestendeliath",
+    "level": 1,
+    "origin": "Wormlord Acolyte",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Favor",
+      "mask": "None",
+      "armor": "Logun's Pauldrons"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 12,
+      "strength": 10,
+      "dexterity": 6,
+      "constitution": 14,
+      "intelligence": 5
+    },
+    "hit_points": 8,
+    "tokenIdInt": 1263,
+    "experience_points": 0
+  },
+  "tokenId": "1263",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Pauldrons",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Favor",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Envious Locks",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/1263",
+  "animation_url": "https://fateofwagdie.com/characters/1263/animated"
+}

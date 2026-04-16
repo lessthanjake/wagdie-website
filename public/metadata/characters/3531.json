@@ -1,0 +1,94 @@
+{
+  "name": "Sir Thistlebane",
+  "image": "ipfs://bafkreigp6d6y3cmpemlclxwau7c2jjwiiue7djts5xyuo2xi7lmmbzok6u",
+  "sheet": {
+    "name": "Sir Thistlebane",
+    "level": 1,
+    "origin": "Seeker of Piat",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Solar Champion's Helm",
+      "armor": "Young Knight of Logun"
+    },
+    "attributes": {
+      "wisdom": 1,
+      "charisma": 0,
+      "strength": 4,
+      "dexterity": 3,
+      "constitution": 1,
+      "intelligence": 2
+    },
+    "hit_points": 6,
+    "tokenIdInt": 3531,
+    "background_story": "#TeamAgora, #Loyalist, #Survivor, #Wormkiller, #Steponsnek\n\nVanguard of the Holy Catapult.",
+    "experience_points": 30
+  },
+  "tokenId": "3531",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Young Knight of Logun",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Solar Champion's Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "#TeamAgora, #Loyalist, #Survivor, #Wormkiller, #Steponsnek\n\nVanguard of the Holy Catapult.",
+  "external_url": "https://fateofwagdie.com/characters/3531",
+  "animation_url": "https://fateofwagdie.com/characters/3531/animated"
+}

@@ -1,0 +1,78 @@
+{
+  "name": "Fly Lord Beelzus",
+  "image": "ipfs://bafkreicbig33s6qqxbt2bbgeqzdkccjw6y335mdsiloetl3tjowfrdwesi",
+  "sheet": {
+    "name": "Fly Lord Beelzus",
+    "level": 20,
+    "origin": "Fly Lord Beelzus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Smiling Witness to All",
+      "armor": "Zaban Explorer Garb"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 30,
+      "strength": 30,
+      "dexterity": 30,
+      "constitution": 30,
+      "intelligence": 30
+    },
+    "hit_points": 100,
+    "tokenIdInt": 6024,
+    "background_story": "\nFly Lord Beelzus discovered Grem's offering within a machine in the scrap yards of X23494's Dark Forest.\n\nConsuming it, Beelzus' body rotted and was consumed by the power of the Fly. His head saw the full vision and beauty of Grem's wound... The eternal festering beauty drew him in unlike any other. His body reduced to bone, his head grew appendages granted with new powers and strength.\n\nThe flies hungered... his children needed more. The Dark Forest's entire expanse... said to be unknowably large... was consumed in a mere 10,000 years... With each corpse corrupted by his rotting magic, a thousand more flies were born.\n\nAs Beelzus exited the Dark Forest, he found a strange tattered cloak... as if a direct gift from Lord Grem himself... Donning the cloak, his hunger faded and his intellect returned. He became obsessed with the experimentation of the flesh and to discover new forms of being that only Grem's pus could bring to life.\n\nAt the opening of the portal, Beelzus was eager to learn more about the worlds beyond X23494, regardless of his ultimate fate...",
+    "experience_points": 355000
+  },
+  "tokenId": "6024",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Fly Lord Beelzus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Gremplin 1/1",
+      "trait_type": "Portal of Grem"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Fly Lord Beelzus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "\nFly Lord Beelzus discovered Grem's offering within a machine in the scrap yards of X23494's Dark Forest.\n\nConsuming it, Beelzus' body rotted and was consumed by the power of the Fly. His head saw the full vision and beauty of Grem's wound... The eternal festering beauty drew him in unlike any other. His body reduced to bone, his head grew appendages granted with new powers and strength.\n\nThe flies hungered... his children needed more. The Dark Forest's entire expanse... said to be unknowably large... was consumed in a mere 10,000 years... With each corpse corrupted by his rotting magic, a thousand more flies were born.\n\nAs Beelzus exited the Dark Forest, he found a strange tattered cloak... as if a direct gift from Lord Grem himself... Donning the cloak, his hunger faded and his intellect returned. He became obsessed with the experimentation of the flesh and to discover new forms of being that only Grem's pus could bring to life.\n\nAt the opening of the portal, Beelzus was eager to learn more about the worlds beyond X23494, regardless of his ultimate fate...",
+  "external_url": "https://fateofwagdie.com/characters/6024",
+  "animation_url": "https://fateofwagdie.com/characters/6024/animated"
+}

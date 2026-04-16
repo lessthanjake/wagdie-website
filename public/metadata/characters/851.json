@@ -1,0 +1,94 @@
+{
+  "name": "Iris Nightveil",
+  "image": "ipfs://bafkreiacan7y5qj3beamccb47var3rukkaxxlpo3nwa7pqakw5sqdxtvlm",
+  "sheet": {
+    "name": "Iris Nightveil",
+    "level": 5,
+    "origin": "Wormkin Elite",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "Death Smelt Hat",
+      "armor": "Tunic of Yore"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 9,
+      "strength": 13,
+      "dexterity": 18,
+      "constitution": 12,
+      "intelligence": 14
+    },
+    "hit_points": 9,
+    "tokenIdInt": 851,
+    "background_story": "Eldest sister of famed landscape artist Violet Nightveil, and expert bog-hunter, Iris grew up in The Swamps of Detriti alongside her younger sibling; the two dubbed “Flowers of the Swamp”  by the locals.\n\nAlthough similar in appearance, Iris and Violet were quite opposite. Iris valued archery, hunting, and using swamp herbs for dark rituals. She had a strong competitive streak within her that pushed her to both excellence and cruelty. In contrast with her sister’s love for the tranquility of art, Iris found no joy in such subjective pleasures; she craved the acuity of battle.\n\nIris would often steal her sister’s paintings to use as target practice. The detailed landscapes gave her a challenge, and a unique perception of perspective, as she ripped them to shreds with practice arrows. If a Violet Nightveil original is hard to come by, Iris is most certainly the reason why.\n\nCurrently, Iris is on a mission to prove she is the best archer in The Forsaken Lands.\n\nViolet has seldom commented on her sister.\nTheir relationship is very tense.",
+    "experience_points": 90
+  },
+  "tokenId": "851",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Tunic of Yore",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zaban Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Death Smelt Hat",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Witch",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Eldest sister of famed landscape artist Violet Nightveil, and expert bog-hunter, Iris grew up in The Swamps of Detriti alongside her younger sibling; the two dubbed “Flowers of the Swamp”  by the locals.\n\nAlthough similar in appearance, Iris and Violet were quite opposite. Iris valued archery, hunting, and using swamp herbs for dark rituals. She had a strong competitive streak within her that pushed her to both excellence and cruelty. In contrast with her sister’s love for the tranquility of art, Iris found no joy in such subjective pleasures; she craved the acuity of battle.\n\nIris would often steal her sister’s paintings to use as target practice. The detailed landscapes gave her a challenge, and a unique perception of perspective, as she ripped them to shreds with practice arrows. If a Violet Nightveil original is hard to come by, Iris is most certainly the reason why.\n\nCurrently, Iris is on a mission to prove she is the best archer in The Forsaken Lands.\n\nViolet has seldom commented on her sister.\nTheir relationship is very tense.",
+  "external_url": "https://fateofwagdie.com/characters/851",
+  "animation_url": "https://fateofwagdie.com/characters/851/animated"
+}

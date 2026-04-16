@@ -1,0 +1,94 @@
+{
+  "name": "We are All Going to Die #3026",
+  "image": "ipfs://bafkreicfjicgoymjwoww2w4ti65a2uc466jsuoyruf4wuuct7nwc6iruau",
+  "sheet": {
+    "name": "",
+    "level": 1,
+    "origin": "Young Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "None",
+      "armor": "Verite Protection"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 10,
+      "strength": 10,
+      "dexterity": 15,
+      "constitution": 10,
+      "intelligence": 13
+    },
+    "hit_points": 7,
+    "tokenIdInt": 3026,
+    "background_story": "Erdan grew up in a small troop of rangers but has always dreamed of traveling the world and seeing many of its wondrous sights.\n\nHe's often heard tales of The Wound and though he grasps the history of the place cannot fathom a crater as large as it's claimed to be, and so hopes to visit it himself one day.\n\nErdan Chernin ventured to The Southern Plains and discovered the teachings of Logun the Druid. Through awareness of The One, he shed his name and entered The Pyre.",
+    "experience_points": 0
+  },
+  "tokenId": "3026",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Verite Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Noxian Tint",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Erdan grew up in a small troop of rangers but has always dreamed of traveling the world and seeing many of its wondrous sights.\n\nHe's often heard tales of The Wound and though he grasps the history of the place cannot fathom a crater as large as it's claimed to be, and so hopes to visit it himself one day.\n\nErdan Chernin ventured to The Southern Plains and discovered the teachings of Logun the Druid. Through awareness of The One, he shed his name and entered The Pyre.",
+  "external_url": "https://fateofwagdie.com/characters/3026",
+  "animation_url": "https://fateofwagdie.com/characters/3026/animated"
+}

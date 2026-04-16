@@ -1,0 +1,94 @@
+{
+  "name": "Portia Underbough",
+  "image": "ipfs://bafkreibhumefzwgqcn73vxx7xqw2h3ojx7q5ugdkpzky4cqgouyyope4fe",
+  "sheet": {
+    "name": "Portia Underbough",
+    "level": 1,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "None",
+      "armor": "Young Knight of Logun"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 17,
+      "strength": 15,
+      "dexterity": 16,
+      "constitution": 17,
+      "intelligence": 11
+    },
+    "hit_points": 11,
+    "tokenIdInt": 6367,
+    "background_story": "Portia is a joyless soul whose apathy for life is matched only by her proficiency in almost all aspects of it. She is adept at combat and study, but finds no purpose in either.\n\nShe longs for death, but will not let it come unnaturally. So, she listlessly journeys across The Forsaken Lands hoping that some challenge may one day fell her.",
+    "experience_points": 0
+  },
+  "tokenId": "6367",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Young Knight of Logun",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Portia is a joyless soul whose apathy for life is matched only by her proficiency in almost all aspects of it. She is adept at combat and study, but finds no purpose in either.\n\nShe longs for death, but will not let it come unnaturally. So, she listlessly journeys across The Forsaken Lands hoping that some challenge may one day fell her.",
+  "external_url": "https://fateofwagdie.com/characters/6367",
+  "animation_url": "https://fateofwagdie.com/characters/6367/animated"
+}

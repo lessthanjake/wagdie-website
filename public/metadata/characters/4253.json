@@ -1,0 +1,94 @@
+{
+  "name": "Leshanna Huang",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/4253.png",
+  "sheet": {
+    "name": "Leshanna Huang",
+    "level": 1,
+    "origin": "Worm Devotee",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Fool's Crown",
+      "armor": "Holy Diamond of Her"
+    },
+    "attributes": {
+      "wisdom": 8,
+      "charisma": 11,
+      "strength": 14,
+      "dexterity": 13,
+      "constitution": 11,
+      "intelligence": 16
+    },
+    "hit_points": 5,
+    "tokenIdInt": 4253,
+    "background_story": "I am bing chilling",
+    "experience_points": 0
+  },
+  "tokenId": "4253",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Holy Diamond of Her",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Worm Devotee",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Luta's Bangs",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Fool's Crown",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Worm Devotee",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Guard of the Seers",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Seer's Gem",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Seers",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "I am bing chilling",
+  "external_url": "https://fateofwagdie.com/characters/4253",
+  "animation_url": "https://fateofwagdie.com/characters/4253/animated"
+}

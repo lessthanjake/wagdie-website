@@ -1,0 +1,94 @@
+{
+  "name": "Pilosus Telum",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/950.png",
+  "sheet": {
+    "name": "Pilosus Telum",
+    "level": 4,
+    "origin": "Her Wetnurse",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "An Ancient Device",
+      "armor": "Peasant Garb"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 2,
+      "strength": 26,
+      "dexterity": 10,
+      "constitution": 18,
+      "intelligence": 10
+    },
+    "hit_points": 16,
+    "tokenIdInt": 950,
+    "background_story": "None are sure if Pilosus Telum is a man or a machine. He joined The Strivers in the age of Luta, but did not pursue knowledge as his cohorts did. Instead, Pilosus trained with his sword and studied the limits of his own strength. He devised new methods of growing physical power and over the many cycles he has survived, grew to become fiercely intelligent in all matters related to his own body and its deadly applications.\n\nHe has a friendly relationship with another defender,  Defensor Scientiae.\n\nAfter the discoveries within The Second Expedition to The Void, he has become increasingly obsessed with the strength presented by The Nameless Serpent and idolizes those who fought in the Band of the Bulwark during the Battle of the Burning Church.",
+    "experience_points": 2700
+  },
+  "tokenId": "950",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Peasant Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Brimstone",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Wetnurse",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Gorlong Mane",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "An Ancient Device",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Wetnurse",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Death Dealer's Scythe",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "None are sure if Pilosus Telum is a man or a machine. He joined The Strivers in the age of Luta, but did not pursue knowledge as his cohorts did. Instead, Pilosus trained with his sword and studied the limits of his own strength. He devised new methods of growing physical power and over the many cycles he has survived, grew to become fiercely intelligent in all matters related to his own body and its deadly applications.\n\nHe has a friendly relationship with another defender,  Defensor Scientiae.\n\nAfter the discoveries within The Second Expedition to The Void, he has become increasingly obsessed with the strength presented by The Nameless Serpent and idolizes those who fought in the Band of the Bulwark during the Battle of the Burning Church.",
+  "external_url": "https://fateofwagdie.com/characters/950",
+  "animation_url": "https://fateofwagdie.com/characters/950/animated"
+}

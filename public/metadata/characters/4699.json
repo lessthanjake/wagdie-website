@@ -1,0 +1,94 @@
+{
+  "name": "Nemmonis",
+  "image": "ipfs://bafkreibxbe2rnbn4sxbpeiouukgun3zfl3yyovmawvisyx26tvmxgui4sq",
+  "sheet": {
+    "name": "Nemmonis",
+    "level": 1,
+    "origin": "Logun Disciple",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "None",
+      "armor": "Spines of The Worm"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 9,
+      "strength": 10,
+      "dexterity": 18,
+      "constitution": 18,
+      "intelligence": 12
+    },
+    "hit_points": 11,
+    "tokenIdInt": 4699,
+    "background_story": "A necromancer, ever hungry for corpses, knows there's no better place to find them than a battle at the world's end. Thus, the Coven's Lair beckons.",
+    "experience_points": 0
+  },
+  "tokenId": "4699",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Spines of The Worm",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Straw",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Necromancer",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A necromancer, ever hungry for corpses, knows there's no better place to find them than a battle at the world's end. Thus, the Coven's Lair beckons.",
+  "external_url": "https://fateofwagdie.com/characters/4699",
+  "animation_url": "https://fateofwagdie.com/characters/4699/animated"
+}

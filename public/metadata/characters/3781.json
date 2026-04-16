@@ -1,0 +1,94 @@
+{
+  "name": "\"Buddy Guy\"",
+  "image": "ipfs://bafkreidzfrgojgzwm7oeix3a4z42f3h4oy4a64cp7xqz5aatrrgg7yhtfa",
+  "sheet": {
+    "name": "\"Buddy Guy\"",
+    "level": 4,
+    "origin": "Old Pilgrim",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Verite Encumbrance"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 14,
+      "strength": 16,
+      "dexterity": 15,
+      "constitution": 17,
+      "intelligence": 14
+    },
+    "hit_points": 8,
+    "tokenIdInt": 3781,
+    "background_story": "A sword-for-hire traveling under an obvious pseudonym. He excuses himself at every crossroads to honor some unknown power.",
+    "experience_points": 0
+  },
+  "tokenId": "3781",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Verite Encumbrance",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Old Pilgrim",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Old Pilgrim",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A sword-for-hire traveling under an obvious pseudonym. He excuses himself at every crossroads to honor some unknown power.",
+  "external_url": "https://fateofwagdie.com/characters/3781",
+  "animation_url": "https://fateofwagdie.com/characters/3781/animated"
+}

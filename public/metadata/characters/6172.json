@@ -1,0 +1,94 @@
+{
+  "name": "Luscious Jr.",
+  "image": "ipfs://bafkreihanjmpvustoztgvc2mnnys4cv7tqj7iewptmotj3bdgbowxhsqcy",
+  "sheet": {
+    "name": "Luscious Jr.",
+    "level": 1,
+    "origin": "Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "The Blue Beast",
+      "armor": "Peasant Garb"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 6172,
+    "background_story": "Luscious Jr. never met his father, though he wish he did.  His entire life he's heard ballads of his father's heroics; a gigantic statue in his father's likeness was crafted in the village center. The meticulous detail and precious marble looked misplaced in his small peasant farming village, but his father was no ordinary man. It served as a reminder that even peasants had the power to shape this world. Luscious Sr. was chosen don the mask of The Blue Beast, one of the greatest honors a warrior could receive, but also his death sentence. When the mask was returned to the village, Lucious Jr.'s mother put it in a closet. She was not able to bear the reminder of her fallen husband.  However late at night, when his mothers asleep, Luscious Jr. sneaks downstairs, puts his fathers mask on, and dreams. ",
+    "experience_points": 0
+  },
+  "tokenId": "6172",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Peasant Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "The Blue Beast",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Luscious Jr. never met his father, though he wish he did.  His entire life he's heard ballads of his father's heroics; a gigantic statue in his father's likeness was crafted in the village center. The meticulous detail and precious marble looked misplaced in his small peasant farming village, but his father was no ordinary man. It served as a reminder that even peasants had the power to shape this world. Luscious Sr. was chosen don the mask of The Blue Beast, one of the greatest honors a warrior could receive, but also his death sentence. When the mask was returned to the village, Lucious Jr.'s mother put it in a closet. She was not able to bear the reminder of her fallen husband.  However late at night, when his mothers asleep, Luscious Jr. sneaks downstairs, puts his fathers mask on, and dreams. ",
+  "external_url": "https://fateofwagdie.com/characters/6172",
+  "animation_url": "https://fateofwagdie.com/characters/6172/animated"
+}

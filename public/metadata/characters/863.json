@@ -1,0 +1,94 @@
+{
+  "name": "Yevelda",
+  "image": "ipfs://bafkreici6u6hpp7ltcgwsjehkrac2zqeqvgw5w35fa7tnlxcsv2duktoae",
+  "sheet": {
+    "name": "Yevelda",
+    "level": 1,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Her Cursed Outcast"
+    },
+    "attributes": {
+      "wisdom": 9,
+      "charisma": 15,
+      "strength": 10,
+      "dexterity": 17,
+      "constitution": 11,
+      "intelligence": 17
+    },
+    "hit_points": 6,
+    "tokenIdInt": 863,
+    "background_story": "There is a reason I hide my eyes, after witnessing the recent war I have succumb to evil and my eyes now scare those who look into them. I am cursed.",
+    "experience_points": 0
+  },
+  "tokenId": "863",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Cursed Outcast",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Golden Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "There is a reason I hide my eyes, after witnessing the recent war I have succumb to evil and my eyes now scare those who look into them. I am cursed.",
+  "external_url": "https://fateofwagdie.com/characters/863",
+  "animation_url": "https://fateofwagdie.com/characters/863/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "M3rl1n",
+  "image": "ipfs://bafkreierml54xs426gmnzyyo4oeirnfdupq2up4ixfko32xc2sjxtppc6a",
+  "sheet": {
+    "name": "M3rl1n",
+    "level": 1,
+    "origin": "M3RL1N",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Soul Eater",
+      "mask": "Fool's Crown",
+      "armor": "The Burden of the Eighth"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 3469,
+    "background_story": "𝔴𝔞𝔤𝔡𝔦𝔢",
+    "experience_points": 0
+  },
+  "tokenId": "3469",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "The Burden of the Eighth",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Soul Eater",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Vaulted",
+      "trait_type": "Background"
+    },
+    {
+      "value": "M3RL1N",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Wisened Zealot",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Fool's Crown",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "M3RL1N",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "𝔴𝔞𝔤𝔡𝔦𝔢",
+  "external_url": "https://fateofwagdie.com/characters/3469",
+  "animation_url": "https://fateofwagdie.com/characters/3469/animated"
+}

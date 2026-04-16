@@ -1,0 +1,82 @@
+{
+  "name": "Flesh, Agora's Rejected Humanity",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/6015.png",
+  "sheet": {
+    "name": "Flesh, Agora's Rejected Humanity",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 1,
+      "charisma": 1,
+      "strength": 1,
+      "dexterity": 1,
+      "constitution": 1,
+      "intelligence": 1
+    },
+    "hit_points": 1,
+    "tokenIdInt": 6015,
+    "background_story": "Flesh, when agora rejects humanity to find a better way.",
+    "experience_points": 0
+  },
+  "tokenId": "6015",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Fallen Worshipper",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Fallen Worshipper",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Cursed Cage",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Toad of Detriti",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Coven of Detriti",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Flesh, when agora rejects humanity to find a better way.",
+  "external_url": "https://fateofwagdie.com/characters/6015",
+  "animation_url": "https://fateofwagdie.com/characters/6015/animated"
+}

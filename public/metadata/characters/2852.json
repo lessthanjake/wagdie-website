@@ -1,0 +1,94 @@
+{
+  "name": "Pofi The Forsaken",
+  "image": "ipfs://bafkreihklp2pop5rrde2pqmz4xfu27dmewrj44arnnmmcc5iqxqiyn2a3i",
+  "sheet": {
+    "name": "Pofi The Forsaken",
+    "level": 20,
+    "origin": "Luta's Lover",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Glory of the Zaban",
+      "armor": "Champion of Logun"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 0,
+      "strength": 30,
+      "dexterity": 30,
+      "constitution": 30,
+      "intelligence": 30
+    },
+    "hit_points": 100,
+    "tokenIdInt": 2852,
+    "background_story": "After having fought in both sides during the battle, Pofi has decided to join humanity once again and defend it against the vile Serpent\n\n\"Perhaps I’m stuck in the middle of eternity, where only void will be a resentment of the happiness I used to feel.\"\n\nPofi",
+    "experience_points": 355000
+  },
+  "tokenId": "2852",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Champion of Logun",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Luta's Lover",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Glory of the Zaban",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Luta's Lover",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "After having fought in both sides during the battle, Pofi has decided to join humanity once again and defend it against the vile Serpent\n\n\"Perhaps I’m stuck in the middle of eternity, where only void will be a resentment of the happiness I used to feel.\"\n\nPofi",
+  "external_url": "https://fateofwagdie.com/characters/2852",
+  "animation_url": "https://fateofwagdie.com/characters/2852/animated"
+}

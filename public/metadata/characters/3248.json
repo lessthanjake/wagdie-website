@@ -1,0 +1,82 @@
+{
+  "name": "Quarion Siannodel",
+  "image": "ipfs://bafkreihanaumryhvtfgb237drcmtylns3a4two4xfq5ggeund6oiidgnpy",
+  "sheet": {
+    "name": "Quarion Siannodel",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Vagabond Keeper",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 12,
+      "strength": 13,
+      "dexterity": 12,
+      "constitution": 15,
+      "intelligence": 17
+    },
+    "hit_points": 6,
+    "tokenIdInt": 3248,
+    "background_story": "Converting mere days before the Swamp Witch's death, this zealot now seems aimless and lost.",
+    "experience_points": 0
+  },
+  "tokenId": "3248",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Convert of the Swamp Witch",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Vagabond Keeper",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Convert of the Swamp Witch",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Converting mere days before the Swamp Witch's death, this zealot now seems aimless and lost.",
+  "external_url": "https://fateofwagdie.com/characters/3248",
+  "animation_url": "https://fateofwagdie.com/characters/3248/animated"
+}

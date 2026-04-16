@@ -1,0 +1,94 @@
+{
+  "name": "Recruit #433",
+  "image": "ipfs://bafkreiev6rs4lzs3zgeazfseexe2od546exo6idj4quzsnpa75bg4cjmau",
+  "sheet": {
+    "name": "Recruit #433",
+    "level": 1,
+    "origin": "Seeker of Piat",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Darkblade's Beak",
+      "armor": "Bandit's Garb"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 3423,
+    "background_story": "A young bald man trying to work his way into The Darkblade Guild.\n\nNothing is known of his name or origin.\n\nHe looks to a local tournament to prove his worth.",
+    "experience_points": 0
+  },
+  "tokenId": "3423",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Bandit's Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Darkblade's Beak",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A young bald man trying to work his way into The Darkblade Guild.\n\nNothing is known of his name or origin.\n\nHe looks to a local tournament to prove his worth.",
+  "external_url": "https://fateofwagdie.com/characters/3423",
+  "animation_url": "https://fateofwagdie.com/characters/3423/animated"
+}

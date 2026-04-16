@@ -1,0 +1,94 @@
+{
+  "name": "Dark Lucius ",
+  "image": "ipfs://bafkreidsfm3cnemty45vcm4zspia4n4rnet2iydxmaid6jolq3hj5ic3ga",
+  "sheet": {
+    "name": "Dark Lucius ",
+    "level": 1,
+    "origin": "Saltus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "He Who Does Not See",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 1578,
+    "background_story": "After  the battle in the church something inside lucius \"awakened\" this dark entity is directed by the Nameless Serpent and its objective is still unknown.",
+    "experience_points": 0
+  },
+  "tokenId": "1578",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "None",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Her Golden Page",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "He Who Does Not See",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Saltus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "After  the battle in the church something inside lucius \"awakened\" this dark entity is directed by the Nameless Serpent and its objective is still unknown.",
+  "external_url": "https://fateofwagdie.com/characters/1578",
+  "animation_url": "https://fateofwagdie.com/characters/1578/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Jelenneth Naïlo",
+  "image": "ipfs://bafkreig6btsyd4ehfhchpd7jyfi63ngmhlb67mws6rnltkfdqjmlzef5wa",
+  "sheet": {
+    "name": "Jelenneth Naïlo",
+    "level": 2,
+    "origin": "Wormkin Elite",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "The Hat Without Death",
+      "armor": "Yuria's Power"
+    },
+    "attributes": {
+      "wisdom": 17,
+      "charisma": 18,
+      "strength": 10,
+      "dexterity": 15,
+      "constitution": 13,
+      "intelligence": 11
+    },
+    "hit_points": 8,
+    "tokenIdInt": 1772,
+    "background_story": "Born in The Swamps of Detriti, counciled by The Hat Without Death – Jelenneth hunts her prey with a Uirian Bow and sacrifices them in the early morning hours in the shadows outside The Church of Her.\n",
+    "experience_points": 0
+  },
+  "tokenId": "1772",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Yuria's Power",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Noxian Tint",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "The Hat Without Death",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Witch",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Born in The Swamps of Detriti, counciled by The Hat Without Death – Jelenneth hunts her prey with a Uirian Bow and sacrifices them in the early morning hours in the shadows outside The Church of Her.\n",
+  "external_url": "https://fateofwagdie.com/characters/1772",
+  "animation_url": "https://fateofwagdie.com/characters/1772/animated"
+}

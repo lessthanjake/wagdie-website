@@ -1,0 +1,94 @@
+{
+  "name": "Alabast",
+  "image": "ipfs://bafkreib7b2cqgslgiwqrztehep2wqyr2hfdclxt2enowmkcgpwvyoztate",
+  "sheet": {
+    "name": "Alabast",
+    "level": 1,
+    "origin": "Hole Protector",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Wormlord Visage",
+      "armor": "Noxian Jester Garb"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 14,
+      "strength": 15,
+      "dexterity": 17,
+      "constitution": 14,
+      "intelligence": 7
+    },
+    "hit_points": 10,
+    "tokenIdInt": 1140,
+    "background_story": "Captured at a young age, Alabast doesn't remember much outside of the Crow's Den. When Bus returned, he took Alabast under his wing. Teaching him how to fight to survive in this world, but Alabast knows we are all going to die.",
+    "experience_points": 0
+  },
+  "tokenId": "1140",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Noxian Jester Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wormlord Visage",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Necromancer",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Captured at a young age, Alabast doesn't remember much outside of the Crow's Den. When Bus returned, he took Alabast under his wing. Teaching him how to fight to survive in this world, but Alabast knows we are all going to die.",
+  "external_url": "https://fateofwagdie.com/characters/1140",
+  "animation_url": "https://fateofwagdie.com/characters/1140/animated"
+}

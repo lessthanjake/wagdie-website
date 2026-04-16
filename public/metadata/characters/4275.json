@@ -1,0 +1,94 @@
+{
+  "name": "Jathon Stake’em",
+  "image": "ipfs://bafkreib5jabjo445lenvesuh4bjw7r3k6vlsfzqohpc4nz3647pzh2dnhm",
+  "sheet": {
+    "name": "Jathon Stake’em",
+    "level": 1,
+    "origin": "Young Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Punished Shirt"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 14,
+      "strength": 9,
+      "dexterity": 14,
+      "constitution": 15,
+      "intelligence": 15
+    },
+    "hit_points": 69,
+    "tokenIdInt": 4275,
+    "background_story": "An expert in unarmed combat, little else is known about Jathon. What is certain, is that he was jabbed in a prior battle - injected with a poison that will kill him if his heart rate drops below a certain level - so he keeps it high energy and ready for a full send at any time.",
+    "experience_points": 420
+  },
+  "tokenId": "4275",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Punished Shirt",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "An expert in unarmed combat, little else is known about Jathon. What is certain, is that he was jabbed in a prior battle - injected with a poison that will kill him if his heart rate drops below a certain level - so he keeps it high energy and ready for a full send at any time.",
+  "external_url": "https://fateofwagdie.com/characters/4275",
+  "animation_url": "https://fateofwagdie.com/characters/4275/animated"
+}

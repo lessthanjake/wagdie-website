@@ -1,0 +1,94 @@
+{
+  "name": "HerObedience",
+  "image": "ipfs://bafkreiai37gzi64p4kmh6mqj2jhgybs43t52xpc4gvcsc64yymlz35ayry",
+  "sheet": {
+    "name": "HerObedience",
+    "level": 1,
+    "origin": "Hole Protector",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Silence",
+      "armor": "Punished Shirt"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 12,
+      "strength": 15,
+      "dexterity": 6,
+      "constitution": 15,
+      "intelligence": 16
+    },
+    "hit_points": 9,
+    "tokenIdInt": 3173,
+    "background_story": "A devout follower of Mother Agora.",
+    "experience_points": 0
+  },
+  "tokenId": "3173",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Punished Shirt",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Vaulted",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Death Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Silence",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A devout follower of Mother Agora.",
+  "external_url": "https://fateofwagdie.com/characters/3173",
+  "animation_url": "https://fateofwagdie.com/characters/3173/animated"
+}

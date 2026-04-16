@@ -1,0 +1,89 @@
+{
+  "name": "Tali",
+  "image": "ipfs://bafkreia5thvckgjpp4l72lvksc6jauebtx2iwpj27jxqnnrefxekau36rm",
+  "sheet": {
+    "name": "Tali",
+    "level": 1,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Her Chosen Seal",
+      "armor": "Luta's Full Weight"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 15,
+      "strength": 13,
+      "dexterity": 10,
+      "constitution": 10,
+      "intelligence": 11
+    },
+    "hit_points": 6,
+    "tokenIdInt": 6567,
+    "experience_points": 0
+  },
+  "tokenId": "6567",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Luta's Full Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Her Chosen Seal",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/6567",
+  "animation_url": "https://fateofwagdie.com/characters/6567/animated"
+}

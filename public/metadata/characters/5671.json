@@ -1,0 +1,94 @@
+{
+  "name": "Glepherin the Lost Prince",
+  "image": "ipfs://bafkreichq7pun3nhz5gadpqdekamtqh5iqbgrv42gvqenxzzs3qsjejrdu",
+  "sheet": {
+    "name": "Glepherin the Lost Prince",
+    "level": 1,
+    "origin": "Zolian Worm",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "None",
+      "armor": "Holy Diamond of Her"
+    },
+    "attributes": {
+      "wisdom": 8,
+      "charisma": 11,
+      "strength": 9,
+      "dexterity": 7,
+      "constitution": 11,
+      "intelligence": 9
+    },
+    "hit_points": 45,
+    "tokenIdInt": 5671,
+    "background_story": "Glepherin was the prince son of Gelpherus, ruler of a province in the West. \n\nWhen the forces of an adjacent kingdom amassed on the outskirts of their lands, open war was averted through diplomatic exchange: the member of one royal bloodline swapped for that of another, to be raised and treated as their own. Thus, Glepherin was relinquished from his people and birthright.  Not long after, the adjacent kingdom was conquered by the scourges of the worm and Glepherin was taken back into the depths of their realm, The Abyss. \n\nThe significance of his identity unbeknownst to the underdwellers, they was dubbed him \"Glimer\"  for the obnoxiously radiant set of armor he wears. He learned the ins and outs of the Burrow, biding his time for escape. \n\nIn the 18th cycle, Glimer happened to be stationed in the Basiliteca where he was commanded to escort one of the Lost Pilgrim to the Yawning Pits for trespassing. He instead used the opportunity to escape with him, flushing out through the Wormkin Shaft and heading back towards his province after consolidating fellowship with his escaped partner. En route, he joined the quest into the Tower of the Archmagus where he fell defending the company from reanimated beasts. \n\n\"𝔐𝔶 𝔥𝔢𝔯𝔦𝔱𝔞𝔤𝔢 𝔪𝔞𝔶 𝔥𝔞𝔳𝔢 𝔟𝔢𝔢𝔫 𝔣𝔬𝔯𝔣𝔢𝔦𝔱 𝔟𝔲𝔱 𝔭𝔢𝔯𝔥𝔞𝔭𝔰 𝔱𝔥𝔢𝔯𝔢 𝔦𝔰 𝔰𝔱𝔦𝔩𝔩 𝔭𝔲𝔯𝔭𝔬𝔰𝔢 𝔞𝔴𝔞𝔦𝔱𝔦𝔫𝔤 𝔪𝔢 𝔶𝔢𝔱.\"\n\n",
+    "experience_points": 0
+  },
+  "tokenId": "5671",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Holy Diamond of Her",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Lotharian Hair",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Glepherin was the prince son of Gelpherus, ruler of a province in the West. \n\nWhen the forces of an adjacent kingdom amassed on the outskirts of their lands, open war was averted through diplomatic exchange: the member of one royal bloodline swapped for that of another, to be raised and treated as their own. Thus, Glepherin was relinquished from his people and birthright.  Not long after, the adjacent kingdom was conquered by the scourges of the worm and Glepherin was taken back into the depths of their realm, The Abyss. \n\nThe significance of his identity unbeknownst to the underdwellers, they was dubbed him \"Glimer\"  for the obnoxiously radiant set of armor he wears. He learned the ins and outs of the Burrow, biding his time for escape. \n\nIn the 18th cycle, Glimer happened to be stationed in the Basiliteca where he was commanded to escort one of the Lost Pilgrim to the Yawning Pits for trespassing. He instead used the opportunity to escape with him, flushing out through the Wormkin Shaft and heading back towards his province after consolidating fellowship with his escaped partner. En route, he joined the quest into the Tower of the Archmagus where he fell defending the company from reanimated beasts. \n\n\"𝔐𝔶 𝔥𝔢𝔯𝔦𝔱𝔞𝔤𝔢 𝔪𝔞𝔶 𝔥𝔞𝔳𝔢 𝔟𝔢𝔢𝔫 𝔣𝔬𝔯𝔣𝔢𝔦𝔱 𝔟𝔲𝔱 𝔭𝔢𝔯𝔥𝔞𝔭𝔰 𝔱𝔥𝔢𝔯𝔢 𝔦𝔰 𝔰𝔱𝔦𝔩𝔩 𝔭𝔲𝔯𝔭𝔬𝔰𝔢 𝔞𝔴𝔞𝔦𝔱𝔦𝔫𝔤 𝔪𝔢 𝔶𝔢𝔱.\"\n\n",
+  "external_url": "https://fateofwagdie.com/characters/5671",
+  "animation_url": "https://fateofwagdie.com/characters/5671/animated"
+}

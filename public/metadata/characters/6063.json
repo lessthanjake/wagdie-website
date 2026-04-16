@@ -1,0 +1,94 @@
+{
+  "name": "Logun's Deviant",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/6063.png",
+  "sheet": {
+    "name": "Logun's Deviant",
+    "level": 1,
+    "origin": "Logun Disciple",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Guiding Torch",
+      "mask": "Face of Vengeance",
+      "armor": "Acolyte's Shawl"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 14,
+      "strength": 14,
+      "dexterity": 16,
+      "constitution": 14,
+      "intelligence": 8
+    },
+    "hit_points": 9,
+    "tokenIdInt": 6063,
+    "background_story": "A druid who believes that nature is not only uncontrollable, but it is also actively malicious. Taming wild beasts within the southern plains, he has come to recognize that nature only succeeds the most cruel and vicious creatures it can produce. He believes this process leads to an increasinly more destructive world, and expects it.\n\nAfter hearing the tale of Astaroth, he grew interested in challenging The Glutton as one of The Acolytes of Astaroth. For him, it was a path to witness the true ferocity of The Forsaken Lands.",
+    "experience_points": 0
+  },
+  "tokenId": "6063",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Acolyte's Shawl",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Guiding Torch",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Yearn",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Face of Vengeance",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Death Dealer's Scythe",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A druid who believes that nature is not only uncontrollable, but it is also actively malicious. Taming wild beasts within the southern plains, he has come to recognize that nature only succeeds the most cruel and vicious creatures it can produce. He believes this process leads to an increasinly more destructive world, and expects it.\n\nAfter hearing the tale of Astaroth, he grew interested in challenging The Glutton as one of The Acolytes of Astaroth. For him, it was a path to witness the true ferocity of The Forsaken Lands.",
+  "external_url": "https://fateofwagdie.com/characters/6063",
+  "animation_url": "https://crimson-static-barnacle-945.mypinata.cloud/ipfs/QmY97WzLC4m4yE1Ns5pYBKqxB3vMdbKupTZtSWMnKrckeM"
+}

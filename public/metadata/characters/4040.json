@@ -1,0 +1,94 @@
+{
+  "name": "𝔟𝔲𝔰𝔰𝔦𝔫 𝔟𝔬𝔶",
+  "image": "ipfs://bafkreie2xl53konfpr74qekfixlci5czjavxthvbp4nfkopri2lj7ommqe",
+  "sheet": {
+    "name": "𝔟𝔲𝔰𝔰𝔦𝔫 𝔟𝔬𝔶",
+    "level": 20,
+    "origin": "Naive Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "None",
+      "armor": "Crow Lord's Blessing"
+    },
+    "attributes": {
+      "wisdom": 7,
+      "charisma": 30,
+      "strength": 20,
+      "dexterity": 30,
+      "constitution": 15,
+      "intelligence": 4
+    },
+    "hit_points": 20,
+    "tokenIdInt": 4040,
+    "background_story": "I AM NOT BALD!!!!! \n\nAlso known as \"bussin boy\" , Atriox came to the forsaken lands by portal. He is found working with the baldburner often.  \n\n(#justiceforbaldies) he's also started a movement called : wigdie. \n\nHe has a huge love for Rita and mother agora. \n",
+    "experience_points": 550
+  },
+  "tokenId": "4040",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Crow Lord's Blessing",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Altered",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "I AM NOT BALD!!!!! \n\nAlso known as \"bussin boy\" , Atriox came to the forsaken lands by portal. He is found working with the baldburner often.  \n\n(#justiceforbaldies) he's also started a movement called : wigdie. \n\nHe has a huge love for Rita and mother agora. \n",
+  "external_url": "https://fateofwagdie.com/characters/4040",
+  "animation_url": "https://fateofwagdie.com/characters/4040/animated"
+}

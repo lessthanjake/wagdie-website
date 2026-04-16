@@ -1,0 +1,94 @@
+{
+  "name": "Urth Dumein",
+  "image": "ipfs://bafkreiduqz2lhthmh2ioa5mxxndz5myi7elinz6woy5cfr5foehdniz2te",
+  "sheet": {
+    "name": "Urth Dumein",
+    "level": 8,
+    "origin": "Garolin Champion",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "Blind Thief's Charm",
+      "armor": "Luta's Support"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 15,
+      "strength": 30,
+      "dexterity": 30,
+      "constitution": 30,
+      "intelligence": 15
+    },
+    "hit_points": 100,
+    "tokenIdInt": 757,
+    "background_story": "Once a champion, feared and revered, until exile carved a change within him. His blade turned to mercy, his life to shadows. With a skill beyond mortal sight, he takes from the greedy, gifting to those left empty, his presence fading into dim light. In the forgotten corners, they whisper of a thief who brings justice where power has sown ruin—a specter, defiant, haunting the shadows claimed by darkened lords.",
+    "experience_points": 80
+  },
+  "tokenId": "757",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Luta's Support",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Aqi Knot",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Blind Thief's Charm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Once a champion, feared and revered, until exile carved a change within him. His blade turned to mercy, his life to shadows. With a skill beyond mortal sight, he takes from the greedy, gifting to those left empty, his presence fading into dim light. In the forgotten corners, they whisper of a thief who brings justice where power has sown ruin—a specter, defiant, haunting the shadows claimed by darkened lords.",
+  "external_url": "https://fateofwagdie.com/characters/757",
+  "animation_url": "https://fateofwagdie.com/characters/757/animated"
+}

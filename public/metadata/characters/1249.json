@@ -1,0 +1,94 @@
+{
+  "name": "Malady, Offling's Mistress",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/1249.png",
+  "sheet": {
+    "name": "Malady, Offling's Mistress",
+    "level": 1,
+    "origin": "Wormkin Elite",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Tunic of Yore"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 18,
+      "strength": 8,
+      "dexterity": 15,
+      "constitution": 12,
+      "intelligence": 16
+    },
+    "hit_points": 5,
+    "tokenIdInt": 1249,
+    "background_story": "King's been a naughty little boy...\n\nDon't tell the queen.",
+    "experience_points": 0
+  },
+  "tokenId": "1249",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Tunic of Yore",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Brimstone",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Pilgrim's Style",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Mothling's Guard",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Mothling",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Fossors",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "King's been a naughty little boy...\n\nDon't tell the queen.",
+  "external_url": "https://fateofwagdie.com/characters/1249",
+  "animation_url": "https://fateofwagdie.com/characters/1249/animated"
+}

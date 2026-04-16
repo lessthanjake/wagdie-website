@@ -1,0 +1,82 @@
+{
+  "name": "Basick",
+  "image": "ipfs://bafkreiefdawru3uugtqsnij7cdqqfel7kmfcuydtn6ukjbj4y3z5r4itr4",
+  "sheet": {
+    "name": "Basick",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 17,
+      "charisma": 15,
+      "strength": 14,
+      "dexterity": 16,
+      "constitution": 12,
+      "intelligence": 13
+    },
+    "hit_points": 3,
+    "tokenIdInt": 1027,
+    "background_story": "Basick is just a basic decrepit, nothing more nothing less.",
+    "experience_points": 0
+  },
+  "tokenId": "1027",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Convert of the Swamp Witch",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Convert of the Swamp Witch",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Basick is just a basic decrepit, nothing more nothing less.",
+  "external_url": "https://fateofwagdie.com/characters/1027",
+  "animation_url": "https://fateofwagdie.com/characters/1027/animated"
+}

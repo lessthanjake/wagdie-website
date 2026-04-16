@@ -1,0 +1,94 @@
+{
+  "name": "Birthday Boi Brenon",
+  "image": "ipfs://bafkreia4fqjdzjsohcn4aoju6klbgiofejcqz5ra2gyebunugrqxkatwsy",
+  "sheet": {
+    "name": "Birthday Boi Brenon",
+    "level": 1,
+    "origin": "Young Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "Wormlord Curse",
+      "armor": "Her Devotion"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 2930,
+    "background_story": "It is rumored that B.B.Brenon uses his sword to carve intricate drawings onto the bodies of his enemies",
+    "experience_points": 0
+  },
+  "tokenId": "2930",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Devotion",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Darkness",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wormlord Curse",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "It is rumored that B.B.Brenon uses his sword to carve intricate drawings onto the bodies of his enemies",
+  "external_url": "https://fateofwagdie.com/characters/2930",
+  "animation_url": "https://fateofwagdie.com/characters/2930/animated"
+}

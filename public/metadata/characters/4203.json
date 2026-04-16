@@ -1,0 +1,82 @@
+{
+  "name": "Kelisya of The Veil",
+  "image": "ipfs://bafkreidfhyhsvvm4g6cwtn6uaeqqlhgdcotgvqnyot37ve6mbmrnau6mya",
+  "sheet": {
+    "name": "Kelisya of The Veil",
+    "level": 7,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Chamber of the Chosen",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 1,
+      "charisma": 7,
+      "strength": 1,
+      "dexterity": 1,
+      "constitution": 1,
+      "intelligence": 7
+    },
+    "hit_points": 7,
+    "tokenIdInt": 4203,
+    "background_story": "Kelisya, once a devout member of the Church, began to question everything after inquisitors falsely identified and executed her husband as a Darkblade. She then followed the path of the Wizard, seeking the truth about the origin of the Two in hopes of resurrecting her spouse.\n\nAfter a solo expedition into the Abyss, Kelisya mysteriously returned wielding arcane powers that allowed her to phase between The Forsaken Lands and the Void. However, this power came at a great cost. She lost all human empathy and emotion, adopting an almost animalistic nature. Her only remaining desire was to reunite with her love, whom she could no longer remember. \n\nShe now roams The Forsaken Lands, longing for human connection yet unable to understand or nurture it.\n\nBecause she exists between both planes, any Pilgrim who comes into physical contact with her immediately has their soul torn apart and sent to the Void, while their body disintegrates into dust.",
+    "experience_points": 1
+  },
+  "tokenId": "4203",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Convert of the Swamp Witch",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Chamber of the Chosen",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Convert of the Swamp Witch",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Kelisya, once a devout member of the Church, began to question everything after inquisitors falsely identified and executed her husband as a Darkblade. She then followed the path of the Wizard, seeking the truth about the origin of the Two in hopes of resurrecting her spouse.\n\nAfter a solo expedition into the Abyss, Kelisya mysteriously returned wielding arcane powers that allowed her to phase between The Forsaken Lands and the Void. However, this power came at a great cost. She lost all human empathy and emotion, adopting an almost animalistic nature. Her only remaining desire was to reunite with her love, whom she could no longer remember. \n\nShe now roams The Forsaken Lands, longing for human connection yet unable to understand or nurture it.\n\nBecause she exists between both planes, any Pilgrim who comes into physical contact with her immediately has their soul torn apart and sent to the Void, while their body disintegrates into dust.",
+  "external_url": "https://fateofwagdie.com/characters/4203",
+  "animation_url": "https://fateofwagdie.com/characters/4203/animated"
+}

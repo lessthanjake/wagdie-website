@@ -1,0 +1,94 @@
+{
+  "name": "Zenigame",
+  "image": "ipfs://bafkreiasbrebdcceefqrl7o43igqouqv2hywo2465onnvbmlymujym36bq",
+  "sheet": {
+    "name": "Zenigame",
+    "level": 3,
+    "origin": "Zolian Worm",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "Goldbeard's Eyes",
+      "armor": "Young Knight of Logun"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 2,
+      "strength": 5,
+      "dexterity": 7,
+      "constitution": 2,
+      "intelligence": 10
+    },
+    "hit_points": 3,
+    "tokenIdInt": 1233,
+    "background_story": "From the swamps Zenigame spent years crafting his skills. Survival above all else. Endless encounters with beasts from the swamps evolved a lost boy into a hardened legend. \n\nEmotions always under control and respecting what the world gives him. Zenigame is known to always get himself out of treacherous situations.",
+    "experience_points": 10
+  },
+  "tokenId": "1233",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Young Knight of Logun",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Darkness",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Goldbeard's Eyes",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "From the swamps Zenigame spent years crafting his skills. Survival above all else. Endless encounters with beasts from the swamps evolved a lost boy into a hardened legend. \n\nEmotions always under control and respecting what the world gives him. Zenigame is known to always get himself out of treacherous situations.",
+  "external_url": "https://fateofwagdie.com/characters/1233",
+  "animation_url": "https://fateofwagdie.com/characters/1233/animated"
+}

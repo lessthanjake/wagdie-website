@@ -1,0 +1,94 @@
+{
+  "name": "Bruenor Battlehammer",
+  "image": "ipfs://bafkreifq7eiplyiw6g5aud4ptlbq4m5ovnoarz554lu7hqhczfo4kzybvm",
+  "sheet": {
+    "name": "Bruenor Battlehammer",
+    "level": 1,
+    "origin": "Young Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "None",
+      "armor": "Young Knight of Logun"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 5,
+      "strength": 9,
+      "dexterity": 11,
+      "constitution": 11,
+      "intelligence": 12
+    },
+    "hit_points": 8,
+    "tokenIdInt": 2842,
+    "background_story": "\n",
+    "experience_points": 0
+  },
+  "tokenId": "2842",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Young Knight of Logun",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit's Pieces",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "\n",
+  "external_url": "https://fateofwagdie.com/characters/2842",
+  "animation_url": "https://fateofwagdie.com/characters/2842/animated"
+}

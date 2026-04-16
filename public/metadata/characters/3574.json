@@ -1,0 +1,82 @@
+{
+  "name": "King Leo",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/3574.png",
+  "sheet": {
+    "name": "King Leo",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Fool's Crown",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 3574,
+    "background_story": "\n",
+    "experience_points": 0
+  },
+  "tokenId": "3574",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Fallen Worshipper",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Fool's Crown",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Fallen Worshipper",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Red Mark of the Furies",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Molten Heart",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Furies",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "\n",
+  "external_url": "https://fateofwagdie.com/characters/3574",
+  "animation_url": "https://fateofwagdie.com/characters/3574/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Lady Fielding",
+  "image": "ipfs://bafkreid3xjjnq6wn7qipf5ihwslg6cfbfjlzy2eu34x5p52y5k5xs435ga",
+  "sheet": {
+    "name": "Lady Fielding",
+    "level": 1,
+    "origin": "Simple Vagabond",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Death Dealer's Choice"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 12,
+      "strength": 17,
+      "dexterity": 15,
+      "constitution": 18,
+      "intelligence": 11
+    },
+    "hit_points": 10,
+    "tokenIdInt": 4689,
+    "background_story": "Daughter to a simple farmer, she dreamed of joining the Royal Guard since childhood and trained diligently through her youth to be accepted into the military academy.\n\nShe was eventually promoted to captain, and made King Offling's personal guard for her dedication, strength, and intuition.\n\nWas once friends with Eira the Wyrd.\n\nPlunged unto the depths of The Void, forsaking duty.",
+    "experience_points": 0
+  },
+  "tokenId": "4689",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Death Dealer's Choice",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Earth Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Daughter to a simple farmer, she dreamed of joining the Royal Guard since childhood and trained diligently through her youth to be accepted into the military academy.\n\nShe was eventually promoted to captain, and made King Offling's personal guard for her dedication, strength, and intuition.\n\nWas once friends with Eira the Wyrd.\n\nPlunged unto the depths of The Void, forsaking duty.",
+  "external_url": "https://fateofwagdie.com/characters/4689",
+  "animation_url": "https://fateofwagdie.com/characters/4689/animated"
+}

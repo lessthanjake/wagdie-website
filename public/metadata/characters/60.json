@@ -1,0 +1,94 @@
+{
+  "name": "Chen",
+  "image": "ipfs://bafkreigpsfoef4un4bm6f7phjtzkp5wlekhrqmchfxblpau5dtkvzuhm74",
+  "sheet": {
+    "name": "Chen",
+    "level": 1,
+    "origin": "Zolian Worm",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "He Who Does Not See",
+      "armor": "Pilgrim's Plain Chain"
+    },
+    "attributes": {
+      "wisdom": 15,
+      "charisma": 13,
+      "strength": 10,
+      "dexterity": 16,
+      "constitution": 7,
+      "intelligence": 15
+    },
+    "hit_points": 13,
+    "tokenIdInt": 60,
+    "background_story": "Nothing is known about Chen's identity. It is said he has worn a mask for so long that his eyes no longer function. His accuracy with an arrow somehow remains excellent.",
+    "experience_points": 70
+  },
+  "tokenId": "60",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Dark Blade Shroud",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Nothing is known about Chen's identity. It is said he has worn a mask for so long that his eyes no longer function. His accuracy with an arrow somehow remains excellent.",
+  "external_url": "https://fateofwagdie.com/characters/60",
+  "animation_url": "https://fateofwagdie.com/characters/60/animated"
+}

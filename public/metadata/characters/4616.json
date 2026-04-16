@@ -1,0 +1,94 @@
+{
+  "name": "Innorel Pallor",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/4616.png",
+  "sheet": {
+    "name": "Innorel Pallor",
+    "level": 1,
+    "origin": "Wormlord Acolyte",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Verite Encumbrance"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 9,
+      "strength": 13,
+      "dexterity": 13,
+      "constitution": 14,
+      "intelligence": 14
+    },
+    "hit_points": 8,
+    "tokenIdInt": 4616,
+    "background_story": "Born to a humble family in a small village, Innorel was beset with poor health through all of her childhood. Afflicted with a number of illnesses that could see her death, Innorel's parents kept an emotional distance. Compounded with a lack of social interaction with others as she was bedridden through her formative years, Innorel has developed into a competent, but socially inept adult.",
+    "experience_points": 0
+  },
+  "tokenId": "4616",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Verite Encumbrance",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Her Truth",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Encampment Medallion",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Encampment Militia",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Born to a humble family in a small village, Innorel was beset with poor health through all of her childhood. Afflicted with a number of illnesses that could see her death, Innorel's parents kept an emotional distance. Compounded with a lack of social interaction with others as she was bedridden through her formative years, Innorel has developed into a competent, but socially inept adult.",
+  "external_url": "https://fateofwagdie.com/characters/4616",
+  "animation_url": "https://fateofwagdie.com/characters/4616/animated"
+}

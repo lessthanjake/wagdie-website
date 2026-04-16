@@ -1,0 +1,94 @@
+{
+  "name": "King's Distant Cousin",
+  "image": "ipfs://bafkreigdwr3jsy7hcpw3xqo6ny3ywfqvyb3q2pmjzm775fnfqqaomoylzq",
+  "sheet": {
+    "name": "King's Distant Cousin",
+    "level": 1,
+    "origin": "Her Hidden Blade",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "None",
+      "armor": "Swamp Traveler Cloak"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 1380,
+    "background_story": "King's Distant Cousin is scholarly and has spent most of his life learning about the ancient spells within the Forsaken Lands.  However, he has been very bothered by the loss of King Offling. He has decided to join the upcoming Tournament in hopes that someone there may know how to find King in the Void. Worst case, he dies and directly looks for King in the afterlife.",
+    "experience_points": 0
+  },
+  "tokenId": "1380",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Swamp Traveler Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit's Claim",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "King's Distant Cousin is scholarly and has spent most of his life learning about the ancient spells within the Forsaken Lands.  However, he has been very bothered by the loss of King Offling. He has decided to join the upcoming Tournament in hopes that someone there may know how to find King in the Void. Worst case, he dies and directly looks for King in the afterlife.",
+  "external_url": "https://fateofwagdie.com/characters/1380",
+  "animation_url": "https://fateofwagdie.com/characters/1380/animated"
+}

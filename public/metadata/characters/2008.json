@@ -1,0 +1,82 @@
+{
+  "name": "𝔸𝕓𝕒𝕕𝕕𝕠𝕟 𝕥𝕙𝕖 𝔸𝕔𝕔𝕦𝕤𝕖𝕣",
+  "image": "ipfs://bafkreifguh6k32cy2r3nwtpnoadvalqfygpjdbvfdxwis4gjirk2dnfqju",
+  "sheet": {
+    "name": "𝔸𝕓𝕒𝕕𝕕𝕠𝕟 𝕥𝕙𝕖 𝔸𝕔𝕔𝕦𝕤𝕖𝕣",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Silence",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 2008,
+    "background_story": "𝔸𝕟 𝕒𝕕𝕧𝕖𝕣𝕤𝕒𝕣𝕪 𝕠𝕗 𝕥𝕣𝕦𝕥𝕙 𝕨𝕚𝕥𝕙 𝕒 𝕤𝕖𝕣𝕡𝕖𝕟𝕥’𝕤 𝕥𝕠𝕟𝕘𝕦𝕖 𝕨𝕙𝕠 𝕞𝕒𝕟𝕚𝕡𝕦𝕝𝕒𝕥𝕖𝕕 𝕥𝕙𝕖 𝕗𝕒𝕚𝕥𝕙 𝕠𝕗 𝕠𝕥𝕙𝕖𝕣𝕤 𝕥𝕠 𝕒𝕔𝕙𝕚𝕖𝕧𝕖 𝕘𝕣𝕖𝕒𝕥 𝕡𝕠𝕨𝕖𝕣 𝕨𝕚𝕥𝕙𝕚𝕟 𝕥𝕙𝕖 𝕔𝕙𝕦𝕣𝕔𝕙.\n\n𝕃𝕖𝕘𝕖𝕟𝕕 𝕙𝕒𝕤 𝕚𝕥 𝕥𝕙𝕒𝕥 𝔸𝕘𝕠𝕣𝕒 𝕙𝕖𝕣𝕤𝕖𝕝𝕗 𝕔𝕦𝕣𝕤𝕖𝕕 𝕙𝕚𝕞 𝕥𝕠 𝕖𝕥𝕖𝕣𝕟𝕒𝕝 𝕡𝕦𝕣𝕘𝕒𝕥𝕠𝕣𝕪 𝕚𝕟 𝕥𝕙𝕖 𝕗𝕠𝕣𝕤𝕒𝕜𝕖𝕟 𝕝𝕒𝕟𝕕𝕤.",
+    "experience_points": 0
+  },
+  "tokenId": "2008",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Swamp Witch Curse",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Her Silence",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Swamp Witch Curse",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "𝔸𝕟 𝕒𝕕𝕧𝕖𝕣𝕤𝕒𝕣𝕪 𝕠𝕗 𝕥𝕣𝕦𝕥𝕙 𝕨𝕚𝕥𝕙 𝕒 𝕤𝕖𝕣𝕡𝕖𝕟𝕥’𝕤 𝕥𝕠𝕟𝕘𝕦𝕖 𝕨𝕙𝕠 𝕞𝕒𝕟𝕚𝕡𝕦𝕝𝕒𝕥𝕖𝕕 𝕥𝕙𝕖 𝕗𝕒𝕚𝕥𝕙 𝕠𝕗 𝕠𝕥𝕙𝕖𝕣𝕤 𝕥𝕠 𝕒𝕔𝕙𝕚𝕖𝕧𝕖 𝕘𝕣𝕖𝕒𝕥 𝕡𝕠𝕨𝕖𝕣 𝕨𝕚𝕥𝕙𝕚𝕟 𝕥𝕙𝕖 𝕔𝕙𝕦𝕣𝕔𝕙.\n\n𝕃𝕖𝕘𝕖𝕟𝕕 𝕙𝕒𝕤 𝕚𝕥 𝕥𝕙𝕒𝕥 𝔸𝕘𝕠𝕣𝕒 𝕙𝕖𝕣𝕤𝕖𝕝𝕗 𝕔𝕦𝕣𝕤𝕖𝕕 𝕙𝕚𝕞 𝕥𝕠 𝕖𝕥𝕖𝕣𝕟𝕒𝕝 𝕡𝕦𝕣𝕘𝕒𝕥𝕠𝕣𝕪 𝕚𝕟 𝕥𝕙𝕖 𝕗𝕠𝕣𝕤𝕒𝕜𝕖𝕟 𝕝𝕒𝕟𝕕𝕤.",
+  "external_url": "https://fateofwagdie.com/characters/2008",
+  "animation_url": "https://fateofwagdie.com/characters/2008/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Zorgot",
+  "image": "ipfs://bafkreialhpfxsz6shwwlpzewz7225x6ma6oazbjyo2rro2s7wcdkxsiodu",
+  "sheet": {
+    "name": "Zorgot",
+    "level": 1,
+    "origin": "Worm Devotee",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "None",
+      "armor": "Dark One's Call"
+    },
+    "attributes": {
+      "wisdom": 6,
+      "charisma": 5,
+      "strength": 13,
+      "dexterity": 11,
+      "constitution": 9,
+      "intelligence": 6
+    },
+    "hit_points": 34,
+    "tokenIdInt": 14,
+    "background_story": "Zorgot has known nothing but death since his infancy. As a child, the cult of the Worm adopted him. He has long lived underneath Her Church, hoping for an opportunity to earn the Worm's favor.",
+    "experience_points": 356
+  },
+  "tokenId": "14",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Dark One's Call",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Worm Devotee",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Worm Devotee",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Zorgot has known nothing but death since his infancy. As a child, the cult of the Worm adopted him. He has long lived underneath Her Church, hoping for an opportunity to earn the Worm's favor.",
+  "external_url": "https://fateofwagdie.com/characters/14",
+  "animation_url": "https://fateofwagdie.com/characters/14/animated"
+}

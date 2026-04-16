@@ -1,0 +1,94 @@
+{
+  "name": "King Offling",
+  "image": "ipfs://bafkreib4pyjlmiz6b5ljzneetp4t5pom5wzfkytsaa2tv3lsngqadyt37e",
+  "sheet": {
+    "name": "King Offling",
+    "level": 1,
+    "origin": "Journeyman",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Fool's Crown",
+      "armor": "Valorite Amateur Garb"
+    },
+    "attributes": {
+      "wisdom": 17,
+      "charisma": 14,
+      "strength": 9,
+      "dexterity": 10,
+      "constitution": 13,
+      "intelligence": 16
+    },
+    "hit_points": 9,
+    "tokenIdInt": 3795,
+    "background_story": "Despot of The Concord of Research, he was once the ruler of a small heirless kingdom in the north.\n\nDriven by an intense curiosity for the unknown, he left his realm to seek out that which called to him in the late night. \n\nHe discovered much of the world and thrived to learn as much as he can. For him, there was no price too high for knowledge.\n\nIn his time, he rose to many challenges, made friends and enemies, faced The Void itself, and shepherded many sould of The Lost Pilgrim on their way through The Forsaken Lands.\n\nSome days after The Solstice during the 18th cycle, he was maliciously infected by fungal spores that ultimately led to his unfortunate demise. He will be remembered and missed by those closest to him.",
+    "experience_points": 0
+  },
+  "tokenId": "3795",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Valorite Amateur Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit Set",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Fool's Crown",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Despot of The Concord of Research, he was once the ruler of a small heirless kingdom in the north.\n\nDriven by an intense curiosity for the unknown, he left his realm to seek out that which called to him in the late night. \n\nHe discovered much of the world and thrived to learn as much as he can. For him, there was no price too high for knowledge.\n\nIn his time, he rose to many challenges, made friends and enemies, faced The Void itself, and shepherded many sould of The Lost Pilgrim on their way through The Forsaken Lands.\n\nSome days after The Solstice during the 18th cycle, he was maliciously infected by fungal spores that ultimately led to his unfortunate demise. He will be remembered and missed by those closest to him.",
+  "external_url": "https://fateofwagdie.com/characters/3795",
+  "animation_url": "https://fateofwagdie.com/characters/3795/animated"
+}

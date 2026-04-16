@@ -1,0 +1,94 @@
+{
+  "name": "Agent de Zyzz",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/5518.png",
+  "sheet": {
+    "name": "Agent de Zyzz",
+    "level": 1,
+    "origin": "Her Wetnurse",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "Removal's Kin",
+      "armor": "Punished Shirt"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 14,
+      "strength": 11,
+      "dexterity": 13,
+      "constitution": 14,
+      "intelligence": 16
+    },
+    "hit_points": 8,
+    "tokenIdInt": 5518,
+    "background_story": "A noble of ill repute that seeks to broker agreements on behalf of an unknown master.\n\nHe has a history of using the law to acquire wealth and land through dubious manipulation of contracts and local laws. His mastery over this is unparalleled.\n",
+    "experience_points": 0
+  },
+  "tokenId": "5518",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Punished Shirt",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Wetnurse",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Discipline Helm Hair",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Removal's Kin",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Wetnurse",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Stalwart Encyclopedia",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Field Notes",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Stalwart Researcher",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A noble of ill repute that seeks to broker agreements on behalf of an unknown master.\n\nHe has a history of using the law to acquire wealth and land through dubious manipulation of contracts and local laws. His mastery over this is unparalleled.\n",
+  "external_url": "https://fateofwagdie.com/characters/5518",
+  "animation_url": "https://fateofwagdie.com/characters/5518/animated"
+}

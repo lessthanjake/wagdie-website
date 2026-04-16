@@ -1,0 +1,82 @@
+{
+  "name": "Ramiel",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/4090.png",
+  "sheet": {
+    "name": "Ramiel",
+    "level": 20,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Noxium Death Dealer",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 28,
+      "charisma": 7,
+      "strength": 6,
+      "dexterity": 25,
+      "constitution": 18,
+      "intelligence": 29
+    },
+    "hit_points": 37,
+    "tokenIdInt": 4090,
+    "background_story": "Oh! You have heard of me? How strange… I have no story I wish to tell you. Come around some other time, but only if you bring me what I most desire.",
+    "experience_points": 110
+  },
+  "tokenId": "4090",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Painless Worshipper",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Noxium Death Dealer",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Painless Worshipper",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Bastard Sword",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Oh! You have heard of me? How strange… I have no story I wish to tell you. Come around some other time, but only if you bring me what I most desire.",
+  "external_url": "https://fateofwagdie.com/characters/4090",
+  "animation_url": "https://fateofwagdie.com/characters/4090/animated"
+}

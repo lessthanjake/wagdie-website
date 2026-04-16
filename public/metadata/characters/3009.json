@@ -1,0 +1,94 @@
+{
+  "name": "Natasha Sult",
+  "image": "ipfs://bafkreidgbjrdc5ngyvtzkomjgizo7tkwd4y62mn7xvsxravxwzvz4cdqgq",
+  "sheet": {
+    "name": "Natasha Sult",
+    "level": 4,
+    "origin": "Wormkin Elite",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "Sibor's Brace",
+      "armor": "Turlo Tunic"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 14,
+      "strength": 18,
+      "dexterity": 13,
+      "constitution": 18,
+      "intelligence": 13
+    },
+    "hit_points": 20,
+    "tokenIdInt": 3009,
+    "background_story": "Misses the southern plains fruit, but still happy to be by her companion's side.\n\nSurvived first battle, entering final at Church and survived again.\n\nSurvived the Turlo 30, originally sent from Gunther Wolfsblood's party. Upon return she fled Gunther's camp with an Obsidian Blade. \n\nYurias Madness welcome Natasha into The Furies after accepting the Blade on the condition Natasha would earn the right to wield it. \n\nNatasha has decided to venture to The Church and study the Lost Pilgrims while Yuria & her sister protect The Turlo.",
+    "experience_points": 2700
+  },
+  "tokenId": "3009",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Turlo Tunic",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Swamp Tassels",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Sibor's Brace",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Misses the southern plains fruit, but still happy to be by her companion's side.\n\nSurvived first battle, entering final at Church and survived again.\n\nSurvived the Turlo 30, originally sent from Gunther Wolfsblood's party. Upon return she fled Gunther's camp with an Obsidian Blade. \n\nYurias Madness welcome Natasha into The Furies after accepting the Blade on the condition Natasha would earn the right to wield it. \n\nNatasha has decided to venture to The Church and study the Lost Pilgrims while Yuria & her sister protect The Turlo.",
+  "external_url": "https://fateofwagdie.com/characters/3009",
+  "animation_url": "https://fateofwagdie.com/characters/3009/animated"
+}

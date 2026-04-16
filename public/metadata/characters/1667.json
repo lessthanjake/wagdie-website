@@ -1,0 +1,94 @@
+{
+  "name": "Dark Lord Mushini",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/1667.png",
+  "sheet": {
+    "name": "Dark Lord Mushini",
+    "level": 1,
+    "origin": "Zolian Worm",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Royal Fool's Curse",
+      "armor": "Zaban Explorer Garb"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 10,
+      "strength": 16,
+      "dexterity": 12,
+      "constitution": 14,
+      "intelligence": 16
+    },
+    "hit_points": 11,
+    "tokenIdInt": 1667,
+    "background_story": "Devotee to The Spread and master of the dark myconid arts. Commander.",
+    "experience_points": 0
+  },
+  "tokenId": "1667",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Zaban Explorer Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Yearn",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Naive Pilgrim's Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Royal Fool's Curse",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Spore Cap",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Stale Mushroom",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Spores of the Headless",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Devotee to The Spread and master of the dark myconid arts. Commander.",
+  "external_url": "https://fateofwagdie.com/characters/1667",
+  "animation_url": "https://fateofwagdie.com/characters/1667/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Sir Tavish",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/263.png",
+  "sheet": {
+    "name": "Sir Tavish",
+    "level": 8,
+    "origin": "Simple Vagabond",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Blessing",
+      "armor": "Luta's Support"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 18,
+      "strength": 11,
+      "dexterity": 11,
+      "constitution": 5,
+      "intelligence": 6
+    },
+    "hit_points": 17,
+    "tokenIdInt": 263,
+    "background_story": "Admired by many for his striking appearance and kind heart. Many a noblewoman whispers his name with admiration. His formidable and large sword defends their honor with unwavering determination.",
+    "experience_points": 70
+  },
+  "tokenId": "263",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Luta's Support",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Aqi Knot",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Blessing",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Worm Greatsword",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Admired by many for his striking appearance and kind heart. Many a noblewoman whispers his name with admiration. His formidable and large sword defends their honor with unwavering determination.",
+  "external_url": "https://fateofwagdie.com/characters/263",
+  "animation_url": "https://fateofwagdie.com/characters/263/animated"
+}

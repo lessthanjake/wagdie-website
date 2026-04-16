@@ -1,0 +1,94 @@
+{
+  "name": "Thorne Emberheart",
+  "image": "ipfs://bafkreiaweb2xkag6rk5a2qsyjd63pvis2qu42et6zb3afnkih7gv6wchbm",
+  "sheet": {
+    "name": "Thorne Emberheart",
+    "level": 4,
+    "origin": "Pilgrim",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 9,
+      "charisma": 11,
+      "strength": 14,
+      "dexterity": 17,
+      "constitution": 12,
+      "intelligence": 16
+    },
+    "hit_points": 33,
+    "tokenIdInt": 590,
+    "background_story": "Thorne, once a farmer of devoted pilgrims, embarked on a quest to unravel the mystery surrounding his lost father, who he believed to be a legendary adventurer who disappeared without a trace.\n\nHis journey led him through treacherous forests, across raging rivers, and over towering mountains. Along the way, he encountered daunting challenges and faced fearsome adversaries, yet his determination never wavered. As he continued his quest, Thorne forged bonds with allies who shared his determination, finding strength in unity and purpose in their pursuit. All while mastering the art of combat and honing in on his hunting skills.\n\nAs he delved deeper into the secrets of his father's past, Thorne unearthed not only clues but also a newfound sense of purpose. In the quiet moments between battles, amidst the whispers of the wind and the rustle of leaves, he discovered that his quest was not just about finding his father but also about discovering himself.\n\nThrough every trial and tribulation, Thorne realized that devotion was not merely about seeking answers, but about staying steadfast in the face of uncertainty. It was about embracing the unknown with unwavering resolve, even when the path seemed obscured by shadows. Being devoted to the allies he journeyed with and the lands he traversed. Perhaps there was still a larger meaning to his devotion… What it means to be truly devoted…\n\nThorne's most recent endeavor was a conflict with Justicar Mara Solar, defending the Sir Goldilocks and Kings Cousin. This ended with Lady Solar's peril.",
+    "experience_points": 30
+  },
+  "tokenId": "590",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "None",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Noxian Tint",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Thorne, once a farmer of devoted pilgrims, embarked on a quest to unravel the mystery surrounding his lost father, who he believed to be a legendary adventurer who disappeared without a trace.\n\nHis journey led him through treacherous forests, across raging rivers, and over towering mountains. Along the way, he encountered daunting challenges and faced fearsome adversaries, yet his determination never wavered. As he continued his quest, Thorne forged bonds with allies who shared his determination, finding strength in unity and purpose in their pursuit. All while mastering the art of combat and honing in on his hunting skills.\n\nAs he delved deeper into the secrets of his father's past, Thorne unearthed not only clues but also a newfound sense of purpose. In the quiet moments between battles, amidst the whispers of the wind and the rustle of leaves, he discovered that his quest was not just about finding his father but also about discovering himself.\n\nThrough every trial and tribulation, Thorne realized that devotion was not merely about seeking answers, but about staying steadfast in the face of uncertainty. It was about embracing the unknown with unwavering resolve, even when the path seemed obscured by shadows. Being devoted to the allies he journeyed with and the lands he traversed. Perhaps there was still a larger meaning to his devotion… What it means to be truly devoted…\n\nThorne's most recent endeavor was a conflict with Justicar Mara Solar, defending the Sir Goldilocks and Kings Cousin. This ended with Lady Solar's peril.",
+  "external_url": "https://fateofwagdie.com/characters/590",
+  "animation_url": "https://fateofwagdie.com/characters/590/animated"
+}

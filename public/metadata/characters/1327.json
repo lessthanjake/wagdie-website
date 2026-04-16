@@ -1,0 +1,94 @@
+{
+  "name": "Loved By Fate",
+  "image": "ipfs://bafkreidgs6erwzdejnneiucqh5xqunolr72fauz2gmn6imffrg4r4xbkwi",
+  "sheet": {
+    "name": "Loved By Fate",
+    "level": 1,
+    "origin": "Her Hidden Blade",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Yogg's Folly",
+      "armor": "Worm's Protection"
+    },
+    "attributes": {
+      "wisdom": 8,
+      "charisma": 10,
+      "strength": 15,
+      "dexterity": 10,
+      "constitution": 10,
+      "intelligence": 17
+    },
+    "hit_points": 6,
+    "tokenIdInt": 1327,
+    "background_story": "Honor and loyalty paid off!",
+    "experience_points": 0
+  },
+  "tokenId": "1327",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm's Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Brimstone",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Feeble Spikes",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Yogg's Folly",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Hidden Blade",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Honor and loyalty paid off!",
+  "external_url": "https://fateofwagdie.com/characters/1327",
+  "animation_url": "https://fateofwagdie.com/characters/1327/animated"
+}

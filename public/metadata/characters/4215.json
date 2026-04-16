@@ -1,0 +1,94 @@
+{
+  "name": "The Shadowed Scribe",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/4215.png",
+  "sheet": {
+    "name": "The Shadowed Scribe",
+    "level": 1,
+    "origin": "Young Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Death Smelt Hat",
+      "armor": "Blessing of the Worm"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 16,
+      "strength": 16,
+      "dexterity": 16,
+      "constitution": 16,
+      "intelligence": 30
+    },
+    "hit_points": 99,
+    "tokenIdInt": 4215,
+    "background_story": "A malevolent sorcerer who journeys across the forsaken lands under the guise of an apprentice scribe. In this role, he often scouts ahead through perilous lands under as a missionary of sorts, gaining their associated protections.\n\nHis reputation as a scribe has allowed him access to protected archives and the forgotten tomes within.\n\nHe speaks of the arrival of the next cycle and aims to prepare all to meet their fate... often performing the act himself.\n\n",
+    "experience_points": 666
+  },
+  "tokenId": "4215",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Blessing of the Worm",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Her Page",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Death Smelt Hat",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Witch",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Witches' Brush",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Witches' Brush",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Coven of Detriti",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A malevolent sorcerer who journeys across the forsaken lands under the guise of an apprentice scribe. In this role, he often scouts ahead through perilous lands under as a missionary of sorts, gaining their associated protections.\n\nHis reputation as a scribe has allowed him access to protected archives and the forgotten tomes within.\n\nHe speaks of the arrival of the next cycle and aims to prepare all to meet their fate... often performing the act himself.\n\n",
+  "external_url": "https://fateofwagdie.com/characters/4215",
+  "animation_url": "https://fateofwagdie.com/characters/4215/animated"
+}

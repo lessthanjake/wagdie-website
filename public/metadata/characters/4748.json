@@ -1,0 +1,93 @@
+{
+  "name": "Artin Dankil",
+  "image": "ipfs://bafkreigwszse45mhhjul7w5eyynsaljb4d6v4seglj3zaji7dpozd7urrm",
+  "sheet": {
+    "name": "Artin Dankil",
+    "level": 1,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "The Stranger's Mark",
+      "armor": "Logun Forged Weight"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 8,
+      "strength": 15,
+      "dexterity": 11,
+      "constitution": 16,
+      "intelligence": 9
+    },
+    "hit_points": 9,
+    "tokenIdInt": 4748,
+    "experience_points": 0
+  },
+  "tokenId": "4748",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun Forged Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Earth Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "The Stranger's Mark",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Necromancer",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/4748",
+  "animation_url": "https://fateofwagdie.com/characters/4748/animated"
+}

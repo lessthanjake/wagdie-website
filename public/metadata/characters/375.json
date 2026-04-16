@@ -1,0 +1,78 @@
+{
+  "name": "She who Smiles",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/375.png",
+  "sheet": {
+    "name": "She who Smiles",
+    "level": 20,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "She who Smiles",
+      "mask": "She who Smiles",
+      "armor": "She who Smiles"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 30,
+      "strength": 30,
+      "dexterity": 30,
+      "constitution": 30,
+      "intelligence": 30
+    },
+    "hit_points": 100,
+    "tokenIdInt": 375,
+    "background_story": "Death is the only constant.",
+    "experience_points": 9999
+  },
+  "tokenId": "375",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "She who Smiles",
+      "trait_type": "The 17"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Mothling's Fang",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Mothling",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Fossors",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Death is the only constant.",
+  "external_url": "https://fateofwagdie.com/characters/375",
+  "animation_url": "https://fateofwagdie.com/characters/375/animated"
+}

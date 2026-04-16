@@ -1,0 +1,94 @@
+{
+  "name": "Albert Greenstone",
+  "image": "ipfs://bafkreicnly5ylwqeni6pthc275akaxiyfxwjz4lyzhu53dlc3jx6lttq7e",
+  "sheet": {
+    "name": "Albert Greenstone",
+    "level": 1,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "None",
+      "armor": "Verite Encumbrance"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 4024,
+    "background_story": "Albert comes from a long line of knights. His father was King Arthur's royal guard for many years until he was poisoned. The Greenstone name is as old as the Forsaken  Lands. These knights are known for their skill on the battlefield. This young Warrior is the youngest of five brothers and has yet to prove his worth on the battlefield",
+    "experience_points": 0
+  },
+  "tokenId": "4024",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Verite Encumbrance",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Her Page",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Albert comes from a long line of knights. His father was King Arthur's royal guard for many years until he was poisoned. The Greenstone name is as old as the Forsaken  Lands. These knights are known for their skill on the battlefield. This young Warrior is the youngest of five brothers and has yet to prove his worth on the battlefield",
+  "external_url": "https://fateofwagdie.com/characters/4024",
+  "animation_url": "https://fateofwagdie.com/characters/4024/animated"
+}

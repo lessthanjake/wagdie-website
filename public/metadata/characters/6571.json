@@ -1,0 +1,94 @@
+{
+  "name": "Puddleblood",
+  "image": "ipfs://bafkreiegllxurbvvjbw4f3pmyxirmlcwl3upqjs4sxq5kyyankdaemkrxi",
+  "sheet": {
+    "name": "Puddleblood",
+    "level": 1,
+    "origin": "Wormlord Acolyte",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "None",
+      "armor": "Valorite Weight"
+    },
+    "attributes": {
+      "wisdom": 4,
+      "charisma": 8,
+      "strength": 5,
+      "dexterity": 15,
+      "constitution": 14,
+      "intelligence": 7
+    },
+    "hit_points": 27,
+    "tokenIdInt": 6571,
+    "background_story": "A dexterous youth from the idyllic Southern Marshes, Puddleblood is obsessed with the romanticized thrill of combat. Having lived all his life traversing the quaggy terrain of village Fenning, adaptive footwork remains his greatest combative edge. \n\n\"𝔅𝔶 𝔪𝔲𝔡 𝔞𝔫𝔡 𝔚𝔦𝔩𝔩, 𝔶𝔬𝔲𝔯 𝔟𝔩𝔬𝔬𝔡 𝔰𝔥𝔞𝔩𝔩 ℑ 𝔰𝔭𝔦𝔩𝔩!\"\n\n\n\n\n\n",
+    "experience_points": 0
+  },
+  "tokenId": "6571",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Valorite Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Pilgrim's Style",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormlord Acolyte",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A dexterous youth from the idyllic Southern Marshes, Puddleblood is obsessed with the romanticized thrill of combat. Having lived all his life traversing the quaggy terrain of village Fenning, adaptive footwork remains his greatest combative edge. \n\n\"𝔅𝔶 𝔪𝔲𝔡 𝔞𝔫𝔡 𝔚𝔦𝔩𝔩, 𝔶𝔬𝔲𝔯 𝔟𝔩𝔬𝔬𝔡 𝔰𝔥𝔞𝔩𝔩 ℑ 𝔰𝔭𝔦𝔩𝔩!\"\n\n\n\n\n\n",
+  "external_url": "https://fateofwagdie.com/characters/6571",
+  "animation_url": "https://fateofwagdie.com/characters/6571/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "ASTAROTH OF THE ABYSS",
+  "image": "ipfs://bafkreicnixtj45pcijnswnql6zu4meej6uihlilgdplcntjhngurp3ppli",
+  "sheet": {
+    "name": "ASTAROTH OF THE ABYSS",
+    "level": 7,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Detritus Helm",
+      "armor": "Logun's Descent"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 10,
+      "strength": 20,
+      "dexterity": 4,
+      "constitution": 17,
+      "intelligence": 17
+    },
+    "hit_points": 80,
+    "tokenIdInt": 4486,
+    "background_story": "Dawning new batttle gear acquired during his time at Sibor's Mound, Asataroth follows the white butterfly as it flutters towards the Southern Plain of the Druids, slowly as he is getting used to the new armor which is much heavier than what he's used to",
+    "experience_points": 75
+  },
+  "tokenId": "4486",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Descent",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Detritus Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Dawning new batttle gear acquired during his time at Sibor's Mound, Asataroth follows the white butterfly as it flutters towards the Southern Plain of the Druids, slowly as he is getting used to the new armor which is much heavier than what he's used to",
+  "external_url": "https://fateofwagdie.com/characters/4486",
+  "animation_url": "https://fateofwagdie.com/characters/4486/animated"
+}

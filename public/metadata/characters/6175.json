@@ -1,0 +1,94 @@
+{
+  "name": "Roscoe High-hill",
+  "image": "ipfs://bafkreigx7kscvl6ry3kp5r5kcpruxcgwgitso32xe27z3kjrze5ssb5egi",
+  "sheet": {
+    "name": "Roscoe High-hill",
+    "level": 1,
+    "origin": "Journeyman",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Removal's Kin",
+      "armor": "Luta's Full Weight"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 17,
+      "strength": 12,
+      "dexterity": 10,
+      "constitution": 13,
+      "intelligence": 16
+    },
+    "hit_points": 8,
+    "tokenIdInt": 6175,
+    "background_story": "Luta's 2nd.",
+    "experience_points": 0
+  },
+  "tokenId": "6175",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Luta's Full Weight",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Removal's Kin",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Luta's 2nd.",
+  "external_url": "https://fateofwagdie.com/characters/6175",
+  "animation_url": "https://fateofwagdie.com/characters/6175/animated"
+}

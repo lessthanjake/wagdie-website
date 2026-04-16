@@ -1,0 +1,94 @@
+{
+  "name": "Flavius Buttwig",
+  "image": "ipfs://bafkreifrl6ourv3nhllgzxqq4wn7yqx7ft6bws6mv2tfxdkrm7fwkp5b4e",
+  "sheet": {
+    "name": "Flavius Buttwig",
+    "level": 1,
+    "origin": "Young Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "Yogg's Folly",
+      "armor": "Her Imprint"
+    },
+    "attributes": {
+      "wisdom": 6,
+      "charisma": 11,
+      "strength": 13,
+      "dexterity": 12,
+      "constitution": 14,
+      "intelligence": 15
+    },
+    "hit_points": 9,
+    "tokenIdInt": 568,
+    "background_story": "Flavius Buttwig spent a decade as the bearded lady in the Yore circus. There she met Constable Cornelius Pfefferton, who had an affinity for bearded broads. \n\nPfefferton taught her a life of nobility and she became the first female scholar to enter the Conclave. They sired seven bearded children, all of them female.",
+    "experience_points": 0
+  },
+  "tokenId": "568",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Imprint",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit's Claim",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Yogg's Folly",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Flavius Buttwig spent a decade as the bearded lady in the Yore circus. There she met Constable Cornelius Pfefferton, who had an affinity for bearded broads. \n\nPfefferton taught her a life of nobility and she became the first female scholar to enter the Conclave. They sired seven bearded children, all of them female.",
+  "external_url": "https://fateofwagdie.com/characters/568",
+  "animation_url": "https://fateofwagdie.com/characters/568/animated"
+}

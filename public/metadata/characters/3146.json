@@ -1,0 +1,94 @@
+{
+  "name": "Seipora Dotsk",
+  "image": "ipfs://bafkreibq5t6opsu4asnm2v5fhgxe577a2lxgnav42uc4t7xb7tsbtcqgca",
+  "sheet": {
+    "name": "Seipora Dotsk",
+    "level": 1,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Wormlord Visage",
+      "armor": "Zaban Explorer Garb"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 10,
+      "strength": 10,
+      "dexterity": 11,
+      "constitution": 11,
+      "intelligence": 15
+    },
+    "hit_points": 7,
+    "tokenIdInt": 3146,
+    "background_story": "I came from a modest home and trained under my parents as an acolyte at the Church of Her. Due to personal reasons I left the Church and ran into the Putrid Forest, hoping to get lost and die. However, was taken under the wing of an old hag and was taught ancient dark magic. I've been addicted to the craft ever since.",
+    "experience_points": 0
+  },
+  "tokenId": "3146",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Zaban Explorer Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wormlord Visage",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Necromancer",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "I came from a modest home and trained under my parents as an acolyte at the Church of Her. Due to personal reasons I left the Church and ran into the Putrid Forest, hoping to get lost and die. However, was taken under the wing of an old hag and was taught ancient dark magic. I've been addicted to the craft ever since.",
+  "external_url": "https://fateofwagdie.com/characters/3146",
+  "animation_url": "https://fateofwagdie.com/characters/3146/animated"
+}

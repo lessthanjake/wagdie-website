@@ -1,0 +1,94 @@
+{
+  "name": "Garrick Longsword",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/3529.png",
+  "sheet": {
+    "name": "Garrick Longsword",
+    "level": 1,
+    "origin": "Young Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "Zoltan Helm",
+      "armor": "Logun's Descent"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 6,
+      "strength": 10,
+      "dexterity": 16,
+      "constitution": 11,
+      "intelligence": 10
+    },
+    "hit_points": 7,
+    "tokenIdInt": 3529,
+    "background_story": "Garrick was sent on behalf of cirdan of the merchant guild",
+    "experience_points": 0
+  },
+  "tokenId": "3529",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Descent",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Zoltan Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Her Legionnaire",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Her Ash",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Bonfire",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Garrick was sent on behalf of cirdan of the merchant guild",
+  "external_url": "https://fateofwagdie.com/characters/3529",
+  "animation_url": "https://fateofwagdie.com/characters/3529/animated"
+}

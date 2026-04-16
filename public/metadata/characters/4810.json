@@ -1,0 +1,94 @@
+{
+  "name": "Flick",
+  "image": "ipfs://bafkreib3sw2bxxpn42hkcgyezs64oatv7omgbmywknqwq4qjljntxeodqy",
+  "sheet": {
+    "name": "Flick",
+    "level": 1,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "An Ancient Device",
+      "armor": "Verite Encumbrance"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 16,
+      "strength": 9,
+      "dexterity": 9,
+      "constitution": 6,
+      "intelligence": 16
+    },
+    "hit_points": 7,
+    "tokenIdInt": 4810,
+    "background_story": "Doesn't remember why they are here, but knows they need to teach those to do something which was have been forgotten.",
+    "experience_points": 0
+  },
+  "tokenId": "4810",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Verite Encumbrance",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Altered",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zaban Rough Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "An Ancient Device",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Doesn't remember why they are here, but knows they need to teach those to do something which was have been forgotten.",
+  "external_url": "https://fateofwagdie.com/characters/4810",
+  "animation_url": "https://fateofwagdie.com/characters/4810/animated"
+}

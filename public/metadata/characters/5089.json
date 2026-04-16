@@ -1,0 +1,94 @@
+{
+  "name": "Orimaia Sepret",
+  "image": "ipfs://bafkreicglgnlvihwidfgegubnxcg66kqqagj5l7ffpcnzhfgaaeu6sdo3q",
+  "sheet": {
+    "name": "Orimaia Sepret",
+    "level": 1,
+    "origin": "Old Pilgrim",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "None",
+      "armor": "Swamp Traveler Cloak"
+    },
+    "attributes": {
+      "wisdom": 9,
+      "charisma": 10,
+      "strength": 11,
+      "dexterity": 14,
+      "constitution": 11,
+      "intelligence": 8
+    },
+    "hit_points": 5,
+    "tokenIdInt": 5089,
+    "background_story": "\nAn old man with silver hair dedicates his life to hunting monsters, utilizing various potions and beverages crafted from the parts of the very creatures he hunts. A predator among humans, he now faces a new and larger threat: an unknown entity intent on resurrecting beings that should rightfully remain dead. \n\nAs this formidable foe seeks to disturb the eternal rest of these creatures, the seasoned hunter prepares to confront what may be his most challenging adversary yet.\n\nThe Coven's Lair is close...",
+    "experience_points": 0
+  },
+  "tokenId": "5089",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Swamp Traveler Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Old Pilgrim",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Old Pilgrim",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "\nAn old man with silver hair dedicates his life to hunting monsters, utilizing various potions and beverages crafted from the parts of the very creatures he hunts. A predator among humans, he now faces a new and larger threat: an unknown entity intent on resurrecting beings that should rightfully remain dead. \n\nAs this formidable foe seeks to disturb the eternal rest of these creatures, the seasoned hunter prepares to confront what may be his most challenging adversary yet.\n\nThe Coven's Lair is close...",
+  "external_url": "https://fateofwagdie.com/characters/5089",
+  "animation_url": "https://fateofwagdie.com/characters/5089/animated"
+}

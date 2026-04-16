@@ -1,0 +1,94 @@
+{
+  "name": "Alberich Gorunn",
+  "image": "ipfs://bafkreia3cu2tsez2bzog6ypwvfxzgcoomxlc4pmasqqsvzrbqwkahjhpuu",
+  "sheet": {
+    "name": "Alberich Gorunn",
+    "level": 2,
+    "origin": "Zolian Worm",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "None",
+      "armor": "Noxian Jester Garb"
+    },
+    "attributes": {
+      "wisdom": 9,
+      "charisma": 14,
+      "strength": 7,
+      "dexterity": 11,
+      "constitution": 12,
+      "intelligence": 12
+    },
+    "hit_points": 9,
+    "tokenIdInt": 4182,
+    "background_story": "Current: Survived 1st, entering Final Battle at the Church\n\n\nLaughter's apprentice, joining the Bulwark of the Serpent in honor of The Nameless Charter.",
+    "experience_points": 300
+  },
+  "tokenId": "4182",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Noxian Jester Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zaban Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Current: Survived 1st, entering Final Battle at the Church\n\n\nLaughter's apprentice, joining the Bulwark of the Serpent in honor of The Nameless Charter.",
+  "external_url": "https://fateofwagdie.com/characters/4182",
+  "animation_url": "https://fateofwagdie.com/characters/4182/animated"
+}

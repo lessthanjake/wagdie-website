@@ -1,0 +1,94 @@
+{
+  "name": "Vicious",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/3823.png",
+  "sheet": {
+    "name": "Vicious",
+    "level": 7,
+    "origin": "Zolian Worm",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Sibor's Brace",
+      "armor": "Crow Lord's Blessing"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 0,
+      "strength": 19,
+      "dexterity": 19,
+      "constitution": 10,
+      "intelligence": 18
+    },
+    "hit_points": 13,
+    "tokenIdInt": 3823,
+    "background_story": "I’m the only one who can kill you and set you free.",
+    "experience_points": 50
+  },
+  "tokenId": "3823",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Crow Lord's Blessing",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Envious Locks",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Sibor's Brace",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Felfrost Sword",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Felfrost",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Knights of Piat",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "I’m the only one who can kill you and set you free.",
+  "external_url": "https://fateofwagdie.com/characters/3823",
+  "animation_url": "https://fateofwagdie.com/characters/3823/animated"
+}

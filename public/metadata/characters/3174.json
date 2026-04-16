@@ -1,0 +1,94 @@
+{
+  "name": "Nina Scarlet Rose",
+  "image": "ipfs://bafkreic5wocjns5f3foandettt3jknqtt6d6aoczgkvjv3rbrlhfyxpice",
+  "sheet": {
+    "name": "Nina Scarlet Rose",
+    "level": 1,
+    "origin": "Her Lover",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Detritus Helm",
+      "armor": "Yuria's Power"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 11,
+      "strength": 16,
+      "dexterity": 15,
+      "constitution": 16,
+      "intelligence": 11
+    },
+    "hit_points": 50,
+    "tokenIdInt": 3174,
+    "background_story": "Nina Scarlet Rose is the Battle Captain of the Berserker Furies. \n\nAlthough not much is currently known about her yet, there is a rumor that she rarely takes off the Detritus Helm because her strikingly beautiful facial features contrast her savagery and disregard for the life of other beings that are not the Turlo people.\n\nIt is said she was one of the only Furies who survived the stand against Yorn & Yogg",
+    "experience_points": 50
+  },
+  "tokenId": "3174",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Yuria's Power",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Detritus Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Nina Scarlet Rose is the Battle Captain of the Berserker Furies. \n\nAlthough not much is currently known about her yet, there is a rumor that she rarely takes off the Detritus Helm because her strikingly beautiful facial features contrast her savagery and disregard for the life of other beings that are not the Turlo people.\n\nIt is said she was one of the only Furies who survived the stand against Yorn & Yogg",
+  "external_url": "https://fateofwagdie.com/characters/3174",
+  "animation_url": "https://fateofwagdie.com/characters/3174/animated"
+}

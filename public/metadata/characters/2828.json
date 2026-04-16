@@ -1,0 +1,94 @@
+{
+  "name": "Lord Donté Freedrick-Wulf",
+  "image": "ipfs://bafkreifxdal5ewcytk4hftjqikq5fescqdbnqveluihawicr6kmzqjv57a",
+  "sheet": {
+    "name": "Lord Donté Freedrick-Wulf",
+    "level": 1,
+    "origin": "Pilgrim of the Lakes",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "Royal Fool's Curse",
+      "armor": "Young Knight of Logun"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 2828,
+    "background_story": "Loyal to the Kingdom of Covington. Donte was sent by The Brightlord to understand the threat of the Serpent.\n\nHe succumbed to poisonous gas within The Burrows.",
+    "experience_points": 0
+  },
+  "tokenId": "2828",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Young Knight of Logun",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Straw",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Royal Fool's Curse",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Loyal to the Kingdom of Covington. Donte was sent by The Brightlord to understand the threat of the Serpent.\n\nHe succumbed to poisonous gas within The Burrows.",
+  "external_url": "https://fateofwagdie.com/characters/2828",
+  "animation_url": "https://fateofwagdie.com/characters/2828/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Prometheus \"Meth\" Scoundrel",
+  "image": "https://i2c.seadn.io/ethereum/0x659a4bdaaacc62d2bd9cb18225d9c89b5b697a5a/47ac27f1d7ca40a33f61ff20d70f12/1247ac27f1d7ca40a33f61ff20d70f12.png",
+  "sheet": {
+    "name": "Prometheus \"Meth\" Scoundrel",
+    "level": 1,
+    "origin": "Garolin Champion",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "Worm Touch",
+      "armor": "Pilgrim's Chain"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 17,
+      "strength": 11,
+      "dexterity": 13,
+      "constitution": 15,
+      "intelligence": 17
+    },
+    "hit_points": 10,
+    "tokenIdInt": 1942,
+    "background_story": "In the back of his mind lies the answer to the hidden location of the Goblet of Myrth. ",
+    "experience_points": 0
+  },
+  "tokenId": "1942",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Worm Touch",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Pilgrim's Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    }
+  ],
+  "description": "In the back of his mind lies the answer to the hidden location of the Goblet of Myrth. ",
+  "external_url": "https://fateofwagdie.com/characters/1942",
+  "animation_url": "https://fateofwagdie.com/characters/1942/animated"
+}

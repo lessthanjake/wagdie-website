@@ -1,0 +1,94 @@
+{
+  "name": "Kuto the Strange",
+  "image": "ipfs://bafkreidfs54q67rhp3oacedu5oofz5bp7eaa2yxhxvs6io3eb26zizvooq",
+  "sheet": {
+    "name": "Kuto the Strange",
+    "level": 2,
+    "origin": "Naive Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Favor in Light",
+      "mask": "Sibor's Brace",
+      "armor": "Her Zealot's Gear"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 14,
+      "strength": 9,
+      "dexterity": 12,
+      "constitution": 13,
+      "intelligence": 11
+    },
+    "hit_points": 10,
+    "tokenIdInt": 734,
+    "background_story": "Inn-keeper, story-teller. Easy-going follower of both Her and the Nameless One, thinking they are two halves of the same coin.\n\nFollowing the disaster at the Artificer's Sanctum along the edge of the wound, Kuto gave up traveling with merchants and has taken stewardship of The Welcome Stranger Inn, for those in need of a warm meal or a roof over their head.",
+    "experience_points": 0
+  },
+  "tokenId": "734",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Zealot's Gear",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Favor in Light",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Vaulted",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Sibor's Brace",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Inn-keeper, story-teller. Easy-going follower of both Her and the Nameless One, thinking they are two halves of the same coin.\n\nFollowing the disaster at the Artificer's Sanctum along the edge of the wound, Kuto gave up traveling with merchants and has taken stewardship of The Welcome Stranger Inn, for those in need of a warm meal or a roof over their head.",
+  "external_url": "https://fateofwagdie.com/characters/734",
+  "animation_url": "https://fateofwagdie.com/characters/734/animated"
+}

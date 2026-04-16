@@ -1,0 +1,94 @@
+{
+  "name": "Lord of the Pyre",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/4723.png",
+  "sheet": {
+    "name": "Lord of the Pyre",
+    "level": 1,
+    "origin": "Foolish Jester",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Favor",
+      "mask": "Worm Touch",
+      "armor": "Noxian Jester Garb"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 11,
+      "strength": 15,
+      "dexterity": 9,
+      "constitution": 15,
+      "intelligence": 12
+    },
+    "hit_points": 9,
+    "tokenIdInt": 4723,
+    "background_story": "Mysterious guardian of the Southern Plains, who emerged after the solstice.\n\nHe preaches of The Monad despite so many losing faith due amid the revelations of The Headless. Thus, he is regarded by local Druids as a troubled yet steadfast spiritual leader with a small but devoted following.",
+    "experience_points": 0
+  },
+  "tokenId": "4723",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Noxian Jester Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Favor",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Yearn",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Worm Touch",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Lord of the Pyre",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Monad Carving",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Druids of the Southern Plains",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Mysterious guardian of the Southern Plains, who emerged after the solstice.\n\nHe preaches of The Monad despite so many losing faith due amid the revelations of The Headless. Thus, he is regarded by local Druids as a troubled yet steadfast spiritual leader with a small but devoted following.",
+  "external_url": "https://fateofwagdie.com/characters/4723",
+  "animation_url": "https://fateofwagdie.com/characters/4723/animated"
+}

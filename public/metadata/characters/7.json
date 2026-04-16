@@ -1,0 +1,94 @@
+{
+  "name": "Ivan of the Order",
+  "image": "ipfs://bafkreif2ktc5rx47mbwgypolf6xwt6zwlbwkiz7xbhvbkgwfvl2gl53liu",
+  "sheet": {
+    "name": "Ivan of the Order",
+    "level": 4,
+    "origin": "Pilgrim of the Lakes",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "None",
+      "armor": "Her Champion's Sacrifice"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 8,
+      "strength": 18,
+      "dexterity": 14,
+      "constitution": 16,
+      "intelligence": 13
+    },
+    "hit_points": 31,
+    "tokenIdInt": 7,
+    "background_story": "Ivan is an emissary of the Order, a group seeking to form alliances between followers of Agora and the people of the Forsaken Lands.\n\nIvan has lived among the Druids of the Southern Plains and has developed a deep understanding of their ways. He seeks revenge on the Darkblade who committed atrocities in the Southern Plains.",
+    "experience_points": 140
+  },
+  "tokenId": "7",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Champion's Sacrifice",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Ivan is an emissary of the Order, a group seeking to form alliances between followers of Agora and the people of the Forsaken Lands.\n\nIvan has lived among the Druids of the Southern Plains and has developed a deep understanding of their ways. He seeks revenge on the Darkblade who committed atrocities in the Southern Plains.",
+  "external_url": "https://fateofwagdie.com/characters/7",
+  "animation_url": "https://fateofwagdie.com/characters/7/animated"
+}

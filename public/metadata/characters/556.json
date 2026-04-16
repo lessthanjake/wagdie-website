@@ -1,0 +1,94 @@
+{
+  "name": "Nathanyel Praxl",
+  "image": "ipfs://bafkreidfqahaoqu4rudmn55mvenyfu2yxxexsroyaswllmp4eod6jmb224",
+  "sheet": {
+    "name": "Nathanyel Praxl",
+    "level": 1,
+    "origin": "Young Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Fool's Crown",
+      "armor": "Logun's Pauldrons"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 14,
+      "strength": 16,
+      "dexterity": 11,
+      "constitution": 11,
+      "intelligence": 15
+    },
+    "hit_points": 7,
+    "tokenIdInt": 556,
+    "background_story": "Nathanyel is a handsome, talented, warrior. Much like his father Treymayne\nNathanyel holds much favor with lords and ladies alike. \nNathanyel is loved by all, and poised to carry on his fathers legacy and inherit the kingdom.\n",
+    "experience_points": 0
+  },
+  "tokenId": "556",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Logun's Pauldrons",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Envious Locks",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Fool's Crown",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Nathanyel is a handsome, talented, warrior. Much like his father Treymayne\nNathanyel holds much favor with lords and ladies alike. \nNathanyel is loved by all, and poised to carry on his fathers legacy and inherit the kingdom.\n",
+  "external_url": "https://fateofwagdie.com/characters/556",
+  "animation_url": "https://fateofwagdie.com/characters/556/animated"
+}

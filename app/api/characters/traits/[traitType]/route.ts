@@ -4,7 +4,9 @@
  */
 
 import { NextRequest, NextResponse } from 'next/server'
-import { characterRepository } from '@/lib/repositories/character-repository'
+import { serverCharacterRepository } from '@/lib/repositories/character-repository.server'
+
+export const runtime = 'nodejs'
 
 // Valid trait types that can be queried
 const VALID_TRAIT_TYPES = ['Armor', 'Back', 'Mask', 'Body', 'Hair', 'Background', 'Class', 'Health']
@@ -28,7 +30,7 @@ export async function GET(
       )
     }
 
-    const result = await characterRepository.getTraitCounts(normalizedTraitType)
+    const result = await serverCharacterRepository.getTraitCounts(normalizedTraitType)
     return NextResponse.json(result)
   } catch (error) {
     console.error('Error fetching trait counts:', error)

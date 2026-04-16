@@ -1,0 +1,94 @@
+{
+  "name": "Prince Orsik",
+  "image": "ipfs://bafkreid4k2mkus2mpsrxttxdb5tjw36klx34vdhosgfr7ht4mlamh43rjq",
+  "sheet": {
+    "name": "Prince Orsik",
+    "level": 2,
+    "origin": "Pilgrim of the Lakes",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Royal Fool's Curse",
+      "armor": "Pilgrim's Plain Chain"
+    },
+    "attributes": {
+      "wisdom": 5,
+      "charisma": 5,
+      "strength": 6,
+      "dexterity": 5,
+      "constitution": 6,
+      "intelligence": 7
+    },
+    "hit_points": 3,
+    "tokenIdInt": 5893,
+    "background_story": "The youngest in the family and 12th in line to his fathers throne, Prince Orsik is the runt of the litter with no traits that make him stand out from his siblings.\n\nThe King has little time for this weakling, whilst his brother will beat him at every opportunity.\n\nHe spends his time hiding from his brothers in the castle's library and stables.\n",
+    "experience_points": 1
+  },
+  "tokenId": "5893",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Plain Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Piat's Destruction",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Royal Fool's Curse",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The youngest in the family and 12th in line to his fathers throne, Prince Orsik is the runt of the litter with no traits that make him stand out from his siblings.\n\nThe King has little time for this weakling, whilst his brother will beat him at every opportunity.\n\nHe spends his time hiding from his brothers in the castle's library and stables.\n",
+  "external_url": "https://fateofwagdie.com/characters/5893",
+  "animation_url": "https://fateofwagdie.com/characters/5893/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Warryn Garrick",
+  "image": "ipfs://bafkreiatijdzwd6uqgczz62swxnvkkjpj42fhfgqzzajqzz7firkh5c4re",
+  "sheet": {
+    "name": "Warryn Garrick",
+    "level": 2,
+    "origin": "Simple Vagabond",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Nameless One's Blessing",
+      "mask": "None",
+      "armor": "Punished Shirt"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 10,
+      "strength": 11,
+      "dexterity": 8,
+      "constitution": 9,
+      "intelligence": 11
+    },
+    "hit_points": 5,
+    "tokenIdInt": 1423,
+    "background_story": "Bravely perished in The Burrow defending Zell The Cartographer.",
+    "experience_points": 200
+  },
+  "tokenId": "1423",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Punished Shirt",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Nameless One's Blessing",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Noble's Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Bravely perished in The Burrow defending Zell The Cartographer.",
+  "external_url": "https://fateofwagdie.com/characters/1423",
+  "animation_url": "https://fateofwagdie.com/characters/1423/animated"
+}

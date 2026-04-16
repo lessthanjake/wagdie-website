@@ -1,0 +1,94 @@
+{
+  "name": "Dark Soule",
+  "image": "ipfs://bafkreicbjvyntwlwrxwj7rfu66xs3yyy7xa2aylekcxgfbkhwwhe5xj5au",
+  "sheet": {
+    "name": "Dark Soule",
+    "level": 2,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Stranger's Cry",
+      "armor": "Peasant Garb"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 12,
+      "strength": 11,
+      "dexterity": 12,
+      "constitution": 15,
+      "intelligence": 14
+    },
+    "hit_points": 8,
+    "tokenIdInt": 3185,
+    "background_story": "Agora followers shall perish\n\nThe battle is over and the Bulwark of the Serpent has won. Dark Soule barely survives the two encounters.\n\nDark Soule went to the pyre and find his demise there..",
+    "experience_points": 10
+  },
+  "tokenId": "3185",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Peasant Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Stranger's Cry",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Agora followers shall perish\n\nThe battle is over and the Bulwark of the Serpent has won. Dark Soule barely survives the two encounters.\n\nDark Soule went to the pyre and find his demise there..",
+  "external_url": "https://fateofwagdie.com/characters/3185",
+  "animation_url": "https://fateofwagdie.com/characters/3185/animated"
+}

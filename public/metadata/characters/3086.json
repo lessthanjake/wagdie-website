@@ -1,0 +1,94 @@
+{
+  "name": "Athena",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/3086.png",
+  "sheet": {
+    "name": "Athena",
+    "level": 13,
+    "origin": "Wormkin Elite",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Glory",
+      "armor": "Tunic of Yore"
+    },
+    "attributes": {
+      "wisdom": 20,
+      "charisma": 15,
+      "strength": 10,
+      "dexterity": 10,
+      "constitution": 0,
+      "intelligence": 20
+    },
+    "hit_points": 15,
+    "tokenIdInt": 3086,
+    "background_story": "Eww! Stop staring at my profile… pervert.",
+    "experience_points": 80
+  },
+  "tokenId": "3086",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Tunic of Yore",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Nox Temptress Hair",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Her Infinite Light",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Encampment Medallion",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Encampment Militia",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Eww! Stop staring at my profile… pervert.",
+  "external_url": "https://fateofwagdie.com/characters/3086",
+  "animation_url": "https://fateofwagdie.com/characters/3086/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "adam the undressed",
+  "image": "ipfs://bafkreigtr3pspzi77jb5td2vhesixh2ayyrrbg3djh3x5e7rjgtpssyu5u",
+  "sheet": {
+    "name": "adam the undressed",
+    "level": 1,
+    "origin": "Naive Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 4526,
+    "background_story": "In a change of events ; baldburner gifted atriox (who is rumoured to be bald) another member for his army. \n\nAdam (first of his name) was born in the garden of eden. He sacrificed part of his own body for the creation of \"eve\", who ate a apple and fucked everything up! Pissed as hell adam left the garden, remaining undressed. ",
+    "experience_points": 0
+  },
+  "tokenId": "4526",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "None",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit's Pieces",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "In a change of events ; baldburner gifted atriox (who is rumoured to be bald) another member for his army. \n\nAdam (first of his name) was born in the garden of eden. He sacrificed part of his own body for the creation of \"eve\", who ate a apple and fucked everything up! Pissed as hell adam left the garden, remaining undressed. ",
+  "external_url": "https://fateofwagdie.com/characters/4526",
+  "animation_url": "https://fateofwagdie.com/characters/4526/animated"
+}

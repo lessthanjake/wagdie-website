@@ -1,0 +1,94 @@
+{
+  "name": "Asala the Firekeeper",
+  "image": "ipfs://bafkreid5tzd6ett2abyvhdredgxv5aus64rwmrbxtdesew52jlgxwxmf7i",
+  "sheet": {
+    "name": "Asala the Firekeeper",
+    "level": 1,
+    "origin": "Wormkin Elite",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Her Silence",
+      "armor": "Turlo Tunic"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 1799,
+    "background_story": "Asala tends the eternal flames at the Shrines of Agora.  A devout missionary,  she doesn't mind the travel.  The longer the route, the more worms she can crush under her heel.",
+    "experience_points": 0
+  },
+  "tokenId": "1799",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Turlo Tunic",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Her Golden Page",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Silence",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Asala tends the eternal flames at the Shrines of Agora.  A devout missionary,  she doesn't mind the travel.  The longer the route, the more worms she can crush under her heel.",
+  "external_url": "https://fateofwagdie.com/characters/1799",
+  "animation_url": "https://fateofwagdie.com/characters/1799/animated"
+}

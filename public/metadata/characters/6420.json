@@ -1,0 +1,94 @@
+{
+  "name": "Datt Voo the Dreamthief",
+  "image": "ipfs://bafkreigu6ihmyqfkgo63wf4kmdpuwk54kvp4bplbopnwkivmodnme27nqy",
+  "sheet": {
+    "name": "Datt Voo the Dreamthief",
+    "level": 1,
+    "origin": "Naive Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "None",
+      "armor": "Worm's Protection"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 6420,
+    "background_story": "From a young age, Datt never set goals of his own.\n\nInstead Datt took on the goals of his closest friends and biggest enemies. This is due to a tragic event during his upbringing.\n\nNicknamed The Dream Thief, Datt has achieved every goal and every dream that anyone he has ever associated with has had.\n",
+    "experience_points": 0
+  },
+  "tokenId": "6420",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm's Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Straw",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "From a young age, Datt never set goals of his own.\n\nInstead Datt took on the goals of his closest friends and biggest enemies. This is due to a tragic event during his upbringing.\n\nNicknamed The Dream Thief, Datt has achieved every goal and every dream that anyone he has ever associated with has had.\n",
+  "external_url": "https://fateofwagdie.com/characters/6420",
+  "animation_url": "https://fateofwagdie.com/characters/6420/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "King's Sister",
+  "image": "ipfs://bafkreiegqquvrocsoyabxienx5j4mxtctmccb475xkzcr3yw65yrxzunx4",
+  "sheet": {
+    "name": "King's Sister",
+    "level": 1,
+    "origin": "Wormkin Elite",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Royal Fool's Curse",
+      "armor": "Tunic of Yore"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 909,
+    "background_story": "King's sister was always kept in the shadows, even though she felt she would be the better Ruler.  In a twist of fate, being kept in the shadows spared her from being infected like King. Since his funeral, she has been planning her ascent to the throne. She now has arisen from the shadows well-trained, strong and ready. And she has entered The Battle to display her gloriousness and become Victor...and Queen!",
+    "experience_points": 0
+  },
+  "tokenId": "909",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Tunic of Yore",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit Set",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Royal Fool's Curse",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "King's sister was always kept in the shadows, even though she felt she would be the better Ruler.  In a twist of fate, being kept in the shadows spared her from being infected like King. Since his funeral, she has been planning her ascent to the throne. She now has arisen from the shadows well-trained, strong and ready. And she has entered The Battle to display her gloriousness and become Victor...and Queen!",
+  "external_url": "https://fateofwagdie.com/characters/909",
+  "animation_url": "https://fateofwagdie.com/characters/909/animated"
+}

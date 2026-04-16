@@ -1,0 +1,94 @@
+{
+  "name": "OakLeigh Couture",
+  "image": "ipfs://bafkreifpk3h7ywqmsdtsd7nwknttumimwh2szs4wb6oungnmvbtouwmxba",
+  "sheet": {
+    "name": "OakLeigh Couture",
+    "level": 1,
+    "origin": "Wormkin Elite",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Goldbeard's Eyes",
+      "armor": "Tunic of Yore"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 20,
+      "strength": 4,
+      "dexterity": 20,
+      "constitution": 4,
+      "intelligence": 15
+    },
+    "hit_points": 15,
+    "tokenIdInt": 2161,
+    "background_story": "Someone asked if I'm into fashion. Foolish pilgrim, do you see these shades? Do you peep this fit?",
+    "experience_points": 10
+  },
+  "tokenId": "2161",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Tunic of Yore",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Goldbeard's Eyes",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Wormkin Elite",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Someone asked if I'm into fashion. Foolish pilgrim, do you see these shades? Do you peep this fit?",
+  "external_url": "https://fateofwagdie.com/characters/2161",
+  "animation_url": "https://fateofwagdie.com/characters/2161/animated"
+}

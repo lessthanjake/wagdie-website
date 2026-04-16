@@ -1,0 +1,93 @@
+{
+  "name": "Torbera Gorunn",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/4107.png",
+  "sheet": {
+    "name": "Torbera Gorunn",
+    "level": 1,
+    "origin": "Transformed Devotee",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Holy Garb"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 11,
+      "strength": 11,
+      "dexterity": 13,
+      "constitution": 16,
+      "intelligence": 11
+    },
+    "hit_points": 11,
+    "tokenIdInt": 4107,
+    "experience_points": 0
+  },
+  "tokenId": "4107",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Holy Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Altered",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Transformed Devotee",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Transformed Devotee",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Swamp Shroud",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Cauldron of Detriti",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Coven of Detriti",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/4107",
+  "animation_url": "https://fateofwagdie.com/characters/4107/animated"
+}

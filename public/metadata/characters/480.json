@@ -1,0 +1,94 @@
+{
+  "name": "Green Fiend",
+  "image": "ipfs://bafkreifndjyag3276amlykri6m3zq2ceb3r4qb4ry2ffercq5xymkxgzka",
+  "sheet": {
+    "name": "Green Fiend",
+    "level": 1,
+    "origin": "Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "Worm Touch",
+      "armor": "Verite Supports"
+    },
+    "attributes": {
+      "wisdom": 3,
+      "charisma": 10,
+      "strength": 8,
+      "dexterity": 11,
+      "constitution": 8,
+      "intelligence": 5
+    },
+    "hit_points": 8,
+    "tokenIdInt": 480,
+    "background_story": "Known to eagerly celebrate good news.",
+    "experience_points": 0
+  },
+  "tokenId": "480",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Verite Supports",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Noxian Tint",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Worm Touch",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Known to eagerly celebrate good news.",
+  "external_url": "https://fateofwagdie.com/characters/480",
+  "animation_url": "https://fateofwagdie.com/characters/480/animated"
+}

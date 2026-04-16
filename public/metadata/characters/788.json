@@ -1,0 +1,94 @@
+{
+  "name": "Damon The Stargazer",
+  "image": "ipfs://bafkreied7zhxqtajqhw2bflo5zu32jy5fkbzppt2rkyhiuxn4ujtjxfpfu",
+  "sheet": {
+    "name": "Damon The Stargazer",
+    "level": 1,
+    "origin": "Simple Vagabond",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Pilgrim's Chain"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 14,
+      "strength": 11,
+      "dexterity": 14,
+      "constitution": 16,
+      "intelligence": 9
+    },
+    "hit_points": 7,
+    "tokenIdInt": 788,
+    "background_story": "Sometimes I feel, long ago life took the last breath from me\nLife itself, the grand enemy\nThe white bride of wretched death, did guide me through gardens grey\nThe fruit of which, would only fall to rot away\n\nAmidst such vast gardens, even the sun itself doth seem so pallid\nAnd the once glorious moon, its pallor so unhallowed\n\nSeven statues of saddened stance\nPerhaps the craft of a man still sadder\nFallen leaves of the thrice dead oak\nA morbid portrayal of a once grand majesty\n",
+    "experience_points": 0
+  },
+  "tokenId": "788",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Void",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit's Claim",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Simple Vagabond",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Sometimes I feel, long ago life took the last breath from me\nLife itself, the grand enemy\nThe white bride of wretched death, did guide me through gardens grey\nThe fruit of which, would only fall to rot away\n\nAmidst such vast gardens, even the sun itself doth seem so pallid\nAnd the once glorious moon, its pallor so unhallowed\n\nSeven statues of saddened stance\nPerhaps the craft of a man still sadder\nFallen leaves of the thrice dead oak\nA morbid portrayal of a once grand majesty\n",
+  "external_url": "https://fateofwagdie.com/characters/788",
+  "animation_url": "https://fateofwagdie.com/characters/788/animated"
+}

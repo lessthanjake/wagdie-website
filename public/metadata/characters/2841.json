@@ -1,0 +1,94 @@
+{
+  "name": "Dorian “The Wise”",
+  "image": "https://i2c.seadn.io/ethereum/0x659a4bdaaacc62d2bd9cb18225d9c89b5b697a5a/3d8dec413e251a2d988a359e665215/193d8dec413e251a2d988a359e665215.png",
+  "sheet": {
+    "name": "Dorian “The Wise”",
+    "level": 17,
+    "origin": "Nameless Adventurer",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Wisened Touch",
+      "armor": "Champion of Logun"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 10,
+      "strength": 20,
+      "dexterity": 18,
+      "constitution": 17,
+      "intelligence": 23
+    },
+    "hit_points": 90,
+    "tokenIdInt": 2841,
+    "background_story": "‪Dorian “The wise”  stands in the gate of Turlo. He has seen many things… many cicles… He has seen Gods rise and fall. He saw hidden in the shadows how people jump in the fires in the church of Mother Agora ‬\n\n‪He has seen the Dark Blades gather and gain strength. He has seen M3RL1N’S journey and witness Bald Savior tournament.  His true intentions are still a mystery.",
+    "experience_points": 800
+  },
+  "tokenId": "2841",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Nameless Adventurer",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wisened Touch",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Champion of Logun",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Nameless Adventurer",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    }
+  ],
+  "description": "‪Dorian “The wise”  stands in the gate of Turlo. He has seen many things… many cicles… He has seen Gods rise and fall. He saw hidden in the shadows how people jump in the fires in the church of Mother Agora ‬\n\n‪He has seen the Dark Blades gather and gain strength. He has seen M3RL1N’S journey and witness Bald Savior tournament.  His true intentions are still a mystery.",
+  "external_url": "https://fateofwagdie.com/characters/2841",
+  "animation_url": "https://fateofwagdie.com/characters/2841/animated"
+}

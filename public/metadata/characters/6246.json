@@ -1,0 +1,94 @@
+{
+  "name": "Brenon64",
+  "image": "ipfs://bafkreietlzgrkh6rvma5doxoteejkr4ybmom2zlijnbhsbcylxknkpqobe",
+  "sheet": {
+    "name": "Brenon64",
+    "level": 1,
+    "origin": "Pilgrim of the Depth",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Royal Fool's Curse",
+      "armor": "Garolin Tunic"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 9,
+      "strength": 11,
+      "dexterity": 9,
+      "constitution": 15,
+      "intelligence": 11
+    },
+    "hit_points": 10,
+    "tokenIdInt": 6246,
+    "background_story": "Recorder of tales within the forsaken lands, since the 18th Cycle. \n\nBrenon64 was often quoted as saying, \"As the master once told me; If you want a teacher, try a waterfall.\"",
+    "experience_points": 0
+  },
+  "tokenId": "6246",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Garolin Tunic",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Pilgrim's Touch",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Royal Fool's Curse",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Depth",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Recorder of tales within the forsaken lands, since the 18th Cycle. \n\nBrenon64 was often quoted as saying, \"As the master once told me; If you want a teacher, try a waterfall.\"",
+  "external_url": "https://fateofwagdie.com/characters/6246",
+  "animation_url": "https://fateofwagdie.com/characters/6246/animated"
+}

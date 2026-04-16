@@ -1,0 +1,82 @@
+{
+  "name": "Fisticuffs Merlap",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/1868.png",
+  "sheet": {
+    "name": "Fisticuffs Merlap",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Yorn's Sadness",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 14,
+      "strength": 13,
+      "dexterity": 13,
+      "constitution": 12,
+      "intelligence": 14
+    },
+    "hit_points": 8,
+    "tokenIdInt": 1868,
+    "background_story": "Despite all my rage\nI'm still just a skeleton in a cage",
+    "experience_points": 0
+  },
+  "tokenId": "1868",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Painless Worshipper",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Yorn's Sadness",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Painless Worshipper",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Hag's Cage",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Toad of Detriti",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Coven of Detriti",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Despite all my rage\nI'm still just a skeleton in a cage",
+  "external_url": "https://fateofwagdie.com/characters/1868",
+  "animation_url": "https://fateofwagdie.com/characters/1868/animated"
+}

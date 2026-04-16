@@ -1,0 +1,94 @@
+{
+  "name": "Lone Red Knight",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/4910.png",
+  "sheet": {
+    "name": "Lone Red Knight",
+    "level": 1,
+    "origin": "Aged Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "Logun's Wings",
+      "armor": "Young Knight of Logun"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 16,
+      "strength": 10,
+      "dexterity": 8,
+      "constitution": 9,
+      "intelligence": 7
+    },
+    "hit_points": 5,
+    "tokenIdInt": 4910,
+    "background_story": "I am alone.\nI need no one.\nOthers are a weakness.\nLeave me.",
+    "experience_points": 0
+  },
+  "tokenId": "4910",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Young Knight of Logun",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Aged Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Logun's Wings",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Aged Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Worm Greatsword",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "I am alone.\nI need no one.\nOthers are a weakness.\nLeave me.",
+  "external_url": "https://fateofwagdie.com/characters/4910",
+  "animation_url": "https://fateofwagdie.com/characters/4910/animated"
+}

@@ -1,0 +1,78 @@
+{
+  "name": "The Lost King",
+  "image": "ipfs://bafkreifrnxcrwhx24tdvv4isshs6cebxu3tfkkneldnuhpmikm3azzot4e",
+  "sheet": {
+    "name": "The Lost King",
+    "level": 0,
+    "origin": "The Lost King",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 73,
+    "background_story": "Goldbeard, the Pirate King, was known as a pioneer to some and bandit to others. Tales of his adventures take the form of legends across the Forsaken Lands.\n\nAs his renown increased, he worked on his vision of creating the Golden Vessel. The Golden Vessel that could take him beyond the Forsaken Lands.\n\nHe was said to have found a way to move beyond this world after his travels to the East. His golden armor has strangely materialized through the Portal, yet it appears to have no soul within.",
+    "experience_points": 0
+  },
+  "tokenId": "73",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "The Lost King",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Lost Traveler",
+      "trait_type": "Portal of Grem"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "The Lost King",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Goldbeard, the Pirate King, was known as a pioneer to some and bandit to others. Tales of his adventures take the form of legends across the Forsaken Lands.\n\nAs his renown increased, he worked on his vision of creating the Golden Vessel. The Golden Vessel that could take him beyond the Forsaken Lands.\n\nHe was said to have found a way to move beyond this world after his travels to the East. His golden armor has strangely materialized through the Portal, yet it appears to have no soul within.",
+  "external_url": "https://fateofwagdie.com/characters/73",
+  "animation_url": "https://fateofwagdie.com/characters/73/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "Eren Beager",
+  "image": "ipfs://bafkreibt52mfuhpmwj6ijxwndho2xvfgiabawko2fvup7leungig3y3lba",
+  "sheet": {
+    "name": "Eren Beager",
+    "level": 1,
+    "origin": "Young Traveler",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Noxian Jester Garb"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 13,
+      "strength": 12,
+      "dexterity": 17,
+      "constitution": 13,
+      "intelligence": 14
+    },
+    "hit_points": 9,
+    "tokenIdInt": 5539,
+    "background_story": "Former member of the Noxian Regiment and the only son of Brisha and Barla Baeger.",
+    "experience_points": 60
+  },
+  "tokenId": "5539",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Noxian Jester Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Aqi Knot",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Traveler",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Former member of the Noxian Regiment and the only son of Brisha and Barla Baeger.",
+  "external_url": "https://fateofwagdie.com/characters/5539",
+  "animation_url": "https://fateofwagdie.com/characters/5539/animated"
+}

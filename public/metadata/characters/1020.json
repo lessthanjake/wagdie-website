@@ -1,0 +1,82 @@
+{
+  "name": "d347h",
+  "image": "https://i2c.seadn.io/ethereum/0x659a4bdaaacc62d2bd9cb18225d9c89b5b697a5a/df7a28091f345c9b00149ec84b95be/43df7a28091f345c9b00149ec84b95be.png",
+  "sheet": {
+    "name": "d347h",
+    "level": 20,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Death Dealer's Helm",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 12,
+      "strength": 10,
+      "dexterity": 8,
+      "constitution": 7,
+      "intelligence": 8
+    },
+    "hit_points": 0,
+    "tokenIdInt": 1020,
+    "background_story": "As you journey through the pestilential mists of a forsaken marshland, you search for the hidden entrance that will lead you to the domain of the Swamp Witch. You find a moss-covered mausoleum – the sepulchre of your forefathers, and you dig beneath the tombs, finding a tunnel beneath the ground. As you enter the vaults of ingurgitating obscurity, the blood-chilling, eerie calm that surrounds you makes your body tremble in fear. Through the cryptic gloom, you hear the shadows whisper, their voices echoing in a silent, sinister discordance.\nAnd as you find an arched entrance, the shadows suddenly become distinct shapes - grotesque, phantomatic entities with obscenely deformed mouths. In a deafening choir, the spirits chanted:\n\"Mundus est corruptus. Sic reviviscat.\nDetriti magam colere.\nAve maga.\nEius sanguine depingite.\nSanguine depingite.\nIn imagine vestra mundum create.\nNostra mortis vis est.\nEius sanguine create.\nMors novam vitam efficit. Hunc mundum destruat.\"",
+    "experience_points": 0
+  },
+  "tokenId": "1020",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Death Dealer's Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Swamp Witch Disciple",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "The Coven of Detriti",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "Swamp Witch Disciple",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Altered",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Cauldron of Detriti",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Swamp Shroud",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    }
+  ],
+  "description": "As you journey through the pestilential mists of a forsaken marshland, you search for the hidden entrance that will lead you to the domain of the Swamp Witch. You find a moss-covered mausoleum – the sepulchre of your forefathers, and you dig beneath the tombs, finding a tunnel beneath the ground. As you enter the vaults of ingurgitating obscurity, the blood-chilling, eerie calm that surrounds you makes your body tremble in fear. Through the cryptic gloom, you hear the shadows whisper, their voices echoing in a silent, sinister discordance.\nAnd as you find an arched entrance, the shadows suddenly become distinct shapes - grotesque, phantomatic entities with obscenely deformed mouths. In a deafening choir, the spirits chanted:\n\"Mundus est corruptus. Sic reviviscat.\nDetriti magam colere.\nAve maga.\nEius sanguine depingite.\nSanguine depingite.\nIn imagine vestra mundum create.\nNostra mortis vis est.\nEius sanguine create.\nMors novam vitam efficit. Hunc mundum destruat.\"",
+  "external_url": "https://fateofwagdie.com/characters/1020",
+  "animation_url": "https://fateofwagdie.com/characters/1020/animated"
+}

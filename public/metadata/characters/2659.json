@@ -1,0 +1,94 @@
+{
+  "name": "Ahole The Lost",
+  "image": "ipfs://bafkreih5s76gbq4yjxxi5mzfunl5swql2o5nuri6p5pnviifhi6v6qgbhi",
+  "sheet": {
+    "name": "Ahole The Lost",
+    "level": 1,
+    "origin": "Hole Protector",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Garolin Tunic"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 13,
+      "strength": 9,
+      "dexterity": 14,
+      "constitution": 15,
+      "intelligence": 14
+    },
+    "hit_points": 8,
+    "tokenIdInt": 2659,
+    "background_story": "A young scholar who had been among Detriti's captives before the Battle of the Burning Church. He was sent to live in servitude of King Offling as a bribe for a political favor.\n\nPlunged unto the depths of The Void, forsaking possibility.",
+    "experience_points": 10
+  },
+  "tokenId": "2659",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Garolin Tunic",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Charter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A young scholar who had been among Detriti's captives before the Battle of the Burning Church. He was sent to live in servitude of King Offling as a bribe for a political favor.\n\nPlunged unto the depths of The Void, forsaking possibility.",
+  "external_url": "https://fateofwagdie.com/characters/2659",
+  "animation_url": "https://fateofwagdie.com/characters/2659/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "????",
+  "image": "ipfs://bafkreidmh4rea5opt7gscj6hpijz4nljbkbe2l5x7c5a4br7rwls7tyuby",
+  "sheet": {
+    "name": "????",
+    "level": 1,
+    "origin": "Naive Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Lone Knight Arms",
+      "mask": "None",
+      "armor": "Valorite Amateur Garb"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 12,
+      "strength": 11,
+      "dexterity": 12,
+      "constitution": 15,
+      "intelligence": 10
+    },
+    "hit_points": 8,
+    "tokenIdInt": 2665,
+    "background_story": "",
+    "experience_points": 300
+  },
+  "tokenId": "2665",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Valorite Amateur Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Lone Knight Arms",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Hermit Set",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Naive Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "No Website. Twitter and Contract Only. Free Mint. CC0. There is no map, only death. WAGDIE",
+  "external_url": "https://fateofwagdie.com/characters/2665",
+  "animation_url": "https://fateofwagdie.com/characters/2665/animated"
+}

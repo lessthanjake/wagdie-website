@@ -1,0 +1,94 @@
+{
+  "name": "Ella Turen",
+  "image": "ipfs://bafkreihbr2u6sjur4xa5o63hznos3wf6vrwxkae6edgrt6z4hqexcdhlvm",
+  "sheet": {
+    "name": "Ella Turen",
+    "level": 6,
+    "origin": "Pilgrim of the Hole",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "Her Glory",
+      "armor": "Pilgrim's Chain"
+    },
+    "attributes": {
+      "wisdom": 18,
+      "charisma": 15,
+      "strength": 24,
+      "dexterity": 19,
+      "constitution": 7,
+      "intelligence": 12
+    },
+    "hit_points": 100,
+    "tokenIdInt": 6478,
+    "background_story": "Ella is a brave crusader. Coming from a highly religious family. All she has known is blessings from mother agora. She pledges her sword to her. She has been honed in on several skills.. One of them known as the \"flash step\".\n\nThey survived the first night. She was glad she decided to pack a blueberry pop-tart. She had a couple sips left of a G2 Gatorade to quench her undesirable thirst for glory in the eyes of her.\n\nThey say their prayers and take shelter with an encampment preparing for the next war. She doesn't feel confident she will make it out alive, but knows its a blessing to die in the light of Agora.\n\nElla  lost her battle at the ecnampment. ",
+    "experience_points": 3000
+  },
+  "tokenId": "6478",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Earth Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Cleric",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Hole",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Ella is a brave crusader. Coming from a highly religious family. All she has known is blessings from mother agora. She pledges her sword to her. She has been honed in on several skills.. One of them known as the \"flash step\".\n\nThey survived the first night. She was glad she decided to pack a blueberry pop-tart. She had a couple sips left of a G2 Gatorade to quench her undesirable thirst for glory in the eyes of her.\n\nThey say their prayers and take shelter with an encampment preparing for the next war. She doesn't feel confident she will make it out alive, but knows its a blessing to die in the light of Agora.\n\nElla  lost her battle at the ecnampment. ",
+  "external_url": "https://fateofwagdie.com/characters/6478",
+  "animation_url": "https://fateofwagdie.com/characters/6478/animated"
+}

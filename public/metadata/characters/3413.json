@@ -1,0 +1,94 @@
+{
+  "name": "Gull of the Green ",
+  "image": "ipfs://bafkreiehwdhfkhxpgdf6pqcu534e4ufh5mhor4gonwzvuneauftarpg74i",
+  "sheet": {
+    "name": "Gull of the Green ",
+    "level": 1,
+    "origin": "Young Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Smiling Witness to All",
+      "armor": "Verite Encumbrance"
+    },
+    "attributes": {
+      "wisdom": 9,
+      "charisma": 14,
+      "strength": 13,
+      "dexterity": 7,
+      "constitution": 18,
+      "intelligence": 13
+    },
+    "hit_points": 11,
+    "tokenIdInt": 3413,
+    "background_story": "\"I seemed to have lost the company of fine wenches with whom I had been ravenously indulging amidst the masquerades of this Blood Moon festival!\"\n\n\"They were of pale flesh, the PALEST, I'll have you know...their eyes were possessed by an ebullient aura not commonly seen in their ilk - trust my testimony, I would know! As for their accoutrements, nothing to remark for it doth aligned with the standards of their profession...but now that I consider it, they beheld this peculiar display of conical crowns with blackened wide brims...\"\n\n\"Ooohh I am not feeling well...hath I indulged too greatly in their pleasures? I hear their voices even now in my mind...what is happening to me?...\"",
+    "experience_points": 0
+  },
+  "tokenId": "3413",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Verite Encumbrance",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Vaulted",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Naive Pilgrim's Cut",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Smiling Witness to All",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Young Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "\"I seemed to have lost the company of fine wenches with whom I had been ravenously indulging amidst the masquerades of this Blood Moon festival!\"\n\n\"They were of pale flesh, the PALEST, I'll have you know...their eyes were possessed by an ebullient aura not commonly seen in their ilk - trust my testimony, I would know! As for their accoutrements, nothing to remark for it doth aligned with the standards of their profession...but now that I consider it, they beheld this peculiar display of conical crowns with blackened wide brims...\"\n\n\"Ooohh I am not feeling well...hath I indulged too greatly in their pleasures? I hear their voices even now in my mind...what is happening to me?...\"",
+  "external_url": "https://fateofwagdie.com/characters/3413",
+  "animation_url": "https://fateofwagdie.com/characters/3413/animated"
+}

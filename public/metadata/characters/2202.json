@@ -1,0 +1,94 @@
+{
+  "name": "0xM3RL1N's Highschool Bully",
+  "image": "ipfs://bafkreigom6bstgzx4xpbkybxz4p6zzy2fqtcg26dtn7pzfwny35hejdew4",
+  "sheet": {
+    "name": "0xM3RL1N's Highschool Bully",
+    "level": 1,
+    "origin": "Pilgrim",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Worm's Protection"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 2202,
+    "background_story": "I head off to war, knowing my chance of returning is slim. It is likely I will die, and so, I reflect upon my life. \n\nI need to make peace... to get something off my chest...\n\n0xM3RL1N, I'm sorry. I'm sorry for bullying you when we were younger. I'm sorry I smacked you in the back of your head as you were coming out of Hot Topic after purchasing some JNCO jeans. \n\nI know you had a big crush on Stacy... I know she told you we were just friends. I was the guy she told you not to worry about... again I apologize.\n\nI was awful to you growing up. Children can be so cruel to one another.\n\nI hope I didn't do any long lasting emotional damage. I hope you, in turn, did not grow up to bully others. I hope your adult life has been trauma free. I hope you are well adjusted.\n\nI hope I can make amends for the wrongs of my past.\n\n",
+    "experience_points": 0
+  },
+  "tokenId": "2202",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm's Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Galactic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Vagabond's Darkness",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "I head off to war, knowing my chance of returning is slim. It is likely I will die, and so, I reflect upon my life. \n\nI need to make peace... to get something off my chest...\n\n0xM3RL1N, I'm sorry. I'm sorry for bullying you when we were younger. I'm sorry I smacked you in the back of your head as you were coming out of Hot Topic after purchasing some JNCO jeans. \n\nI know you had a big crush on Stacy... I know she told you we were just friends. I was the guy she told you not to worry about... again I apologize.\n\nI was awful to you growing up. Children can be so cruel to one another.\n\nI hope I didn't do any long lasting emotional damage. I hope you, in turn, did not grow up to bully others. I hope your adult life has been trauma free. I hope you are well adjusted.\n\nI hope I can make amends for the wrongs of my past.\n\n",
+  "external_url": "https://fateofwagdie.com/characters/2202",
+  "animation_url": "https://fateofwagdie.com/characters/2202/animated"
+}

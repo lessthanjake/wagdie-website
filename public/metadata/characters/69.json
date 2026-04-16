@@ -1,0 +1,94 @@
+{
+  "name": "Carric",
+  "image": "ipfs://bafkreicbz25mrojq6555km2ch5g63zy7qtflke66ulfvxi3lzompfbjbnq",
+  "sheet": {
+    "name": "Carric",
+    "level": 1,
+    "origin": "Astorian Adventurer",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "None",
+      "armor": "Her Imprint"
+    },
+    "attributes": {
+      "wisdom": 11,
+      "charisma": 13,
+      "strength": 13,
+      "dexterity": 10,
+      "constitution": 14,
+      "intelligence": 9
+    },
+    "hit_points": 31,
+    "tokenIdInt": 69,
+    "background_story": "Carric has established himself as one of the strongest Astorian warriors. A natural skeptic, he holds no allegiances. He has long searched for an opportunity to challenge the infamous Bald Burner in combat.",
+    "experience_points": 150
+  },
+  "tokenId": "69",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Imprint",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Carric has established himself as one of the strongest Astorian warriors. A natural skeptic, he holds no allegiances. He has long searched for an opportunity to challenge the infamous Bald Burner in combat.",
+  "external_url": "https://fateofwagdie.com/characters/69",
+  "animation_url": "https://fateofwagdie.com/characters/69/animated"
+}

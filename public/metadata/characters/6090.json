@@ -1,0 +1,94 @@
+{
+  "name": "𝔏𝔞𝔳𝔢𝔯𝔫𝔞, 𝔱𝔥𝔢 𝔖𝔥𝔞𝔡𝔬𝔴",
+  "image": "ipfs://bafkreihuwrv7n2imbnvfw7lha4aq5otdsgckzev5hrl4zn3vihgljkz7a4",
+  "sheet": {
+    "name": "𝔏𝔞𝔳𝔢𝔯𝔫𝔞, 𝔱𝔥𝔢 𝔖𝔥𝔞𝔡𝔬𝔴",
+    "level": 3,
+    "origin": "Foolish Jester",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "None",
+      "armor": "Apostle of the Waste"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 14,
+      "strength": 16,
+      "dexterity": 8,
+      "constitution": 14,
+      "intelligence": 15
+    },
+    "hit_points": 3,
+    "tokenIdInt": 6090,
+    "background_story": "𝔅𝔶 𝔱𝔥𝔢 𝔱𝔦𝔪𝔢 𝔶𝔬𝔲 𝔰𝔢𝔢 𝔪𝔢, 𝔦𝔱 𝔦𝔰 𝔱𝔬𝔬 𝔩𝔞𝔱𝔢",
+    "experience_points": 50
+  },
+  "tokenId": "6090",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Apostle of the Waste",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "𝔅𝔶 𝔱𝔥𝔢 𝔱𝔦𝔪𝔢 𝔶𝔬𝔲 𝔰𝔢𝔢 𝔪𝔢, 𝔦𝔱 𝔦𝔰 𝔱𝔬𝔬 𝔩𝔞𝔱𝔢",
+  "external_url": "https://fateofwagdie.com/characters/6090",
+  "animation_url": "https://fateofwagdie.com/characters/6090/animated"
+}

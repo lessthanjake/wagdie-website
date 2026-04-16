@@ -1,0 +1,94 @@
+{
+  "name": "The Man in The Artificer Mask",
+  "image": "ipfs://bafkreihigg3c3hj5zxf33h5dd4nj3rx5dgnr66bchxoyb5qblewnqmqzqu",
+  "sheet": {
+    "name": "The Man in The Artificer Mask",
+    "level": 15,
+    "origin": "Seeker of Piat",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "An Ancient Device",
+      "armor": "Her Zealot's Gear"
+    },
+    "attributes": {
+      "wisdom": 17,
+      "charisma": 5,
+      "strength": 5,
+      "dexterity": 10,
+      "constitution": 7,
+      "intelligence": 17
+    },
+    "hit_points": 25,
+    "tokenIdInt": 1014,
+    "background_story": "A man who has an ancient device called the Artificer's Mask seemingly bonded irreversibly to his face.\n\nAlthough the eyes of the mask glow and dim bright blue when the man is trying to verbally communicate, he is a mute who cannot form any intelligible languages that are spoken in the Foresaken Lands.\n\nHowever, both his inductive and deductive abilities have, at times, been able to help find links between ancient texts stored at The Stalwart Fortress.\n\nAlthough rarely venturing past the Stalwart's walls, he decides to embark on a journey with the rest of the pilgrims to follow clues left behind the mysterious Urmenos",
+    "experience_points": 0
+  },
+  "tokenId": "1014",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Zealot's Gear",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Pilgrim's Style",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "An Ancient Device",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A man who has an ancient device called the Artificer's Mask seemingly bonded irreversibly to his face.\n\nAlthough the eyes of the mask glow and dim bright blue when the man is trying to verbally communicate, he is a mute who cannot form any intelligible languages that are spoken in the Foresaken Lands.\n\nHowever, both his inductive and deductive abilities have, at times, been able to help find links between ancient texts stored at The Stalwart Fortress.\n\nAlthough rarely venturing past the Stalwart's walls, he decides to embark on a journey with the rest of the pilgrims to follow clues left behind the mysterious Urmenos",
+  "external_url": "https://fateofwagdie.com/characters/1014",
+  "animation_url": "https://fateofwagdie.com/characters/1014/animated"
+}

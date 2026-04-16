@@ -1,0 +1,94 @@
+{
+  "name": "Chez",
+  "image": "ipfs://bafkreif5s6xsq5qgoyipl7n5pucbkwks2dgq3vust66x55ym2ylgk6drme",
+  "sheet": {
+    "name": "Chez",
+    "level": 1,
+    "origin": "Zolian Worm",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Dark Blade Shroud"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 3706,
+    "background_story": "Chez looks like Chen\n\nthats cause Chez is Chens cousin...\n\nfrom his mothers side ...\n\nbut Chen doesnt like Chez cause \n\n1. Chez can see\n2. Chez always gets clout at the forsaken grocery store from people mistaking Chez for Chen \n3. Chez sleeps with women claiming to be Chen\n\nChen has sent Chez to fight the headless in hopes that he fails in combat and dies a honorable death in battle ...",
+    "experience_points": 0
+  },
+  "tokenId": "3706",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Dark Blade Shroud",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Chez looks like Chen\n\nthats cause Chez is Chens cousin...\n\nfrom his mothers side ...\n\nbut Chen doesnt like Chez cause \n\n1. Chez can see\n2. Chez always gets clout at the forsaken grocery store from people mistaking Chez for Chen \n3. Chez sleeps with women claiming to be Chen\n\nChen has sent Chez to fight the headless in hopes that he fails in combat and dies a honorable death in battle ...",
+  "external_url": "https://fateofwagdie.com/characters/3706",
+  "animation_url": "https://fateofwagdie.com/characters/3706/animated"
+}

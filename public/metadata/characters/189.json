@@ -1,0 +1,82 @@
+{
+  "name": "Betrayer, Sword of Detriti",
+  "image": "ipfs://bafkreiekllodyqpqsfwnshlmt5f2x2x4vyvizg6u56ktpx2qeqptpcyyru",
+  "sheet": {
+    "name": "Betrayer, Sword of Detriti",
+    "level": 6,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Death Dealer's Helm",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 6,
+      "charisma": 1,
+      "strength": 20,
+      "dexterity": 30,
+      "constitution": 24,
+      "intelligence": 24
+    },
+    "hit_points": 66,
+    "tokenIdInt": 189,
+    "background_story": "A former Knight, now serving as a disciple and sword of the Swamp Witch. \n\nBorn of a failing house and a father who squandered the family’s former glory, her sole pursuit was that of power and by extension, glory.\n\nIn her early years, she was considered a prodigy in dueling having won numerous bouts against more renown contenders from rival houses. \n\nAlthough brilliant in study as well, she always considered philosophy a fool’s waste of greater potential. She did find her studies and curiosity often led her to legends of Detriti. \n\n\nBefore long, she began dedicating her duels to Detriti, and would subtly inflict injuries upon her opponents, drawing blood to earn her favor. Soon, she began to hear her whispers and the promise of even greater power.\n\nIn a moment of profane glory, she sought the swamp witch’s den, and pledged herself as a disciple. As a symbolic gesture, she shed her flesh and embraced the enduring form of Detriti’s most dedicated followers.\n\n\n\n\n\n\n",
+    "experience_points": 660
+  },
+  "tokenId": "189",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Swamp Witch Disciple",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Death Dealer's Helm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Swamp Witch Disciple",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A former Knight, now serving as a disciple and sword of the Swamp Witch. \n\nBorn of a failing house and a father who squandered the family’s former glory, her sole pursuit was that of power and by extension, glory.\n\nIn her early years, she was considered a prodigy in dueling having won numerous bouts against more renown contenders from rival houses. \n\nAlthough brilliant in study as well, she always considered philosophy a fool’s waste of greater potential. She did find her studies and curiosity often led her to legends of Detriti. \n\n\nBefore long, she began dedicating her duels to Detriti, and would subtly inflict injuries upon her opponents, drawing blood to earn her favor. Soon, she began to hear her whispers and the promise of even greater power.\n\nIn a moment of profane glory, she sought the swamp witch’s den, and pledged herself as a disciple. As a symbolic gesture, she shed her flesh and embraced the enduring form of Detriti’s most dedicated followers.\n\n\n\n\n\n\n",
+  "external_url": "https://fateofwagdie.com/characters/189",
+  "animation_url": "https://fateofwagdie.com/characters/189/animated"
+}

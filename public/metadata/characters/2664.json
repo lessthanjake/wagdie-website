@@ -1,0 +1,94 @@
+{
+  "name": "Sir Goldilocks",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/2664.png",
+  "sheet": {
+    "name": "Sir Goldilocks",
+    "level": 1,
+    "origin": "Astorian Adventurer",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Worm's Protection"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 2664,
+    "background_story": "Valiant knight with locks of gold, had a morning ritual unlike any other in the kingdom. While his comrades trained with swords, he waged war against tangles and knots. Armed with potions and brushes, he battled each unruly strand as dawn broke. His dedication to hair care was legendary.",
+    "experience_points": 0
+  },
+  "tokenId": "2664",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm's Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Galactic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Golden Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Astorian Adventurer",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Her Truth",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Encampment Medallion",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Encampment Militia",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Valiant knight with locks of gold, had a morning ritual unlike any other in the kingdom. While his comrades trained with swords, he waged war against tangles and knots. Armed with potions and brushes, he battled each unruly strand as dawn broke. His dedication to hair care was legendary.",
+  "external_url": "https://fateofwagdie.com/characters/2664",
+  "animation_url": "https://fateofwagdie.com/characters/2664/animated"
+}

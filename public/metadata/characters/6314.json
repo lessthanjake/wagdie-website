@@ -1,0 +1,94 @@
+{
+  "name": "𝕿𝖍𝖊 𝕯𝖚𝖉𝖊",
+  "image": "ipfs://bafkreicdiz7x3gd5lep64oc2wve7jgu7lwrkrzs7qamxu6bmiec3en3qbq",
+  "sheet": {
+    "name": "𝕿𝖍𝖊 𝕯𝖚𝖉𝖊",
+    "level": 18,
+    "origin": "Garolin Champion",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Blessing of the Worm"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 12,
+      "strength": 12,
+      "dexterity": 14,
+      "constitution": 14,
+      "intelligence": 15
+    },
+    "hit_points": 9,
+    "tokenIdInt": 6314,
+    "background_story": "𝕿𝖍𝖊 𝕯𝖚𝖉𝖊 hails from a far away land apparently known as \"Californicate\", where he was said to reside underneath the Pier of Santa's Moniker.\n\nNowadays he roams the forsaken lands in search of 'Strange Mushrooms' and a leafy plant he vaguely remembers as \"Marry-Joanna\", but knows the name is not quite right.",
+    "experience_points": 420
+  },
+  "tokenId": "6314",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Blessing of the Worm",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Golden Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "𝕿𝖍𝖊 𝕯𝖚𝖉𝖊 hails from a far away land apparently known as \"Californicate\", where he was said to reside underneath the Pier of Santa's Moniker.\n\nNowadays he roams the forsaken lands in search of 'Strange Mushrooms' and a leafy plant he vaguely remembers as \"Marry-Joanna\", but knows the name is not quite right.",
+  "external_url": "https://fateofwagdie.com/characters/6314",
+  "animation_url": "https://fateofwagdie.com/characters/6314/animated"
+}

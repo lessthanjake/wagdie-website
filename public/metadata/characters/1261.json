@@ -1,0 +1,78 @@
+{
+  "name": "John Doe",
+  "image": "ipfs://bafkreid2tqwi24sfyd4qvqey7z3jkc7r3fa63scrpi55pf6p47k4rhoply",
+  "sheet": {
+    "name": "John Doe",
+    "level": 1,
+    "origin": "None",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 1261,
+    "background_story": "Was once a man named John Doe, born and raised in Latish. Died by an unknown affliction and reborn as a decrepit. ",
+    "experience_points": 0
+  },
+  "tokenId": "1261",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Swamp Witch Disciple",
+      "trait_type": "Decrepit"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Swamp Witch Disciple",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Was once a man named John Doe, born and raised in Latish. Died by an unknown affliction and reborn as a decrepit. ",
+  "external_url": "https://fateofwagdie.com/characters/1261",
+  "animation_url": "https://fateofwagdie.com/characters/1261/animated"
+}

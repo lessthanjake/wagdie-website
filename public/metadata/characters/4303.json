@@ -1,0 +1,94 @@
+{
+  "name": "Totten Tealeaf (Banged Luta)",
+  "image": "ipfs://bafkreif3blnnfqo7ho4b3hfilnmyahd5hip6kn6uddhppw7fmixyjl2r54",
+  "sheet": {
+    "name": "Totten Tealeaf (Banged Luta)",
+    "level": 1,
+    "origin": "Luta's Lover",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "Worm Touch",
+      "armor": "Death Dealer's Choice"
+    },
+    "attributes": {
+      "wisdom": 9,
+      "charisma": 12,
+      "strength": 11,
+      "dexterity": 9,
+      "constitution": 7,
+      "intelligence": 7
+    },
+    "hit_points": 4,
+    "tokenIdInt": 4303,
+    "background_story": "I don't mean to brag.. but Luta and I definitely did it. And by did it, I mean sex. Coitus. Bumpin' uglies. We made love and it was so beautiful I turned her into a fucking beacon. Call me for a good time.",
+    "experience_points": 0
+  },
+  "tokenId": "4303",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Death Dealer's Choice",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Luta's Lover",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Worm Touch",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Luta's Lover",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "I don't mean to brag.. but Luta and I definitely did it. And by did it, I mean sex. Coitus. Bumpin' uglies. We made love and it was so beautiful I turned her into a fucking beacon. Call me for a good time.",
+  "external_url": "https://fateofwagdie.com/characters/4303",
+  "animation_url": "https://fateofwagdie.com/characters/4303/animated"
+}

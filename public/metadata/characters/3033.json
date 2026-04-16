@@ -1,0 +1,94 @@
+{
+  "name": "Hastura, The Dormant",
+  "image": "ipfs://bafkreibsqzbljdmxdtfelfea73jgpql2qdyr2qpij4dhcqfgi3azlnt7ua",
+  "sheet": {
+    "name": "Hastura, The Dormant",
+    "level": 1,
+    "origin": "Garolin Champion",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Wormlord Guard",
+      "armor": "Death Stroker Doublet"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 7,
+      "strength": 12,
+      "dexterity": 10,
+      "constitution": 15,
+      "intelligence": 11
+    },
+    "hit_points": 10,
+    "tokenIdInt": 3033,
+    "background_story": "In clandestine sleep everlasting, with tales untold, she lies deep below the innards of despair. We are one, separate but one. She lives to serve and witness the new aeon of the Nameless One.",
+    "experience_points": 0
+  },
+  "tokenId": "3033",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Death Stroker Doublet",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Altered",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Luta's Bangs",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Wormlord Guard",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Berserker",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Garolin Champion",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "In clandestine sleep everlasting, with tales untold, she lies deep below the innards of despair. We are one, separate but one. She lives to serve and witness the new aeon of the Nameless One.",
+  "external_url": "https://fateofwagdie.com/characters/3033",
+  "animation_url": "https://fateofwagdie.com/characters/3033/animated"
+}

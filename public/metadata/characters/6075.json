@@ -1,0 +1,94 @@
+{
+  "name": "Cursed Loot Goblin",
+  "image": "ipfs://bafkreidom4qo7vlt6sjkezjr4ditzmjbcy5gxxmtfbkit6fspllbt2c2sq",
+  "sheet": {
+    "name": "Cursed Loot Goblin",
+    "level": 1,
+    "origin": "Her Wetnurse",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Blessing of the Worm"
+    },
+    "attributes": {
+      "wisdom": 1,
+      "charisma": 30,
+      "strength": 1,
+      "dexterity": 30,
+      "constitution": 1,
+      "intelligence": 1
+    },
+    "hit_points": 100,
+    "tokenIdInt": 6075,
+    "background_story": "The Cursed Loot Goblin is a rare enemy found only in the Forsaken Lands. This Goblin boasts a Worm outfit that emits a Blessing (or perhaps to you, a curse).\n\nIf killed, it drops a plethora of items which can include weapons, potions, or even trinkets.",
+    "experience_points": 0
+  },
+  "tokenId": "6075",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Blessing of the Worm",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Serpentine",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Wetnurse",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Wetnurse",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The Cursed Loot Goblin is a rare enemy found only in the Forsaken Lands. This Goblin boasts a Worm outfit that emits a Blessing (or perhaps to you, a curse).\n\nIf killed, it drops a plethora of items which can include weapons, potions, or even trinkets.",
+  "external_url": "https://fateofwagdie.com/characters/6075",
+  "animation_url": "https://fateofwagdie.com/characters/6075/animated"
+}

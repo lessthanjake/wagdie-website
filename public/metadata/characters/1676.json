@@ -1,0 +1,94 @@
+{
+  "name": "Grotto Zekki",
+  "image": "ipfs://bafkreiaxxi2s3ah4cgxaxvhvqtatdq4nhnwtdpquweh6cgyzv2vztzhtce",
+  "sheet": {
+    "name": "Grotto Zekki",
+    "level": 2,
+    "origin": "Seeker of Piat",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Sibor's Brace",
+      "armor": "Her Champion's Sacrifice"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 12,
+      "strength": 16,
+      "dexterity": 15,
+      "constitution": 15,
+      "intelligence": 8
+    },
+    "hit_points": 10,
+    "tokenIdInt": 1676,
+    "background_story": "Current:\n Staying behind in the Stalwart near Gunther.\n\nBackground:\n\nKeeper of Ancient Reflection Concord Tokens in Wolf's Party.\n\nAffiliations: Curious about Ancient Reflections and Druids of Southern Plain",
+    "experience_points": 0
+  },
+  "tokenId": "1676",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Champion's Sacrifice",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Piat's Destruction",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Sibor's Brace",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Current:\n Staying behind in the Stalwart near Gunther.\n\nBackground:\n\nKeeper of Ancient Reflection Concord Tokens in Wolf's Party.\n\nAffiliations: Curious about Ancient Reflections and Druids of Southern Plain",
+  "external_url": "https://fateofwagdie.com/characters/1676",
+  "animation_url": "https://fateofwagdie.com/characters/1676/animated"
+}

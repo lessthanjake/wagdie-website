@@ -19,6 +19,8 @@ import {
 } from '@/lib/eliza/sdkAdapter'
 import type { AICharacter, UpdateAICharacterInput, ErrorResponse } from '@/types/eliza'
 
+export const runtime = 'nodejs'
+
 interface RouteParams {
   params: Promise<{ tokenId: string }>
 }

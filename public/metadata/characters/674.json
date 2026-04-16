@@ -1,0 +1,94 @@
+{
+  "name": "Roland Renoir",
+  "image": "ipfs://bafkreib6t7hqyq2tlqfy2ge4tjg23vb56f2gw6ke4t34tsp6367hcaptpu",
+  "sheet": {
+    "name": "Roland Renoir",
+    "level": 1,
+    "origin": "Zolian Worm",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "Yogg's Folly",
+      "armor": "The Wisened"
+    },
+    "attributes": {
+      "wisdom": 18,
+      "charisma": 16,
+      "strength": 14,
+      "dexterity": 12,
+      "constitution": 13,
+      "intelligence": 16
+    },
+    "hit_points": 11,
+    "tokenIdInt": 674,
+    "background_story": "Dreams. My memories are fading in the rotten mist of my dreams. I once was, before the cycles, out of the cycles. But what was I? Where was I? Trying to catch those remnants is like trying to catch smoke with one's hand. I just have this feeling. Someone's i know of is walking this blasted lands. East from here. And i'm as afraid as i am thrilled to meet her, once again. A Muse, or a dellusion? I cling to her as my personnal light. And yet i shy away from meeting her, fed by a feeling of disaster. Yet. Inevitable is our meeting. ",
+    "experience_points": 0
+  },
+  "tokenId": "674",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "The Wisened",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Gothic",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zol's Elegance",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Yogg's Folly",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Scholar",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Zolian Worm",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Dreams. My memories are fading in the rotten mist of my dreams. I once was, before the cycles, out of the cycles. But what was I? Where was I? Trying to catch those remnants is like trying to catch smoke with one's hand. I just have this feeling. Someone's i know of is walking this blasted lands. East from here. And i'm as afraid as i am thrilled to meet her, once again. A Muse, or a dellusion? I cling to her as my personnal light. And yet i shy away from meeting her, fed by a feeling of disaster. Yet. Inevitable is our meeting. ",
+  "external_url": "https://fateofwagdie.com/characters/674",
+  "animation_url": "https://fateofwagdie.com/characters/674/animated"
+}

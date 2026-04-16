@@ -1,0 +1,94 @@
+{
+  "name": "Keadin",
+  "image": "ipfs://bafkreid2l2zh7mrj3jjiuqzzlz7r64oze45xbkavohba3fs5qc72ziizmq",
+  "sheet": {
+    "name": "Keadin",
+    "level": 1,
+    "origin": "Galy Veetus the Aged",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Her Pathetic Waste"
+    },
+    "attributes": {
+      "wisdom": 8,
+      "charisma": 12,
+      "strength": 11,
+      "dexterity": 7,
+      "constitution": 13,
+      "intelligence": 15
+    },
+    "hit_points": 10,
+    "tokenIdInt": 1956,
+    "background_story": "Just some guy...",
+    "experience_points": 0
+  },
+  "tokenId": "1956",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Pathetic Waste",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Galy Veetus the Aged",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Gorlong Mane",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Knight",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Galy Veetus the Aged",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Just some guy...",
+  "external_url": "https://fateofwagdie.com/characters/1956",
+  "animation_url": "https://fateofwagdie.com/characters/1956/animated"
+}

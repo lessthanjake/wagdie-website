@@ -1,0 +1,94 @@
+{
+  "name": "Galy Veetus",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/5057.png",
+  "sheet": {
+    "name": "Galy Veetus",
+    "level": 1,
+    "origin": "Galy Veetus the Aged",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "None",
+      "armor": "Worm's Protection"
+    },
+    "attributes": {
+      "wisdom": 17,
+      "charisma": 8,
+      "strength": 15,
+      "dexterity": 11,
+      "constitution": 14,
+      "intelligence": 10
+    },
+    "hit_points": 10,
+    "tokenIdInt": 5057,
+    "background_story": "A disgruntled former mercenary that has given up a life of glory in his old age.\n\nHe can now be found bartering with common folk, for their discared items in hopes of discovering treasures to resell on the open market.",
+    "experience_points": 0
+  },
+  "tokenId": "5057",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm's Protection",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Break",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Galy Veetus the Aged",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Galy Veetus the Aged",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Chosen Swarm",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Chosen Fly",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Lord Grem's Diptera",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A disgruntled former mercenary that has given up a life of glory in his old age.\n\nHe can now be found bartering with common folk, for their discared items in hopes of discovering treasures to resell on the open market.",
+  "external_url": "https://fateofwagdie.com/characters/5057",
+  "animation_url": "https://fateofwagdie.com/characters/5057/animated"
+}

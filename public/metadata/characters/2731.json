@@ -1,0 +1,94 @@
+{
+  "name": "Break",
+  "image": "ipfs://bafkreigzqdcrdgepxq7kqktgaxpcyqi4oo7bdnk26llilxqlgydvexzpse",
+  "sheet": {
+    "name": "Break",
+    "level": 1,
+    "origin": "Hole Protector",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Worm God's Blessing",
+      "mask": "None",
+      "armor": "Detritus Mail"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 9,
+      "strength": 12,
+      "dexterity": 11,
+      "constitution": 11,
+      "intelligence": 13
+    },
+    "hit_points": 4,
+    "tokenIdInt": 2731,
+    "background_story": "A Lost Pilgrim.",
+    "experience_points": 0
+  },
+  "tokenId": "2731",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Detritus Mail",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Worm God's Blessing",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zaban Rough Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A Lost Pilgrim.",
+  "external_url": "https://fateofwagdie.com/characters/2731",
+  "animation_url": "https://fateofwagdie.com/characters/2731/animated"
+}

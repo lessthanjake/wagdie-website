@@ -1,0 +1,94 @@
+{
+  "name": "Tiresias",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/5392.png",
+  "sheet": {
+    "name": "Tiresias",
+    "level": 2,
+    "origin": "Stranger",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Blind Thief's Charm",
+      "armor": "Worm Caller"
+    },
+    "attributes": {
+      "wisdom": 30,
+      "charisma": 12,
+      "strength": 11,
+      "dexterity": 15,
+      "constitution": 17,
+      "intelligence": 12
+    },
+    "hit_points": 18,
+    "tokenIdInt": 5392,
+    "background_story": "Tiresias was born into a unique bloodline where all members were born blind. However, this did not stop Tiresias from living a fulfilling life. Tiresias was gifted with heightened senses that compensated for their lack of sight. They were able to see the world in a way that others could not, sensing the slightest vibrations in the air and hearing the faintest of whispers.\n\nTiresias was known as the blind thief, and they would often be seen wearing a mask known as the \"blind thief's charm.\" This mask was said to be enchanted, and it granted Tiresias the ability to see in the darkness, making them almost impossible to catch.\n\nTiresias lived in the forsaken lands, a place where few dared to venture. It was a harsh and unforgiving place, but Tiresias thrived there. They were able to sense the dangers that lay ahead and avoid them with ease. Tiresias became a legend among the people of the forsaken lands, and many sought their help when they needed to navigate the treacherous terrain.\n\nDespite the challenges they faced, Tiresias never let their blindness hold them back. They were a fierce and determined individual, who lived life to the fullest. And, even though they were blind, Tiresias could see more than most.\n\nThe mask of the \"blind thief's charm\" remains passed down through their bloodline, and it's said that whoever wears it, shall inherit the same heightened senses as Tiresias and be able to see in the darkness.",
+    "experience_points": 40
+  },
+  "tokenId": "5392",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Worm Caller",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Her Glory",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Wisened Zealot",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Blind Thief's Charm",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Thief",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Stranger",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Stalwart Lost Tome",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Field Notes",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Stalwart Researcher",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Tiresias was born into a unique bloodline where all members were born blind. However, this did not stop Tiresias from living a fulfilling life. Tiresias was gifted with heightened senses that compensated for their lack of sight. They were able to see the world in a way that others could not, sensing the slightest vibrations in the air and hearing the faintest of whispers.\n\nTiresias was known as the blind thief, and they would often be seen wearing a mask known as the \"blind thief's charm.\" This mask was said to be enchanted, and it granted Tiresias the ability to see in the darkness, making them almost impossible to catch.\n\nTiresias lived in the forsaken lands, a place where few dared to venture. It was a harsh and unforgiving place, but Tiresias thrived there. They were able to sense the dangers that lay ahead and avoid them with ease. Tiresias became a legend among the people of the forsaken lands, and many sought their help when they needed to navigate the treacherous terrain.\n\nDespite the challenges they faced, Tiresias never let their blindness hold them back. They were a fierce and determined individual, who lived life to the fullest. And, even though they were blind, Tiresias could see more than most.\n\nThe mask of the \"blind thief's charm\" remains passed down through their bloodline, and it's said that whoever wears it, shall inherit the same heightened senses as Tiresias and be able to see in the darkness.",
+  "external_url": "https://fateofwagdie.com/characters/5392",
+  "animation_url": "https://fateofwagdie.com/characters/5392/animated"
+}

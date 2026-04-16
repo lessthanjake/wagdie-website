@@ -1,0 +1,94 @@
+{
+  "name": "Pirelli The Chef",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/6046.png",
+  "sheet": {
+    "name": "Pirelli The Chef",
+    "level": 6,
+    "origin": "Follower of Logun",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Pilgrim's Weak Blade",
+      "mask": "None",
+      "armor": "Strange Cloth Cloak"
+    },
+    "attributes": {
+      "wisdom": 6,
+      "charisma": 6,
+      "strength": 6,
+      "dexterity": 6,
+      "constitution": 6,
+      "intelligence": 6
+    },
+    "hit_points": 6,
+    "tokenIdInt": 6046,
+    "background_story": "Back in my days we didn't cook food we cooked noobs. Come see on the floor KungFuChess baby. I once beat AZN AMA",
+    "experience_points": 6
+  },
+  "tokenId": "6046",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Strange Cloth Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Pilgrim's Weak Blade",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Follower of Logun",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Follower of Logun",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Glutton's Bone",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Gnawed Bone",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Ancient Reflections",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Back in my days we didn't cook food we cooked noobs. Come see on the floor KungFuChess baby. I once beat AZN AMA",
+  "external_url": "https://fateofwagdie.com/characters/6046",
+  "animation_url": "https://fateofwagdie.com/characters/6046/animated"
+}

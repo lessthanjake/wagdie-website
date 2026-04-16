@@ -1,0 +1,94 @@
+{
+  "name": "Valentine's Day 2025",
+  "image": "ipfs://bafkreiaz6ticvbls76utfe53heuy4fplaevozibmfwxgu44hx2ugdaheri",
+  "sheet": {
+    "name": "Valentine's Day 2025",
+    "level": 1,
+    "origin": "Seeker of Piat",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "Champion of Logun"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 6310,
+    "background_story": "This unfortunate Pilgrim wandered across a beautiful grass field within the Forsaken Lands thinking he was going to have an auspicious day. He was so very wrong! Because in the Forsaken Lands, there is an obsession with burning Wagdie. And since today is Valentine's Day 2025,  a Wagdie must burn! Sorry Pilgrim, I don't make the rules ",
+    "experience_points": 0
+  },
+  "tokenId": "6310",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Champion of Logun",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zimian Earth Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "This unfortunate Pilgrim wandered across a beautiful grass field within the Forsaken Lands thinking he was going to have an auspicious day. He was so very wrong! Because in the Forsaken Lands, there is an obsession with burning Wagdie. And since today is Valentine's Day 2025,  a Wagdie must burn! Sorry Pilgrim, I don't make the rules ",
+  "external_url": "https://fateofwagdie.com/characters/6310",
+  "animation_url": "https://fateofwagdie.com/characters/6310/animated"
+}

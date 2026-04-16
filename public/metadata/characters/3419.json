@@ -1,0 +1,94 @@
+{
+  "name": "Logun's Explorer",
+  "image": "ipfs://bafkreiequ4rgqa3dxvvpu45rexwars4osix5bwnzhrs3qdbfzyws6hkube",
+  "sheet": {
+    "name": "Logun's Explorer",
+    "level": 1,
+    "origin": "Logun Disciple",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Bow",
+      "mask": "None",
+      "armor": "Zaban Explorer Garb"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 8,
+      "strength": 14,
+      "dexterity": 15,
+      "constitution": 16,
+      "intelligence": 11
+    },
+    "hit_points": 10,
+    "tokenIdInt": 3419,
+    "background_story": "Currently on expedition.",
+    "experience_points": 0
+  },
+  "tokenId": "3419",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Zaban Explorer Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Bow",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Cold",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Uirian Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Logun Disciple",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Currently on expedition.",
+  "external_url": "https://fateofwagdie.com/characters/3419",
+  "animation_url": "https://fateofwagdie.com/characters/3419/animated"
+}

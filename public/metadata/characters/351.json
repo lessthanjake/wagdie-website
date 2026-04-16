@@ -1,0 +1,94 @@
+{
+  "name": "Nikolas McMillan aka Madnick",
+  "image": "ipfs://bafkreiddjpj4a4fdqk22bo5jhtmmlfvjyjahnmtpteffxqpc63fcecvcv4",
+  "sheet": {
+    "name": "Nikolas McMillan aka Madnick",
+    "level": 1,
+    "origin": "Journeyman",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "Fool's Crown",
+      "armor": "Valorite Amateur Garb"
+    },
+    "attributes": {
+      "wisdom": 0,
+      "charisma": 0,
+      "strength": 0,
+      "dexterity": 0,
+      "constitution": 0,
+      "intelligence": 0
+    },
+    "hit_points": 0,
+    "tokenIdInt": 351,
+    "background_story": "Nikolas, affectionately known as Madnick, is strong as an ox and thick as a tree. A tremendous warrior wielding a Eustus Hammer named “Purifier”.",
+    "experience_points": 0
+  },
+  "tokenId": "351",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Valorite Amateur Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zaban Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Fool's Crown",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Journeyman",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Nikolas, affectionately known as Madnick, is strong as an ox and thick as a tree. A tremendous warrior wielding a Eustus Hammer named “Purifier”.",
+  "external_url": "https://fateofwagdie.com/characters/351",
+  "animation_url": "https://fateofwagdie.com/characters/351/animated"
+}

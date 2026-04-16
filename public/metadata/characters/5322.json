@@ -1,0 +1,94 @@
+{
+  "name": "Goldwing",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/5322.png",
+  "sheet": {
+    "name": "Goldwing",
+    "level": 1,
+    "origin": "Pilgrim of the Lakes",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Eutus Hammer",
+      "mask": "Goldbeard's Eyes",
+      "armor": "Her Pathetic Waste"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 10,
+      "strength": 9,
+      "dexterity": 13,
+      "constitution": 15,
+      "intelligence": 13
+    },
+    "hit_points": 10,
+    "tokenIdInt": 5322,
+    "background_story": "Vigilante in the Goldman Family and the original warrior known as Robber. Eventually, he outgrew this position and was inspired by Goldbeard to become Goldwing.",
+    "experience_points": 40
+  },
+  "tokenId": "5322",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Pathetic Waste",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Eutus Hammer",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Silt",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Lotharian Hair",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Goldbeard's Eyes",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Pilgrim of the Lakes",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Bastard Sword",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Vigilante in the Goldman Family and the original warrior known as Robber. Eventually, he outgrew this position and was inspired by Goldbeard to become Goldwing.",
+  "external_url": "https://fateofwagdie.com/characters/5322",
+  "animation_url": "https://fateofwagdie.com/characters/5322/animated"
+}

@@ -1,0 +1,94 @@
+{
+  "name": "S.",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/3977.png",
+  "sheet": {
+    "name": "S.",
+    "level": 3,
+    "origin": "Follower of Logun",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "He Who Does Not See",
+      "armor": "Crow Lord's Blessing"
+    },
+    "attributes": {
+      "wisdom": 12,
+      "charisma": 9,
+      "strength": 14,
+      "dexterity": 17,
+      "constitution": 13,
+      "intelligence": 12
+    },
+    "hit_points": 9,
+    "tokenIdInt": 3977,
+    "background_story": "S. is dumb, but he wasn't born with it. It's all about constraints and covenants. For power, he sealed his voice. But... what form of power? It is unstable. Sometimes S. is a shapeshifter but only related to a crow...sometimes S. can control an \"iron\" shape but only \"iron\"...\n\nAnd the only thing we know...when he chooses the power...S. can only use one ability for the rest of the day...until sunset... Darkness is coming... ",
+    "experience_points": 0
+  },
+  "tokenId": "3977",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Crow Lord's Blessing",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Follower of Logun",
+      "trait_type": "Body"
+    },
+    {
+      "value": "None",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "He Who Does Not See",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Follower of Logun",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Worm Greatsword",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "S. is dumb, but he wasn't born with it. It's all about constraints and covenants. For power, he sealed his voice. But... what form of power? It is unstable. Sometimes S. is a shapeshifter but only related to a crow...sometimes S. can control an \"iron\" shape but only \"iron\"...\n\nAnd the only thing we know...when he chooses the power...S. can only use one ability for the rest of the day...until sunset... Darkness is coming... ",
+  "external_url": "https://fateofwagdie.com/characters/3977",
+  "animation_url": "https://fateofwagdie.com/characters/3977/animated"
+}

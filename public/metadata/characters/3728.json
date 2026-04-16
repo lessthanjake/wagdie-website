@@ -1,0 +1,94 @@
+{
+  "name": "Basically Angel",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/3728.png",
+  "sheet": {
+    "name": "Basically Angel",
+    "level": 8,
+    "origin": "Hole Protector",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Darkblade's Beak",
+      "armor": "Champion of Logun"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 22,
+      "strength": 15,
+      "dexterity": 24,
+      "constitution": 10,
+      "intelligence": 10
+    },
+    "hit_points": 45,
+    "tokenIdInt": 3728,
+    "background_story": "One of the founding Darkblades of the early eras, a firm believer of chaos and against any form of authority. \n\nCarrying his Fetid Crow's Talon in the back, an honorary token of acknowledgement by Detriti for chaos contributors.\n\nFrom Chaos To Chaos",
+    "experience_points": 40
+  },
+  "tokenId": "3728",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Champion of Logun",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Void",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Zaban Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Darkblade's Beak",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Assassin",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Dead",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Hole Protector",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Talon's Edge",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Fetid Crow's Talon",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Darkblade",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "One of the founding Darkblades of the early eras, a firm believer of chaos and against any form of authority. \n\nCarrying his Fetid Crow's Talon in the back, an honorary token of acknowledgement by Detriti for chaos contributors.\n\nFrom Chaos To Chaos",
+  "external_url": "https://fateofwagdie.com/characters/3728",
+  "animation_url": "https://fateofwagdie.com/characters/3728/animated"
+}

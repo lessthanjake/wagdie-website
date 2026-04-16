@@ -1,0 +1,94 @@
+{
+  "name": "chrollo",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/574.png",
+  "sheet": {
+    "name": "chrollo",
+    "level": 3,
+    "origin": "Seeker of Piat",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Favor",
+      "mask": "Worm Touch",
+      "armor": "Her Devotion"
+    },
+    "attributes": {
+      "wisdom": 10,
+      "charisma": 11,
+      "strength": 15,
+      "dexterity": 17,
+      "constitution": 15,
+      "intelligence": 7
+    },
+    "hit_points": 100,
+    "tokenIdInt": 574,
+    "background_story": "Chrollo used to believe he was one of the strongest pilgrims in the land. He was humbled by the strength of the fighters from the tournament and the war.\n\nAfter tripping balls in the primordial lands. Chrollo got infected by the worm. He doesnt know how it happened. He killed a couple devotees of mother agora and stole their armor. He now uses it as it blends in with the enemy, killing supporters of her light.",
+    "experience_points": 3000
+  },
+  "tokenId": "574",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Her Devotion",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Favor",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Guard's Crop",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Worm Touch",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Mage",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Hag's Cage",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Toad of Detriti",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "The Coven of Detriti",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Chrollo used to believe he was one of the strongest pilgrims in the land. He was humbled by the strength of the fighters from the tournament and the war.\n\nAfter tripping balls in the primordial lands. Chrollo got infected by the worm. He doesnt know how it happened. He killed a couple devotees of mother agora and stole their armor. He now uses it as it blends in with the enemy, killing supporters of her light.",
+  "external_url": "https://fateofwagdie.com/characters/574",
+  "animation_url": "https://fateofwagdie.com/characters/574/animated"
+}

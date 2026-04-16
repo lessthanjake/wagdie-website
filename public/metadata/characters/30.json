@@ -1,0 +1,78 @@
+{
+  "name": "Royal Guard of Beelzus",
+  "image": "https://crimson-static-barnacle-945.mypinata.cloud/ipfs/QmfDpdGm8rJoY58hKcWidsaombZtSPGXVUCn18orHAp96t",
+  "sheet": {
+    "name": "Royal Guard of Beelzus",
+    "level": 20,
+    "origin": "Royal Guard of Beelzus",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "None",
+      "armor": "None"
+    },
+    "attributes": {
+      "wisdom": 1,
+      "charisma": 20,
+      "strength": 20,
+      "dexterity": 10,
+      "constitution": 20,
+      "intelligence": 5
+    },
+    "hit_points": 100,
+    "tokenIdInt": 30,
+    "background_story": "The Royal Guards of Beelzus represent the longest lived Flies of Beelzus' swarm.\n\nDecayed by the dark magic of Lord Grem, the Royal Guards no longer have flesh. Instead, they are covered in a strange exoskeleton filled with putrefied life energy.\n\nOnce per year they attend the Sacred Hunt where all flesh beings are consumed within the Dark Forest. The Royal Guard will regurgitate the most delicious morsels into His Chalice. It is then presented to Lord Beelzus for his enjoyment. The 20 Guards who provide the most delicious vomit will be retained in their service for the following year. The remainder of the Guards are killed and a selection of Flies are able to ascend to Guard status by Lord Beelzus' blessing.\n\nRoyal Guards are nameless due to their expendability; however, this Guard's bile is particularly delicious leading to its continued survival.",
+    "experience_points": 0
+  },
+  "tokenId": "30",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Royal Guard of Beelzus",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Minion of Grem",
+      "trait_type": "Portal of Grem"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Unknown",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Royal Guard of Beelzus",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "The Royal Guards of Beelzus represent the longest lived Flies of Beelzus' swarm.\n\nDecayed by the dark magic of Lord Grem, the Royal Guards no longer have flesh. Instead, they are covered in a strange exoskeleton filled with putrefied life energy.\n\nOnce per year they attend the Sacred Hunt where all flesh beings are consumed within the Dark Forest. The Royal Guard will regurgitate the most delicious morsels into His Chalice. It is then presented to Lord Beelzus for his enjoyment. The 20 Guards who provide the most delicious vomit will be retained in their service for the following year. The remainder of the Guards are killed and a selection of Flies are able to ascend to Guard status by Lord Beelzus' blessing.\n\nRoyal Guards are nameless due to their expendability; however, this Guard's bile is particularly delicious leading to its continued survival.",
+  "external_url": "https://fateofwagdie.com/characters/30",
+  "animation_url": "https://fateofwagdie.com/characters/30/animated"
+}

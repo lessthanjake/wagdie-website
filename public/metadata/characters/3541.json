@@ -1,0 +1,94 @@
+{
+  "name": "Amor Prohibido",
+  "image": "ipfs://bafkreiculonenxsp23tqtt33a472s2ecpfqaz6kahvqsdpumwxqmntoaku",
+  "sheet": {
+    "name": "Amor Prohibido",
+    "level": 2,
+    "origin": "Foolish Jester",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Uirian Quill",
+      "mask": "Fool's Crown",
+      "armor": "Swamp Traveler Cloak"
+    },
+    "attributes": {
+      "wisdom": 13,
+      "charisma": 9,
+      "strength": 17,
+      "dexterity": 15,
+      "constitution": 13,
+      "intelligence": 14
+    },
+    "hit_points": 8,
+    "tokenIdInt": 3541,
+    "background_story": "Amor prohibido murmuran por las calles\nPorque somos de distintas sociedades\nAmor prohibido nos dice todo el mundo\nEl dinero no importa en ti ni en mi\nNi en el corazon oh, oh baby",
+    "experience_points": 0
+  },
+  "tokenId": "3541",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Swamp Traveler Cloak",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Uirian Quill",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Zerd",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Curse of Logun",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Fool's Crown",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Neutral Good",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Foolish Jester",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Amor prohibido murmuran por las calles\nPorque somos de distintas sociedades\nAmor prohibido nos dice todo el mundo\nEl dinero no importa en ti ni en mi\nNi en el corazon oh, oh baby",
+  "external_url": "https://fateofwagdie.com/characters/3541",
+  "animation_url": "https://fateofwagdie.com/characters/3541/animated"
+}

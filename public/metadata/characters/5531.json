@@ -1,0 +1,94 @@
+{
+  "name": "Warrior of Rocky ice",
+  "image": "ipfs://bafkreiepkav6umjx4cn3hxtgaim46niofmxdr3trnwmowtxhpc6xnvpmj4",
+  "sheet": {
+    "name": "Warrior of Rocky ice",
+    "level": 1,
+    "origin": "Seeker of Piat",
+    "location": "Unknown",
+    "equipment": {
+      "back": "Her Godlings Disk",
+      "mask": "None",
+      "armor": "Pilgrim's Plain Chain"
+    },
+    "attributes": {
+      "wisdom": 14,
+      "charisma": 13,
+      "strength": 14,
+      "dexterity": 10,
+      "constitution": 18,
+      "intelligence": 13
+    },
+    "hit_points": 10,
+    "tokenIdInt": 5531,
+    "background_story": "Warrior of Rocky Ice is a lone wanderer, a man haunted by a dark past. He once served the kingdom as a proud knight, but a tragedy befell him and he left the kingdom, seeking a new purpose.\n\nHe travels through treacherous lands, facing countless dangers. He is feared by some and respected by others, a dark and mysterious figure who wields his sword, \"Rocky Ice\", with a cold determination.\n\nPeople whisper of his past and the battles he has fought, but few know the true story. He is the Warrior of Rocky Ice, a solitary figure, forever wandering the lands, searching for his next battle. ",
+    "experience_points": 0
+  },
+  "tokenId": "5531",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Pilgrim's Plain Chain",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "Her Godlings Disk",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Midnight",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Golden Strands",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "None",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Lawful Evil",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Warrior",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Seeker of Piat",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "None",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "None",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "Warrior of Rocky Ice is a lone wanderer, a man haunted by a dark past. He once served the kingdom as a proud knight, but a tragedy befell him and he left the kingdom, seeking a new purpose.\n\nHe travels through treacherous lands, facing countless dangers. He is feared by some and respected by others, a dark and mysterious figure who wields his sword, \"Rocky Ice\", with a cold determination.\n\nPeople whisper of his past and the battles he has fought, but few know the true story. He is the Warrior of Rocky Ice, a solitary figure, forever wandering the lands, searching for his next battle. ",
+  "external_url": "https://fateofwagdie.com/characters/5531",
+  "animation_url": "https://fateofwagdie.com/characters/5531/animated"
+}

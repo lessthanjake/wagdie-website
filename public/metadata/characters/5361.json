@@ -1,0 +1,94 @@
+{
+  "name": "Annie-May Protakoniste",
+  "image": "https://storage.googleapis.com/seared-wagdie-images/5361.png",
+  "sheet": {
+    "name": "Annie-May Protakoniste",
+    "level": 1,
+    "origin": "Her Lover",
+    "location": "Unknown",
+    "equipment": {
+      "back": "None",
+      "mask": "Royal Fool's Curse",
+      "armor": "Noxian Jester Garb"
+    },
+    "attributes": {
+      "wisdom": 16,
+      "charisma": 12,
+      "strength": 9,
+      "dexterity": 16,
+      "constitution": 16,
+      "intelligence": 8
+    },
+    "hit_points": 11,
+    "tokenIdInt": 5361,
+    "background_story": "A bizarre clown of a woman with narcissistic delusions that make her believe she's the star of some grand narrative.",
+    "experience_points": 0
+  },
+  "tokenId": "5361",
+  "metadata": [],
+  "attributes": [
+    {
+      "value": "Noxian Jester Garb",
+      "trait_type": "Armor"
+    },
+    {
+      "value": "None",
+      "trait_type": "Back"
+    },
+    {
+      "value": "Slaughter",
+      "trait_type": "Background"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Body"
+    },
+    {
+      "value": "Noxian Tint",
+      "trait_type": "Hair"
+    },
+    {
+      "value": "Royal Fool's Curse",
+      "trait_type": "Mask"
+    },
+    {
+      "value": "Chaotic Neutral",
+      "trait_type": "Alignment"
+    },
+    {
+      "value": "Royal",
+      "trait_type": "Class"
+    },
+    {
+      "value": "Alive",
+      "trait_type": "Health"
+    },
+    {
+      "value": "Her Lover",
+      "trait_type": "Origin"
+    },
+    {
+      "value": "Worm Greatsword",
+      "trait_type": "Seared Trait"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Seared Token"
+    },
+    {
+      "value": "Band of the Bulwark",
+      "trait_type": "Concord"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Head"
+    },
+    {
+      "value": "None",
+      "trait_type": "Infected Body"
+    }
+  ],
+  "description": "A bizarre clown of a woman with narcissistic delusions that make her believe she's the star of some grand narrative.",
+  "external_url": "https://fateofwagdie.com/characters/5361",
+  "animation_url": "https://fateofwagdie.com/characters/5361/animated"
+}
