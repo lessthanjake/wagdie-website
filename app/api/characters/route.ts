@@ -6,7 +6,7 @@
 import { NextRequest } from 'next/server'
 import { getCharacters } from '@/lib/services/character-service'
 import { parseEnumParam, parsePositiveIntParam } from '@/lib/api/params'
-import { jsonRaw } from '@/lib/api/responses'
+import { jsonRaw, jsonRawError } from '@/lib/api/responses'
 import type { CharacterFilterTab, CharactersResponse, SortOrder } from '@/types/character'
 
 export const runtime = 'nodejs'
@@ -58,24 +58,15 @@ export async function GET(request: NextRequest) {
 
     // Validate parameters
     if (page === null || perPage === null) {
-      return jsonRaw(
-        { error: 'Invalid pagination parameters' },
-        { status: 400 }
-      )
+      return jsonRawError('Invalid pagination parameters', 400)
     }
 
     if (tab === null) {
-      return jsonRaw(
-        { error: 'Invalid tab parameter' },
-        { status: 400 }
-      )
+      return jsonRawError('Invalid tab parameter', 400)
     }
 
     if (sort === null) {
-      return jsonRaw(
-        { error: 'Invalid sort parameter' },
-        { status: 400 }
-      )
+      return jsonRawError('Invalid sort parameter', 400)
     }
 
     // Safety net: 'owned' tab without wallet returns empty (not all characters)
@@ -102,9 +93,6 @@ export async function GET(request: NextRequest) {
     return jsonRaw(result)
   } catch (error) {
     console.error('Error fetching characters:', error)
-    return jsonRaw(
-      { error: 'Failed to fetch characters' },
-      { status: 500 }
-    )
+    return jsonRawError('Failed to fetch characters', 500)
   }
 }
