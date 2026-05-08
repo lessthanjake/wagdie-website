@@ -12,6 +12,8 @@ This is a Next.js application for the WAGDIE project with Phaser game integratio
 
 ## Build, Test, and Development Commands
 
+> **Before you start:** read the Quick Start in `SETUP.md`. **Use Node 23.3.0** — pinned in `.nvmrc` and `package.json` so everyone runs the same runtime. For UI-only work, set `WAGDIE_API_BASE_URL=https://fateofwagdie.com` in `.env.local` and skip Supabase entirely; `middleware.ts` proxies `/api/*` to the deployed instance.
+
 ```bash
 # Install dependencies
 bun install
