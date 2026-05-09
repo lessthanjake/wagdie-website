@@ -38,6 +38,11 @@ interface FilterSidebarProps {
   availableAlignments: AlignmentCount[]
   onAlignmentChange: (alignment: string | null) => void
   alignmentsLoading: boolean
+  // The 17 filter
+  the17Filter: string | null
+  availableThe17: TraitCount[]
+  onThe17Change: (the17: string | null) => void
+  the17Loading: boolean
   // Equipment filters
   armorFilter: string | null
   availableArmor: TraitCount[]
@@ -85,6 +90,10 @@ export function FilterSidebar({
   availableAlignments,
   onAlignmentChange,
   alignmentsLoading,
+  the17Filter,
+  availableThe17,
+  onThe17Change,
+  the17Loading,
   armorFilter,
   availableArmor,
   onArmorChange,
@@ -109,6 +118,7 @@ export function FilterSidebar({
     hasSheetFilter,
     originFilter !== null,
     alignmentFilter !== null,
+    the17Filter !== null,
     armorFilter !== null,
     backFilter !== null,
     maskFilter !== null,
@@ -318,6 +328,16 @@ export function FilterSidebar({
                   options={availableAlignments}
                   onChange={onAlignmentChange}
                   isLoading={alignmentsLoading}
+                  className="w-full"
+                />
+
+                {/* The 17 Dropdown */}
+                <TraitDropdown
+                  label="The 17"
+                  value={the17Filter}
+                  options={availableThe17}
+                  onChange={onThe17Change}
+                  isLoading={the17Loading}
                   className="w-full"
                 />
               </div>

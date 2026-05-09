@@ -57,3 +57,7 @@ export function useBackTraits() {
 export function useMaskTraits() {
   return useTraitCounts('Mask')
 }
+
+export function useThe17Traits() {
+  return useTraitCounts('The 17')
+}

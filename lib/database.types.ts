@@ -155,19 +155,34 @@ export interface Database {
           id: string
           name: string
           description: string | null
+          image_url: string | null
+          lore: string | null
+          chain_location_id: number | null
           metadata: Json | null
+          created_at: string
+          updated_at: string
         }
         Insert: {
           id: string
           name: string
           description?: string | null
+          image_url?: string | null
+          lore?: string | null
+          chain_location_id?: number | null
           metadata?: Json | null
+          created_at?: string
+          updated_at?: string
         }
         Update: {
           id?: string
           name?: string
           description?: string | null
+          image_url?: string | null
+          lore?: string | null
+          chain_location_id?: number | null
           metadata?: Json | null
+          created_at?: string
+          updated_at?: string
         }
       }
     }

@@ -23,6 +23,7 @@ export async function GET(request: NextRequest) {
     const hasSheet = searchParams.get('hasSheet') === 'true'
     const origin = searchParams.get('origin') || undefined
     const alignment = searchParams.get('alignment') || undefined
+    const the17 = searchParams.get('the17') || undefined
 
     if (page < 1 || perPage < 1 || perPage > 100) {
       return NextResponse.json({ error: 'Invalid pagination parameters' }, { status: 400 })
@@ -46,6 +47,7 @@ export async function GET(request: NextRequest) {
       hasSheet: hasSheet || undefined,
       origin,
       alignment,
+      the17,
     })
 
     return NextResponse.json(result)

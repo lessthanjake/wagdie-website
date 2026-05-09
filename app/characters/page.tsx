@@ -16,7 +16,7 @@ import { Alert, Spinner, Pagination, Empty } from '@/components/ui'
 import { useCharacters } from '@/hooks/useCharacters'
 import { useOrigins } from '@/hooks/useOrigins'
 import { useAlignments } from '@/hooks/useAlignments'
-import { useArmorTraits, useBackTraits, useMaskTraits } from '@/hooks/useTraitCounts'
+import { useArmorTraits, useBackTraits, useMaskTraits, useThe17Traits } from '@/hooks/useTraitCounts'
 import { useWallet } from '@/hooks/useWallet'
 import { useCharacterBrowseFilters } from '@/hooks/useCharacterBrowseFilters'
 import type { Character } from '@/types/character'
@@ -50,6 +50,7 @@ function CharactersPageContent() {
     hasSheet,
     origin,
     alignment,
+    the17,
     armor,
     back,
     mask,
@@ -61,6 +62,7 @@ function CharactersPageContent() {
   const { traits: armorTraits, isLoading: armorLoading } = useArmorTraits()
   const { traits: backTraits, isLoading: backLoading } = useBackTraits()
   const { traits: maskTraits, isLoading: maskLoading } = useMaskTraits()
+  const { traits: the17Traits, isLoading: the17Loading } = useThe17Traits()
 
   // Fetch characters using custom hook with React Query
   const {
@@ -80,6 +82,7 @@ function CharactersPageContent() {
     hasSheet: hasSheet || undefined,
     origin: origin || undefined,
     alignment: alignment || undefined,
+    the17: the17 || undefined,
     armor: armor || undefined,
     back: back || undefined,
     mask: mask || undefined,
@@ -129,6 +132,10 @@ function CharactersPageContent() {
           availableAlignments={alignments}
           onAlignmentChange={handlers.onAlignmentChange}
           alignmentsLoading={alignmentsLoading}
+          the17Filter={the17}
+          availableThe17={the17Traits}
+          onThe17Change={handlers.onThe17Change}
+          the17Loading={the17Loading}
           armorFilter={armor}
           availableArmor={armorTraits}
           onArmorChange={handlers.onArmorChange}
@@ -155,6 +162,7 @@ function CharactersPageContent() {
                   hasSheet,
                   origin,
                   alignment,
+                  the17,
                   armor,
                   back,
                   mask,

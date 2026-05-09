@@ -6,4 +6,11 @@ export interface NormalizedLocationMetadata extends Record<string, unknown> {
   bounds: LocationBounds;                 // always present
   center?: LocationCenter;                // present when derivable
   coordinates?: LocationCoordinatesObj;   // present when derivable
+  properties?: {
+    region?: string;
+    terrain?: string;
+    difficulty?: 'easy' | 'medium' | 'hard';
+    special?: boolean;
+  };
+  special_properties?: string[];
 }

@@ -7,6 +7,7 @@ import { useMapStakingPanel, type SelectedStakingLocation } from '@/hooks/map/us
 import { Alert, Spinner } from '@/components/ui';
 import { ApprovalBanner, ApprovalReadyBanner } from './staking-sidebar/ApprovalBanner';
 import { CharacterStakeList } from './staking-sidebar/CharacterStakeList';
+import { LocationDetailsCard } from './staking-sidebar/LocationDetailsCard';
 import { LocationTabs } from './staking-sidebar/LocationTabs';
 import { MarkerDetailsCard } from './staking-sidebar/MarkerDetailsCard';
 import { PaginationControls } from './staking-sidebar/PaginationControls';
@@ -113,6 +114,10 @@ export function MapStakingSidebar({
       <div className="flex-1 overflow-y-auto p-5 space-y-5">
         {selectedMarker && !isLocationMarker && (
           <MarkerDetailsCard marker={selectedMarker} />
+        )}
+
+        {isLocationMarker && locationData && (
+          <LocationDetailsCard location={locationData} />
         )}
 
         {isLocationMarker && (

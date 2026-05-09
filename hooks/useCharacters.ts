@@ -21,6 +21,7 @@ export interface UseCharactersOptions {
   hasSheet?: boolean
   origin?: string
   alignment?: string
+  the17?: string
   // Equipment filter options
   armor?: string
   back?: string
@@ -35,12 +36,12 @@ export interface UseCharactersOptions {
 export function useCharacters(options: UseCharactersOptions) {
   const {
     tab, sort, wallet, page = 1, perPage = 50, search,
-    hasSheet, origin, alignment, armor, back, mask,
+    hasSheet, origin, alignment, the17, armor, back, mask,
     enabled = true
   } = options
 
   const query = useQuery({
-    queryKey: ['characters', tab, sort, wallet, page, perPage, search, hasSheet, origin, alignment, armor, back, mask],
+    queryKey: ['characters', tab, sort, wallet, page, perPage, search, hasSheet, origin, alignment, the17, armor, back, mask],
     queryFn: () =>
       api.characters.getCharacters({
         tab,
@@ -52,6 +53,7 @@ export function useCharacters(options: UseCharactersOptions) {
         hasSheet,
         origin,
         alignment,
+        the17,
         armor,
         back,
         mask,

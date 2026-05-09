@@ -51,6 +51,7 @@ export async function GET(request: NextRequest) {
     const hasSheet = searchParams.get('hasSheet') === 'true'
     const origin = searchParams.get('origin') || undefined
     const alignment = searchParams.get('alignment') || undefined
+    const the17 = searchParams.get('the17') || undefined
     // Equipment filter params
     const armor = searchParams.get('armor') || undefined
     const back = searchParams.get('back') || undefined
@@ -85,6 +86,7 @@ export async function GET(request: NextRequest) {
       hasSheet: hasSheet || undefined,
       origin,
       alignment,
+      the17,
       armor,
       back,
       mask

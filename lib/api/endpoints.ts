@@ -28,6 +28,7 @@ export const characterApi = {
     if (params.hasSheet) searchParams.set('hasSheet', 'true')
     if (params.origin) searchParams.set('origin', params.origin)
     if (params.alignment) searchParams.set('alignment', params.alignment)
+    if (params.the17) searchParams.set('the17', params.the17)
     // Equipment filters
     if (params.armor) searchParams.set('armor', params.armor)
     if (params.back) searchParams.set('back', params.back)

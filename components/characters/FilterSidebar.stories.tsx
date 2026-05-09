@@ -22,6 +22,12 @@ const mockAlignments: AlignmentCount[] = [
   { alignment: 'Chaotic Evil', count: 250 },
 ]
 
+const mockThe17: TraitCount[] = [
+  { value: 'Luta the Beacon', count: 1 },
+  { value: 'Piyu the Godling', count: 1 },
+  { value: 'Child of Her', count: 1 },
+]
+
 const mockArmor: TraitCount[] = [
   { value: 'Plate Mail', count: 200 },
   { value: 'Chain Mail', count: 350 },
@@ -81,6 +87,10 @@ const defaultArgs = {
   availableAlignments: mockAlignments,
   onAlignmentChange: () => {},
   alignmentsLoading: false,
+  the17Filter: null,
+  availableThe17: mockThe17,
+  onThe17Change: () => {},
+  the17Loading: false,
   armorFilter: null,
   availableArmor: mockArmor,
   onArmorChange: () => {},
@@ -109,6 +119,7 @@ export const WithActiveFilters: Story = {
     hasSheetFilter: true,
     originFilter: 'Undead',
     alignmentFilter: 'Chaotic Evil',
+    the17Filter: 'Luta the Beacon',
     armorFilter: 'Plate Mail',
     totalCount: 42,
   },
@@ -119,6 +130,7 @@ export const Loading: Story = {
     ...defaultArgs,
     originsLoading: true,
     alignmentsLoading: true,
+    the17Loading: true,
     armorLoading: true,
     backLoading: true,
     maskLoading: true,

@@ -1,5 +1,7 @@
 'use client'
 
+/* eslint-disable @next/next/no-img-element */
+
 /**
  * LocationForm Component
  * Form for creating or editing locations
@@ -7,10 +9,11 @@
 
 import { useState, useEffect, useCallback } from 'react'
 import { Select } from '@/components/ui'
-import type { Location } from '@/lib/types/map'
+import type { Location, LocationDifficulty } from '@/lib/types/map'
 import {
   validateLocationForm,
   buildLocationFormSubmit,
+  buildLocationFormState,
   isValidForm,
   CREATE_NEW_VALUE,
   type LocationFormSubmit,
@@ -31,6 +34,11 @@ interface LocationFormProps {
   isSubmitting: boolean
 }
 
+function isPreviewableImageUrl(value: string): boolean {
+  const trimmed = value.trim()
+  return trimmed.startsWith('/') || /^https?:\/\//i.test(trimmed)
+}
+
 export function LocationForm({
   mode,
   location,
@@ -43,6 +51,12 @@ export function LocationForm({
 }: LocationFormProps) {
   const [name, setName] = useState('')
   const [description, setDescription] = useState('')
+  const [imageUrl, setImageUrl] = useState('')
+  const [lore, setLore] = useState('')
+  const [region, setRegion] = useState('')
+  const [terrain, setTerrain] = useState('')
+  const [difficulty, setDifficulty] = useState<'' | LocationDifficulty>('')
+  const [specialPropertiesText, setSpecialPropertiesText] = useState('')
   const [selectedLocationId, setSelectedLocationId] = useState<string>(CREATE_NEW_VALUE)
   const [errors, setErrors] = useState<LocationFormErrors>({})
 
@@ -55,24 +69,48 @@ export function LocationForm({
 
   // Initialize form with location data in edit mode
   useEffect(() => {
-    if (mode === 'edit' && location) {
-      setName(location.name)
-      setDescription(location.description || '')
-      setSelectedLocationId(CREATE_NEW_VALUE)
-    } else {
-      setName('')
-      setDescription('')
-      setSelectedLocationId(CREATE_NEW_VALUE)
-    }
+    const initial = buildLocationFormState(mode === 'edit' ? location : undefined, { x: 0, y: 0 })
+    setName(initial.name)
+    setDescription(initial.description)
+    setImageUrl(initial.imageUrl)
+    setLore(initial.lore)
+    setRegion(initial.region)
+    setTerrain(initial.terrain)
+    setDifficulty(initial.difficulty)
+    setSpecialPropertiesText(initial.specialPropertiesText)
+    setSelectedLocationId(CREATE_NEW_VALUE)
     setErrors({})
   }, [mode, location])
 
+  const getFormState = useCallback(() => ({
+    name,
+    description,
+    imageUrl,
+    lore,
+    region,
+    terrain,
+    difficulty,
+    specialPropertiesText,
+    selectedLocationId,
+    coordinates,
+  }), [
+    name,
+    description,
+    imageUrl,
+    lore,
+    region,
+    terrain,
+    difficulty,
+    specialPropertiesText,
+    selectedLocationId,
+    coordinates,
+  ])
+
   const validate = useCallback(() => {
-    const formState = { name, description, selectedLocationId, coordinates }
-    const newErrors = validateLocationForm(mode, formState, locations)
+    const newErrors = validateLocationForm(mode, getFormState(), locations)
     setErrors(newErrors)
     return isValidForm(newErrors)
-  }, [mode, selectedLocationId, name, description, coordinates, locations])
+  }, [mode, getFormState, locations])
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -80,8 +118,7 @@ export function LocationForm({
     if (!validate()) return
 
     try {
-      const formState = { name, description, selectedLocationId, coordinates }
-      const payload = buildLocationFormSubmit(mode, formState, location)
+      const payload = buildLocationFormSubmit(mode, getFormState(), location)
 
       if (payload) {
         await onSave(payload)
@@ -105,8 +142,17 @@ export function LocationForm({
     ...locations.map((loc) => ({ value: loc.id, label: loc.name })),
   ]
 
+  const difficultyOptions = [
+    { value: '', label: 'No difficulty' },
+    { value: 'easy', label: 'Easy' },
+    { value: 'medium', label: 'Medium' },
+    { value: 'hard', label: 'Hard' },
+  ]
+
+  const showDetailsFields = mode === 'edit' || isCreateNew
+
   return (
-    <form onSubmit={handleSubmit} className="p-4 bg-soul-shadow border-l border-soul-accent/30">
+    <form onSubmit={handleSubmit} className="p-4 bg-soul-shadow border-l border-soul-accent/30 overflow-y-auto">
       <h2 className="font-display text-xl text-soul-accent mb-4">
         {mode === 'create' ? 'New Location' : 'Edit Location'}
       </h2>
@@ -139,20 +185,20 @@ export function LocationForm({
           )}
 
           {isMoveExisting && (
-                <div className="mt-3 p-3 bg-abyss rounded border border-soul-accent/20">
-                  <p className="text-sm text-soul-mist">
-                    {selectedLocation
-                      ? `Moving "${selectedLocation.name}" to the coordinates above.`
-                      : 'Moving selected location to the coordinates above.'
-                    }
-                  </p>
-                </div>
+            <div className="mt-3 p-3 bg-abyss rounded border border-soul-accent/20">
+              <p className="text-sm text-soul-mist">
+                {selectedLocation
+                  ? `Moving "${selectedLocation.name}" to the coordinates above.`
+                  : 'Moving selected location to the coordinates above.'
+                }
+              </p>
+            </div>
           )}
         </div>
       )}
 
-      {/* Name + Description (create_new + edit only) */}
-      {(mode === 'edit' || isCreateNew) && (
+      {/* Location information fields (create_new + edit only) */}
+      {showDetailsFields && (
         <>
           {/* Name field */}
           <div className="mb-4">
@@ -212,6 +258,147 @@ export function LocationForm({
             )}
             <p className="mt-1 text-xs text-soul-mist/60">
               {description.length}/2000 characters
+            </p>
+          </div>
+
+          <div className="mb-4">
+            <label htmlFor="location-image-url" className="block text-sm text-soul-mist mb-1">
+              Image URL
+            </label>
+            <input
+              id="location-image-url"
+              type="text"
+              value={imageUrl}
+              onChange={(e) => setImageUrl(e.target.value)}
+              disabled={isSubmitting}
+              className={`
+                w-full px-3 py-2 bg-abyss border rounded
+                text-soul-bone placeholder-soul-mist/50
+                focus:outline-none focus:border-soul-accent
+                disabled:opacity-50 disabled:cursor-not-allowed
+                ${errors.imageUrl ? 'border-soul-ember' : 'border-soul-accent/40'}
+              `}
+              placeholder="/images/locations/abyss.png or https://..."
+              aria-describedby={errors.imageUrl ? 'image-url-error' : undefined}
+              aria-invalid={!!errors.imageUrl}
+            />
+            {errors.imageUrl && (
+              <p id="image-url-error" className="mt-1 text-sm text-soul-ember">
+                {errors.imageUrl}
+              </p>
+            )}
+            {imageUrl && isPreviewableImageUrl(imageUrl) && !errors.imageUrl && (
+              <div className="mt-2 rounded border border-soul-accent/20 overflow-hidden bg-abyss">
+                <img
+                  src={imageUrl.trim()}
+                  alt="Location preview"
+                  className="w-full max-h-36 object-cover"
+                />
+              </div>
+            )}
+          </div>
+
+          <div className="mb-4">
+            <label htmlFor="location-lore" className="block text-sm text-soul-mist mb-1">
+              Lore
+            </label>
+            <textarea
+              id="location-lore"
+              value={lore}
+              onChange={(e) => setLore(e.target.value)}
+              disabled={isSubmitting}
+              rows={5}
+              className={`
+                w-full px-3 py-2 bg-abyss border rounded
+                text-soul-bone placeholder-soul-mist/50
+                focus:outline-none focus:border-soul-accent
+                disabled:opacity-50 disabled:cursor-not-allowed resize-none
+                ${errors.lore ? 'border-soul-ember' : 'border-soul-accent/40'}
+              `}
+              placeholder="Extended public lore or location notes (optional)"
+              aria-describedby={errors.lore ? 'lore-error' : undefined}
+              aria-invalid={!!errors.lore}
+            />
+            {errors.lore && (
+              <p id="lore-error" className="mt-1 text-sm text-soul-ember">
+                {errors.lore}
+              </p>
+            )}
+            <p className="mt-1 text-xs text-soul-mist/60">
+              {lore.length}/5000 characters
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 gap-4 mb-4">
+            <div>
+              <label htmlFor="location-region" className="block text-sm text-soul-mist mb-1">
+                Region
+              </label>
+              <input
+                id="location-region"
+                type="text"
+                value={region}
+                onChange={(e) => setRegion(e.target.value)}
+                disabled={isSubmitting}
+                className={`w-full px-3 py-2 bg-abyss border rounded text-soul-bone placeholder-soul-mist/50 focus:outline-none focus:border-soul-accent disabled:opacity-50 disabled:cursor-not-allowed ${errors.region ? 'border-soul-ember' : 'border-soul-accent/40'}`}
+                placeholder="E.g. Northern Wastes"
+              />
+              {errors.region && <p className="mt-1 text-sm text-soul-ember">{errors.region}</p>}
+            </div>
+
+            <div>
+              <label htmlFor="location-terrain" className="block text-sm text-soul-mist mb-1">
+                Terrain
+              </label>
+              <input
+                id="location-terrain"
+                type="text"
+                value={terrain}
+                onChange={(e) => setTerrain(e.target.value)}
+                disabled={isSubmitting}
+                className={`w-full px-3 py-2 bg-abyss border rounded text-soul-bone placeholder-soul-mist/50 focus:outline-none focus:border-soul-accent disabled:opacity-50 disabled:cursor-not-allowed ${errors.terrain ? 'border-soul-ember' : 'border-soul-accent/40'}`}
+                placeholder="E.g. Ash plains"
+              />
+              {errors.terrain && <p className="mt-1 text-sm text-soul-ember">{errors.terrain}</p>}
+            </div>
+          </div>
+
+          <div className="mb-4">
+            <Select
+              label="Difficulty"
+              value={difficulty}
+              onChange={(e) => setDifficulty(e.target.value as '' | LocationDifficulty)}
+              disabled={isSubmitting}
+              options={difficultyOptions}
+            />
+          </div>
+
+          <div className="mb-4">
+            <label htmlFor="location-special-properties" className="block text-sm text-soul-mist mb-1">
+              Special Properties
+            </label>
+            <textarea
+              id="location-special-properties"
+              value={specialPropertiesText}
+              onChange={(e) => setSpecialPropertiesText(e.target.value)}
+              disabled={isSubmitting}
+              rows={3}
+              className={`
+                w-full px-3 py-2 bg-abyss border rounded
+                text-soul-bone placeholder-soul-mist/50
+                focus:outline-none focus:border-soul-accent
+                disabled:opacity-50 disabled:cursor-not-allowed resize-none
+                ${errors.specialPropertiesText ? 'border-soul-ember' : 'border-soul-accent/40'}
+              `}
+              placeholder="Cursed ground, hidden crypts"
+            />
+            {errors.specialPropertiesText && (
+              <p className="mt-1 text-sm text-soul-ember">
+                {errors.specialPropertiesText}
+              </p>
+            )}
+            <p className="mt-1 text-xs text-soul-mist/60">
+              Separate with commas or new lines.
             </p>
           </div>
         </>

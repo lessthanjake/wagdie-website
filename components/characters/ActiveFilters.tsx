@@ -9,13 +9,14 @@
 import React from 'react'
 import type { CharacterFilterTab } from '@/types/character'
 
-type FilterType = 'hasSheet' | 'origin' | 'alignment' | 'armor' | 'back' | 'mask' | 'search'
+type FilterType = 'hasSheet' | 'origin' | 'alignment' | 'the17' | 'armor' | 'back' | 'mask' | 'search'
 
 interface ActiveFiltersProps {
   filters: {
     hasSheet: boolean
     origin: string | null
     alignment: string | null
+    the17?: string | null
     armor?: string | null
     back?: string | null
     mask?: string | null
@@ -35,6 +36,7 @@ export function ActiveFilters({
     filters.hasSheet,
     filters.origin !== null,
     filters.alignment !== null,
+    filters.the17 !== null,
     filters.armor !== null,
     filters.back !== null,
     filters.mask !== null,
@@ -70,6 +72,14 @@ export function ActiveFilters({
         <FilterBadge
           label={`Alignment: ${filters.alignment}`}
           onRemove={() => onRemoveFilter('alignment')}
+        />
+      )}
+
+      {/* The 17 Filter Badge */}
+      {filters.the17 && (
+        <FilterBadge
+          label={`The 17: ${filters.the17}`}
+          onRemove={() => onRemoveFilter('the17')}
         />
       )}
 

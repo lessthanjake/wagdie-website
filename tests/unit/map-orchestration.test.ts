@@ -4,7 +4,7 @@ jest.mock('@/lib/utils/blockchain', () => ({
   isBurnedOwner: jest.fn(() => false),
 }));
 
-import { getStakingLocationSelection } from '@/lib/utils/mapOrchestration';
+import { getStakingLocationSelection, toLocation } from '@/lib/utils/mapOrchestration';
 
 function locationMarker(overrides: Partial<MapLocationData> = {}): MarkerPayload {
   return {
@@ -22,6 +22,42 @@ function locationMarker(overrides: Partial<MapLocationData> = {}): MarkerPayload
     },
   };
 }
+
+describe('toLocation', () => {
+  it('preserves enriched location fields and metadata', () => {
+    const location = toLocation({
+      id: 'concord_searing',
+      name: 'Concord Searing',
+      description: 'A place of power',
+      image_url: '/images/locations/concord.png',
+      lore: 'Old fire still speaks here.',
+      chain_location_id: '7',
+      metadata: {
+        center: [10, 20],
+        bounds: [[0, 0], [100, 100]],
+        coordinates: { x: 10, y: 20 },
+        properties: {
+          region: 'North',
+          terrain: 'Ash',
+          difficulty: 'hard',
+        },
+        special_properties: ['Cursed', 'Hidden crypts'],
+      },
+    });
+
+    expect(location).toEqual(expect.objectContaining({
+      id: 'concord_searing',
+      image_url: '/images/locations/concord.png',
+      lore: 'Old fire still speaks here.',
+      chain_location_id: '7',
+      metadata: expect.objectContaining({
+        coordinates: { x: 10, y: 20 },
+        properties: expect.objectContaining({ region: 'North', terrain: 'Ash', difficulty: 'hard' }),
+        special_properties: ['Cursed', 'Hidden crypts'],
+      }),
+    }));
+  });
+});
 
 describe('getStakingLocationSelection', () => {
   const warnSpy = jest.spyOn(console, 'warn').mockImplementation(() => undefined);

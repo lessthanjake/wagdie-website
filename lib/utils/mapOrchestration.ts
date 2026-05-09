@@ -56,14 +56,22 @@ export function buildStakedCharactersByLocation(
 }
 
 export function toLocation(locationData: MapLocationData): Location {
+  const metadata = locationData.metadata ?? {};
+
   return {
     id: locationData.id,
     name: locationData.name,
     description: locationData.description,
+    image_url: locationData.image_url,
+    lore: locationData.lore,
     chain_location_id: locationData.chain_location_id,
     metadata: {
-      bounds: locationData.metadata?.bounds ?? [[0, 0], [0, 0]],
-      center: locationData.metadata?.center,
+      ...metadata,
+      bounds: metadata.bounds ?? [[0, 0], [0, 0]],
+      center: metadata.center,
+      coordinates: metadata.coordinates,
+      properties: metadata.properties,
+      special_properties: metadata.special_properties,
     },
     created_at: locationData.created_at ?? '',
     updated_at: locationData.updated_at ?? '',

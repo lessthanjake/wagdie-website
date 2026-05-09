@@ -21,10 +21,14 @@ export type MapPosition = [number, number] | { lat: number; lng: number };
 /**
  * Location entity from Supabase locations table
  */
+export type LocationDifficulty = 'easy' | 'medium' | 'hard';
+
 export interface Location {
   id: string;
   name: string;
-  description?: string;
+  description?: string | null;
+  image_url?: string | null;
+  lore?: string | null;
   chain_location_id?: number | string;
   metadata: LocationMetadata;
   created_at: string;
@@ -47,8 +51,9 @@ export interface LocationMetadata {
   center?: [number, number];
   area?: number;
   properties?: {
+    region?: string;
     terrain?: string;
-    difficulty?: 'easy' | 'medium' | 'hard';
+    difficulty?: LocationDifficulty;
     special?: boolean;
   };
   special_properties?: string[];
@@ -338,18 +343,27 @@ export class LocationError extends MapError {
 /**
  * Input for creating a new location
  */
-export interface CreateLocationInput {
+export interface LocationEnrichmentInput {
+  image_url?: string | null // Optional image URL for public map/sidebar display
+  lore?: string | null // Optional extended lore text
+  region?: string | null // Stored in metadata.properties.region
+  terrain?: string | null // Stored in metadata.properties.terrain
+  difficulty?: LocationDifficulty | null // Stored in metadata.properties.difficulty
+  special_properties?: string[] // Stored in metadata.special_properties
+}
+
+export interface CreateLocationInput extends LocationEnrichmentInput {
   name: string // Required, non-empty, 1-200 chars
-  description?: string // Optional, max 2000 chars
+  description?: string | null // Optional, max 2000 chars
   coordinates: { x: number; y: number } // Required for placement
 }
 
 /**
  * Input for updating an existing location
  */
-export interface UpdateLocationInput {
+export interface UpdateLocationInput extends LocationEnrichmentInput {
   name?: string // Optional update, 1-200 chars if provided
-  description?: string // Optional update, max 2000 chars
+  description?: string | null // Optional update, max 2000 chars
   coordinates?: { x: number; y: number } // For repositioning
 }
 

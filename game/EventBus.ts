@@ -24,10 +24,20 @@ export interface MapLocationData {
   id: string;
   chain_location_id?: number | string;
   name: string;
-  description?: string;
+  description?: string | null;
+  image_url?: string | null;
+  lore?: string | null;
   metadata?: {
     center?: [number, number];
     bounds?: [[number, number], [number, number]];
+    coordinates?: { x: number; y: number };
+    properties?: {
+      region?: string;
+      terrain?: string;
+      difficulty?: 'easy' | 'medium' | 'hard';
+      special?: boolean;
+    };
+    special_properties?: string[];
     [key: string]: unknown;
   };
   htmlcoordinates?: [number, number];

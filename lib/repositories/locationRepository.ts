@@ -7,7 +7,13 @@
 
 import { createClient } from '@supabase/supabase-js';
 import { inspect } from 'util';
-import type { Location, LocationRepository as ILocationRepository, CreateLocationInput, UpdateLocationInput } from '../types/map';
+import type {
+  Location,
+  LocationMetadata,
+  LocationRepository as ILocationRepository,
+  CreateLocationInput,
+  UpdateLocationInput,
+} from '../types/map';
 import { normalizeLocationMetadata } from '@/lib/domain/location/metadata';
 
 const supabaseUrl = process.env.NEXT_PUBLIC_SUPABASE_URL!;
@@ -37,6 +43,98 @@ function isPlainObject(value: unknown): value is Record<string, unknown> {
 
 function isFiniteNumber(value: unknown): value is number {
   return typeof value === 'number' && Number.isFinite(value);
+}
+
+function cleanNullableText(value: string | null | undefined): string | null | undefined {
+  if (value === undefined) return undefined;
+  if (value === null) return null;
+  return value.trim() || null;
+}
+
+function normalizeSpecialProperties(values: string[] | undefined): string[] | undefined {
+  if (values === undefined) return undefined;
+
+  const seen = new Set<string>();
+  const normalized: string[] = [];
+
+  for (const value of values) {
+    if (typeof value !== 'string') continue;
+    const trimmed = value.trim();
+    if (!trimmed) continue;
+
+    const key = trimmed.toLowerCase();
+    if (seen.has(key)) continue;
+
+    seen.add(key);
+    normalized.push(trimmed);
+  }
+
+  return normalized;
+}
+
+function setMetadataTextProperty(
+  target: Record<string, unknown>,
+  key: 'region' | 'terrain',
+  value: string | null | undefined
+): void {
+  if (value === undefined) return;
+  const cleaned = cleanNullableText(value);
+  if (cleaned) target[key] = cleaned;
+  else delete target[key];
+}
+
+function buildMetadata(
+  input: CreateLocationInput | UpdateLocationInput,
+  existingMetadata?: LocationMetadata
+): LocationMetadata {
+  const metadata: Record<string, unknown> = existingMetadata ? { ...existingMetadata } : {};
+
+  if (input.coordinates !== undefined) {
+    metadata.coordinates = input.coordinates;
+    metadata.center = [input.coordinates.x, input.coordinates.y] as [number, number];
+    metadata.bounds = [
+      [input.coordinates.x - 25, input.coordinates.y - 25],
+      [input.coordinates.x + 25, input.coordinates.y + 25],
+    ] as [[number, number], [number, number]];
+  }
+
+  const existingProperties = isPlainObject(metadata.properties)
+    ? { ...(metadata.properties as Record<string, unknown>) }
+    : {};
+
+  setMetadataTextProperty(existingProperties, 'region', input.region);
+  setMetadataTextProperty(existingProperties, 'terrain', input.terrain);
+
+  if (input.difficulty !== undefined) {
+    if (input.difficulty) existingProperties.difficulty = input.difficulty;
+    else delete existingProperties.difficulty;
+  }
+
+  if (Object.keys(existingProperties).length > 0) {
+    metadata.properties = existingProperties;
+  } else {
+    delete metadata.properties;
+  }
+
+  const specialProperties = normalizeSpecialProperties(input.special_properties);
+  if (specialProperties !== undefined) {
+    if (specialProperties.length > 0) metadata.special_properties = specialProperties;
+    else delete metadata.special_properties;
+  }
+
+  if (!metadata.bounds) {
+    metadata.bounds = [[0, 0], [0, 0]];
+  }
+
+  return metadata as unknown as LocationMetadata;
+}
+
+function hasMetadataUpdates(input: UpdateLocationInput): boolean {
+  return input.coordinates !== undefined ||
+    input.region !== undefined ||
+    input.terrain !== undefined ||
+    input.difficulty !== undefined ||
+    input.special_properties !== undefined;
 }
 
 function formatSupabaseError(err: unknown): string {
@@ -79,6 +177,8 @@ function normalizeLocation(raw: unknown): Location {
 
   return {
     ...(safeLoc as unknown as Location),
+    image_url: typeof safeLoc.image_url === 'string' ? safeLoc.image_url : null,
+    lore: typeof safeLoc.lore === 'string' ? safeLoc.lore : null,
     chain_location_id: chainLocationId as Location['chain_location_id'],
     metadata: normalizedMetadata,
     created_at: createdAt,
@@ -132,6 +232,8 @@ export class LocationRepository implements ILocationRepository {
         id: 'loc-1',
         name: 'The Abyss',
         description: 'A dark and treacherous realm',
+        image_url: null,
+        lore: null,
         metadata: {
           bounds: [[0, 0], [250, 250]],
           center: [125, 125],
@@ -143,6 +245,8 @@ export class LocationRepository implements ILocationRepository {
         id: 'loc-2',
         name: 'Eternal Flames',
         description: 'A burning wasteland of perpetual fire',
+        image_url: null,
+        lore: null,
         metadata: {
           bounds: [[250, 0], [500, 250]],
           center: [375, 125],
@@ -154,6 +258,8 @@ export class LocationRepository implements ILocationRepository {
         id: 'loc-3',
         name: 'Shadow Grove',
         description: 'A mysterious forest shrouded in darkness',
+        image_url: null,
+        lore: null,
         metadata: {
           bounds: [[500, 0], [750, 250]],
           center: [625, 125],
@@ -232,15 +338,10 @@ export class LocationRepository implements ILocationRepository {
       const locationData = {
         id,
         name: input.name.trim(),
-        description: input.description?.trim() || null,
-        metadata: {
-          coordinates: input.coordinates,
-          bounds: [
-            [input.coordinates.x - 25, input.coordinates.y - 25],
-            [input.coordinates.x + 25, input.coordinates.y + 25],
-          ] as [[number, number], [number, number]],
-          center: [input.coordinates.x, input.coordinates.y] as [number, number],
-        },
+        description: cleanNullableText(input.description) ?? null,
+        image_url: cleanNullableText(input.image_url) ?? null,
+        lore: cleanNullableText(input.lore) ?? null,
+        metadata: buildMetadata(input),
         // Note: created_at has a default value in the database
       };
 
@@ -303,23 +404,19 @@ export class LocationRepository implements ILocationRepository {
       }
 
       if (input.description !== undefined) {
-        updateData.description = input.description?.trim() || null;
+        updateData.description = cleanNullableText(input.description) ?? null;
       }
 
-      if (input.coordinates !== undefined) {
-        const existingMetadata =
-          existing.metadata && typeof existing.metadata === 'object' ? existing.metadata : {};
+      if (input.image_url !== undefined) {
+        updateData.image_url = cleanNullableText(input.image_url) ?? null;
+      }
 
-        // Always set coordinates + derived center/bounds for consistent rendering
-        updateData.metadata = {
-          ...(existingMetadata as Record<string, unknown>),
-          coordinates: input.coordinates,
-          center: [input.coordinates.x, input.coordinates.y],
-          bounds: [
-            [input.coordinates.x - 25, input.coordinates.y - 25],
-            [input.coordinates.x + 25, input.coordinates.y + 25],
-          ],
-        };
+      if (input.lore !== undefined) {
+        updateData.lore = cleanNullableText(input.lore) ?? null;
+      }
+
+      if (hasMetadataUpdates(input)) {
+        updateData.metadata = buildMetadata(input, existing.metadata);
       }
 
       const response = await supabaseAdmin

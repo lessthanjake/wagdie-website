@@ -7,10 +7,21 @@
 export interface Location {
   id: string // Unique identifier (e.g., "concord_searing", "forsaken_lands")
   name: string // Display name (e.g., "Concord Searing")
-  description?: string // Optional lore description
+  description?: string | null // Optional short description
+  image_url?: string | null // Optional public map image
+  lore?: string | null // Optional extended lore description
+  chain_location_id?: number | string
   metadata?: {
     coordinates?: { x: number; y: number } // Map coordinates
+    center?: [number, number]
+    bounds?: [[number, number], [number, number]]
     rarity?: 'common' | 'rare' | 'legendary'
+    properties?: {
+      region?: string
+      terrain?: string
+      difficulty?: 'easy' | 'medium' | 'hard'
+      special?: boolean
+    }
     special_properties?: string[]
   }
   created_at: string // ISO 8601 timestamp
@@ -60,7 +71,9 @@ export interface Character {
   location?: {
     id: string
     name: string
-    description?: string
+    description?: string | null
+    image_url?: string | null
+    lore?: string | null
   } | null // null if not staked
 }
 

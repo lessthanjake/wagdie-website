@@ -3,6 +3,7 @@ import type { Character } from '@/types/character'
 export type CharacterTraitFilters = {
   origin?: string
   alignment?: string
+  the17?: string
   armor?: string
   back?: string
   mask?: string

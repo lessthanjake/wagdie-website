@@ -253,13 +253,20 @@ export class MapMarkerManager {
       marker.setInteractive({ useHandCursor: true, draggable: isDraggable });
       marker.setDepth(getMarkerDepth(data.type));
 
-      marker.on('pointerover', () => this.onMarkerHover(data));
-      marker.on('pointerout', () => this.onMarkerOut(data));
+      marker.on('pointerover', () => {
+        const currentData = this.markerData.get(data.id) ?? data;
+        this.onMarkerHover(currentData);
+      });
+      marker.on('pointerout', () => {
+        const currentData = this.markerData.get(data.id) ?? data;
+        this.onMarkerOut(currentData);
+      });
       marker.on('pointerdown', () => {
-        if (this.getEditorMode() === 'edit' && data.type === 'location') {
-          this.onBeginLocationDrag(marker!, data.id);
+        const currentData = this.markerData.get(data.id) ?? data;
+        if (this.getEditorMode() === 'edit' && currentData.type === 'location') {
+          this.onBeginLocationDrag(marker!, currentData.id);
         }
-        this.onMarkerClick(data);
+        this.onMarkerClick(currentData);
       });
 
       this.markers.set(data.id, marker);

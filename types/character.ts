@@ -147,6 +147,8 @@ export interface CharacterFilters {
   origin?: string
   // Alignment filter (D&D style)
   alignment?: string
+  // Special named-character trait filter
+  the17?: string
   // Equipment filters (trait types from NFT metadata)
   armor?: string
   back?: string

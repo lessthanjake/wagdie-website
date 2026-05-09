@@ -23,6 +23,7 @@ function hasTraitFilters(filters: CharacterFilters): boolean {
   return Boolean(
     filters.origin ||
     filters.alignment ||
+    filters.the17 ||
     filters.armor ||
     filters.back ||
     filters.mask
@@ -33,6 +34,7 @@ function toTraitFilters(filters: CharacterFilters): CharacterTraitFilters {
   return {
     origin: filters.origin,
     alignment: filters.alignment,
+    the17: filters.the17,
     armor: filters.armor,
     back: filters.back,
     mask: filters.mask,
@@ -131,6 +133,12 @@ function applyMetadataTraitFilters(query: CharacterQueryBuilder, filters: Charac
   if (filters.alignment) {
     nextQuery = nextQuery.contains('metadata', {
       attributes: [{ trait_type: 'Alignment', value: filters.alignment }],
+    })
+  }
+
+  if (filters.the17) {
+    nextQuery = nextQuery.contains('metadata', {
+      attributes: [{ trait_type: 'The 17', value: filters.the17 }],
     })
   }
 

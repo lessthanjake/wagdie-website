@@ -41,12 +41,13 @@ describe('character browse filter URL helpers', () => {
       hasSheet: false,
       origin: null,
       alignment: null,
+      the17: null,
       armor: null,
       back: null,
       mask: null,
     });
 
-    expect(parseCharacterBrowseFilters(params('tab=owned&sort=asc&page=4&search=orc&hasSheet=true&origin=Warrior&alignment=Chaotic&armor=Plate&back=Cloak&mask=Skull'))).toEqual({
+    expect(parseCharacterBrowseFilters(params('tab=owned&sort=asc&page=4&search=orc&hasSheet=true&origin=Warrior&alignment=Chaotic&the17=Luta&armor=Plate&back=Cloak&mask=Skull'))).toEqual({
       tab: 'owned',
       sort: 'asc',
       page: 4,
@@ -54,6 +55,7 @@ describe('character browse filter URL helpers', () => {
       hasSheet: true,
       origin: 'Warrior',
       alignment: 'Chaotic',
+      the17: 'Luta',
       armor: 'Plate',
       back: 'Cloak',
       mask: 'Skull',
@@ -69,6 +71,7 @@ describe('character browse filter URL helpers', () => {
       hasSheet: false,
       origin: null,
       alignment: null,
+      the17: null,
       armor: null,
       back: null,
       mask: null,
@@ -82,10 +85,11 @@ describe('character browse filter URL helpers', () => {
       hasSheet: true,
       origin: 'Feral',
       alignment: null,
+      the17: 'Luta the Beacon',
       armor: null,
       back: 'Wings',
       mask: null,
-    })).toBe('/characters?tab=infected&sort=asc&page=2&search=dread&hasSheet=true&origin=Feral&back=Wings');
+    })).toBe('/characters?tab=infected&sort=asc&page=2&search=dread&hasSheet=true&origin=Feral&the17=Luta+the+Beacon&back=Wings');
   });
 
   it('detects active filters beyond tab and sort', () => {

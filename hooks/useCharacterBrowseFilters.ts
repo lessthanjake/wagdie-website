@@ -14,6 +14,7 @@ export type CharacterBrowseFilterType =
   | 'hasSheet'
   | 'origin'
   | 'alignment'
+  | 'the17'
   | 'armor'
   | 'back'
   | 'mask'
@@ -27,6 +28,7 @@ export interface CharacterBrowseFilters {
   hasSheet: boolean
   origin: string | null
   alignment: string | null
+  the17: string | null
   armor: string | null
   back: string | null
   mask: string | null
@@ -40,6 +42,7 @@ interface CharacterBrowseURLParams {
   hasSheet?: boolean
   origin?: string | null
   alignment?: string | null
+  the17?: string | null
   armor?: string | null
   back?: string | null
   mask?: string | null
@@ -71,6 +74,7 @@ export function parseCharacterBrowseFilters(searchParams: SearchParamsReader): C
     hasSheet: searchParams.get('hasSheet') === 'true',
     origin: searchParams.get('origin') || null,
     alignment: searchParams.get('alignment') || null,
+    the17: searchParams.get('the17') || null,
     armor: searchParams.get('armor') || null,
     back: searchParams.get('back') || null,
     mask: searchParams.get('mask') || null,
@@ -87,6 +91,7 @@ export function buildCharacterBrowsePath(params: CharacterBrowseURLParams): stri
   if (params.hasSheet) urlParams.set('hasSheet', 'true')
   if (params.origin) urlParams.set('origin', params.origin)
   if (params.alignment) urlParams.set('alignment', params.alignment)
+  if (params.the17) urlParams.set('the17', params.the17)
   if (params.armor) urlParams.set('armor', params.armor)
   if (params.back) urlParams.set('back', params.back)
   if (params.mask) urlParams.set('mask', params.mask)
@@ -97,7 +102,7 @@ export function buildCharacterBrowsePath(params: CharacterBrowseURLParams): stri
 
 export function hasActiveCharacterBrowseFilters(filters: CharacterBrowseFilters): boolean {
   return filters.hasSheet || filters.origin !== null || filters.alignment !== null ||
-    filters.armor !== null || filters.back !== null || filters.mask !== null ||
+    filters.the17 !== null || filters.armor !== null || filters.back !== null || filters.mask !== null ||
     filters.searchQuery.length > 0
 }
 
@@ -110,6 +115,7 @@ function toURLParams(filters: CharacterBrowseFilters): CharacterBrowseURLParams 
     hasSheet: filters.hasSheet,
     origin: filters.origin,
     alignment: filters.alignment,
+    the17: filters.the17,
     armor: filters.armor,
     back: filters.back,
     mask: filters.mask,
@@ -196,6 +202,10 @@ export function useCharacterBrowseFilters({
     updateFilters({ alignment })
   }, [updateFilters])
 
+  const handleThe17Change = useCallback((the17: string | null) => {
+    updateFilters({ the17 })
+  }, [updateFilters])
+
   const handleArmorChange = useCallback((armor: string | null) => {
     updateFilters({ armor })
   }, [updateFilters])
@@ -218,6 +228,7 @@ export function useCharacterBrowseFilters({
       hasSheet: false,
       origin: null,
       alignment: null,
+      the17: null,
       armor: null,
       back: null,
       mask: null,
@@ -234,6 +245,9 @@ export function useCharacterBrowseFilters({
         break
       case 'alignment':
         updateFilters({ alignment: null })
+        break
+      case 'the17':
+        updateFilters({ the17: null })
         break
       case 'armor':
         updateFilters({ armor: null })
@@ -270,6 +284,7 @@ export function useCharacterBrowseFilters({
       onHasSheetChange: handleHasSheetChange,
       onOriginChange: handleOriginChange,
       onAlignmentChange: handleAlignmentChange,
+      onThe17Change: handleThe17Change,
       onArmorChange: handleArmorChange,
       onBackChange: handleBackChange,
       onMaskChange: handleMaskChange,

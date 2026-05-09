@@ -7,12 +7,18 @@
 
 import { LocationRepository } from '@/lib/repositories/locationRepository'
 import { generateUniqueSlug, isValidSlug } from '@/lib/utils/slug'
-import type { Location, CreateLocationInput, UpdateLocationInput } from '@/lib/types/map'
+import type { Location, CreateLocationInput, UpdateLocationInput, LocationDifficulty } from '@/lib/types/map'
 
 // Validation constants
 const NAME_MIN_LENGTH = 1
 const NAME_MAX_LENGTH = 200
 const DESCRIPTION_MAX_LENGTH = 2000
+const IMAGE_URL_MAX_LENGTH = 2048
+const LORE_MAX_LENGTH = 5000
+const LOCATION_DETAIL_MAX_LENGTH = 100
+const SPECIAL_PROPERTIES_MAX_COUNT = 20
+const SPECIAL_PROPERTY_MAX_LENGTH = 80
+const VALID_DIFFICULTIES: LocationDifficulty[] = ['easy', 'medium', 'hard']
 
 // Map bounds (for coordinate validation)
 const MAP_BOUNDS = {
@@ -66,7 +72,7 @@ function validateName(name: string | undefined): { valid: boolean; error?: strin
 /**
  * Validate description
  */
-function validateDescription(description: string | undefined): { valid: boolean; error?: string } {
+function validateDescription(description: string | null | undefined): { valid: boolean; error?: string } {
   if (description === undefined || description === null) {
     return { valid: true }
   }
@@ -80,6 +86,100 @@ function validateDescription(description: string | undefined): { valid: boolean;
   }
 
   return { valid: true }
+}
+
+function validateImageUrl(imageUrl: string | null | undefined): { valid: boolean; error?: string } {
+  if (imageUrl === undefined || imageUrl === null) {
+    return { valid: true }
+  }
+
+  if (typeof imageUrl !== 'string') {
+    return { valid: false, error: 'Image URL must be a string' }
+  }
+
+  if (imageUrl.trim() === '') {
+    return { valid: true }
+  }
+
+  const trimmed = imageUrl.trim()
+  if (trimmed.length > IMAGE_URL_MAX_LENGTH) {
+    return { valid: false, error: `Image URL cannot exceed ${IMAGE_URL_MAX_LENGTH} characters` }
+  }
+
+  if (!trimmed.startsWith('/') && !/^https?:\/\//i.test(trimmed)) {
+    return { valid: false, error: 'Image URL must be root-relative or start with http:// or https://' }
+  }
+
+  return { valid: true }
+}
+
+function validateLore(lore: string | null | undefined): { valid: boolean; error?: string } {
+  if (lore === undefined || lore === null) return { valid: true }
+  if (typeof lore !== 'string') return { valid: false, error: 'Lore must be a string' }
+  if (lore.length > LORE_MAX_LENGTH) {
+    return { valid: false, error: `Lore cannot exceed ${LORE_MAX_LENGTH} characters` }
+  }
+  return { valid: true }
+}
+
+function validateDetailField(
+  label: 'Region' | 'Terrain',
+  value: string | null | undefined
+): { valid: boolean; error?: string } {
+  if (value === undefined || value === null) return { valid: true }
+  if (typeof value !== 'string') return { valid: false, error: `${label} must be a string` }
+  if (value.length > LOCATION_DETAIL_MAX_LENGTH) {
+    return { valid: false, error: `${label} cannot exceed ${LOCATION_DETAIL_MAX_LENGTH} characters` }
+  }
+  return { valid: true }
+}
+
+function validateDifficulty(difficulty: LocationDifficulty | null | undefined): { valid: boolean; error?: string } {
+  if (difficulty === undefined || difficulty === null) return { valid: true }
+  if (!VALID_DIFFICULTIES.includes(difficulty)) {
+    return { valid: false, error: 'Difficulty must be easy, medium, or hard' }
+  }
+  return { valid: true }
+}
+
+function validateSpecialProperties(values: string[] | undefined): { valid: boolean; error?: string } {
+  if (values === undefined) return { valid: true }
+  if (!Array.isArray(values)) return { valid: false, error: 'Special properties must be an array' }
+
+  const normalized = values.map((value) => typeof value === 'string' ? value.trim() : '')
+    .filter(Boolean)
+  if (normalized.length > SPECIAL_PROPERTIES_MAX_COUNT) {
+    return { valid: false, error: `Special properties cannot exceed ${SPECIAL_PROPERTIES_MAX_COUNT} entries` }
+  }
+  if (normalized.some((value) => value.length > SPECIAL_PROPERTY_MAX_LENGTH)) {
+    return { valid: false, error: `Special properties cannot exceed ${SPECIAL_PROPERTY_MAX_LENGTH} characters each` }
+  }
+
+  return { valid: true }
+}
+
+function validateEnrichmentInput(input: CreateLocationInput | UpdateLocationInput): string[] {
+  const errors: string[] = []
+
+  const imageValidation = validateImageUrl(input.image_url)
+  if (!imageValidation.valid) errors.push(imageValidation.error!)
+
+  const loreValidation = validateLore(input.lore)
+  if (!loreValidation.valid) errors.push(loreValidation.error!)
+
+  const regionValidation = validateDetailField('Region', input.region)
+  if (!regionValidation.valid) errors.push(regionValidation.error!)
+
+  const terrainValidation = validateDetailField('Terrain', input.terrain)
+  if (!terrainValidation.valid) errors.push(terrainValidation.error!)
+
+  const difficultyValidation = validateDifficulty(input.difficulty)
+  if (!difficultyValidation.valid) errors.push(difficultyValidation.error!)
+
+  const specialValidation = validateSpecialProperties(input.special_properties)
+  if (!specialValidation.valid) errors.push(specialValidation.error!)
+
+  return errors
 }
 
 /**
@@ -150,6 +250,8 @@ export class LocationService {
     const coordValidation = validateCoordinates(input.coordinates)
     if (!coordValidation.valid) errors.push(coordValidation.error!)
 
+    errors.push(...validateEnrichmentInput(input))
+
     if (errors.length > 0) {
       throw new ValidationError('Validation failed', errors)
     }
@@ -203,6 +305,8 @@ export class LocationService {
       if (!coordValidation.valid) errors.push(coordValidation.error!)
     }
 
+    errors.push(...validateEnrichmentInput(input))
+
     if (errors.length > 0) {
       throw new ValidationError('Validation failed', errors)
     }
@@ -211,7 +315,13 @@ export class LocationService {
     if (
       input.name === undefined &&
       input.description === undefined &&
-      input.coordinates === undefined
+      input.coordinates === undefined &&
+      input.image_url === undefined &&
+      input.lore === undefined &&
+      input.region === undefined &&
+      input.terrain === undefined &&
+      input.difficulty === undefined &&
+      input.special_properties === undefined
     ) {
       throw new ValidationError('No updates provided', ['At least one field must be updated'])
     }

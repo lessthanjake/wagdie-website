@@ -1,5 +1,6 @@
 import { fireEvent, render, screen } from '@testing-library/react';
 import { ApprovalBanner, ApprovalReadyBanner } from '@/components/map/staking-sidebar/ApprovalBanner';
+import { LocationDetailsCard } from '@/components/map/staking-sidebar/LocationDetailsCard';
 import { LocationTabs } from '@/components/map/staking-sidebar/LocationTabs';
 import { PaginationControls } from '@/components/map/staking-sidebar/PaginationControls';
 import { WalletGate } from '@/components/map/staking-sidebar/WalletGate';
@@ -8,6 +9,53 @@ import { StakedHereList } from '@/components/map/staking-sidebar/StakedHereList'
 import type { StakableCharacter } from '@/hooks/map/useMapStakingPanel';
 
 describe('staking-sidebar presentational components', () => {
+  it('renders enriched location details', () => {
+    render(
+      <LocationDetailsCard
+        location={{
+          id: 'loc-1',
+          name: 'The Abyss',
+          description: 'A dark and treacherous realm',
+          image_url: '/images/locations/abyss.png',
+          lore: 'The dead whisper beneath the stones.',
+          metadata: {
+            center: [1, 2],
+            bounds: [[0, 0], [10, 10]],
+            properties: {
+              region: 'North',
+              terrain: 'Ash plains',
+              difficulty: 'hard',
+            },
+            special_properties: ['Cursed', 'Hidden crypts'],
+          },
+        }}
+      />
+    );
+
+    expect(screen.getByText('Location Details')).toBeInTheDocument();
+    expect(screen.getByAltText('The Abyss image')).toHaveAttribute('src', '/images/locations/abyss.png');
+    expect(screen.getByText('The dead whisper beneath the stones.')).toBeInTheDocument();
+    expect(screen.getByText('North')).toBeInTheDocument();
+    expect(screen.getByText('Ash plains')).toBeInTheDocument();
+    expect(screen.getByText('hard')).toBeInTheDocument();
+    expect(screen.getByText('Cursed')).toBeInTheDocument();
+    expect(screen.getByText('Hidden crypts')).toBeInTheDocument();
+  });
+
+  it('renders nothing when location has no enriched details', () => {
+    const { container } = render(
+      <LocationDetailsCard
+        location={{
+          id: 'loc-1',
+          name: 'The Abyss',
+          metadata: { center: [1, 2], bounds: [[0, 0], [10, 10]] },
+        }}
+      />
+    );
+
+    expect(container.firstChild).toBeNull();
+  });
+
   it('renders wallet gate copy', () => {
     render(<WalletGate />);
 

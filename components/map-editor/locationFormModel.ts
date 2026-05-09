@@ -4,7 +4,7 @@
  * No React dependencies - fully testable.
  */
 
-import type { Location, CreateLocationInput, UpdateLocationInput } from '@/lib/types/map'
+import type { Location, CreateLocationInput, UpdateLocationInput, LocationDifficulty } from '@/lib/types/map'
 
 // ============================================================================
 // Types
@@ -13,12 +13,23 @@ import type { Location, CreateLocationInput, UpdateLocationInput } from '@/lib/t
 export interface LocationFormErrors {
   name?: string
   description?: string
+  imageUrl?: string
+  lore?: string
+  region?: string
+  terrain?: string
+  specialPropertiesText?: string
   locationId?: string
 }
 
 export interface LocationFormState {
   name: string
   description: string
+  imageUrl: string
+  lore: string
+  region: string
+  terrain: string
+  difficulty: '' | LocationDifficulty
+  specialPropertiesText: string
   selectedLocationId: string
   coordinates: { x: number; y: number }
 }
@@ -36,6 +47,11 @@ export const CREATE_NEW_VALUE = '__new__'
 
 const NAME_MAX_LENGTH = 200
 const DESCRIPTION_MAX_LENGTH = 2000
+const IMAGE_URL_MAX_LENGTH = 2048
+const LORE_MAX_LENGTH = 5000
+const DETAIL_MAX_LENGTH = 100
+const SPECIAL_PROPERTY_MAX_LENGTH = 80
+const SPECIAL_PROPERTIES_MAX_COUNT = 20
 
 /**
  * Validate name field
@@ -61,6 +77,61 @@ function validateDescription(description: string): string | undefined {
   return undefined
 }
 
+function validateImageUrl(imageUrl: string): string | undefined {
+  const trimmed = imageUrl.trim()
+  if (!trimmed) return undefined
+  if (trimmed.length > IMAGE_URL_MAX_LENGTH) {
+    return `Image URL cannot exceed ${IMAGE_URL_MAX_LENGTH} characters`
+  }
+  if (!trimmed.startsWith('/') && !/^https?:\/\//i.test(trimmed)) {
+    return 'Image URL must be root-relative or start with http:// or https://'
+  }
+  return undefined
+}
+
+function validateLore(lore: string): string | undefined {
+  if (lore.length > LORE_MAX_LENGTH) {
+    return `Lore cannot exceed ${LORE_MAX_LENGTH} characters`
+  }
+  return undefined
+}
+
+function validateDetail(label: string, value: string): string | undefined {
+  if (value.length > DETAIL_MAX_LENGTH) {
+    return `${label} cannot exceed ${DETAIL_MAX_LENGTH} characters`
+  }
+  return undefined
+}
+
+export function parseSpecialProperties(text: string): string[] {
+  const seen = new Set<string>()
+  const values: string[] = []
+
+  for (const part of text.split(/[\n,]+/)) {
+    const trimmed = part.trim()
+    if (!trimmed) continue
+
+    const key = trimmed.toLowerCase()
+    if (seen.has(key)) continue
+
+    seen.add(key)
+    values.push(trimmed)
+  }
+
+  return values
+}
+
+function validateSpecialProperties(text: string): string | undefined {
+  const values = parseSpecialProperties(text)
+  if (values.length > SPECIAL_PROPERTIES_MAX_COUNT) {
+    return `Special properties cannot exceed ${SPECIAL_PROPERTIES_MAX_COUNT} entries`
+  }
+  if (values.some((value) => value.length > SPECIAL_PROPERTY_MAX_LENGTH)) {
+    return `Special properties cannot exceed ${SPECIAL_PROPERTY_MAX_LENGTH} characters each`
+  }
+  return undefined
+}
+
 /**
  * Validate location ID for move_existing flow
  */
@@ -77,6 +148,26 @@ function validateLocationId(
   return undefined
 }
 
+function validateDetails(state: LocationFormState, errors: LocationFormErrors): void {
+  const descError = validateDescription(state.description)
+  if (descError) errors.description = descError
+
+  const imageUrlError = validateImageUrl(state.imageUrl)
+  if (imageUrlError) errors.imageUrl = imageUrlError
+
+  const loreError = validateLore(state.lore)
+  if (loreError) errors.lore = loreError
+
+  const regionError = validateDetail('Region', state.region)
+  if (regionError) errors.region = regionError
+
+  const terrainError = validateDetail('Terrain', state.terrain)
+  if (terrainError) errors.terrain = terrainError
+
+  const specialError = validateSpecialProperties(state.specialPropertiesText)
+  if (specialError) errors.specialPropertiesText = specialError
+}
+
 /**
  * Pure validation for create mode
  */
@@ -91,8 +182,7 @@ function validateCreateMode(
     const nameError = validateName(state.name)
     if (nameError) errors.name = nameError
 
-    const descError = validateDescription(state.description)
-    if (descError) errors.description = descError
+    validateDetails(state, errors)
   } else {
     // Moving existing location
     const idError = validateLocationId(state.selectedLocationId, locations)
@@ -111,8 +201,7 @@ function validateEditMode(state: LocationFormState): LocationFormErrors {
   const nameError = validateName(state.name)
   if (nameError) errors.name = nameError
 
-  const descError = validateDescription(state.description)
-  if (descError) errors.description = descError
+  validateDetails(state, errors)
 
   return errors
 }
@@ -141,6 +230,41 @@ export function isValidForm(errors: LocationFormErrors): boolean {
 // ============================================================================
 // Payload Building
 // ============================================================================
+
+function optionalText(value: string): string | undefined {
+  return value.trim() || undefined
+}
+
+function nullableUpdateText(value: string): string | null {
+  return value.trim() || null
+}
+
+function nullableExistingText(value: string | null | undefined): string | null {
+  return value?.trim() || null
+}
+
+function specialPropertiesText(values: string[] | undefined): string {
+  return values?.join('\n') ?? ''
+}
+
+export function buildLocationFormState(
+  location: Location | undefined,
+  coordinates: { x: number; y: number },
+  selectedLocationId: string = CREATE_NEW_VALUE
+): LocationFormState {
+  return {
+    name: location?.name ?? '',
+    description: location?.description ?? '',
+    imageUrl: location?.image_url ?? '',
+    lore: location?.lore ?? '',
+    region: location?.metadata?.properties?.region ?? '',
+    terrain: location?.metadata?.properties?.terrain ?? '',
+    difficulty: location?.metadata?.properties?.difficulty ?? '',
+    specialPropertiesText: specialPropertiesText(location?.metadata?.special_properties),
+    selectedLocationId,
+    coordinates,
+  }
+}
 
 /**
  * Extract coordinates from location metadata (handles both formats)
@@ -172,10 +296,46 @@ function buildEditUpdates(
     updates.name = trimmedName
   }
 
-  const trimmedDesc = state.description.trim() || undefined
-  const existingDesc = location.description || undefined
+  const trimmedDesc = nullableUpdateText(state.description)
+  const existingDesc = nullableExistingText(location.description)
   if (trimmedDesc !== existingDesc) {
     updates.description = trimmedDesc
+  }
+
+  const trimmedImageUrl = nullableUpdateText(state.imageUrl)
+  const existingImageUrl = nullableExistingText(location.image_url)
+  if (trimmedImageUrl !== existingImageUrl) {
+    updates.image_url = trimmedImageUrl
+  }
+
+  const trimmedLore = nullableUpdateText(state.lore)
+  const existingLore = nullableExistingText(location.lore)
+  if (trimmedLore !== existingLore) {
+    updates.lore = trimmedLore
+  }
+
+  const trimmedRegion = nullableUpdateText(state.region)
+  const existingRegion = nullableExistingText(location.metadata?.properties?.region)
+  if (trimmedRegion !== existingRegion) {
+    updates.region = trimmedRegion
+  }
+
+  const trimmedTerrain = nullableUpdateText(state.terrain)
+  const existingTerrain = nullableExistingText(location.metadata?.properties?.terrain)
+  if (trimmedTerrain !== existingTerrain) {
+    updates.terrain = trimmedTerrain
+  }
+
+  const nextDifficulty = state.difficulty || null
+  const existingDifficulty = location.metadata?.properties?.difficulty ?? null
+  if (nextDifficulty !== existingDifficulty) {
+    updates.difficulty = nextDifficulty
+  }
+
+  const nextSpecialProperties = parseSpecialProperties(state.specialPropertiesText)
+  const existingSpecialProperties = location.metadata?.special_properties ?? []
+  if (nextSpecialProperties.join('\n') !== existingSpecialProperties.join('\n')) {
+    updates.special_properties = nextSpecialProperties
   }
 
   const existingCoords = getLocationCoordinates(location)
@@ -197,7 +357,13 @@ function buildCreateNewPayload(state: LocationFormState): LocationFormSubmit {
     kind: 'create_new',
     input: {
       name: state.name.trim(),
-      description: state.description.trim() || undefined,
+      description: optionalText(state.description),
+      image_url: optionalText(state.imageUrl),
+      lore: optionalText(state.lore),
+      region: optionalText(state.region),
+      terrain: optionalText(state.terrain),
+      difficulty: state.difficulty || undefined,
+      special_properties: parseSpecialProperties(state.specialPropertiesText),
       coordinates: state.coordinates,
     },
   }
