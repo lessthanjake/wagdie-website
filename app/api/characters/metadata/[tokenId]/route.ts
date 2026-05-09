@@ -49,9 +49,16 @@ export async function GET(
   try {
     const metadataPath = path.join(METADATA_DIR, `${tokenId}.json`)
     const metadataRaw = await readFile(metadataPath, 'utf8')
-    const metadata = JSON.parse(metadataRaw) as unknown
+    const metadata = JSON.parse(metadataRaw) as Record<string, unknown>
+    const configuredAppUrl = process.env.NEXT_PUBLIC_APP_URL
+    const appOrigin = configuredAppUrl && !configuredAppUrl.includes('localhost')
+      ? configuredAppUrl.replace(/\/$/, '')
+      : 'https://fateofwagdie.com'
 
-    return jsonRaw(metadata, {
+    return jsonRaw({
+      ...metadata,
+      animation_url: `${appOrigin}/api/characters/animation/${tokenId}`,
+    }, {
       headers: withCorsHeaders({
         'Cache-Control': SUCCESS_CACHE_CONTROL,
       }),
