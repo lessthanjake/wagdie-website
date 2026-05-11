@@ -10,6 +10,8 @@ import { WalletButton } from '@/components/wallet/WalletButton'
 import { isAdmin } from '@/lib/auth/admin'
 import { lockBodyScroll, unlockBodyScroll } from '@/lib/utils/bodyScrollLock'
 
+const showLoreNav = process.env.NEXT_PUBLIC_SHOW_LORE_NAV === 'true'
+
 /**
  * Header Component
  * Main site header with logo, navigation, and wallet connection.
@@ -173,13 +175,15 @@ export function Header() {
               >
                 World Map
               </Link>
-              <Link
-                href="/lore"
-                onClick={closeDrawer}
-                className="block px-4 py-3 text-neutral-400 hover:text-soul-accent hover:bg-soul-accent/5 transition-all duration-300 font-eskapade text-sm"
-              >
-                Lore & History
-              </Link>
+              {showLoreNav && (
+                <Link
+                  href="/lore"
+                  onClick={closeDrawer}
+                  className="block px-4 py-3 text-neutral-400 hover:text-soul-accent hover:bg-soul-accent/5 transition-all duration-300 font-eskapade text-sm"
+                >
+                  Lore & History
+                </Link>
+              )}
               <Link
                 href="/videos"
                 onClick={closeDrawer}

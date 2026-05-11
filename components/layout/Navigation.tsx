@@ -9,12 +9,14 @@ interface NavItem {
   path: string
 }
 
+const showLoreNav = process.env.NEXT_PUBLIC_SHOW_LORE_NAV === 'true'
+
 const NAV_ITEMS: NavItem[] = [
   { label: 'Home', path: '/' },
   { label: 'Characters', path: '/characters' },
   { label: 'Searing', path: '/searing' },
   { label: 'World Map', path: '/map' },
-  { label: 'Lore', path: '/lore' },
+  ...(showLoreNav ? [{ label: 'Lore', path: '/lore' }] : []),
   { label: 'Low Poly', path: '/videos' },
   { label: 'Spread', path: '/spread' },
 ]
