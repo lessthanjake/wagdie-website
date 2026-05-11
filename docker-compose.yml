@@ -183,8 +183,8 @@ services:
       SERVER_API_KEY: ${SERVER_API_KEY:?Set SERVER_API_KEY for ElizaOS runtime auth}
       VENICE_API_KEY: ${VENICE_API_KEY:?Set VENICE_API_KEY in the ElizaOS service secret store}
       VENICE_BASE_URL: ${VENICE_BASE_URL:-https://api.venice.ai/api/v1}
-      VENICE_SMALL_MODEL: ${VENICE_SMALL_MODEL:-llama-3.3-70b}
-      VENICE_LARGE_MODEL: ${VENICE_LARGE_MODEL:-llama-3.1-405b}
+      VENICE_SMALL_MODEL: ${VENICE_SMALL_MODEL:-venice-uncensored-role-play}
+      VENICE_LARGE_MODEL: ${VENICE_LARGE_MODEL:-venice-uncensored-role-play}
       VENICE_EMBEDDING_MODEL: ${VENICE_EMBEDDING_MODEL:-text-embedding-bge-m3}
       VENICE_EMBEDDING_DIMENSIONS: ${VENICE_EMBEDDING_DIMENSIONS:-1024}
     volumes:
