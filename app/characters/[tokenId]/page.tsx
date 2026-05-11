@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useCallback, useMemo } from 'react'
 import { useAccount } from 'wagmi'
-import { useParams, useRouter } from 'next/navigation'
+import { useParams, useRouter, useSearchParams } from 'next/navigation'
 import Image from 'next/image'
 import toast from 'react-hot-toast'
 import { getCharacterImageDisclosure, getCharacterImageFallback } from '@/lib/utils/image'
@@ -30,6 +30,7 @@ const showLoreNav = process.env.NEXT_PUBLIC_SHOW_LORE_NAV === 'true'
 export default function CharacterDetailPage() {
   const params = useParams()
   const router = useRouter()
+  const searchParams = useSearchParams()
   const { address } = useAccount()
   const { openChat } = useChatDock()
   const tokenId = parseInt(params.tokenId as string, 10)
@@ -43,6 +44,12 @@ export default function CharacterDetailPage() {
   const [isCureModalOpen, setIsCureModalOpen] = useState(false)
   const [activeTab, setActiveTab] = useState('story')
   const [imageUrl, setImageUrl] = useState(getCharacterImageFallback())
+
+  useEffect(() => {
+    if (searchParams.get('tab') === 'ai-persona') {
+      setActiveTab('ai-persona')
+    }
+  }, [searchParams])
 
   const editor = useCharacterEditor({ character, isLoading })
 

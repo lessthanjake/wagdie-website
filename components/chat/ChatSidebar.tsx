@@ -6,6 +6,7 @@
 'use client'
 
 import { useEffect, useCallback, useState, memo, useRef } from 'react'
+import Link from 'next/link'
 import { useAccount } from 'wagmi'
 import { ChatHeader } from './ChatHeader'
 import { ChatMessages } from './ChatMessages'
@@ -62,6 +63,7 @@ function ChatSidebarComponent({
     setConversationId,
     loadMessages,
     error: chatError,
+    errorCode: chatErrorCode,
     clearError: clearChatError,
   } = useCharacterChat(tokenId)
 
@@ -86,6 +88,7 @@ function ChatSidebarComponent({
 
   // Combined error
   const error = chatError || conversationsError || authError
+  const isPersonaRequired = chatErrorCode === 'AI_PERSONA_REQUIRED'
   const clearError = useCallback(() => {
     clearChatError()
     clearConversationsError()
@@ -246,12 +249,34 @@ function ChatSidebarComponent({
           <>
             {/* Error display */}
             {error && (
-              <div className="px-4 py-3 bg-red-900/20 border-b border-red-800/50">
-                <div className="flex items-center justify-between">
-                  <p className="text-sm text-red-400">{error}</p>
+              <div className={`px-4 py-3 border-b ${isPersonaRequired ? 'bg-amber-900/20 border-amber-800/50' : 'bg-red-900/20 border-red-800/50'}`}>
+                <div className="flex items-start justify-between gap-3">
+                  {isPersonaRequired ? (
+                    <div className="min-w-0 space-y-2">
+                      <p className="text-sm font-medium text-amber-300">AI persona required before chat</p>
+                      <p className="text-sm text-amber-100/80">
+                        {error}
+                      </p>
+                      <ol className="list-decimal pl-4 text-xs text-amber-100/70 space-y-1">
+                        <li>Open this character&apos;s AI persona tab.</li>
+                        <li>Connect the owner wallet.</li>
+                        <li>Review or edit the persona fields.</li>
+                        <li>Click Save AI Persona, then try chat again.</li>
+                      </ol>
+                      <Link
+                        href={`/characters/${tokenId}?tab=ai-persona`}
+                        onClick={onClose}
+                        className="inline-flex text-xs font-display text-amber-200 underline underline-offset-4 hover:text-amber-100"
+                      >
+                        Open AI persona editor
+                      </Link>
+                    </div>
+                  ) : (
+                    <p className="text-sm text-red-400">{error}</p>
+                  )}
                   <button
                     onClick={clearError}
-                    className="text-red-400 hover:text-red-300"
+                    className={isPersonaRequired ? 'text-amber-300 hover:text-amber-200' : 'text-red-400 hover:text-red-300'}
                     aria-label="Dismiss error"
                   >
                     <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">

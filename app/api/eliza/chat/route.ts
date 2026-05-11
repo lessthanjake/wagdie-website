@@ -15,6 +15,7 @@ import { requireWalletSession, requireElizaUserToken } from '@/lib/eliza/session
 import { resolveCharacterByTokenId } from '@/lib/eliza/characterResolver'
 import { getCharacter } from '@/lib/services/character-service'
 import type { StreamCallbacks, ChatMessage } from '@/lib/eliza/gateway/types'
+import { isWagdieElizaError } from '@/lib/eliza/gateway/errors'
 
 export const runtime = 'nodejs'
 
@@ -22,6 +23,27 @@ interface ChatRequest {
   tokenId: string
   message: string
   conversationId?: string
+}
+
+function toStreamErrorPayload(error: unknown): { code: string; message: string } {
+  if (isWagdieElizaError(error) && error.code === 'NOT_FOUND') {
+    return {
+      code: 'AI_PERSONA_REQUIRED',
+      message: 'AI persona not found. Open this character, go to the AI persona tab, connect the owner wallet, review or edit the persona, then click Save AI Persona before chatting.',
+    }
+  }
+
+  if (isWagdieElizaError(error)) {
+    return {
+      code: error.code,
+      message: error.message,
+    }
+  }
+
+  return {
+    code: 'CHAT_ERROR',
+    message: error instanceof Error ? error.message : 'Chat failed',
+  }
 }
 
 export async function POST(request: NextRequest): Promise<Response> {
@@ -121,18 +143,16 @@ export async function POST(request: NextRequest): Promise<Response> {
               controller.close()
             },
             onError: (error) => {
-              const message =
-                error && typeof error === 'object' && 'message' in error
-                  ? String(error.message)
-                  : 'Chat failed'
+              const payload = toStreamErrorPayload(error)
 
               console.error('[Eliza Chat] Stream error', {
                 tokenId: body.tokenId,
                 hasConversationId: Boolean(body.conversationId),
-                message,
+                code: payload.code,
+                message: payload.message,
               })
 
-              const event = `event: error\ndata: ${JSON.stringify({ message })}\n\n`
+              const event = `event: error\ndata: ${JSON.stringify(payload)}\n\n`
               controller.enqueue(encoder.encode(event))
               controller.close()
             },
@@ -158,16 +178,17 @@ export async function POST(request: NextRequest): Promise<Response> {
             callbacks
           )
         } catch (error) {
-          const message = error instanceof Error ? error.message : 'Chat failed'
+          const payload = toStreamErrorPayload(error)
           console.error('[Eliza Chat] Stream setup failed', {
             tokenId: body.tokenId,
             hasConversationId: Boolean(body.conversationId),
-            message,
+            code: payload.code,
+            message: payload.message,
             details: error && typeof error === 'object' && 'details' in error
               ? (error as { details?: unknown }).details
               : undefined,
           })
-          const event = `event: error\ndata: ${JSON.stringify({ message })}\n\n`
+          const event = `event: error\ndata: ${JSON.stringify(payload)}\n\n`
           controller.enqueue(encoder.encode(event))
           controller.close()
         }

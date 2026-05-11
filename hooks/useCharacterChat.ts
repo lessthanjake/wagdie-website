@@ -7,6 +7,22 @@ import { useState, useCallback, useRef, useEffect } from 'react'
 import { useAccount } from 'wagmi'
 import type { ChatMessage } from '@/types/eliza'
 
+interface ChatErrorPayload {
+  code?: string
+  message?: string
+  error?: string
+}
+
+class CharacterChatError extends Error {
+  readonly code: string
+
+  constructor(payload: ChatErrorPayload) {
+    super(payload.message || payload.error || 'Chat failed')
+    this.name = 'CharacterChatError'
+    this.code = payload.code || payload.error || 'CHAT_ERROR'
+  }
+}
+
 interface UseCharacterChatReturn {
   /** All messages in current conversation */
   messages: ChatMessage[]
@@ -26,6 +42,8 @@ interface UseCharacterChatReturn {
   loadMessages: (messages: ChatMessage[]) => void
   /** Error message if chat failed */
   error: string | null
+  /** Machine-readable error code if chat failed */
+  errorCode: string | null
   /** Clear error */
   clearError: () => void
 }
@@ -37,6 +55,7 @@ export function useCharacterChat(tokenId: string): UseCharacterChatReturn {
   const [isStreaming, setIsStreaming] = useState(false)
   const [streamingContent, setStreamingContent] = useState('')
   const [error, setError] = useState<string | null>(null)
+  const [errorCode, setErrorCode] = useState<string | null>(null)
   const abortControllerRef = useRef<AbortController | null>(null)
 
   useEffect(() => () => abortControllerRef.current?.abort(), [])
@@ -45,6 +64,7 @@ export function useCharacterChat(tokenId: string): UseCharacterChatReturn {
   const sendMessage = useCallback(async (content: string) => {
     if (!isConnected) {
       setError('Please connect your wallet to chat')
+      setErrorCode('WALLET_REQUIRED')
       return
     }
 
@@ -65,6 +85,7 @@ export function useCharacterChat(tokenId: string): UseCharacterChatReturn {
     setIsStreaming(true)
     setStreamingContent('')
     setError(null)
+    setErrorCode(null)
 
     // Create abort controller for this request
     abortControllerRef.current = new AbortController()
@@ -83,8 +104,11 @@ export function useCharacterChat(tokenId: string): UseCharacterChatReturn {
       })
 
       if (!response.ok) {
-        const errorData = await response.json()
-        throw new Error(errorData.message || 'Chat request failed')
+        const errorData: ChatErrorPayload = await response.json()
+        throw new CharacterChatError({
+          code: errorData.code || errorData.error,
+          message: errorData.message || 'Chat request failed',
+        })
       }
 
       // Handle SSE stream
@@ -157,7 +181,7 @@ export function useCharacterChat(tokenId: string): UseCharacterChatReturn {
               break
 
             case 'error':
-              throw new Error(data.message || 'Chat failed')
+              throw new CharacterChatError(data)
           }
         }
       }
@@ -169,6 +193,7 @@ export function useCharacterChat(tokenId: string): UseCharacterChatReturn {
 
       const message = err instanceof Error ? err.message : 'Chat failed'
       setError(message)
+      setErrorCode(err instanceof CharacterChatError ? err.code : 'CHAT_ERROR')
       console.error('[useCharacterChat] Error:', err)
 
       // Remove optimistic user message on error
@@ -192,6 +217,7 @@ export function useCharacterChat(tokenId: string): UseCharacterChatReturn {
     setIsStreaming(false)
     setStreamingContent('')
     setError(null)
+    setErrorCode(null)
   }, [])
 
   // Load messages for a conversation
@@ -202,6 +228,7 @@ export function useCharacterChat(tokenId: string): UseCharacterChatReturn {
   // Clear error
   const clearError = useCallback(() => {
     setError(null)
+    setErrorCode(null)
   }, [])
 
   return {
@@ -214,6 +241,7 @@ export function useCharacterChat(tokenId: string): UseCharacterChatReturn {
     setConversationId,
     loadMessages,
     error,
+    errorCode,
     clearError,
   }
 }
