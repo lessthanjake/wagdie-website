@@ -133,6 +133,10 @@ function createRepository(overrides: Partial<Record<keyof LoreSubmissionReposito
 }
 
 describe('LoreSubmissionService', () => {
+  afterEach(() => {
+    jest.useRealTimers();
+  });
+
   it('auto-publishes valid token-owner submissions as public community lore', async () => {
     const repository = createRepository();
     const ownershipVerifier = jest.fn(async () => ({ owns: true, reason: 'owned' }));
@@ -218,13 +222,156 @@ describe('LoreSubmissionService', () => {
     );
   });
 
-  it('turns stale conditional transitions into conflicts', async () => {
+  it('builds the canonize transition payload exactly', async () => {
+    jest.useFakeTimers().setSystemTime(new Date('2026-05-11T12:34:56.789Z'));
+    const repository = createRepository();
+    const service = new LoreSubmissionService(repository, { loreBaseDatasetLoader: loadStaticDataset });
+
+    await service.canonizeSubmission('sub-1', admin, 'make official');
+
+    expect(repository.updateStatusConditional).toHaveBeenCalledWith(
+      'sub-1',
+      ['public'],
+      {
+        status: 'canonized',
+        visibility: 'public',
+        published_kind: 'official',
+        canon_status: 'canon',
+        canon_stage_id: 'canonized',
+        canon_note: 'make official',
+        review_note: 'make official',
+        last_admin_address: admin,
+        reviewed_at: '2026-05-11T12:34:56.789Z',
+        canonized_at: '2026-05-11T12:34:56.789Z',
+      },
+      { actorAddress: admin, action: 'canonize', note: 'make official' },
+    );
+  });
+
+  it('builds the decanonize transition payload exactly', async () => {
+    jest.useFakeTimers().setSystemTime(new Date('2026-05-11T12:34:56.789Z'));
+    const repository = createRepository();
+    const service = new LoreSubmissionService(repository, { loreBaseDatasetLoader: loadStaticDataset });
+
+    await service.decanonizeSubmission('sub-1', admin);
+
+    expect(repository.updateStatusConditional).toHaveBeenCalledWith(
+      'sub-1',
+      ['canonized'],
+      {
+        status: 'public',
+        visibility: 'public',
+        published_kind: 'community',
+        canon_status: 'community',
+        canon_stage_id: 'community_recorded',
+        canon_note: null,
+        review_note: null,
+        last_admin_address: admin,
+        reviewed_at: '2026-05-11T12:34:56.789Z',
+        canonized_at: null,
+      },
+      { actorAddress: admin, action: 'decanonize', note: null },
+    );
+  });
+
+  it('builds the unpublish transition payload exactly', async () => {
+    jest.useFakeTimers().setSystemTime(new Date('2026-05-11T12:34:56.789Z'));
+    const repository = createRepository();
+    const service = new LoreSubmissionService(repository, { loreBaseDatasetLoader: loadStaticDataset });
+
+    await service.unpublishSubmission('sub-1', admin, 'hide for now');
+
+    expect(repository.updateStatusConditional).toHaveBeenCalledWith(
+      'sub-1',
+      ['public'],
+      {
+        status: 'closed',
+        visibility: 'hidden',
+        status_reason: 'hide for now',
+        review_note: 'hide for now',
+        last_admin_address: admin,
+        reviewed_at: '2026-05-11T12:34:56.789Z',
+        closed_at: '2026-05-11T12:34:56.789Z',
+      },
+      { actorAddress: admin, action: 'hide', note: 'hide for now' },
+    );
+  });
+
+  it('builds review transition payloads exactly for request changes and close', async () => {
+    jest.useFakeTimers().setSystemTime(new Date('2026-05-11T12:34:56.789Z'));
+    const repository = createRepository();
+    const service = new LoreSubmissionService(repository, { loreBaseDatasetLoader: loadStaticDataset });
+
+    await service.reviewSubmission('sub-1', { action: 'request_changes', note: 'add source' }, admin);
+    await service.reviewSubmission('sub-2', { action: 'close', note: 'not usable' }, admin);
+
+    expect(repository.updateStatusConditional).toHaveBeenNthCalledWith(
+      1,
+      'sub-1',
+      ['submitted'],
+      {
+        status: 'changes_requested',
+        visibility: 'pending',
+        review_note: 'add source',
+        status_reason: 'add source',
+        last_admin_address: admin,
+        reviewed_at: '2026-05-11T12:34:56.789Z',
+      },
+      { actorAddress: admin, action: 'request_changes', note: 'add source' },
+    );
+    expect(repository.updateStatusConditional).toHaveBeenNthCalledWith(
+      2,
+      'sub-2',
+      ['submitted', 'changes_requested', 'public'],
+      {
+        status: 'closed',
+        visibility: 'hidden',
+        review_note: 'not usable',
+        status_reason: 'not usable',
+        last_admin_address: admin,
+        reviewed_at: '2026-05-11T12:34:56.789Z',
+        closed_at: '2026-05-11T12:34:56.789Z',
+      },
+      { actorAddress: admin, action: 'close', note: 'not usable' },
+    );
+  });
+
+  it.each([
+    {
+      label: 'canonize',
+      run: (service: LoreSubmissionService) => service.canonizeSubmission('sub-1', admin),
+      message: 'Only public community lore can be canonized',
+    },
+    {
+      label: 'decanonize',
+      run: (service: LoreSubmissionService) => service.decanonizeSubmission('sub-1', admin),
+      message: 'Only canonized lore can be decanonized',
+    },
+    {
+      label: 'unpublish',
+      run: (service: LoreSubmissionService) => service.unpublishSubmission('sub-1', admin),
+      message: 'Only public community lore can be unpublished',
+    },
+    {
+      label: 'request changes',
+      run: (service: LoreSubmissionService) => service.reviewSubmission('sub-1', { action: 'request_changes', note: 'fix' }, admin),
+      message: 'Only submitted lore can receive change requests',
+    },
+    {
+      label: 'close',
+      run: (service: LoreSubmissionService) => service.reviewSubmission('sub-1', { action: 'close', note: 'done' }, admin),
+      message: 'Submission cannot be closed from its current status',
+    },
+  ])('turns stale $label transitions into unchanged conflicts', async ({ run, message }) => {
     const repository = createRepository({
       updateStatusConditional: jest.fn(async () => null),
     });
     const service = new LoreSubmissionService(repository, { loreBaseDatasetLoader: loadStaticDataset });
 
-    await expect(service.canonizeSubmission('sub-1', admin)).rejects.toBeInstanceOf(LoreSubmissionConflictError);
+    await expect(run(service)).rejects.toMatchObject({
+      name: 'LoreSubmissionConflictError',
+      message,
+    });
   });
 
   it('accepts DB-only active base references during curation', async () => {

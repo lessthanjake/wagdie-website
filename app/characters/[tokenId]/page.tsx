@@ -1,28 +1,23 @@
 'use client'
 
-import { useState, useEffect, useCallback, useMemo } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { useAccount } from 'wagmi'
 import { useParams, useRouter, useSearchParams } from 'next/navigation'
-import Image from 'next/image'
-import toast from 'react-hot-toast'
-import { getCharacterImageDisclosure, getCharacterImageFallback } from '@/lib/utils/image'
-import { NameEditor } from '@/components/characters/NameEditor'
-import { CoreStatsEditor } from '@/components/characters/CoreStatsEditor'
-import { DerivedStatsEditor } from '@/components/characters/DerivedStatsEditor'
-import { LevelExperienceEditor } from '@/components/characters/LevelExperienceEditor'
-import { EmptyStatsPrompt } from '@/components/characters/EmptyStatsPrompt'
-import { NFTTraitsDisplay } from '@/components/characters/NFTTraitsDisplay'
-import { AIPersonaTab } from '@/components/characters/ai-editor'
 import {
-  CharacterStoryTab, CharacterEquipmentTab, CharacterWalletTab,
-  CharacterHeader, CharacterModals, CharacterActions,
+  CharacterHeader,
+  CharacterModals,
+  CharacterArtworkCard,
+  CharacterSheetPanel,
+  CharacterTabsSection,
 } from '@/components/characters/detail'
 import { useCharacterEditor } from '@/hooks/useCharacterEditor'
-import { Card, CardTitle, CardContent, CardDescription, Button, Spinner, Separator, Badge, Tabs } from '@/components/ui'
-import type { TabItem } from '@/components/ui'
-import type { Character } from '@/types/character'
+import { useCharacterDetailData } from '@/hooks/useCharacterDetailData'
+import { useCharacterSave } from '@/hooks/useCharacterSave'
+import { useCharacterImageDisplay } from '@/hooks/useCharacterImageDisplay'
+import { useCharacterEditGuards } from '@/hooks/useCharacterEditGuards'
+import { Card, CardTitle, CardContent, CardDescription, Button, Spinner } from '@/components/ui'
 import { isAdmin } from '@/lib/auth/admin'
-
+import { canEditCharacterForAddress } from '@/lib/domain/character/ownership'
 import { useChatDock } from '@/contexts/ChatDockContext'
 
 const showLoreNav = process.env.NEXT_PUBLIC_SHOW_LORE_NAV === 'true'
@@ -35,49 +30,31 @@ export default function CharacterDetailPage() {
   const { openChat } = useChatDock()
   const tokenId = parseInt(params.tokenId as string, 10)
 
-  const [character, setCharacter] = useState<Character | null>(null)
-  const [isLoading, setIsLoading] = useState(true)
   const [isEditMode, setIsEditMode] = useState(false)
-  const [isSaving, setIsSaving] = useState(false)
   const [isSearingModalOpen, setIsSearingModalOpen] = useState(false)
   const [isInfectionModalOpen, setIsInfectionModalOpen] = useState(false)
   const [isCureModalOpen, setIsCureModalOpen] = useState(false)
   const [activeTab, setActiveTab] = useState('story')
-  const [imageUrl, setImageUrl] = useState(getCharacterImageFallback())
+
+  const { character, setCharacter, isLoading, refetchCharacter } = useCharacterDetailData(tokenId)
+  const editor = useCharacterEditor({ character, isLoading })
+  const userIsAdmin = isAdmin(address)
+  const isOwner = canEditCharacterForAddress(character, address, userIsAdmin)
+
+  const name = character?.name || character?.metadata?.name || `Character #${tokenId}`
+  const { imageDisclosure, displayedImageUrl, handleImageError } = useCharacterImageDisplay({
+    tokenId,
+    metadata: character?.metadata,
+    imageUrl: character?.image_url,
+    infectionStatus: character?.infection_status,
+    infected: character?.infected,
+  })
 
   useEffect(() => {
     if (searchParams.get('tab') === 'ai-persona') {
       setActiveTab('ai-persona')
     }
   }, [searchParams])
-
-  const editor = useCharacterEditor({ character, isLoading })
-
-  const fetchCharacter = useCallback(async () => {
-    try {
-      setIsLoading(true)
-      const response = await fetch(`/api/characters/${tokenId}`, { cache: 'no-store' })
-      if (!response.ok) throw new Error('Failed to fetch character')
-      setCharacter(await response.json())
-    } catch (error) {
-      console.error('Error fetching character:', error)
-      toast.error('Failed to load character')
-    } finally {
-      setIsLoading(false)
-    }
-  }, [tokenId])
-
-  useEffect(() => {
-    fetchCharacter()
-  }, [fetchCharacter])
-
-  const userIsAdmin = isAdmin(address)
-  // Include staker_address check for staked characters (user is the staker)
-  const isOwner = character && address
-    ? (character.owner_address?.toLowerCase() === address.toLowerCase()) ||
-      (character.staker_address?.toLowerCase() === address.toLowerCase()) ||
-      userIsAdmin
-    : false
 
   useEffect(() => {
     const query = new URLSearchParams(window.location.search)
@@ -87,111 +64,38 @@ export default function CharacterDetailPage() {
     }
   }, [isOwner])
 
+  const handleCancelEdit = useCallback(() => {
+    editor.reset()
+    setIsEditMode(false)
+  }, [editor])
+
   const handleEditToggle = useCallback(() => {
-    if (isEditMode) editor.reset()
-    setIsEditMode(!isEditMode)
-  }, [isEditMode, editor])
-
-  useEffect(() => {
-    const handleKeyDown = (e: KeyboardEvent) => {
-      if (e.key === 'Escape' && isEditMode) {
-        if (editor.hasUnsavedChanges && !window.confirm('You have unsaved changes. Cancel?')) return
-        handleEditToggle()
-      }
+    if (isEditMode) {
+      handleCancelEdit()
+      return
     }
-    document.addEventListener('keydown', handleKeyDown)
-    return () => document.removeEventListener('keydown', handleKeyDown)
-  }, [isEditMode, editor.hasUnsavedChanges, handleEditToggle])
 
-  useEffect(() => {
-    const handleBeforeUnload = (e: BeforeUnloadEvent) => {
-      if (editor.hasUnsavedChanges && isEditMode) {
-        e.preventDefault()
-        e.returnValue = 'You have unsaved changes. Leave?'
-      }
-    }
-    window.addEventListener('beforeunload', handleBeforeUnload)
-    return () => window.removeEventListener('beforeunload', handleBeforeUnload)
-  }, [editor.hasUnsavedChanges, isEditMode])
+    setIsEditMode(true)
+  }, [handleCancelEdit, isEditMode])
 
-  const handleSave = async () => {
-    if (!character) return
-    try {
-      setIsSaving(true)
-      const updates: Record<string, unknown> = {}
-      const origName = character.name || character.metadata?.name || ''
-      if (editor.state.name !== origName) updates.name = editor.state.name
-      // Prefer DB column over metadata for comparison (column is the source of truth after saves)
-      const origStory = character.background_story ?? character.metadata?.background_story ?? ''
-      if (editor.state.story !== origStory) updates.background_story = editor.state.story
+  const handleSaveComplete = useCallback(() => {
+    setIsEditMode(false)
+  }, [])
 
-      for (const key of ['str', 'dex', 'con', 'int', 'wis', 'cha'] as const) {
-        if (editor.state.coreStats[key] !== (character[key] ?? null)) updates[key] = editor.state.coreStats[key]
-      }
-      for (const key of ['hp', 'max_hp', 'ac', 'speed'] as const) {
-        if (editor.state.derivedStats[key] !== (character[key] ?? null)) updates[key] = editor.state.derivedStats[key]
-      }
-      if (editor.state.levelExp.level !== (character.level ?? null)) updates.level = editor.state.levelExp.level
-      if (editor.state.levelExp.experience !== (character.experience ?? null)) updates.experience = editor.state.levelExp.experience
+  const { isSaving, saveCharacter } = useCharacterSave({
+    tokenId,
+    character,
+    editorState: editor.state,
+    setCharacter,
+    onSaved: handleSaveComplete,
+    onNoChanges: handleSaveComplete,
+  })
 
-      if (!Object.keys(updates).length) { setIsEditMode(false); toast.success('No changes'); return }
-
-      const response = await fetch(`/api/characters/${tokenId}`, {
-        method: 'PATCH',
-        credentials: 'include', // Ensure session cookie is sent
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(updates)
-      })
-
-      if (!response.ok) {
-        const errorData = await response.json()
-        // Surface validation details if present
-        if (errorData.details && Array.isArray(errorData.details)) {
-          throw new Error(`${errorData.error}: ${errorData.details.join(', ')}`)
-        }
-        throw new Error(errorData.error || 'Failed to update')
-      }
-
-      setCharacter(await response.json())
-      setIsEditMode(false)
-      toast.success('Character updated!')
-    } catch (error) {
-      toast.error(error instanceof Error ? error.message : 'Failed to save')
-    } finally {
-      setIsSaving(false)
-    }
-  }
-
-  const handleAssignStats = () => { editor.assignDefaultStats(); setIsEditMode(true) }
-
-  const name = character?.name || character?.metadata?.name || `Character #${tokenId}`
-  const imageDisclosure = useMemo(
-    () => getCharacterImageDisclosure(tokenId, character?.metadata, character?.image_url, {
-      infectionStatus: character?.infection_status,
-      isInfected: character?.infected,
-    }),
-    [tokenId, character?.metadata, character?.image_url, character?.infection_status, character?.infected]
-  )
-  const imageCandidates = imageDisclosure.candidates
-
-  useEffect(() => {
-    setImageUrl(imageDisclosure.primaryUrl)
-  }, [imageDisclosure.primaryUrl])
-
-  const handleImageError = useCallback(() => {
-    setImageUrl((current) => {
-      const currentIndex = imageCandidates.indexOf(current)
-      return imageCandidates[currentIndex + 1] || current || getCharacterImageFallback()
-    })
-  }, [imageCandidates])
-  // Prefer DB column over metadata (column is source of truth after saves)
-  const level = character?.level ?? character?.metadata?.level ?? 1
-  const attrs = character
-    ? { str: character.str || 0, dex: character.dex || 0, con: character.con || 0, int: character.int || 0, wis: character.wis || 0, cha: character.cha || 0 }
-    : { str: 0, dex: 0, con: 0, int: 0, wis: 0, cha: 0 }
-  const hasCharacterSheet = attrs.str > 0 || attrs.dex > 0 || attrs.con > 0 || attrs.int > 0 || attrs.wis > 0 || attrs.cha > 0
-  const hasAnyStats = character && ((character.str ?? 0) > 0 || (character.dex ?? 0) > 0 || (character.hp ?? 0) > 0 || (character.level ?? 1) > 1)
-  const tabs: TabItem[] = [{ id: 'story', label: 'story' }, { id: 'ai-persona', label: 'ai persona' }, { id: 'equipment', label: 'equipment' }, { id: 'wallet', label: 'wallet' }]
+  useCharacterEditGuards({
+    isEditMode,
+    hasUnsavedChanges: editor.hasUnsavedChanges,
+    onCancelEdit: handleCancelEdit,
+  })
 
   if (isLoading) return (
     <div className="min-h-screen flex items-center justify-center bg-soul-950">
@@ -214,88 +118,73 @@ export default function CharacterDetailPage() {
 
   return (
     <div className="min-h-screen bg-soul-950">
-      <CharacterHeader tokenId={tokenId} isOwner={isOwner} isEditMode={isEditMode} isSaving={isSaving}
-        onBack={() => router.push('/characters')} onEdit={handleEditToggle} onSave={handleSave}
-        onCancel={handleEditToggle} onChat={() => openChat({ tokenId: String(tokenId), characterName: name })} onAnimated={() => router.push(`/characters/${tokenId}/animated`)} />
+      <CharacterHeader
+        tokenId={tokenId}
+        isOwner={isOwner}
+        isEditMode={isEditMode}
+        isSaving={isSaving}
+        onBack={() => router.push('/characters')}
+        onEdit={handleEditToggle}
+        onSave={saveCharacter}
+        onCancel={handleEditToggle}
+        onChat={() => openChat({ tokenId: String(tokenId), characterName: name })}
+        onAnimated={() => router.push(`/characters/${tokenId}/animated`)}
+      />
 
       <div className="container mx-auto px-4 py-8 max-w-7xl">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-8">
           <div className="lg:col-span-5">
-            <Card className="overflow-hidden">
-              <div className="relative aspect-square">
-                <Image src={imageUrl} alt={name} fill sizes="(max-width: 1024px) 100vw, 40vw" className="object-cover [image-rendering:pixelated]" priority unoptimized onError={handleImageError} />
-                <div className="absolute inset-0 bg-black/40" />
-                <div className="absolute bottom-4 left-4 right-4 flex flex-wrap gap-2">
-                  {character.infection_status === 'infected' && <Badge className="bg-red-900/80 border-red-700 text-red-400">Infected</Badge>}
-                  {character.infection_status === 'cured' && <Badge className="bg-emerald-900/80 border-emerald-700 text-emerald-400">Cured</Badge>}
-                  {imageDisclosure.hasSearedImage && <Badge variant="accent">Seared</Badge>}
-                  {character.staking_status === 'staked' && <Badge variant="accent">Staked</Badge>}
-                </div>
-              </div>
-            </Card>
-            {imageDisclosure.isSearedImageHiddenByInfection && imageDisclosure.searedImageUrl && (
-              <div className="mt-3 rounded-lg border border-soul-accent/20 bg-soul-accent/5 p-3 text-sm text-soul-accent font-eskapade">
-                Seared artwork has been generated, but infected artwork remains primary while this character is infected.{' '}
-                <a
-                  href={imageDisclosure.searedImageUrl}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="underline underline-offset-4 hover:text-bone"
-                >
-                  View seared image
-                </a>
-              </div>
-            )}
+            <CharacterArtworkCard
+              name={name}
+              imageUrl={displayedImageUrl}
+              imageDisclosure={imageDisclosure}
+              infectionStatus={character.infection_status}
+              stakingStatus={character.staking_status}
+              onImageError={handleImageError}
+            />
           </div>
 
           <div className="lg:col-span-5">
-            <div className="h-full flex flex-col">
-              <div className="mb-6">
-                <NameEditor name={isEditMode ? editor.state.name : name} isOwner={isOwner} isEditMode={isEditMode} onChange={editor.setName} className="mb-2" />
-                <LevelExperienceEditor stats={isEditMode ? editor.state.levelExp : { level, experience: character.experience ?? null }} characterClass={character.class} isOwner={isOwner} isEditMode={isEditMode} onChange={editor.setLevelExp} />
-                <NFTTraitsDisplay metadata={character.metadata} showIdentityOnly className="mt-3" />
-              </div>
-
-              <div className="mb-6">
-                <DerivedStatsEditor stats={isEditMode ? editor.state.derivedStats : { hp: character.hp ?? null, max_hp: character.max_hp ?? null, ac: character.ac ?? null, speed: character.speed ?? null }} isOwner={isOwner} isEditMode={isEditMode} onChange={editor.setDerivedStats} />
-                {!isEditMode && <div className="mt-3 grid grid-cols-2 sm:grid-cols-4 gap-3"><Card className="bg-midnight/50"><CardContent className="p-3 text-center"><p className="text-[20px] font-display tracking-widest text-mist mb-1 lowercase">token</p><p className="text-2xl font-display text-bone">#{tokenId}</p></CardContent></Card></div>}
-                {showLoreNav && !isEditMode && (
-                  <Button
-                    type="button"
-                    variant="secondary"
-                    onClick={() => router.push(`/lore/submit?tokenId=${tokenId}`)}
-                    className="mt-4"
-                  >
-                    Add community story
-                  </Button>
-                )}
-              </div>
-
-              {(hasCharacterSheet || (isOwner && isEditMode)) && <CoreStatsEditor stats={isEditMode ? editor.state.coreStats : attrs} isOwner={isOwner} isEditMode={isEditMode} onChange={editor.setCoreStats} />}
-              {isOwner && !hasAnyStats && !isEditMode && <EmptyStatsPrompt onAssignStats={handleAssignStats} />}
-              {isOwner && <CharacterActions isInfected={character.infection_status === 'infected'} onSear={() => setIsSearingModalOpen(true)} onInfect={() => setIsInfectionModalOpen(true)} onCure={() => setIsCureModalOpen(true)} />}
-            </div>
+            <CharacterSheetPanel
+              tokenId={tokenId}
+              character={character}
+              name={name}
+              isOwner={isOwner}
+              isEditMode={isEditMode}
+              editor={editor}
+              showLoreNav={showLoreNav}
+              onAddCommunityStory={() => router.push(`/lore/submit?tokenId=${tokenId}`)}
+              onEnterEditMode={() => setIsEditMode(true)}
+              onSear={() => setIsSearingModalOpen(true)}
+              onInfect={() => setIsInfectionModalOpen(true)}
+              onCure={() => setIsCureModalOpen(true)}
+            />
           </div>
         </div>
 
-        <NFTTraitsDisplay metadata={character.metadata} className="mb-8" />
-        <Separator className="mb-8" />
-        <Tabs items={tabs} activeId={activeTab} onChange={setActiveTab} />
-        <div className="mt-6">
-          {activeTab === 'story' && <CharacterStoryTab story={editor.state.story} isEditMode={isEditMode} isOwner={isOwner} onChange={editor.setStory} />}
-          {activeTab === 'ai-persona' && <AIPersonaTab tokenId={String(tokenId)} isOwner={isOwner} characterName={name} characterBackstory={editor.state.story} />}
-          {activeTab === 'equipment' && <CharacterEquipmentTab equipment={character.equipment ?? null} metadataEquipment={character.metadata?.equipment} isEditMode={isEditMode} />}
-          {activeTab === 'wallet' && (
-            <CharacterWalletTab
-              tokenId={tokenId}
-              ownerAddress={character?.owner_address ?? null}
-              stakerAddress={character?.staker_address ?? null}
-            />
-          )}
-        </div>
+        <CharacterTabsSection
+          activeTab={activeTab}
+          onTabChange={setActiveTab}
+          tokenId={tokenId}
+          character={character}
+          name={name}
+          isOwner={isOwner}
+          isEditMode={isEditMode}
+          editor={editor}
+        />
       </div>
 
-      <CharacterModals tokenId={tokenId} name={name} isSearingModalOpen={isSearingModalOpen} isInfectionModalOpen={isInfectionModalOpen} isCureModalOpen={isCureModalOpen} onCloseSearing={() => setIsSearingModalOpen(false)} onCloseInfection={() => setIsInfectionModalOpen(false)} onCloseCure={() => setIsCureModalOpen(false)} onSearingSuccess={fetchCharacter} />
+      <CharacterModals
+        tokenId={tokenId}
+        name={name}
+        isSearingModalOpen={isSearingModalOpen}
+        isInfectionModalOpen={isInfectionModalOpen}
+        isCureModalOpen={isCureModalOpen}
+        onCloseSearing={() => setIsSearingModalOpen(false)}
+        onCloseInfection={() => setIsInfectionModalOpen(false)}
+        onCloseCure={() => setIsCureModalOpen(false)}
+        onSearingSuccess={refetchCharacter}
+      />
     </div>
   )
 }

@@ -5,20 +5,19 @@
  * Follows Clean Architecture by keeping business logic separate from data access.
  */
 
+import {
+  validateLocationDescription,
+  validateLocationDetailField,
+  validateLocationDifficulty,
+  validateLocationImageUrl,
+  validateLocationLore,
+  validateLocationName,
+  validateLocationSpecialProperties,
+  type LocationValidationResult,
+} from '@/lib/domain/location/validation'
 import { LocationRepository } from '@/lib/repositories/locationRepository'
 import { generateUniqueSlug, isValidSlug } from '@/lib/utils/slug'
-import type { Location, CreateLocationInput, UpdateLocationInput, LocationDifficulty } from '@/lib/types/map'
-
-// Validation constants
-const NAME_MIN_LENGTH = 1
-const NAME_MAX_LENGTH = 200
-const DESCRIPTION_MAX_LENGTH = 2000
-const IMAGE_URL_MAX_LENGTH = 2048
-const LORE_MAX_LENGTH = 5000
-const LOCATION_DETAIL_MAX_LENGTH = 100
-const SPECIAL_PROPERTIES_MAX_COUNT = 20
-const SPECIAL_PROPERTY_MAX_LENGTH = 80
-const VALID_DIFFICULTIES: LocationDifficulty[] = ['easy', 'medium', 'hard']
+import type { Location, CreateLocationInput, UpdateLocationInput } from '@/lib/types/map'
 
 // Map bounds (for coordinate validation)
 const MAP_BOUNDS = {
@@ -48,136 +47,27 @@ function logAdminAction(
   }
 }
 
-/**
- * Validate location name
- */
-function validateName(name: string | undefined): { valid: boolean; error?: string } {
-  if (!name || typeof name !== 'string') {
+function appendValidationError(errors: string[], result: LocationValidationResult): void {
+  if (!result.valid) errors.push(result.error!)
+}
+
+function validateServiceLocationName(name: unknown): LocationValidationResult {
+  if (name === '') {
     return { valid: false, error: 'Name is required' }
   }
 
-  const trimmed = name.trim()
-
-  if (trimmed.length < NAME_MIN_LENGTH) {
-    return { valid: false, error: 'Name cannot be empty' }
-  }
-
-  if (trimmed.length > NAME_MAX_LENGTH) {
-    return { valid: false, error: `Name cannot exceed ${NAME_MAX_LENGTH} characters` }
-  }
-
-  return { valid: true }
-}
-
-/**
- * Validate description
- */
-function validateDescription(description: string | null | undefined): { valid: boolean; error?: string } {
-  if (description === undefined || description === null) {
-    return { valid: true }
-  }
-
-  if (typeof description !== 'string') {
-    return { valid: false, error: 'Description must be a string' }
-  }
-
-  if (description.length > DESCRIPTION_MAX_LENGTH) {
-    return { valid: false, error: `Description cannot exceed ${DESCRIPTION_MAX_LENGTH} characters` }
-  }
-
-  return { valid: true }
-}
-
-function validateImageUrl(imageUrl: string | null | undefined): { valid: boolean; error?: string } {
-  if (imageUrl === undefined || imageUrl === null) {
-    return { valid: true }
-  }
-
-  if (typeof imageUrl !== 'string') {
-    return { valid: false, error: 'Image URL must be a string' }
-  }
-
-  if (imageUrl.trim() === '') {
-    return { valid: true }
-  }
-
-  const trimmed = imageUrl.trim()
-  if (trimmed.length > IMAGE_URL_MAX_LENGTH) {
-    return { valid: false, error: `Image URL cannot exceed ${IMAGE_URL_MAX_LENGTH} characters` }
-  }
-
-  if (!trimmed.startsWith('/') && !/^https?:\/\//i.test(trimmed)) {
-    return { valid: false, error: 'Image URL must be root-relative or start with http:// or https://' }
-  }
-
-  return { valid: true }
-}
-
-function validateLore(lore: string | null | undefined): { valid: boolean; error?: string } {
-  if (lore === undefined || lore === null) return { valid: true }
-  if (typeof lore !== 'string') return { valid: false, error: 'Lore must be a string' }
-  if (lore.length > LORE_MAX_LENGTH) {
-    return { valid: false, error: `Lore cannot exceed ${LORE_MAX_LENGTH} characters` }
-  }
-  return { valid: true }
-}
-
-function validateDetailField(
-  label: 'Region' | 'Terrain',
-  value: string | null | undefined
-): { valid: boolean; error?: string } {
-  if (value === undefined || value === null) return { valid: true }
-  if (typeof value !== 'string') return { valid: false, error: `${label} must be a string` }
-  if (value.length > LOCATION_DETAIL_MAX_LENGTH) {
-    return { valid: false, error: `${label} cannot exceed ${LOCATION_DETAIL_MAX_LENGTH} characters` }
-  }
-  return { valid: true }
-}
-
-function validateDifficulty(difficulty: LocationDifficulty | null | undefined): { valid: boolean; error?: string } {
-  if (difficulty === undefined || difficulty === null) return { valid: true }
-  if (!VALID_DIFFICULTIES.includes(difficulty)) {
-    return { valid: false, error: 'Difficulty must be easy, medium, or hard' }
-  }
-  return { valid: true }
-}
-
-function validateSpecialProperties(values: string[] | undefined): { valid: boolean; error?: string } {
-  if (values === undefined) return { valid: true }
-  if (!Array.isArray(values)) return { valid: false, error: 'Special properties must be an array' }
-
-  const normalized = values.map((value) => typeof value === 'string' ? value.trim() : '')
-    .filter(Boolean)
-  if (normalized.length > SPECIAL_PROPERTIES_MAX_COUNT) {
-    return { valid: false, error: `Special properties cannot exceed ${SPECIAL_PROPERTIES_MAX_COUNT} entries` }
-  }
-  if (normalized.some((value) => value.length > SPECIAL_PROPERTY_MAX_LENGTH)) {
-    return { valid: false, error: `Special properties cannot exceed ${SPECIAL_PROPERTY_MAX_LENGTH} characters each` }
-  }
-
-  return { valid: true }
+  return validateLocationName(name)
 }
 
 function validateEnrichmentInput(input: CreateLocationInput | UpdateLocationInput): string[] {
   const errors: string[] = []
 
-  const imageValidation = validateImageUrl(input.image_url)
-  if (!imageValidation.valid) errors.push(imageValidation.error!)
-
-  const loreValidation = validateLore(input.lore)
-  if (!loreValidation.valid) errors.push(loreValidation.error!)
-
-  const regionValidation = validateDetailField('Region', input.region)
-  if (!regionValidation.valid) errors.push(regionValidation.error!)
-
-  const terrainValidation = validateDetailField('Terrain', input.terrain)
-  if (!terrainValidation.valid) errors.push(terrainValidation.error!)
-
-  const difficultyValidation = validateDifficulty(input.difficulty)
-  if (!difficultyValidation.valid) errors.push(difficultyValidation.error!)
-
-  const specialValidation = validateSpecialProperties(input.special_properties)
-  if (!specialValidation.valid) errors.push(specialValidation.error!)
+  appendValidationError(errors, validateLocationImageUrl(input.image_url))
+  appendValidationError(errors, validateLocationLore(input.lore))
+  appendValidationError(errors, validateLocationDetailField('Region', input.region))
+  appendValidationError(errors, validateLocationDetailField('Terrain', input.terrain))
+  appendValidationError(errors, validateLocationDifficulty(input.difficulty))
+  appendValidationError(errors, validateLocationSpecialProperties(input.special_properties))
 
   return errors
 }
@@ -241,11 +131,8 @@ export class LocationService {
     // Validate input
     const errors: string[] = []
 
-    const nameValidation = validateName(input.name)
-    if (!nameValidation.valid) errors.push(nameValidation.error!)
-
-    const descValidation = validateDescription(input.description)
-    if (!descValidation.valid) errors.push(descValidation.error!)
+    appendValidationError(errors, validateServiceLocationName(input.name))
+    appendValidationError(errors, validateLocationDescription(input.description))
 
     const coordValidation = validateCoordinates(input.coordinates)
     if (!coordValidation.valid) errors.push(coordValidation.error!)
@@ -291,13 +178,11 @@ export class LocationService {
     const errors: string[] = []
 
     if (input.name !== undefined) {
-      const nameValidation = validateName(input.name)
-      if (!nameValidation.valid) errors.push(nameValidation.error!)
+      appendValidationError(errors, validateServiceLocationName(input.name))
     }
 
     if (input.description !== undefined) {
-      const descValidation = validateDescription(input.description)
-      if (!descValidation.valid) errors.push(descValidation.error!)
+      appendValidationError(errors, validateLocationDescription(input.description))
     }
 
     if (input.coordinates !== undefined) {

@@ -15,6 +15,7 @@ import type {
   UpdateLocationInput,
 } from '../types/map';
 import { normalizeLocationMetadata } from '@/lib/domain/location/metadata';
+import { normalizeLocationSpecialProperties } from '@/lib/domain/location/validation';
 
 // Server-side repository calls prefer SUPABASE_URL so Docker can query the internal Kong URL.
 // Browser/client imports keep using NEXT_PUBLIC_SUPABASE_URL.
@@ -61,27 +62,6 @@ function cleanNullableText(value: string | null | undefined): string | null | un
   return value.trim() || null;
 }
 
-function normalizeSpecialProperties(values: string[] | undefined): string[] | undefined {
-  if (values === undefined) return undefined;
-
-  const seen = new Set<string>();
-  const normalized: string[] = [];
-
-  for (const value of values) {
-    if (typeof value !== 'string') continue;
-    const trimmed = value.trim();
-    if (!trimmed) continue;
-
-    const key = trimmed.toLowerCase();
-    if (seen.has(key)) continue;
-
-    seen.add(key);
-    normalized.push(trimmed);
-  }
-
-  return normalized;
-}
-
 function setMetadataTextProperty(
   target: Record<string, unknown>,
   key: 'region' | 'terrain',
@@ -126,7 +106,7 @@ function buildMetadata(
     delete metadata.properties;
   }
 
-  const specialProperties = normalizeSpecialProperties(input.special_properties);
+  const specialProperties = normalizeLocationSpecialProperties(input.special_properties);
   if (specialProperties !== undefined) {
     if (specialProperties.length > 0) metadata.special_properties = specialProperties;
     else delete metadata.special_properties;

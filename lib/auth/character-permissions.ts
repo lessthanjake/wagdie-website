@@ -7,6 +7,7 @@
 import { getSession } from '@/lib/auth/session'
 import { isAdmin } from '@/lib/auth/admin'
 import { getCharacter } from '@/lib/services/character-service'
+import { canEditCharacterForAddress } from '@/lib/domain/character/ownership'
 import type { Character } from '@/types/character'
 
 export type CharacterMutationAuthorization =
@@ -36,13 +37,7 @@ export function canEditCharacter(
   userAddress: string,
   userIsAdmin: boolean
 ): boolean {
-  if (userIsAdmin) return true
-
-  const addr = userAddress.toLowerCase()
-  const owner = character.owner_address?.toLowerCase()
-  const staker = character.staker_address?.toLowerCase()
-
-  return owner === addr || staker === addr
+  return canEditCharacterForAddress(character, userAddress, userIsAdmin)
 }
 
 export async function getCharacterMutationAuthorization(

@@ -4,6 +4,16 @@
  * No React dependencies - fully testable.
  */
 
+import {
+  parseLocationSpecialPropertiesText,
+  validateLocationDescription,
+  validateLocationDetailField,
+  validateLocationImageUrl,
+  validateLocationLore,
+  validateLocationName,
+  validateLocationSpecialPropertiesText,
+  type LocationValidationResult,
+} from '@/lib/domain/location/validation'
 import type { Location, CreateLocationInput, UpdateLocationInput, LocationDifficulty } from '@/lib/types/map'
 
 // ============================================================================
@@ -45,91 +55,42 @@ export const CREATE_NEW_VALUE = '__new__'
 // Validation
 // ============================================================================
 
-const NAME_MAX_LENGTH = 200
-const DESCRIPTION_MAX_LENGTH = 2000
-const IMAGE_URL_MAX_LENGTH = 2048
-const LORE_MAX_LENGTH = 5000
-const DETAIL_MAX_LENGTH = 100
-const SPECIAL_PROPERTY_MAX_LENGTH = 80
-const SPECIAL_PROPERTIES_MAX_COUNT = 20
+function errorMessage(result: LocationValidationResult): string | undefined {
+  return result.valid ? undefined : result.error
+}
 
 /**
  * Validate name field
  */
 function validateName(name: string): string | undefined {
-  const trimmed = name.trim()
-  if (!trimmed) {
-    return 'Name is required'
-  }
-  if (trimmed.length > NAME_MAX_LENGTH) {
-    return `Name cannot exceed ${NAME_MAX_LENGTH} characters`
-  }
-  return undefined
+  return errorMessage(validateLocationName(name, { emptyMessage: 'Name is required' }))
 }
 
 /**
  * Validate description field
  */
 function validateDescription(description: string): string | undefined {
-  if (description.length > DESCRIPTION_MAX_LENGTH) {
-    return `Description cannot exceed ${DESCRIPTION_MAX_LENGTH} characters`
-  }
-  return undefined
+  return errorMessage(validateLocationDescription(description))
 }
 
 function validateImageUrl(imageUrl: string): string | undefined {
-  const trimmed = imageUrl.trim()
-  if (!trimmed) return undefined
-  if (trimmed.length > IMAGE_URL_MAX_LENGTH) {
-    return `Image URL cannot exceed ${IMAGE_URL_MAX_LENGTH} characters`
-  }
-  if (!trimmed.startsWith('/') && !/^https?:\/\//i.test(trimmed)) {
-    return 'Image URL must be root-relative or start with http:// or https://'
-  }
-  return undefined
+  return errorMessage(validateLocationImageUrl(imageUrl))
 }
 
 function validateLore(lore: string): string | undefined {
-  if (lore.length > LORE_MAX_LENGTH) {
-    return `Lore cannot exceed ${LORE_MAX_LENGTH} characters`
-  }
-  return undefined
+  return errorMessage(validateLocationLore(lore))
 }
 
-function validateDetail(label: string, value: string): string | undefined {
-  if (value.length > DETAIL_MAX_LENGTH) {
-    return `${label} cannot exceed ${DETAIL_MAX_LENGTH} characters`
-  }
-  return undefined
+function validateDetail(label: 'Region' | 'Terrain', value: string): string | undefined {
+  return errorMessage(validateLocationDetailField(label, value))
 }
 
 export function parseSpecialProperties(text: string): string[] {
-  const seen = new Set<string>()
-  const values: string[] = []
-
-  for (const part of text.split(/[\n,]+/)) {
-    const trimmed = part.trim()
-    if (!trimmed) continue
-
-    const key = trimmed.toLowerCase()
-    if (seen.has(key)) continue
-
-    seen.add(key)
-    values.push(trimmed)
-  }
-
-  return values
+  return parseLocationSpecialPropertiesText(text)
 }
 
 function validateSpecialProperties(text: string): string | undefined {
-  const values = parseSpecialProperties(text)
-  if (values.length > SPECIAL_PROPERTIES_MAX_COUNT) {
-    return `Special properties cannot exceed ${SPECIAL_PROPERTIES_MAX_COUNT} entries`
-  }
-  if (values.some((value) => value.length > SPECIAL_PROPERTY_MAX_LENGTH)) {
-    return `Special properties cannot exceed ${SPECIAL_PROPERTY_MAX_LENGTH} characters each`
-  }
-  return undefined
+  return errorMessage(validateLocationSpecialPropertiesText(text))
 }
 
 /**

@@ -7,7 +7,6 @@ import {
   verifyLoreSubmissionTokenOwnership,
   type VerifyTokenOwnershipOptions,
 } from '@/lib/lore/submissions/ownership';
-import { loreSubmissionSourceId } from '@/lib/lore/submissions/adapter';
 import { parseLoreSubmissionCreateInput } from '@/lib/lore/submissions/validation';
 import {
   loreSubmissionRepository,
@@ -22,8 +21,28 @@ import type {
   LoreSubmissionDetailDto,
   LoreSubmissionListItemDto,
 } from '@/types/lore-submission';
-import type { Json } from '@/lib/database.types';
-import { canonizationStageIds, type CanonizationStep } from '@/lib/lore/types';
+import { canonizationStageIds } from '@/lib/lore/types';
+import {
+  dedupeStrings,
+  enrichCreateInputWithLoreRefs,
+  getSubmissionSourceIds,
+  validateLoreReferenceIds,
+} from '@/lib/services/lore-submissions/reference-validation';
+import {
+  buildPublicationSnapshot,
+  idSuffix,
+  publicTitle,
+  slugifyTitle,
+  toListItem,
+} from '@/lib/services/lore-submissions/publication';
+import {
+  buildCanonizeTransition,
+  buildCloseTransition,
+  buildDecanonizeTransition,
+  buildRequestChangesTransition,
+  buildUnpublishTransition,
+  type ConditionalSubmissionTransition,
+} from '@/lib/services/lore-submissions/transitions';
 
 export class LoreSubmissionValidationError extends Error {
   details: string[];
@@ -131,156 +150,6 @@ function parseCreateInput(body: unknown): CreateLoreSubmissionInput {
     }
     throw error;
   }
-}
-
-function dedupeStrings(values: string[] | undefined): string[] | undefined {
-  if (!values) return undefined;
-  return [...new Set(values.map((value) => value.trim()).filter(Boolean))];
-}
-
-function getSubmissionSourceIds(detail: LoreSubmissionDetailDto | undefined): Set<string> {
-  return new Set((detail?.links ?? []).flatMap((link) => (
-    link.role === 'source' || link.role === 'source_media'
-      ? [loreSubmissionSourceId(detail!.submission.id, link.id)]
-      : []
-  )));
-}
-
-function getCharacterIdsForTokenId(dataset: LoreBaseDataset, tokenId: string): string[] {
-  const parsedTokenId = Number(tokenId);
-  if (!Number.isInteger(parsedTokenId)) return [];
-
-  const datasetCharacterIds = dataset.characters
-    .filter((character) => character.tokenId === parsedTokenId)
-    .map((character) => character.id);
-
-  return datasetCharacterIds.length > 0 ? datasetCharacterIds : [`character-${tokenId}`];
-}
-
-function enrichCreateInputWithLoreRefs(input: CreateLoreSubmissionInput, dataset: LoreBaseDataset): CreateLoreSubmissionInput {
-  const tokenCharacterIds = getCharacterIdsForTokenId(dataset, input.tokenId);
-
-  return {
-    ...input,
-    characterIds: [...new Set([...input.characterIds, ...tokenCharacterIds])],
-    locationIds: [...new Set(input.locationIds)],
-  };
-}
-
-function validateCanonPathSourceReferences(
-  canonPath: CanonizationStep[] | undefined,
-  dataset: LoreBaseDataset,
-  fieldPrefix: string,
-  submissionSourceIds: Set<string> = new Set(),
-): string[] {
-  const errors: string[] = [];
-
-  (canonPath ?? []).forEach((step, index) => {
-    step.sourceIds?.forEach((sourceId) => {
-      if (!dataset.indexes.sourcesById.has(sourceId) && !submissionSourceIds.has(sourceId)) {
-        errors.push(`${fieldPrefix}[${index}].sourceIds references missing source: ${sourceId}`);
-      }
-    });
-  });
-
-  return errors;
-}
-
-function isSubmissionTokenCharacterId(characterId: string): boolean {
-  return /^character-[1-9]\d*$/.test(characterId);
-}
-
-function validateLoreReferenceIds(
-  dataset: LoreBaseDataset,
-  refs: {
-    seasonId?: string | null;
-    characterIds?: string[] | null;
-    locationIds?: string[] | null;
-    canonPath?: CanonizationStep[];
-  },
-  submissionSourceIds: Set<string> = new Set(),
-): string[] {
-  const errors: string[] = [];
-
-  if (refs.seasonId && !dataset.indexes.seasonsById.has(refs.seasonId)) {
-    errors.push(`seasonId references missing season: ${refs.seasonId}`);
-  }
-
-  (refs.characterIds ?? []).forEach((characterId) => {
-    if (!dataset.indexes.charactersById.has(characterId) && !isSubmissionTokenCharacterId(characterId)) {
-      errors.push(`characterIds references missing character: ${characterId}`);
-    }
-  });
-
-  (refs.locationIds ?? []).forEach((locationId) => {
-    if (!dataset.indexes.locationsById.has(locationId)) {
-      errors.push(`locationIds references missing location: ${locationId}`);
-    }
-  });
-
-  errors.push(...validateCanonPathSourceReferences(refs.canonPath, dataset, 'canonPath', submissionSourceIds));
-  return errors;
-}
-
-function toListItem(submission: LoreSubmission): LoreSubmissionListItemDto {
-  return {
-    id: submission.id,
-    tokenId: submission.token_id,
-    title: submission.curated_title ?? submission.title,
-    summary: submission.curated_summary ?? submission.summary,
-    status: submission.status,
-    visibility: submission.visibility,
-    publishedSlug: submission.published_slug,
-    submittedAt: submission.submitted_at,
-    updatedAt: submission.updated_at,
-  };
-}
-
-function slugifyTitle(title: string): string {
-  const slug = title
-    .toLowerCase()
-    .normalize('NFKD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '')
-    .replace(/-{2,}/g, '-');
-
-  return slug || 'community-lore';
-}
-
-function idSuffix(id: string): string {
-  return id.replace(/[^a-fA-F0-9]/g, '').slice(0, 8).toLowerCase() || 'submission';
-}
-
-function publicTitle(submission: LoreSubmission): string {
-  return submission.curated_title ?? submission.title;
-}
-
-function buildPublicationSnapshot(detail: LoreSubmissionDetailDto): Json {
-  const { submission, links } = detail;
-  return {
-    title: submission.curated_title ?? submission.title,
-    summary: submission.curated_summary ?? submission.summary,
-    bodyMarkdown: submission.curated_body_markdown ?? submission.body_markdown,
-    tags: submission.curated_tags ?? submission.tags,
-    seasonId: submission.season_id,
-    characterIds: submission.character_ids,
-    locationIds: submission.location_ids,
-    links: links.map((link) => ({
-      id: link.id,
-      role: link.role,
-      linkType: link.link_type,
-      originalUrl: link.original_url,
-      normalizedUrl: link.normalized_url,
-      displayTitle: link.display_title,
-      platform: link.platform,
-      archivedUrl: link.archived_url,
-      attribution: link.attribution,
-      metadata: link.metadata,
-      sortOrder: link.sort_order,
-    })),
-    capturedAt: new Date().toISOString(),
-  };
 }
 
 function requireNote(body: LoreSubmissionReviewBody, action: string): string {
@@ -475,116 +344,61 @@ export class LoreSubmissionService {
 
   async canonizeSubmission(submissionId: string, adminAddress: string, note?: string): Promise<LoreSubmissionDetailDto> {
     const admin = normalizeAddressOrThrow(adminAddress);
-    const now = new Date().toISOString();
-    const result = await this.repository.updateStatusConditional(
-      submissionId,
-      ['public'],
-      {
-        status: 'canonized',
-        visibility: 'public',
-        published_kind: 'official',
-        canon_status: 'canon',
-        canon_stage_id: 'canonized',
-        canon_note: note ?? null,
-        review_note: note ?? null,
-        last_admin_address: admin,
-        reviewed_at: now,
-        canonized_at: now,
-      },
-      { actorAddress: admin, action: 'canonize', note: note ?? null },
-    );
-
-    if (!result) throw new LoreSubmissionConflictError('Only public community lore can be canonized');
-    return result;
+    return this.applyConditionalTransition(submissionId, buildCanonizeTransition({
+      admin,
+      note,
+      now: new Date().toISOString(),
+    }));
   }
 
   async decanonizeSubmission(submissionId: string, adminAddress: string, note?: string): Promise<LoreSubmissionDetailDto> {
     const admin = normalizeAddressOrThrow(adminAddress);
-    const now = new Date().toISOString();
-    const result = await this.repository.updateStatusConditional(
-      submissionId,
-      ['canonized'],
-      {
-        status: 'public',
-        visibility: 'public',
-        published_kind: 'community',
-        canon_status: 'community',
-        canon_stage_id: 'community_recorded',
-        canon_note: note ?? null,
-        review_note: note ?? null,
-        last_admin_address: admin,
-        reviewed_at: now,
-        canonized_at: null,
-      },
-      { actorAddress: admin, action: 'decanonize', note: note ?? null },
-    );
-
-    if (!result) throw new LoreSubmissionConflictError('Only canonized lore can be decanonized');
-    return result;
+    return this.applyConditionalTransition(submissionId, buildDecanonizeTransition({
+      admin,
+      note,
+      now: new Date().toISOString(),
+    }));
   }
 
   async unpublishSubmission(submissionId: string, adminAddress: string, note?: string): Promise<LoreSubmissionDetailDto> {
     const admin = normalizeAddressOrThrow(adminAddress);
-    const now = new Date().toISOString();
-    const result = await this.repository.updateStatusConditional(
-      submissionId,
-      ['public'],
-      {
-        status: 'closed',
-        visibility: 'hidden',
-        status_reason: note ?? 'Unpublished by admin',
-        review_note: note ?? null,
-        last_admin_address: admin,
-        reviewed_at: now,
-        closed_at: now,
-      },
-      { actorAddress: admin, action: 'hide', note: note ?? null },
-    );
-
-    if (!result) throw new LoreSubmissionConflictError('Only public community lore can be unpublished');
-    return result;
+    return this.applyConditionalTransition(submissionId, buildUnpublishTransition({
+      admin,
+      note,
+      now: new Date().toISOString(),
+    }));
   }
 
   private async requestChanges(submissionId: string, adminAddress: string, note: string): Promise<LoreSubmissionDetailDto> {
     const admin = normalizeAddressOrThrow(adminAddress);
-    const now = new Date().toISOString();
-    const result = await this.repository.updateStatusConditional(
-      submissionId,
-      ['submitted'],
-      {
-        status: 'changes_requested',
-        visibility: 'pending',
-        review_note: note,
-        status_reason: note,
-        last_admin_address: admin,
-        reviewed_at: now,
-      },
-      { actorAddress: admin, action: 'request_changes', note },
-    );
-
-    if (!result) throw new LoreSubmissionConflictError('Only submitted lore can receive change requests');
-    return result;
+    return this.applyConditionalTransition(submissionId, buildRequestChangesTransition({
+      admin,
+      note,
+      now: new Date().toISOString(),
+    }));
   }
 
   private async closeSubmission(submissionId: string, adminAddress: string, note: string): Promise<LoreSubmissionDetailDto> {
     const admin = normalizeAddressOrThrow(adminAddress);
-    const now = new Date().toISOString();
+    return this.applyConditionalTransition(submissionId, buildCloseTransition({
+      admin,
+      note,
+      now: new Date().toISOString(),
+    }));
+  }
+
+  private async applyConditionalTransition(
+    submissionId: string,
+    transition: ConditionalSubmissionTransition,
+  ): Promise<LoreSubmissionDetailDto> {
     const result = await this.repository.updateStatusConditional(
       submissionId,
-      ['submitted', 'changes_requested', 'public'],
-      {
-        status: 'closed',
-        visibility: 'hidden',
-        review_note: note,
-        status_reason: note,
-        last_admin_address: admin,
-        reviewed_at: now,
-        closed_at: now,
-      },
-      { actorAddress: admin, action: 'close', note },
+      transition.expectedStatuses,
+      transition.updates,
+      transition.review,
     );
 
-    if (!result) throw new LoreSubmissionConflictError('Submission cannot be closed from its current status');
+    if (!result) throw new LoreSubmissionConflictError(transition.conflictMessage);
     return result;
   }
 
@@ -635,7 +449,7 @@ export class LoreSubmissionService {
         published_slug: slug,
         canon_status: 'community',
         canon_stage_id: 'community_recorded',
-        publication_snapshot: buildPublicationSnapshot(detail),
+        publication_snapshot: buildPublicationSnapshot(detail, new Date().toISOString()),
         review_note: note ?? null,
         status_reason: null,
         last_admin_address: options.lastAdminAddress,

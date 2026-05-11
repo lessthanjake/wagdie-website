@@ -31,6 +31,13 @@ export async function readJsonBody(request: Request): Promise<unknown> {
   }
 }
 
+export function readOptionalNote(body: unknown): string | undefined {
+  if (!body || typeof body !== 'object' || !('note' in body)) return undefined;
+
+  const note = (body as { note?: unknown }).note;
+  return typeof note === 'string' && note.trim() ? note.trim() : undefined;
+}
+
 export function applyLoreSubmissionRateLimit(request: Request): NextResponse<ApiResponse> | null {
   const headers = request.headers instanceof Headers ? request.headers : new Headers(request.headers);
   const ip = getClientIp(headers) ?? 'unknown';

@@ -7,8 +7,11 @@ import { GET as COMMUNITY_GET, POST as COMMUNITY_POST } from '@/app/api/lore/sub
 import { GET as COMMUNITY_DETAIL_GET, PATCH as COMMUNITY_DETAIL_PATCH } from '@/app/api/lore/submissions/[submissionId]/route';
 import { GET as ADMIN_GET } from '@/app/api/admin/lore/submissions/route';
 import { PATCH as ADMIN_PATCH } from '@/app/api/admin/lore/submissions/[submissionId]/route';
+import { POST as ADMIN_CANONIZE } from '@/app/api/admin/lore/submissions/[submissionId]/canonize/route';
+import { POST as ADMIN_DECANONIZE } from '@/app/api/admin/lore/submissions/[submissionId]/decanonize/route';
 import { POST as ADMIN_PUBLISH } from '@/app/api/admin/lore/submissions/[submissionId]/publish/route';
 import { POST as ADMIN_REVIEW } from '@/app/api/admin/lore/submissions/[submissionId]/review/route';
+import { POST as ADMIN_UNPUBLISH } from '@/app/api/admin/lore/submissions/[submissionId]/unpublish/route';
 import { requireAdmin, requireAuth } from '@/lib/api/auth';
 import {
   LoreSubmissionConflictError,
@@ -55,6 +58,45 @@ const jsonRequest = (url: string, method: string, body?: unknown, ip = '203.0.11
   },
   body: body === undefined ? undefined : JSON.stringify(body),
 });
+
+type AdminPostHandler = (
+  request: NextRequest,
+  context: ReturnType<typeof routeContext>,
+) => Promise<Response>;
+
+type NoteActionMethod = 'publishSubmission' | 'canonizeSubmission' | 'decanonizeSubmission' | 'unpublishSubmission';
+
+const noteActionRoutes: Array<{
+  label: string;
+  handler: AdminPostHandler;
+  path: string;
+  serviceMethod: NoteActionMethod;
+}> = [
+  {
+    label: 'publishes admin-approved lore',
+    handler: ADMIN_PUBLISH,
+    path: 'publish',
+    serviceMethod: 'publishSubmission',
+  },
+  {
+    label: 'canonizes public lore',
+    handler: ADMIN_CANONIZE,
+    path: 'canonize',
+    serviceMethod: 'canonizeSubmission',
+  },
+  {
+    label: 'decanonizes canon lore',
+    handler: ADMIN_DECANONIZE,
+    path: 'decanonize',
+    serviceMethod: 'decanonizeSubmission',
+  },
+  {
+    label: 'unpublishes public lore',
+    handler: ADMIN_UNPUBLISH,
+    path: 'unpublish',
+    serviceMethod: 'unpublishSubmission',
+  },
+];
 
 describe('lore submission API routes', () => {
   beforeEach(() => {
@@ -148,18 +190,21 @@ describe('lore submission API routes', () => {
     expect(loreSubmissionService.updateCuration).toHaveBeenCalledWith('sub-1', body, '0xAdmin');
   });
 
-  it('publishes admin-approved lore and maps stale transitions to conflicts', async () => {
-    (loreSubmissionService.publishSubmission as jest.Mock).mockRejectedValueOnce(
-      new LoreSubmissionConflictError('Only submitted lore can be published'),
-    );
+  it.each(noteActionRoutes)('$label through the workflow service', async ({ handler, path, serviceMethod }) => {
+    (loreSubmissionService[serviceMethod] as jest.Mock).mockResolvedValueOnce({ submission: { id: 'sub-1' } });
 
-    const response = await ADMIN_PUBLISH(
-      jsonRequest('http://localhost/api/admin/lore/submissions/sub-1/publish', 'POST', { note: 'ship it' }),
+    const response = await handler(
+      jsonRequest(`http://localhost/api/admin/lore/submissions/sub-1/${path}`, 'POST', { note: '  ship it  ' }),
       routeContext(),
     );
 
-    expect(response.status).toBe(409);
-    expect(loreSubmissionService.publishSubmission).toHaveBeenCalledWith('sub-1', '0xAdmin', 'ship it');
+    expect(response.status).toBe(200);
+    expect(requireAdmin).toHaveBeenCalledTimes(1);
+    expect(loreSubmissionService[serviceMethod]).toHaveBeenCalledWith('sub-1', '0xAdmin', 'ship it');
+    await expect(response.json()).resolves.toEqual({
+      success: true,
+      data: { submission: { id: 'sub-1' } },
+    });
   });
 
   it('routes admin review actions through the workflow service', async () => {
@@ -172,6 +217,37 @@ describe('lore submission API routes', () => {
     );
 
     expect(response.status).toBe(200);
+    expect(requireAdmin).toHaveBeenCalledTimes(1);
     expect(loreSubmissionService.reviewSubmission).toHaveBeenCalledWith('sub-1', body, '0xAdmin');
+    await expect(response.json()).resolves.toEqual({
+      success: true,
+      data: { submission: { id: 'sub-1' } },
+    });
+  });
+
+  it('returns admin auth errors before helper-backed action service calls', async () => {
+    (requireAdmin as jest.Mock).mockResolvedValueOnce(NextResponse.json({ error: 'nope' }, { status: 403 }));
+
+    const response = await ADMIN_CANONIZE(
+      jsonRequest('http://localhost/api/admin/lore/submissions/sub-1/canonize', 'POST', { note: 'canon' }),
+      routeContext(),
+    );
+
+    expect(response.status).toBe(403);
+    expect(loreSubmissionService.canonizeSubmission).not.toHaveBeenCalled();
+  });
+
+  it('maps stale helper-backed action transitions to conflicts', async () => {
+    (loreSubmissionService.publishSubmission as jest.Mock).mockRejectedValueOnce(
+      new LoreSubmissionConflictError('Only submitted lore can be published'),
+    );
+
+    const response = await ADMIN_PUBLISH(
+      jsonRequest('http://localhost/api/admin/lore/submissions/sub-1/publish', 'POST', { note: 'ship it' }),
+      routeContext(),
+    );
+
+    expect(response.status).toBe(409);
+    expect(loreSubmissionService.publishSubmission).toHaveBeenCalledWith('sub-1', '0xAdmin', 'ship it');
   });
 });
