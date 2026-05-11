@@ -4,6 +4,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import { Layout, Button, Card, CardHeader, CardTitle, CardContent, CardDescription, Separator, AspectRatio, Blockquote, Badge } from '@/components/ui';
 
 // --- Video Player Component ---
+const showLoreNav = process.env.NEXT_PUBLIC_SHOW_LORE_NAV === 'true';
+
 const VIDEO_CONSENT_COOKIE = 'wagdie_video_consent';
 const VIDEO_CONSENT_MAX_AGE = 60 * 60 * 24 * 365;
 
@@ -208,9 +210,11 @@ export default function HomePage() {
                 <a href="/characters">
                   <Button className="h-12 px-8 text-base">Enter the Abyss</Button>
                 </a>
-                <a href="/lore">
-                  <Button variant="secondary" className="h-12 px-8 text-base">Read the Lore</Button>
-                </a>
+                {showLoreNav && (
+                  <a href="/lore">
+                    <Button variant="secondary" className="h-12 px-8 text-base">Read the Lore</Button>
+                  </a>
+                )}
             </div>
         </div>
         
@@ -227,24 +231,28 @@ export default function HomePage() {
       <div className="container mx-auto px-4 max-w-6xl">
         {/* Section 1: An Evolving Story */}
         <Section title="An Evolving Story" subtitle="The ink is not yet dry">
-          <FeatureCard
-            title="Dynamic Narrative"
-            description="The story unfolds through community decisions and on-chain events. No fate is pre-written."
-            imageSrc="/images/story-1.png"
-            href="/lore"
-          />
+          {showLoreNav && (
+            <FeatureCard
+              title="Dynamic Narrative"
+              description="The story unfolds through community decisions and on-chain events. No fate is pre-written."
+              imageSrc="/images/story-1.png"
+              href="/lore"
+            />
+          )}
           <FeatureCard
             title="Character Growth"
             description="Watch your character grow, change, and adapt to the dark world through permanent metadata updates."
             imageSrc="/images/story-2.png"
             href="/characters"
           />
-          <FeatureCard
-            title="The Library"
-            description="Access the ever-expanding archives of history, prophecy, and forgotten truths."
-            imageSrc="/images/story-3.png"
-            href="/lore"
-          />
+          {showLoreNav && (
+            <FeatureCard
+              title="The Library"
+              description="Access the ever-expanding archives of history, prophecy, and forgotten truths."
+              imageSrc="/images/story-3.png"
+              href="/lore"
+            />
+          )}
         </Section>
 
         {/* Section 2: Rich Interactive Elements */}
@@ -278,12 +286,14 @@ export default function HomePage() {
             href="https://discord.gg/wagdie"
             isExternal
           />
-          <FeatureCard
-            title="Collaborative Lore"
-            description="Submit your character's backstory to be canonized in the official world history."
-            imageSrc="/images/community-2.png"
-            href="/lore"
-          />
+          {showLoreNav && (
+            <FeatureCard
+              title="Collaborative Lore"
+              description="Submit your character's backstory to be canonized in the official world history."
+              imageSrc="/images/community-2.png"
+              href="/lore"
+            />
+          )}
           <FeatureCard
             title="Open Development"
             description="The path is built together. Join the development discussions and contribute to the code."
