@@ -124,33 +124,40 @@ export function useCharacterChat(tokenId: string): UseCharacterChatReturn {
 
           if (!eventData) continue
 
+          let data: any
           try {
-            const data = JSON.parse(eventData)
-
-            switch (eventType) {
-              case 'token':
-                fullContent += data.token
-                setStreamingContent(fullContent)
-                break
-
-              case 'complete':
-                // Add assistant message (use server createdAt when available)
-                const assistantMessage: ChatMessage = {
-                  id: data.id,
-                  conversationId: data.conversationId,
-                  role: 'assistant',
-                  content: data.content,
-                  createdAt: data.createdAt ?? new Date().toISOString(),
-                }
-                setMessages(prev => [...prev, assistantMessage])
-                setConversationId(data.conversationId)
-                break
-
-              case 'error':
-                throw new Error(data.message || 'Chat failed')
-            }
+            data = JSON.parse(eventData)
           } catch (parseError) {
             console.error('[useCharacterChat] Failed to parse event:', parseError)
+            continue
+          }
+
+          switch (eventType) {
+            case 'token':
+              fullContent += data.token
+              setStreamingContent(fullContent)
+              break
+
+            case 'complete':
+              if (!fullContent && typeof data.content === 'string' && data.content.length > 0) {
+                fullContent = data.content
+                setStreamingContent(fullContent)
+              }
+
+              // Add assistant message (use server createdAt when available)
+              const assistantMessage: ChatMessage = {
+                id: data.id,
+                conversationId: data.conversationId,
+                role: 'assistant',
+                content: data.content,
+                createdAt: data.createdAt ?? new Date().toISOString(),
+              }
+              setMessages(prev => [...prev, assistantMessage])
+              setConversationId(data.conversationId)
+              break
+
+            case 'error':
+              throw new Error(data.message || 'Chat failed')
           }
         }
       }

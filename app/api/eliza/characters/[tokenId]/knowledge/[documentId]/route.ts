@@ -13,6 +13,9 @@ import {
   replaceKnowledgeDocuments,
   toKnowledgeDocumentResponse,
 } from '@/lib/eliza/knowledge'
+import { elizaConfig } from '@/lib/eliza/config'
+import { deleteKnowledgeDocumentFromOfficial } from '@/lib/eliza/knowledgeSync'
+import { authorizeElizaCharacterMutation } from '@/lib/eliza/routeAuth'
 
 interface RouteParams {
   params: Promise<{ tokenId: string; documentId: string }>
@@ -79,14 +82,53 @@ export async function DELETE(
   try {
     const { tokenId, documentId } = await params
 
-    if (!tokenId || !documentId) {
+    if (!documentId) {
       return NextResponse.json(
         { error: 'Token ID and Document ID are required' },
         { status: 400 }
       )
     }
 
-    const record = await getKnowledgeRecordByTokenId(tokenId)
+    const authorization = await authorizeElizaCharacterMutation(tokenId)
+
+    if (!authorization.authorized) {
+      if (authorization.reason === 'missing_token') {
+        return NextResponse.json(
+          { error: 'Token ID and Document ID are required' },
+          { status: 400 }
+        )
+      }
+
+      if (authorization.reason === 'invalid_token') {
+        return NextResponse.json(
+          { error: 'Invalid token ID' },
+          { status: 400 }
+        )
+      }
+
+      if (authorization.reason === 'unauthenticated') {
+        return NextResponse.json(
+          { error: 'UNAUTHORIZED', message: 'Wallet not connected' },
+          { status: 401 }
+        )
+      }
+
+      if (authorization.reason === 'not_found') {
+        return NextResponse.json(
+          { error: 'Character not found' },
+          { status: 404 }
+        )
+      }
+
+      return NextResponse.json(
+        { error: 'FORBIDDEN', message: 'Not character owner' },
+        { status: 403 }
+      )
+    }
+
+    const externalTokenId = authorization.externalId
+
+    const record = await getKnowledgeRecordByTokenId(externalTokenId)
 
     if (!record) {
       return NextResponse.json(
@@ -106,10 +148,27 @@ export async function DELETE(
       )
     }
 
-    await replaceKnowledgeDocuments(
+    const updatedRecord = await replaceKnowledgeDocuments(
       record,
       removeKnowledgeDocumentById(currentKnowledge, documentId)
     )
+
+    const syncResult = await deleteKnowledgeDocumentFromOfficial({
+      tokenId: externalTokenId,
+      record: updatedRecord,
+      document,
+    })
+
+    if (syncResult.attempted && !syncResult.ok) {
+      console.warn('[Knowledge API] Official knowledge delete sync failed:', syncResult.error)
+
+      if (elizaConfig.mode === 'official') {
+        return NextResponse.json(
+          { error: 'Failed to sync knowledge deletion' },
+          { status: 502 }
+        )
+      }
+    }
 
     return NextResponse.json(
       { success: true, message: 'Document deleted' },

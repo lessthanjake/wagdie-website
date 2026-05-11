@@ -2,6 +2,8 @@ import type { IronSession } from 'iron-session'
 import { NextResponse } from 'next/server'
 import type { UserSession } from '@/types/wallet'
 import type { ErrorResponse } from '@/types/eliza'
+import { elizaConfig } from '@/lib/eliza/config'
+import { createOfficialWalletUserId } from '@/lib/eliza/official/ids'
 
 /**
  * Normalize expiresAt to a milliseconds epoch timestamp.
@@ -57,7 +59,7 @@ export function requireWalletSession(
 export function requireElizaUserToken(
   session: IronSession<UserSession>,
   options?: { bufferMs?: number }
-): { accessToken: string; expiresAtMs: number } | NextResponse<ErrorResponse> {
+): { accessToken: string; expiresAtMs: number; officialUserId?: string } | NextResponse<ErrorResponse> {
   const bufferMs = typeof options?.bufferMs === 'number' ? options.bufferMs : 60000
 
   const tokens = session.eliza?.tokens
@@ -77,6 +79,30 @@ export function requireElizaUserToken(
       { error: 'TOKEN_EXPIRED', message: 'Eliza token expired. Please re-authenticate.' },
       { status: 401 }
     )
+  }
+
+  if (elizaConfig.mode === 'official') {
+    if (tokens?.mode !== 'official' || typeof session.address !== 'string') {
+      return NextResponse.json(
+        { error: 'NO_TOKEN', message: 'No Eliza token found. Please authenticate with Eliza.' },
+        { status: 401 }
+      )
+    }
+
+    const officialUserId = createOfficialWalletUserId(session.address)
+
+    if (tokens.officialUserId && tokens.officialUserId !== officialUserId) {
+      return NextResponse.json(
+        { error: 'NO_TOKEN', message: 'No Eliza token found. Please authenticate with Eliza.' },
+        { status: 401 }
+      )
+    }
+
+    return {
+      accessToken,
+      expiresAtMs,
+      officialUserId,
+    }
   }
 
   return { accessToken, expiresAtMs }

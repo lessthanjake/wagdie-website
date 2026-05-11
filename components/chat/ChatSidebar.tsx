@@ -186,14 +186,14 @@ function ChatSidebarComponent({
   }, [getToken])
 
   const handleSend = useCallback(
-    (content: string) => {
-      void (async () => {
-        const token = await getToken()
-        if (!token) {
-          return
-        }
-        await sendMessage(content)
-      })()
+    async (content: string): Promise<boolean> => {
+      const token = await getToken()
+      if (!token) {
+        return false
+      }
+
+      await sendMessage(content)
+      return true
     },
     [getToken, sendMessage]
   )

@@ -12,6 +12,9 @@ import {
   replaceKnowledgeDocuments,
   toKnowledgeDocumentSummary,
 } from '@/lib/eliza/knowledge'
+import { elizaConfig } from '@/lib/eliza/config'
+import { syncKnowledgeDocumentToOfficial } from '@/lib/eliza/knowledgeSync'
+import { authorizeElizaCharacterMutation } from '@/lib/eliza/routeAuth'
 import { FIELD_LIMITS } from '@/types/eliza'
 import { randomUUID } from 'crypto'
 
@@ -83,12 +86,44 @@ export async function POST(
   try {
     const { tokenId } = await params
 
-    if (!tokenId) {
+    const authorization = await authorizeElizaCharacterMutation(tokenId)
+
+    if (!authorization.authorized) {
+      if (authorization.reason === 'missing_token') {
+        return NextResponse.json(
+          { error: 'Token ID is required' },
+          { status: 400 }
+        )
+      }
+
+      if (authorization.reason === 'invalid_token') {
+        return NextResponse.json(
+          { error: 'Invalid token ID' },
+          { status: 400 }
+        )
+      }
+
+      if (authorization.reason === 'unauthenticated') {
+        return NextResponse.json(
+          { error: 'UNAUTHORIZED', message: 'Wallet not connected' },
+          { status: 401 }
+        )
+      }
+
+      if (authorization.reason === 'not_found') {
+        return NextResponse.json(
+          { error: 'Character not found' },
+          { status: 404 }
+        )
+      }
+
       return NextResponse.json(
-        { error: 'Token ID is required' },
-        { status: 400 }
+        { error: 'FORBIDDEN', message: 'Not character owner' },
+        { status: 403 }
       )
     }
+
+    const externalTokenId = authorization.externalId
 
     // Parse multipart form data
     const formData = await request.formData()
@@ -125,7 +160,7 @@ export async function POST(
     const content = await file.text()
 
     // Get current character using canonical record lookup
-    const record = await getKnowledgeRecordByTokenId(tokenId)
+    const record = await getKnowledgeRecordByTokenId(externalTokenId)
 
     if (!record) {
       return NextResponse.json(
@@ -152,10 +187,27 @@ export async function POST(
       content,
     }
 
-    await replaceKnowledgeDocuments(
+    const updatedRecord = await replaceKnowledgeDocuments(
       record,
       appendKnowledgeDocument(currentKnowledge, newDocument)
     )
+
+    const syncResult = await syncKnowledgeDocumentToOfficial({
+      tokenId: externalTokenId,
+      record: updatedRecord,
+      document: newDocument,
+    })
+
+    if (syncResult.attempted && !syncResult.ok) {
+      console.warn('[Knowledge API] Official knowledge sync failed:', syncResult.error)
+
+      if (elizaConfig.mode === 'official') {
+        return NextResponse.json(
+          { error: 'Failed to sync knowledge document' },
+          { status: 502 }
+        )
+      }
+    }
 
     // Return the new document (without full content)
     return NextResponse.json(

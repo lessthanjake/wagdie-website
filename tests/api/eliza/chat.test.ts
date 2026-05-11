@@ -5,12 +5,14 @@
 import { NextRequest } from 'next/server'
 import { POST as chatHandler } from '@/app/api/eliza/chat/route'
 import { getSession } from '@/lib/auth/session'
-import { getElizaClient, createUserClient } from '@/lib/eliza/client'
+import { getElizaClient } from '@/lib/eliza/client'
 import { resolveCharacterByTokenId } from '@/lib/eliza/characterResolver'
 import { getCharacter } from '@/lib/services/character-service'
+import { elizaConfig } from '@/lib/eliza/config'
+import { getOfficialElizaUserIdForWallet } from '@/lib/eliza/authBridge'
 
 jest.mock('@/lib/auth/session', () => ({ getSession: jest.fn() }))
-jest.mock('@/lib/eliza/client', () => ({ getElizaClient: jest.fn(), createUserClient: jest.fn() }))
+jest.mock('@/lib/eliza/client', () => ({ getElizaClient: jest.fn() }))
 jest.mock('@/lib/eliza/characterResolver', () => ({ resolveCharacterByTokenId: jest.fn() }))
 jest.mock('@/lib/services/character-service', () => ({ getCharacter: jest.fn() }))
 
@@ -32,8 +34,15 @@ async function drainStream(body: ReadableStream<Uint8Array> | null): Promise<voi
 }
 
 describe('Eliza Chat API Route', () => {
+  const originalMode = elizaConfig.mode
+
   beforeEach(() => {
     jest.clearAllMocks()
+    elizaConfig.mode = 'legacy'
+  })
+
+  afterAll(() => {
+    elizaConfig.mode = originalMode
   })
 
   it('should return 401 when wallet session is missing', async () => {
@@ -118,7 +127,56 @@ describe('Eliza Chat API Route', () => {
     expect(data.message).toContain('WAGDIE character not found')
   })
 
-  it('should use server client for resolveCharacterByTokenId and user client for sendMessageStream', async () => {
+  it('passes stable wallet-derived official user id to chat stream in official mode', async () => {
+    elizaConfig.mode = 'official'
+
+    const address = '0x0000000000000000000000000000000000000abc'
+    const officialUserId = getOfficialElizaUserIdForWallet(address)
+
+    ;(getSession as jest.Mock).mockResolvedValueOnce({
+      address,
+      eliza: {
+        tokens: {
+          accessToken: 'wagdie_eliza_token',
+          expiresAt: Date.now() + 60 * 60 * 1000,
+          mode: 'official',
+          officialUserId,
+        },
+      },
+    })
+
+    ;(getCharacter as jest.Mock).mockResolvedValueOnce({
+      name: 'Test Character',
+      background_story: 'Backstory',
+    })
+
+    const sendMessageStream = jest.fn(async (_payload: any, callbacks: any) => {
+      callbacks.onComplete(
+        { id: 'msg-1', content: 'Hi', createdAt: new Date().toISOString() },
+        'conv-1'
+      )
+    })
+
+    ;(getElizaClient as jest.Mock).mockReturnValue({ chat: { sendMessageStream } })
+    ;(resolveCharacterByTokenId as jest.Mock).mockResolvedValueOnce({
+      id: 'record-1',
+      character: { name: 'Test Character', bio: ['Bio'] },
+    })
+
+    const response = await chatHandler(createNextRequest({ tokenId: '1', message: 'Hello' }))
+    await drainStream(response.body as any)
+
+    expect(sendMessageStream).toHaveBeenCalledWith(
+      expect.objectContaining({
+        characterId: 'record-1',
+        message: 'Hello',
+        userId: officialUserId,
+      }),
+      expect.any(Object)
+    )
+  })
+
+  it('should use server gateway for character resolution and Venice-backed chat streaming', async () => {
     ;(getSession as jest.Mock).mockResolvedValueOnce({
       address: '0xabc',
       eliza: {
@@ -134,8 +192,7 @@ describe('Eliza Chat API Route', () => {
       background_story: 'Backstory',
     })
 
-    const serverClient = { __type: 'server-client' }
-    const sendMessageStream = jest.fn(async (_characterId: string, _payload: any, callbacks: any) => {
+    const sendMessageStream = jest.fn(async (_payload: any, callbacks: any) => {
       callbacks.onChunk('H')
       callbacks.onChunk('i')
       callbacks.onComplete(
@@ -144,22 +201,21 @@ describe('Eliza Chat API Route', () => {
       )
     })
 
-    const userClient = {
-      __type: 'user-client',
+    const serverClient = {
+      __type: 'server-client',
       chat: { sendMessageStream },
     }
 
     ;(getElizaClient as jest.Mock).mockReturnValue(serverClient)
-    ;(createUserClient as jest.Mock).mockReturnValue(userClient)
 
     ;(resolveCharacterByTokenId as jest.Mock).mockResolvedValueOnce({
       id: 'record-1',
+      character: { name: 'Test Character', bio: ['Bio'] },
     })
 
     const response = await chatHandler(createNextRequest({ tokenId: '1', message: 'Hello' }))
 
     expect(getElizaClient).toHaveBeenCalledTimes(1)
-    expect(createUserClient).toHaveBeenCalledWith('user-access-token')
 
     expect(resolveCharacterByTokenId).toHaveBeenCalledTimes(1)
     expect(resolveCharacterByTokenId).toHaveBeenCalledWith(
@@ -175,8 +231,13 @@ describe('Eliza Chat API Route', () => {
 
     expect(sendMessageStream).toHaveBeenCalledTimes(1)
     expect(sendMessageStream).toHaveBeenCalledWith(
-      'record-1',
-      expect.objectContaining({ message: 'Hello', conversationId: undefined }),
+      expect.objectContaining({
+        characterId: 'record-1',
+        character: { name: 'Test Character', bio: ['Bio'] },
+        message: 'Hello',
+        conversationId: undefined,
+        signal: expect.any(AbortSignal),
+      }),
       expect.any(Object)
     )
   })

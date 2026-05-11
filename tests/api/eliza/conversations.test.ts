@@ -8,6 +8,8 @@ import { GET as getHandler, DELETE as deleteHandler } from '@/app/api/eliza/conv
 import { getSession } from '@/lib/auth/session'
 import { getElizaClient, createUserClient } from '@/lib/eliza/client'
 import { getRecordIdByTokenId } from '@/lib/eliza/characterResolver'
+import { elizaConfig } from '@/lib/eliza/config'
+import { getOfficialElizaUserIdForWallet } from '@/lib/eliza/authBridge'
 
 jest.mock('@/lib/auth/session', () => ({ getSession: jest.fn() }))
 jest.mock('@/lib/eliza/client', () => ({ getElizaClient: jest.fn(), createUserClient: jest.fn() }))
@@ -18,8 +20,15 @@ function createListRequest(url: string) {
 }
 
 describe('Eliza Conversations API Routes', () => {
+  const originalMode = elizaConfig.mode
+
   beforeEach(() => {
     jest.clearAllMocks()
+    elizaConfig.mode = 'legacy'
+  })
+
+  afterAll(() => {
+    elizaConfig.mode = originalMode
   })
 
   describe('401 when wallet missing', () => {
@@ -200,6 +209,96 @@ describe('Eliza Conversations API Routes', () => {
       expect(response.status).toBe(200)
       expect(createUserClient).toHaveBeenCalledWith('user-token')
       expect(userClient.conversations.delete).toHaveBeenCalledWith('conv-1')
+    })
+  })
+
+  describe('official mode route wiring', () => {
+    it('list/get/delete pass wallet-derived official identity into the user client', async () => {
+      elizaConfig.mode = 'official'
+      const officialUserId = getOfficialElizaUserIdForWallet('0xAbC')
+      ;(getSession as jest.Mock)
+        .mockResolvedValueOnce({
+          address: '0xAbC',
+          eliza: {
+            tokens: {
+              accessToken: 'wagdie_eliza_token',
+              expiresAt: Date.now() + 60 * 60 * 1000,
+              mode: 'official',
+              officialUserId,
+            },
+          },
+        })
+        .mockResolvedValueOnce({
+          address: '0xAbC',
+          eliza: {
+            tokens: {
+              accessToken: 'wagdie_eliza_token',
+              expiresAt: Date.now() + 60 * 60 * 1000,
+              mode: 'official',
+              officialUserId,
+            },
+          },
+        })
+        .mockResolvedValueOnce({
+          address: '0xAbC',
+          eliza: {
+            tokens: {
+              accessToken: 'wagdie_eliza_token',
+              expiresAt: Date.now() + 60 * 60 * 1000,
+              mode: 'official',
+              officialUserId,
+            },
+          },
+        })
+
+      const userClient = {
+        conversations: {
+          list: jest.fn().mockResolvedValueOnce({
+            items: [],
+            total: 0,
+            page: 1,
+            pageSize: 20,
+            hasMore: false,
+          }),
+          get: jest.fn().mockResolvedValueOnce({
+            id: 'conv-1',
+            characterId: 'char-1',
+            messageCount: 0,
+            createdAt: '2026-05-10T00:00:00.000Z',
+            lastMessageAt: '2026-05-10T00:00:00.000Z',
+            messages: [],
+          }),
+          delete: jest.fn().mockResolvedValueOnce(undefined),
+          listForCharacter: jest.fn(),
+        },
+      }
+
+      ;(createUserClient as jest.Mock).mockReturnValue(userClient)
+
+      await listHandler(createListRequest('http://localhost/api/eliza/conversations?page=1&pageSize=20'))
+      await getHandler(createListRequest('http://localhost/api/eliza/conversations/conv-1'), {
+        params: Promise.resolve({ conversationId: 'conv-1' }),
+      })
+      await deleteHandler(createListRequest('http://localhost/api/eliza/conversations/conv-1'), {
+        params: Promise.resolve({ conversationId: 'conv-1' }),
+      })
+
+      expect(createUserClient).toHaveBeenCalledTimes(3)
+      expect(createUserClient).toHaveBeenNthCalledWith(1, {
+        accessToken: 'wagdie_eliza_token',
+        officialUserId,
+        walletAddress: '0xabc',
+      })
+      expect(createUserClient).toHaveBeenNthCalledWith(2, {
+        accessToken: 'wagdie_eliza_token',
+        officialUserId,
+        walletAddress: '0xabc',
+      })
+      expect(createUserClient).toHaveBeenNthCalledWith(3, {
+        accessToken: 'wagdie_eliza_token',
+        officialUserId,
+        walletAddress: '0xabc',
+      })
     })
   })
 

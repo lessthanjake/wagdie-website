@@ -15,6 +15,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getSession } from '@/lib/auth/session'
 import { getElizaClient, createUserClient } from '@/lib/eliza/client'
+import { elizaConfig } from '@/lib/eliza/config'
 import { requireWalletSession, requireElizaUserToken } from '@/lib/eliza/sessionAuth'
 import { getRecordIdByTokenId } from '@/lib/eliza/characterResolver'
 import type { Conversation, ErrorResponse } from '@/types/eliza'
@@ -45,7 +46,15 @@ export async function GET(
     }
 
     const userAddress = walletResult.address
-    const userClient = createUserClient(tokenResult.accessToken)
+    const userClient = createUserClient(
+      elizaConfig.mode === 'official'
+        ? {
+            accessToken: tokenResult.accessToken,
+            officialUserId: tokenResult.officialUserId,
+            walletAddress: userAddress,
+          }
+        : tokenResult.accessToken
+    )
 
     // Parse query parameters
     const { searchParams } = new URL(request.url)

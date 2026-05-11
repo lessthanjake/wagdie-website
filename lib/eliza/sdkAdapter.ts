@@ -1,13 +1,11 @@
 /**
  * Eliza SDK Adapter (v0.2.0)
  *
- * Stable facade for all @eliza/sdk imports + data-shape mappings so the rest of
- * the app can remain stable while we migrate SDK versions.
+ * Stable facade for Eliza data-shape mappings so the rest of the app can remain
+ * stable while we migrate away from the local SDK runtime.
  */
 
-import { ElizaError } from '@eliza/sdk'
-
-export { ElizaError }
+export { ElizaError, WagdieElizaError, isElizaError, isWagdieElizaError } from './gateway/errors'
 
 export type {
   AgentCharacter,

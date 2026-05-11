@@ -2,17 +2,19 @@
  * Chat Message Proxy Endpoint (Streaming)
  * POST /api/eliza/chat
  *
- * Sends message to AI character and streams response via Server-Sent Events.
- * Uses SDK StreamCallbacks (onChunk, onComplete, onError) format.
+ * Sends message to an AI character and streams gateway output via Server-Sent Events.
+ * Legacy/dual mode uses the app-owned gateway; official mode streams from the
+ * WAGDIE-hosted ElizaOS adapter. The route preserves the existing frontend
+ * `token`/`complete`/`error` SSE event contract.
  */
 
 import { NextRequest, NextResponse } from 'next/server'
 import { getSession } from '@/lib/auth/session'
-import { getElizaClient, createUserClient } from '@/lib/eliza/client'
+import { getElizaClient } from '@/lib/eliza/client'
 import { requireWalletSession, requireElizaUserToken } from '@/lib/eliza/sessionAuth'
 import { resolveCharacterByTokenId } from '@/lib/eliza/characterResolver'
 import { getCharacter } from '@/lib/services/character-service'
-import type { StreamCallbacks, ChatMessage } from '@eliza/sdk'
+import type { StreamCallbacks, ChatMessage } from '@/lib/eliza/gateway/types'
 
 export const runtime = 'nodejs'
 
@@ -37,7 +39,9 @@ export async function POST(request: NextRequest): Promise<Response> {
       return tokenResult
     }
 
-    const { accessToken } = tokenResult
+    // Keep the existing route contract: callers must complete the Eliza auth
+    // token flow before chatting. In official mode this is a WAGDIE app gate,
+    // not an ElizaOS credential.
 
     // Parse request body
     const body: ChatRequest = await request.json()
@@ -58,6 +62,11 @@ export async function POST(request: NextRequest): Promise<Response> {
       )
     }
 
+    console.info('[Eliza Chat] Request accepted', {
+      tokenId: body.tokenId,
+      hasConversationId: Boolean(body.conversationId),
+    })
+
     // Verify character exists in WAGDIE database
     const wagdieCharacter = await getCharacter(parsedTokenId)
     if (!wagdieCharacter) {
@@ -68,7 +77,6 @@ export async function POST(request: NextRequest): Promise<Response> {
     }
 
     const serverClient = getElizaClient()
-    const userClient = createUserClient(accessToken)
 
     // Resolve or auto-create character in Eliza (FR-011) via centralized resolver
     // IMPORTANT: use serverClient for record resolution/creation (may require API key on live endpoint)
@@ -83,17 +91,25 @@ export async function POST(request: NextRequest): Promise<Response> {
 
     // Create SSE stream
     const encoder = new TextEncoder()
+    let upstreamAbortController: AbortController | null = null
     const stream = new ReadableStream({
       async start(controller) {
         try {
-          // Use SDK StreamCallbacks interface
+          // Use gateway StreamCallbacks interface
           const callbacks: StreamCallbacks = {
             onChunk: (chunk: string) => {
-              // Map SDK onChunk to existing 'token' event format for frontend compatibility
+              // Map gateway onChunk to existing 'token' event format for frontend compatibility
               const event = `event: token\ndata: ${JSON.stringify({ token: chunk })}\n\n`
               controller.enqueue(encoder.encode(event))
             },
             onComplete: (message: ChatMessage, conversationId: string) => {
+              console.info('[Eliza Chat] Stream complete', {
+                tokenId: body.tokenId,
+                conversationId,
+                hasContent: Boolean(message.content),
+                contentLength: message.content?.length ?? 0,
+              })
+
               // Include message.id and message.createdAt for improved client fidelity
               const event = `event: complete\ndata: ${JSON.stringify({
                 id: message.id,
@@ -110,27 +126,54 @@ export async function POST(request: NextRequest): Promise<Response> {
                   ? String(error.message)
                   : 'Chat failed'
 
+              console.error('[Eliza Chat] Stream error', {
+                tokenId: body.tokenId,
+                hasConversationId: Boolean(body.conversationId),
+                message,
+              })
+
               const event = `event: error\ndata: ${JSON.stringify({ message })}\n\n`
               controller.enqueue(encoder.encode(event))
               controller.close()
             },
           }
 
-          // IMPORTANT: use userClient for chat streaming (user-scoped auth token)
-          await userClient.chat.sendMessageStream(
-            record.id,
+          upstreamAbortController = new AbortController()
+
+          // The gateway adapter owns upstream streaming. In legacy/dual mode this
+          // may call the app-owned Venice-backed path; in official mode it calls
+          // the hosted ElizaOS service and normalizes official SSE chunks to this
+          // route's existing frontend event contract.
+          await serverClient.chat.sendMessageStream(
             {
+              characterId: record.id,
+              character: record.character,
               message: body.message,
               conversationId: body.conversationId,
+              userId: tokenResult.officialUserId,
+              walletAddress: walletResult.address,
+              tokenId: body.tokenId,
+              signal: upstreamAbortController.signal,
             },
             callbacks
           )
         } catch (error) {
           const message = error instanceof Error ? error.message : 'Chat failed'
+          console.error('[Eliza Chat] Stream setup failed', {
+            tokenId: body.tokenId,
+            hasConversationId: Boolean(body.conversationId),
+            message,
+            details: error && typeof error === 'object' && 'details' in error
+              ? (error as { details?: unknown }).details
+              : undefined,
+          })
           const event = `event: error\ndata: ${JSON.stringify({ message })}\n\n`
           controller.enqueue(encoder.encode(event))
           controller.close()
         }
+      },
+      cancel() {
+        upstreamAbortController?.abort()
       },
     })
 

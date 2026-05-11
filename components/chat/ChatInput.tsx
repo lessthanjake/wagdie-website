@@ -7,7 +7,7 @@ import { useState, useCallback, useRef, useEffect, memo, KeyboardEvent } from 'r
 import { Button } from '@/components/ui'
 
 interface ChatInputProps {
-  onSend: (message: string) => void
+  onSend: (message: string) => boolean | void | Promise<boolean | void>
   disabled?: boolean
   placeholder?: string
 }
@@ -30,15 +30,19 @@ function ChatInputComponent({
   }, [message])
 
   const handleSend = useCallback(() => {
-    const trimmed = message.trim()
-    if (trimmed && !disabled) {
-      onSend(trimmed)
+    void (async () => {
+      const trimmed = message.trim()
+      if (!trimmed || disabled) return
+
+      const shouldClear = await onSend(trimmed)
+      if (shouldClear === false) return
+
       setMessage('')
       // Reset textarea height
       if (textareaRef.current) {
         textareaRef.current.style.height = 'auto'
       }
-    }
+    })()
   }, [message, disabled, onSend])
 
   const handleKeyDown = useCallback(

@@ -9,6 +9,7 @@ import { jsonNoStore, jsonNoStoreError } from '@/lib/api/responses'
 import { getCharacter, updateCharacter } from '@/lib/services/character-service'
 import { getSession } from '@/lib/auth/session'
 import { isAdmin } from '@/lib/auth/admin'
+import { canEditCharacter } from '@/lib/auth/character-permissions'
 import {
   validateName,
   validateCoreStat,
@@ -20,7 +21,8 @@ import {
   validateExperience,
 } from '@/lib/utils/stat-validation'
 import type { CharacterUpdate } from '@/types/character'
-import type { Character } from '@/types/character'
+
+export { canEditCharacter } from '@/lib/auth/character-permissions'
 
 // Fields allowed for PATCH updates
 const ALLOWED_FIELDS = [
@@ -28,27 +30,6 @@ const ALLOWED_FIELDS = [
   'str', 'dex', 'con', 'int', 'wis', 'cha',
   'hp', 'max_hp', 'ac', 'speed', 'level', 'experience'
 ] as const
-
-/**
- * Check if a user can edit a character.
- * Allows editing if:
- * - User is an admin, OR
- * - User's address matches the owner_address (unstaked ownership), OR
- * - User's address matches the staker_address (staked ownership - user is the staker)
- */
-export function canEditCharacter(
-  character: Character,
-  userAddress: string,
-  userIsAdmin: boolean
-): boolean {
-  if (userIsAdmin) return true
-
-  const addr = userAddress.toLowerCase()
-  const owner = character.owner_address?.toLowerCase()
-  const staker = character.staker_address?.toLowerCase()
-
-  return owner === addr || staker === addr
-}
 
 /**
  * Handle GET request for a character

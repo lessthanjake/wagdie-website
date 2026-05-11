@@ -7,10 +7,10 @@
  */
 
 import { NextRequest, NextResponse } from 'next/server'
-import { getSession } from '@/lib/auth/session'
 import { getElizaClient } from '@/lib/eliza/client'
-import { isAdmin } from '@/lib/auth/admin'
-import { getCharacter } from '@/lib/services/character-service'
+import { elizaConfig } from '@/lib/eliza/config'
+import { recordPersonaMigrationSuccess, syncOfficialPersonaShadow } from '@/lib/eliza/personaMigration'
+import { authorizeElizaCharacterMutation } from '@/lib/eliza/routeAuth'
 import { getCharacterRecordByExternalId } from '@/lib/eliza/characterResolver'
 import {
   toAICharacterFromRecord,
@@ -82,45 +82,38 @@ export async function PUT(
   try {
     const { tokenId } = await params
 
-    // Validate tokenId
-    const parsedTokenId = parseInt(tokenId, 10)
-    if (isNaN(parsedTokenId) || parsedTokenId < 0) {
-      return NextResponse.json(
-        { error: 'INVALID_TOKEN_ID', message: 'Invalid token ID' },
-        { status: 400 }
-      )
-    }
+    const authorization = await authorizeElizaCharacterMutation(tokenId)
 
-    // Get user session
-    const session = await getSession()
-    if (!session.address) {
-      return NextResponse.json(
-        { error: 'UNAUTHORIZED', message: 'Wallet not connected' },
-        { status: 401 }
-      )
-    }
+    if (!authorization.authorized) {
+      if (authorization.reason === 'missing_token' || authorization.reason === 'invalid_token') {
+        return NextResponse.json(
+          { error: 'INVALID_TOKEN_ID', message: 'Invalid token ID' },
+          { status: 400 }
+        )
+      }
 
-    // Check if user is admin
-    const userIsAdmin = isAdmin(session.address)
+      if (authorization.reason === 'unauthenticated') {
+        return NextResponse.json(
+          { error: 'UNAUTHORIZED', message: 'Wallet not connected' },
+          { status: 401 }
+        )
+      }
 
-    // Check character ownership in WAGDIE database
-    const wagdieCharacter = await getCharacter(parsedTokenId)
+      if (authorization.reason === 'not_found') {
+        return NextResponse.json(
+          { error: 'NOT_FOUND', message: 'WAGDIE character not found' },
+          { status: 404 }
+        )
+      }
 
-    if (!wagdieCharacter) {
-      return NextResponse.json(
-        { error: 'NOT_FOUND', message: 'WAGDIE character not found' },
-        { status: 404 }
-      )
-    }
-
-    // Verify ownership (admins bypass this check)
-    const isOwner = wagdieCharacter.owner_address?.toLowerCase() === session.address.toLowerCase()
-    if (!userIsAdmin && !isOwner) {
       return NextResponse.json(
         { error: 'FORBIDDEN', message: 'Not character owner' },
         { status: 403 }
       )
     }
+
+    const wagdieCharacter = authorization.character
+    const externalTokenId = authorization.externalId
 
     // Parse request body
     const body: UpdateAICharacterInput = await request.json()
@@ -128,7 +121,7 @@ export async function PUT(
     const elizaClient = getElizaClient()
 
     // Use canonical record lookup by external ID
-    const existing = await getCharacterRecordByExternalId(elizaClient, tokenId)
+    const existing = await getCharacterRecordByExternalId(elizaClient, externalTokenId)
 
     let record
     if (existing) {
@@ -139,11 +132,11 @@ export async function PUT(
       record = await elizaClient.characters.replaceRecord(existing.id, { character: merged })
     } else {
       // Build new character using SDK adapter
-      const fallbackName = wagdieCharacter.name || `Character #${tokenId}`
+      const fallbackName = wagdieCharacter.name || `Character #${externalTokenId}`
       const name =
         typeof body.name === 'string' && body.name.trim().length > 0 ? body.name : fallbackName
 
-      const defaultPersonality = `A mysterious character from the world of WAGDIE. Character #${tokenId}.`
+      const defaultPersonality = `A mysterious character from the world of WAGDIE. Character #${externalTokenId}.`
 
       const character = toAgentCharacterFromAICharacter({
         name,
@@ -161,13 +154,26 @@ export async function PUT(
 
       // Use canonical createRecord to preserve unknown keys
       record = await elizaClient.characters.createRecord({
-        externalId: tokenId,
+        externalId: externalTokenId,
         character,
       })
     }
 
+    if (elizaConfig.mode === 'dual') {
+      await syncOfficialPersonaShadow({
+        tokenId: externalTokenId,
+        legacyCharacterId: record.id,
+        character: record.character,
+      })
+    } else if (elizaConfig.mode === 'official') {
+      await recordPersonaMigrationSuccess({
+        tokenId: externalTokenId,
+        officialAgentId: record.id,
+      })
+    }
+
     // Use SDK adapter to convert to AICharacter DTO
-    const aiCharacter = toAICharacterFromRecord(tokenId, record)
+    const aiCharacter = toAICharacterFromRecord(externalTokenId, record)
     return NextResponse.json(aiCharacter, { status: existing ? 200 : 201 })
   } catch (error) {
     console.error('[Eliza Characters] PUT failed:', error)

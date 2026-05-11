@@ -3,17 +3,18 @@
  * POST /api/eliza/auth/nonce
  *
  * 1) Requires an authenticated Wagdie session (session.address)
- * 2) Requests { nonce, sessionId } from Eliza
- * 3) Builds a SIWE message using @eliza/sdk createSIWEMessage()
+ * 2) Requests { nonce, sessionId } from legacy Eliza, or creates app-owned state in official mode
+ * 3) Builds a SIWE message using app-owned createSIWEMessage()
  * 4) Stores SIWE state in session.eliza.siwe
  * 5) Returns { sessionId, nonce, message, issuedAt } for the client to sign
  */
 
 import { NextRequest, NextResponse } from 'next/server'
-import { getSession } from '@/lib/auth/session'
+import { randomUUID } from 'crypto'
+import { getSession, generateNonce } from '@/lib/auth/session'
 import { getElizaClient } from '@/lib/eliza/client'
 import { elizaConfig } from '@/lib/eliza/config'
-import { createSIWEMessage } from '@eliza/sdk'
+import { createSIWEMessage } from '@/lib/eliza/siwe'
 
 type ElizaAuthNonceResponse = {
   sessionId: string
@@ -59,10 +60,14 @@ export async function POST(
       )
     }
 
-    const elizaClient = getElizaClient()
+    const isOfficialMode = elizaConfig.mode === 'official'
 
-    // Step 1: get nonce/sessionId from Eliza
-    const { nonce, sessionId } = await elizaClient.auth.getNonce()
+    // Step 1: get nonce/sessionId from legacy Eliza, or create WAGDIE-owned state
+    // in official mode. The official ElizaOS service is server-to-server only and
+    // is not part of the browser-facing SIWE challenge.
+    const { nonce, sessionId } = isOfficialMode
+      ? { nonce: generateNonce(), sessionId: `wagdie-official-${randomUUID()}` }
+      : await getElizaClient().auth.getNonce()
 
     // Step 2: build the SIWE message for Eliza (client will sign this exact string)
     const issuedAt = new Date().toISOString()

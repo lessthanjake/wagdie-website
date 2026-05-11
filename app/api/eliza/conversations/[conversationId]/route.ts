@@ -7,6 +7,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getSession } from '@/lib/auth/session'
 import { createUserClient } from '@/lib/eliza/client'
+import { elizaConfig } from '@/lib/eliza/config'
 import { requireWalletSession, requireElizaUserToken } from '@/lib/eliza/sessionAuth'
 import type { ConversationDetail, ChatMessage, ErrorResponse } from '@/types/eliza'
 
@@ -40,19 +41,27 @@ export async function GET(
     const { conversationId } = await params
 
     // Get user-scoped Eliza client
-    const userClient = createUserClient(tokenResult.accessToken)
+    const userClient = createUserClient(
+      elizaConfig.mode === 'official'
+        ? {
+            accessToken: tokenResult.accessToken,
+            officialUserId: tokenResult.officialUserId,
+            walletAddress: userAddress,
+          }
+        : tokenResult.accessToken
+    )
 
     // Fetch conversation details (user-scoped)
     // SDK returns ConversationDetail with { id, characterId, characterName, messageCount, lastMessageAt, createdAt, messages }
     const sdkConversation = await userClient.conversations.get(conversationId)
 
     // Map SDK messages to our types
-    const messages: ChatMessage[] = sdkConversation.messages.map((msg: { id: string; role: 'user' | 'assistant'; content: string; createdAt: string }) => ({
+    const messages: ChatMessage[] = sdkConversation.messages.map((msg) => ({
       id: msg.id,
       conversationId: conversationId,
       role: msg.role,
       content: msg.content,
-      createdAt: msg.createdAt,
+      createdAt: msg.createdAt ?? sdkConversation.createdAt,
     }))
 
     const response: ConversationDetail = {
@@ -119,7 +128,15 @@ export async function DELETE(
     const { conversationId } = await params
 
     // Get user-scoped Eliza client
-    const userClient = createUserClient(tokenResult.accessToken)
+    const userClient = createUserClient(
+      elizaConfig.mode === 'official'
+        ? {
+            accessToken: tokenResult.accessToken,
+            officialUserId: tokenResult.officialUserId,
+            walletAddress: walletResult.address,
+          }
+        : tokenResult.accessToken
+    )
 
     // Delete the conversation (user-scoped)
     await userClient.conversations.delete(conversationId)

@@ -139,6 +139,67 @@ services:
       - ./volumes/db/data:/var/lib/postgresql/data:Z
       - ./volumes/db/init:/docker-entrypoint-initdb.d:Z
 
+  elizaos-db:
+    image: pgvector/pgvector:pg16
+    restart: unless-stopped
+    ports:
+      - "5433:5432"
+    environment:
+      POSTGRES_USER: ${ELIZA_POSTGRES_USER:-elizaos}
+      POSTGRES_PASSWORD: ${ELIZA_POSTGRES_PASSWORD:?Set ELIZA_POSTGRES_PASSWORD for the dedicated ElizaOS Postgres}
+      POSTGRES_DB: ${ELIZA_POSTGRES_DB:-elizaos}
+    volumes:
+      - elizaos-db-data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $${POSTGRES_USER:-elizaos} -d $${POSTGRES_DB:-elizaos}"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 10s
+    networks:
+      - default
+
+  elizaos:
+    build:
+      context: ./services/elizaos
+      dockerfile: Dockerfile
+    depends_on:
+      elizaos-db:
+        condition: service_healthy
+    ports:
+      - "3001:3001"
+    environment:
+      NODE_ENV: production
+      ELIZAOS_ENV: ${ELIZAOS_ENV:-development}
+      PORT: 3001
+      HOST: 0.0.0.0
+      DISABLE_WEB_UI: "true"
+      ELIZAOS_DATA_DIR: /app/data
+      DATABASE_URL: postgres://${ELIZA_POSTGRES_USER:-elizaos}:${ELIZA_POSTGRES_PASSWORD:?Set ELIZA_POSTGRES_PASSWORD for the dedicated ElizaOS Postgres}@elizaos-db:5432/${ELIZA_POSTGRES_DB:-elizaos}
+      POSTGRES_URL: postgres://${ELIZA_POSTGRES_USER:-elizaos}:${ELIZA_POSTGRES_PASSWORD:?Set ELIZA_POSTGRES_PASSWORD for the dedicated ElizaOS Postgres}@elizaos-db:5432/${ELIZA_POSTGRES_DB:-elizaos}
+      ELIZA_SERVER_AUTH_TOKEN: ${ELIZA_SERVER_AUTH_TOKEN:?Set ELIZA_SERVER_AUTH_TOKEN for WAGDIE app to ElizaOS auth}
+      WAGDIE_KNOWLEDGE_INGESTION_TOKEN: ${WAGDIE_KNOWLEDGE_INGESTION_TOKEN:?Set WAGDIE_KNOWLEDGE_INGESTION_TOKEN for ElizaOS knowledge ingestion}
+      WAGDIE_KNOWLEDGE_ALLOW_UNAUTHENTICATED_LOCAL: "false"
+      SERVER_API_KEY: ${SERVER_API_KEY:?Set SERVER_API_KEY for ElizaOS runtime auth}
+      VENICE_API_KEY: ${VENICE_API_KEY:?Set VENICE_API_KEY in the ElizaOS service secret store}
+      VENICE_BASE_URL: ${VENICE_BASE_URL:-https://api.venice.ai/api/v1}
+      VENICE_SMALL_MODEL: ${VENICE_SMALL_MODEL:-llama-3.3-70b}
+      VENICE_LARGE_MODEL: ${VENICE_LARGE_MODEL:-llama-3.1-405b}
+      VENICE_EMBEDDING_MODEL: ${VENICE_EMBEDDING_MODEL:-text-embedding-bge-m3}
+      VENICE_EMBEDDING_DIMENSIONS: ${VENICE_EMBEDDING_DIMENSIONS:-1024}
+    volumes:
+      - elizaos-data:/app/data
+    healthcheck:
+      test: ["CMD-SHELL", "bun -e \"fetch('http://127.0.0.1:3001/healthz').then((r) => process.exit(r.ok ? 0 : 1)).catch(() => process.exit(1))\""]
+      interval: 15s
+      timeout: 5s
+      retries: 12
+      start_period: 30s
+    networks:
+      - default
+      - homelab_homelab
+    restart: unless-stopped
+
   inbucket:
     image: inbucket/inbucket:stable
     restart: unless-stopped
@@ -157,13 +218,18 @@ services:
     ports:
       - "42069:3000"
     depends_on:
-      - kong
+      kong:
+        condition: service_started
     env_file:
       - .env.docker
     environment:
       NODE_ENV: production
       SUPABASE_URL: http://kong:8000
       NEXT_PUBLIC_SUPABASE_URL: http://localhost:8010
+      ELIZA_INTEGRATION_MODE: ${ELIZA_INTEGRATION_MODE:-legacy}
+      ELIZAOS_BASE_URL: ${ELIZAOS_BASE_URL:-http://elizaos:3001}
+      ELIZAOS_API_KEY: ${ELIZA_SERVER_AUTH_TOKEN:-}
+      ELIZAOS_HEALTH_PATH: ${ELIZAOS_HEALTH_PATH:-/api/server/health}
     networks:
       - default
       - homelab_homelab
@@ -314,3 +380,5 @@ volumes:
   searing-indexer-data:
   staking-indexer-data:
   concord-indexer-data:
+  elizaos-db-data:
+  elizaos-data:

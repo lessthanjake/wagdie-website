@@ -19,10 +19,23 @@
 import { NextRequest } from 'next/server'
 import { GET as exportHandler } from '@/app/api/eliza/characters/[tokenId]/export/route'
 import { POST as importHandler } from '@/app/api/eliza/characters/[tokenId]/import/route'
+import { getSession } from '@/lib/auth/session'
+import { elizaConfig } from '@/lib/eliza/config'
+import { recordPersonaMigrationSuccess, syncOfficialPersonaShadow } from '@/lib/eliza/personaMigration'
+import { getCharacter } from '@/lib/services/character-service'
 
 // Mock the Eliza client (canonical record APIs)
 const mockGetRecordByExternalId = jest.fn()
 const mockReplaceRecord = jest.fn()
+const mockIsAdmin = jest.fn()
+
+jest.mock('@/lib/auth/session', () => ({ getSession: jest.fn() }))
+jest.mock('@/lib/services/character-service', () => ({ getCharacter: jest.fn() }))
+jest.mock('@/lib/auth/admin', () => ({ isAdmin: (address: string) => mockIsAdmin(address) }))
+jest.mock('@/lib/eliza/personaMigration', () => ({
+  recordPersonaMigrationSuccess: jest.fn(),
+  syncOfficialPersonaShadow: jest.fn(),
+}))
 
 jest.mock('@/lib/eliza/client', () => ({
   getElizaClient: () => ({
@@ -178,8 +191,23 @@ describe('Export API Route', () => {
 })
 
 describe('Import API Route', () => {
+  const originalMode = elizaConfig.mode
+
   beforeEach(() => {
     jest.clearAllMocks()
+    elizaConfig.mode = 'legacy'
+    mockIsAdmin.mockReturnValue(false)
+    ;(getSession as jest.Mock).mockResolvedValue({ address: '0xOwner' })
+    ;(getCharacter as jest.Mock).mockResolvedValue({
+      token_id: 123,
+      name: 'Ash',
+      owner_address: '0xowner',
+      staker_address: null,
+    })
+  })
+
+  afterAll(() => {
+    elizaConfig.mode = originalMode
   })
 
   const createRequest = (body: unknown) => {
@@ -238,6 +266,89 @@ describe('Import API Route', () => {
           }),
         })
       )
+    })
+
+    it('should allow a current staker to import character data', async () => {
+      ;(getSession as jest.Mock).mockResolvedValueOnce({ address: '0xStaker' })
+      ;(getCharacter as jest.Mock).mockResolvedValueOnce({
+        token_id: 123,
+        owner_address: '0xowner',
+        staker_address: '0xstaker',
+      })
+      mockGetRecordByExternalId.mockResolvedValueOnce({
+        id: 'record-123',
+        character: { existingKey: 'keep-me' },
+      })
+      mockReplaceRecord.mockResolvedValueOnce({})
+
+      const response = await importHandler(
+        createRequest({ name: 'Imported Character', bio: ['Staker bio'] }),
+        createParams('123')
+      )
+
+      expect(response.status).toBe(200)
+      expect(mockReplaceRecord).toHaveBeenCalledWith(
+        'record-123',
+        expect.objectContaining({
+          character: expect.objectContaining({ bio: ['Staker bio'] }),
+        })
+      )
+    })
+
+    it('should allow admins to import character data without owner/staker match', async () => {
+      mockIsAdmin.mockReturnValueOnce(true)
+      ;(getSession as jest.Mock).mockResolvedValueOnce({ address: '0xAdmin' })
+      ;(getCharacter as jest.Mock).mockResolvedValueOnce({
+        token_id: 123,
+        owner_address: '0xowner',
+        staker_address: '0xstaker',
+      })
+      mockGetRecordByExternalId.mockResolvedValueOnce({
+        id: 'record-123',
+        character: { existingKey: 'keep-me' },
+      })
+      mockReplaceRecord.mockResolvedValueOnce({})
+
+      const response = await importHandler(
+        createRequest({ name: 'Imported Character', bio: ['Admin bio'] }),
+        createParams('123')
+      )
+
+      expect(response.status).toBe(200)
+      expect(mockReplaceRecord).toHaveBeenCalledWith(
+        'record-123',
+        expect.objectContaining({
+          character: expect.objectContaining({ bio: ['Admin bio'] }),
+        })
+      )
+    })
+
+    it('dual-writes imported persona to official mode without changing import response', async () => {
+      elizaConfig.mode = 'dual'
+
+      const updatedRecord = {
+        id: 'legacy-record-123',
+        character: { existingKey: 'keep-me', bio: ['Imported bio'] },
+      }
+      mockGetRecordByExternalId.mockResolvedValueOnce({
+        id: 'legacy-record-123',
+        character: { existingKey: 'keep-me' },
+      })
+      mockReplaceRecord.mockResolvedValueOnce(updatedRecord)
+      ;(syncOfficialPersonaShadow as jest.Mock).mockResolvedValueOnce({ attempted: true, ok: true })
+
+      const response = await importHandler(
+        createRequest({ name: 'Imported Character', bio: ['Imported bio'], lore: [] }),
+        createParams('123')
+      )
+
+      expect(response.status).toBe(200)
+      expect(syncOfficialPersonaShadow).toHaveBeenCalledWith({
+        tokenId: '123',
+        legacyCharacterId: 'legacy-record-123',
+        character: updatedRecord.character,
+      })
+      expect(recordPersonaMigrationSuccess).not.toHaveBeenCalled()
     })
 
     it('should convert Eliza message format to SDK format', async () => {
@@ -322,6 +433,51 @@ describe('Import API Route', () => {
       expect(response.status).toBe(400)
       const data = await response.json()
       expect(data.error).toBe('Token ID is required')
+    })
+
+    it.each(['123abc', '00123', '1e3'])(
+      'should return 400 for non-canonical token id %s before authorization',
+      async (tokenId) => {
+        const response = await importHandler(createRequest({ bio: ['Bio'] }), createParams(tokenId))
+
+        expect(response.status).toBe(400)
+        expect(getSession).not.toHaveBeenCalled()
+        expect(getCharacter).not.toHaveBeenCalled()
+        expect(mockReplaceRecord).not.toHaveBeenCalled()
+      }
+    )
+
+    it('should return 401 when importing without a wallet session', async () => {
+      ;(getSession as jest.Mock).mockResolvedValueOnce({})
+
+      const response = await importHandler(createRequest({ bio: ['Bio'] }), createParams('123'))
+
+      expect(response.status).toBe(401)
+      expect(getCharacter).not.toHaveBeenCalled()
+      expect(mockReplaceRecord).not.toHaveBeenCalled()
+    })
+
+    it('should return 403 when importing as a non-owner, non-staker wallet', async () => {
+      ;(getSession as jest.Mock).mockResolvedValueOnce({ address: '0xIntruder' })
+      ;(getCharacter as jest.Mock).mockResolvedValueOnce({
+        token_id: 123,
+        owner_address: '0xowner',
+        staker_address: '0xstaker',
+      })
+
+      const response = await importHandler(createRequest({ bio: ['Bio'] }), createParams('123'))
+
+      expect(response.status).toBe(403)
+      expect(mockReplaceRecord).not.toHaveBeenCalled()
+    })
+
+    it('should return 404 when importing for an unknown WAGDIE character', async () => {
+      ;(getCharacter as jest.Mock).mockResolvedValueOnce(null)
+
+      const response = await importHandler(createRequest({ bio: ['Bio'] }), createParams('123'))
+
+      expect(response.status).toBe(404)
+      expect(mockReplaceRecord).not.toHaveBeenCalled()
     })
 
     it('should return 400 for invalid JSON body', async () => {

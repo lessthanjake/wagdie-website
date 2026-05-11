@@ -7,7 +7,7 @@
  * - resolveCharacterByTokenId(): lookup + auto-create default character if missing
  */
 
-import type { ElizaClient } from '@eliza/sdk'
+import type { WagdieElizaClient } from '@/lib/eliza/gateway/types'
 import type { CharacterRecord, AgentCharacter } from '@/lib/eliza/sdkAdapter'
 import { toAgentCharacterFromAICharacter } from '@/lib/eliza/sdkAdapter'
 
@@ -60,12 +60,12 @@ function buildDefaultCharacter(params: {
  * This centralizes ID translation and avoids passing WAGDIE token IDs
  * into SDK methods that expect record IDs.
  *
- * @param elizaClient - The Eliza SDK client
+ * @param elizaClient - The Eliza gateway client
  * @param externalId - The external ID (e.g., WAGDIE tokenId)
  * @returns CharacterRecord or null if not found
  */
 export async function getCharacterRecordByExternalId(
-  elizaClient: ElizaClient,
+  elizaClient: WagdieElizaClient,
   externalId: string
 ): Promise<CharacterRecord | null> {
   const trimmedId = externalId.trim()
@@ -84,7 +84,7 @@ export async function getCharacterRecordByExternalId(
  * Uses canonical getCharacterRecordByExternalId internally.
  */
 export async function getCharacterByTokenId(params: {
-  elizaClient: ElizaClient
+  elizaClient: WagdieElizaClient
   tokenId: string
 }): Promise<CharacterRecord | null> {
   const tokenId = assertValidTokenId(params.tokenId)
@@ -97,7 +97,7 @@ export async function getCharacterByTokenId(params: {
  * Uses canonical createRecord to preserve unknown keys and ensure data round-trip.
  */
 export async function resolveCharacterByTokenId(params: {
-  elizaClient: ElizaClient
+  elizaClient: WagdieElizaClient
   tokenId: string
   wagdieDefaults: WagdieCharacterDefaults
 }): Promise<CharacterRecord> {
@@ -129,7 +129,7 @@ export async function resolveCharacterByTokenId(params: {
  * replaceRecord, conversations.listForCharacter, etc.
  */
 export async function getRecordIdByTokenId(
-  elizaClient: ElizaClient,
+  elizaClient: WagdieElizaClient,
   tokenId: string
 ): Promise<string | null> {
   const record = await getCharacterRecordByExternalId(elizaClient, tokenId)

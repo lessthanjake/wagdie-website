@@ -14,8 +14,8 @@ export type {
   ChatResponse as SDKChatResponse,
 } from '@/lib/eliza/sdkAdapter'
 
-// Re-export SDK errors (runtime import works correctly)
-export { ElizaError } from '@eliza/sdk'
+// Re-export app-owned gateway errors for backwards-compatible consumers.
+export { ElizaError, WagdieElizaError } from '@/lib/eliza/gateway/errors'
 
 // Define SDK types that aren't exported but we use locally
 export interface SDKChatMessage {

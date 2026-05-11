@@ -8,42 +8,26 @@
 
 import { NextResponse } from 'next/server'
 import { getSession } from '@/lib/auth/session'
-import { normalizeExpiresAt } from '@/lib/eliza/sessionAuth'
+import { requireWalletSession, requireElizaUserToken } from '@/lib/eliza/sessionAuth'
 import type { TokenResponse, ErrorResponse } from '@/types/eliza'
 
 export async function GET(): Promise<NextResponse<TokenResponse | ErrorResponse>> {
   try {
     const session = await getSession()
 
-    if (!session.address) {
-      return NextResponse.json(
-        { error: 'UNAUTHORIZED', message: 'Wallet not connected' },
-        { status: 401 }
-      )
+    const walletResult = requireWalletSession(session)
+    if (walletResult instanceof NextResponse) {
+      return walletResult
     }
 
-    const tokens = session.eliza?.tokens
-    if (!tokens?.accessToken) {
-      return NextResponse.json(
-        { error: 'NO_TOKEN', message: 'No Eliza token found. Please authenticate with Eliza.' },
-        { status: 401 }
-      )
-    }
-
-    // Normalize expiry to ms and check if expired
-    const expiresAtMs = normalizeExpiresAt(tokens.expiresAt)
-    const bufferMs = 60000 // 1 minute buffer
-
-    if (expiresAtMs <= Date.now() + bufferMs) {
-      return NextResponse.json(
-        { error: 'TOKEN_EXPIRED', message: 'Eliza token expired. Please re-authenticate.' },
-        { status: 401 }
-      )
+    const tokenResult = requireElizaUserToken(session)
+    if (tokenResult instanceof NextResponse) {
+      return tokenResult
     }
 
     return NextResponse.json({
-      accessToken: tokens.accessToken,
-      expiresAt: new Date(expiresAtMs).toISOString(),
+      accessToken: tokenResult.accessToken,
+      expiresAt: new Date(tokenResult.expiresAtMs).toISOString(),
     })
   } catch (error) {
     console.error('[Eliza Auth] Token status check failed:', error)

@@ -5,8 +5,8 @@
  * 1) Requires an authenticated Wagdie session (session.address)
  * 2) Requires session.eliza.siwe to exist (set by /api/eliza/auth/nonce)
  * 3) Accepts POST body with { signature }
- * 4) Calls elizaClient.auth.verify(message, signature, sessionId) with stored SIWE state
- * 5) Stores returned tokens in session.eliza.tokens
+ * 4) Legacy mode calls elizaClient.auth.verify(); official mode verifies SIWE in WAGDIE
+ * 5) Stores returned legacy tokens or an official-mode WAGDIE app gate token in session.eliza.tokens
  * 6) Returns { accessToken, expiresAt } (TokenResponse)
  *
  * If verification fails, clears the stored Eliza SIWE state to avoid replay / stale sessions.
@@ -15,7 +15,14 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getSession } from '@/lib/auth/session'
 import { getElizaClient } from '@/lib/eliza/client'
+import { elizaConfig } from '@/lib/eliza/config'
 import { normalizeExpiresAt } from '@/lib/eliza/sessionAuth'
+import { verifySiweMessage } from '@/lib/auth/siwe'
+import {
+  createWagdieElizaAppAccessToken,
+  getOfficialElizaAppTokenExpiresAt,
+  getOfficialElizaUserIdForWallet,
+} from '@/lib/eliza/authBridge'
 import type { TokenResponse, ErrorResponse } from '@/types/eliza'
 
 type VerifyRequestBody = {
@@ -64,9 +71,55 @@ export async function POST(
 
     const { message, sessionId } = session.eliza.siwe
 
-    const elizaClient = getElizaClient()
-
     attemptedVerify = true
+
+    if (elizaConfig.mode === 'official') {
+      const verification = await verifySiweMessage(message, signature)
+      const verifiedAddress = verification.address?.toLowerCase()
+      const sessionAddress = session.address.toLowerCase()
+
+      if (!verification.success || !verifiedAddress || verifiedAddress !== sessionAddress) {
+        session.eliza = undefined
+        await session.save()
+
+        return NextResponse.json(
+          { error: 'AUTH_FAILED', message: 'Authentication with Eliza failed' },
+          { status: 401 }
+        )
+      }
+
+      const expiresAtMs = getOfficialElizaAppTokenExpiresAt(session.expires)
+
+      if (!expiresAtMs) {
+        return NextResponse.json(
+          { error: 'TOKEN_EXPIRED', message: 'Eliza token expired. Please re-authenticate.' },
+          { status: 401 }
+        )
+      }
+
+      const accessToken = createWagdieElizaAppAccessToken()
+      const officialUserId = getOfficialElizaUserIdForWallet(session.address)
+
+      session.eliza = {
+        ...(session.eliza || {}),
+        siwe: session.eliza.siwe,
+        tokens: {
+          accessToken,
+          expiresAt: expiresAtMs,
+          mode: 'official',
+          officialUserId,
+        },
+      }
+
+      await session.save()
+
+      return NextResponse.json({
+        accessToken,
+        expiresAt: new Date(expiresAtMs).toISOString(),
+      })
+    }
+
+    const elizaClient = getElizaClient()
     const tokens = await elizaClient.auth.verify(message, signature, sessionId)
 
     // Normalize expiresAt to ms epoch
@@ -78,6 +131,7 @@ export async function POST(
       tokens: {
         accessToken: tokens.accessToken,
         expiresAt: expiresAtMs,
+        mode: 'legacy',
         // Persist refreshToken when present for future refresh support
         ...(tokens.refreshToken ? { refreshToken: tokens.refreshToken } : {}),
       },
