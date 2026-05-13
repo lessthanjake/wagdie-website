@@ -103,6 +103,49 @@ describe('Export API Route', () => {
       expect(data.topics).toContain('combat')
     })
 
+    it('should export safe parity fields and omit backend-owned fields', async () => {
+      mockGetRecordByExternalId.mockResolvedValueOnce({
+        id: 'record-123',
+        character: {
+          name: 'Parity Character',
+          username: 'parity',
+          system: 'Canonical system',
+          bio: ['Bio'],
+          lore: ['Lore'],
+          backstory: 'Backstory',
+          templates: { chat: 'Speak plainly' },
+          settings: {
+            avatar: 'avatar.png',
+            secrets: { token: 'do-not-export' },
+            wagdie: { officialAgentId: 'official-1' },
+            metadata: {
+              wagdieUser: { mood: 'grim' },
+              officialAgentId: 'official-1',
+            },
+          },
+          plugins: ['@secret/plugin'],
+        },
+      })
+
+      const response = await exportHandler(createRequest(), createParams('123'))
+      expect(response.status).toBe(200)
+
+      const data = await response.json()
+      expect(data.username).toBe('parity')
+      expect(data.system).toBe('Canonical system')
+      expect(data.systemPrompt).toBe('Canonical system')
+      expect(data.backstory).toBe('Backstory')
+      expect(data.templates).toEqual({ chat: 'Speak plainly' })
+      expect(data.settings).toEqual({
+        avatar: 'avatar.png',
+        metadata: { wagdieUser: { mood: 'grim' } },
+      })
+      expect(data.plugins).toBeUndefined()
+      expect(data.settings.secrets).toBeUndefined()
+      expect(data.settings.wagdie).toBeUndefined()
+      expect(data.settings.metadata.officialAgentId).toBeUndefined()
+    })
+
     it('should convert SDK message examples to Eliza format', async () => {
       mockGetRecordByExternalId.mockResolvedValueOnce({
         id: 'record-123',
@@ -263,6 +306,71 @@ describe('Import API Route', () => {
             topics: ['mystery', 'magic'],
             adjectives: ['mysterious', 'powerful'],
             postExamples: ['The shadows whisper...'],
+          }),
+        })
+      )
+    })
+
+    it('should import safe parity fields and skip backend-owned fields with warnings', async () => {
+      mockGetRecordByExternalId.mockResolvedValueOnce({
+        id: 'record-123',
+        character: {
+          existingKey: 'keep-me',
+          plugins: ['@backend/plugin'],
+          settings: {
+            secrets: { token: 'keep' },
+            wagdie: { officialAgentId: 'official-1' },
+            metadata: { officialAgentId: 'official-1' },
+          },
+        },
+      })
+      mockReplaceRecord.mockResolvedValueOnce({})
+
+      const response = await importHandler(
+        createRequest({
+          username: 'imported-user',
+          system: 'Canonical system',
+          systemPrompt: 'Legacy system',
+          backstory: 'Imported backstory',
+          templates: { chat: 'Use this template' },
+          settings: {
+            avatar: 'avatar.png',
+            secrets: { token: 'drop' },
+            metadata: {
+              wagdieUser: { mood: 'grim' },
+              officialAgentId: 'drop',
+            },
+          },
+          plugins: ['drop-me'],
+        }),
+        createParams('123')
+      )
+
+      expect(response.status).toBe(200)
+      const data = await response.json()
+      expect(data.imported).toEqual(expect.arrayContaining(['username', 'system', 'backstory', 'templates', 'settings']))
+      expect(data.skipped).toEqual(expect.arrayContaining(['plugins', 'settings.secrets', 'settings.metadata.officialAgentId']))
+      expect(data.warnings.join(' ')).toContain('systemPrompt was ignored')
+
+      expect(mockReplaceRecord).toHaveBeenCalledWith(
+        'record-123',
+        expect.objectContaining({
+          character: expect.objectContaining({
+            existingKey: 'keep-me',
+            plugins: ['@backend/plugin'],
+            username: 'imported-user',
+            system: 'Canonical system',
+            backstory: 'Imported backstory',
+            templates: { chat: 'Use this template' },
+            settings: expect.objectContaining({
+              secrets: { token: 'keep' },
+              wagdie: { officialAgentId: 'official-1' },
+              avatar: 'avatar.png',
+              metadata: expect.objectContaining({
+                officialAgentId: 'official-1',
+                wagdieUser: { mood: 'grim' },
+              }),
+            }),
           }),
         })
       )
@@ -544,7 +652,7 @@ describe('Import API Route', () => {
       )
     })
 
-    it('should skip empty arrays', async () => {
+    it('should import empty arrays as explicit clears', async () => {
       mockGetRecordByExternalId.mockResolvedValueOnce({
         id: 'record-123',
         character: {},
@@ -562,8 +670,8 @@ describe('Import API Route', () => {
       expect(response.status).toBe(200)
       const data = await response.json()
       expect(data.imported).toContain('bio')
-      expect(data.imported).not.toContain('lore')
-      expect(data.imported).not.toContain('topics')
+      expect(data.imported).toContain('lore')
+      expect(data.imported).toContain('topics')
     })
   })
 })

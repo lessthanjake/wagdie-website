@@ -13,6 +13,7 @@ interface CharacterStoryTabProps {
   isEditMode: boolean
   isOwner: boolean
   onChange: (story: string) => void
+  variant?: 'card' | 'inline'
 }
 
 export function CharacterStoryTab({
@@ -20,6 +21,7 @@ export function CharacterStoryTab({
   isEditMode,
   isOwner,
   onChange,
+  variant = 'card',
 }: CharacterStoryTabProps) {
   return (
     <SheetBackgroundStory
@@ -27,6 +29,7 @@ export function CharacterStoryTab({
       isEditMode={isEditMode}
       isOwner={isOwner}
       onChange={onChange}
+      variant={variant}
     />
   )
 }

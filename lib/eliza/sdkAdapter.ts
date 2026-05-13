@@ -35,6 +35,7 @@ export {
   applyWagdieUpdateToAgentCharacter,
   extractBackstory,
   mergeAgentCharacter,
+  readSystem,
   toAgentCharacterFromAICharacter,
   toAgentCharacterPatchFromUpdate,
   toAICharacterFromRecord,

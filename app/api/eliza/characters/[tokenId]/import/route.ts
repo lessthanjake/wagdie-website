@@ -9,9 +9,10 @@ import { getElizaClient } from '@/lib/eliza/client'
 import { elizaConfig } from '@/lib/eliza/config'
 import { recordPersonaMigrationSuccess, syncOfficialPersonaShadow } from '@/lib/eliza/personaMigration'
 import { getCharacterRecordByExternalId } from '@/lib/eliza/characterResolver'
-import { fromElizaExportMessageExamples } from '@/lib/eliza/sdkAdapter'
+import { mergeAgentCharacter } from '@/lib/eliza/sdkAdapter'
 import { authorizeElizaCharacterMutation } from '@/lib/eliza/routeAuth'
 import { elizaCharacterExportSchema } from '@/lib/eliza/validation'
+import { normalizeCharacterSheetImport } from '@/lib/eliza/character-sheet-policy'
 
 interface RouteParams {
   params: Promise<{ tokenId: string }>
@@ -99,90 +100,12 @@ export async function POST(
       )
     }
 
-    const importData = parseResult.data
+    const importResult = normalizeCharacterSheetImport(body)
     const result: ImportResult = {
       success: true,
-      imported: [],
-      skipped: [],
-      warnings: [],
-    }
-
-    // Build update input from imported data
-    // Note: SDK's UpdateCharacterInput doesn't include all Eliza character fields
-    const updateData: Record<string, unknown> = {}
-
-    // Import bio (required)
-    if (importData.bio && importData.bio.length > 0) {
-      updateData.bio = importData.bio
-      result.imported.push('bio')
-    }
-
-    // Import lore
-    if (importData.lore && importData.lore.length > 0) {
-      updateData.lore = importData.lore
-      result.imported.push('lore')
-    }
-
-    // Import topics
-    if (importData.topics && importData.topics.length > 0) {
-      updateData.topics = importData.topics
-      result.imported.push('topics')
-    }
-
-    // Import adjectives
-    if (importData.adjectives && importData.adjectives.length > 0) {
-      updateData.adjectives = importData.adjectives
-      result.imported.push('adjectives')
-    }
-
-    // Import style
-    if (importData.style) {
-      const hasContent =
-        (importData.style.all && importData.style.all.length > 0) ||
-        (importData.style.chat && importData.style.chat.length > 0) ||
-        (importData.style.post && importData.style.post.length > 0)
-
-      if (hasContent) {
-        updateData.style = importData.style
-        result.imported.push('style')
-      }
-    }
-
-    // Import message examples - use SDK adapter to convert Eliza format to canonical format
-    if (importData.messageExamples && importData.messageExamples.length > 0) {
-      const canonicalMessageExamples = fromElizaExportMessageExamples(importData.messageExamples)
-
-      if (canonicalMessageExamples && canonicalMessageExamples.length > 0) {
-        updateData.messageExamples = canonicalMessageExamples
-        result.imported.push('messageExamples')
-      }
-    }
-
-    // Import post examples
-    if (importData.postExamples && importData.postExamples.length > 0) {
-      updateData.postExamples = importData.postExamples
-      result.imported.push('postExamples')
-    }
-
-    // Import system prompt
-    if (importData.systemPrompt) {
-      updateData.systemPrompt = importData.systemPrompt
-      result.imported.push('systemPrompt')
-    }
-
-    // Note: Knowledge documents require separate upload and are skipped
-    if (importData.knowledge && importData.knowledge.length > 0) {
-      result.skipped.push('knowledge')
-      result.warnings.push(
-        'Knowledge documents must be uploaded separately and were not imported'
-      )
-    }
-
-    // Check if name differs
-    if (importData.name) {
-      result.warnings.push(
-        `Imported character name "${importData.name}" was ignored. Name is synced from WAGDIE character.`
-      )
+      imported: importResult.imported,
+      skipped: importResult.skipped,
+      warnings: importResult.warnings,
     }
 
     // Get current character using canonical record lookup
@@ -196,11 +119,8 @@ export async function POST(
       )
     }
 
-    // Merge update data with existing character
-    const updatedCharacter = {
-      ...record.character,
-      ...updateData,
-    }
+    // Merge safe imported patch with existing character while preserving backend-owned keys
+    const updatedCharacter = mergeAgentCharacter(record.character, importResult.agentPatch)
 
     // Update character using canonical replaceRecord
     const updatedRecord = await client.characters.replaceRecord(record.id, { character: updatedCharacter })

@@ -39,8 +39,6 @@ const TABS: Tab[] = [
 function AIPersonaTabComponent({
   tokenId,
   isOwner,
-  characterName = '',
-  characterBackstory = '',
 }: AIPersonaTabProps) {
   const { isConnected } = useAccount()
   const {
@@ -78,14 +76,7 @@ function AIPersonaTabComponent({
   const handleSave = useCallback(async () => {
     const updateData = editor.getUpdateInput()
 
-    // Add character metadata
-    const data = {
-      ...updateData,
-      name: characterName || undefined,
-      backstory: characterBackstory || undefined,
-    }
-
-    const success = await saveAICharacter(data)
+    const success = await saveAICharacter(updateData)
 
     if (success) {
       editor.clearDraft()
@@ -93,7 +84,7 @@ function AIPersonaTabComponent({
     } else {
       toast.error('Failed to save AI persona')
     }
-  }, [editor, characterName, characterBackstory, saveAICharacter])
+  }, [editor, saveAICharacter])
 
   // Discard changes
   const handleDiscard = useCallback(() => {
@@ -319,8 +310,12 @@ function AIPersonaTabComponent({
         <div className="px-4 pb-4">
           {activeTab === 'identity' && (
             <IdentityTab
+              username={editor.state.username}
+              backstory={editor.state.backstory}
               bio={editor.state.bio}
               lore={editor.state.lore}
+              onUsernameChange={editor.setUsername}
+              onBackstoryChange={editor.setBackstory}
               onBioChange={editor.setBio}
               onLoreChange={editor.setLore}
               disabled={isSaving}
@@ -355,9 +350,13 @@ function AIPersonaTabComponent({
           {activeTab === 'advanced' && (
             <AdvancedTab
               systemPrompt={editor.state.systemPrompt}
+              templates={editor.state.templates}
+              settings={editor.state.settings}
               knowledgeDocuments={knowledge.documents}
               isUploadingKnowledge={knowledge.isUploading}
               onSystemPromptChange={editor.setSystemPrompt}
+              onTemplatesChange={editor.setTemplates}
+              onSettingsChange={editor.setSettings}
               onKnowledgeUpload={handleKnowledgeUpload}
               onKnowledgeRemove={handleKnowledgeRemove}
               disabled={isSaving}

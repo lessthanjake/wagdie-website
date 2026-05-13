@@ -9,45 +9,55 @@ interface SheetBackgroundStoryProps {
   isEditMode: boolean
   isOwner: boolean
   onChange: (story: string) => void
+  variant?: 'card' | 'inline'
 }
 
 export function SheetBackgroundStory({
   story,
   isEditMode,
   isOwner,
-  onChange
+  onChange,
+  variant = 'card'
 }: SheetBackgroundStoryProps) {
+  const content = (
+    <>
+      {isEditMode ? (
+        <div className="space-y-2">
+          <TextArea
+            value={story || ''}
+            onChange={(e) => onChange(e.target.value)}
+            placeholder="Write your character's story..."
+            maxLength={5000}
+            className="min-h-[200px]"
+          />
+          <p className="text-xs text-neutral-500 font-display  tracking-widest">
+            {(story || '').length} / 5000 characters
+          </p>
+        </div>
+      ) : (
+        <div className="text-neutral-400 font-eskapade whitespace-pre-wrap leading-relaxed">
+          {story || (
+            <p className="italic text-neutral-600">
+              {isOwner
+                ? 'No story yet. Click Edit to add your character\'s background.'
+                : 'No story has been written for this character.'}
+            </p>
+          )}
+        </div>
+      )}
+    </>
+  )
+
+  if (variant === 'inline') {
+    return <div>{content}</div>
+  }
+
   return (
     <Card>
       <CardHeader>
         <CardTitle>Background Story</CardTitle>
       </CardHeader>
-      <CardContent>
-        {isEditMode ? (
-          <div className="space-y-2">
-            <TextArea
-              value={story || ''}
-              onChange={(e) => onChange(e.target.value)}
-              placeholder="Write your character's story..."
-              maxLength={5000}
-              className="min-h-[200px]"
-            />
-            <p className="text-xs text-neutral-500 font-display  tracking-widest">
-              {(story || '').length} / 5000 characters
-            </p>
-          </div>
-        ) : (
-          <div className="text-neutral-400 font-eskapade whitespace-pre-wrap leading-relaxed">
-            {story || (
-              <p className="italic text-neutral-600">
-                {isOwner
-                  ? 'No story yet. Click Edit to add your character\'s background.'
-                  : 'No story has been written for this character.'}
-              </p>
-            )}
-          </div>
-        )}
-      </CardContent>
+      <CardContent>{content}</CardContent>
     </Card>
   )
 }

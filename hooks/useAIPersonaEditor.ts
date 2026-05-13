@@ -12,7 +12,9 @@ import { useReducer, useCallback, useEffect, useRef } from 'react'
 import type {
   AICharacter,
   DraftAIPersona,
+  CharacterTemplates,
   ExampleMessage,
+  SafeCharacterSettings,
   StyleConfig,
   UpdateAICharacterInput,
 } from '@/types/eliza'
@@ -30,6 +32,8 @@ const getDraftKey = (tokenId: string) => `${DRAFT_KEY_PREFIX}${tokenId}`
 
 export interface AIPersonaEditorState {
   // Identity
+  username: string
+  backstory: string
   bio: string[]
   lore: string[]
   // Behavior
@@ -41,6 +45,8 @@ export interface AIPersonaEditorState {
   postExamples: string[]
   // Advanced
   systemPrompt: string
+  templates: CharacterTemplates
+  settings: SafeCharacterSettings
   knowledgeIds: string[]
   // Meta state
   hasUnsavedChanges: boolean
@@ -48,6 +54,8 @@ export interface AIPersonaEditorState {
 }
 
 export type AIPersonaEditorAction =
+  | { type: 'SET_USERNAME'; payload: string }
+  | { type: 'SET_BACKSTORY'; payload: string }
   | { type: 'SET_BIO'; payload: string[] }
   | { type: 'SET_LORE'; payload: string[] }
   | { type: 'SET_TOPICS'; payload: string[] }
@@ -56,6 +64,8 @@ export type AIPersonaEditorAction =
   | { type: 'SET_EXAMPLE_MESSAGES'; payload: ExampleMessage[] }
   | { type: 'SET_POST_EXAMPLES'; payload: string[] }
   | { type: 'SET_SYSTEM_PROMPT'; payload: string }
+  | { type: 'SET_TEMPLATES'; payload: CharacterTemplates }
+  | { type: 'SET_SETTINGS'; payload: SafeCharacterSettings }
   | { type: 'SET_KNOWLEDGE_IDS'; payload: string[] }
   | { type: 'RESET'; payload?: AICharacter | null }
   | { type: 'LOAD_DRAFT'; payload: Partial<AIPersonaEditorState> }
@@ -67,6 +77,8 @@ export type AIPersonaEditorAction =
 // ============================================================================
 
 const DEFAULT_STATE: AIPersonaEditorState = {
+  username: '',
+  backstory: '',
   bio: [''],
   lore: [],
   topics: [],
@@ -75,6 +87,8 @@ const DEFAULT_STATE: AIPersonaEditorState = {
   exampleMessages: [],
   postExamples: [],
   systemPrompt: '',
+  templates: {},
+  settings: {},
   knowledgeIds: [],
   hasUnsavedChanges: false,
   initialized: false,
@@ -84,6 +98,8 @@ function initializeState(character?: AICharacter | null): AIPersonaEditorState {
   if (!character) return DEFAULT_STATE
 
   return {
+    username: character.username || '',
+    backstory: character.backstory || '',
     bio: character.bio?.length ? character.bio : [''],
     lore: character.lore || [],
     topics: character.topics || [],
@@ -91,7 +107,9 @@ function initializeState(character?: AICharacter | null): AIPersonaEditorState {
     style: character.style || {},
     exampleMessages: character.exampleMessages || [],
     postExamples: character.postExamples || [],
-    systemPrompt: character.systemPrompt || '',
+    systemPrompt: character.system || character.systemPrompt || '',
+    templates: character.templates || {},
+    settings: character.settings || {},
     knowledgeIds: character.knowledge?.map((k) => k.id) || [],
     hasUnsavedChanges: false,
     initialized: true,
@@ -107,6 +125,10 @@ function aiPersonaEditorReducer(
   action: AIPersonaEditorAction
 ): AIPersonaEditorState {
   switch (action.type) {
+    case 'SET_USERNAME':
+      return { ...state, username: action.payload, hasUnsavedChanges: true }
+    case 'SET_BACKSTORY':
+      return { ...state, backstory: action.payload, hasUnsavedChanges: true }
     case 'SET_BIO':
       return { ...state, bio: action.payload, hasUnsavedChanges: true }
     case 'SET_LORE':
@@ -123,6 +145,10 @@ function aiPersonaEditorReducer(
       return { ...state, postExamples: action.payload, hasUnsavedChanges: true }
     case 'SET_SYSTEM_PROMPT':
       return { ...state, systemPrompt: action.payload, hasUnsavedChanges: true }
+    case 'SET_TEMPLATES':
+      return { ...state, templates: action.payload, hasUnsavedChanges: true }
+    case 'SET_SETTINGS':
+      return { ...state, settings: action.payload, hasUnsavedChanges: true }
     case 'SET_KNOWLEDGE_IDS':
       return { ...state, knowledgeIds: action.payload, hasUnsavedChanges: true }
     case 'RESET':
@@ -147,6 +173,10 @@ export interface UseAIPersonaEditorReturn {
   state: Omit<AIPersonaEditorState, 'hasUnsavedChanges' | 'initialized'>
   /** Whether there are unsaved changes */
   hasUnsavedChanges: boolean
+  /** Update username */
+  setUsername: (value: string) => void
+  /** Update backstory */
+  setBackstory: (value: string) => void
   /** Update bio array */
   setBio: (value: string[]) => void
   /** Update lore array */
@@ -163,6 +193,10 @@ export interface UseAIPersonaEditorReturn {
   setPostExamples: (value: string[]) => void
   /** Update system prompt */
   setSystemPrompt: (value: string) => void
+  /** Update templates */
+  setTemplates: (value: CharacterTemplates) => void
+  /** Update safe settings */
+  setSettings: (value: SafeCharacterSettings) => void
   /** Update knowledge IDs */
   setKnowledgeIds: (value: string[]) => void
   /** Reset state to match character or empty */
@@ -203,6 +237,8 @@ export function useAIPersonaEditor(
         dispatch({
           type: 'LOAD_DRAFT',
           payload: {
+            username: draft.username || '',
+            backstory: draft.backstory || '',
             bio: draft.bio || [''],
             lore: draft.lore || [],
             topics: draft.topics || [],
@@ -210,7 +246,9 @@ export function useAIPersonaEditor(
             style: draft.style || {},
             exampleMessages: draft.exampleMessages || [],
             postExamples: draft.postExamples || [],
-            systemPrompt: draft.systemPrompt || '',
+            systemPrompt: draft.system || draft.systemPrompt || '',
+            templates: draft.templates || {},
+            settings: draft.settings || {},
             knowledgeIds: draft.knowledgeIds || [],
           },
         })
@@ -232,6 +270,8 @@ export function useAIPersonaEditor(
 
     const draft: DraftAIPersona = {
       tokenId,
+      username: state.username,
+      backstory: state.backstory,
       bio: state.bio,
       lore: state.lore,
       topics: state.topics,
@@ -239,7 +279,10 @@ export function useAIPersonaEditor(
       style: state.style,
       exampleMessages: state.exampleMessages,
       postExamples: state.postExamples,
+      system: state.systemPrompt,
       systemPrompt: state.systemPrompt,
+      templates: state.templates,
+      settings: state.settings,
       knowledgeIds: state.knowledgeIds,
       savedAt: new Date().toISOString(),
     }
@@ -248,6 +291,8 @@ export function useAIPersonaEditor(
   }, [state, tokenId])
 
   // Dispatch-wrapped setters (stable references via useCallback)
+  const setUsername = useCallback((value: string) => dispatch({ type: 'SET_USERNAME', payload: value }), [])
+  const setBackstory = useCallback((value: string) => dispatch({ type: 'SET_BACKSTORY', payload: value }), [])
   const setBio = useCallback((value: string[]) => dispatch({ type: 'SET_BIO', payload: value }), [])
   const setLore = useCallback((value: string[]) => dispatch({ type: 'SET_LORE', payload: value }), [])
   const setTopics = useCallback((value: string[]) => dispatch({ type: 'SET_TOPICS', payload: value }), [])
@@ -256,6 +301,8 @@ export function useAIPersonaEditor(
   const setExampleMessages = useCallback((value: ExampleMessage[]) => dispatch({ type: 'SET_EXAMPLE_MESSAGES', payload: value }), [])
   const setPostExamples = useCallback((value: string[]) => dispatch({ type: 'SET_POST_EXAMPLES', payload: value }), [])
   const setSystemPrompt = useCallback((value: string) => dispatch({ type: 'SET_SYSTEM_PROMPT', payload: value }), [])
+  const setTemplates = useCallback((value: CharacterTemplates) => dispatch({ type: 'SET_TEMPLATES', payload: value }), [])
+  const setSettings = useCallback((value: SafeCharacterSettings) => dispatch({ type: 'SET_SETTINGS', payload: value }), [])
   const setKnowledgeIds = useCallback((value: string[]) => dispatch({ type: 'SET_KNOWLEDGE_IDS', payload: value }), [])
 
   // Reset state to character or empty
@@ -277,23 +324,43 @@ export function useAIPersonaEditor(
 
   // Get data formatted for API update
   const getUpdateInput = useCallback((): UpdateAICharacterInput => {
+    const current = aiCharacterRef.current
+    const username = state.username.trim()
+    const backstory = state.backstory.trim()
+    const system = state.systemPrompt.trim()
+    const avatar = state.settings.avatar?.trim()
+
+    const settings: SafeCharacterSettings | undefined =
+      avatar || state.settings.metadata?.wagdieUser !== undefined
+        ? {
+            ...(avatar || current?.settings?.avatar ? { avatar: avatar || null } : {}),
+            ...(state.settings.metadata?.wagdieUser !== undefined
+              ? { metadata: { wagdieUser: state.settings.metadata.wagdieUser || null } }
+              : {}),
+          }
+        : undefined
+
     return {
+      username: username || (current?.username ? null : undefined),
+      backstory: backstory || (current?.backstory ? null : undefined),
       bio: state.bio.filter((b) => b.trim() !== ''),
       lore: state.lore.filter((l) => l.trim() !== ''),
       topics: state.topics.filter((t) => t.trim() !== ''),
       adjectives: state.adjectives.filter((a) => a.trim() !== ''),
-      style:
-        Object.values(state.style).some((arr) => arr && arr.length > 0)
-          ? state.style
-          : undefined,
-      exampleMessages: state.exampleMessages.length > 0 ? state.exampleMessages : undefined,
+      style: state.style,
+      exampleMessages: state.exampleMessages,
       postExamples: state.postExamples.filter((p) => p.trim() !== ''),
-      systemPrompt: state.systemPrompt || undefined,
+      system: system || (current?.system || current?.systemPrompt ? null : undefined),
+      systemPrompt: system || (current?.system || current?.systemPrompt ? null : undefined),
+      templates: Object.keys(state.templates).length > 0 ? state.templates : current?.templates ? {} : undefined,
+      settings,
     }
   }, [state])
 
   // Extract editor state (without meta fields)
   const editorState = {
+    username: state.username,
+    backstory: state.backstory,
     bio: state.bio,
     lore: state.lore,
     topics: state.topics,
@@ -302,12 +369,16 @@ export function useAIPersonaEditor(
     exampleMessages: state.exampleMessages,
     postExamples: state.postExamples,
     systemPrompt: state.systemPrompt,
+    templates: state.templates,
+    settings: state.settings,
     knowledgeIds: state.knowledgeIds,
   }
 
   return {
     state: editorState,
     hasUnsavedChanges: state.hasUnsavedChanges,
+    setUsername,
+    setBackstory,
     setBio,
     setLore,
     setTopics,
@@ -316,6 +387,8 @@ export function useAIPersonaEditor(
     setExampleMessages,
     setPostExamples,
     setSystemPrompt,
+    setTemplates,
+    setSettings,
     setKnowledgeIds,
     resetState,
     discardDraft,

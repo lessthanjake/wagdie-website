@@ -17,6 +17,7 @@ interface DerivedStatsEditorProps {
   isEditMode: boolean
   onChange: (stats: DerivedStats) => void
   className?: string
+  variant?: 'cards' | 'compact'
 }
 
 /**
@@ -30,6 +31,7 @@ export function DerivedStatsEditor({
   isEditMode,
   onChange,
   className = '',
+  variant = 'cards',
 }: DerivedStatsEditorProps) {
   const handleStatChange = useCallback((key: keyof DerivedStats, value: number | null) => {
     onChange({
@@ -43,6 +45,47 @@ export function DerivedStatsEditor({
 
   // Display mode - quick stat cards
   if (!isEditMode || !isOwner) {
+    if (variant === 'compact') {
+      const hp = stats.hp ?? 0
+      const maxHp = (stats.max_hp ?? hp) || 1
+      const hpPercent = Math.max(0, Math.min(100, (hp / maxHp) * 100))
+
+      return (
+        <div className={`space-y-3 border-t border-midnight-light/30 pt-3 ${className}`}>
+          {stats.hp !== null && (
+            <div>
+              <div className="mb-2 flex items-baseline justify-between gap-3">
+                <p className="text-[11px] font-display tracking-widest text-mist lowercase">hp</p>
+                <p className="font-display text-lg text-bone">
+                  <span className="text-soul-accent">{stats.hp}</span>
+                  {stats.max_hp !== null && <span className="text-sm text-mist">/{stats.max_hp}</span>}
+                </p>
+              </div>
+              <div className="h-1.5 overflow-hidden border border-soul-accent/35 bg-black/50">
+                <div className="h-full bg-soul-accent" style={{ width: `${hpPercent}%` }} />
+              </div>
+            </div>
+          )}
+          {(stats.ac !== null || stats.speed !== null) && (
+            <div className="grid grid-cols-2 gap-2">
+              {stats.ac !== null && (
+                <div className="border border-midnight-light/40 bg-black/25 p-2">
+                  <p className="text-[10px] font-display tracking-widest text-mist lowercase">ac</p>
+                  <p className="font-display text-lg text-bone">{stats.ac}</p>
+                </div>
+              )}
+              {stats.speed !== null && (
+                <div className="border border-midnight-light/40 bg-black/25 p-2">
+                  <p className="text-[10px] font-display tracking-widest text-mist lowercase">speed</p>
+                  <p className="font-display text-lg text-bone">{stats.speed}<span className="text-xs text-mist"> ft</span></p>
+                </div>
+              )}
+            </div>
+          )}
+        </div>
+      )
+    }
+
     return (
       <div className={`grid grid-cols-2 sm:grid-cols-4 gap-3 ${className}`}>
         {stats.hp !== null && (

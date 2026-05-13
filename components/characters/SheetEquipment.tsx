@@ -18,6 +18,7 @@ interface SheetEquipmentProps {
   /** NFT metadata equipment (single strings) */
   metadataEquipment?: NFTEquipment | null
   isEditMode?: boolean
+  variant?: 'card' | 'inline'
 }
 
 function EquipmentSection({ title, items }: { title: string, items: string[] }) {
@@ -43,7 +44,7 @@ function EquipmentSection({ title, items }: { title: string, items: string[] }) 
  * Merges equipment from both database (game format) and NFT metadata format.
  * Filters out "None" values and shows appropriate empty state.
  */
-export function SheetEquipment({ equipment, metadataEquipment }: SheetEquipmentProps) {
+export function SheetEquipment({ equipment, metadataEquipment, variant = 'card' }: SheetEquipmentProps) {
   let weapons: string[] = []
   let armor: string[] = []
   let items: string[] = []
@@ -86,29 +87,33 @@ export function SheetEquipment({ equipment, metadataEquipment }: SheetEquipmentP
 
   const hasEquipment = weapons.length > 0 || armor.length > 0 || items.length > 0 || gold > 0
 
+  const content = !hasEquipment ? (
+    <Empty message="No equipment" />
+  ) : (
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <EquipmentSection title="Weapons" items={weapons} />
+      <EquipmentSection title="Armor" items={armor} />
+      <EquipmentSection title="Items" items={items} />
+
+      {gold > 0 && (
+        <div className="space-y-2">
+          <h4 className="text-xs font-display  tracking-widest text-soul-accent">Gold</h4>
+          <p className="text-2xl font-display text-neutral-200">{gold} <span className="text-soul-accent text-sm">gp</span></p>
+        </div>
+      )}
+    </div>
+  )
+
+  if (variant === 'inline') {
+    return <div>{content}</div>
+  }
+
   return (
     <Card>
       <CardHeader>
         <CardTitle>Equipment</CardTitle>
       </CardHeader>
-      <CardContent>
-        {!hasEquipment ? (
-          <Empty message="No equipment" />
-        ) : (
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <EquipmentSection title="Weapons" items={weapons} />
-            <EquipmentSection title="Armor" items={armor} />
-            <EquipmentSection title="Items" items={items} />
-
-            {gold > 0 && (
-              <div className="space-y-2">
-                <h4 className="text-xs font-display  tracking-widest text-soul-accent">Gold</h4>
-                <p className="text-2xl font-display text-neutral-200">{gold} <span className="text-soul-accent text-sm">gp</span></p>
-              </div>
-            )}
-          </div>
-        )}
-      </CardContent>
+      <CardContent>{content}</CardContent>
     </Card>
   )
 }

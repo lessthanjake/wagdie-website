@@ -1,0 +1,275 @@
+'use client'
+
+import { AIPersonaTab } from '@/components/characters/ai-editor'
+import { CharacterActions } from '@/components/characters/detail/CharacterActions'
+import { CharacterArtworkCard } from '@/components/characters/detail/CharacterArtworkCard'
+import { CharacterEquipmentSection } from '@/components/characters/detail/CharacterEquipmentSection'
+import { CharacterIdentityStatsPanel } from '@/components/characters/detail/CharacterIdentityStatsPanel'
+import { CharacterStorySection } from '@/components/characters/detail/CharacterStorySection'
+import { CharacterWalletTab } from '@/components/characters/detail/CharacterWalletTab'
+import { CoreStatsEditor } from '@/components/characters/CoreStatsEditor'
+import { DerivedStatsEditor } from '@/components/characters/DerivedStatsEditor'
+import { EmptyStatsPrompt } from '@/components/characters/EmptyStatsPrompt'
+import { Card, CardContent, Badge, Button, Tabs } from '@/components/ui'
+import type { TabItem } from '@/components/ui'
+import { extractNFTTraits } from '@/lib/utils/nft-traits'
+import type { UseCharacterEditorReturn } from '@/hooks/useCharacterEditor'
+import type { CharacterImageDisclosure } from '@/lib/utils/image'
+import type { Character } from '@/types/character'
+
+export type CharacterSheetTab = 'sheet' | 'ai-persona' | 'on-chain'
+
+interface CharacterSheetLayoutProps {
+  activeTab: CharacterSheetTab
+  onTabChange: (tabId: CharacterSheetTab) => void
+  tokenId: number
+  character: Character
+  name: string
+  isOwner: boolean
+  isEditMode: boolean
+  editor: Pick<
+    UseCharacterEditorReturn,
+    | 'state'
+    | 'setName'
+    | 'setStory'
+    | 'setCoreStats'
+    | 'setDerivedStats'
+    | 'setLevelExp'
+    | 'assignDefaultStats'
+  >
+  imageUrl: string
+  imageDisclosure: CharacterImageDisclosure
+  showLoreNav: boolean
+  onImageError: () => void
+  onAddCommunityStory: () => void
+  onEnterEditMode: () => void
+  onSear: () => void
+  onInfect: () => void
+  onCure: () => void
+  onChat: () => void
+  showChatAction: boolean
+}
+
+const sheetTabs: TabItem[] = [
+  { id: 'sheet', label: 'sheet' },
+  { id: 'ai-persona', label: 'ai persona' },
+  { id: 'on-chain', label: 'on-chain' },
+]
+
+export function CharacterSheetLayout({
+  activeTab,
+  onTabChange,
+  tokenId,
+  character,
+  name,
+  isOwner,
+  isEditMode,
+  editor,
+  imageUrl,
+  imageDisclosure,
+  showLoreNav,
+  onImageError,
+  onAddCommunityStory,
+  onEnterEditMode,
+  onSear,
+  onInfect,
+  onCure,
+  onChat,
+  showChatAction,
+}: CharacterSheetLayoutProps) {
+  const ChatIcon = () => (
+    <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z" />
+    </svg>
+  )
+
+  const ownerActions = (
+    <CharacterActions
+      isInfected={character.infection_status === 'infected'}
+      onSear={onSear}
+      onInfect={onInfect}
+      onCure={onCure}
+    />
+  )
+
+  const level = character.level ?? character.metadata?.level ?? 1
+  const characterClass = character.class ?? null
+  const traits = extractNFTTraits(character.metadata)
+  const alignmentTrait = traits.find((trait) => trait.type.toLowerCase() === 'alignment')
+  const healthTrait = traits.find((trait) => trait.type.toLowerCase() === 'health')
+  const secondaryTraits = traits.filter((trait) => {
+    const type = trait.type.toLowerCase()
+    return trait.category !== 'equipment' && type !== 'alignment' && type !== 'health'
+  })
+  const healthLabel = healthTrait?.value ?? character.infection_status ?? null
+  const attrs = {
+    str: character.str || 0,
+    dex: character.dex || 0,
+    con: character.con || 0,
+    int: character.int || 0,
+    wis: character.wis || 0,
+    cha: character.cha || 0,
+  }
+  const hasCharacterSheet = attrs.str > 0 || attrs.dex > 0 || attrs.con > 0 || attrs.int > 0 || attrs.wis > 0 || attrs.cha > 0
+  const hasAnyStats = (character.str ?? 0) > 0 || (character.dex ?? 0) > 0 || (character.hp ?? 0) > 0 || (character.level ?? 1) > 1
+  const handleAssignStats = () => {
+    editor.assignDefaultStats()
+    onEnterEditMode()
+  }
+
+  const handleTabChange = (tabId: string) => {
+    if (tabId === 'ai-persona' || tabId === 'on-chain') {
+      onTabChange(tabId)
+      return
+    }
+    onTabChange('sheet')
+  }
+
+  return (
+    <Card className="relative overflow-hidden border-soul-accent/25 bg-[radial-gradient(circle_at_top_left,rgba(214,177,103,0.08),transparent_34%),linear-gradient(135deg,rgba(22,17,15,0.96),rgba(8,8,8,0.98))] shadow-2xl shadow-black/50">
+      <div className="pointer-events-none absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-soul-accent/60 to-transparent" />
+      <CardContent className="p-4 sm:p-6 lg:p-8 xl:p-10">
+        <div className="relative">
+          <div className="pointer-events-none absolute inset-y-0 left-[39%] hidden w-px bg-gradient-to-b from-transparent via-midnight-light/50 to-transparent lg:block" />
+          <div className="grid grid-cols-1 gap-7 lg:grid-cols-12 lg:gap-10">
+            <aside className="space-y-4 lg:col-span-5 xl:col-span-4" aria-label="Character artwork and stats">
+              <div className="space-y-4 lg:sticky lg:top-24">
+                <CharacterArtworkCard
+                  name={name}
+                  imageUrl={imageUrl}
+                  imageDisclosure={imageDisclosure}
+                  infectionStatus={character.infection_status}
+                  stakingStatus={character.staking_status}
+                  onImageError={onImageError}
+                  frame="inline"
+                />
+                <div className="space-y-4 border border-midnight-light/40 bg-black/25 p-4 shadow-inner shadow-black/30">
+                  <div className="border-b border-midnight-light/30 pb-4">
+                    <div className="flex items-start justify-between gap-3">
+                      <div>
+                        <p className="text-[11px] font-display tracking-widest text-mist lowercase">class</p>
+                        <p className="text-4xl font-display tracking-wider text-bone lowercase">
+                          {characterClass ?? 'pilgrim'}
+                        </p>
+                      </div>
+                      <div className="text-right">
+                        <p className="text-[11px] font-display tracking-widest text-mist lowercase">level</p>
+                        <p className="text-3xl font-display text-soul-accent">{level}</p>
+                      </div>
+                    </div>
+                    <p className="mt-2 text-[11px] font-display tracking-widest text-dark lowercase">token #{tokenId}</p>
+                  </div>
+
+                  <div className="grid grid-cols-1 gap-2 sm:grid-cols-2 lg:grid-cols-1 xl:grid-cols-2">
+                    {alignmentTrait && (
+                      <div className="border border-soul-accent/40 bg-soul-accent/10 p-3">
+                        <p className="text-[11px] font-display tracking-widest text-soul-accent lowercase">alignment</p>
+                        <p className="text-lg font-display text-bone lowercase">{alignmentTrait.value}</p>
+                      </div>
+                    )}
+                    {healthLabel && (
+                      <div className="border border-emerald-900/50 bg-emerald-950/20 p-3">
+                        <p className="text-[11px] font-display tracking-widest text-emerald-500 lowercase">health</p>
+                        <p className="text-lg font-display text-bone lowercase">{healthLabel}</p>
+                      </div>
+                    )}
+                  </div>
+
+                  {secondaryTraits.length > 0 && (
+                    <div className="border-t border-midnight-light/30 pt-3">
+                      <p className="mb-2 text-[11px] font-display tracking-widest text-mist lowercase">traits</p>
+                      <div className="flex flex-wrap gap-2">
+                        {secondaryTraits.map((trait) => (
+                          <Badge key={trait.type} variant={trait.category === 'identity' ? 'accent' : 'default'}>
+                            <span className="lowercase">{trait.type}: {trait.value}</span>
+                          </Badge>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  <DerivedStatsEditor
+                    stats={isEditMode ? editor.state.derivedStats : { hp: character.hp ?? null, max_hp: character.max_hp ?? null, ac: character.ac ?? null, speed: character.speed ?? null }}
+                    isOwner={isOwner}
+                    isEditMode={isEditMode}
+                    onChange={editor.setDerivedStats}
+                    variant="compact"
+                  />
+                  {(hasCharacterSheet || (isOwner && isEditMode)) && (
+                    <CoreStatsEditor
+                      stats={isEditMode ? editor.state.coreStats : attrs}
+                      isOwner={isOwner}
+                      isEditMode={isEditMode}
+                      onChange={editor.setCoreStats}
+                    />
+                  )}
+                  {isOwner && !hasAnyStats && !isEditMode && <EmptyStatsPrompt onAssignStats={handleAssignStats} />}
+                </div>
+                {isOwner && <div className="hidden lg:block">{ownerActions}</div>}
+              </div>
+            </aside>
+
+            <div className="space-y-7 lg:col-span-7 xl:col-span-8">
+              <div className="flex flex-col gap-4 border-b border-midnight-light/40 pb-6 sm:flex-row sm:items-start sm:justify-between">
+                <CharacterIdentityStatsPanel
+                  name={name}
+                  isOwner={isOwner}
+                  isEditMode={isEditMode}
+                  editor={editor}
+                />
+                {showChatAction && (
+                  <Button variant="secondary" onClick={onChat} className="gap-2 self-start lowercase">
+                    <ChatIcon /> chat
+                  </Button>
+                )}
+              </div>
+
+              <Tabs
+                id="character-sheet-tabs"
+                items={sheetTabs}
+                activeId={activeTab}
+                onChange={handleTabChange}
+              />
+
+              {activeTab === 'sheet' && (
+                <div className="space-y-7">
+                  <CharacterStorySection
+                    story={editor.state.story}
+                    isEditMode={isEditMode}
+                    isOwner={isOwner}
+                    showLoreNav={showLoreNav}
+                    onChange={editor.setStory}
+                    onAddCommunityStory={onAddCommunityStory}
+                  />
+                  <CharacterEquipmentSection character={character} isEditMode={isEditMode} />
+                  {isOwner && <div className="lg:hidden">{ownerActions}</div>}
+                </div>
+              )}
+
+              {activeTab === 'ai-persona' && (
+                <div className="border border-midnight-light/35 bg-black/20 p-4 sm:p-6">
+                  <AIPersonaTab
+                    tokenId={String(tokenId)}
+                    isOwner={isOwner}
+                    characterName={name}
+                    characterBackstory={editor.state.story}
+                  />
+                </div>
+              )}
+
+              {activeTab === 'on-chain' && (
+                <div className="border border-midnight-light/35 bg-black/20 p-4 sm:p-6">
+                  <CharacterWalletTab
+                    tokenId={tokenId}
+                    ownerAddress={character.owner_address ?? null}
+                    stakerAddress={character.staker_address ?? null}
+                  />
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      </CardContent>
+    </Card>
+  )
+}

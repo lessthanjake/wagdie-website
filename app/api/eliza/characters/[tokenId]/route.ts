@@ -17,7 +17,8 @@ import {
   toAgentCharacterFromAICharacter,
   applyWagdieUpdateToAgentCharacter,
 } from '@/lib/eliza/sdkAdapter'
-import type { AICharacter, UpdateAICharacterInput, ErrorResponse } from '@/types/eliza'
+import { validatePutCharacterSheetUpdate } from '@/lib/eliza/character-sheet-policy'
+import type { AICharacter, ErrorResponse } from '@/types/eliza'
 
 export const runtime = 'nodejs'
 
@@ -115,8 +116,30 @@ export async function PUT(
     const wagdieCharacter = authorization.character
     const externalTokenId = authorization.externalId
 
-    // Parse request body
-    const body: UpdateAICharacterInput = await request.json()
+    // Parse and validate request body
+    let rawBody: unknown
+    try {
+      rawBody = await request.json()
+    } catch {
+      return NextResponse.json(
+        { error: 'VALIDATION_ERROR', message: 'Invalid JSON in request body' },
+        { status: 400 }
+      )
+    }
+
+    const policyResult = validatePutCharacterSheetUpdate(rawBody)
+    if (!policyResult.ok) {
+      return NextResponse.json(
+        {
+          error: 'VALIDATION_ERROR',
+          message: 'Invalid character update payload',
+          details: { issues: policyResult.issues },
+        },
+        { status: policyResult.status }
+      )
+    }
+
+    const body = policyResult.update
 
     const elizaClient = getElizaClient()
 
@@ -142,7 +165,8 @@ export async function PUT(
         name,
         personality: body.personality ?? defaultPersonality,
         backstory: body.backstory ?? wagdieCharacter.background_story ?? null,
-        systemPrompt: body.systemPrompt ?? null,
+        system: body.system ?? body.systemPrompt ?? null,
+        systemPrompt: body.system ?? body.systemPrompt ?? null,
         exampleMessages: body.exampleMessages ?? [],
         bio: body.bio,
         lore: body.lore,
@@ -150,6 +174,9 @@ export async function PUT(
         adjectives: body.adjectives,
         style: body.style,
         postExamples: body.postExamples,
+        username: body.username,
+        templates: body.templates ?? undefined,
+        settings: body.settings,
       })
 
       // Use canonical createRecord to preserve unknown keys

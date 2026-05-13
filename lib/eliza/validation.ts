@@ -6,12 +6,26 @@
 import { z } from 'zod'
 import { FIELD_LIMITS } from '@/types/eliza'
 
+export const nullableTrimmedString = (max: number, label: string) =>
+  z
+    .union([z.string().max(max, `${label} must be at most ${max} characters`), z.null()])
+    .transform((value) => {
+      if (value === null) return null
+      const trimmed = value.trim()
+      return trimmed.length > 0 ? trimmed : null
+    })
+
 /**
  * Bio array schema - required, 1-10 items, 500 chars each
  */
 export const bioSchema = z
   .array(z.string().max(FIELD_LIMITS.bio, `Bio entry must be at most ${FIELD_LIMITS.bio} characters`))
   .min(1, 'At least one bio entry is required')
+  .max(FIELD_LIMITS.maxBioEntries, `Maximum ${FIELD_LIMITS.maxBioEntries} bio entries allowed`)
+
+/** Bio array schema for updates/imports where [] means explicit clear. */
+export const bioUpdateSchema = z
+  .array(z.string().max(FIELD_LIMITS.bio, `Bio entry must be at most ${FIELD_LIMITS.bio} characters`))
   .max(FIELD_LIMITS.maxBioEntries, `Maximum ${FIELD_LIMITS.maxBioEntries} bio entries allowed`)
 
 /**
@@ -65,6 +79,47 @@ export const systemPromptSchema = z
   .string()
   .max(FIELD_LIMITS.systemPrompt, `System prompt must be at most ${FIELD_LIMITS.systemPrompt} characters`)
 
+export const nullableSystemPromptSchema = nullableTrimmedString(FIELD_LIMITS.systemPrompt, 'System prompt')
+export const usernameSchema = nullableTrimmedString(FIELD_LIMITS.username, 'Username')
+export const backstorySchema = nullableTrimmedString(FIELD_LIMITS.backstory, 'Backstory')
+
+const safeMetadataValueSchema = z.union([
+  z.string().max(FIELD_LIMITS.metadataStringValue),
+  z.number(),
+  z.boolean(),
+  z.null(),
+])
+
+const keyRegex = /^[A-Za-z0-9_.-]{1,64}$/
+
+export const templatesSchema = z
+  .union([
+    z.record(
+      z.string().regex(keyRegex, 'Template name may contain letters, numbers, underscore, dash, and dot'),
+      z.string().max(FIELD_LIMITS.templateBody)
+    ).refine((value) => Object.keys(value).length <= FIELD_LIMITS.maxTemplates, {
+      message: `Maximum ${FIELD_LIMITS.maxTemplates} templates allowed`,
+    }),
+    z.null(),
+  ])
+
+export const safeSettingsSchema = z.object({
+  avatar: nullableTrimmedString(FIELD_LIMITS.settingsAvatar, 'Avatar').optional(),
+  metadata: z.object({
+    wagdieUser: z
+      .union([
+        z.record(
+          z.string().regex(keyRegex, 'Metadata key may contain letters, numbers, underscore, dash, and dot'),
+          safeMetadataValueSchema
+        ).refine((value) => Object.keys(value).length <= FIELD_LIMITS.maxMetadataKeys, {
+          message: `Maximum ${FIELD_LIMITS.maxMetadataKeys} metadata keys allowed`,
+        }),
+        z.null(),
+      ])
+      .optional(),
+  }).optional(),
+})
+
 /**
  * Example message schema
  */
@@ -92,41 +147,59 @@ export const knowledgeDocumentSchema = z.object({
 })
 
 /**
- * Full AI persona update schema for form validation
+ * Full AI persona update schema for form/API validation
  */
 export const aiPersonaUpdateSchema = z.object({
-  bio: bioSchema.optional(),
+  name: z.string().max(FIELD_LIMITS.name).optional(),
+  username: usernameSchema.optional(),
+  personality: z.string().max(FIELD_LIMITS.personality).optional(),
+  backstory: backstorySchema.optional(),
+  system: nullableSystemPromptSchema.optional(),
+  systemPrompt: nullableSystemPromptSchema.optional(),
+  templates: templatesSchema.optional(),
+  settings: safeSettingsSchema.optional(),
+  bio: bioUpdateSchema.optional(),
   lore: loreSchema.optional(),
   topics: topicsSchema.optional(),
   adjectives: adjectivesSchema.optional(),
   style: styleConfigSchema.optional(),
   postExamples: postExamplesSchema.optional(),
-  systemPrompt: systemPromptSchema.optional(),
   exampleMessages: exampleMessagesSchema.optional(),
+}).passthrough()
+
+const exportMessageSchema = z.object({
+  user: z.string().optional(),
+  name: z.string().optional(),
+  content: z.object({ text: z.string() }),
+}).refine((value) => Boolean(value.user || value.name), {
+  message: 'Message example entries must include user or name',
 })
 
 /**
- * Eliza character export validation schema
+ * Eliza character export validation schema. Passthrough is intentional so the
+ * policy layer can warn about skipped backend-owned/unsupported fields.
  */
 export const elizaCharacterExportSchema = z.object({
-  name: z.string().max(FIELD_LIMITS.name),
-  bio: bioSchema,
-  lore: loreSchema,
+  name: z.string().max(FIELD_LIMITS.name).optional(),
+  username: z.string().max(FIELD_LIMITS.username).optional(),
+  bio: bioUpdateSchema.optional(),
+  lore: loreSchema.optional(),
+  backstory: z.union([z.string().max(FIELD_LIMITS.backstory), z.null()]).optional(),
   topics: topicsSchema.optional(),
   adjectives: adjectivesSchema.optional(),
   style: styleConfigSchema.optional(),
-  messageExamples: z.array(z.array(z.object({
-    user: z.string(),
-    content: z.object({ text: z.string() }),
-  }))).optional(),
+  messageExamples: z.array(z.array(exportMessageSchema)).optional(),
   postExamples: postExamplesSchema.optional(),
+  system: systemPromptSchema.optional(),
   systemPrompt: systemPromptSchema.optional(),
+  templates: templatesSchema.optional(),
+  settings: safeSettingsSchema.passthrough().optional(),
   knowledge: z.array(z.object({
     id: z.string(),
     path: z.string(),
     content: z.string(),
   })).max(FIELD_LIMITS.maxKnowledgeDocs).optional(),
-})
+}).passthrough()
 
 export type AIPersonaUpdateInput = z.infer<typeof aiPersonaUpdateSchema>
 export type ElizaCharacterExportInput = z.infer<typeof elizaCharacterExportSchema>

@@ -7,17 +7,10 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { getElizaClient } from '@/lib/eliza/client'
 import { getCharacterRecordByExternalId } from '@/lib/eliza/characterResolver'
-import { toElizaExportMessageExamples } from '@/lib/eliza/sdkAdapter'
-import type { ElizaCharacterExport } from '@/types/eliza'
+import { buildCharacterSheetExport } from '@/lib/eliza/character-sheet-policy'
 
 interface RouteParams {
   params: Promise<{ tokenId: string }>
-}
-
-interface KnowledgeDocument {
-  id?: string
-  path?: string
-  content?: string
 }
 
 export async function GET(
@@ -45,45 +38,10 @@ export async function GET(
       )
     }
 
-    const character = record.character as Record<string, unknown>
-
-    // Use SDK adapter to convert messageExamples to Eliza export format
-    const messageExamples = toElizaExportMessageExamples(
-      character.messageExamples as Array<Array<{ name: string; content: { text: string } }>> | undefined
-    )
-
-    // Extract arrays safely
-    const bio = Array.isArray(character.bio) ? character.bio : []
-    const lore = Array.isArray(character.lore) ? character.lore : []
-    const topics = Array.isArray(character.topics) ? character.topics : undefined
-    const adjectives = Array.isArray(character.adjectives) ? character.adjectives : undefined
-    const postExamples = Array.isArray(character.postExamples) ? character.postExamples : undefined
-    const knowledge = Array.isArray(character.knowledge) ? character.knowledge : undefined
-
-    // Convert to standard Eliza export format
-    const exportData: ElizaCharacterExport = {
-      name: character.name as string,
-      bio: bio as string[],
-      lore: lore as string[],
-      topics: topics as string[] | undefined,
-      adjectives: adjectives as string[] | undefined,
-      style: character.style as ElizaCharacterExport['style'],
-      messageExamples,
-      postExamples: postExamples as string[] | undefined,
-      systemPrompt: (character.system as string) || (character.systemPrompt as string) || undefined,
-      knowledge: knowledge?.map((doc) => {
-        const knowledgeDoc = doc as KnowledgeDocument
-
-        return {
-          id: knowledgeDoc.id || '',
-          path: knowledgeDoc.path || '',
-          content: knowledgeDoc.content || '',
-        }
-      }),
-    }
+    const exportData = buildCharacterSheetExport(record.character)
 
     // Generate filename
-    const name = (character.name as string) || 'character'
+    const name = record.character.name || 'character'
     const sanitizedName = name
       .toLowerCase()
       .replace(/[^a-z0-9]+/g, '-')

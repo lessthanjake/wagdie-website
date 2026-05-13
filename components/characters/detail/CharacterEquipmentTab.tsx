@@ -20,18 +20,21 @@ interface CharacterEquipmentTabProps {
   equipment: Equipment | null
   metadataEquipment: NFTEquipment | null | undefined
   isEditMode: boolean
+  variant?: 'card' | 'inline'
 }
 
 export function CharacterEquipmentTab({
   equipment,
   metadataEquipment,
   isEditMode,
+  variant = 'card',
 }: CharacterEquipmentTabProps) {
   return (
     <SheetEquipment
       equipment={equipment}
       metadataEquipment={metadataEquipment}
       isEditMode={isEditMode}
+      variant={variant}
     />
   )
 }

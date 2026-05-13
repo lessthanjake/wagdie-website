@@ -1,20 +1,47 @@
-import type { AICharacter, StyleConfig, UpdateAICharacterInput } from '@/types/eliza'
+import type {
+  AICharacter,
+  CharacterTemplates,
+  SafeCharacterSettings,
+  StyleConfig,
+  UpdateAICharacterInput,
+} from '@/types/eliza'
 
 import type { AgentCharacter, CharacterRecord } from '@/lib/eliza/sdk-types'
 import { migratePersonalityToBio } from '@/lib/eliza/migration'
+import { mergeSafeSettings } from '@/lib/eliza/character-sheet-policy'
 import {
   fromAgentMessageExamples,
   toAgentMessageExamples,
 } from '@/lib/eliza/message-examples'
 
+type UnknownRecord = Record<string, unknown>
+
 function isNonEmptyString(value: unknown): value is string {
   return typeof value === 'string' && value.trim().length > 0
+}
+
+function normalizeNullableString(value: unknown): string | null | undefined {
+  if (value === undefined) return undefined
+  if (value === null) return null
+  if (typeof value !== 'string') return undefined
+  const trimmed = value.trim()
+  return trimmed.length > 0 ? trimmed : null
 }
 
 function asStringArray(value: unknown): string[] | undefined {
   if (!Array.isArray(value)) return undefined
   const items = value.filter((v) => typeof v === 'string') as string[]
   return items.length > 0 ? items : []
+}
+
+function isPlainRecord(value: unknown): value is UnknownRecord {
+  return typeof value === 'object' && value !== null && !Array.isArray(value)
+}
+
+function asStringMap(value: unknown): Record<string, string> | undefined {
+  if (!isPlainRecord(value)) return undefined
+  const entries = Object.entries(value).filter((entry): entry is [string, string] => typeof entry[1] === 'string')
+  return entries.length > 0 ? Object.fromEntries(entries) : {}
 }
 
 function mergeObjectsPreservingUndefined<T extends Record<string, unknown>>(
@@ -34,14 +61,36 @@ function mergeObjectsPreservingUndefined<T extends Record<string, unknown>>(
   return result as T
 }
 
+export function readSystem(character: AgentCharacter): string | null {
+  const record = character as UnknownRecord
+  const system = normalizeNullableString(record.system)
+  if (system !== undefined) return system
+
+  const systemPrompt = normalizeNullableString(record.systemPrompt)
+  return systemPrompt ?? null
+}
+
+function extractSafeSettings(character: AgentCharacter): SafeCharacterSettings | undefined {
+  const settings = character.settings as UnknownRecord | undefined
+  if (!isPlainRecord(settings)) return undefined
+
+  const safe: SafeCharacterSettings = {}
+
+  const avatar = normalizeNullableString(settings.avatar)
+  if (avatar !== undefined) safe.avatar = avatar
+
+  const metadata = settings.metadata
+  if (isPlainRecord(metadata) && isPlainRecord(metadata.wagdieUser)) {
+    safe.metadata = {
+      wagdieUser: metadata.wagdieUser as Record<string, string | number | boolean | null>,
+    }
+  }
+
+  return Object.keys(safe).length > 0 ? safe : undefined
+}
+
 /**
  * Create an AgentCharacter payload from wagdie's AICharacter DTO.
- *
- * Key mappings:
- * - systemPrompt -> system
- * - personality -> bio[] (via migratePersonalityToBio)
- * - backstory -> preserved as custom key AND also mirrored into `lore[]` for editor compatibility
- * - exampleMessages -> messageExamples (canonical SDK format)
  */
 export function toAgentCharacterFromAICharacter(input: Partial<AICharacter>): AgentCharacter {
   const name = isNonEmptyString(input.name) ? input.name.trim() : 'Unnamed Character'
@@ -52,31 +101,40 @@ export function toAgentCharacterFromAICharacter(input: Partial<AICharacter>): Ag
       : migratePersonalityToBio(input.personality ?? null)
 
   const topics = Array.isArray(input.topics) ? input.topics : []
+  const explicitLore = Array.isArray(input.lore) ? input.lore : undefined
+  const backstory = normalizeNullableString(input.backstory) ?? null
 
   const loreFromInput =
-    Array.isArray(input.lore) && input.lore.length > 0
-      ? input.lore
-      : isNonEmptyString(input.backstory)
-        ? [input.backstory]
+    explicitLore !== undefined
+      ? explicitLore
+      : isNonEmptyString(backstory)
+        ? [backstory]
         : []
 
-  // Convert to canonical messageExamples format
   const messageExamples = toAgentMessageExamples(input.exampleMessages)
+  const system = normalizeNullableString((input as Partial<AICharacter>).system) ?? normalizeNullableString(input.systemPrompt) ?? undefined
 
   const character: AgentCharacter = {
     name,
-    system: input.systemPrompt ?? undefined,
+    system: system ?? undefined,
     bio,
     topics,
     messageExamples,
-    // StyleConfig is compatible with the SDK `style` shape (all/chat/post arrays).
     style: (input.style as unknown as AgentCharacter['style']) ?? undefined,
-
-    // Custom/back-compat keys (AgentCharacter is permissive by design with [key: string]: unknown)
-    backstory: input.backstory ?? null,
+    backstory,
     lore: loreFromInput,
-    adjectives: asStringArray((input as unknown as Record<string, unknown>).adjectives) ?? [],
+    adjectives: asStringArray((input as unknown as UnknownRecord).adjectives) ?? [],
     postExamples: Array.isArray(input.postExamples) ? input.postExamples : [],
+  }
+
+  const username = normalizeNullableString(input.username)
+  if (username) character.username = username
+
+  const templates = asStringMap(input.templates)
+  if (templates && Object.keys(templates).length > 0) character.templates = templates
+
+  if (input.settings) {
+    character.settings = mergeSafeSettings(undefined, input.settings)
   }
 
   return character
@@ -84,24 +142,27 @@ export function toAgentCharacterFromAICharacter(input: Partial<AICharacter>): Ag
 
 /**
  * Create a *partial* AgentCharacter patch from wagdie's UpdateAICharacterInput.
- *
- * This is intended to be merged into an existing AgentCharacter before calling
- * `characters.replaceRecord(id, { character })` (full replace).
  */
 export function toAgentCharacterPatchFromUpdate(
   update: UpdateAICharacterInput
 ): Partial<AgentCharacter> {
   const patch: Partial<AgentCharacter> = {}
+  const patchRecord = patch as UnknownRecord
 
   if (update.name !== undefined) {
     patch.name = update.name
   }
 
-  if (update.systemPrompt !== undefined) {
-    patch.system = update.systemPrompt ?? undefined
+  if (update.username !== undefined) {
+    patch.username = update.username === null ? undefined : update.username
+    if (update.username === null) patchRecord.username = null
   }
 
-  // bio: prefer explicit bio[], otherwise derive from legacy personality
+  const system = update.system !== undefined ? update.system : update.systemPrompt
+  if (system !== undefined) {
+    patchRecord.system = system
+  }
+
   if (update.bio !== undefined) {
     patch.bio = update.bio
   } else if (update.personality !== undefined) {
@@ -116,31 +177,28 @@ export function toAgentCharacterPatchFromUpdate(
     patch.style = update.style as unknown as AgentCharacter['style']
   }
 
-  // Convert to canonical messageExamples format
   if (update.exampleMessages !== undefined) {
     patch.messageExamples = toAgentMessageExamples(update.exampleMessages)
   }
 
-  // Backstory: keep custom key, mirror into lore[] for editor/compat.
   if (update.backstory !== undefined) {
-    const backstory = update.backstory ?? ''
-    const patchWithBackstory = patch as unknown as { backstory: string | null; lore: string[] }
-    patchWithBackstory.backstory = backstory
-    patchWithBackstory.lore = isNonEmptyString(backstory) ? [backstory] : []
+    patchRecord.backstory = update.backstory
   }
 
-  // Extended wagdie fields (not in SDK type but supported by AgentCharacter's permissive keys)
   if (update.lore !== undefined) {
-    const patchWithLore = patch as unknown as { lore: string[] | undefined }
-    patchWithLore.lore = update.lore
+    patchRecord.lore = update.lore
   }
   if (update.adjectives !== undefined) {
-    const patchWithAdjectives = patch as unknown as { adjectives: string[] | undefined }
-    patchWithAdjectives.adjectives = update.adjectives
+    patchRecord.adjectives = update.adjectives
   }
   if (update.postExamples !== undefined) {
-    const patchWithPostExamples = patch as unknown as { postExamples: string[] | undefined }
-    patchWithPostExamples.postExamples = update.postExamples
+    patchRecord.postExamples = update.postExamples
+  }
+  if (update.templates !== undefined) {
+    patchRecord.templates = update.templates
+  }
+  if (update.settings !== undefined) {
+    patchRecord.settings = update.settings
   }
 
   return patch
@@ -148,43 +206,47 @@ export function toAgentCharacterPatchFromUpdate(
 
 /**
  * Merge helper for safe `characters.replaceRecord()` usage.
- *
- * Rules:
- * - Undefined patch values do NOT overwrite existing values.
- * - Arrays overwrite only when patch provides a value (including empty arrays).
- * - `style` and `settings` are shallow-merged, preserving existing keys unless patch defines them.
- * - Other keys are assigned directly.
  */
 export function mergeAgentCharacter(
   existing: AgentCharacter,
   patch: Partial<AgentCharacter>
 ): AgentCharacter {
   const merged: AgentCharacter = { ...existing }
+  const mergedRecord = merged as UnknownRecord
 
-  for (const [key, value] of Object.entries(patch as Record<string, unknown>)) {
+  for (const [key, value] of Object.entries(patch as UnknownRecord)) {
     if (value === undefined) continue
 
     if (key === 'style') {
       merged.style = mergeObjectsPreservingUndefined(
-        existing.style as Record<string, unknown> | undefined,
-        value as Record<string, unknown> | undefined
+        existing.style as UnknownRecord | undefined,
+        value as UnknownRecord | undefined
       ) as AgentCharacter['style']
       continue
     }
 
     if (key === 'settings') {
-      merged.settings = mergeObjectsPreservingUndefined(
-        existing.settings as Record<string, unknown> | undefined,
-        value as Record<string, unknown> | undefined
-      ) as AgentCharacter['settings']
+      merged.settings = mergeSafeSettings(
+        existing.settings,
+        value as SafeCharacterSettings | undefined
+      )
       continue
     }
 
-    const mergedRecord = merged as unknown as Record<string, unknown>
+    if (key === 'system' || key === 'username' || key === 'templates') {
+      if (value === null) {
+        delete mergedRecord[key]
+      } else if (key === 'templates' && isPlainRecord(value) && Object.keys(value).length === 0) {
+        delete mergedRecord.templates
+      } else {
+        mergedRecord[key] = value
+      }
+      continue
+    }
+
     mergedRecord[key] = value
   }
 
-  // Ensure required field
   if (!isNonEmptyString(merged.name)) {
     merged.name = isNonEmptyString(existing.name) ? existing.name : 'Unnamed Character'
   }
@@ -200,6 +262,19 @@ export function applyWagdieUpdateToAgentCharacter(
   update: UpdateAICharacterInput
 ): AgentCharacter {
   const patch = toAgentCharacterPatchFromUpdate(update)
+  const patchRecord = patch as UnknownRecord
+
+  if (update.backstory !== undefined && update.lore === undefined) {
+    const existingLore = asStringArray((existing as UnknownRecord).lore) ?? []
+    const newBackstory = normalizeNullableString(update.backstory)
+
+    if (existingLore.length === 0 && isNonEmptyString(newBackstory)) {
+      patchRecord.lore = [newBackstory]
+    } else {
+      delete patchRecord.lore
+    }
+  }
+
   return mergeAgentCharacter(existing, patch)
 }
 
@@ -209,11 +284,11 @@ export function applyWagdieUpdateToAgentCharacter(
  * - Otherwise fall back to the first `lore` entry if present
  */
 export function extractBackstory(character: AgentCharacter): string | null {
-  const backstory = (character as unknown as { backstory?: unknown }).backstory
+  const backstory = (character as UnknownRecord).backstory
   if (typeof backstory === 'string') return backstory
   if (backstory === null) return null
 
-  const lore = (character as unknown as { lore?: unknown }).lore
+  const lore = (character as UnknownRecord).lore
   const loreArr = asStringArray(lore)
   if (loreArr && loreArr.length > 0) return loreArr[0]
 
@@ -222,34 +297,35 @@ export function extractBackstory(character: AgentCharacter): string | null {
 
 /**
  * Map an SDK CharacterRecord into wagdie's AICharacter DTO.
- *
- * This keeps wagdie's existing DTO stable while we migrate internals to v0.2.
- * Uses canonical `messageExamples` (AgentMessageExample) rather than legacy `exampleMessages`.
  */
 export function toAICharacterFromRecord(tokenId: string, record: CharacterRecord): AICharacter {
   const c = record.character
+  const cRecord = c as UnknownRecord
 
   const bio = Array.isArray(c.bio) ? c.bio : []
   const topics = Array.isArray(c.topics) ? c.topics : []
 
-  const lore = asStringArray((c as unknown as { lore?: unknown }).lore) ?? []
-  const adjectives = asStringArray((c as unknown as { adjectives?: unknown }).adjectives) ?? []
-  const postExamples = asStringArray((c as unknown as { postExamples?: unknown }).postExamples) ?? []
+  const lore = asStringArray(cRecord.lore) ?? []
+  const adjectives = asStringArray(cRecord.adjectives) ?? []
+  const postExamples = asStringArray(cRecord.postExamples) ?? []
 
   const backstory = extractBackstory(c)
-
-  // Convert from canonical messageExamples to wagdie's exampleMessages format
+  const system = readSystem(c)
   const exampleMessages = fromAgentMessageExamples(c.messageExamples)
+  const templates = asStringMap(cRecord.templates) as CharacterTemplates | undefined
 
   return {
     id: record.id,
     externalId: record.externalId ?? tokenId,
     name: c.name,
-    // Back-compat: keep personality populated from bio for older UI usage.
+    username: normalizeNullableString(c.username) ?? null,
     personality: bio.length > 0 ? bio.join('\n\n') : null,
     backstory,
-    systemPrompt: c.system ?? null,
+    system,
+    systemPrompt: system,
     exampleMessages,
+    templates,
+    settings: extractSafeSettings(c),
 
     bio,
     lore,

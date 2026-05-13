@@ -216,13 +216,23 @@ paths:
               schema:
                 type: object
                 properties:
-                  character:
-                    $ref: '#/components/schemas/AICharacter'
+                  success:
+                    type: boolean
+                  imported:
+                    type: array
+                    items:
+                      type: string
+                    description: Fields imported into the character record
+                  skipped:
+                    type: array
+                    items:
+                      type: string
+                    description: Fields skipped because they are backend-owned, unsupported, or route-managed
                   warnings:
                     type: array
                     items:
                       type: string
-                    description: Fields that were ignored or modified
+                    description: Fields that were ignored, skipped, or modified
         '401':
           description: Unauthorized
         '403':
@@ -258,6 +268,26 @@ components:
         name:
           type: string
           maxLength: 100
+        username:
+          type: string
+          nullable: true
+          maxLength: 100
+        backstory:
+          type: string
+          nullable: true
+          maxLength: 5000
+        system:
+          type: string
+          nullable: true
+          maxLength: 4000
+          description: Canonical Eliza system prompt; systemPrompt remains as a compatibility alias.
+        templates:
+          type: object
+          additionalProperties:
+            type: string
+          description: User-managed prompt template map. Backend templates are not exposed.
+        settings:
+          $ref: '#/components/schemas/SafeCharacterSettings'
         bio:
           type: array
           items:
@@ -298,7 +328,10 @@ components:
           maxItems: 20
         systemPrompt:
           type: string
+          nullable: true
           maxLength: 4000
+          deprecated: true
+          description: Compatibility alias for system.
         knowledge:
           type: array
           items:
@@ -317,6 +350,26 @@ components:
         name:
           type: string
           maxLength: 100
+          description: WAGDIE-owned; exported but ignored on import.
+        username:
+          type: string
+          nullable: true
+          maxLength: 100
+        backstory:
+          type: string
+          nullable: true
+          maxLength: 5000
+        system:
+          type: string
+          nullable: true
+          maxLength: 4000
+        templates:
+          type: object
+          nullable: true
+          additionalProperties:
+            type: string
+        settings:
+          $ref: '#/components/schemas/SafeCharacterSettings'
         bio:
           type: array
           items:
@@ -357,7 +410,31 @@ components:
           maxItems: 20
         systemPrompt:
           type: string
+          nullable: true
           maxLength: 4000
+          deprecated: true
+          description: Compatibility alias for system.
+
+    SafeCharacterSettings:
+      type: object
+      description: User-managed safe settings only; plugins, secrets, providers, runtime config, and migration metadata are backend-owned.
+      properties:
+        avatar:
+          type: string
+          nullable: true
+          maxLength: 500
+        metadata:
+          type: object
+          properties:
+            wagdieUser:
+              type: object
+              nullable: true
+              additionalProperties:
+                nullable: true
+                oneOf:
+                  - type: string
+                  - type: number
+                  - type: boolean
 
     StyleConfig:
       type: object
@@ -432,6 +509,21 @@ components:
       properties:
         name:
           type: string
+          description: WAGDIE-owned; import ignores this field with a warning.
+        username:
+          type: string
+        backstory:
+          type: string
+          nullable: true
+        system:
+          type: string
+          description: Canonical Eliza system prompt.
+        templates:
+          type: object
+          additionalProperties:
+            type: string
+        settings:
+          $ref: '#/components/schemas/SafeCharacterSettings'
         bio:
           type: array
           items:
@@ -470,6 +562,8 @@ components:
             type: string
         systemPrompt:
           type: string
+          deprecated: true
+          description: Compatibility alias for system; if both are imported and differ, system wins with a warning.
         knowledge:
           type: array
           items:

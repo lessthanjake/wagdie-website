@@ -39,10 +39,10 @@ export function CharacterActions({
   onCure,
 }: CharacterActionsProps) {
   return (
-    <Card className="mt-auto shrink-0">
+    <Card className="shrink-0 bg-midnight/40 shadow-none">
       <CardContent className="p-4">
         <p className="text-[16px] font-display tracking-widest text-mist mb-3 lowercase">
-          blockchain actions
+          owner rituals
         </p>
         <div className="flex flex-wrap gap-2">
           <Button variant="primary" onClick={onSear} className="gap-2 lowercase">

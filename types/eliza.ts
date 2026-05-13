@@ -49,6 +49,17 @@ export interface StyleConfig {
   post?: string[]  // Post-specific rules, 0-10 items, 200 chars each
 }
 
+export type WagdieUserMetadataValue = string | number | boolean | null
+
+export type CharacterTemplates = Record<string, string>
+
+export interface SafeCharacterSettings {
+  avatar?: string | null
+  metadata?: {
+    wagdieUser?: Record<string, WagdieUserMetadataValue> | null
+  }
+}
+
 /**
  * Knowledge document for RAG integration
  */
@@ -71,9 +82,13 @@ export interface AICharacter {
   name: string
   /** @deprecated Use bio[] instead */
   personality?: string | null
+  username?: string | null
   backstory: string | null
+  system?: string | null
   systemPrompt: string | null
   exampleMessages: ExampleMessage[]
+  templates?: CharacterTemplates
+  settings?: SafeCharacterSettings
   // Extended Eliza fields
   bio?: string[]          // 1-10 items, 500 chars each
   lore?: string[]         // 0-20 items, 500 chars each
@@ -132,10 +147,14 @@ export interface ConversationDetail extends Conversation {
 export interface CreateAICharacterInput {
   externalId: string
   name: string
+  username?: string | null
   /** @deprecated Use bio[] instead */
   personality?: string
-  backstory?: string
-  systemPrompt?: string
+  backstory?: string | null
+  system?: string | null
+  systemPrompt?: string | null
+  templates?: CharacterTemplates | null
+  settings?: SafeCharacterSettings
   exampleMessages?: ExampleMessage[]
   // Extended Eliza fields
   bio?: string[]
@@ -151,10 +170,14 @@ export interface CreateAICharacterInput {
  */
 export interface UpdateAICharacterInput {
   name?: string
+  username?: string | null
   /** @deprecated Use bio[] instead */
   personality?: string
-  backstory?: string
-  systemPrompt?: string
+  backstory?: string | null
+  system?: string | null
+  systemPrompt?: string | null
+  templates?: CharacterTemplates | null
+  settings?: SafeCharacterSettings
   exampleMessages?: ExampleMessage[]
   // Extended Eliza fields
   bio?: string[]
@@ -219,9 +242,14 @@ export interface ErrorResponse {
  */
 export interface DraftAIPersona {
   tokenId: string
+  username?: string | null
+  backstory?: string | null
   /** @deprecated Use bio[] instead - kept for migration */
   personality?: string
-  systemPrompt?: string
+  system?: string | null
+  systemPrompt?: string | null
+  templates?: CharacterTemplates | null
+  settings?: SafeCharacterSettings
   exampleMessages?: ExampleMessage[]
   // Extended Eliza fields
   bio?: string[]
@@ -239,8 +267,10 @@ export interface DraftAIPersona {
  */
 export interface ElizaCharacterExport {
   name: string
+  username?: string
   bio: string[]
   lore: string[]
+  backstory?: string | null
   topics?: string[]
   adjectives?: string[]
   style?: StyleConfig
@@ -249,7 +279,10 @@ export interface ElizaCharacterExport {
     content: { text: string }
   }>>
   postExamples?: string[]
+  system?: string
   systemPrompt?: string
+  templates?: CharacterTemplates
+  settings?: SafeCharacterSettings
   knowledge?: Array<{
     id: string
     path: string
@@ -296,6 +329,14 @@ export const FIELD_LIMITS = {
   personality: 2000,
   backstory: 5000,
   systemPrompt: 4000,
+  username: 100,
+  templateName: 64,
+  templateBody: 4000,
+  maxTemplates: 20,
+  metadataKey: 64,
+  metadataStringValue: 500,
+  maxMetadataKeys: 50,
+  settingsAvatar: 500,
   messageContent: 10000,
   userMessageExample: 500,
   assistantMessageExample: 1000,

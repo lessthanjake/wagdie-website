@@ -8,17 +8,27 @@
 import { memo } from 'react'
 import { SystemPromptEditor } from '../SystemPromptEditor'
 import { KnowledgeEditor } from '../editors/KnowledgeEditor'
-import type { KnowledgeDocument } from '@/types/eliza'
+import { TemplatesEditor } from '../editors/TemplatesEditor'
+import { SafeSettingsEditor } from '../editors/SafeSettingsEditor'
+import type { CharacterTemplates, KnowledgeDocument, SafeCharacterSettings } from '@/types/eliza'
 
 interface AdvancedTabProps {
   /** System prompt value */
   systemPrompt: string
+  /** Templates */
+  templates: CharacterTemplates
+  /** Safe public settings */
+  settings: SafeCharacterSettings
   /** Knowledge documents */
   knowledgeDocuments: KnowledgeDocument[]
   /** Whether knowledge upload is in progress */
   isUploadingKnowledge?: boolean
   /** Callback when system prompt changes */
   onSystemPromptChange: (value: string) => void
+  /** Callback when templates change */
+  onTemplatesChange: (value: CharacterTemplates) => void
+  /** Callback when safe settings change */
+  onSettingsChange: (value: SafeCharacterSettings) => void
   /** Callback when knowledge document is uploaded */
   onKnowledgeUpload: (file: File) => Promise<void>
   /** Callback when knowledge document is removed */
@@ -33,9 +43,13 @@ interface AdvancedTabProps {
 
 function AdvancedTabComponent({
   systemPrompt,
+  templates,
+  settings,
   knowledgeDocuments,
   isUploadingKnowledge = false,
   onSystemPromptChange,
+  onTemplatesChange,
+  onSettingsChange,
   onKnowledgeUpload,
   onKnowledgeRemove,
   disabled = false,
@@ -64,6 +78,20 @@ function AdvancedTabComponent({
       <SystemPromptEditor
         value={systemPrompt}
         onChange={onSystemPromptChange}
+        disabled={disabled}
+        readOnly={readOnly}
+      />
+
+      <TemplatesEditor
+        value={templates}
+        onChange={onTemplatesChange}
+        disabled={disabled}
+        readOnly={readOnly}
+      />
+
+      <SafeSettingsEditor
+        value={settings}
+        onChange={onSettingsChange}
         disabled={disabled}
         readOnly={readOnly}
       />

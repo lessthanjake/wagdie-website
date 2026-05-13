@@ -23,6 +23,8 @@ export { AdjectivesEditor } from './editors/AdjectivesEditor'
 export { StyleEditor } from './editors/StyleEditor'
 export { PostExamplesEditor } from './editors/PostExamplesEditor'
 export { KnowledgeEditor } from './editors/KnowledgeEditor'
+export { TemplatesEditor } from './editors/TemplatesEditor'
+export { SafeSettingsEditor } from './editors/SafeSettingsEditor'
 
 // Tab containers
 export { IdentityTab } from './tabs/IdentityTab'

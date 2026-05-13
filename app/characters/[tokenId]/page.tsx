@@ -6,21 +6,27 @@ import { useParams, useRouter, useSearchParams } from 'next/navigation'
 import {
   CharacterHeader,
   CharacterModals,
-  CharacterArtworkCard,
-  CharacterSheetPanel,
-  CharacterTabsSection,
+  CharacterSheetLayout,
+  type CharacterSheetTab,
 } from '@/components/characters/detail'
 import { useCharacterEditor } from '@/hooks/useCharacterEditor'
 import { useCharacterDetailData } from '@/hooks/useCharacterDetailData'
 import { useCharacterSave } from '@/hooks/useCharacterSave'
 import { useCharacterImageDisplay } from '@/hooks/useCharacterImageDisplay'
 import { useCharacterEditGuards } from '@/hooks/useCharacterEditGuards'
+import { useAICharacter } from '@/hooks/useAICharacter'
 import { Card, CardTitle, CardContent, CardDescription, Button, Spinner } from '@/components/ui'
 import { isAdmin } from '@/lib/auth/admin'
 import { canEditCharacterForAddress } from '@/lib/domain/character/ownership'
 import { useChatDock } from '@/contexts/ChatDockContext'
 
 const showLoreNav = process.env.NEXT_PUBLIC_SHOW_LORE_NAV === 'true'
+
+function getSheetTabFromQuery(tab: string | null): CharacterSheetTab {
+  if (tab === 'ai-persona') return 'ai-persona'
+  if (tab === 'wallet' || tab === 'on-chain') return 'on-chain'
+  return 'sheet'
+}
 
 export default function CharacterDetailPage() {
   const params = useParams()
@@ -34,9 +40,10 @@ export default function CharacterDetailPage() {
   const [isSearingModalOpen, setIsSearingModalOpen] = useState(false)
   const [isInfectionModalOpen, setIsInfectionModalOpen] = useState(false)
   const [isCureModalOpen, setIsCureModalOpen] = useState(false)
-  const [activeTab, setActiveTab] = useState('story')
+  const [activeTab, setActiveTab] = useState<CharacterSheetTab>('sheet')
 
   const { character, setCharacter, isLoading, refetchCharacter } = useCharacterDetailData(tokenId)
+  const { aiCharacter } = useAICharacter(String(tokenId))
   const editor = useCharacterEditor({ character, isLoading })
   const userIsAdmin = isAdmin(address)
   const isOwner = canEditCharacterForAddress(character, address, userIsAdmin)
@@ -51,9 +58,7 @@ export default function CharacterDetailPage() {
   })
 
   useEffect(() => {
-    if (searchParams.get('tab') === 'ai-persona') {
-      setActiveTab('ai-persona')
-    }
+    setActiveTab(getSheetTabFromQuery(searchParams.get('tab')))
   }, [searchParams])
 
   useEffect(() => {
@@ -127,42 +132,10 @@ export default function CharacterDetailPage() {
         onEdit={handleEditToggle}
         onSave={saveCharacter}
         onCancel={handleEditToggle}
-        onChat={() => openChat({ tokenId: String(tokenId), characterName: name })}
-        onAnimated={() => router.push(`/characters/${tokenId}/animated`)}
       />
 
       <div className="container mx-auto px-4 py-8 max-w-7xl">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 mb-8">
-          <div className="lg:col-span-5">
-            <CharacterArtworkCard
-              name={name}
-              imageUrl={displayedImageUrl}
-              imageDisclosure={imageDisclosure}
-              infectionStatus={character.infection_status}
-              stakingStatus={character.staking_status}
-              onImageError={handleImageError}
-            />
-          </div>
-
-          <div className="lg:col-span-5">
-            <CharacterSheetPanel
-              tokenId={tokenId}
-              character={character}
-              name={name}
-              isOwner={isOwner}
-              isEditMode={isEditMode}
-              editor={editor}
-              showLoreNav={showLoreNav}
-              onAddCommunityStory={() => router.push(`/lore/submit?tokenId=${tokenId}`)}
-              onEnterEditMode={() => setIsEditMode(true)}
-              onSear={() => setIsSearingModalOpen(true)}
-              onInfect={() => setIsInfectionModalOpen(true)}
-              onCure={() => setIsCureModalOpen(true)}
-            />
-          </div>
-        </div>
-
-        <CharacterTabsSection
+        <CharacterSheetLayout
           activeTab={activeTab}
           onTabChange={setActiveTab}
           tokenId={tokenId}
@@ -171,6 +144,17 @@ export default function CharacterDetailPage() {
           isOwner={isOwner}
           isEditMode={isEditMode}
           editor={editor}
+          imageUrl={displayedImageUrl}
+          imageDisclosure={imageDisclosure}
+          showLoreNav={showLoreNav}
+          onImageError={handleImageError}
+          onAddCommunityStory={() => router.push(`/lore/submit?tokenId=${tokenId}`)}
+          onEnterEditMode={() => setIsEditMode(true)}
+          onSear={() => setIsSearingModalOpen(true)}
+          onInfect={() => setIsInfectionModalOpen(true)}
+          onCure={() => setIsCureModalOpen(true)}
+          onChat={() => openChat({ tokenId: String(tokenId), characterName: name, characterId: aiCharacter?.id })}
+          showChatAction={Boolean(aiCharacter)}
         />
       </div>
 
