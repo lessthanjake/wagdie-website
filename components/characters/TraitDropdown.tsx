@@ -6,9 +6,10 @@
 
 'use client'
 
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useState, useRef } from 'react'
 import type { TraitCount } from '@/types/character'
 import { Spinner } from '@/components/ui/Spinner'
+import { useDismissibleLayer } from '@/hooks/useDismissibleLayer'
 
 interface TraitDropdownProps {
   /** The trait type label (e.g., "Armor", "Back", "Mask") */
@@ -39,25 +40,12 @@ export function TraitDropdown({
   const [isOpen, setIsOpen] = useState(false)
   const dropdownRef = useRef<HTMLDivElement>(null)
 
-  // Close dropdown when clicking outside
-  useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
-        setIsOpen(false)
-      }
-    }
-    document.addEventListener('mousedown', handleClickOutside)
-    return () => document.removeEventListener('mousedown', handleClickOutside)
-  }, [])
-
-  // Close on escape key
-  useEffect(() => {
-    const handleEscape = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') setIsOpen(false)
-    }
-    document.addEventListener('keydown', handleEscape)
-    return () => document.removeEventListener('keydown', handleEscape)
-  }, [])
+  useDismissibleLayer(dropdownRef, {
+    enabled: isOpen,
+    onDismiss: () => setIsOpen(false),
+    dismissOnOutsideMouseDown: true,
+    dismissOnEscape: true
+  })
 
   const selectedOption = options.find(o => o.value === value)
   const displayValue = selectedOption ? selectedOption.value : `All ${label}`

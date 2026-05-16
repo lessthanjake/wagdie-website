@@ -4,57 +4,12 @@
  * Alias for `GET /api/characters` to support older clients expecting `/api/character`.
  */
 
-import { NextRequest, NextResponse } from 'next/server'
-import { getCharacters } from '@/lib/services/character-service'
-import type { CharacterFilterTab, SortOrder } from '@/types/character'
+import { NextRequest } from 'next/server'
+import { handleCharacterListGet } from '@/lib/api/handlers/character-list'
 
 export const runtime = 'nodejs'
+export const dynamic = 'force-dynamic'
 
 export async function GET(request: NextRequest) {
-  try {
-    const searchParams = request.nextUrl.searchParams
-
-    const tab = (searchParams.get('tab') || 'all') as CharacterFilterTab
-    const wallet = searchParams.get('wallet') || undefined
-    const sort = (searchParams.get('sort') || 'desc') as SortOrder
-    const page = parseInt(searchParams.get('page') || '1', 10)
-    const perPage = parseInt(searchParams.get('perPage') || '50', 10)
-    const search = searchParams.get('search') || undefined
-    const hasSheet = searchParams.get('hasSheet') === 'true'
-    const hasElizaProfile = searchParams.get('hasElizaProfile') === 'true'
-    const origin = searchParams.get('origin') || undefined
-    const alignment = searchParams.get('alignment') || undefined
-    const the17 = searchParams.get('the17') || undefined
-
-    if (page < 1 || perPage < 1 || perPage > 100) {
-      return NextResponse.json({ error: 'Invalid pagination parameters' }, { status: 400 })
-    }
-
-    if (!['all', 'owned', 'infected', 'cured', 'staked', 'fallen'].includes(tab)) {
-      return NextResponse.json({ error: 'Invalid tab parameter' }, { status: 400 })
-    }
-
-    if (!['asc', 'desc'].includes(sort)) {
-      return NextResponse.json({ error: 'Invalid sort parameter' }, { status: 400 })
-    }
-
-    const result = await getCharacters({
-      tab,
-      wallet,
-      sort,
-      page,
-      perPage,
-      search,
-      hasSheet: hasSheet || undefined,
-      hasElizaProfile: hasElizaProfile || undefined,
-      origin,
-      alignment,
-      the17,
-    })
-
-    return NextResponse.json(result)
-  } catch (error) {
-    console.error('Error fetching characters:', error)
-    return NextResponse.json({ error: 'Failed to fetch characters' }, { status: 500 })
-  }
+  return handleCharacterListGet(request)
 }

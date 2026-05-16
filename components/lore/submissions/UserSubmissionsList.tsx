@@ -5,23 +5,9 @@ import Link from 'next/link';
 import { Button } from '@/components/ui/Button';
 import { Spinner } from '@/components/ui/Spinner';
 import { useAuth } from '@/hooks/useAuth';
+import { readApiData } from '@/lib/api/client-response';
 import type { LoreSubmissionListItemDto } from '@/types/lore-submission';
 import { SubmissionStatusBadge } from './SubmissionStatusBadge';
-
-interface ApiResponse<T> {
-  success: boolean;
-  data?: T;
-  error?: string;
-  details?: string | string[];
-}
-
-async function readApiData<T>(response: Response, fallback: string): Promise<T> {
-  const body = await response.json().catch(() => undefined) as ApiResponse<T> | undefined;
-  if (!response.ok || !body?.success || body.data === undefined) {
-    throw new Error(body?.error || fallback);
-  }
-  return body.data;
-}
 
 function formatDate(value: string) {
   return new Intl.DateTimeFormat('en-US', {

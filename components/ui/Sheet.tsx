@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useEffect, useState } from 'react';
+import { useBodyScrollLock } from '@/hooks/useBodyScrollLock';
 
 interface SheetProps {
   isOpen: boolean;
@@ -12,13 +13,13 @@ interface SheetProps {
 export const Sheet: React.FC<SheetProps> = ({ isOpen, onClose, side = 'right', children }) => {
   const [visible, setVisible] = useState(false);
 
+  useBodyScrollLock(isOpen);
+
   useEffect(() => {
     if (isOpen) {
       setVisible(true);
-      document.body.style.overflow = 'hidden';
     } else {
       const timer = setTimeout(() => setVisible(false), 300);
-      document.body.style.overflow = 'unset';
       return () => clearTimeout(timer);
     }
   }, [isOpen]);

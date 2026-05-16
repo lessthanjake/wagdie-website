@@ -5,7 +5,6 @@
  * Follows Clean Architecture by keeping data access logic separate from business logic.
  */
 
-import { createClient } from '@supabase/supabase-js';
 import { inspect } from 'util';
 import type {
   Location,
@@ -16,37 +15,10 @@ import type {
 } from '../types/map';
 import { normalizeLocationMetadata } from '@/lib/domain/location/metadata';
 import { normalizeLocationSpecialProperties } from '@/lib/domain/location/validation';
-
-// Server-side repository calls prefer SUPABASE_URL so Docker can query the internal Kong URL.
-// Browser/client imports keep using NEXT_PUBLIC_SUPABASE_URL.
-const supabaseUrl =
-  typeof window === 'undefined'
-    ? process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL!
-    : process.env.NEXT_PUBLIC_SUPABASE_URL!;
-const supabaseKey =
-  typeof window === 'undefined'
-    ? process.env.SUPABASE_ANON_KEY || process.env.ANON_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
-    : process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
-
-// Use service role key for write operations if available
-const supabaseServiceKey =
-  process.env.SUPABASE_SERVICE_ROLE_KEY ??
-  process.env.SUPABASE_SERVICE_KEY ??
-  process.env.SERVICE_ROLE_KEY;
-
-const supabase = createClient(supabaseUrl, supabaseKey);
-const supabaseAdmin = supabaseServiceKey
-  ? createClient(supabaseUrl, supabaseServiceKey)
-  : supabase;
-
-const hasSupabaseServiceKey = Boolean(supabaseServiceKey);
-
-function requireServiceRoleKey(operation: string): void {
-  if (hasSupabaseServiceKey) return;
-  throw new Error(
-    `Missing Supabase service role key for '${operation}'. Set SUPABASE_SERVICE_ROLE_KEY (recommended) or SUPABASE_SERVICE_KEY.`
-  );
-}
+import {
+  getRequiredSupabaseAdminClient,
+  getRequiredSupabaseClient,
+} from '@/lib/repositories/supabase-repository-client';
 
 function isPlainObject(value: unknown): value is Record<string, unknown> {
   return typeof value === 'object' && value !== null && !Array.isArray(value);
@@ -186,6 +158,8 @@ export class LocationRepository implements ILocationRepository {
    */
   async getAll(): Promise<Location[]> {
     try {
+      const supabase = getRequiredSupabaseClient('locations.getAll');
+
       // Add timeout to prevent hanging
       const fetchPromise = supabase
         .from('locations')
@@ -267,6 +241,8 @@ export class LocationRepository implements ILocationRepository {
    */
   async getById(id: string): Promise<Location | null> {
     try {
+      const supabase = getRequiredSupabaseClient('locations.getById');
+
       const { data, error } = await supabase
         .from('locations')
         .select('*')
@@ -292,6 +268,8 @@ export class LocationRepository implements ILocationRepository {
    */
   async getWithCharacters(id: string): Promise<Location | null> {
     try {
+      const supabase = getRequiredSupabaseClient('locations.getWithCharacters');
+
       const { data, error } = await supabase
         .from('locations')
         .select(`
@@ -324,7 +302,8 @@ export class LocationRepository implements ILocationRepository {
    */
   async create(id: string, input: CreateLocationInput): Promise<Location> {
     try {
-      requireServiceRoleKey('locations.create');
+      const supabaseAdmin = getRequiredSupabaseAdminClient('locations.create');
+
       const locationData = {
         id,
         name: input.name.trim(),
@@ -380,7 +359,8 @@ export class LocationRepository implements ILocationRepository {
    */
   async update(id: string, input: UpdateLocationInput): Promise<Location> {
     try {
-      requireServiceRoleKey('locations.update');
+      const supabaseAdmin = getRequiredSupabaseAdminClient('locations.update');
+
       // First fetch the existing location to merge metadata
       const existing = await this.getById(id);
       if (!existing) {
@@ -417,7 +397,7 @@ export class LocationRepository implements ILocationRepository {
         .maybeSingle();
 
       if (response.error) {
-        const usingServiceRole = hasSupabaseServiceKey;
+        const usingServiceRole = true;
         throw new Error(
           `Failed to update location '${id}': ${formatSupabaseError(response.error)} (status=${response.status} serviceRole=${usingServiceRole})`
         );
@@ -440,7 +420,8 @@ export class LocationRepository implements ILocationRepository {
    */
   async delete(id: string): Promise<void> {
     try {
-      requireServiceRoleKey('locations.delete');
+      const supabaseAdmin = getRequiredSupabaseAdminClient('locations.delete');
+
       const { error } = await supabaseAdmin
         .from('locations')
         .delete()
@@ -462,6 +443,8 @@ export class LocationRepository implements ILocationRepository {
    */
   async getStakedCharacterCount(id: string): Promise<number> {
     try {
+      const supabase = getRequiredSupabaseClient('locations.getStakedCharacterCount');
+
       const { count, error } = await supabase
         .from('character_locations')
         .select('*', { count: 'exact', head: true })
@@ -487,6 +470,8 @@ export class LocationRepository implements ILocationRepository {
    */
   async exists(id: string): Promise<boolean> {
     try {
+      const supabase = getRequiredSupabaseClient('locations.exists');
+
       const { count, error } = await supabase
         .from('locations')
         .select('*', { count: 'exact', head: true })
@@ -508,6 +493,8 @@ export class LocationRepository implements ILocationRepository {
    */
   async getAllIds(): Promise<string[]> {
     try {
+      const supabase = getRequiredSupabaseClient('locations.getAllIds');
+
       const { data, error } = await supabase
         .from('locations')
         .select('id');

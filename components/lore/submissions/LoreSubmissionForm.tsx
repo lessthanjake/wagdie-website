@@ -6,6 +6,7 @@ import { Button } from '@/components/ui/Button';
 import { Spinner } from '@/components/ui/Spinner';
 import { useAuth } from '@/hooks/useAuth';
 import { useOwnedCharacters } from '@/hooks/useOwnedCharacters';
+import { readApiData } from '@/lib/api/client-response';
 import type { LoreLocation } from '@/lib/lore/types';
 import type { LoreSubmissionDetailDto, LoreSubmissionLink } from '@/types/lore-submission';
 import { MarkdownEditor } from './MarkdownEditor';
@@ -13,13 +14,6 @@ import {
   SourceUrlListEditor,
   type EditableSubmissionLink,
 } from './SourceUrlListEditor';
-
-interface ApiResponse<T> {
-  success: boolean;
-  data?: T;
-  error?: string;
-  details?: string | string[];
-}
 
 export interface LoreSubmissionFormInitialValues {
   tokenId?: string;
@@ -68,28 +62,6 @@ function cleanLinks(links: EditableSubmissionLink[]) {
       archivedUrl: link.archivedUrl?.trim() || undefined,
       attribution: link.attribution?.trim() || undefined,
     }));
-}
-
-async function readApiResponse<T>(response: Response, fallback: string): Promise<T> {
-  let body: ApiResponse<T> | undefined;
-  try {
-    body = await response.json() as ApiResponse<T>;
-  } catch {
-    body = undefined;
-  }
-
-  if (!response.ok || !body?.success) {
-    const details = Array.isArray(body?.details)
-      ? body.details.join('\n')
-      : body?.details;
-    throw new Error(details || body?.error || fallback);
-  }
-
-  if (body.data === undefined) {
-    throw new Error(fallback);
-  }
-
-  return body.data;
 }
 
 export function LoreSubmissionForm({
@@ -163,7 +135,7 @@ export function LoreSubmissionForm({
         }),
       });
 
-      const detail = await readApiResponse<LoreSubmissionDetailDto>(
+      const detail = await readApiData<LoreSubmissionDetailDto>(
         response,
         mode === 'revise' ? 'Failed to revise lore submission' : 'Failed to create lore submission',
       );

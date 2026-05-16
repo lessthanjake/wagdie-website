@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useEffect, useState, useRef, useCallback } from 'react';
+import { useBodyScrollLock } from '@/hooks/useBodyScrollLock';
 import { Button } from './Button';
 
 interface ModalProps {
@@ -32,14 +33,14 @@ export const Modal = React.memo<ModalProps>(({
   const previousActiveElement = useRef<HTMLElement | null>(null);
   const modalId = useRef(id || `modal-${++modalIdCounter}`);
 
-  // Store previously focused element and manage body scroll
+  useBodyScrollLock(isOpen);
+
+  // Store previously focused element and manage visibility
   useEffect(() => {
     if (isOpen) {
       previousActiveElement.current = document.activeElement as HTMLElement;
       setVisible(true);
-      document.body.style.overflow = 'hidden';
     } else {
-      document.body.style.overflow = 'unset';
       const timer = setTimeout(() => setVisible(false), 300);
       return () => clearTimeout(timer);
     }

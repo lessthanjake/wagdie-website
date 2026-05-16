@@ -5,6 +5,7 @@ import Link from 'next/link';
 import { Spinner } from '@/components/ui/Spinner';
 import { MarkdownPreview } from '@/components/lore/submissions/MarkdownPreview';
 import { SubmissionStatusBadge } from '@/components/lore/submissions/SubmissionStatusBadge';
+import { readApiData } from '@/lib/api/client-response';
 import type { LoreSubmissionDetailDto } from '@/types/lore-submission';
 import { LoreSubmissionCurationForm } from './LoreSubmissionCurationForm';
 import { LoreSubmissionPublishControls } from './LoreSubmissionPublishControls';
@@ -12,23 +13,9 @@ import { LoreSubmissionReviewLog } from './LoreSubmissionReviewLog';
 import { LoreSubmissionReviewPanel } from './LoreSubmissionReviewPanel';
 import type { LoreSubmissionAdminReferenceOptions } from './types';
 
-interface ApiResponse<T> {
-  success: boolean;
-  data?: T;
-  error?: string;
-}
-
 export interface LoreSubmissionAdminDetailProps {
   submissionId: string;
   referenceOptions: LoreSubmissionAdminReferenceOptions;
-}
-
-async function readApiData<T>(response: Response, fallback: string): Promise<T> {
-  const body = await response.json().catch(() => undefined) as ApiResponse<T> | undefined;
-  if (!response.ok || !body?.success || body.data === undefined) {
-    throw new Error(body?.error || fallback);
-  }
-  return body.data;
 }
 
 function formatDate(value: string | null) {

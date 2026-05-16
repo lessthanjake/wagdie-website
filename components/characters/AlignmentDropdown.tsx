@@ -6,9 +6,10 @@
 
 'use client'
 
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useState, useRef } from 'react'
 import type { AlignmentCount } from '@/types/character'
 import { Spinner } from '@/components/ui/Spinner'
+import { useDismissibleLayer } from '@/hooks/useDismissibleLayer'
 
 interface AlignmentDropdownProps {
   value: string | null
@@ -52,25 +53,12 @@ export function AlignmentDropdown({
     return (indexA === -1 ? 999 : indexA) - (indexB === -1 ? 999 : indexB)
   })
 
-  // Close dropdown when clicking outside
-  useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
-        setIsOpen(false)
-      }
-    }
-    document.addEventListener('mousedown', handleClickOutside)
-    return () => document.removeEventListener('mousedown', handleClickOutside)
-  }, [])
-
-  // Close on escape key
-  useEffect(() => {
-    const handleEscape = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') setIsOpen(false)
-    }
-    document.addEventListener('keydown', handleEscape)
-    return () => document.removeEventListener('keydown', handleEscape)
-  }, [])
+  useDismissibleLayer(dropdownRef, {
+    enabled: isOpen,
+    onDismiss: () => setIsOpen(false),
+    dismissOnOutsideMouseDown: true,
+    dismissOnEscape: true
+  })
 
   const selectedAlignment = options.find(o => o.alignment === value)
   const displayValue = selectedAlignment ? selectedAlignment.alignment : 'All Alignments'

@@ -6,6 +6,7 @@
 'use client'
 
 import { useEffect, useRef, useCallback } from 'react'
+import { useBodyScrollLock } from '@/hooks/useBodyScrollLock'
 
 interface DialogMaskProps {
   isOpen: boolean
@@ -27,17 +28,12 @@ export function DialogMask({
   const dialogRef = useRef<HTMLDivElement>(null)
   const previousActiveElement = useRef<HTMLElement | null>(null)
 
-  // Store previously focused element and manage body scroll
+  useBodyScrollLock(isOpen)
+
+  // Store previously focused element
   useEffect(() => {
     if (isOpen) {
       previousActiveElement.current = document.activeElement as HTMLElement
-      document.body.style.overflow = 'hidden'
-    } else {
-      document.body.style.overflow = 'unset'
-    }
-
-    return () => {
-      document.body.style.overflow = 'unset'
     }
   }, [isOpen])
 

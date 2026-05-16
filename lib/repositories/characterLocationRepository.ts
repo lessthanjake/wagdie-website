@@ -13,24 +13,12 @@
  * Follows Clean Architecture by keeping data access logic separate from business logic.
  */
 
-import { createClient } from '@supabase/supabase-js';
 import type {
   CharacterLocation,
   CharacterLocationRepository as ICharacterLocationRepository,
 } from '../types/map';
 import { normalizeLocationMetadata } from '@/lib/domain/location/metadata';
-
-// Server-side calls should use SUPABASE_URL when available so Docker can query the internal API.
-const supabaseUrl =
-  typeof window === 'undefined'
-    ? process.env.SUPABASE_URL || process.env.NEXT_PUBLIC_SUPABASE_URL!
-    : process.env.NEXT_PUBLIC_SUPABASE_URL!;
-const supabaseKey =
-  typeof window === 'undefined'
-    ? process.env.SUPABASE_ANON_KEY || process.env.ANON_KEY || process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!
-    : process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY!;
-
-const supabase = createClient(supabaseUrl, supabaseKey);
+import { getRequiredSupabaseClient } from '@/lib/repositories/supabase-repository-client';
 
 /**
  * Dedupe character locations by token id, keeping the first (newest) entry.
@@ -73,6 +61,8 @@ export class CharacterLocationRepository implements ICharacterLocationRepository
    */
   async getAll(): Promise<CharacterLocation[]> {
     try {
+      const supabase = getRequiredSupabaseClient('character_locations.getAll');
+
       const { data, error } = await supabase
         .from('character_locations')
         .select(`
@@ -99,6 +89,8 @@ export class CharacterLocationRepository implements ICharacterLocationRepository
    */
   async getByTokenId(tokenId: number): Promise<CharacterLocation | null> {
     try {
+      const supabase = getRequiredSupabaseClient('character_locations.getByTokenId');
+
       const { data, error } = await supabase
         .from('character_locations')
         .select(`
@@ -129,6 +121,8 @@ export class CharacterLocationRepository implements ICharacterLocationRepository
    */
   async getByWalletAddress(address: string): Promise<CharacterLocation[]> {
     try {
+      const supabase = getRequiredSupabaseClient('character_locations.getByWalletAddress');
+
       const { data, error } = await supabase
         .from('character_locations')
         .select(`
@@ -157,6 +151,8 @@ export class CharacterLocationRepository implements ICharacterLocationRepository
    */
   async getByLocationId(locationId: string): Promise<CharacterLocation[]> {
     try {
+      const supabase = getRequiredSupabaseClient('character_locations.getByLocationId');
+
       const { data, error } = await supabase
         .from('character_locations')
         .select(`
@@ -185,6 +181,8 @@ export class CharacterLocationRepository implements ICharacterLocationRepository
    */
   async getConfirmed(): Promise<CharacterLocation[]> {
     try {
+      const supabase = getRequiredSupabaseClient('character_locations.getConfirmed');
+
       // Add timeout to prevent hanging
       const fetchPromise = supabase
         .from('character_locations')

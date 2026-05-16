@@ -2,29 +2,14 @@
 
 import { useState } from 'react';
 import { Button } from '@/components/ui/Button';
+import { readApiData } from '@/lib/api/client-response';
 import type { LoreSubmissionDetailDto } from '@/types/lore-submission';
-
-interface ApiResponse<T> {
-  success: boolean;
-  data?: T;
-  error?: string;
-  details?: string | string[];
-}
 
 type PublishAction = 'canonize' | 'decanonize' | 'unpublish';
 
 export interface LoreSubmissionPublishControlsProps {
   detail: LoreSubmissionDetailDto;
   onUpdated: (detail: LoreSubmissionDetailDto) => void;
-}
-
-async function readApiData<T>(response: Response, fallback: string): Promise<T> {
-  const body = await response.json().catch(() => undefined) as ApiResponse<T> | undefined;
-  if (!response.ok || !body?.success || body.data === undefined) {
-    const details = Array.isArray(body?.details) ? body.details.join('\n') : body?.details;
-    throw new Error(details || body?.error || fallback);
-  }
-  return body.data;
 }
 
 const labels: Record<PublishAction, string> = {

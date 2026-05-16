@@ -1,8 +1,9 @@
 'use client'
 
 import React from 'react';
-import { useState, useEffect, useRef } from 'react'
+import { useState, useRef } from 'react'
 import { useWalletAuth } from '@/hooks/useWalletAuth'
+import { useDismissibleLayer } from '@/hooks/useDismissibleLayer'
 import type { Address } from '@/types/wallet'
 
 interface UserDropdownProps {
@@ -35,7 +36,7 @@ interface UserDropdownProps {
  *
  * Features:
  * - Click trigger to open/close dropdown
- * - Auto-close on click outside (useEffect + ref)
+ * - Auto-close on click outside (dismissible layer hook + ref)
  * - Truncated address display
  * - Profile and Settings options (disabled, future feature)
  * - Disconnect action with gothic theme styling
@@ -53,24 +54,12 @@ export function UserDropdown({ address }: UserDropdownProps) {
     return `${addr.slice(0, 6)}...${addr.slice(-4)}`
   }
 
-  /**
-   * Close dropdown when clicking outside
-   */
-  useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
-        setIsOpen(false)
-      }
-    }
-
-    if (isOpen) {
-      document.addEventListener('mousedown', handleClickOutside)
-    }
-
-    return () => {
-      document.removeEventListener('mousedown', handleClickOutside)
-    }
-  }, [isOpen])
+  useDismissibleLayer(dropdownRef, {
+    enabled: isOpen,
+    onDismiss: () => setIsOpen(false),
+    dismissOnOutsideMouseDown: true,
+    dismissOnEscape: false
+  })
 
   const handleDisconnect = async () => {
     setIsOpen(false)

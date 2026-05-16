@@ -6,9 +6,10 @@
 
 'use client'
 
-import React, { useState, useRef, useEffect } from 'react'
+import React, { useState, useRef } from 'react'
 import type { OriginCount } from '@/types/character'
 import { Spinner } from '@/components/ui/Spinner'
+import { useDismissibleLayer } from '@/hooks/useDismissibleLayer'
 
 interface OriginDropdownProps {
   value: string | null
@@ -30,25 +31,12 @@ export function OriginDropdown({
   const [isOpen, setIsOpen] = useState(false)
   const dropdownRef = useRef<HTMLDivElement>(null)
 
-  // Close dropdown when clicking outside
-  useEffect(() => {
-    const handleClickOutside = (event: MouseEvent) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
-        setIsOpen(false)
-      }
-    }
-    document.addEventListener('mousedown', handleClickOutside)
-    return () => document.removeEventListener('mousedown', handleClickOutside)
-  }, [])
-
-  // Close on escape key
-  useEffect(() => {
-    const handleEscape = (event: KeyboardEvent) => {
-      if (event.key === 'Escape') setIsOpen(false)
-    }
-    document.addEventListener('keydown', handleEscape)
-    return () => document.removeEventListener('keydown', handleEscape)
-  }, [])
+  useDismissibleLayer(dropdownRef, {
+    enabled: isOpen,
+    onDismiss: () => setIsOpen(false),
+    dismissOnOutsideMouseDown: true,
+    dismissOnEscape: true
+  })
 
   const selectedOrigin = options.find(o => o.origin === value)
   const displayValue = selectedOrigin ? selectedOrigin.origin : 'All Origins'
