@@ -1,3 +1,4 @@
+import { randomBytes } from 'crypto'
 import { SiweMessage } from 'siwe'
 // eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { supabase } from '../supabase'
@@ -6,8 +7,7 @@ import { supabase } from '../supabase'
  * Generate a random nonce for SIWE authentication
  */
 export function generateNonce(): string {
-  return Math.random().toString(36).substring(2, 15) +
-         Math.random().toString(36).substring(2, 15)
+  return randomBytes(16).toString('hex')
 }
 
 /**
